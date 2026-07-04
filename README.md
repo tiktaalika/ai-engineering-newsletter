@@ -1,11 +1,12 @@
 # AI Engineering Newsletter
 
-This workspace contains an auditable daily AI Engineering Newsletter pipeline. It refreshes Chinese markdown newsletters and a mobile-readable static HTML archive every morning at 08:00.
+This workspace contains an auditable daily AI Engineering Newsletter pipeline. It refreshes a bilingual static website every morning at 08:00: an English public edition and a Chinese reading edition.
 
 ## What It Produces
 
 - Top 10 English-language General AI News items covering model releases, AI products, company dynamics, open-source models, policy, funding, and major research progress.
 - Top 5 English-language Engineering AI News items from a rolling window, covering engineering, simulation, CAD, CAE, SPDM, PLM, digital twins, physical AI, scientific ML, and industrial AI.
+- A bilingual website with a root language selector, an English edition, and a Chinese edition.
 - Optional Research Radar and Watchlist Updates sections.
 - A candidate audit file with up to 100 scored news candidates from the enabled curated source registry.
 - A run log with source failures and ranking reasons.
@@ -107,12 +108,14 @@ The briefing input uses this structure:
 ## Why It Matters
 ```
 
-## Rolling Page
+## Bilingual Website
 
-The rolling page is generated at:
+The static site has three entry points:
 
 ```text
-site/index.html
+site/index.html      # language selector
+site/en/index.html   # English edition
+site/zh/index.html   # Chinese edition
 ```
 
 Regenerate it manually after new newsletter files are created:
@@ -121,7 +124,7 @@ Regenerate it manually after new newsletter files are created:
 python3 scripts/render_digest_site.py
 ```
 
-The newest newsletter appears at the top. If `data/digests/YYYY-MM-DD-final.md` exists, the page shows the final Chinese newsletter for that date; otherwise it shows the candidate audit cards.
+The newest newsletter appears at the top in both language editions. The Chinese page uses the human-written Chinese final markdown when available. The English page uses the same selected items with English titles, source links, summaries, scores, and audit metadata.
 
 ## Mobile Web Publishing
 
@@ -133,10 +136,12 @@ After the first push, enable Pages in GitHub if needed:
 Repository Settings -> Pages -> Source: GitHub Actions
 ```
 
-The daily automation refreshes `data/digests/YYYY-MM-DD-final.md` and rebuilds `site/index.html`. Push the updated files to GitHub to refresh the phone-accessible page:
+The daily automation refreshes `data/digests/YYYY-MM-DD-final.md` and rebuilds the bilingual site. Push the updated files to GitHub to refresh the phone-accessible pages:
 
 ```text
-https://tiktaalika.github.io/ai-engineering-newsletter/
+https://tiktaalika.github.io/ai-engineering-newsletter/     # language selector
+https://tiktaalika.github.io/ai-engineering-newsletter/en/  # English edition
+https://tiktaalika.github.io/ai-engineering-newsletter/zh/  # Chinese edition
 ```
 
 ## LinkedIn Handling
