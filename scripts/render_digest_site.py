@@ -21,6 +21,7 @@ EN_OUT = SITE_DIR / "en" / "index.html"
 TRENDS_OUT = SITE_DIR / "trends"
 SUMMARY_CACHE = DIGEST_DIR / "site_summaries.json"
 ARCHIVE_PAGE_SIZE = 7
+HISTORY_DEDUP_START = datetime(2026, 7, 5).date()
 GITHUB_REPO_URL = "https://github.com/tiktaalika/ai-engineering-newsletter"
 
 
@@ -77,6 +78,25 @@ def effective_source(item: dict[str, Any]) -> str:
         if inferred:
             return inferred
     return source or "unknown"
+
+
+def organization_key(item: dict[str, Any]) -> str:
+    text = f"{effective_source(item)} {item.get('title', '')} {item.get('url', '')}".lower()
+    organizations = [
+        "siemens", "simcenter", "rescale", "comsol", "ansys", "dassault", "autodesk",
+        "altair", "hexagon", "msc", "ptc", "cadence", "synopsys", "simscale",
+        "synera", "navasto", "physicsx", "luminary", "emmi", "diabatix",
+        "neural concept", "monolith", "ntop", "colab", "esi group", "beta cae",
+        "cadfem", "nafems", "arc advisory", "aerospace manufacturing",
+    ]
+    for organization in organizations:
+        if organization in text:
+            if organization == "simcenter":
+                return "siemens"
+            if organization == "msc":
+                return "hexagon"
+            return organization
+    return effective_source(item).lower()
 
 
 def site_relative_path(path: Path) -> str:
@@ -191,6 +211,8 @@ def event_tokens(title: str) -> set[str]:
 
 
 def is_same_event(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    if left.get("url") and right.get("url") and left.get("url") == right.get("url"):
+        return True
     left_tokens = event_tokens(left.get("title", ""))
     right_tokens = event_tokens(right.get("title", ""))
     if not left_tokens or not right_tokens:
@@ -271,14 +293,60 @@ def is_medical_bio_ai_item(item: dict[str, Any]) -> bool:
     return any(re.search(pattern, text) for pattern in medical_patterns)
 
 
-def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> list[dict[str, Any]]:
+def historical_reference_items(date_slug: str, lookback_days: int = 6) -> list[dict[str, Any]]:
+    try:
+        current = datetime.strptime(date_slug, "%Y-%m-%d").date()
+    except ValueError:
+        return []
+    references: list[dict[str, Any]] = []
+    for previous_date in candidate_dates():
+        try:
+            previous = datetime.strptime(previous_date, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        age = (current - previous).days
+        if age <= 0 or age > lookback_days:
+            continue
+        data = load_json(DIGEST_DIR / f"{previous_date}-candidates.json")
+        final_path = DIGEST_DIR / f"{previous_date}-final.md"
+        if final_path.exists():
+            hydrated = hydrate_final_items(data, final_path)
+            for category_items in hydrated.values():
+                references.extend(category_items)
+        for key in (
+            "top_10_general_ai",
+            "top_5_engineering_ai",
+            "top_5_cae_ai_engineering",
+            "top_5_medical_bio_ai",
+            "research_radar",
+        ):
+            references.extend(data.get(key, []))
+    return references
+
+
+def is_recent_repeat(item: dict[str, Any], historical_items: list[dict[str, Any]]) -> bool:
+    return any(is_same_event(item, previous) for previous in historical_items)
+
+
+def select_unique(
+    items: list[dict[str, Any]],
+    category: str,
+    limit: int,
+    historical_items: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
     category = canonical_category(category)
+    historical_items = historical_items or []
+    historical_orgs = {organization_key(item) for item in historical_items}
     selected: list[dict[str, Any]] = []
     topic_counts: dict[str, int] = {}
     source_counts: dict[str, int] = {}
     max_per_source_first_pass = 1 if category == "engineering_ai" else 2
     for item in items:
         if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
+            continue
+        if is_recent_repeat(item, historical_items):
+            continue
+        if category == "engineering_ai" and organization_key(item) in historical_orgs:
             continue
         if any(is_same_event(item, existing) for existing in selected):
             continue
@@ -298,6 +366,10 @@ def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> lis
             break
         if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
             continue
+        if is_recent_repeat(item, historical_items):
+            continue
+        if category == "engineering_ai" and organization_key(item) in historical_orgs:
+            continue
         if item in selected or any(is_same_event(item, existing) for existing in selected):
             continue
         source = effective_source(item).lower()
@@ -305,10 +377,14 @@ def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> lis
             continue
         selected.append(item)
         source_counts[source] = source_counts.get(source, 0) + 1
+    if category == "engineering_ai" and historical_items:
+        return selected
     for item in items:
         if len(selected) == limit:
             break
         if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
+            continue
+        if is_recent_repeat(item, historical_items):
             continue
         if item in selected or any(is_same_event(item, existing) for existing in selected):
             continue
@@ -322,6 +398,7 @@ def dedupe_and_fill_items(
     category: str,
     limit: int,
     fallback_key: str,
+    historical_items: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     category = canonical_category(category)
     pool: list[dict[str, Any]] = []
@@ -329,17 +406,25 @@ def dedupe_and_fill_items(
         candidate = dict(item)
         candidate["category"] = canonical_category(candidate.get("category", category))
         pool.append(candidate)
-    return select_unique(pool, category, limit)
+    return select_unique(pool, category, limit, historical_items)
 
 
-def section_items(data: dict[str, Any], category: str, limit: int, fallback_key: str) -> list[dict[str, Any]]:
+def section_items(
+    data: dict[str, Any],
+    category: str,
+    limit: int,
+    fallback_key: str,
+    historical_items: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
     pool = data.get("top_100_news_candidates", [])
-    selected = select_unique(pool, category, limit)
+    selected = select_unique(pool, category, limit, historical_items)
     if len(selected) >= limit:
         return selected
     for item in data.get(fallback_key, []):
         item = dict(item)
         item["category"] = canonical_category(item.get("category", category))
+        if is_recent_repeat(item, historical_items or []):
+            continue
         if any(is_same_event(item, existing) for existing in selected):
             continue
         selected.append(item)
@@ -348,7 +433,12 @@ def section_items(data: dict[str, Any], category: str, limit: int, fallback_key:
     return selected
 
 
-def medical_bio_items(data: dict[str, Any], limit: int = 5) -> list[dict[str, Any]]:
+def medical_bio_items(
+    data: dict[str, Any],
+    limit: int = 5,
+    historical_items: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    historical_items = historical_items or []
     pool = data.get("top_100_news_candidates", [])
     selected: list[dict[str, Any]] = []
     topic_counts: dict[str, int] = {}
@@ -356,6 +446,8 @@ def medical_bio_items(data: dict[str, Any], limit: int = 5) -> list[dict[str, An
         if canonical_category(item.get("category", "")) not in {"general_ai", "research"}:
             continue
         if not is_medical_bio_ai_item(item):
+            continue
+        if is_recent_repeat(item, historical_items):
             continue
         if any(is_same_event(item, existing) for existing in selected):
             continue
@@ -369,17 +461,26 @@ def medical_bio_items(data: dict[str, Any], limit: int = 5) -> list[dict[str, An
     for item in data.get("top_5_medical_bio_ai", []):
         if len(selected) == limit:
             break
+        if is_recent_repeat(item, historical_items):
+            continue
         if any(is_same_event(item, existing) for existing in selected):
             continue
         selected.append(item)
     return selected
 
 
-def research_items(data: dict[str, Any], limit: int = 5) -> list[dict[str, Any]]:
-    selected = select_unique(data.get("top_100_news_candidates", []), "research", limit)
+def research_items(
+    data: dict[str, Any],
+    limit: int = 5,
+    historical_items: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    historical_items = historical_items or []
+    selected = select_unique(data.get("top_100_news_candidates", []), "research", limit, historical_items)
     if len(selected) >= limit:
         return selected
     for item in data.get("research_radar", []):
+        if is_recent_repeat(item, historical_items):
+            continue
         if any(is_same_event(item, existing) for existing in selected):
             continue
         selected.append(item)
@@ -390,25 +491,30 @@ def research_items(data: dict[str, Any], limit: int = 5) -> list[dict[str, Any]]
 
 def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], dict[str, Any] | None]:
     data = load_json(DIGEST_DIR / f"{date_slug}-candidates.json")
+    try:
+        issue_date = datetime.strptime(date_slug, "%Y-%m-%d").date()
+    except ValueError:
+        issue_date = HISTORY_DEDUP_START
+    historical_items = historical_reference_items(date_slug) if issue_date >= HISTORY_DEDUP_START else []
     paper_push = load_paper_push(date_slug)
     final_path = DIGEST_DIR / f"{date_slug}-final.md"
     if final_path.exists():
         final_items = hydrate_final_items(data, final_path)
-        medical = final_items["medical_bio_ai"] or medical_bio_items(data)
+        medical = final_items["medical_bio_ai"] or medical_bio_items(data, historical_items=historical_items)
         return (
             data,
-            dedupe_and_fill_items(final_items["general_ai"], data, "general_ai", 10, "top_10_general_ai"),
-            dedupe_and_fill_items(final_items["engineering_ai"], data, "engineering_ai", 5, "top_5_engineering_ai"),
+            dedupe_and_fill_items(final_items["general_ai"], data, "general_ai", 10, "top_10_general_ai", historical_items),
+            dedupe_and_fill_items(final_items["engineering_ai"], data, "engineering_ai", 5, "top_5_engineering_ai", historical_items),
             medical,
-            research_items(data),
+            research_items(data, historical_items=historical_items),
             paper_push,
         )
     return (
         data,
-        section_items(data, "general_ai", 10, "top_10_general_ai"),
-        section_items(data, "engineering_ai", 5, "top_5_engineering_ai"),
-        medical_bio_items(data),
-        research_items(data),
+        section_items(data, "general_ai", 10, "top_10_general_ai", historical_items),
+        section_items(data, "engineering_ai", 5, "top_5_engineering_ai", historical_items),
+        medical_bio_items(data, historical_items=historical_items),
+        research_items(data, historical_items=historical_items),
         paper_push,
     )
 
@@ -455,6 +561,20 @@ def item_card_en(item: dict[str, Any], idx: int) -> str:
         </div>
       </article>
     """
+
+
+def empty_note(language: str, section: str) -> str:
+    if language == "zh":
+        messages = {
+            "engineering": "发布前检查发现，本周前几天已经发过相似 Engineering AI 内容；今天没有足够新的非重复条目，所以不硬凑满 5 条。",
+            "general": "发布前检查后，今天没有足够新的非重复条目。",
+        }
+    else:
+        messages = {
+            "engineering": "Pre-publish history checks found that similar Engineering AI items were already covered earlier this week, so this issue does not force-fill duplicates.",
+            "general": "Pre-publish history checks did not find enough fresh non-duplicate items for this section.",
+        }
+    return f'<p class="empty-note">{esc(messages.get(section, messages["general"]))}</p>'
 
 
 def paper_item_card(item: dict[str, Any], idx: int, language: str) -> str:
@@ -531,14 +651,16 @@ def render_research_radar(items: list[dict[str, Any]], language: str, summaries:
 
 def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
     data, general, cae, medical, research, paper_push = day_items(date_slug)
+    general_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(general, 1))
+    engineering_html = "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(cae, 1))
     return render_day_shell(
         date_slug,
         data,
         "AI Top 10",
         "Engineering AI Top 5",
         "Medical / Bio AI Top 5",
-        "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(general, 1)),
-        "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(cae, 1)),
+        general_html or empty_note("zh", "general"),
+        engineering_html or empty_note("zh", "engineering"),
         "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(medical, 1)),
         render_research_radar(research, "zh", summaries),
         render_paper_push(paper_push, "zh") if paper_push else "",
@@ -547,14 +669,16 @@ def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
 
 def render_day_en(date_slug: str) -> str:
     data, general, cae, medical, research, paper_push = day_items(date_slug)
+    general_html = "".join(item_card_en(item, idx) for idx, item in enumerate(general, 1))
+    engineering_html = "".join(item_card_en(item, idx) for idx, item in enumerate(cae, 1))
     return render_day_shell(
         date_slug,
         data,
         "Top 10 General AI News",
         "Top 5 Engineering AI News",
         "Top 5 Medical, Medicine, and Bio/Genetics AI News",
-        "".join(item_card_en(item, idx) for idx, item in enumerate(general, 1)),
-        "".join(item_card_en(item, idx) for idx, item in enumerate(cae, 1)),
+        general_html or empty_note("en", "general"),
+        engineering_html or empty_note("en", "engineering"),
         "".join(item_card_en(item, idx) for idx, item in enumerate(medical, 1)),
         render_research_radar(research, "en", {}),
         render_paper_push(paper_push, "en") if paper_push else "",
@@ -873,6 +997,7 @@ def site_css() -> str:
     .meta { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; color: var(--muted); }
     .meta span { border: 1px solid var(--line); padding: 4px 7px; }
     .reason { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+    .empty-note { margin: 0; border: 1px dashed var(--line); padding: 14px; color: var(--muted); line-height: 1.45; background: rgba(255,255,255,.42); }
     .missing-note h3 { margin: 0 0 10px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
     .missing-note p { margin: 0; color: var(--muted); line-height: 1.5; max-width: 760px; }
     .landing { min-height: 100vh; display: grid; align-items: center; }

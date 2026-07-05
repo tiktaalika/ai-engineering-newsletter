@@ -58,6 +58,7 @@
     .meta { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; color: var(--muted); }
     .meta span { border: 1px solid var(--line); padding: 4px 7px; }
     .reason { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+    .empty-note { margin: 0; border: 1px dashed var(--line); padding: 14px; color: var(--muted); line-height: 1.45; background: rgba(255,255,255,.42); }
     .missing-note h3 { margin: 0 0 10px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
     .missing-note p { margin: 0; color: var(--muted); line-height: 1.5; max-width: 760px; }
     .landing { min-height: 100vh; display: grid; align-items: center; }
@@ -243,57 +244,7 @@
         </section>
         <section>
           <h3>Top 5 Engineering AI News</h3>
-          
-      <article class="item">
-        <div class="rank">01</div>
-        <div>
-          <h4><a href="https://blogs.sw.siemens.com/simcenter/simcenter-star-ccm-2606-released">What’s new in Simcenter STAR-CCM+ 2606?</a></h4>
-          <p class="en-summary">Simcenter STAR-CCM+ 2606 is now available, delivering advances that empower CFD engineers to tackle your most demanding simulation challenges with…</p>
-          <div class="meta"><span>Siemens Simcenter</span><span>score 72.477</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.90</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">02</div>
-        <div>
-          <h4><a href="https://rescale.com/blog/knowledge-base-support-on-aws-and-azure">Knowledge Base Support on AWS and Azure</a></h4>
-          <p class="en-summary">Connect and interact with all your data in one place. Rescale now connects engineering data stored in AWS S3 and Azure Blob Storage directly to the Rescale Assistant through vectorized search.</p>
-          <div class="meta"><span>Rescale</span><span>score 68.25</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.86</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">03</div>
-        <div>
-          <h4><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWlpjOU9CazFCYWhRYjRwSHJJQ3Z4UnJIRFBOMi1BS2ZJV3BrSDJPdmFQWkphcE5USTdDbXJuUU44aUxSWlRpamZlUHVlQjd0OUdoc3Znd0NCb0Mzd2x4ZnN0c2NvSTdsaHlkNTlBeDhxaTZFQW5Kdmdpdk1oSktCU3hPX0lTSHRwdllvLTlLbk5RR3dVbFg4eFJvbW1KakpSaFNBamZaTEhfQlM3bXNjc2MtMmJLVUNUMHhUbkZOSmlKWWVOR1k2TjMwYlJGbnIyZmowNnpoRVMwRmZmWk53TUd2bw?oc=5">IMTS 2026 Conference: From Automation to Autonomy: The Next Era of Manufacturing with Physical AI - Aerospace Manufacturing and Design</a></h4>
-          <p class="en-summary">IMTS 2026 Conference: From Automation to Autonomy: The Next Era of Manufacturing with Physical AI Aerospace Manufacturing and Design</p>
-          <div class="meta"><span>Aerospace Manufacturing and Design</span><span>score 69.671</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.92</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">04</div>
-        <div>
-          <h4><a href="https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph">Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®</a></h4>
-          <p class="en-summary">In this blog post we use COMSOL Multiphysics® to analyze the acoustics of the famous Liberty Bell and use uncertainty quantification to gain new insights into the material properties and optimal shape</p>
-          <div class="meta"><span>COMSOL</span><span>score 69.875</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.93</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">05</div>
-        <div>
-          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOWU9EZ0k2VkhZUkVNUVR6a3VsWU0weE14S0R0RFhtczdtOE0xQnk3b0pmeUpNYkM1THVsLTIwajJwR0hWQmRndTV3SmdiUHM0UzIxbV92UTA4WXdReFJvQ3g5VEJKTjZSRVdONGRvdnJsYl8zcURibldwdXhzSWw5STBsZUhMWk5hNm0zRHpR?oc=5">From Data to Decisions: Siemens’ Vision for Industrial AI at Automate 2026 - ARC Advisory Group</a></h4>
-          <p class="en-summary">From Data to Decisions: Siemens’ Vision for Industrial AI at Automate 2026 ARC Advisory Group</p>
-          <div class="meta"><span>ARC Advisory Group</span><span>score 69.27</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.91</p>
-        </div>
-      </article>
-    
+          <p class="empty-note">Pre-publish history checks found that similar Engineering AI items were already covered earlier this week, so this issue does not force-fill duplicates.</p>
         </section>
       </div>
       <section class="medical-section">
@@ -351,21 +302,6 @@
     
       </section>
       
-      <section class="medical-section">
-        <h3>Research Radar</h3>
-        
-      <article class="item">
-        <div class="rank">01</div>
-        <div>
-          <h4><a href="https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership">Google DeepMind and A24 announce first-of-its-kind research partnership</a></h4>
-          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
-          <div class="meta"><span>Google DeepMind</span><span>score 61.444</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.82</p>
-        </div>
-      </article>
-    
-      </section>
-    
       
     </section>
     
