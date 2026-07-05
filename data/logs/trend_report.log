@@ -1,0 +1,403 @@
+2026-07-05 12:08:05,350 INFO trend_report: Fetching GitHub Search for AI Agent
+2026-07-05 12:08:05,365 ERROR trend_report: GitHub Search collection failed
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 46, in collect
+    for record in collect_github_search(settings, raw_dir, logger):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 92, in collect_github_search
+    payload = get_json(url, headers, raw_dir / f"github_search_{slug(category)}.json")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 207, in get_json
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-07-05 12:08:05,369 ERROR trend_report: github_trending collection failed
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 61, in collect
+    for record in collector(settings, raw_dir, logger):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 105, in collect_github_trending
+    html = get_text("https://github.com/trending?since=weekly", headers, raw_dir / "github_trending_weekly.html")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 221, in get_text
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-07-05 12:08:05,372 ERROR trend_report: oss_insight_trending collection failed
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 61, in collect
+    for record in collector(settings, raw_dir, logger):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 120, in collect_oss_insight_trending
+    text = get_text("https://ossinsight.io/collections/trending-repos/", headers, raw_dir / "oss_insight_trending.html")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 221, in get_text
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-07-05 12:08:05,375 ERROR trend_report: gitstar_ranking collection failed
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1419, in connect
+    super().connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 923, in connect
+    self.sock = self._create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 61, in collect
+    for record in collector(settings, raw_dir, logger):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 126, in collect_gitstar_ranking
+    text = get_text("https://gitstar-ranking.com/repositories", headers, raw_dir / "gitstar_ranking.html")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 221, in get_text
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-07-05 12:08:05,376 INFO trend_report: Recorded Star History placeholder note
+2026-07-05 12:08:05,376 WARNING trend_report: No live records collected; writing dummy fallback records. Errors: ['GitHub Search: <urlopen error [Errno 8] nodename nor servname provided, or not known>', 'github_trending: <urlopen error [Errno 8] nodename nor servname provided, or not known>', 'oss_insight_trending: <urlopen error [Errno 8] nodename nor servname provided, or not known>', 'gitstar_ranking: <urlopen error [Errno 8] nodename nor servname provided, or not known>']
+2026-07-05 12:08:05,377 INFO trend_report: Wrote 12 normalized records to /Users/fyang/news push/data/repos.jsonl
+2026-07-05 12:08:17,850 INFO trend_report: Fetching GitHub Search for AI Agent
+2026-07-05 12:08:18,099 ERROR trend_report: GitHub Search collection failed
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 207, in get_json
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 422: Unprocessable Entity
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 46, in collect
+    for record in collect_github_search(settings, raw_dir, logger):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 92, in collect_github_search
+    payload = get_json(url, headers, raw_dir / f"github_search_{slug(category)}.json")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 211, in get_json
+    raise RuntimeError(f"HTTP {exc.code} for {url}: {body[:300]}") from exc
+RuntimeError: HTTP 422 for https://api.github.com/search/repositories?q=%28agent+OR+agents+OR+%22autonomous+agent%22+OR+multi-agent+OR+crewai+OR+langgraph+OR+autogen+OR+openmanus%29+pushed%3A%3E%3D2026-05-21+stars%3A%3E10&sort=stars&order=desc&per_page=25: {"message":"Validation Failed","errors":[{"message":"More than five AND / OR / NOT operators were used.","resource":"Search","field":"q","code":"invalid"}],"documentation_url":"https://docs.github.com/v3/search/","status":"422"}
+2026-07-05 12:08:19,308 INFO trend_report: Parsed 7 relevant GitHub Trending repositories
+2026-07-05 12:08:19,470 ERROR trend_report: oss_insight_trending collection failed
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 221, in get_text
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 308: Permanent Redirect
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 61, in collect
+    for record in collector(settings, raw_dir, logger):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 120, in collect_oss_insight_trending
+    text = get_text("https://ossinsight.io/collections/trending-repos/", headers, raw_dir / "oss_insight_trending.html")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 225, in get_text
+    raise RuntimeError(f"HTTP {exc.code} for {url}: {body[:300]}") from exc
+RuntimeError: HTTP 308 for https://ossinsight.io/collections/trending-repos/: {"redirect": "/collections/trending-repos", "status": "308"}
+
+2026-07-05 12:08:20,642 INFO trend_report: Parsed 2 relevant repositories from gitstar_ranking
+2026-07-05 12:08:20,643 INFO trend_report: Recorded Star History placeholder note
+2026-07-05 12:08:20,645 INFO trend_report: Wrote 9 normalized records to /Users/fyang/news push/data/repos.jsonl
+2026-07-05 12:09:03,491 INFO trend_report: Fetching GitHub Search for AI Agent keyword agent
+2026-07-05 12:09:04,918 INFO trend_report: Fetching GitHub Search for AI Agent keyword agents
+2026-07-05 12:09:06,394 INFO trend_report: Fetching GitHub Search for AI Agent keyword autonomous agent
+2026-07-05 12:09:07,840 INFO trend_report: Fetching GitHub Search for AI Agent keyword multi-agent
+2026-07-05 12:09:09,310 INFO trend_report: Fetching GitHub Search for AI Agent keyword crewai
+2026-07-05 12:09:10,736 INFO trend_report: Fetching GitHub Search for AI Agent keyword langgraph
+2026-07-05 12:09:12,250 INFO trend_report: Fetching GitHub Search for MCP keyword mcp
+2026-07-05 12:09:13,757 INFO trend_report: Fetching GitHub Search for MCP keyword model context protocol
+2026-07-05 12:09:15,347 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-server
+2026-07-05 12:09:16,967 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-client
+2026-07-05 12:09:17,066 ERROR trend_report: GitHub Search collection failed
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 212, in get_json
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: rate limit exceeded
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 46, in collect
+    for record in collect_github_search(settings, raw_dir, logger):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 95, in collect_github_search
+    payload = get_json(url, headers, raw_dir / f"github_search_{slug(category)}_{slug(keyword)}.json")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 216, in get_json
+    raise RuntimeError(f"HTTP {exc.code} for {url}: {body[:300]}") from exc
+RuntimeError: HTTP 403 for https://api.github.com/search/repositories?q=mcp-client+in%3Aname%2Cdescription%2Creadme+pushed%3A%3E%3D2026-05-21+stars%3A%3E10&sort=stars&order=desc&per_page=5: {"message":"API rate limit exceeded for 95.90.248.33. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+2026-07-05 12:09:17,110 INFO trend_report: Parsed 7 relevant GitHub Trending repositories
+2026-07-05 12:09:17,413 INFO trend_report: Parsed 0 relevant repositories from oss_insight_trending
+2026-07-05 12:09:17,429 INFO trend_report: Parsed 2 relevant repositories from gitstar_ranking
+2026-07-05 12:09:17,429 INFO trend_report: Recorded Star History placeholder note
+2026-07-05 12:09:17,430 INFO trend_report: Wrote 9 normalized records to /Users/fyang/news push/data/repos.jsonl
+2026-07-05 12:09:39,967 INFO trend_report: Fetching GitHub Search for AI Agent keyword agent
+2026-07-05 12:09:40,973 INFO trend_report: Fetching GitHub Search for AI Agent keyword agents
+2026-07-05 12:09:41,978 INFO trend_report: Fetching GitHub Search for AI Agent keyword autonomous agent
+2026-07-05 12:09:42,987 INFO trend_report: Fetching GitHub Search for AI Agent keyword multi-agent
+2026-07-05 12:09:43,992 INFO trend_report: Fetching GitHub Search for AI Agent keyword crewai
+2026-07-05 12:09:45,001 INFO trend_report: Fetching GitHub Search for AI Agent keyword langgraph
+2026-07-05 12:09:46,006 INFO trend_report: Fetching GitHub Search for MCP keyword mcp
+2026-07-05 12:09:47,013 INFO trend_report: Fetching GitHub Search for MCP keyword model context protocol
+2026-07-05 12:09:48,020 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-server
+2026-07-05 12:09:49,025 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-client
+2026-07-05 12:09:50,527 INFO trend_report: Fetching GitHub Search for MCP keyword claude desktop
+2026-07-05 12:09:51,943 INFO trend_report: Fetching GitHub Search for MCP keyword tool server
+2026-07-05 12:09:53,471 INFO trend_report: Fetching GitHub Search for RAG keyword rag
+2026-07-05 12:09:54,871 INFO trend_report: Fetching GitHub Search for RAG keyword retrieval augmented generation
+2026-07-05 12:09:56,331 INFO trend_report: Fetching GitHub Search for RAG keyword retrieval
+2026-07-05 12:09:57,847 INFO trend_report: Fetching GitHub Search for RAG keyword vector database
+2026-07-05 12:09:59,396 INFO trend_report: Fetching GitHub Search for RAG keyword embeddings
+2026-07-05 12:10:00,836 INFO trend_report: Fetching GitHub Search for RAG keyword document qa
+2026-07-05 12:10:02,399 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword llm inference
+2026-07-05 12:10:03,917 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword serving
+2026-07-05 12:10:04,019 ERROR trend_report: GitHub Search failed for LLM Infrastructure keyword serving
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 218, in get_json
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: rate limit exceeded
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 96, in collect_github_search
+    payload = get_json(url, headers, raw_dir / f"github_search_{slug(category)}_{slug(keyword)}.json")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 222, in get_json
+    raise RuntimeError(f"HTTP {exc.code} for {url}: {body[:300]}") from exc
+RuntimeError: HTTP 403 for https://api.github.com/search/repositories?q=serving+in%3Aname%2Cdescription%2Creadme+pushed%3A%3E%3D2026-05-21+stars%3A%3E10&sort=stars&order=desc&per_page=5: {"message":"API rate limit exceeded for 95.90.248.33. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+2026-07-05 12:10:04,065 INFO trend_report: Parsed 7 relevant GitHub Trending repositories
+2026-07-05 12:10:04,068 INFO trend_report: Parsed 0 relevant repositories from oss_insight_trending
+2026-07-05 12:10:04,076 INFO trend_report: Parsed 2 relevant repositories from gitstar_ranking
+2026-07-05 12:10:04,077 INFO trend_report: Recorded Star History placeholder note
+2026-07-05 12:10:04,079 INFO trend_report: Wrote 47 normalized records to /Users/fyang/news push/data/repos.jsonl
+2026-07-05 12:10:10,253 INFO trend_report: Generated weekly report at /Users/fyang/news push/reports/weekly/2026-07-05-weekly-github-trends.md
+2026-07-05 12:10:10,368 WARNING trend_report: No records available for monthly; adding dummy records.
+2026-07-05 12:10:10,369 INFO trend_report: Generated monthly report at /Users/fyang/news push/reports/monthly/2026-06-30-monthly-github-trends.md
+2026-07-05 12:10:23,268 INFO trend_report: Fetching GitHub Search for AI Agent keyword agent
+2026-07-05 12:10:24,272 INFO trend_report: Fetching GitHub Search for AI Agent keyword agents
+2026-07-05 12:10:25,278 INFO trend_report: Fetching GitHub Search for AI Agent keyword autonomous agent
+2026-07-05 12:10:26,287 INFO trend_report: Fetching GitHub Search for AI Agent keyword multi-agent
+2026-07-05 12:10:27,293 INFO trend_report: Fetching GitHub Search for AI Agent keyword crewai
+2026-07-05 12:10:28,299 INFO trend_report: Fetching GitHub Search for AI Agent keyword langgraph
+2026-07-05 12:10:29,302 INFO trend_report: Fetching GitHub Search for MCP keyword mcp
+2026-07-05 12:10:30,304 INFO trend_report: Fetching GitHub Search for MCP keyword model context protocol
+2026-07-05 12:10:31,310 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-server
+2026-07-05 12:10:32,316 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-client
+2026-07-05 12:10:33,323 INFO trend_report: Fetching GitHub Search for MCP keyword claude desktop
+2026-07-05 12:10:34,325 INFO trend_report: Fetching GitHub Search for MCP keyword tool server
+2026-07-05 12:10:35,331 INFO trend_report: Fetching GitHub Search for RAG keyword rag
+2026-07-05 12:10:36,338 INFO trend_report: Fetching GitHub Search for RAG keyword retrieval augmented generation
+2026-07-05 12:10:37,344 INFO trend_report: Fetching GitHub Search for RAG keyword retrieval
+2026-07-05 12:10:38,350 INFO trend_report: Fetching GitHub Search for RAG keyword vector database
+2026-07-05 12:10:39,354 INFO trend_report: Fetching GitHub Search for RAG keyword embeddings
+2026-07-05 12:10:40,360 INFO trend_report: Fetching GitHub Search for RAG keyword document qa
+2026-07-05 12:10:41,367 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword llm inference
+2026-07-05 12:10:42,373 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword serving
+2026-07-05 12:10:42,506 ERROR trend_report: GitHub Search failed for LLM Infrastructure keyword serving
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 218, in get_json
+    with urllib.request.urlopen(req, timeout=30) as response:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: rate limit exceeded
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/fyang/news push/trend_report/collectors.py", line 96, in collect_github_search
+    payload = get_json(url, headers, raw_dir / f"github_search_{slug(category)}_{slug(keyword)}.json")
+  File "/Users/fyang/news push/trend_report/collectors.py", line 222, in get_json
+    raise RuntimeError(f"HTTP {exc.code} for {url}: {body[:300]}") from exc
+RuntimeError: HTTP 403 for https://api.github.com/search/repositories?q=serving+in%3Aname%2Cdescription%2Creadme+pushed%3A%3E%3D2026-05-21+stars%3A%3E10&sort=stars&order=desc&per_page=5: {"message":"API rate limit exceeded for 95.90.248.33. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+2026-07-05 12:10:42,568 INFO trend_report: Parsed 7 relevant GitHub Trending repositories
+2026-07-05 12:10:42,571 INFO trend_report: Parsed 0 relevant repositories from oss_insight_trending
+2026-07-05 12:10:42,580 INFO trend_report: Parsed 2 relevant repositories from gitstar_ranking
+2026-07-05 12:10:42,580 INFO trend_report: Recorded Star History placeholder note
+2026-07-05 12:10:42,582 INFO trend_report: Wrote 47 normalized records to /Users/fyang/news push/data/repos.jsonl
+2026-07-05 12:10:42,584 INFO trend_report: Generated weekly report at /Users/fyang/news push/reports/weekly/2026-07-05-weekly-github-trends.md
+2026-07-05 12:10:42,586 INFO trend_report: Generated monthly report at /Users/fyang/news push/reports/monthly/2026-06-30-monthly-github-trends.md

@@ -138,7 +138,7 @@ python3 scripts/render_digest_site.py
 The newest newsletter appears at the top in both language editions. Each dated issue can include:
 
 - Daily News Push from `data/digests/YYYY-MM-DD-candidates.json`
-- Paper Push from `data/digests/YYYY-MM-DD-paper-push.json`
+- Friday-only Paper Push from `data/digests/YYYY-MM-DD-paper-push.json`
 - GitHub Trend Monitor links rendered from `reports/weekly/` and `reports/monthly/`
 
 The Chinese page uses the human-written Chinese final markdown when available. The English page uses selected items with English titles, source links, source snippets, scores, and audit metadata, so it can be built without OpenAI.

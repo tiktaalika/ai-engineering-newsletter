@@ -69,6 +69,16 @@ def esc(value: Any) -> str:
     return html.escape("" if value is None else str(value), quote=True)
 
 
+def effective_source(item: dict[str, Any]) -> str:
+    source = str(item.get("source", "")).strip()
+    title = str(item.get("title", "")).strip()
+    if source.lower().startswith("google news") and " - " in title:
+        inferred = title.rsplit(" - ", 1)[-1].strip()
+        if inferred:
+            return inferred
+    return source or "unknown"
+
+
 def site_relative_path(path: Path) -> str:
     return path.relative_to(SITE_DIR).as_posix()
 
@@ -93,6 +103,11 @@ def load_summaries() -> dict[str, str]:
 
 
 def load_paper_push(date_slug: str) -> dict[str, Any] | None:
+    try:
+        if datetime.strptime(date_slug, "%Y-%m-%d").weekday() != 4:
+            return None
+    except ValueError:
+        return None
     path = DIGEST_DIR / f"{date_slug}-paper-push.json"
     if not path.exists():
         return None
@@ -260,6 +275,8 @@ def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> lis
     category = canonical_category(category)
     selected: list[dict[str, Any]] = []
     topic_counts: dict[str, int] = {}
+    source_counts: dict[str, int] = {}
+    max_per_source_first_pass = 1 if category == "engineering_ai" else 2
     for item in items:
         if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
             continue
@@ -268,8 +285,12 @@ def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> lis
         topic = topic_key(item)
         if topic_counts.get(topic, 0) >= 2:
             continue
+        source = effective_source(item).lower()
+        if source_counts.get(source, 0) >= max_per_source_first_pass:
+            continue
         selected.append(item)
         topic_counts[topic] = topic_counts.get(topic, 0) + 1
+        source_counts[source] = source_counts.get(source, 0) + 1
         if len(selected) == limit:
             break
     for item in items:
@@ -279,8 +300,36 @@ def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> lis
             continue
         if item in selected or any(is_same_event(item, existing) for existing in selected):
             continue
+        source = effective_source(item).lower()
+        if source_counts.get(source, 0) >= max_per_source_first_pass:
+            continue
+        selected.append(item)
+        source_counts[source] = source_counts.get(source, 0) + 1
+    for item in items:
+        if len(selected) == limit:
+            break
+        if canonical_category(item.get("category", "")) != category or is_excluded(item, category):
+            continue
+        if item in selected or any(is_same_event(item, existing) for existing in selected):
+            continue
         selected.append(item)
     return selected
+
+
+def dedupe_and_fill_items(
+    primary: list[dict[str, Any]],
+    data: dict[str, Any],
+    category: str,
+    limit: int,
+    fallback_key: str,
+) -> list[dict[str, Any]]:
+    category = canonical_category(category)
+    pool: list[dict[str, Any]] = []
+    for item in primary + data.get("top_100_news_candidates", []) + data.get(fallback_key, []):
+        candidate = dict(item)
+        candidate["category"] = canonical_category(candidate.get("category", category))
+        pool.append(candidate)
+    return select_unique(pool, category, limit)
 
 
 def section_items(data: dict[str, Any], category: str, limit: int, fallback_key: str) -> list[dict[str, Any]]:
@@ -346,7 +395,14 @@ def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], lis
     if final_path.exists():
         final_items = hydrate_final_items(data, final_path)
         medical = final_items["medical_bio_ai"] or medical_bio_items(data)
-        return data, final_items["general_ai"], final_items["engineering_ai"], medical, research_items(data), paper_push
+        return (
+            data,
+            dedupe_and_fill_items(final_items["general_ai"], data, "general_ai", 10, "top_10_general_ai"),
+            dedupe_and_fill_items(final_items["engineering_ai"], data, "engineering_ai", 5, "top_5_engineering_ai"),
+            medical,
+            research_items(data),
+            paper_push,
+        )
     return (
         data,
         section_items(data, "general_ai", 10, "top_10_general_ai"),
@@ -380,7 +436,7 @@ def item_card_zh(item: dict[str, Any], idx: int, summaries: dict[str, str]) -> s
         <div>
           {summary_html}
           <h4><a href="{esc(item.get("url", "#"))}">{esc(item.get("title", "Untitled"))}</a></h4>
-          <div class="meta"><span>{esc(item.get("source", "unknown"))}</span><span>score {esc(item.get("score", ""))}</span></div>
+          <div class="meta"><span>{esc(effective_source(item))}</span><span>score {esc(item.get("score", ""))}</span></div>
           <p class="reason">{esc("; ".join(item.get("score_reasons", [])[:2]))}</p>
         </div>
       </article>
@@ -394,7 +450,7 @@ def item_card_en(item: dict[str, Any], idx: int) -> str:
         <div>
           <h4><a href="{esc(item.get("url", "#"))}">{esc(item.get("title", "Untitled"))}</a></h4>
           <p class="en-summary">{esc(english_summary(item))}</p>
-          <div class="meta"><span>{esc(item.get("source", "unknown"))}</span><span>score {esc(item.get("score", ""))}</span></div>
+          <div class="meta"><span>{esc(effective_source(item))}</span><span>score {esc(item.get("score", ""))}</span></div>
           <p class="reason">{esc("; ".join(item.get("score_reasons", [])[:2]))}</p>
         </div>
       </article>
@@ -431,6 +487,15 @@ def render_paper_push(paper_push: dict[str, Any], language: str) -> str:
     bio_items = "".join(paper_item_card(item, idx, language) for idx, item in enumerate(paper_push.get("biomedical_papers", []), 1))
     cae_sources = "；".join(paper_push.get("cae_sources_checked", [])) if language == "zh" else "; ".join(paper_push.get("cae_sources_checked", []))
     bio_sources = "；".join(paper_push.get("biomedical_sources_checked", [])) if language == "zh" else "; ".join(paper_push.get("biomedical_sources_checked", []))
+    bio_section = ""
+    if paper_push.get("biomedical_papers"):
+        bio_section = f"""
+          <section>
+            <h3>{esc(bio_title)}</h3>
+            {f'<p class="reason"><strong>{esc(bio_sources_title)}:</strong> {esc(bio_sources)}</p>' if bio_sources else ""}
+            {bio_items}
+          </section>
+        """
     return f"""
       <section class="paper-push">
         <h3>{esc(title)}</h3>
@@ -441,11 +506,7 @@ def render_paper_push(paper_push: dict[str, Any], language: str) -> str:
             {f'<p class="reason"><strong>{esc(cae_sources_title)}:</strong> {esc(cae_sources)}</p>' if cae_sources else ""}
             {cae_items}
           </section>
-          <section>
-            <h3>{esc(bio_title)}</h3>
-            {f'<p class="reason"><strong>{esc(bio_sources_title)}:</strong> {esc(bio_sources)}</p>' if bio_sources else ""}
-            {bio_items}
-          </section>
+          {bio_section}
         </div>
       </section>
     """
