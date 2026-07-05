@@ -348,6 +348,40 @@ def topic_key(candidate: Candidate) -> str:
     return "other"
 
 
+def is_medical_bio_ai(candidate: Candidate) -> bool:
+    text = f"{candidate.title} {candidate.text} {' '.join(candidate.source_tags)}".lower()
+    medical_patterns = (
+        r"\bhealthcare\b",
+        r"\bmedical\b",
+        r"\bmedicine\b",
+        r"\bclinical\b",
+        r"\bhospital\b",
+        r"\bpatient\b",
+        r"\bphysician\b",
+        r"\bdrug discovery\b",
+        r"\bdrug development\b",
+        r"\bpharma\b",
+        r"\bpharmaceutical\b",
+        r"\bbiotech\b",
+        r"\bbiomedical\b",
+        r"\bbioinformatics\b",
+        r"\bgenomics\b",
+        r"\bgenomic\b",
+        r"\bgenetics\b",
+        r"\bgenetic\b",
+        r"\bgene therapy\b",
+        r"\bgene editing\b",
+        r"\bcrispr\b",
+        r"\bbiology\b",
+        r"\bbiological\b",
+        r"\blife sciences\b",
+        r"\bbiomarker\b",
+        r"\btherapeutic\b",
+        r"\bdiagnostic\b",
+    )
+    return any(re.search(pattern, text) for pattern in medical_patterns)
+
+
 def select_unique_events(candidates: list[Candidate], category: str, limit: int) -> list[Candidate]:
     category = canonical_category(category)
     max_per_topic = 2
@@ -369,6 +403,36 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
         if len(selected) == limit:
             break
         if canonical_category(candidate.category) != category:
+            continue
+        if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
+            continue
+        selected.append(candidate)
+    return selected
+
+
+def select_medical_bio_ai(candidates: list[Candidate], limit: int) -> list[Candidate]:
+    selected: list[Candidate] = []
+    topic_counts: dict[str, int] = {}
+    for candidate in candidates:
+        if canonical_category(candidate.category) not in {"general_ai", "research"}:
+            continue
+        if not is_medical_bio_ai(candidate):
+            continue
+        if any(is_same_event(candidate, existing) for existing in selected):
+            continue
+        topic = topic_key(candidate)
+        if topic_counts.get(topic, 0) >= 2:
+            continue
+        selected.append(candidate)
+        topic_counts[topic] = topic_counts.get(topic, 0) + 1
+        if len(selected) == limit:
+            break
+    for candidate in candidates:
+        if len(selected) == limit:
+            break
+        if canonical_category(candidate.category) not in {"general_ai", "research"}:
+            continue
+        if not is_medical_bio_ai(candidate):
             continue
         if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
             continue
@@ -706,17 +770,20 @@ def write_outputs(candidates: list[Candidate], log: RunLog, search_tasks: list[d
     all_candidates = [asdict(item) for item in candidates[:100]]
     general_top = [asdict(item) for item in select_unique_events(candidates, "general_ai", 10)]
     engineering_top = [asdict(item) for item in select_unique_events(candidates, "engineering_ai", 5)]
+    medical_bio_top = [asdict(item) for item in select_medical_bio_ai(candidates, 5)]
     research_radar = [asdict(item) for item in select_unique_events(candidates, "research", 5)]
     payload = {
         "run_log": asdict(log),
         "selection_policy": {
             "general_ai": "top 10 scored English AI news items after event deduplication and topic diversification",
             "engineering_ai": "top 5 scored engineering AI items covering simulation, CAD, CAE, SPDM, PLM, digital twin, physical AI, scientific ML, and industrial AI",
+            "medical_bio_ai": "top 5 scored medical, medicine, biotech, biology, genomics, and genetics AI items after event deduplication and topic diversification",
             "research_radar": "optional research items from research/community sources",
             "ranking_note": "Score estimates readership/engagement when direct read counts are unavailable. Selection prefers topic diversity so one hot area does not crowd out the whole digest.",
         },
         "top_10_general_ai": general_top,
         "top_5_engineering_ai": engineering_top,
+        "top_5_medical_bio_ai": medical_bio_top,
         "top_5_cae_ai_engineering": engineering_top,
         "research_radar": research_radar,
         "supplemental_search_tasks": search_tasks,
@@ -752,6 +819,17 @@ def write_outputs(candidates: list[Candidate], log: RunLog, search_tasks: list[d
         )
     lines.extend(["", "## Top 5 Engineering AI News"])
     for idx, item in enumerate(engineering_top, 1):
+        lines.extend(
+            [
+                f"{idx}. [{item['title']}]({item['url']})",
+                f"   - source: {item['source']}",
+                f"   - score: {item['score']}",
+                f"   - score_breakdown: general={item['general_ai_score']}; engineering={item['engineering_relevance_score']}; research={item['research_relevance_score']}; novelty={item['novelty_score']}; source_priority={item['source_priority_score']}",
+                f"   - reasons: {'; '.join(item['score_reasons'])}",
+            ]
+        )
+    lines.extend(["", "## Top 5 Medical, Medicine, and Bio/Genetics AI News"])
+    for idx, item in enumerate(medical_bio_top, 1):
         lines.extend(
             [
                 f"{idx}. [{item['title']}]({item['url']})",

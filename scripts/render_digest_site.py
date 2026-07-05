@@ -6,7 +6,7 @@ from __future__ import annotations
 import html
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -18,6 +18,7 @@ ROOT_OUT = SITE_DIR / "index.html"
 ZH_OUT = SITE_DIR / "zh" / "index.html"
 EN_OUT = SITE_DIR / "en" / "index.html"
 SUMMARY_CACHE = DIGEST_DIR / "site_summaries.json"
+ARCHIVE_PAGE_SIZE = 7
 
 
 COMMON_EVENT_WORDS = {
@@ -45,6 +46,22 @@ def candidate_dates() -> list[str]:
     return sorted(set(dates), reverse=True)
 
 
+def archive_entries() -> list[dict[str, Any]]:
+    dates = candidate_dates()
+    if not dates:
+        return []
+    parsed = [datetime.strptime(date, "%Y-%m-%d").date() for date in dates]
+    available = {date.isoformat() for date in parsed}
+    cursor = max(parsed)
+    oldest = min(parsed)
+    entries: list[dict[str, Any]] = []
+    while cursor >= oldest:
+        slug = cursor.isoformat()
+        entries.append({"date": slug, "available": slug in available})
+        cursor -= timedelta(days=1)
+    return entries
+
+
 def esc(value: Any) -> str:
     return html.escape("" if value is None else str(value), quote=True)
 
@@ -69,7 +86,7 @@ def load_summaries() -> dict[str, str]:
 
 
 def parse_final_sections(markdown: str) -> dict[str, list[dict[str, str]]]:
-    sections = {"general_ai": [], "engineering_ai": []}
+    sections = {"general_ai": [], "engineering_ai": [], "medical_bio_ai": []}
     current: str | None = None
     pending: dict[str, str] | None = None
     rich_item_re = re.compile(r"^\d+\.\s+\*\*(.+?)\*\*\s*$")
@@ -84,6 +101,10 @@ def parse_final_sections(markdown: str) -> dict[str, list[dict[str, str]]]:
             continue
         if heading in {"Top 5 Engineering AI News", "**Top 5 Engineering AI News**", "**CAE / AI for Engineering Top 5**"}:
             current = "engineering_ai"
+            pending = None
+            continue
+        if heading in {"Top 5 Medical, Medicine, and Bio/Genetics AI News", "**Top 5 Medical, Medicine, and Bio/Genetics AI News**", "**Top 5 Medical AI News**"}:
+            current = "medical_bio_ai"
             pending = None
             continue
         if heading in {"Research Radar", "Watchlist Updates", "Why It Matters", "Audit Note"}:
@@ -108,7 +129,7 @@ def parse_final_sections(markdown: str) -> dict[str, list[dict[str, str]]]:
 
 
 def find_candidate_by_url(data: dict[str, Any], url: str) -> dict[str, Any] | None:
-    for key in ("top_100_news_candidates", "top_10_general_ai", "top_5_engineering_ai", "top_5_cae_ai_engineering"):
+    for key in ("top_100_news_candidates", "top_10_general_ai", "top_5_engineering_ai", "top_5_cae_ai_engineering", "top_5_medical_bio_ai"):
         for item in data.get(key, []):
             if item.get("url") == url:
                 return item
@@ -117,7 +138,7 @@ def find_candidate_by_url(data: dict[str, Any], url: str) -> dict[str, Any] | No
 
 def hydrate_final_items(data: dict[str, Any], final_path: Path) -> dict[str, list[dict[str, Any]]]:
     parsed = parse_final_sections(final_path.read_text(encoding="utf-8"))
-    hydrated: dict[str, list[dict[str, Any]]] = {"general_ai": [], "engineering_ai": []}
+    hydrated: dict[str, list[dict[str, Any]]] = {"general_ai": [], "engineering_ai": [], "medical_bio_ai": []}
     for category, rows in parsed.items():
         for row in rows:
             candidate = find_candidate_by_url(data, row["url"]) or {}
@@ -187,6 +208,40 @@ def is_excluded(item: dict[str, Any], category: str) -> bool:
     return any(term in text for term in excluded_terms)
 
 
+def is_medical_bio_ai_item(item: dict[str, Any]) -> bool:
+    text = f"{item.get('title', '')} {item.get('source', '')} {item.get('text', '')} {' '.join(item.get('source_tags', []))}".lower()
+    medical_patterns = (
+        r"\bhealthcare\b",
+        r"\bmedical\b",
+        r"\bmedicine\b",
+        r"\bclinical\b",
+        r"\bhospital\b",
+        r"\bpatient\b",
+        r"\bphysician\b",
+        r"\bdrug discovery\b",
+        r"\bdrug development\b",
+        r"\bpharma\b",
+        r"\bpharmaceutical\b",
+        r"\bbiotech\b",
+        r"\bbiomedical\b",
+        r"\bbioinformatics\b",
+        r"\bgenomics\b",
+        r"\bgenomic\b",
+        r"\bgenetics\b",
+        r"\bgenetic\b",
+        r"\bgene therapy\b",
+        r"\bgene editing\b",
+        r"\bcrispr\b",
+        r"\bbiology\b",
+        r"\bbiological\b",
+        r"\blife sciences\b",
+        r"\bbiomarker\b",
+        r"\btherapeutic\b",
+        r"\bdiagnostic\b",
+    )
+    return any(re.search(pattern, text) for pattern in medical_patterns)
+
+
 def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> list[dict[str, Any]]:
     category = canonical_category(category)
     selected: list[dict[str, Any]] = []
@@ -230,16 +285,45 @@ def section_items(data: dict[str, Any], category: str, limit: int, fallback_key:
     return selected
 
 
-def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]]]:
+def medical_bio_items(data: dict[str, Any], limit: int = 5) -> list[dict[str, Any]]:
+    pool = data.get("top_100_news_candidates", [])
+    selected: list[dict[str, Any]] = []
+    topic_counts: dict[str, int] = {}
+    for item in pool:
+        if canonical_category(item.get("category", "")) not in {"general_ai", "research"}:
+            continue
+        if not is_medical_bio_ai_item(item):
+            continue
+        if any(is_same_event(item, existing) for existing in selected):
+            continue
+        topic = topic_key(item)
+        if topic_counts.get(topic, 0) >= 2:
+            continue
+        selected.append(item)
+        topic_counts[topic] = topic_counts.get(topic, 0) + 1
+        if len(selected) == limit:
+            break
+    for item in data.get("top_5_medical_bio_ai", []):
+        if len(selected) == limit:
+            break
+        if any(is_same_event(item, existing) for existing in selected):
+            continue
+        selected.append(item)
+    return selected
+
+
+def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     data = load_json(DIGEST_DIR / f"{date_slug}-candidates.json")
     final_path = DIGEST_DIR / f"{date_slug}-final.md"
     if final_path.exists():
         final_items = hydrate_final_items(data, final_path)
-        return data, final_items["general_ai"], final_items["engineering_ai"]
+        medical = final_items["medical_bio_ai"] or medical_bio_items(data)
+        return data, final_items["general_ai"], final_items["engineering_ai"], medical
     return (
         data,
         section_items(data, "general_ai", 10, "top_10_general_ai"),
         section_items(data, "engineering_ai", 5, "top_5_engineering_ai"),
+        medical_bio_items(data),
     )
 
 
@@ -288,30 +372,43 @@ def item_card_en(item: dict[str, Any], idx: int) -> str:
 
 
 def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
-    data, general, cae = day_items(date_slug)
+    data, general, cae, medical = day_items(date_slug)
     return render_day_shell(
         date_slug,
         data,
         "AI Top 10",
         "Engineering AI Top 5",
+        "Medical / Bio AI Top 5",
         "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(general, 1)),
         "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(cae, 1)),
+        "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(medical, 1)),
     )
 
 
 def render_day_en(date_slug: str) -> str:
-    data, general, cae = day_items(date_slug)
+    data, general, cae, medical = day_items(date_slug)
     return render_day_shell(
         date_slug,
         data,
         "Top 10 General AI News",
         "Top 5 Engineering AI News",
+        "Top 5 Medical, Medicine, and Bio/Genetics AI News",
         "".join(item_card_en(item, idx) for idx, item in enumerate(general, 1)),
         "".join(item_card_en(item, idx) for idx, item in enumerate(cae, 1)),
+        "".join(item_card_en(item, idx) for idx, item in enumerate(medical, 1)),
     )
 
 
-def render_day_shell(date_slug: str, data: dict[str, Any], general_title: str, engineering_title: str, general_html: str, engineering_html: str) -> str:
+def render_day_shell(
+    date_slug: str,
+    data: dict[str, Any],
+    general_title: str,
+    engineering_title: str,
+    medical_title: str,
+    general_html: str,
+    engineering_html: str,
+    medical_html: str,
+) -> str:
     log = data.get("run_log", {})
     return f"""
     <section class="day" id="{date_slug}">
@@ -335,6 +432,34 @@ def render_day_shell(date_slug: str, data: dict[str, Any], general_title: str, e
           <h3>{esc(engineering_title)}</h3>
           {engineering_html}
         </section>
+      </div>
+      <section class="medical-section">
+        <h3>{esc(medical_title)}</h3>
+        {medical_html}
+      </section>
+    </section>
+    """
+
+
+def render_missing_day(date_slug: str, language: str) -> str:
+    eyebrow = format_date(date_slug)
+    if language == "zh":
+        title = "当日归档缺失"
+        body = "当前站点里没有这一天的 digest 文件。页面会保留这个日期，避免时间线看起来像是连续的。"
+    else:
+        title = "Issue missing for this date"
+        body = "No digest file is currently available for this date. The archive keeps the date visible so the timeline does not silently skip it."
+    return f"""
+    <section class="day missing" id="{date_slug}">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">{esc(eyebrow)}</p>
+          <h2>{esc(date_slug)}</h2>
+        </div>
+      </header>
+      <div class="missing-note">
+        <h3>{esc(title)}</h3>
+        <p>{esc(body)}</p>
       </div>
     </section>
     """
@@ -369,10 +494,13 @@ def site_css() -> str:
     h1 { margin: 0; font-size: clamp(30px, 4vw, 56px); line-height: 1; letter-spacing: 0; font-weight: 700; }
     .subtitle { margin: 12px 0 0; color: var(--muted); font-size: 17px; max-width: 760px; }
     .stamp { text-align: right; font-size: 14px; color: var(--muted); }
-    .nav, .language-switch { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 28px; }
-    .nav a, .language-switch a { color: var(--ink); border: 1px solid var(--line); padding: 7px 10px; text-decoration: none; background: rgba(255,255,255,.55); }
+    .nav, .language-switch, .pager { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 28px; }
+    .nav { margin-bottom: 16px; }
+    .nav a, .nav span, .language-switch a, .pager a, .pager span { color: var(--ink); border: 1px solid var(--line); padding: 7px 10px; text-decoration: none; background: rgba(255,255,255,.55); }
+    .nav span, .pager span { color: var(--muted); }
     .language-switch a.active { background: var(--ink); color: var(--panel); border-color: var(--ink); }
     .day { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); margin: 28px 0; padding: 24px; }
+    .day.missing { border-style: dashed; }
     .day-head { display: flex; justify-content: space-between; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 22px; }
     .eyebrow { margin: 0 0 5px; color: var(--accent-2); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; font-family: "Avenir Next", Verdana, sans-serif; }
     h2 { margin: 0; font-size: 38px; }
@@ -380,6 +508,7 @@ def site_css() -> str:
     .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
     .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
     .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
     .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
     .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
     h4 { margin: 0; font-size: 18px; line-height: 1.25; }
@@ -389,6 +518,8 @@ def site_css() -> str:
     .meta { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; color: var(--muted); }
     .meta span { border: 1px solid var(--line); padding: 4px 7px; }
     .reason { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+    .missing-note h3 { margin: 0 0 10px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .missing-note p { margin: 0; color: var(--muted); line-height: 1.5; max-width: 760px; }
     .landing { min-height: 100vh; display: grid; align-items: center; }
     .landing-panel { max-width: 980px; margin: 0 auto; padding: 44px 22px; }
     .landing h1 { font-size: clamp(38px, 7vw, 86px); }
@@ -405,24 +536,80 @@ def site_css() -> str:
   """
 
 
-def render_archive_page(language: str) -> str:
-    dates = candidate_dates()
+def archive_page_path(language: str, page_number: int) -> Path:
+    if language == "zh":
+        return ZH_OUT if page_number == 1 else SITE_DIR / "zh" / "page" / str(page_number) / "index.html"
+    return EN_OUT if page_number == 1 else SITE_DIR / "en" / "page" / str(page_number) / "index.html"
+
+
+def archive_page_href(language: str, current_page: int, target_page: int) -> str:
+    del language
+    if current_page == target_page:
+        return "./index.html"
+    if current_page == 1:
+        return f"page/{target_page}/index.html" if target_page > 1 else "./index.html"
+    if target_page == 1:
+        return "../../index.html"
+    return f"../{target_page}/index.html"
+
+
+def switch_href(language: str, page_number: int) -> str:
+    if page_number == 1:
+        return "../en/index.html" if language == "zh" else "../zh/index.html"
+    return (
+        f"../../../en/page/{page_number}/index.html"
+        if language == "zh"
+        else f"../../../zh/page/{page_number}/index.html"
+    )
+
+
+def render_archive_page(language: str, page_number: int, total_pages: int, entries: list[dict[str, Any]]) -> str:
     summaries = load_summaries()
-    latest = dates[0] if dates else "No newsletters yet"
-    nav = "".join(f'<a href="#{esc(date)}">{esc(date)}</a>' for date in dates[:20])
-    generated = datetime.now().strftime("%Y-%m-%d %H:%M")
+    latest = next((entry["date"] for entry in entries if entry["available"]), "No newsletters yet")
+    start = (page_number - 1) * ARCHIVE_PAGE_SIZE
+    page_entries = entries[start:start + ARCHIVE_PAGE_SIZE]
+    nav = "".join(
+        (
+            f'<a href="#{esc(entry["date"])}">{esc(entry["date"])}</a>'
+            if entry["available"]
+            else f'<span>{esc(entry["date"])}</span>'
+        )
+        for entry in page_entries
+    )
+    pager_bits: list[str] = []
+    if page_number < total_pages:
+        label = "Previous" if language == "en" else "更早"
+        pager_bits.append(f'<a href="{esc(archive_page_href(language, page_number, page_number + 1))}">{esc(label)}</a>')
+    else:
+        label = "Previous" if language == "en" else "更早"
+        pager_bits.append(f'<span>{esc(label)}</span>')
+    if page_number > 1:
+        label = "Later" if language == "en" else "更新"
+        pager_bits.append(f'<a href="{esc(archive_page_href(language, page_number, page_number - 1))}">{esc(label)}</a>')
+    else:
+        label = "Later" if language == "en" else "更新"
+        pager_bits.append(f'<span>{esc(label)}</span>')
+    pager = "".join(pager_bits)
     if language == "zh":
         lang_attr = "zh-CN"
         title = "AI Engineering Newsletter 中文版"
         subtitle = "每日 General AI 与 Engineering AI 中文汇总。覆盖 CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。"
-        switch = '<a class="active" href="../zh/">中文版</a><a href="../en/">English</a>'
-        days = "\n".join(render_day_zh(date, summaries) for date in dates)
+        switch = f'<a class="active" href="{esc(archive_page_href("zh", page_number, page_number))}">中文版</a><a href="{esc(switch_href("zh", page_number))}">English</a>'
+        days = "\n".join(
+            render_day_zh(entry["date"], summaries) if entry["available"] else render_missing_day(entry["date"], "zh")
+            for entry in page_entries
+        )
+        stamp = f'Latest Issued<br><strong>{esc(latest)}</strong>'
     else:
         lang_attr = "en"
         title = "AI Engineering Newsletter"
         subtitle = "A daily English newsletter on general AI and engineering AI, covering CAE, CAD, simulation, digital twins, industrial AI, and scientific ML."
-        switch = '<a href="../zh/">中文版</a><a class="active" href="../en/">English</a>'
-        days = "\n".join(render_day_en(date) for date in dates)
+        switch = f'<a href="{esc(switch_href("en", page_number))}">中文版</a><a class="active" href="{esc(archive_page_href("en", page_number, page_number))}">English</a>'
+        days = "\n".join(
+            render_day_en(entry["date"]) if entry["available"] else render_missing_day(entry["date"], "en")
+            for entry in page_entries
+        )
+        stamp = f'Latest Issued<br><strong>{esc(latest)}</strong>'
     return f"""<!doctype html>
 <html lang="{lang_attr}">
 <head>
@@ -439,12 +626,14 @@ def render_archive_page(language: str) -> str:
         <p class="subtitle">{esc(subtitle)}</p>
         <div class="language-switch">{switch}</div>
       </div>
-      <div class="stamp">Latest<br><strong>{esc(latest)}</strong><br>Generated {esc(generated)}</div>
+      <div class="stamp">{stamp}</div>
     </div>
   </header>
   <main class="shell">
     <nav class="nav">{nav}</nav>
+    <nav class="pager">{pager}</nav>
     {days}
+    <nav class="pager">{pager}</nav>
   </main>
 </body>
 </html>
@@ -454,7 +643,6 @@ def render_archive_page(language: str) -> str:
 def render_landing_page() -> str:
     dates = candidate_dates()
     latest = dates[0] if dates else "No newsletters yet"
-    generated = datetime.now().strftime("%Y-%m-%d %H:%M")
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -468,10 +656,10 @@ def render_landing_page() -> str:
     <div class="landing-panel">
       <p class="eyebrow">Bilingual daily archive</p>
       <h1>AI Engineering Newsletter</h1>
-      <p class="subtitle">Daily coverage of general AI and engineering AI, including CAE, CAD, simulation, digital twins, industrial AI, and scientific ML. Latest issue: <strong>{esc(latest)}</strong>. Generated {esc(generated)}.</p>
+      <p class="subtitle">Daily coverage of general AI and engineering AI, including CAE, CAD, simulation, digital twins, industrial AI, and scientific ML. Latest Issued: <strong>{esc(latest)}</strong>.</p>
       <div class="landing-links">
-        <a class="edition" href="en/"><strong>English Edition</strong><span>Public-facing newsletter with English titles, summaries, source links, and audit metadata.</span></a>
-        <a class="edition" href="zh/"><strong>中文版</strong><span>中文摘要版，方便日常阅读；每天自动提醒使用这个入口。</span></a>
+        <a class="edition" href="en/index.html"><strong>English Edition</strong><span>Public-facing newsletter with English titles, summaries, source links, and audit metadata.</span></a>
+        <a class="edition" href="zh/index.html"><strong>中文版</strong><span>中文摘要版，方便日常阅读；每天自动提醒使用这个入口。</span></a>
       </div>
     </div>
   </main>
@@ -481,11 +669,18 @@ def render_landing_page() -> str:
 
 
 def main() -> int:
+    entries = archive_entries()
+    total_pages = max((len(entries) + ARCHIVE_PAGE_SIZE - 1) // ARCHIVE_PAGE_SIZE, 1)
     ZH_OUT.parent.mkdir(parents=True, exist_ok=True)
     EN_OUT.parent.mkdir(parents=True, exist_ok=True)
     ROOT_OUT.write_text(render_landing_page(), encoding="utf-8")
-    ZH_OUT.write_text(render_archive_page("zh"), encoding="utf-8")
-    EN_OUT.write_text(render_archive_page("en"), encoding="utf-8")
+    for page_number in range(1, total_pages + 1):
+        zh_path = archive_page_path("zh", page_number)
+        en_path = archive_page_path("en", page_number)
+        zh_path.parent.mkdir(parents=True, exist_ok=True)
+        en_path.parent.mkdir(parents=True, exist_ok=True)
+        zh_path.write_text(render_archive_page("zh", page_number, total_pages, entries), encoding="utf-8")
+        en_path.write_text(render_archive_page("en", page_number, total_pages, entries), encoding="utf-8")
     print(ROOT_OUT)
     print(ZH_OUT)
     print(EN_OUT)

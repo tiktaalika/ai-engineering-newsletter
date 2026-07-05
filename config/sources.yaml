@@ -617,6 +617,26 @@ sources:
     query: (CAE OR "computer-aided engineering" OR SPDM OR PLM OR CAD OR "digital twin" OR "physical AI" OR "scientific ML" OR "industrial AI" OR "engineering simulation" OR CFD OR FEA) (AI OR "machine learning" OR neural OR surrogate) when:30d
     notes: Broad engineering AI recall source.
     enabled: true
+  - name: Google News Medical AI Discovery
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: general_ai
+    priority: high
+    tags: [medical_ai, healthcare_ai, discovery]
+    query: (AI OR "artificial intelligence" OR OpenAI OR Anthropic OR "machine learning") (medical OR medicine OR healthcare OR clinical OR hospital OR patient OR physician OR "drug discovery" OR pharmaceutical) when:2d
+    notes: Broad recall source for medical and healthcare AI news.
+    enabled: true
+  - name: Google News Bio and Genetics AI Discovery
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: general_ai
+    priority: high
+    tags: [bio_ai, genomics_ai, genetics_ai, discovery]
+    query: (AI OR "artificial intelligence" OR "machine learning" OR model) (biotech OR biology OR biological OR genomics OR genomic OR genetics OR genetic OR CRISPR OR bioinformatics OR biomarker OR therapeutic) when:2d
+    notes: Broad recall source for biology, biotech, genomics, and genetics AI news.
+    enabled: true
   - name: LinkedIn Engineering AI Public Posts
     url: https://www.linkedin.com/search/results/content/
     source_type: linkedin_manual

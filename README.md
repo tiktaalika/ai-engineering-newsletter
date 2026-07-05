@@ -6,6 +6,7 @@ This workspace contains an auditable daily AI Engineering Newsletter pipeline. I
 
 - Top 10 English-language General AI News items covering model releases, AI products, company dynamics, open-source models, policy, funding, and major research progress.
 - Top 5 English-language Engineering AI News items from a rolling window, covering engineering, simulation, CAD, CAE, SPDM, PLM, digital twins, physical AI, scientific ML, and industrial AI.
+- Top 5 English-language Medical, Medicine, and Bio/Genetics AI News items covering healthcare AI, clinical AI, biotech, genomics, genetics, and drug-discovery-related AI.
 - A bilingual website with a root language selector, an English edition, and a Chinese edition.
 - Optional Research Radar and Watchlist Updates sections.
 - A candidate audit file with up to 100 scored news candidates from the enabled curated source registry.
