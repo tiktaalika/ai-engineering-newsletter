@@ -39,6 +39,7 @@ For General AI, the selector now treats Google News RSS as a recall/fallback lay
 The same source-first rule applies to the right column:
 
 - Engineering AI is anchored on curated engineering and industrial sources first: Siemens Digital Industries Software, Siemens Simcenter, Siemens Art of the Possible, Ansys, COMSOL, Rescale, NAFEMS, and the configured watchlist of Dassault Systemes, Autodesk, Altair, Hexagon/MSC, PTC, Cadence, Synopsys, SimScale, Synera, PhysicsX, Luminary Cloud, Neural Concept, Monolith AI, nTop, and related CAE / simulation vendors. Broad Google News Engineering AI discovery is low-priority fallback; source-specific trusted vendor discovery is separate and capped.
+- Engineering media and industrial-AI discovery also includes user-requested sources such as Engineering.com, Engineering24, Rescale, AI for Industry / Industrial AI Network, and source-specific Google News recall limited to trusted engineering domains. Engineering24 is kept as a manual watchlist entry until a stable public URL or RSS feed is confirmed.
 - Biomedical AI is anchored on trusted biomedical and clinical sources first, including source-specific discovery for NEJM, Nature, The Lancet, Science, Cell, STAT, and Fierce Biotech, plus direct RSS where available. Broad Google News Medical/Bio discovery is low-priority fallback and capped.
 
 ## Upstream References

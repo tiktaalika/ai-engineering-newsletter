@@ -44,6 +44,33 @@ class SourceRegistryTest(unittest.TestCase):
             )
         )
 
+    def test_user_requested_engineering_sources_are_curated(self) -> None:
+        registry = load_source_registry()
+        sources = {source["name"]: source for source in registry["sources"]}
+
+        for name in [
+            "Engineering.com",
+            "Engineering.com Artificial Intelligence",
+            "Engineering24",
+            "Industrial AI Network",
+            "Industrial AI Network News",
+            "Industrial AI Network Knowledge Center",
+        ]:
+            self.assertIn(name, sources)
+            self.assertEqual(sources[name]["category"], "engineering_ai")
+            self.assertTrue(sources[name]["enabled"])
+
+        self.assertEqual(sources["Engineering.com"]["priority"], "high")
+        self.assertEqual(sources["Industrial AI Network"]["priority"], "high")
+        self.assertIn("url_pending_verification", sources["Engineering24"]["tags"])
+
+        trusted_media = sources["Trusted Engineering Media Discovery"]
+        self.assertEqual(trusted_media["kind"], "google_news_rss")
+        self.assertEqual(trusted_media["priority"], "high")
+        self.assertIn("trusted_discovery", trusted_media["tags"])
+        self.assertIn("site:engineering.com", trusted_media["query"])
+        self.assertIn("site:industrial-ai-network.com", trusted_media["query"])
+
     def test_engineering_workflow_ai_gets_scoring_boost(self) -> None:
         source = {
             "category": "engineering_ai",

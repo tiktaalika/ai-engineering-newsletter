@@ -451,6 +451,54 @@ sources:
     tags: [cae, simulation, digital_twin]
     notes: Ansys blog RSS.
     enabled: true
+  - name: Engineering.com
+    url: https://www.engineering.com/
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [engineering_media, industrial_ai, design, simulation, plm, manufacturing]
+    notes: User-requested engineering media source. No stable RSS confirmed; covered by Trusted Engineering Media Discovery for no-API runs.
+    enabled: true
+  - name: Engineering.com Artificial Intelligence
+    url: https://www.engineering.com/artificial-intelligence/
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [engineering_media, artificial_intelligence, industrial_ai]
+    notes: User-requested Engineering.com AI category watchlist; direct page may not expose stable RSS.
+    enabled: true
+  - name: Engineering24
+    url: https://www.engineering24.com/
+    source_type: manual
+    category: engineering_ai
+    priority: medium
+    tags: [engineering_media, user_requested, url_pending_verification]
+    notes: User-requested Engineering24 source. Exact stable public URL/RSS could not be verified from public search; keep as manual watchlist until URL is confirmed.
+    enabled: true
+  - name: Industrial AI Network
+    url: https://www.industrial-ai-network.com/
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [industrial_ai, manufacturing, plm, digital_thread, industrial_copilot, user_requested]
+    notes: User-requested Industrial AI Network / AI² source covering industrial AI, engineering, manufacturing, robotics, PLM, digital thread, and operations.
+    enabled: true
+  - name: Industrial AI Network News
+    url: https://www.industrial-ai-network.com/news
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [industrial_ai, manufacturing, industrial_copilot, user_requested]
+    notes: Industrial AI Network news watchlist; use trusted discovery because no stable RSS was confirmed.
+    enabled: true
+  - name: Industrial AI Network Knowledge Center
+    url: https://www.industrial-ai-network.com/knowledge-center
+    source_type: website
+    category: engineering_ai
+    priority: high
+    tags: [industrial_ai, knowledge_center, engineering, manufacturing, user_requested]
+    notes: Industrial AI Network knowledge-center watchlist for guides, case studies, and practitioner material.
+    enabled: true
   - name: COMSOL
     url: https://www.comsol.com/blogs/feed/
     source_type: rss
@@ -862,6 +910,17 @@ sources:
     tags: [engineering_ai, trusted_discovery, cae, simulation, industrial_ai]
     query: (Siemens OR Simcenter OR Ansys OR COMSOL OR Dassault OR Autodesk OR Altair OR Hexagon OR MSC OR PTC OR Cadence OR Synopsys OR SimScale OR Synera OR PhysicsX OR "Luminary Cloud" OR "Neural Concept" OR "Monolith AI" OR Rescale OR nTop OR NAFEMS) (AI OR "machine learning" OR "digital twin" OR simulation OR CAE OR surrogate OR "physical AI" OR "scientific ML") when:30d
     notes: Source-specific discovery for trusted Engineering AI vendors and communities when direct RSS is unavailable.
+    enabled: true
+    max_entries: 8
+  - name: Trusted Engineering Media Discovery
+    url: https://news.google.com/rss/search
+    source_type: rss
+    fetch_type: google_news_rss
+    category: engineering_ai
+    priority: high
+    tags: [engineering_ai, trusted_discovery, engineering_media, industrial_ai, user_requested]
+    query: (site:engineering.com OR site:industrial-ai-network.com) (AI OR "artificial intelligence" OR "industrial AI" OR "engineering AI" OR simulation OR CAE OR CAD OR PLM OR "digital twin" OR manufacturing OR robotics OR "AI agent" OR "industrial copilot") when:30d
+    notes: Trusted discovery for user-requested Engineering.com and Industrial AI Network sources when direct RSS is unavailable.
     enabled: true
     max_entries: 8
   - name: Google News Medical AI Discovery
