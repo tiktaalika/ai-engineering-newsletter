@@ -1,0 +1,1747 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Engineering Newsletter 中文版</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #191815;
+      --muted: #6f6a60;
+      --line: #d7d0c2;
+      --paper: #f8f5ee;
+      --panel: #fffdf8;
+      --accent: #0b6b5a;
+      --accent-2: #c1492e;
+      --shadow: 0 22px 70px rgba(47, 38, 24, .11);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Charter, "Iowan Old Style", Georgia, serif;
+      background:
+        linear-gradient(90deg, rgba(25,24,21,.035) 1px, transparent 1px) 0 0/38px 38px,
+        linear-gradient(#fbf8f1, #eee7d8);
+      color: var(--ink);
+    }
+    .shell { max-width: 1180px; margin: 0 auto; padding: 34px 22px 80px; }
+    .hero { position: sticky; top: 0; z-index: 5; padding: 22px 0 20px; backdrop-filter: blur(18px); background: color-mix(in srgb, var(--paper) 78%, transparent); border-bottom: 1px solid rgba(25,24,21,.1); }
+    .hero-inner { max-width: 1180px; margin: 0 auto; padding: 0 22px; display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: end; }
+    h1 { margin: 0; font-size: clamp(30px, 4vw, 56px); line-height: 1; letter-spacing: 0; font-weight: 700; }
+    .subtitle { margin: 12px 0 0; color: var(--muted); font-size: 17px; max-width: 760px; }
+    .stamp { text-align: right; font-size: 14px; color: var(--muted); }
+    .nav, .language-switch, .pager { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 28px; }
+    .nav { margin-bottom: 16px; }
+    .nav a, .nav span, .language-switch a, .pager a, .pager span { color: var(--ink); border: 1px solid var(--line); padding: 7px 10px; text-decoration: none; background: rgba(255,255,255,.55); }
+    .nav span, .pager span { color: var(--muted); }
+    .language-switch a.active { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+    .day { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); margin: 28px 0; padding: 24px; }
+    .day.missing { border-style: dashed; }
+    .day-head { display: flex; justify-content: space-between; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 22px; }
+    .eyebrow { margin: 0 0 5px; color: var(--accent-2); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; font-family: "Avenir Next", Verdana, sans-serif; }
+    h2 { margin: 0; font-size: 38px; }
+    h3 { margin: 0 0 14px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
+    .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
+    .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .paper-push { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
+    .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .paper-item { border-top: 1px solid var(--line); }
+    .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
+    .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
+    h4 { margin: 0; font-size: 18px; line-height: 1.25; }
+    .zh-summary { margin: 0 0 7px; font-size: 18px; line-height: 1.38; font-weight: 700; color: var(--ink); }
+    .en-summary { margin: 8px 0 0; font-size: 15px; line-height: 1.46; color: var(--muted); }
+    a { color: var(--ink); text-decoration-color: color-mix(in srgb, var(--accent), transparent 40%); text-underline-offset: 3px; }
+    .meta { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; color: var(--muted); }
+    .meta span { border: 1px solid var(--line); padding: 4px 7px; }
+    .reason { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+    .missing-note h3 { margin: 0 0 10px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .missing-note p { margin: 0; color: var(--muted); line-height: 1.5; max-width: 760px; }
+    .landing { min-height: 100vh; display: grid; align-items: center; }
+    .landing-panel { max-width: 980px; margin: 0 auto; padding: 44px 22px; }
+    .landing h1 { font-size: clamp(38px, 7vw, 86px); }
+    .landing-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 34px; }
+    .edition { display: block; border: 1px solid var(--line); background: var(--panel); padding: 24px; text-decoration: none; box-shadow: var(--shadow); }
+    .edition strong { display: block; font-size: 28px; margin-bottom: 8px; }
+    .edition span { color: var(--muted); line-height: 1.45; }
+    .trend-panel { background: var(--ink); color: var(--panel); margin: 0 0 28px; padding: 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 24px; align-items: end; }
+    .trend-panel .eyebrow { color: #f0b45f; }
+    .trend-panel h2 { font-size: 32px; }
+    .trend-panel p { margin: 10px 0 0; color: rgba(255,253,248,.76); line-height: 1.5; max-width: 720px; }
+    .trend-actions { display: grid; gap: 10px; }
+    .trend-actions a { border: 1px solid rgba(255,253,248,.28); color: var(--panel); padding: 14px; text-decoration: none; background: rgba(255,253,248,.08); }
+    .trend-actions strong { display: block; font-family: "Avenir Next", Verdana, sans-serif; font-size: 14px; margin-bottom: 4px; }
+    .trend-actions span { display: block; color: rgba(255,253,248,.72); font-size: 14px; }
+    .report-document { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); padding: 24px; }
+    .report-document h1 { font-size: 40px; margin-bottom: 14px; }
+    .report-document h2 { border-top: 2px solid var(--ink); margin-top: 30px; padding-top: 18px; font-size: 28px; }
+    .report-document h3 { margin-top: 24px; }
+    .report-document h4 { margin-top: 18px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .report-document p, .report-document li { line-height: 1.5; color: var(--muted); }
+    .report-table-wrap { overflow-x: auto; border: 1px solid var(--line); margin: 14px 0 22px; }
+    .report-table { width: 100%; border-collapse: collapse; min-width: 980px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; }
+    .report-table th, .report-table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    .report-table th { background: #eee7d8; color: var(--ink); position: sticky; top: 0; }
+    code { background: rgba(11,107,90,.08); padding: 1px 4px; }
+    @media (max-width: 860px) {
+      .hero-inner, .day-head, .columns, .landing-links, .trend-panel { grid-template-columns: 1fr; }
+      .stamp { text-align: left; }
+      .day { padding: 18px; }
+      h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>AI Engineering Newsletter 中文版</h1>
+        <p class="subtitle">一个页面聚合 News Push、Paper Push 和 GitHub Trend Monitor。覆盖 General AI、Engineering AI、CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。</p>
+        <div class="language-switch"><a class="active" href="./index.html">中文版</a><a href="../../../en/page/3/index.html">English</a></div>
+      </div>
+      <div class="stamp">Latest Issued<br><strong>2026-07-05</strong></div>
+    </div>
+  </header>
+  <main class="shell">
+    
+    <nav class="nav"><a href="#2026-06-21">2026-06-21</a><a href="#2026-06-20">2026-06-20</a><a href="#2026-06-19">2026-06-19</a><a href="#2026-06-18">2026-06-18</a><a href="#2026-06-17">2026-06-17</a><a href="#2026-06-16">2026-06-16</a><a href="#2026-06-15">2026-06-15</a></nav>
+    <nav class="pager"><a href="../4/index.html">更早</a><a href="../2/index.html">更新</a></nav>
+    
+    <section class="day" id="2026-06-21">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Sunday, June 21, 2026</p>
+          <h2>2026-06-21</h2>
+        </div>
+        <div class="audit">
+          <span>373 fetched</span>
+          <span>72 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>AI Top 10</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">NVIDIA 黄仁勋呼吁美国人更积极使用 AI，AI 采用率成为产业竞争议题。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxORUIzQzY5eEVoY3dmRXRDRGVsU2VyTElMSlpUeVNHOXdHNEV0SDFhMWlZLWlDWGhtNnhPTzhMV3FDZDVsZURSMkdqQWFiN3dvYkp3UThsN3VsckczT2Nudlg5b19VODVBUXF1WjVRSVJQeWwxQkdKeW9KN2g5aU9VQXFNN2pfSWdveVJyNjAxa0hHYmEyVjl4SjVMalFMQnhfOXZN?oc=5">In Interview with AP, Nvidia&#x27;s Jensen Huang Urges Americans to Use AI More - Broadband Breakfast</a></h4>
+          <div class="meta"><span>In Interview with AP, Nvidia&#x27;s Jensen Huang Urges Americans to Use AI More - Broadband Breakfast</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">NVIDIA 45°C 冷却突破指向 AI 数据中心热管理瓶颈。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxQeHpyY1NQSmg0eVJSeDZ1UHZsbDI4aUdTRUtucG5vMXNqZTZBOEtEcFY1RUdHUzg3Wk40M3FLWXBHSkNjUEtZUmxtVGZqX2xmZWJwWmdRVDZFTFRoMEZjTTBOSlVMVmlHeFJ4UEZ3ZXdtRWdtcnZhSTJHcFV5UDRYWnE0SXpVbGhsdG56ZkdSUmtQdm5yZzdHcDRmRU96UmJQVl9MdXBGVE40a3pKQWt5VjdYTWp0NDBITW9mRnZtd1NuMXpGYkc4VXFmeGc?oc=5">Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines - NVIDIA Blog</a></h4>
+          <div class="meta"><span>Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines - NVIDIA Blog</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">Agentic AI 更适合承担大任务中的子任务，而不是直接接管完整岗位。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNQk1VTXp1QVN5T2NWY0lWaXhKSzlVOXRTSE41ZVlZVWVVdTVYSHNoVkE1MUE4dXY1aEhBRU5Qckh0T2JhU0hDX0dwb3NGNkQzWWFoMXBxbWd0cmtDV3JoLUNteEVJUFJFclpYV2ZMdE1rdkZZTll4Q1ljMXQxdFphVFQ5VzZGOHlkTWFxNXdoSXM?oc=5">How to Succeed with Agentic AI: Set It Major Tasks, But Don’t Hand It Entire Jobs - The Financial Brand</a></h4>
+          <div class="meta"><span>How to Succeed with Agentic AI: Set It Major Tasks, But Don’t Hand It Entire Jobs - The Financial Brand</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">Samsung 将 ChatGPT 和 Codex 引入员工工作流，OpenAI 企业部署继续扩张。</p>
+          <h4><a href="https://openai.com/index/samsung-electronics">Samsung Electronics brings ChatGPT and Codex to employees</a></h4>
+          <div class="meta"><span>Samsung Electronics brings ChatGPT and Codex to employees</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">OpenAI 据称考虑降价，以应对竞争压力。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9ibkIzaDNJZGNwbXdIWG10QkFXaEhMRVFWbEU0cFU3akN0bnJ5Q0ZvUDF2Sll0c2paajRITkRzSzhMek5kVEJpQnFaMGJMVUsxd2lkYlZXWE1BMHlrUGNuQk5aVXJRUkdYd2pBWmxMMk45MlVPSnFNbw?oc=5">OpenAI reportedly considering price cuts to push back against competitors - Mashable</a></h4>
+          <div class="meta"><span>OpenAI reportedly considering price cuts to push back against competitors - Mashable</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <p class="zh-summary">Insilico 与 SK Biopharm 达成重后端付款的 25 亿美元 AI 药物发现交易。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1uYzYya2p4R3V5MVhCVUNZdE9rcHp5RTJwRDI0LXJWdXFaWW1sM0hpbk4tYzB6Yl9qU1BUb3Q3TTUwVjNhX3hFcGxQcEJnSnd4R0hQOWh2NlJsZXFCNk43TUVzcUFRdkt0UmZjSHBKMmY5TjhlbG5YZDdJXzkwR2c?oc=5">Insilico lands heavily backloaded $2.5B AI drug discovery deal with SK Biopharm - Fierce Biotech</a></h4>
+          <div class="meta"><span>Insilico lands heavily backloaded $2.5B AI drug discovery deal with SK Biopharm - Fierce Biotech</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <p class="zh-summary">可信生物数据被认为是 AI 药物发现的核心瓶颈。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxONlVmcmQzZUg1c2NVWDYtdVVxQ0wxcDQ1T1h3SEZBdU5XYm9Xc25jSkY1d0E3b3JxblpyaUR0cHZFbkRsM0ZZdU1ndURmejZoRjBtcEFWYl9taFVNNmE5RVA0X1VZT2FNNFZxSlVVU2g1N3RCb29nOXVJblY1X1dEUnNka1ZtX1RVdXc?oc=5">AI for Drug Discovery Needs Trustworthy Biological Data - the-scientist.com</a></h4>
+          <div class="meta"><span>AI for Drug Discovery Needs Trustworthy Biological Data - the-scientist.com</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <p class="zh-summary">Hugging Face 的 agent resource discovery 指向 agent 自动查找工具和资源的趋势。</p>
+          <h4><a href="https://huggingface.co/blog/agentic-resource-discovery-launch">Agentic Resource Discovery: Let agents search</a></h4>
+          <div class="meta"><span>Agentic Resource Discovery: Let agents search</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <p class="zh-summary">Anthropic Project Fetch 进入第二阶段，继续探索模型行为和网络环境交互。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5TLWJxbE9YblE2Wk13TmJ2N0ZxekNHM2R1M01JUnQ0emxWWTBHczk0MzdCajhRSWd2N3l5NEFtQ2pyd1RPM29ncFdfWEdWbWFaOFk4cW13dTVkQWMzY2xYOXl6d3dJaUdlV0E?oc=5">Project Fetch: Phase two - Anthropic</a></h4>
+          <div class="meta"><span>Project Fetch: Phase two - Anthropic</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <p class="zh-summary">AI 数据中心获得政府电网快速通道，算力基础设施进入能源政策核心。</p>
+          <h4><a href="https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid">AI data centers just got a government-mandated fast lane to the grid</a></h4>
+          <div class="meta"><span>AI data centers just got a government-mandated fast lane to the grid</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Engineering AI Top 5</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Physical AI 正从“功能机器人”转向更智能的机器人系统。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9WZ1JvY1hDNEU2TnkyUEpiYXdLZWtnTl9WM0lMRW53N0RVNGxUZlFteDFGZ3FjbzVaQllGdzN0MlgxaDlQV3dzWVRlVTlSTUtDeEhIaDJSbGJ3Tk5pb3UxOVNldTcyX2w1Q1Q4Yw?oc=5">Column: Physical AI shifts from feature robots to smart robots - digitimes</a></h4>
+          <div class="meta"><span>Column: Physical AI shifts from feature robots to smart robots - digitimes</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">Simcenter FLOEFD 2606 更新继续推进 CAD-embedded CFD 工作流。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-floefd-2606">What’s new in Simcenter FLOEFD 2606? | CAD-embedded CFD simulation</a></h4>
+          <div class="meta"><span>What’s new in Simcenter FLOEFD 2606? | CAD-embedded CFD simulation</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">Siemens 用数字孪生建模 AI factories 的冷却、电力和微电网。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/system-simulation-for-ai-factories-a-digital-twin-approach-to-cooling-power-and-microgrid-for-modern-data-centers">System Simulation for AI factories: A digital twin approach to cooling, power and microgrid for modern data centers</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 71.645</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">SiMa.ai 用 agentic developer tooling 缩短 physical AI 部署周期。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzJJX3o1LVBOZDc2bVp4X19yV3NWMHo5eGFjTWFBY1M5THZUV004X0d1ZkNIbnR6eWJlakNYcWtGVjR6SEZhbXdORGNlWFhwcF9WNk5famNGTUN0Y3FjVzExaXJZN045aUJLeEJzeXNYRVVGZmZWOVZ1b2NuWThvcXNKR3YySHRfRnVIZXV1enFlUlhZWmJfbXVuS1p5QTZmVzVVS2VJQmRTbkRjQThz?oc=5">SiMa.ai cuts physical AI deployment from months to days with agentic developer tooling - SiliconANGLE</a></h4>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 68.262</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">NAFEMS Americas 复盘显示工程团队正在把 agents 和 AI physics 融入 CAE 工作流。</p>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 61.668</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.56</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Medical / Bio AI Top 5</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Insilico与SK Biopharm达成25亿美元AI药物发现协议。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPR2VoSHF4djd5YnE5VUZxRFVCUnp5Vm9Xc3BuNllmUFl4cmpsNlp3Z04xSVJkby1wUWRNaWh2OHJaTV9TTkRzWWV2aVEzVEt5blo4eHJ6cE56RUowelRDNUlzRkllVHpiWHZjOU5SWXJPNlNBX1Z3ZHJYT2gtSEdYM3JkeG9uS2F1eGV1SjBnZUZmYWdYWmxxeFJUWFRUdTAzQ2dMZXNUdmFDYkt3eUJR?oc=5">Insilico lands heavily backloaded $2.5B AI drug discovery deal with SK Biopharm - Fierce Biotech</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 56.281</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">AI药物研发亟需可靠的生物学数据支持。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOMUtWNUpvWTJPZk1rY2dEX2E0NlM0XzJzdFZFcE9rZ1NwWWFGOXlVblZ0WVV4bkNpNnc0Y3RLWWJIZURRNUFxTGtRbFlPTUJIdXg5OUFKd3dQSjZWWHdwZGRvZU9Pd0FxOE80TzlUa0FuaTgtNmlrc0Z2NEU2ZTZ3YTF1dmhCSnNZaFlkbzhmZjNjTDEzVmc?oc=5">AI for Drug Discovery Needs Trustworthy Biological Data - the-scientist.com</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 56.015</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.94</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/securing-the-future-of-ai-agents">Securing the future of AI agents</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 58.814</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.40</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning">Unlocking UK house-building with AI-accelerated planning</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 56.043</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.43</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/securing-the-future-of-ai-agents">Securing the future of AI agents</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 58.814</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.40</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-20">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Saturday, June 20, 2026</p>
+          <h2>2026-06-20</h2>
+        </div>
+        <div class="audit">
+          <span>373 fetched</span>
+          <span>72 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>AI Top 10</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">NVIDIA 黄仁勋呼吁美国人更积极使用 AI，AI 采用率成为产业竞争议题。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxORUIzQzY5eEVoY3dmRXRDRGVsU2VyTElMSlpUeVNHOXdHNEV0SDFhMWlZLWlDWGhtNnhPTzhMV3FDZDVsZURSMkdqQWFiN3dvYkp3UThsN3VsckczT2Nudlg5b19VODVBUXF1WjVRSVJQeWwxQkdKeW9KN2g5aU9VQXFNN2pfSWdveVJyNjAxa0hHYmEyVjl4SjVMalFMQnhfOXZN?oc=5">In Interview with AP, Nvidia&#x27;s Jensen Huang Urges Americans to Use AI More - Broadband Breakfast</a></h4>
+          <div class="meta"><span>In Interview with AP, Nvidia&#x27;s Jensen Huang Urges Americans to Use AI More - Broadband Breakfast</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">NVIDIA 45°C 冷却突破指向 AI 数据中心热管理瓶颈。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxQeHpyY1NQSmg0eVJSeDZ1UHZsbDI4aUdTRUtucG5vMXNqZTZBOEtEcFY1RUdHUzg3Wk40M3FLWXBHSkNjUEtZUmxtVGZqX2xmZWJwWmdRVDZFTFRoMEZjTTBOSlVMVmlHeFJ4UEZ3ZXdtRWdtcnZhSTJHcFV5UDRYWnE0SXpVbGhsdG56ZkdSUmtQdm5yZzdHcDRmRU96UmJQVl9MdXBGVE40a3pKQWt5VjdYTWp0NDBITW9mRnZtd1NuMXpGYkc4VXFmeGc?oc=5">Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines - NVIDIA Blog</a></h4>
+          <div class="meta"><span>Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines - NVIDIA Blog</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">Agentic AI 更适合承担大任务中的子任务，而不是直接接管完整岗位。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNQk1VTXp1QVN5T2NWY0lWaXhKSzlVOXRTSE41ZVlZVWVVdTVYSHNoVkE1MUE4dXY1aEhBRU5Qckh0T2JhU0hDX0dwb3NGNkQzWWFoMXBxbWd0cmtDV3JoLUNteEVJUFJFclpYV2ZMdE1rdkZZTll4Q1ljMXQxdFphVFQ5VzZGOHlkTWFxNXdoSXM?oc=5">How to Succeed with Agentic AI: Set It Major Tasks, But Don’t Hand It Entire Jobs - The Financial Brand</a></h4>
+          <div class="meta"><span>How to Succeed with Agentic AI: Set It Major Tasks, But Don’t Hand It Entire Jobs - The Financial Brand</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">Samsung 将 ChatGPT 和 Codex 引入员工工作流，OpenAI 企业部署继续扩张。</p>
+          <h4><a href="https://openai.com/index/samsung-electronics">Samsung Electronics brings ChatGPT and Codex to employees</a></h4>
+          <div class="meta"><span>Samsung Electronics brings ChatGPT and Codex to employees</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">OpenAI 据称考虑降价，以应对竞争压力。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9ibkIzaDNJZGNwbXdIWG10QkFXaEhMRVFWbEU0cFU3akN0bnJ5Q0ZvUDF2Sll0c2paajRITkRzSzhMek5kVEJpQnFaMGJMVUsxd2lkYlZXWE1BMHlrUGNuQk5aVXJRUkdYd2pBWmxMMk45MlVPSnFNbw?oc=5">OpenAI reportedly considering price cuts to push back against competitors - Mashable</a></h4>
+          <div class="meta"><span>OpenAI reportedly considering price cuts to push back against competitors - Mashable</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <p class="zh-summary">Insilico 与 SK Biopharm 达成重后端付款的 25 亿美元 AI 药物发现交易。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1uYzYya2p4R3V5MVhCVUNZdE9rcHp5RTJwRDI0LXJWdXFaWW1sM0hpbk4tYzB6Yl9qU1BUb3Q3TTUwVjNhX3hFcGxQcEJnSnd4R0hQOWh2NlJsZXFCNk43TUVzcUFRdkt0UmZjSHBKMmY5TjhlbG5YZDdJXzkwR2c?oc=5">Insilico lands heavily backloaded $2.5B AI drug discovery deal with SK Biopharm - Fierce Biotech</a></h4>
+          <div class="meta"><span>Insilico lands heavily backloaded $2.5B AI drug discovery deal with SK Biopharm - Fierce Biotech</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <p class="zh-summary">可信生物数据被认为是 AI 药物发现的核心瓶颈。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxONlVmcmQzZUg1c2NVWDYtdVVxQ0wxcDQ1T1h3SEZBdU5XYm9Xc25jSkY1d0E3b3JxblpyaUR0cHZFbkRsM0ZZdU1ndURmejZoRjBtcEFWYl9taFVNNmE5RVA0X1VZT2FNNFZxSlVVU2g1N3RCb29nOXVJblY1X1dEUnNka1ZtX1RVdXc?oc=5">AI for Drug Discovery Needs Trustworthy Biological Data - the-scientist.com</a></h4>
+          <div class="meta"><span>AI for Drug Discovery Needs Trustworthy Biological Data - the-scientist.com</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <p class="zh-summary">Hugging Face 的 agent resource discovery 指向 agent 自动查找工具和资源的趋势。</p>
+          <h4><a href="https://huggingface.co/blog/agentic-resource-discovery-launch">Agentic Resource Discovery: Let agents search</a></h4>
+          <div class="meta"><span>Agentic Resource Discovery: Let agents search</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <p class="zh-summary">Anthropic Project Fetch 进入第二阶段，继续探索模型行为和网络环境交互。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5TLWJxbE9YblE2Wk13TmJ2N0ZxekNHM2R1M01JUnQ0emxWWTBHczk0MzdCajhRSWd2N3l5NEFtQ2pyd1RPM29ncFdfWEdWbWFaOFk4cW13dTVkQWMzY2xYOXl6d3dJaUdlV0E?oc=5">Project Fetch: Phase two - Anthropic</a></h4>
+          <div class="meta"><span>Project Fetch: Phase two - Anthropic</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <p class="zh-summary">AI 数据中心获得政府电网快速通道，算力基础设施进入能源政策核心。</p>
+          <h4><a href="https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid">AI data centers just got a government-mandated fast lane to the grid</a></h4>
+          <div class="meta"><span>AI data centers just got a government-mandated fast lane to the grid</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Engineering AI Top 5</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Physical AI 正从“功能机器人”转向更智能的机器人系统。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9WZ1JvY1hDNEU2TnkyUEpiYXdLZWtnTl9WM0lMRW53N0RVNGxUZlFteDFGZ3FjbzVaQllGdzN0MlgxaDlQV3dzWVRlVTlSTUtDeEhIaDJSbGJ3Tk5pb3UxOVNldTcyX2w1Q1Q4Yw?oc=5">Column: Physical AI shifts from feature robots to smart robots - digitimes</a></h4>
+          <div class="meta"><span>Column: Physical AI shifts from feature robots to smart robots - digitimes</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">Simcenter FLOEFD 2606 更新继续推进 CAD-embedded CFD 工作流。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-floefd-2606">What’s new in Simcenter FLOEFD 2606? | CAD-embedded CFD simulation</a></h4>
+          <div class="meta"><span>What’s new in Simcenter FLOEFD 2606? | CAD-embedded CFD simulation</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">Siemens 用数字孪生建模 AI factories 的冷却、电力和微电网。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/system-simulation-for-ai-factories-a-digital-twin-approach-to-cooling-power-and-microgrid-for-modern-data-centers">System Simulation for AI factories: A digital twin approach to cooling, power and microgrid for modern data centers</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 71.645</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">SiMa.ai 用 agentic developer tooling 缩短 physical AI 部署周期。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzJJX3o1LVBOZDc2bVp4X19yV3NWMHo5eGFjTWFBY1M5THZUV004X0d1ZkNIbnR6eWJlakNYcWtGVjR6SEZhbXdORGNlWFhwcF9WNk5famNGTUN0Y3FjVzExaXJZN045aUJLeEJzeXNYRVVGZmZWOVZ1b2NuWThvcXNKR3YySHRfRnVIZXV1enFlUlhZWmJfbXVuS1p5QTZmVzVVS2VJQmRTbkRjQThz?oc=5">SiMa.ai cuts physical AI deployment from months to days with agentic developer tooling - SiliconANGLE</a></h4>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 68.262</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">NAFEMS Americas 复盘显示工程团队正在把 agents 和 AI physics 融入 CAE 工作流。</p>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 61.668</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.56</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Medical / Bio AI Top 5</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Insilico与SK Biopharm达成25亿美元AI药物发现协议。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPR2VoSHF4djd5YnE5VUZxRFVCUnp5Vm9Xc3BuNllmUFl4cmpsNlp3Z04xSVJkby1wUWRNaWh2OHJaTV9TTkRzWWV2aVEzVEt5blo4eHJ6cE56RUowelRDNUlzRkllVHpiWHZjOU5SWXJPNlNBX1Z3ZHJYT2gtSEdYM3JkeG9uS2F1eGV1SjBnZUZmYWdYWmxxeFJUWFRUdTAzQ2dMZXNUdmFDYkt3eUJR?oc=5">Insilico lands heavily backloaded $2.5B AI drug discovery deal with SK Biopharm - Fierce Biotech</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 56.281</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">AI药物研发亟需可靠的生物学数据支持。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOMUtWNUpvWTJPZk1rY2dEX2E0NlM0XzJzdFZFcE9rZ1NwWWFGOXlVblZ0WVV4bkNpNnc0Y3RLWWJIZURRNUFxTGtRbFlPTUJIdXg5OUFKd3dQSjZWWHdwZGRvZU9Pd0FxOE80TzlUa0FuaTgtNmlrc0Z2NEU2ZTZ3YTF1dmhCSnNZaFlkbzhmZjNjTDEzVmc?oc=5">AI for Drug Discovery Needs Trustworthy Biological Data - the-scientist.com</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 56.015</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.94</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/securing-the-future-of-ai-agents">Securing the future of AI agents</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 58.814</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.40</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning">Unlocking UK house-building with AI-accelerated planning</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 56.043</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.43</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/securing-the-future-of-ai-agents">Securing the future of AI agents</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 58.814</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.40</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-19">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Friday, June 19, 2026</p>
+          <h2>2026-06-19</h2>
+        </div>
+        <div class="audit">
+          <span>377 fetched</span>
+          <span>111 candidates</span>
+          <span>2 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>AI Top 10</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Alchemy AgentCard 接入 Visa，把 AI agent 支付和数字身份推向可交易基础设施。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV2lKUEY5SnlTc05Ba0tsV01fRFRqS3ViaFQ2VmJvb1pGcFVKOXdrRDFiZDdrLWVXY2VEZnFoLWVNSV84T0lTZGFqTVppNnI5RWNzeTNJdmhETTBIZmlISGxRaWJYUUI0QlpNQ3BjZlROSnk3UHpWQ2ZTN2J0VEJZcl9fOTZFbFNzekJWeFVlendsSDZnRlRYcTRnMC1RNW5tR0RLOG9DRkVlRXFqcWM2MkJ3Z1NyLVBk?oc=5">Alchemy AgentCard Brings Visa Payments To AI Agent Commerce - TradingView</a></h4>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 66.095</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.79</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">L&#x27;Oréal 与 OpenAI 加速生成式 AI 内容引擎，品牌营销进入规模化 AI 生产阶段。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxOcTJtcDJOaU84SmxSWGpHelQ5dEZSQjV5WkRMSVZGY19Cd1kxcGRQN193T3ZjeGFDVk5SMXBUZjY0Y0FUQ2Ezc3h3YVk1aXBVaUpCWWIySHp3TEFHYlNtOWNUcEVKSE1ldl9Ec1N6LUY3NU05R285aG0wOVdZUXFpaWxzMzg3TVZseDA3M2huN3JMaXVjLWVNZFk4SEZiUlpwTmtj?oc=5">L’Oréal accelerates generative AI content engine with fresh OpenAI deal - Digiday</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 62.545</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">SageMaker 与 CloudWatch 增强生成式 AI 推理监控，生产级 AI 运维继续细化。</p>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch">Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch</a></h4>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 62.483</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">OpenAI 在 IPO 前继续引入高级政策与战略人才。</p>
+          <h4><a href="https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo">OpenAI is bringing on some big guns in the lead-up to its IPO</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 61.671</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">OpenAI 展示 AI 辅助儿童罕见遗传病诊断，医疗 AI 进入高价值临床辅助场景。</p>
+          <h4><a href="https://openai.com/index/diagnose-rare-childhood-diseases">Using AI to help physicians diagnose rare genetic diseases affecting children</a></h4>
+          <div class="meta"><span>OpenAI</span><span>score 61.59</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.77</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <p class="zh-summary">Amazon 计划更直接销售自研 AI 芯片，试图挑战 NVIDIA 的算力生态。</p>
+          <h4><a href="https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips">Amazon hopes to challenge Nvidia more directly by selling its AI chips</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 61.3</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.88</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <p class="zh-summary">Microsoft AutoJack 披露网页可导致 AI agent 宿主 RCE，agent 安全面临真实攻击面。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkJCU0tFankzSmVreVVycHBQc3UtcUJIWmxnZzVzaVhCeTdCSXdXbFBhN2w3aXJTNzhQZ21SQW9DT1IySkNKSWZxR3lrOFd6dGFIdENSdElGUGl3Q2NEZHdscXpNVDg3eDYwY3Y3Q1pNQmhIRWltRmhUb2x4bVJsSFp5bjRGdmxGOVNuTkk4NWc1S0F1Q1FaV3BMYWI3WGY2MXNQdVJXYw?oc=5">AutoJack: How a single page can RCE the host running your AI agent - Microsoft</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 59.977</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.82</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <p class="zh-summary">韩国与 Anthropic 扩大 AI safety 和 cybersecurity 合作。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zZVRESjkzVmtwTzFtSllsR3VpS0hBZnF2QjExcG5tOFRPNlJpcjZ2eDV0WW82aGs1bFMxa1doejhmUUJJNXNzQ3A3MU43Ynp1U2kwc2JNdjBrOXhDTVpnYTNmWWVVNFE?oc=5">South Korea, Anthropic Agree to Expand AI Safety and Cybersecurity Cooperation - thelec.net</a></h4>
+          <div class="meta"><span>Google News Frontier AI Policy and Access</span><span>score 59.589</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.80</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <p class="zh-summary">MosaicLeaks 提醒研究型 agent 可能泄露敏感信息，agent 记忆与检索安全成为关键问题。</p>
+          <h4><a href="https://huggingface.co/blog/ServiceNow/mosaicleaks">MosaicLeaks: Can your research agent keep a secret?</a></h4>
+          <div class="meta"><span>Hugging Face</span><span>score 59.232</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <p class="zh-summary">DeepMind 讨论 AI agent 未来安全，前沿研究开始聚焦 agent 系统级风险。</p>
+          <h4><a href="https://deepmind.google/blog/securing-the-future-of-ai-agents">Securing the future of AI agents</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 65.874</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.72</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Engineering AI Top 5</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Siemens 用数字孪生建模 AI factories 的冷却、电力和微电网。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/system-simulation-for-ai-factories-a-digital-twin-approach-to-cooling-power-and-microgrid-for-modern-data-centers">System Simulation for AI factories: A digital twin approach to cooling, power and microgrid for modern data centers</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 73.293</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">Simcenter Flux 2026.1 更新继续推进电磁仿真平台能力。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-flux-2026-1">What’s new in Simcenter Flux 2026.1</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 75.613</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">SiMa.ai 用 agentic developer tooling 缩短 physical AI 部署周期。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzJJX3o1LVBOZDc2bVp4X19yV3NWMHo5eGFjTWFBY1M5THZUV004X0d1ZkNIbnR6eWJlakNYcWtGVjR6SEZhbXdORGNlWFhwcF9WNk5famNGTUN0Y3FjVzExaXJZN045aUJLeEJzeXNYRVVGZmZWOVZ1b2NuWThvcXNKR3YySHRfRnVIZXV1enFlUlhZWmJfbXVuS1p5QTZmVzVVS2VJQmRTbkRjQThz?oc=5">SiMa.ai cuts physical AI deployment from months to days with agentic developer tooling - SiliconANGLE</a></h4>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 69.909</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">NAFEMS Americas 复盘显示工程团队正在把 agents 和 AI physics 融入 CAE 工作流。</p>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 63.315</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.64</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">Rescale 继续推进云 HPC，支撑 R&amp;D、仿真和 AI for engineering 工作流。</p>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 68.906</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.74</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Medical / Bio AI Top 5</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">AI助力医生诊断儿童罕见遗传病，新增18例诊断。</p>
+          <h4><a href="https://openai.com/index/diagnose-rare-childhood-diseases">Using AI to help physicians diagnose rare genetic diseases affecting children</a></h4>
+          <div class="meta"><span>OpenAI</span><span>score 61.59</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.77</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/securing-the-future-of-ai-agents">Securing the future of AI agents</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 65.874</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.72</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning">Unlocking UK house-building with AI-accelerated planning</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 63.102</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.75</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/securing-the-future-of-ai-agents">Securing the future of AI agents</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 65.874</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.72</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-18">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Thursday, June 18, 2026</p>
+          <h2>2026-06-18</h2>
+        </div>
+        <div class="audit">
+          <span>376 fetched</span>
+          <span>110 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>AI Top 10</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Stripe 与 AWS 推动 AI agent payments，内容所有者和出版商开始进入机器支付场景。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPN0czbWdqRFhSbWREZ05OMFNfdkt6VFVBaUYyZHNNSHp0SDA1Z1Z4N3VOYzdEdjlZZHpEM3VlVDk0WWZFcnQ2VzlfRWxqX29zQzZGd1Rxd29Wb2hiOXFwRFV5MmNfUnB3MTVuazFmX05WSDBfaEVjbFNQdWxwMFJkQzZKajlYOUR1MjVjRW5Wakhva3ZSVGhPSnhCNDNsbTNLMmhjQlR4SFUxVXo0OUZ2TjE0NGFUME0?oc=5">Stripe and AWS enable AI agent payments for content owners and publishers - Finextra Research</a></h4>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 65.855</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">NEA 投资人讨论 AI IPO、personal agents 和企业 AI ROI，资本市场开始追问实际回报。</p>
+          <h4><a href="https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning">NEA’s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 64.573</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.87</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">Anthropic 派安全专家安抚美国政府，前沿模型安全正在进入外交和危机沟通阶段。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ2RZem8yQUpabFJMQXpmRHdabW85RlUwOFZ4TThJSjJkS0dlTW1LUGZLcFRJQWFDZjlKdHZkVjdRaWhmeWMtWXNTSWN3TFJPNU85RzNKLVdaZXUxWWRXTkpaMlN4d2xfRjZqelh0R1NOY1p3azAtaXpDejd5SlNKSllOOA?oc=5">The Hacker Sent by Anthropic to Calm the Government’s Nerves About AI Safety - WSJ</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 63.124</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">Amazon SageMaker AI Async Inference 支持 inline request payloads，生产级模型服务继续降低运维摩擦。</p>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-async-inference-now-supports-inline-request-payloads">Amazon SageMaker AI Async Inference now supports inline request payloads</a></h4>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 61.914</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">韩国与 Anthropic 加强 AI safety 和 cybersecurity 合作，亚洲 AI 安全生态继续升温。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNb0RjQm05V0ZvMnIyc04xT3hHMVFnU0w3UmprODNCNXZJREtiTFY1MUlXajU4NW5yLVcxNFRac1U0M3I1MEQyYUVsSjRKSXpPUXBZbXQxaFdIVTVhRWtRX1o5YzlOWm9lZ2JIQVVWQ3dfZjRtMGR4NE1Jc0NGdnlqQUhDU3B3NUhQbFpZMXVR0gGOAUFVX3lxTE1vRGNCbTlXRm8ycjJzTjFPeEcxUWdTTDdSams4M0I1dklES2JMVjUxSVdqNTg1bnItVzE0VFpzVTQzcjUwRDJhRWxKNEpJek9RcFltdDFoV0hVNWFFa1FfWjljOU5ab2VnYkhBVVZDd19mNG0wZHg0TUlzQ0Z2eWpBSENTcHc1SFBsWlkxdVE?oc=5">South Korea partners with Anthropic to bolster AI safety and cybersecurity - CHOSUNBIZ - Chosunbiz</a></h4>
+          <div class="meta"><span>Google News Frontier AI Policy and Access</span><span>score 61.562</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <p class="zh-summary">AWS 提出面向大规模数据和 AI agents 的 context intelligence，企业 agent 需要更强上下文层。</p>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/context-intelligence-for-your-data-and-ai-agents-at-scale">Context intelligence for your data and AI agents at scale</a></h4>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 61.078</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.87</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <p class="zh-summary">XDOF 正为 AI 实验室收集机器人训练数据，physical AI 的脏活开始被专业化外包。</p>
+          <h4><a href="https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it">Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it.</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 60.719</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <p class="zh-summary">OpenAI 发布 LifeSciBench，生命科学 AI 评估基准继续专业化。</p>
+          <h4><a href="https://openai.com/index/introducing-life-sci-bench">Introducing LifeSciBench</a></h4>
+          <div class="meta"><span>OpenAI</span><span>score 59.114</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.69</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <p class="zh-summary">OpenAI 展示近自主 AI chemist 改进药物化学反应，AI for science 从评估走向实验流程。</p>
+          <h4><a href="https://openai.com/index/ai-chemist-improves-reaction">A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry</a></h4>
+          <div class="meta"><span>OpenAI</span><span>score 58.739</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.79</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <p class="zh-summary">World model 初创公司 Odyssey 获 14.5 亿美元估值，Amazon 等资本继续押注世界模型。</p>
+          <h4><a href="https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names">World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 57.842</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.87</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Engineering AI Top 5</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">PhysicsX 获 3 亿美元融资，Physics AI 被定位为把工程仿真从天级压缩到秒级。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxQdXhzRTdVUjBYWTlXcmhzV2tHcVhYS1R3NHNIVnpDZ0FBTlVYMENEbFdoVXRqS3dHWjZlRDMxTFd6cTRYMTdoWmkxdmQ4OGFUMWJwYTN2NlJhZk5ON2hBdjlidVlfVlVKY2dtd1c0NlNKUmlUaWF1VlBtaDItYXdjQmRuZ05FdXJkUXJad0tQTXlYcFpKRGxKSlZRNFphMG1GQXlHcmhIX0VKcVcyNi1KSFY2a1pFUzBaV0FtcnRhOWJ2NlJKRVY2bVhR?oc=5">Physics AI Slashes Engineering Simulation From Days to Seconds, PhysicsX Raises $300M - Tech Times</a></h4>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 77.738</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">Siemens 用数字孪生建模 AI factories 的冷却、电力和微电网。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/system-simulation-for-ai-factories-a-digital-twin-approach-to-cooling-power-and-microgrid-for-modern-data-centers">System Simulation for AI factories: A digital twin approach to cooling, power and microgrid for modern data centers</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 73.845</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">SiMa.ai 用 agentic developer tooling 缩短 physical AI 部署周期。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzJJX3o1LVBOZDc2bVp4X19yV3NWMHo5eGFjTWFBY1M5THZUV004X0d1ZkNIbnR6eWJlakNYcWtGVjR6SEZhbXdORGNlWFhwcF9WNk5famNGTUN0Y3FjVzExaXJZN045aUJLeEJzeXNYRVVGZmZWOVZ1b2NuWThvcXNKR3YySHRfRnVIZXV1enFlUlhZWmJfbXVuS1p5QTZmVzVVS2VJQmRTbkRjQThz?oc=5">SiMa.ai cuts physical AI deployment from months to days with agentic developer tooling - SiliconANGLE</a></h4>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 70.462</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">NAFEMS Americas 复盘继续显示 agents 和 AI physics 正进入 CAE 工作流。</p>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 63.868</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.66</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">Rescale 继续推进云 HPC 基础设施，支撑大规模 R&amp;D、仿真和 AI for engineering。</p>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 69.459</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.76</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Medical / Bio AI Top 5</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5">Towards autonomous medical artificial intelligence agents - Nature</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 58.436</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.78</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          
+          <h4><a href="https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai">Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 53.715</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">NVIDIA BioNeMo支持用LoRA微调生物基础模型。</p>
+          <h4><a href="https://developer.nvidia.com/blog/fine-tuning-biological-foundation-models-with-lora-using-nvidia-bionemo-recipes">Fine-Tuning Biological Foundation Models with LoRA Using NVIDIA BioNeMo Recipes</a></h4>
+          <div class="meta"><span>NVIDIA AI</span><span>score 50.268</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.38</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning">Unlocking UK house-building with AI-accelerated planning</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 65.47</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.85</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-17">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Wednesday, June 17, 2026</p>
+          <h2>2026-06-17</h2>
+        </div>
+        <div class="audit">
+          <span>376 fetched</span>
+          <span>108 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>AI Top 10</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">NVIDIA 把 AI agents 推向 AR 眼镜和 XR 设备，端侧空间计算开始进入 agent 阶段。</p>
+          <h4><a href="https://developer.nvidia.com/blog/building-ai-agents-for-ar-glasses-and-xr-devices-with-nvidia-xr-ai">Building AI Agents for AR Glasses and XR Devices with NVIDIA XR AI</a></h4>
+          <div class="meta"><span>NVIDIA AI</span><span>score 65.213</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.90</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">G7 会议上 OpenAI、Anthropic 和 Google 与各国领导人同场，AI 权力结构进一步进入地缘政治核心。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOZE9yRkF4ZWRCUXlTM3JoR0RKVDE4Q1VfS2xNdHBZODdUTjNrcF9OVVFlMXpvZHg5REFaYy1IdGxvSkhGTGlkcWU2WjNZWEY4N0VZZWdyNWtDMG5BN3RaamlfcXlEYzl0M1Npc1ZZN0dkYXphQzVrU1RGMFk3ZE92eGZsSkJVMDd3bUJMRUhB0gGTAUFVX3lxTE9QVktTTi1feHFDS21EU2ozTTV1UTdoNS1JdEVJMURhQWxjdVVudnVMZUplWGQ5N21Yd0ZfcFZsTE9JOWxNVWNnT3JlLXRkWTU5T2R2cFdaREgwUlg2MTd3TDJjTXctRVdJRVhsX1h3NHhTYldvUzFRZUh2RUR2THpKcmJndXl1c0hWNHZRblRFVG14UQ?oc=5">&#x27;A signal of where power sits&#x27;: Trump and world leaders joined by OpenAI, Anthropic, Google at G7 - CNBC</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 63.598</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">NVIDIA Blackwell 在 MLPerf Training 6.0 中取得领先，训练算力竞争继续加速。</p>
+          <h4><a href="https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance">NVIDIA Blackwell Tops MLPerf Training 6.0 with Industry-Leading Scale and Performance</a></h4>
+          <div class="meta"><span>NVIDIA AI</span><span>score 62.871</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.83</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">Amazon SageMaker AI 引入 container caching，加快模型扩缩容。</p>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling">Introducing container caching in Amazon SageMaker AI for faster model scaling</a></h4>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 61.368</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.88</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">韩国加入 OpenAI AI safety 合作，成为第四个相关国家。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxVmY0V3ZvSk8wSGJBQkFHbDdlVVhTNWJqUVJRQWFvQTFBZ0xFb0l4WXNxeXFLVHRpVWRiRk0xRUpzSHdmSGV0Z1lsT2c2Y193REVaeVhna9IBV0FVX3lxTFBxVmY0V3ZvSk8wSGJBQkFHbDdlVVhTNWJqUVJRQWFvQTFBZ0xFb0l4WXNxeXFLVHRpVWRiRk0xRUpzSHdmSGV0Z1lsT2c2Y193REVaeVhnaw?oc=5">Korea joins OpenAI on AI safety, fourth nation to do so - aju press</a></h4>
+          <div class="meta"><span>Google News Frontier AI Policy and Access</span><span>score 60.092</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.82</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <p class="zh-summary">Android 17 扩展 Gemini 功能，移动操作系统继续把 AI 放进默认工作流。</p>
+          <h4><a href="https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features">Android 17 launches with new multitasking tools as Google expands Gemini features</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 57.682</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <p class="zh-summary">OpenAI 提出用 deployment simulation 在发布前预测模型行为。</p>
+          <h4><a href="https://openai.com/index/deployment-simulation">Predicting model behavior before release by simulating deployment</a></h4>
+          <div class="meta"><span>OpenAI</span><span>score 56.891</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.67</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <p class="zh-summary">TechCrunch 称 ChatGPT 市场份额首次跌破 50%，AI 消费入口竞争变得更分散。</p>
+          <h4><a href="https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time">ChatGPT’s market share slips below 50% for first time</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 55.797</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.78</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <p class="zh-summary">Databricks 据称发布面向企业的通用 AI agents，数据平台正进入 agent 层竞争。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPY21LZG10Wjdsd2g0RDdRbm1ZaU81M1E0MUszaXJmOE02QkFEeVluNklUQ3BjVU91c2lYTWZTU0dsZkZEY3ZHaVFibFlOaXBMSFFhMUl1N3RHbk9WWUk4bWwyenpsYVk3cFRPVUk3bWJJajhGVFoxM09TZHRqUVlTc3poR2ZwTjN2RVcyNV8tU081bkRxTGt0Ng?oc=5">Exclusive | Databricks Releases General AI Agents for Businesses - WSJ</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 53.928</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.54</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <p class="zh-summary">Respond.io 获 6250 万美元融资，AI agent messaging 继续成为客服和销售自动化热点。</p>
+          <h4><a href="https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe">Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 58.324</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.74</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Engineering AI Top 5</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Siemens 用 system simulation 和 digital twin 讨论 AI factories 的冷却、电力与微电网问题。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/system-simulation-for-ai-factories-a-digital-twin-approach-to-cooling-power-and-microgrid-for-modern-data-centers">System Simulation for AI factories: A digital twin approach to cooling, power and microgrid for modern data centers</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 74.356</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">SiMa.ai 推出 agentic developer tooling，把 physical AI 部署周期从数月压缩到数天。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzJJX3o1LVBOZDc2bVp4X19yV3NWMHo5eGFjTWFBY1M5THZUV004X0d1ZkNIbnR6eWJlakNYcWtGVjR6SEZhbXdORGNlWFhwcF9WNk5famNGTUN0Y3FjVzExaXJZN045aUJLeEJzeXNYRVVGZmZWOVZ1b2NuWThvcXNKR3YySHRfRnVIZXV1enFlUlhZWmJfbXVuS1p5QTZmVzVVS2VJQmRTbkRjQThz?oc=5">SiMa.ai cuts physical AI deployment from months to days with agentic developer tooling - SiliconANGLE</a></h4>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 70.973</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">Simcenter Flux 2026.1 更新显示电磁仿真平台继续升级。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-flux-2026-1">What’s new in Simcenter Flux 2026.1</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 76.677</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">Simcenter EDEM 2026.1 更新强化颗粒/离散元仿真工作流。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/simcenter-edem-20261-released">What’s new in Simcenter EDEM 2026.1?</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 70.779</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.97</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">Rescale 上线 Amazon EC2 Hpc8a，云 HPC 持续支撑 AI for engineering 工作流。</p>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 69.97</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.79</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Medical / Bio AI Top 5</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">NVIDIA BioNeMo支持用LoRA微调生物基础模型。</p>
+          <h4><a href="https://developer.nvidia.com/blog/fine-tuning-biological-foundation-models-with-lora-using-nvidia-bionemo-recipes">Fine-Tuning Biological Foundation Models with LoRA Using NVIDIA BioNeMo Recipes</a></h4>
+          <div class="meta"><span>NVIDIA AI</span><span>score 55.378</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.61</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning">Unlocking UK house-building with AI-accelerated planning</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 67.66</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 59.089</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.26</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-16">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Tuesday, June 16, 2026</p>
+          <h2>2026-06-16</h2>
+        </div>
+        <div class="audit">
+          <span>375 fetched</span>
+          <span>104 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>AI Top 10</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Anthropic 与白宫围绕 Claude Mythos/Fable 的冲突，正在成为前沿模型出口控制的典型案例。</p>
+          <h4><a href="https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls">Inside the fight over Claude Mythos 5</a></h4>
+          <div class="meta"><span>The Verge AI</span><span>score 64.585</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">Visa 继续推进 agentic commerce，AI 代理支付正在变成支付网络的基础设施问题。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPRGpfck1sZHRTYWg1T3M2NmpuMUdqYnY4NU9hX3BvUWo5Q3NUdXp1cHRpeGQybldSUjg2YkFyMVJybVRMVG51OGRFYzJEQ3JaX3A0RHBQRVVDX1J1MmN3QlBlMWxadno1ekt5TkU3UnNGSWNrVy0yV3pvSXRCSld3cUdvMldmR0g2S2JmT1c4NElwUGw5VlRWSUdLc0hJLXdXUGZURU51Z0I0Yl96VFhSZ2Jwb2I4M3JMWXQwY0Y4RXBadTFsejZ3?oc=5">New agentic commerce tools put Visa Next innovations in the spotlight - AD HOC NEWS</a></h4>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 61.855</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.90</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">AWS 把 Gemma 4 模型引入 Amazon Bedrock，企业模型目录继续扩展。</p>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock">Introducing Gemma 4 models on Amazon Bedrock</a></h4>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 61.794</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.90</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">GitHub Copilot CLI 面向初学者扩展命令行 AI 工作流入口。</p>
+          <h4><a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands">GitHub Copilot CLI for Beginners: Overview of common slash commands</a></h4>
+          <div class="meta"><span>GitHub Copilot</span><span>score 61.761</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.90</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">AWS 推出 Strands Evals，用于 AI agent 失败检测和根因分析。</p>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/ai-agent-failure-detection-and-root-cause-analysis-with-strands-evals">AI Agent Failure Detection and Root Cause Analysis with Strands Evals</a></h4>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 61.274</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.88</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <p class="zh-summary">NVIDIA BioNeMo Recipes 支持用 LoRA 微调生物 foundation models。</p>
+          <h4><a href="https://developer.nvidia.com/blog/fine-tuning-biological-foundation-models-with-lora-using-nvidia-bionemo-recipes">Fine-Tuning Biological Foundation Models with LoRA Using NVIDIA BioNeMo Recipes</a></h4>
+          <div class="meta"><span>NVIDIA AI</span><span>score 61.272</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.88</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <p class="zh-summary">Alibaba 发布机器人 AI 模型，行业继续从聊天机器人转向具身 agent。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNcGZFWElhR1l6MFVCTU1GaTJyQ3lNV3ZnMW0xSmVUQktidV9hWkxoNzNJZXl6NURWZC01R2lLSVBsTExvN3pPbHRpTnc2T2RUclJhOTRzbzdaTUVYM1JvR2JHR0JDNGtiMkl4eGpqdUNyZ2xJRkFEbTVlU0QxNHRUYlhmZ3hzMmh2YzVlVkxmZ3hmSVNfcG0tNldPWU9YOVNKNGVBWkVRMkNBVHZ2X0tuQkNTZUY?oc=5">Alibaba unveils AI models for robots, amid shift from chatbots to agents - Reuters</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 59.696</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <p class="zh-summary">Salesforce 以 36 亿美元收购 AI 客服平台 Fin，企业 AI 应用层整合加速。</p>
+          <h4><a href="https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b">Salesforce acquires AI customer service platform Fin for $3.6B</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 60.46</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <p class="zh-summary">NewCore 融资 6600 万美元，为“AI agent 员工”提供身份与权限基础设施。</p>
+          <h4><a href="https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities">As AI agents become employees, NewCore emerges with $66M to give them identities</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 60.098</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.82</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <p class="zh-summary">Meta 在 Facebook 推出 AI Mode，使用公开平台信息增强搜索和问答体验。</p>
+          <h4><a href="https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook">Facebook’s new AI Mode search gets its info from public posts</a></h4>
+          <div class="meta"><span>The Verge AI</span><span>score 54.8</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.73</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Engineering AI Top 5</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">几何深度学习正在把 CAE 从传统求解器流程推向 AI 原生工程建模。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/beyond-the-solver-how-geometric-deep-learning-is-reshaping-cae">Beyond the solver: How Geometric Deep Learning is reshaping CAE</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 81.64</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">Simcenter Flux 2026.1 更新代表电磁仿真平台继续现代化。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-flux-2026-1">What’s new in Simcenter Flux 2026.1</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 77.266</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.97</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">工厂负责人反馈显示，工业 AI 扩展的瓶颈在组织、数据和现场流程。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ3Y0RDBaczk1T0U5Q0NacDJIWU9aRldXZXp2XzFzNERScTU0RFlhWGNOcXFtaXREc0EwQks5WUE1MnBHYzM2NUdiY1hkenRtTEVCMksza1p3Wm9MM3VDc2pXYThjQjNRRFAtS0NUeGQ5aTFFSDhtc3d2cVZXeUN3Rm9oOEt5R0ZPem1DX3V4V3ozblo0WV9iV0RBZS1xT0Y3VlMtelZ0VQ?oc=5">Why Industrial AI Scaling Stalls: Insights from Factory Leaders - ARC Advisory Group</a></h4>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 69.396</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">Rescale 上线 Amazon EC2 Hpc8a，云 HPC 继续降低工程 R&amp;D 算力门槛。</p>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 70.559</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">NAFEMS Americas 2026 复盘显示，工程团队正在把 agents 和 AI physics 引入 CAE 流程。</p>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 64.968</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.71</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Medical / Bio AI Top 5</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">NVIDIA BioNeMo支持用LoRA微调生物基础模型。</p>
+          <h4><a href="https://developer.nvidia.com/blog/fine-tuning-biological-foundation-models-with-lora-using-nvidia-bionemo-recipes">Fine-Tuning Biological Foundation Models with LoRA Using NVIDIA BioNeMo Recipes</a></h4>
+          <div class="meta"><span>NVIDIA AI</span><span>score 61.272</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.88</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 61.615</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.38</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate">Fluid, natural voice translation with Gemini 3.5 Live Translate</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 49.741</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.29</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 49.633</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.29</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/powering-the-future-of-robotics-in-europe">Powering the future of robotics in Europe</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 49.62</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.29</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-15">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Monday, June 15, 2026</p>
+          <h2>2026-06-15</h2>
+        </div>
+        <div class="audit">
+          <span>373 fetched</span>
+          <span>88 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>AI Top 10</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">AI 支付代理正在从概念进入真实商户试点。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMmgyeDF0ZTVvY0hJWENhZkRLR2JaZE41bmFEY05jU2U0Ukl5cDBGOUpRZEkzLVZuSWh0azNjelhERWlSUmJDSHpEQ0xvdW1tRE1pNzlpdkd3QWlYNkJXSThpMGRmaVdNS05UYzRHWUd3Q09KR2dfNEZ6UWVHV0Z6TC13c1VvcmZsa1ZJ?oc=5">MYOB &amp; Mastercard test AI payments for SMEs in Australia - CFOtech Australia</a></h4>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 65.473</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.92</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">Visa 把支付网络接入 ChatGPT，AI agent commerce 的基础设施竞争继续升温。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPYWl6S1ZSUVpERmpqWVpIV3kwUWFFOUpCNFgwSjRsYmZMTGdiVE5pYWF0WWp3aXdqUS1vaURlc3BTdXVtMU1qRTZUYkd4c3dNYWd6b1VQSk1rVnFHN2lJNlI4Z0gxOThrYWJVaHpEMm1SQUs3NE1kLUpONDFzSm1DOGJNbDRMbXpseEdSZm9HQ0Z0QUpnQUlpX3dpSVlYUFk1YXNKZEJLSmNUUnY2?oc=5">Visa plugs its payment network into ChatGPT, letting AI agents shop and pay for users - WXXV News 25</a></h4>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 65.311</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">NVIDIA 在首个 agentic coding benchmark 上强调其推理与代码代理能力。</p>
+          <h4><a href="https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark">NVIDIA Achieves Leading Agentic Coding Performance on First Agentic AI Benchmark</a></h4>
+          <div class="meta"><span>NVIDIA AI</span><span>score 63.647</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.41</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">Anthropic 模型访问争议继续发酵，前沿模型正在变成政策与出口管制对象。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5">Why the US government shut down Anthropic’s latest Claude AI model - The Conversation</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 62.707</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">Amazon AWS 案例展示 agentic AI 如何进入产权/文档运营流程。</p>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai">Building Supercharger: How Rocket Close optimized title operations with agentic AI</a></h4>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 61.037</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.40</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <p class="zh-summary">NVIDIA 与 Abridge 据称开发医疗 AI 模型，垂直行业大模型继续细分。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWHZKLWFpLUZyOWlkZmdQenBKWUdhZ1UzUUlWNnh3TkFqd3oxOWJnMDBXT19FS1Naa3BNNkdBSXc5M0lTTHdtR3B3QzlreU1lUXBfM3V0QWlZQkRwSGZIS0hlbXotX05HNGVnTTZ0aE9sYVhjekxGR0M2aGZHT05BWEpCdjRDRVN2VWR2blhqX1JlZDRMd2xRY1BGOHZ6M2ROQ3lZeHlMeFI?oc=5">Exclusive | Nvidia Is Developing an AI Healthcare Model With Startup Abridge - WSJ</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 59.536</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <p class="zh-summary">ByteDance 据称洽购中国 Iluvatar CoreX AI 芯片，算力供应链继续本地化。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOQTF0Q29EQTc1emdqV0w0cExFTzVXMkd3V0MxcGtGMGVnZllvdWFpZFN1c3J6LXMyeUJUeFVEanBHS0oxRGpDNE5LODZsZ0R6Xzg2dVRfVG43Y0pIT01wN2VCc1hBampJWHg1TlVoUGJ4THZyb3Q3UmRaSW4yU2RZdk94U1A3UEc0bGlRT3dYNF9rSUxfTG1LOTlBUDA4ZnBQd0k0eVJFMkdoYkFTbU40TkpRY0JwandoVkcxbA?oc=5">Exclusive: ByteDance in talks with China&#x27;s Iluvatar CoreX to purchase AI chips, sources say - Reuters</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 58.737</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <p class="zh-summary">OpenAI 推出 Partner Network，企业 AI 交付生态进一步产品化。</p>
+          <h4><a href="https://openai.com/index/introducing-openai-partner-network">Introducing the OpenAI Partner Network</a></h4>
+          <div class="meta"><span>OpenAI</span><span>score 57.682</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <p class="zh-summary">PwC 全球 AI Jobs Barometer 指向劳动力市场分化：AI 奖励可迁移的人类技能。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMi_gFBVV95cUxNd1JjTmw1TGdRelNjbzNxaXdhX3NVeEJjTkNheC1OZXBpMXFqR3JUb0FFS1pNUExzUnBXOVFPMG04ejRiYUpMUElRT3dFUm9RYWMwNWgzRVEzdmg0b3VaTTdHSUpHWFRhUzV5MFFGTkEya0FVLUFxaGU3UERhWE9LRzliRmt3NmpmYXN1Zjcwa1RJYjQtcmZJdjl5NkdyZ2dMdVpsVkZGMFdJTEZtVThybEtBMUV3Ul9CM0E1Q1ZtRUZsQmdmV0hwUWpmV3pfZDAyclIxVzFWQ2oxcmNDTXJmT1dWTFZJcEZVdkoxY3R4X3FTVGVwbGtZQ19UcW1xQQ?oc=5">AI reshapes global labour market into two distinct paths, rewarding human skills: PwC 2026 Global AI Jobs Barometer - PR Newswire</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 56.63</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.97</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <p class="zh-summary">KPMG 因疑似 AI 幻觉撤回报告，企业 AI 输出治理问题继续暴露。</p>
+          <h4><a href="https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations">KPMG pulls report on AI usage due to apparent hallucinations</a></h4>
+          <div class="meta"><span>TechCrunch AI</span><span>score 49.699</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.65</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Engineering AI Top 5</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Siemens 认为几何深度学习正在改变 CAE 的建模和求解边界。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/beyond-the-solver-how-geometric-deep-learning-is-reshaping-cae">Beyond the solver: How Geometric Deep Learning is reshaping CAE</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 82.19</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">Simcenter Flux 2026.1 更新显示电磁仿真平台继续向自动化工作流演进。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-flux-2026-1">What’s new in Simcenter Flux 2026.1</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 77.816</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">AI 与 executable digital twin 被用于重新思考刀具寿命预测。</p>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/reimagining-tool-life-with-ai-and-executable-digital-twins">The artisan’s ear in the digital age: Reimagining tool life with AI and Executable Digital Twins</a></h4>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 74.839</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">Rescale 支持 Amazon EC2 Hpc8a，云端 R&amp;D 与仿真算力成本结构继续变化。</p>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <div class="meta"><span>Rescale</span><span>score 71.109</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">Prometheus 获 JPMorgan 支持，physical/industrial AI 资本热度继续上升。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOUFN0dHoxUTUtZEVlYnVuUWl1SEI5eTNZVGpnQ0k3RnhVbDZOelBBczR1dUJVblRicTRFM2dxSUhoZ1d6MHZsek8zMENydFNrYndVdkZZZDN6NGRfMm9ZTTVreHdiRVFIR0ZTYlk1LTNVbjNJcWd1U2E3dUxTa2U0c2xsMDFfcmR5TWtqZE9zcjFSMFl5UWlsRzRoVkc?oc=5">JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach - Yahoo Finance</a></h4>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 70.263</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Medical / Bio AI Top 5</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">Nvidia携手初创企业Abridge开发AI医疗健康模型。</p>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWHZKLWFpLUZyOWlkZmdQenBKWUdhZ1UzUUlWNnh3TkFqd3oxOWJnMDBXT19FS1Naa3BNNkdBSXc5M0lTTHdtR3B3QzlreU1lUXBfM3V0QWlZQkRwSGZIS0hlbXotX05HNGVnTTZ0aE9sYVhjekxGR0M2aGZHT05BWEpCdjRDRVN2VWR2blhqX1JlZDRMd2xRY1BGOHZ6M2ROQ3lZeHlMeFI?oc=5">Exclusive | Nvidia Is Developing an AI Healthcare Model With Startup Abridge - WSJ</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 59.536</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          
+          <h4><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5RN0RCRXBEOV9IR1NCZVNGYmRpTC1fRE9SRXVwbVA3ZGc4WmMxRENXMzY1SENrZ3pKTjhZdUZGTDlGRXNpb0FkSDFwM3BSU3R0VEh6WVN0UjJ1aXFOcnlKdXZVMVZPTFAwNzZzQ1JvUlE?oc=5">How I Think About AI in My Medical Practice - The Gospel Coalition</a></h4>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 55.942</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.94</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 63.973</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.48</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond">Measuring the impact of learning with AI in Sierra Leone and beyond</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 53.027</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.28</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate">Fluid, natural voice translation with Gemini 3.5 Live Translate</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 52.099</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.40</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 51.991</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.39</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/powering-the-future-of-robotics-in-europe">Powering the future of robotics in Europe</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 51.978</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.39</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+    <nav class="pager"><a href="../4/index.html">更早</a><a href="../2/index.html">更新</a></nav>
+  </main>
+</body>
+</html>

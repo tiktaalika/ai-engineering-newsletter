@@ -1,0 +1,1060 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Engineering Newsletter</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #191815;
+      --muted: #6f6a60;
+      --line: #d7d0c2;
+      --paper: #f8f5ee;
+      --panel: #fffdf8;
+      --accent: #0b6b5a;
+      --accent-2: #c1492e;
+      --shadow: 0 22px 70px rgba(47, 38, 24, .11);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Charter, "Iowan Old Style", Georgia, serif;
+      background:
+        linear-gradient(90deg, rgba(25,24,21,.035) 1px, transparent 1px) 0 0/38px 38px,
+        linear-gradient(#fbf8f1, #eee7d8);
+      color: var(--ink);
+    }
+    .shell { max-width: 1180px; margin: 0 auto; padding: 34px 22px 80px; }
+    .hero { position: sticky; top: 0; z-index: 5; padding: 22px 0 20px; backdrop-filter: blur(18px); background: color-mix(in srgb, var(--paper) 78%, transparent); border-bottom: 1px solid rgba(25,24,21,.1); }
+    .hero-inner { max-width: 1180px; margin: 0 auto; padding: 0 22px; display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: end; }
+    h1 { margin: 0; font-size: clamp(30px, 4vw, 56px); line-height: 1; letter-spacing: 0; font-weight: 700; }
+    .subtitle { margin: 12px 0 0; color: var(--muted); font-size: 17px; max-width: 760px; }
+    .stamp { text-align: right; font-size: 14px; color: var(--muted); }
+    .nav, .language-switch, .pager { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 28px; }
+    .nav { margin-bottom: 16px; }
+    .nav a, .nav span, .language-switch a, .pager a, .pager span { color: var(--ink); border: 1px solid var(--line); padding: 7px 10px; text-decoration: none; background: rgba(255,255,255,.55); }
+    .nav span, .pager span { color: var(--muted); }
+    .language-switch a.active { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+    .day { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); margin: 28px 0; padding: 24px; }
+    .day.missing { border-style: dashed; }
+    .day-head { display: flex; justify-content: space-between; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 22px; }
+    .eyebrow { margin: 0 0 5px; color: var(--accent-2); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; font-family: "Avenir Next", Verdana, sans-serif; }
+    h2 { margin: 0; font-size: 38px; }
+    h3 { margin: 0 0 14px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
+    .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
+    .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .paper-push { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
+    .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .paper-item { border-top: 1px solid var(--line); }
+    .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
+    .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
+    h4 { margin: 0; font-size: 18px; line-height: 1.25; }
+    .zh-summary { margin: 0 0 7px; font-size: 18px; line-height: 1.38; font-weight: 700; color: var(--ink); }
+    .en-summary { margin: 8px 0 0; font-size: 15px; line-height: 1.46; color: var(--muted); }
+    a { color: var(--ink); text-decoration-color: color-mix(in srgb, var(--accent), transparent 40%); text-underline-offset: 3px; }
+    .meta { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; color: var(--muted); }
+    .meta span { border: 1px solid var(--line); padding: 4px 7px; }
+    .reason { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+    .missing-note h3 { margin: 0 0 10px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .missing-note p { margin: 0; color: var(--muted); line-height: 1.5; max-width: 760px; }
+    .landing { min-height: 100vh; display: grid; align-items: center; }
+    .landing-panel { max-width: 980px; margin: 0 auto; padding: 44px 22px; }
+    .landing h1 { font-size: clamp(38px, 7vw, 86px); }
+    .landing-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 34px; }
+    .edition { display: block; border: 1px solid var(--line); background: var(--panel); padding: 24px; text-decoration: none; box-shadow: var(--shadow); }
+    .edition strong { display: block; font-size: 28px; margin-bottom: 8px; }
+    .edition span { color: var(--muted); line-height: 1.45; }
+    .trend-panel { background: var(--ink); color: var(--panel); margin: 0 0 28px; padding: 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 24px; align-items: end; }
+    .trend-panel .eyebrow { color: #f0b45f; }
+    .trend-panel h2 { font-size: 32px; }
+    .trend-panel p { margin: 10px 0 0; color: rgba(255,253,248,.76); line-height: 1.5; max-width: 720px; }
+    .trend-actions { display: grid; gap: 10px; }
+    .trend-actions a { border: 1px solid rgba(255,253,248,.28); color: var(--panel); padding: 14px; text-decoration: none; background: rgba(255,253,248,.08); }
+    .trend-actions strong { display: block; font-family: "Avenir Next", Verdana, sans-serif; font-size: 14px; margin-bottom: 4px; }
+    .trend-actions span { display: block; color: rgba(255,253,248,.72); font-size: 14px; }
+    .report-document { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); padding: 24px; }
+    .report-document h1 { font-size: 40px; margin-bottom: 14px; }
+    .report-document h2 { border-top: 2px solid var(--ink); margin-top: 30px; padding-top: 18px; font-size: 28px; }
+    .report-document h3 { margin-top: 24px; }
+    .report-document h4 { margin-top: 18px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .report-document p, .report-document li { line-height: 1.5; color: var(--muted); }
+    .report-table-wrap { overflow-x: auto; border: 1px solid var(--line); margin: 14px 0 22px; }
+    .report-table { width: 100%; border-collapse: collapse; min-width: 980px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; }
+    .report-table th, .report-table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    .report-table th { background: #eee7d8; color: var(--ink); position: sticky; top: 0; }
+    code { background: rgba(11,107,90,.08); padding: 1px 4px; }
+    @media (max-width: 860px) {
+      .hero-inner, .day-head, .columns, .landing-links, .trend-panel { grid-template-columns: 1fr; }
+      .stamp { text-align: left; }
+      .day { padding: 18px; }
+      h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>AI Engineering Newsletter</h1>
+        <p class="subtitle">One public page for News Push, Paper Push, and GitHub Trend Monitor across general AI, engineering AI, CAE, CAD, simulation, digital twins, industrial AI, and scientific ML.</p>
+        <div class="language-switch"><a href="../../../zh/page/5/index.html">中文版</a><a class="active" href="./index.html">English</a></div>
+      </div>
+      <div class="stamp">Latest Issued<br><strong>2026-07-05</strong></div>
+    </div>
+  </header>
+  <main class="shell">
+    
+    <nav class="nav"><a href="#2026-06-07">2026-06-07</a><a href="#2026-06-06">2026-06-06</a><a href="#2026-06-05">2026-06-05</a><a href="#2026-06-04">2026-06-04</a><a href="#2026-06-03">2026-06-03</a></nav>
+    <nav class="pager"><span>Previous</span><a href="../4/index.html">Later</a></nav>
+    
+    <section class="day" id="2026-06-07">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Sunday, June 07, 2026</p>
+          <h2>2026-06-07</h2>
+        </div>
+        <div class="audit">
+          <span>320 fetched</span>
+          <span>41 candidates</span>
+          <span>9 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxPR0lsZEhyZlpLTzdvai1RTFVubFBMVEF1RlhFYWNnQTlVdVdVeHowU19nYmo0dk9BT2dhcnFfa0lVWUdIOU91eW9QVUIwZTJSQ0hya0paOFhsWENrUURBRURHVFpPQnVWWXVERmxrZHNNWjlHREJJWk1oeEZxWktnMXZlVERxRFVpSU5wb0JDZUExb0NJeFZheEhZS0QtcVBxLVdyQlF6ZXJVNG1KS3RDRmlrcjhzNUdjVXNoSlJMeldmUDVRZUlkc29EeTNMeFRIMDFVa0FTQlJ6dHhVYktBbWs1eGFYMTNaZWx4NkZKSFZVb2RVQnVIY1QtVQ?oc=5">Anthropic Declares That The Next Big Step For Humans And AI Is AI That Builds Itself Via Recursive Self-Improvement - Forbes</a></h4>
+          <p class="en-summary">Anthropic Declares That The Next Big Step For Humans And AI Is AI That Builds Itself Via Recursive Self-Improvement Forbes</p>
+          <div class="meta"><span>Google News AI</span><span>score 62.659</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQMk1rNWdpb2g2MTF6ZE5zOE9ibkVlRk40LUpXcFVCZUlmVFJPdHJiX29PRW5lR2lHcFFlajBZczh2NWExUGdYeGQ2bFY3Y0ZCT1diOG5DamZOcEhoU3FlSkd4UXJIM2FmTkVnRnNLUGdMNXo3d1VrUzNMSVlzNlRIWk9NdE9rajF2VDRROXcyLUlZclFQS1pNODVWNVdQdjcx?oc=5">SpaceX, Anthropic, and OpenAI Won&#x27;t Be Added to the S&amp;P 500 in 2026. Here&#x27;s What Investors Can Do About It. - Yahoo Finance</a></h4>
+          <p class="en-summary">SpaceX, Anthropic, and OpenAI Won&#x27;t Be Added to the S&amp;P 500 in 2026. Here&#x27;s What Investors Can Do About It.</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.711</span></div>
+          <p class="reason">source_reach=1.00; recency=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNY2dkdUVPLTFkOVA3VGFsVUNjMmVnMk5TbG9QeS1GX0ZZVXh0U2JLTGVmbkRtcWFBR0w2amMzWTBwOFR0WVhmSGZGZWlidE50ZGg1eUIzdWlxZC03UGp2dzRQcWhJYWFiUkVBaE9KLU1yc1FGZFl3RDJpS19Pa0JzQWxQRGY3UnFSa0puNjczcXA5SWF6SlJKMFlmOHotUUo4S0E?oc=5">Did WisdomTree’s New Physical AI and Robotics ETF (WDRN) Just Shift WisdomTree&#x27;s (WT) Investment Narrative? - Yahoo Finance</a></h4>
+          <p class="en-summary">Did WisdomTree’s New Physical AI and Robotics ETF (WDRN) Just Shift WisdomTree&#x27;s (WT) Investment Narrative? Yahoo Finance</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.846</span></div>
+          <p class="reason">source_reach=1.00; recency=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPSEJZT3ZhdFpudTdwcjlNcXA2ZlRhc3ZPNHlKdHRFX1BrN0dPeGJNZEpQOEJVQ0pGRzJuVWxQc2xodjJpYzVJWUkxRWtiak5ZYVhpalRadF9zVy13Z0JuS2w3eVRjN3l1MEEzYVZZbXlPODd2c2xobGwtN2ViNENMeWI0dllaMTltM24wSQ?oc=5">NC bill blurs AI policy, social media rules - Salisbury Post</a></h4>
+          <p class="en-summary">NC bill blurs AI policy, social media rules Salisbury Post</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.407</span></div>
+          <p class="reason">source_reach=1.00; recency=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOcjJaQi1FeG52b0NYQTBLQzROc2lZRG05clNnOFdtZEtIT2p6N2JXMHZrMGJDNTZsTERNT01MWVZ6Y2NFR0FZZWRWX0NhVlZ5QXRpSldib0dYaVl0VklNNzE3ZEtOQkszSFc1TjVYbW0za2FhaVZXclg2emxFSVVrX0s2X0ZMREo4Z1VSZU84UlZVZFdyalIxbUp3UGo?oc=5">Is Datavault AI (DVLT) the Best Tech Stock with Huge Upside Potential? - Yahoo Finance</a></h4>
+          <p class="en-summary">Is Datavault AI (DVLT) the Best Tech Stock with Huge Upside Potential? Yahoo Finance</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.825</span></div>
+          <p class="reason">source_reach=1.00; recency=0.92</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVUtDTlpPeW5pM1dmMmtJWlJIVHJacGVzNXNaR2luNXUySW5uaHB3b0k5ZVhZZkJpazc4ODZncUo5bm9wSlpuOGJ3NUY5TjlUZ0JtekxQdGlrRUxOaExVMklpRV9VOFBSYnhGLTFlRERyY2Izc2F1UUgxTmVPYnNVWVZyX0tWU2Q1bFVURlo1SmE1RWhsNEw2YXlTNmdrZWhuQUhPN29yRDY?oc=5">Trane Technologies (TT) Launches Montréal AI Lab for Autonomous Climate Solutions - Yahoo Finance</a></h4>
+          <p class="en-summary">Trane Technologies (TT) Launches Montréal AI Lab for Autonomous Climate Solutions Yahoo Finance</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.534</span></div>
+          <p class="reason">source_reach=1.00; recency=0.90</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcGUxSEhva0FrYlVaRzZLT0NLOFI1MGoyTk5lcUo4SUpHYm1xeE50RFpnSTdmR1RkOE1vUHc4Tmt0dDhXX2NPcGlLOTBkMEgwcWJjRUF5bzgtV2FPbmIyNzZ2MTV5ejBFU2NGNmh4LVlIREVQc0s1TnRIeWdNTGRGX3NmNmFtNXUxaUxQcDcweFFtUVhoM3NFTmV0U2t2a1pUZC1Ddlo2enJJbDdfcGV2eWFEMlJZVEdmbWo1aVdVTy11QnlHdjN6WQ?oc=5">The AI chatbot developers cashing in on intimacy - TBIJ</a></h4>
+          <p class="en-summary">The AI chatbot developers cashing in on intimacy TBIJ</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.128</span></div>
+          <p class="reason">source_reach=1.00; recency=0.88</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQWTExbHl5VXkyRWFSeHJlNzNtZURTdWRsdmxGbmhiVGp0U3BfNzlYNlF6d3ZfTTE2d0p0WWI2UGUxcUFVMW9JVDFaWjgzZmpLZXltaW5OZzBmQ09ZdXpOV2QyS0NsV3BuS3Y2alk0OGZDWjJrMFNOV0VON0FtZkNqYnpqb2p0RUNtcVI1SHlXeHU1QdIBlwFBVV95cUxPVE9hTjZFb3BoX19HV0RLQ2k5UTRGZFBhMmdWV19fdWVXczNkWU5BcmllaXA0cXJGWl9GNUJpMjg3MVpvd2g4NzdEdE5pVEoxWG8tZ3dCdDdkdjM0SVZQaXRfRnFncnNQTFBlN0VNVFMtR2FPTk1KUWtZT0dhcl93eDJidmpMaWR1SzdDNERjSnVjYjdKN1JF?oc=5">White House AI policy adviser to leave role at end of month - The Hill</a></h4>
+          <p class="en-summary">White House AI policy adviser to leave role at end of month The Hill</p>
+          <div class="meta"><span>Google News AI</span><span>score 58.44</span></div>
+          <p class="reason">source_reach=1.00; recency=0.85</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQcUs5SGticWFRUEZVQlh1R1NUWkdYN285SHFnaEQtdGp2czkxbUJGUS1aTC1FVDJIT0QyRjc4TDBucFpLODlobjk0QTR5ZU0xUVktSnY0cVh2aFpUd3MzUVF3Ny1mYVdtQUtTZVdGU3pCOE5pYWlYbFEycGhONlM5OFVZaGRWX1FhSFl2QkpTV3IxdTU5eUhCcF9NSlkzdnV1b2kwTXRWdXRkU29E?oc=5">OpenAI plans ChatGPT &#x27;superapp&#x27; overhaul ahead of listing, FT reports - Reuters</a></h4>
+          <p class="en-summary">OpenAI plans ChatGPT &#x27;superapp&#x27; overhaul ahead of listing, FT reports Reuters</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.846</span></div>
+          <p class="reason">source_reach=1.00; recency=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNNGJ0WEREdmV6SGUyOG5rbWU2ZFA5Z2Z4Wjg5MTZiQ0V5SGk5RFVHYnZuSXJ3QjZpQXpvRXNwN2s3bXNBZlNkRThwc2hxTG1oQnBkakxnOHBuOUE0NGN3Y0h0R084ZXRKeTBOM1BUaTg1TXRHX1BOU3M4TWFnOHR2bW1ER1Y?oc=5">OpenAI plots biggest ChatGPT overhaul since launch - Financial Times</a></h4>
+          <p class="en-summary">OpenAI plots biggest ChatGPT overhaul since launch Financial Times</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.642</span></div>
+          <p class="reason">source_reach=1.00; recency=0.88</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUmtnNDgtSGVlR2pGSXE4dG9jV0t4eVZjWGdWN20tOG8tNzM3RjR0RGJLaW10TmtkM2xkeXZJc0NqbU1ReDEyM3lObV8xUGNhQUlSZ3M0QXFBS0hROTlOU1pzRjF6RVVERUZvY0RBT3VBYnBKRC1faTVTb3lEdTNfbGpzdUJqemJsbXpiQlNJbzBYeWhUc0YxcV9pLXo2TndCUHZPbTRNU0ZSWHlDWjlrVEtJVHY4bllVenhjZmJMcDVxQjJZWjk1ZTVzQUVJUGxYSThXbk5hLTF3TU81QjR6bw?oc=5">Neural Concept Ramps Up Hiring and Industry Visibility as AI Simulation Gains Ground in Auto Design - TipRanks</a></h4>
+          <p class="en-summary">Neural Concept Ramps Up Hiring and Industry Visibility as AI Simulation Gains Ground in Auto Design TipRanks</p>
+          <div class="meta"><span>Neural Concept Engineering Search</span><span>score 45.952</span></div>
+          <p class="reason">source_reach=0.62; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <p class="en-summary">AI applied to various aspects of engineers&#x27; day-to-day workflows has become the dominant theme across NAFEMS tracks globally, combined with nearly every industry and physics discipline on the agenda</p>
+          <div class="meta"><span>Rescale Blog</span><span>score 44.977</span></div>
+          <p class="reason">source_reach=0.62; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire</a></h4>
+          <p class="en-summary">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA Business Wire</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 44.752</span></div>
+          <p class="reason">source_reach=0.62; recency=0.85</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaS1VbElWSzc3Q3BFczZOU1NwQ2ktV19yOU9acGhMME81V2tkdXZ6SjVrYnZESXZJQ1pGTmI3bTE0NjBmTWR6TmNndXNIRW1SNFNUMzMwc0lZRVJ1YW9aX0tCYkRZbEJPTnE3SWRHemhPeVphNWRkZ1JhZWxVRWRoRll1OG9CTjNjSXVqdWNsV1RLTFVaRGVFcTlYM3VIVGJkaU43UWkzMHlNUQ?oc=5">From 15 hours to one minute: How AI/ML is speeding up GM’s development - Ars Technica</a></h4>
+          <p class="en-summary">From 15 hours to one minute: How AI/ML is speeding up GM’s development Ars Technica</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 43.506</span></div>
+          <p class="reason">source_reach=0.62; recency=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://www.comsol.com/blogs/part-1-editing-and-repairing-surface-meshes-in-comsol-multiphysics">Part 1: Editing and Repairing Surface Meshes in COMSOL Multiphysics®</a></h4>
+          <p class="en-summary">{:comsolmph} includes several operations for modifying imported surface meshes. You can create, intersect, partition, and join entities, adapt and refine mesh elements, and more</p>
+          <div class="meta"><span>COMSOL Blog</span><span>score 41.108</span></div>
+          <p class="reason">source_reach=0.62; recency=0.74</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      </section>
+      
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-06">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Saturday, June 06, 2026</p>
+          <h2>2026-06-06</h2>
+        </div>
+        <div class="audit">
+          <span>320 fetched</span>
+          <span>49 candidates</span>
+          <span>9 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMipgJBVV95cUxPanBEaFplZTlLX2J1MWsyaGg2dl9uSHVwOHVoZHlMemZPbEJrQVppRjFIajVwRGR4RE1YeG12czAzNFdiMjNkaS1XMjV1NDVocE56UDd5X3RuMmZsN3hQSGV2aXVKX0xvS1FpTUtSSFhHUTNlT1ZZRjIxT0FxMWttMk9NMzNLWHlQOXdONXpiWDM5QnJwd2xaY3V4d1VpcVNTR3NVa2k1MDJIak5LQ3dmU3YyaXhTZUZOSk5tMS1oZF9McDJ5WHNPWUZQN0g2SjhZOHdpeld0LVNIYk02d2oxdzc0bzF4amxSeGdpU3EzdENEb2FhQkNaWG1MVk5CRVZHd0lnVGo4MHk2YUphRl80ZlJKaG1paExUWG5SN1NPNC1HRG0tbFE?oc=5">Anthropic urges industry coordination to allow for a &#x27;pause&#x27; in AI development if risks grow - JHNewsAndGuide.com</a></h4>
+          <p class="en-summary">Anthropic urges industry coordination to allow for a &#x27;pause&#x27; in AI development if risks grow JHNewsAndGuide.com</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.448</span></div>
+          <p class="reason">source_reach=1.00; recency=0.92</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHNxb1p4Q2hhY2JzM2ZxNE5TNU9ldTZWdHY1d3dyTXMyVTZhVVpOX3QwTlNCR1pSNTFCenB4YkYwTDRKWFJkZ1FKbEtjNkpLMnBkRXZZZHRkY1U1RF9RcHdnQ3MtZXBwRGFWcy12UTdoSjNhc1FjVGRxVC1UblhlbV8zeTQ3QzFoeEFBUC01NTJnVEVVc1ZsR0Z4UmhKdnM2MmVXUXFKOWx1ek8yWGlnZzhB?oc=5">Everyone Has an AI Side Hustle Now – Here’s How To Build Something Better - inc.com</a></h4>
+          <p class="en-summary">Everyone Has an AI Side Hustle Now – Here’s How To Build Something Better inc.com</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.332</span></div>
+          <p class="reason">source_reach=1.00; recency=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEN4aFZ0VFBucEdPQnpwLTZDYTFhaDJvbGc2ZG5RU2NGdlFtZmliZ1Z2VzdJa0xCMXBmNHlhcjVKRGNyZ0Q0Y2hjanJuTVVVUExZNUpnRF9zZFEya3FnbkV2VklxNVFTYXpkZVpfeDBUU2FkVEQtdjBDQm14cGRLZzBzSGQwaC1OV0V2UWJKcVMwUWc5blZNcWNDN3hCOExTUUl2cV9xRzQ1a19HUEt1UDA5YjlpQkZGV2tSZUU0UF9VeUJJeUhOZg?oc=5">France to test its own AI-powered battlefield command in June NATO exercise - Defense News</a></h4>
+          <p class="en-summary">France to test its own AI-powered battlefield command in June NATO exercise Defense News</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.519</span></div>
+          <p class="reason">source_reach=1.00; recency=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX05UZVRvRHpXUGI3WVNIdWk3cjVqUU9jVnZxQ2VQQ0JmV3ZKLVdYa2ZFSmVVYWVleElsMC14TFp4akVCTjgxd29CcUxCbDdWRllJVXdJSWw4Ynd3azZ1dzV4bGtwanZqT25DQ3V2dkJnR3VzVl9xUVBYOVFnQ1hEQlFnaG1wenhzWmxKTDQwNjZlY3VVZmtxS1lWTnM5RTllVWZlMmpXR21uQ19Md0g1VXdacUo1dzRvXzhR?oc=5">Trump says he’s considering government stake in top AI companies - The Washington Post</a></h4>
+          <p class="en-summary">Trump says he’s considering government stake in top AI companies The Washington Post</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.255</span></div>
+          <p class="reason">source_reach=1.00; recency=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOZl9zc2ZHd01HVnB2UmlXc1BFZ3JRZ3cwYkFobksyVUhGempUUUtOekdKTVNoSmYwQUtDRkVUNzJaREM3aW5wVkRzaVJfWkN2cHZ6SDBGdDY0TzhyeWZjellGM1VWeEN1VU1UMEFQSWVXTTNFX1NDXzNtT214Y0xVa3ljQmZ5SGdjOXdOU25Nc1VObHNMZVJPVXI4bw?oc=5">Why Nvidia, Intel, Marvell, and Other AI Stocks Plunged Today - Yahoo Finance</a></h4>
+          <p class="en-summary">Why Nvidia, Intel, Marvell, and Other AI Stocks Plunged Today Yahoo Finance</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.0</span></div>
+          <p class="reason">source_reach=1.00; recency=0.80</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNekwyb2VzLU1Wb0YtRU0wT0JUWTZTQUJ5OVotZVdnRDFxcXlMQmR3UWZiMDlvZ0h6STlRczhBbm9mQzBLTFRIdERCcXlYNjJfeWEzeEhyYWRpdm9OQ1pBWEkya0lRaHFCRm5YR09iRVEwRWY1Y1VBX0hjTEdiWTZDTjR3?oc=5">What smart people are saying about Anthropic suggesting a global AI pause - Business Insider</a></h4>
+          <p class="en-summary">What smart people are saying about Anthropic suggesting a global AI pause Business Insider</p>
+          <div class="meta"><span>Google News AI</span><span>score 56.386</span></div>
+          <p class="reason">source_reach=1.00; recency=0.67</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE4ybHlVc085QUVIS2ZReHVWMVNPWTRhYmFuWVN1RXZVZUc0ZnZhbUlMT3Rpa1QxdEs3Q0Z6OG1qZ1VZN2N6TmlOMWlVYkVHc0dITjdkMnlTdnB2WmZZSkY4LW5HZHVRcjlKbDBoYVdva2_SAXZBVV95cUxObW91aGd3RmlfdHhHQVNLVUgyN3V6WDlFMkZ5UXdfbmZEQ0NfLW41REc4eTlMMkh1MlFiMW1BdFJmbm5sN1hOTVhwVl9VcXhlZzdVWFJyY1dkVFJQNFI2WXNTOXl1MllWa09KOHkxMkZsOXA4Qy1n?oc=5">Trump administration, OpenAI discussing possible government stake in the AI startup - CNBC</a></h4>
+          <p class="en-summary">Trump administration, OpenAI discussing possible government stake in the AI startup CNBC</p>
+          <div class="meta"><span>Google News AI</span><span>score 53.935</span></div>
+          <p class="reason">source_reach=1.00; recency=0.55</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone">The most interesting startups right now want to get you off your phone</a></h4>
+          <p class="en-summary">While the AI fundraising machine keeps breaking its own records, some founders are building in the other direction. Mirror founder Brynn Putnam just raised money for Board, a startup focused on bringing people together through in-person games and social experiences.</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 46.301</span></div>
+          <p class="reason">source_reach=0.82; recency=0.53</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNT3libHlRWnIyQU0tVEdnUGw3dURSYzdHSG9LeUdCVEJEUTNKbHFzWHlSNnFHa1pqN1pGaFhWUmtYcHBPbU1kM3o4Rm1CSHdYRkNuU3lhSVVFNkoySkx4M25zVktLZGxZVWpWNld3U2JqcnYzeUlWM2VIM3BpeUlBWXpvdGcteHQ0dEHSAYoBQVVfeXFMTU95Ymx5UVpyMkFNLVRHZ1BsN3VEUmM3R0hvS3lHQlRCRFEzSmxxc1h5UjZxR2taajdaRmhYVlJrWHBwT21NZDN6OEZtQkh3WEZDblN5YUlVRTZKMkpMeDNuc1ZLS2RsWVVqVjZXd1NianJ2M3lJVjNlSDNwaXlJQVl6b3RnLXh0NHRB?oc=5">AI: A Priest Ponders the Pope&#x27;s Encyclical (and a Film) - familytheater.org</a></h4>
+          <p class="en-summary">AI: A Priest Ponders the Pope&#x27;s Encyclical (and a Film) familytheater.org</p>
+          <div class="meta"><span>Google News AI</span><span>score 57.759</span></div>
+          <p class="reason">source_reach=1.00; recency=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9fa1M0SVhwTW1NOEozaTRsR0NBa0ZqMVlTM3Bpamp1MFV1TXk3X1JPbDFRSzFJTXlYQm1pTExKSE1zU1VoR0RINThNTVlrRWJVVmlmRF90QXQ5TVNMaGp4d3dNRVdoUGUtd09kN3J6MjdqeXdvUzFwa1ZOVlFWWFk?oc=5">Oregon Supreme Court dismisses petition because of false AI-generated legal citations - Oregon Public Broadcasting - OPB</a></h4>
+          <p class="en-summary">Oregon Supreme Court dismisses petition because of false AI-generated legal citations Oregon Public Broadcasting - OPB</p>
+          <div class="meta"><span>Google News AI</span><span>score 57.33</span></div>
+          <p class="reason">source_reach=1.00; recency=0.79</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <p class="en-summary">AI applied to various aspects of engineers&#x27; day-to-day workflows has become the dominant theme across NAFEMS tracks globally, combined with nearly every industry and physics discipline on the agenda</p>
+          <div class="meta"><span>Rescale Blog</span><span>score 45.462</span></div>
+          <p class="reason">source_reach=0.62; recency=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire</a></h4>
+          <p class="en-summary">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA Business Wire</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 45.238</span></div>
+          <p class="reason">source_reach=0.62; recency=0.87</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd3hJTXZieUhNLUtESWFiTjIxUGxtRnRwYXBCMmJ6bUI0RFJ2RndNTFdQZGVBdS0zb2VPb3JUWEJnZGZhWDBjb3lTUkdHcGNlVDNpMXNkdjlMVUFsdndRNWFveTl4RHc0ZFlvaE5HSjJZOE1OdFF2dnVMb21zamp1OFl1OWlwYnJQVGJpVHpGaUxIQm1pR0xLYTFMallXc3hOZVJkZVFzbEpJNFRWQm16ajRFTjhsX1d1QjZJX3lIR1RkT21fcmUxdVUwTGR0X3NjMmVpY2FsTQ?oc=5">Closing the Quality Gap Between Computer-Aided Engineering and Real-World Automotive Manufacturing - Quality Magazine</a></h4>
+          <p class="en-summary">Closing the Quality Gap Between Computer-Aided Engineering and Real-World Automotive Manufacturing Quality Magazine</p>
+          <div class="meta"><span>Google News Simulation AI Use Cases</span><span>score 45.207</span></div>
+          <p class="reason">source_reach=0.62; recency=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOY1prY1VXbWpJWkNfV0tIa3JMUWdMckZnMFVvOHdZMGxxaDVvSHI3ODhVMEp3WDg5TElPVVhsbnd1QmNJVWtxZ0t1SHJsNjhGSkxWaXlyN2ZKVG9sSnRzVDVMcHVhT3JlOGt4U3ZZaUZxdXQ3NS1fX1czd2RQSjJma0dxNlZWd2lKVHpKMHhB?oc=5">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters - bikebiz.com</a></h4>
+          <p class="en-summary">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters bikebiz.com</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 44.859</span></div>
+          <p class="reason">source_reach=0.62; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaS1VbElWSzc3Q3BFczZOU1NwQ2ktV19yOU9acGhMME81V2tkdXZ6SjVrYnZESXZJQ1pGTmI3bTE0NjBmTWR6TmNndXNIRW1SNFNUMzMwc0lZRVJ1YW9aX0tCYkRZbEJPTnE3SWRHemhPeVphNWRkZ1JhZWxVRWRoRll1OG9CTjNjSXVqdWNsV1RLTFVaRGVFcTlYM3VIVGJkaU43UWkzMHlNUQ?oc=5">From 15 hours to one minute: How AI/ML is speeding up GM’s development - Ars Technica</a></h4>
+          <p class="en-summary">From 15 hours to one minute: How AI/ML is speeding up GM’s development Ars Technica</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 43.992</span></div>
+          <p class="reason">source_reach=0.62; recency=0.88</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      </section>
+      
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-05">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Friday, June 05, 2026</p>
+          <h2>2026-06-05</h2>
+        </div>
+        <div class="audit">
+          <span>321 fetched</span>
+          <span>57 candidates</span>
+          <span>9 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxObUJPaUFSdlJCUVRFY0V4Q2xxc0lCVGtjZGJ5TGJUaHFBNE9IQjRoR3F3bTVDdmJmb3RWZXVPQ0xfcVJOTEFSZVFaaEs5VXdyYjZIcjhqLVg2SHB1V2lBRnI5MGUzeW51MFNuUm5GYzhROEx1a01EWjJGRjVibGZNSWh1VkxkNmZySncyMFlib1BVVEdFZWRLdVBuaFczUXloaC1lNmpXaVdBd2RJTFU0?oc=5">Writing, Cognitive Offloading and Generative AI (opinion) - Inside Higher Ed</a></h4>
+          <p class="en-summary">Writing, Cognitive Offloading and Generative AI (opinion) Inside Higher Ed</p>
+          <div class="meta"><span>Google News AI</span><span>score 62.98</span></div>
+          <p class="reason">source_reach=1.00; recency=1.00</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxPVDg5MGRSTmZVdnlPcUJ5TzRoS2FhVkpldVY4dzAzZDdlV0Z6NGhhc0IzVGxiRmxDa3huZ1F3aUJCVWQwYVZZV2JWdkFPZDVkT1k3czNNZ2FhcTdFR0NYRWR3UllHa2RHbnBlQUJXUDVGZEdqQUtoQTZlcWxSWHFzcVRtWVNiRk82WDh0ZU0xWW5LN3Jzem5fQ2phME1uZ9IBowFBVV95cUxNSHdrMXJiMi1QemJtb2hEVmtTVWpjMV9zSXdRTjFXYzlVbFUwX1lmVjhaTURLVTBwTEtpTWttMnRYWVBiY1k1WEhFOTEyNmxzcEthay1qN3E5QThYalgzQ1YtYVJZbTNUeDhNUnc3T0czcURWUFlFd3BWMjZwNURhY25yNWljUzRTTzNUeHNlT3A3WVJZYURDU0VEUDhmSVpTLVNJ?oc=5">China may move toward U.S. path on AI as firms poach employees - CNBC</a></h4>
+          <p class="en-summary">China may move toward U.S. path on AI as firms poach employees CNBC</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.696</span></div>
+          <p class="reason">source_reach=1.00; recency=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ3phdmF4Q3B6UkpWVFB3NXJ6Qlk2SjIyY19TRlVWUzc2WUx1ZHBHVXVvMFVQcE1Qa0E1Y3l5bUtORndZQUZGQ0V4UVB0ZzcxSUZKMHM3QUxsemVRdG93eU5sUUZNdm94R1h4SUNDYTlwcUtfQ2pqWERYbFJfREx4YnJQc0FOUTY2WGJZWXJGeXBBaDJfWi1hT05nYWNyWnNBNHZRWDJVN09QZ0RGSVB3SU1OS2xOVDBkVFRFdW9VdldNNWc?oc=5">Anthropic calls for global AI slowdown, says systems may outpace human control - France 24</a></h4>
+          <p class="en-summary">Anthropic calls for global AI slowdown, says systems may outpace human control France 24</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.378</span></div>
+          <p class="reason">source_reach=1.00; recency=0.87</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9CZzZ3di1XOTFhX2F2eFhrSWhfdU5WUUZUdXlLSE0wUWdUbmdNNHNEVDR3MjRJVXB1cFh0MVZFN1ZmYndLcFcteHNXeXVlNERqUWgwY1pKSDVuaDdicnpNWWZxMVBVdWl5cTU2YVEtVGFoSDN6VkE?oc=5">No need to panic about Anthropic’s new blog, and some more good news - Marcus on AI | Substack</a></h4>
+          <p class="en-summary">No need to panic about Anthropic’s new blog, and some more good news Marcus on AI | Substack</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.144</span></div>
+          <p class="reason">source_reach=1.00; recency=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNTkNtRE9mbFptRFZIVV9rYXRuTW5jbFFpMmRZRlpSNEthLVFuRGhfSl9WYUptT3ZDMjQ2RmFqb1RPcjZnd3ZQZlhVRzJvbFpyVWJicE52S3dHd2d3RnR1NDVkU3dybmxab0hXcThndHYwbXQ2b1l3RlAyYmFYbThoNzUza2s1OXJkQklSYllxQmpQYjlucXVLTkY1THE4d9IBowFBVV95cUxPbVFYSnBzS0hzc1Bkck1FbFl4X3F4QURobVMzZHVSSXpuRV9pTmEzb0ZqalJKMmxVdjhMa1ZRZDMySHhiSUZOU0JpWDR3bFhmbDNMTHFEcldkWlF1WS14blFEbjdLSmZrSVFqeE9aVkpEVUxXdjVyR3RwLW1oUHVWdjN4X1c2RzBhSGtseF9tY1hzRGZES1RxM2pEdGJOME1yTEZV?oc=5">Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales - CNBC</a></h4>
+          <p class="en-summary">Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales CNBC</p>
+          <div class="meta"><span>Google News AI</span><span>score 58.674</span></div>
+          <p class="reason">source_reach=1.00; recency=0.71</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa0JFSWRNbDljWmVFeDhVbXBRd3RmVHBFMkRwb3FKclY5bUJoLWhBQlZHS0FaZDhIZFRLUV9KYkxNdmNBZmlSYzVyWnFiTGxaaWVqWHRPU3JRWmdHMkhPdXdESW54eGFCaDFqdjlMbEMtY0Y3ZWhkV0hIYVN0RGVoN0xyczdHcUNTRWNDY0RzcTZaaXhCNENfVG01aUtyS1BvQ2pqbXJrZ1k0d3YzWmJxX2lDTC1hZEly?oc=5">US officials eye government stakes in AI companies, NOTUS reports - Reuters</a></h4>
+          <p class="en-summary">US officials eye government stakes in AI companies, NOTUS reports Reuters</p>
+          <div class="meta"><span>Google News AI</span><span>score 57.143</span></div>
+          <p class="reason">source_reach=1.00; recency=0.78</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPRW5NbmxaaHpWTUJucmRpMURvRjBncGFacTJSS2JybXR6d0lCakN5LVpsbkRUWVA5aHpaRUpDdW84SkhFTGc2ZThHU3kzQnlzZk5Fd0FxMEV1eU5DeUwyekZuQjBNblBBS0phNFNucnZfanVTSS13eVh6bmxxQzhfX3BhR2RhRnh0dTlYa2lZMExwOHZSSkRPSklVLU9QdlgwOVdueUUtdXdoVUdwb1Juag?oc=5">Energy, water use and pollution of AI and data centers rival most countries - PBS</a></h4>
+          <p class="en-summary">Energy, water use and pollution of AI and data centers rival most countries PBS</p>
+          <div class="meta"><span>Google News AI</span><span>score 55.388</span></div>
+          <p class="reason">source_reach=1.00; recency=0.69</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents">NVIDIA Nemotron 3 Ultra Powers Faster, More Efficient Reasoning for Long-Running Agents</a></h4>
+          <p class="en-summary">Single-turn chatbots are evolving into long-running agents that can reason, maintain context, use tools, and run efficiently across many turns to complete</p>
+          <div class="meta"><span>NVIDIA Technical Blog</span><span>score 42.045</span></div>
+          <p class="reason">source_reach=0.72; recency=0.44</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus">Amazon develops a warehouse robot that workers can speak to</a></h4>
+          <p class="en-summary">Amazon has announced a new version of its fully autonomous warehouse robot, Proteus, that will interact using language instead of code. The expanded capabilities come as part of a growing pivot toward automation as the e-commerce giant replaces its human workers with robots.</p>
+          <div class="meta"><span>The Verge AI</span><span>score 40.841</span></div>
+          <p class="reason">source_reach=0.82; recency=0.33</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNT0tsNGx5MmtYTGNpT2RxdkU2dEcyYzU2dU5MdGpRMVhVTzhWaHRGQWx6SmpOcjIyaW1aRDlXUjI5dndobV9zdV9ocGR1bU9nTzFJYW1RaWJsb3pJelBIcG4xU0tONEYyQnhZNUtBZmxMWDBKYWJJZlhTcmgxN2JPX2lHYWI5d0wzeE5ZMWNGS2RMclk2WTRaYk44T3FWYko0Z1dnUlN0dG9sdmIxWndqZzVOS0ZLOEFmd0tHSlNPaXBfSmtmOTQ0YW1iLV8?oc=5">Japan could end up an &#x27;AI colony&#x27; if it falls behind, digital minister warns - Reuters</a></h4>
+          <p class="en-summary">Japan could end up an &#x27;AI colony&#x27; if it falls behind, digital minister warns Reuters</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.247</span></div>
+          <p class="reason">source_reach=1.00; recency=0.94</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <p class="en-summary">AI applied to various aspects of engineers&#x27; day-to-day workflows has become the dominant theme across NAFEMS tracks globally, combined with nearly every industry and physics discipline on the agenda</p>
+          <div class="meta"><span>Rescale Blog</span><span>score 45.992</span></div>
+          <p class="reason">source_reach=0.62; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire</a></h4>
+          <p class="en-summary">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA Business Wire</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 45.768</span></div>
+          <p class="reason">source_reach=0.62; recency=0.90</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOY1prY1VXbWpJWkNfV0tIa3JMUWdMckZnMFVvOHdZMGxxaDVvSHI3ODhVMEp3WDg5TElPVVhsbnd1QmNJVWtxZ0t1SHJsNjhGSkxWaXlyN2ZKVG9sSnRzVDVMcHVhT3JlOGt4U3ZZaUZxdXQ3NS1fX1czd2RQSjJma0dxNlZWd2lKVHpKMHhB?oc=5">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters - bikebiz.com</a></h4>
+          <p class="en-summary">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters bikebiz.com</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 45.389</span></div>
+          <p class="reason">source_reach=0.62; recency=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaS1VbElWSzc3Q3BFczZOU1NwQ2ktV19yOU9acGhMME81V2tkdXZ6SjVrYnZESXZJQ1pGTmI3bTE0NjBmTWR6TmNndXNIRW1SNFNUMzMwc0lZRVJ1YW9aX0tCYkRZbEJPTnE3SWRHemhPeVphNWRkZ1JhZWxVRWRoRll1OG9CTjNjSXVqdWNsV1RLTFVaRGVFcTlYM3VIVGJkaU43UWkzMHlNUQ?oc=5">From 15 hours to one minute: How AI/ML is speeding up GM’s development - Ars Technica</a></h4>
+          <p class="en-summary">From 15 hours to one minute: How AI/ML is speeding up GM’s development Ars Technica</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 44.522</span></div>
+          <p class="reason">source_reach=0.62; recency=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEk2VnE2WklUQVRtQzlRMzRVNlVBOEZhT3dINENVa21aSEpMU2lVMWhmVzB6dzRnXzRidk52akJ2cXAyWWxUT0Y3Y3FkVnQtdmo5aEVHTVJ4Rm8tOXpkckF0RTlNNzh4dTJDT2oxVkZlYzlWYjVrNF9wMWg2TjFuQzl1Zkt4WXBiSlRDSlpUY05zb1NwVVBoRlBLR0NUaEV1cUlKZDRncTA4dDF2V0tTMjdndGFwVDZDQlE?oc=5">PNNL Deploys AI Agents to Speed Critical Minerals Recovery from Industrial Waste - HPCwire</a></h4>
+          <p class="en-summary">PNNL Deploys AI Agents to Speed Critical Minerals Recovery from Industrial Waste HPCwire</p>
+          <div class="meta"><span>Google News Simulation AI Use Cases</span><span>score 42.829</span></div>
+          <p class="reason">source_reach=0.62; recency=0.83</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress">AI leaders call for tougher protections against AI-aided bioweapons</a></h4>
+          <p class="en-summary">Some of the AI industry&#x27;s biggest rivals have put their many, many grievances aside for a common cause: making it harder for people to use their technology to develop biological weapons. In an open letter to US lawmakers, tech leaders are pressing Congress to enact rules closing what they say is an alarming biosecurity gap […]</p>
+          <div class="meta"><span>The Verge AI</span><span>score 42.518</span></div>
+          <p class="reason">source_reach=0.82; recency=0.41</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-04">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Thursday, June 04, 2026</p>
+          <h2>2026-06-04</h2>
+        </div>
+        <div class="audit">
+          <span>311 fetched</span>
+          <span>59 candidates</span>
+          <span>10 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNbjZPcU0tbHNhdGRTM1lNTzg1WG1zenJPUDFBdWtMZGN3MHZiWjduMzlTRzFEZGozSXRTR3hZSVVOalZUak1QYjYwU25OOWxHVTJWdW5vRzhvLVNuTVkxUnNYemNWdHhRNFVVTExZVmh4TGJ0WS1TbWxvYl8wWS1XYlY5Y0tBcjlVUUtuaUV5dXd5VmRFbDBWQTVIVnFCc2cyRVE?oc=5">Forged in a Knife Fight: China’s Brutal Domestic AI Competition - War on the Rocks</a></h4>
+          <p class="en-summary">Forged in a Knife Fight: China’s Brutal Domestic AI Competition War on the Rocks</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.27</span></div>
+          <p class="reason">source_reach=1.00; recency=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAJBVV95cUxNV0h4RE1jUkVlQXBHTGVCSkNqZF91NU9JTjh5RjY3dHlvSHF1cnJFeDNPd19OcHVJNGJvMkJOQ0Vxa29pTGd2WlpBVmVDd2V4UVlxMWZyZTJaVUVWZ1oxalhXcFhJQy1lVHp3YjAxMk5EVWhMb2p6a1hFakJfZkpUa0N6Ti1paFQ4ZlRnMGxtcmFHallTZ2Y2YTNIZjlxc2I2dzBfRmlkWW81TF9sOHktaDZLa3JiUWY2UUhaWHkweHlsTl8wR1loVnBZRGVGZnZvNlRsXzdEMlc3N3N3YXdZT3c4OHFMaHc5aWFRa0lsT25QOFBUMlRIT3Nab0NFS2xNVVIySVVaS0ZyV1ZaaU94UnNyTlAxSzNMMDBNNlJxNTFHcXl4YlFOeGNzTF9UeDd5WFdYQW56djJ4TFBDbDR1Q0FZdEZELVhnRTJqbg?oc=5">Philips and WellSpan Health Launch Landmark AI-Driven Innovation Alliance - Philips</a></h4>
+          <p class="en-summary">Philips and WellSpan Health Launch Landmark AI-Driven Innovation Alliance Philips</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.221</span></div>
+          <p class="reason">source_reach=1.00; recency=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hSzEwNWM1TnNBMW1PTzNUUmVDNzAyUFZsT3dBRW11NDRpRzVabGRhRGxpXzJhVEc1eXlLM05URDd1aU15ZUZYN3dNelV6b3dYZElFZlhwZ2treFJUZzZ4SndqbTBBWEE?oc=5">The trillion-dollar AI buildout is creating a cash crunch - CTech</a></h4>
+          <p class="en-summary">The trillion-dollar AI buildout is creating a cash crunch CTech</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.096</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNS2NuS0t6c2wyY1ZvSUwxelYxTHpROW5Qc0VmbjktT2g0R2JKMTZvcUt3QjBPYW9UMDNUWTcyS01BNjQ1cllLbzdPS0dTYkE2WGllQ0ZUQXo0M3AxeWhJNmhtT3pTVlhWcEhRSTA4WGt2VHlxdVlsOEw4OTFzRVBpR3V6YlVJREZNXzJZaTFsRVgtRlpFaVJMZTVUREhUcE4zN0JV?oc=5">TSMC boss bets big on AI growth, says he&#x27;d &#x27;like&#x27; to hike chip prices - Reuters</a></h4>
+          <p class="en-summary">TSMC boss bets big on AI growth, says he&#x27;d &#x27;like&#x27; to hike chip prices Reuters</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.171</span></div>
+          <p class="reason">source_reach=1.00; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1vTDZrcUlKWDFEeVBkTDNUQ096SHhvVVVQTmRvTjI0X0lqMFhJcHhTYlh5YU9oWktjOTVqVjBfMFY0TkxPV05mZFkyT0REY1RuUHVpN0JGZnpZUWZuVmhMdGhhdE5hTnkwZ3YwZXI3M0Z4b3NFdDBLbzZiQmh1ZkU?oc=5">OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons - WIRED</a></h4>
+          <p class="en-summary">OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons WIRED</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.857</span></div>
+          <p class="reason">source_reach=1.00; recency=0.77</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQMk14NTd1LTNpcHQ0bUxpWUdvczl0MnU4cjVaYTRGMS1NYm9MQ0x5aTV4VU5LN2ZsYmtkdE9FSTE1NDIxTnBablIxTjlZZndTN190THpvWUx2alBxTlBFTlp1bkVGTW5wRElmdG4teXNmTDBqRWZ3TG5GbERnNEp0TEtMaWJZQjkzZUk1VzkyMEk3Tng5R2hUS0tKVmpUc05HbEdFdTh3YUJhQVRNZ2lSaEVYT08?oc=5">A controversial bill to rein in AI use in medical billing advances in NC Senate - NC Newsline</a></h4>
+          <p class="en-summary">A controversial bill to rein in AI use in medical billing advances in NC Senate NC Newsline</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.375</span></div>
+          <p class="reason">source_reach=1.00; recency=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNU2ItUjFzT2hlRHRtWklCYk9KSnU3cll1YURYb2t4cGR3OUhhOGxoYzgzOV96ZjJmQVFqZldiUkNQQVVzTThKUVFSVUZHZllmWk1mN3BlMjJTaEVrckNLNURPeVRkZGwtSUZGU1FtLU42aEVaRE5iMlF2WHo2TjJBaDh3RXQtaFc1S2NDLW1Ib09xV1BGWTA0OFZfUjlDNjBvdnRMcXo4NklwcVhTeGU5bkZZOGJrSUl4YWFpRDhvdjNCVHY5aGc?oc=5">Broadcom stock sinks after hours as AI chip sales forecast disappoints - Yahoo Finance</a></h4>
+          <p class="en-summary">Broadcom stock sinks after hours as AI chip sales forecast disappoints Yahoo Finance</p>
+          <div class="meta"><span>Google News AI</span><span>score 58.471</span></div>
+          <p class="reason">source_reach=1.00; recency=0.77</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNQzFMQXZWZ1pBUXo2V0Z4eXJQdkMwbHVndW9rQjlmdUN5Y2ZLcmRPNUs3VERiaUZpS2VYMU9GN0l5VGxXbnltajlha2EySWRVUnJhSklTcGMyb1piOWFLX3JCdm42UUJPVmJOM1paUjFEREZMR21aRWJ2eWJfaDV0NzR5QmhaWll6b2Q3dTFCUUVGOHRJa0VkQzR5TjRDS2JwZ1JhVg?oc=5">Exclusive | Meta Keeps Delaying the Release of Its New AI Model to Developers - WSJ</a></h4>
+          <p class="en-summary">Exclusive | Meta Keeps Delaying the Release of Its New AI Model to Developers WSJ</p>
+          <div class="meta"><span>Google News AI</span><span>score 57.992</span></div>
+          <p class="reason">source_reach=1.00; recency=0.82</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5aaG00WThPOVR1NGNqZUVQMlBGdExXbnEzN3p2NjBkU3JrLWJlNWlIQ2dLcGpMU1JLQy1iZ1ZxbEpkVjg5TDh2cHRzX1ZZOTg4N194eVhkdzU3UWNURmhOTG5OWTNDRTg3M1JhbTJ6WTNZRnFGSm9JZ0NB?oc=5">Introducing new capabilities to GPT-Rosalind - OpenAI</a></h4>
+          <p class="en-summary">Introducing new capabilities to GPT-Rosalind OpenAI</p>
+          <div class="meta"><span>Google News AI</span><span>score 57.828</span></div>
+          <p class="reason">source_reach=1.00; recency=0.74</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN1NMLWxaTG54RTVIMDFUVzZBNkwtVEpHR1hUdTVacDFyUk1jdGdyaXVnSVBubjR0c2JBOUVRRGFVMDVVNkctQVZFcnVJQ05PNnJQRzJ1U1I2Tk0tRHBqQ2R2RHpYY0JMMkVud0dhcUFQQ2cxc3RvM3c2ZHQzcGhNYUs3N19LVlU5QlRmZ3RvUWZQX0dmN0VBdFk1akt2VVRuUUg1N29ic3BzQXplS0ZyM3B3dTRzS0Fl?oc=5">Calling Doctor GPT: AI responses to healthcare queries are nearly 76% accurate - Penn State Health News</a></h4>
+          <p class="en-summary">Calling Doctor GPT: AI responses to healthcare queries are nearly 76% accurate Penn State Health News</p>
+          <div class="meta"><span>Google News AI</span><span>score 56.112</span></div>
+          <p class="reason">source_reach=1.00; recency=0.73</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire</a></h4>
+          <p class="en-summary">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA Business Wire</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 46.239</span></div>
+          <p class="reason">source_reach=0.62; recency=0.92</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOY1prY1VXbWpJWkNfV0tIa3JMUWdMckZnMFVvOHdZMGxxaDVvSHI3ODhVMEp3WDg5TElPVVhsbnd1QmNJVWtxZ0t1SHJsNjhGSkxWaXlyN2ZKVG9sSnRzVDVMcHVhT3JlOGt4U3ZZaUZxdXQ3NS1fX1czd2RQSjJma0dxNlZWd2lKVHpKMHhB?oc=5">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters - bikebiz.com</a></h4>
+          <p class="en-summary">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters bikebiz.com</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 45.86</span></div>
+          <p class="reason">source_reach=0.62; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOb1NhNlZWNzB2eVFubmg2a0xLX2hMVnFJdzJNc2xidnlLS3J4aEhxRlFfb2xjZUtWRzNmVjJjczB0WHk3eS1YLTNLMUk1SW5rNVNZZlpFQ0FpWTdXTkdFZHo2RnNsWUJVUzNoTW9rclpaWDlLMjQwY0pCcHpKRmphUVBuWU1ReUc4aDI1c1A1Y2o?oc=5">How Atomis is using AI simulations to commercialize MOFs - R&amp;D World</a></h4>
+          <p class="en-summary">How Atomis is using AI simulations to commercialize MOFs R&amp;D World</p>
+          <div class="meta"><span>Google News Simulation AI Use Cases</span><span>score 45.428</span></div>
+          <p class="reason">source_reach=0.62; recency=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaS1VbElWSzc3Q3BFczZOU1NwQ2ktV19yOU9acGhMME81V2tkdXZ6SjVrYnZESXZJQ1pGTmI3bTE0NjBmTWR6TmNndXNIRW1SNFNUMzMwc0lZRVJ1YW9aX0tCYkRZbEJPTnE3SWRHemhPeVphNWRkZ1JhZWxVRWRoRll1OG9CTjNjSXVqdWNsV1RLTFVaRGVFcTlYM3VIVGJkaU43UWkzMHlNUQ?oc=5">From 15 hours to one minute: How AI/ML is speeding up GM’s development - Ars Technica</a></h4>
+          <p class="en-summary">From 15 hours to one minute: How AI/ML is speeding up GM’s development Ars Technica</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 44.993</span></div>
+          <p class="reason">source_reach=0.62; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijwJBVV95cUxNLXhTX01kZ2RpejhMazB0dVNGZG11WnhrbjhhRDVhMWdpT2RVYVdNN2JDY0lRUWxMOXZwYldOX25Md0VHbGhpMFViMTJwd0U3LVRzTjEzUFVGenc1cWpTTDZKM0pyamRtSXNVS2dPODU4OFM0RXBDX19rTm9PeS1xeURmbGlUQnVNcy1SNkpBZGlmbFBiRUtZeXB4UkQzWU91NkJ5TUdmYUExWjlEdFJ3OHBlZU1PWmtVYUh3LURzVjFZQUxEWllHaG02WWdnNll3OHZfVURwZnNKaUVVMUU5bTNVeW5wTVdMcXNSbFRkV2NyUWUyYmdKZFh2YnZqbUxfMW44ZEc2SV9Cd2NPeG1F?oc=5">FinancialContent - GIGABYTE Showcases Full-Stack AI Infrastructure from Rack-Scale Systems to Real-World Deployment at COMPUTEX 2026 - FinancialContent</a></h4>
+          <p class="en-summary">FinancialContent - GIGABYTE Showcases Full-Stack AI Infrastructure from Rack-Scale Systems to Real-World Deployment at COMPUTEX 2026 FinancialContent</p>
+          <div class="meta"><span>Google News Simulation AI Use Cases</span><span>score 44.843</span></div>
+          <p class="reason">source_reach=0.62; recency=0.93</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1vTDZrcUlKWDFEeVBkTDNUQ096SHhvVVVQTmRvTjI0X0lqMFhJcHhTYlh5YU9oWktjOTVqVjBfMFY0TkxPV05mZFkyT0REY1RuUHVpN0JGZnpZUWZuVmhMdGhhdE5hTnkwZ3YwZXI3M0Z4b3NFdDBLbzZiQmh1ZkU?oc=5">OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons - WIRED</a></h4>
+          <p class="en-summary">OpenAI and Anthropic Sign Letter to Prevent AI-Developed Biological Weapons WIRED</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.857</span></div>
+          <p class="reason">source_reach=1.00; recency=0.77</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQMk14NTd1LTNpcHQ0bUxpWUdvczl0MnU4cjVaYTRGMS1NYm9MQ0x5aTV4VU5LN2ZsYmtkdE9FSTE1NDIxTnBablIxTjlZZndTN190THpvWUx2alBxTlBFTlp1bkVGTW5wRElmdG4teXNmTDBqRWZ3TG5GbERnNEp0TEtMaWJZQjkzZUk1VzkyMEk3Tng5R2hUS0tKVmpUc05HbEdFdTh3YUJhQVRNZ2lSaEVYT08?oc=5">A controversial bill to rein in AI use in medical billing advances in NC Senate - NC Newsline</a></h4>
+          <p class="en-summary">A controversial bill to rein in AI use in medical billing advances in NC Senate NC Newsline</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.375</span></div>
+          <p class="reason">source_reach=1.00; recency=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN1NMLWxaTG54RTVIMDFUVzZBNkwtVEpHR1hUdTVacDFyUk1jdGdyaXVnSVBubjR0c2JBOUVRRGFVMDVVNkctQVZFcnVJQ05PNnJQRzJ1U1I2Tk0tRHBqQ2R2RHpYY0JMMkVud0dhcUFQQ2cxc3RvM3c2ZHQzcGhNYUs3N19LVlU5QlRmZ3RvUWZQX0dmN0VBdFk1akt2VVRuUUg1N29ic3BzQXplS0ZyM3B3dTRzS0Fl?oc=5">Calling Doctor GPT: AI responses to healthcare queries are nearly 76% accurate - Penn State Health News</a></h4>
+          <p class="en-summary">Calling Doctor GPT: AI responses to healthcare queries are nearly 76% accurate Penn State Health News</p>
+          <div class="meta"><span>Google News AI</span><span>score 56.112</span></div>
+          <p class="reason">source_reach=1.00; recency=0.73</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-03">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Wednesday, June 03, 2026</p>
+          <h2>2026-06-03</h2>
+        </div>
+        <div class="audit">
+          <span>325 fetched</span>
+          <span>59 candidates</span>
+          <span>9 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ0VmR0diTmJnejBXTlNDMTExQU9wWnh0U3ZWOXNOb0VHdTZScnFIR2w4dm8zcFNDdGk1ellycUpCUnh4NG51SVhOQ21RWGZtSlg0MHJtY0ZwU05ZbG5BR1V6b2hxeEJOTzR6VWEwZkwybWt1NC0wUl9qRHRXekM1RnM2VkxNR2M3OEtQQ0VKb3ZkUE95NEthYnR1eVZWczMtbWlMWTRyZ093dV9BamxIal91WXlhQXIyY21uU3ZR?oc=5">Meta enters enterprise AI race with new business agent - Reuters</a></h4>
+          <p class="en-summary">Meta enters enterprise AI race with new business agent Reuters</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.6</span></div>
+          <p class="reason">source_reach=1.00; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWVlDRlB3R1l4enIwMVItTzdlOGFkcnV2Tk9hRTNkMXZMREdub3FtNURmb3gwbVVjZlQ3Vm1HVEx4WmxOZEFCdmh0QzJpQ09vWVpQTGN5cFpUb2hmTFpOZjZJZW5SS3h3WGsxMEEyQ01wWThXakRHTXZSVzM0WjdBTl82Zl9XZjgxTWxEa2xDanU4Mk8zTVNpLUtlaXpjT29DTFVXUDNib3ZGZlNpVVRoM2tsZ0JIWU1BQjNN?oc=5">AI is not artificial intelligence, it is MACHINE LEARNING. - Daily Kos</a></h4>
+          <p class="en-summary">AI is not artificial intelligence, it is MACHINE LEARNING. Daily Kos</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.249</span></div>
+          <p class="reason">source_reach=1.00; recency=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZWtSVUtmeUhQa1QwXzVFQjlXZEFiSi1UdXVvM1dPZkczcVM4eDJKUVZyaFNiUUlzQzRoMGpUYURJV0tZUjVVU3VQTmZaeThDVlpQUW52ZGdCZW40Y29JX0xCRFNQNE1RNVRXMkJmQWRJdDllZWlaenUyanlxekdjN04xdklDdVk4dVZEQVJJeUluUTA3VkMtUzJSbC10T0hEYXFkdXVrTmx3RjZ6Mndmd25WQkp1dU5SZ05mblRzQkM?oc=5">Executive Order Creates Voluntary Regulatory Regime of Frontier AI Models - Crowell &amp; Moring LLP</a></h4>
+          <p class="en-summary">Executive Order Creates Voluntary Regulatory Regime of Frontier AI Models Crowell &amp; Moring LLP</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.185</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ3VmNVkyNmUwcUJ4NDh3VnFNaVBUNk15cmJlOTZwYzVvRFB1UThhdHhtT2plT0VxTmt6Sl9RZkFxMzFQWWtkWnlUU2dmd01ZUllOOEwzYzd1ZW0yQUZYanBSZGpmWnF6X0FiTHJweVhURTRKbEZXb0JFU0JYMDJLMnJDQlo4Z09PaTIyenFsYWtUeGNCdV9ZQ2Z4WGl6em1Qal9iUmZDdFVkVmctcElnV1Rmbks?oc=5">Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO - Bloomberg</a></h4>
+          <p class="en-summary">Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO Bloomberg</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.313</span></div>
+          <p class="reason">source_reach=1.00; recency=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQVjhjLXFSbFNBTEprX3k0MktqcHN2WVc3THlMc1lzWmtrR2xoNVpoLXFPMWZINHNCVDR0UEg2OVhiaHdqMmR2UEcyOGJpRlZHTjU1anNEeFFvei1oTDVNcjdNbHM1ZmxTMEo5RWVuMzJXdWwzQ0VKeXhySTkyWGdNNDY0STI3b19sYXBiRnlsRV8wNE4yNExyX0lNckM4RE1QeE1PdTFwRUxRUTJ6cXpUZTM0Z0o3blp0TWlHMHBNOA?oc=5">High-level signature event: Strategic roadmap for digitalisation and AI in energy - energy.ec.europa.eu</a></h4>
+          <p class="en-summary">High-level signature event: Strategic roadmap for digitalisation and AI in energy energy.ec.europa.eu</p>
+          <div class="meta"><span>Google News AI</span><span>score 58.44</span></div>
+          <p class="reason">source_reach=1.00; recency=0.85</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition">Microsoft and OpenAI broke up — now they’re ready to fight</a></h4>
+          <p class="en-summary">At Microsoft&#x27;s annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it&#x27;s […]</p>
+          <div class="meta"><span>The Verge AI</span><span>score 56.238</span></div>
+          <p class="reason">source_reach=0.82; recency=0.80</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation">Publishers will be able to opt out of AI Search, thanks to new regulation</a></h4>
+          <p class="en-summary">U.K. regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features.</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 52.306</span></div>
+          <p class="reason">source_reach=0.82; recency=0.83</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://www.theverge.com/policy/942296/google-water-commitments-data-centers">AI has a water problem — Google thinks it has a fix</a></h4>
+          <p class="en-summary">In the face of widespread backlash to the AI data center buildout throughout the US, Google is touting its efforts to minimize the environmental impact by actually increasing water for local communities. The company laid out five commitments around water use in a new blog post published Wednesday, including a goal to replenish more wat...</p>
+          <div class="meta"><span>The Verge AI</span><span>score 47.071</span></div>
+          <p class="reason">source_reach=0.82; recency=0.64</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQSE9zcEJXbjZ1SW9neEpHU0FRT1MyaXNaYTl0SFFmTG9aSVRrSXhTeEF0YkNJWlk0bjZUWFZrRGstaGFfdDJsMG9MMzgtbzA2Ti1Bek5JeUhaMFVOYk1yRlEwY2JnRGJPYTNGa3JIQnV0bTJSUnEtMjlxNjRHVjFyNTktTWVic2FTTUtVaFZXRkg0QkJuanplS05KNlNnb2ZtTmxkZUp4WXRhc0pvb0drdk9FZFRFZzJraVRNOWkwWTRieDg3NW9r?oc=5">C3 AI Announces Fiscal Fourth Quarter and Full Fiscal Year 2026 Results - Business Wire</a></h4>
+          <p class="en-summary">C3 AI Announces Fiscal Fourth Quarter and Full Fiscal Year 2026 Results Business Wire</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.198</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQaFA5ZHJYcVcxSHdtcjNfUjU3Yk5OcXA2RFFOMEJNWjZhSC1pQ0JRV204STFfS1YtdEFSZV9aSGljbExXVk9uaXY3SnN1NUR4aFlvSTlRN3FOT3h0aGpMSFJFQmZFZUJweXhvd1BPWDg3dkxDM0pKS2Z3NWl3UUFwUXlB?oc=5">Pentagon looks to AI, other tech to help tackle contested logistics challenges - DefenseScoop</a></h4>
+          <p class="en-summary">Pentagon looks to AI, other tech to help tackle contested logistics challenges DefenseScoop</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.093</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire</a></h4>
+          <p class="en-summary">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA Business Wire</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 46.486</span></div>
+          <p class="reason">source_reach=0.62; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOY1prY1VXbWpJWkNfV0tIa3JMUWdMckZnMFVvOHdZMGxxaDVvSHI3ODhVMEp3WDg5TElPVVhsbnd1QmNJVWtxZ0t1SHJsNjhGSkxWaXlyN2ZKVG9sSnRzVDVMcHVhT3JlOGt4U3ZZaUZxdXQ3NS1fX1czd2RQSjJma0dxNlZWd2lKVHpKMHhB?oc=5">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters - bikebiz.com</a></h4>
+          <p class="en-summary">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters bikebiz.com</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 46.108</span></div>
+          <p class="reason">source_reach=0.62; recency=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOb1NhNlZWNzB2eVFubmg2a0xLX2hMVnFJdzJNc2xidnlLS3J4aEhxRlFfb2xjZUtWRzNmVjJjczB0WHk3eS1YLTNLMUk1SW5rNVNZZlpFQ0FpWTdXTkdFZHo2RnNsWUJVUzNoTW9rclpaWDlLMjQwY0pCcHpKRmphUVBuWU1ReUc4aDI1c1A1Y2o?oc=5">How Atomis is using AI simulations to commercialize MOFs - R&amp;D World</a></h4>
+          <p class="en-summary">How Atomis is using AI simulations to commercialize MOFs R&amp;D World</p>
+          <div class="meta"><span>Google News Simulation AI Use Cases</span><span>score 45.676</span></div>
+          <p class="reason">source_reach=0.62; recency=0.97</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaS1VbElWSzc3Q3BFczZOU1NwQ2ktV19yOU9acGhMME81V2tkdXZ6SjVrYnZESXZJQ1pGTmI3bTE0NjBmTWR6TmNndXNIRW1SNFNUMzMwc0lZRVJ1YW9aX0tCYkRZbEJPTnE3SWRHemhPeVphNWRkZ1JhZWxVRWRoRll1OG9CTjNjSXVqdWNsV1RLTFVaRGVFcTlYM3VIVGJkaU43UWkzMHlNUQ?oc=5">From 15 hours to one minute: How AI/ML is speeding up GM’s development - Ars Technica</a></h4>
+          <p class="en-summary">From 15 hours to one minute: How AI/ML is speeding up GM’s development Ars Technica</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 45.24</span></div>
+          <p class="reason">source_reach=0.62; recency=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijwJBVV95cUxNLXhTX01kZ2RpejhMazB0dVNGZG11WnhrbjhhRDVhMWdpT2RVYVdNN2JDY0lRUWxMOXZwYldOX25Md0VHbGhpMFViMTJwd0U3LVRzTjEzUFVGenc1cWpTTDZKM0pyamRtSXNVS2dPODU4OFM0RXBDX19rTm9PeS1xeURmbGlUQnVNcy1SNkpBZGlmbFBiRUtZeXB4UkQzWU91NkJ5TUdmYUExWjlEdFJ3OHBlZU1PWmtVYUh3LURzVjFZQUxEWllHaG02WWdnNll3OHZfVURwZnNKaUVVMUU5bTNVeW5wTVdMcXNSbFRkV2NyUWUyYmdKZFh2YnZqbUxfMW44ZEc2SV9Cd2NPeG1F?oc=5">FinancialContent - GIGABYTE Showcases Full-Stack AI Infrastructure from Rack-Scale Systems to Real-World Deployment at COMPUTEX 2026 - FinancialContent</a></h4>
+          <p class="en-summary">FinancialContent - GIGABYTE Showcases Full-Stack AI Infrastructure from Rack-Scale Systems to Real-World Deployment at COMPUTEX 2026 FinancialContent</p>
+          <div class="meta"><span>Google News Simulation AI Use Cases</span><span>score 45.09</span></div>
+          <p class="reason">source_reach=0.62; recency=0.94</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      </section>
+      
+      
+    </section>
+    
+    <nav class="pager"><span>Previous</span><a href="../4/index.html">Later</a></nav>
+  </main>
+</body>
+</html>

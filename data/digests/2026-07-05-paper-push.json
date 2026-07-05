@@ -1,0 +1,116 @@
+{
+  "title_zh": "Paper Push",
+  "title_en": "Paper Push",
+  "intro_zh": "今天先手动补一版可见的 Paper Push。后续会把它变成周五固定出现的模块：前半部分是 AI4CAE，后半部分是 Biomedical。",
+  "intro_en": "Bootstrap paper push edition. This will become a recurring Friday module with AI4CAE first and Biomedical second.",
+  "cae_sources_checked": [
+    "local daily candidate logs",
+    "weekly AI4CAE paper watch notes",
+    "arXiv paper pages",
+    "Crossref / publisher traces when available"
+  ],
+  "biomedical_sources_checked": [
+    "arXiv (cs.LG, q-bio, eess, stat.ML relevant biomedical items)",
+    "medRxiv",
+    "bioRxiv",
+    "npj Digital Medicine",
+    "Nature Medicine",
+    "Nature Machine Intelligence",
+    "NEJM AI",
+    "The Lancet Digital Health"
+  ],
+  "cae_papers": [
+    {
+      "title": "Error-Conditioned Neural Solvers",
+      "url": "https://arxiv.org/abs/2606.27354",
+      "source": "arXiv",
+      "published": "2026-06-25",
+      "summary_zh": "把 residual field 作为输入的神经求解器，强调 PDE surrogate 在分布外和约束违背场景中的自我修正能力。",
+      "summary_en": "A neural solver that conditions on residual fields to improve PDE surrogate correction under distribution shift and constraint violations.",
+      "why": "理论相关度高，适合放在 AI4CAE 板块前列。"
+    },
+    {
+      "title": "A Multi-Fidelity Convolutional Autoencoder-Transfer Learning Framework for Guided-Wave-Based Damage Diagnosis Using Large Simulated and Limited Experimental Datasets",
+      "url": "https://arxiv.org/abs/2606.27304",
+      "source": "arXiv",
+      "published": "2026-06-25",
+      "summary_zh": "用仿真数据 + 少量实验数据做迁移学习的结构损伤诊断框架，直接命中 damage / fatigue 方向。",
+      "summary_en": "A multi-fidelity transfer-learning framework for guided-wave damage diagnosis using simulated and limited experimental data.",
+      "why": "应用明确，工程结构损伤价值高。"
+    },
+    {
+      "title": "A hybrid IFENN solver for generalizable modeling of phase-field fracture initiation and propagation",
+      "url": "https://arxiv.org/abs/2606.27177",
+      "source": "arXiv",
+      "published": "2026-06-25",
+      "summary_zh": "把标准 FEM 与预训练神经网络耦合，用于相场断裂从起裂到扩展的可泛化建模。",
+      "summary_en": "A hybrid FEM-neural IFENN solver for generalizable phase-field fracture initiation and propagation modeling.",
+      "why": "有限元、断裂、损伤都很贴近你的 AI4CAE 范围。"
+    },
+    {
+      "title": "Monte Carlo physics-informed neural networks for inverse multiscale heat conduction problems via the phonon Boltzmann transport equation",
+      "url": "https://arxiv.org/abs/2606.25793",
+      "source": "arXiv",
+      "published": "2026-06-24",
+      "summary_zh": "针对微纳尺度热传导反问题的 MC-PINN，和 heat-load simulation、热场反演很相关。",
+      "summary_en": "An MC-PINN framework for inverse multiscale heat-conduction problems governed by the phonon Boltzmann transport equation.",
+      "why": "热负载与多尺度热传导是你关心的长期主题。"
+    },
+    {
+      "title": "A Neural Surrogate Approach for Simulating Natural Convection Problems",
+      "url": "https://arxiv.org/abs/2606.25259",
+      "source": "arXiv",
+      "published": "2026-06-24",
+      "summary_zh": "结合 FEniCSx 与 COMSOL 验证的自然对流 neural surrogate，工具链匹配度很高。",
+      "summary_en": "A neural surrogate for natural-convection simulation validated with FEniCSx and COMSOL workflows.",
+      "why": "明确出现 COMSOL / FEM / 热流耦合，是很好的 AI4CAE 工具链例子。"
+    }
+  ],
+  "biomedical_papers": [
+    {
+      "title": "DNA Language Models: An Assessment of Pre-Training for Fine-Tuning Tasks",
+      "url": "https://arxiv.org/abs/2606.30140",
+      "source": "arXiv",
+      "published": "2026-06-29",
+      "summary_zh": "评估 DNA language models 预训练是否真正带来下游 genomics 任务收益，是当前 genomics foundation models 的基础问题。",
+      "summary_en": "A recent assessment of whether heavy pretraining for DNA language models actually pays off on downstream genomics tasks.",
+      "why": "够新，而且直接对应 genetics / genomics AI。"
+    },
+    {
+      "title": "Site4Drug: Predicting Drug-Binding Target Sites with an AI Agent",
+      "url": "https://arxiv.org/abs/2606.01816",
+      "source": "arXiv",
+      "published": "2026-06-01",
+      "summary_zh": "面向药物靶点位点发现的 AI agent，强调 modality-aware 的位点排序、风险提示和可追踪决策日志。",
+      "summary_en": "An AI agent for predicting actionable drug-binding target sites with traceable decision logs and modality-aware evidence.",
+      "why": "既是 biomedical，又和 agent 工作流高度相关。"
+    },
+    {
+      "title": "scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery",
+      "url": "https://arxiv.org/abs/2602.11609",
+      "source": "arXiv",
+      "published": "2026-02-12",
+      "summary_zh": "把 LLM reasoning 直接接到 single-cell RNA-seq 分析和生信工具上，适合作为 omics-native AI 的代表作。",
+      "summary_en": "An omics-native LLM framework that reasons over single-cell RNA-seq data and bioinformatics tools for auditable analysis.",
+      "why": "非常适合放进 Biomedical 板块，区别于泛医疗影像新闻。"
+    },
+    {
+      "title": "TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools",
+      "url": "https://arxiv.org/abs/2503.10970",
+      "source": "arXiv",
+      "published": "2025-03-14",
+      "summary_zh": "面向治疗推理的 biomedical AI agent，整合多步推理、药物知识、临床约束和工具调用。",
+      "summary_en": "A biomedical AI agent for therapeutic reasoning across a large universe of clinical and drug-related tools.",
+      "why": "能代表 clinical decision support + agentic biomedical AI 的路线。"
+    },
+    {
+      "title": "Foundation Model in Biomedicine",
+      "url": "https://arxiv.org/abs/2503.02104",
+      "source": "arXiv",
+      "published": "2025-03-03",
+      "summary_zh": "对 biomedical foundation models 的综述，覆盖 medical imaging、clinical informatics、drug discovery、computational biology。",
+      "summary_en": "A broad survey of biomedical foundation models across clinical informatics, medical imaging, computational biology, and drug discovery.",
+      "why": "作为 Biomedical 板块的总览型入口很合适，也能帮后续扩源。"
+    }
+  ]
+}

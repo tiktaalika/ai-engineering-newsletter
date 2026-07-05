@@ -46,7 +46,9 @@
     .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
     .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
     .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .paper-push { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
     .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .paper-item { border-top: 1px solid var(--line); }
     .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
     .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
     h4 { margin: 0; font-size: 18px; line-height: 1.25; }
@@ -65,8 +67,27 @@
     .edition { display: block; border: 1px solid var(--line); background: var(--panel); padding: 24px; text-decoration: none; box-shadow: var(--shadow); }
     .edition strong { display: block; font-size: 28px; margin-bottom: 8px; }
     .edition span { color: var(--muted); line-height: 1.45; }
+    .trend-panel { background: var(--ink); color: var(--panel); margin: 0 0 28px; padding: 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 24px; align-items: end; }
+    .trend-panel .eyebrow { color: #f0b45f; }
+    .trend-panel h2 { font-size: 32px; }
+    .trend-panel p { margin: 10px 0 0; color: rgba(255,253,248,.76); line-height: 1.5; max-width: 720px; }
+    .trend-actions { display: grid; gap: 10px; }
+    .trend-actions a { border: 1px solid rgba(255,253,248,.28); color: var(--panel); padding: 14px; text-decoration: none; background: rgba(255,253,248,.08); }
+    .trend-actions strong { display: block; font-family: "Avenir Next", Verdana, sans-serif; font-size: 14px; margin-bottom: 4px; }
+    .trend-actions span { display: block; color: rgba(255,253,248,.72); font-size: 14px; }
+    .report-document { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); padding: 24px; }
+    .report-document h1 { font-size: 40px; margin-bottom: 14px; }
+    .report-document h2 { border-top: 2px solid var(--ink); margin-top: 30px; padding-top: 18px; font-size: 28px; }
+    .report-document h3 { margin-top: 24px; }
+    .report-document h4 { margin-top: 18px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .report-document p, .report-document li { line-height: 1.5; color: var(--muted); }
+    .report-table-wrap { overflow-x: auto; border: 1px solid var(--line); margin: 14px 0 22px; }
+    .report-table { width: 100%; border-collapse: collapse; min-width: 980px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; }
+    .report-table th, .report-table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    .report-table th { background: #eee7d8; color: var(--ink); position: sticky; top: 0; }
+    code { background: rgba(11,107,90,.08); padding: 1px 4px; }
     @media (max-width: 860px) {
-      .hero-inner, .day-head, .columns, .landing-links { grid-template-columns: 1fr; }
+      .hero-inner, .day-head, .columns, .landing-links, .trend-panel { grid-template-columns: 1fr; }
       .stamp { text-align: left; }
       .day { padding: 18px; }
       h2 { font-size: 30px; }
@@ -78,14 +99,29 @@
     <div class="hero-inner">
       <div>
         <h1>AI Engineering Newsletter 中文版</h1>
-        <p class="subtitle">每日 General AI 与 Engineering AI 中文汇总。覆盖 CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。</p>
+        <p class="subtitle">一个页面聚合 News Push、Paper Push 和 GitHub Trend Monitor。覆盖 General AI、Engineering AI、CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。</p>
         <div class="language-switch"><a class="active" href="./index.html">中文版</a><a href="../en/index.html">English</a></div>
       </div>
       <div class="stamp">Latest Issued<br><strong>2026-07-05</strong></div>
     </div>
   </header>
   <main class="shell">
-    <nav class="nav"><a href="#2026-07-05">2026-07-05</a><a href="#2026-07-04">2026-07-04</a><a href="#2026-07-03">2026-07-03</a><a href="#2026-07-02">2026-07-02</a><a href="#2026-07-01">2026-07-01</a><a href="#2026-06-30">2026-06-30</a><a href="#2026-06-29">2026-06-29</a></nav>
+    
+    <section class="trend-panel" id="github-trends">
+      <div>
+        <p class="eyebrow">GitHub 趋势监控</p>
+        <h2>开源项目趋势雷达</h2>
+        <p>每周和每月跟踪 AI Agent、MCP、RAG、LLM Infrastructure、Simulation、Engineering AI 六类 GitHub 仓库。</p>
+      </div>
+      <div class="trend-actions">
+        <a href="../trends/weekly/2026-07-05-weekly/index.html"><strong>查看最新周报</strong><span>Weekly report: 2026-07-05</span></a>
+        <a href="../trends/monthly/2026-06-30-monthly/index.html"><strong>查看最新月报</strong><span>Monthly report: 2026-06-30</span></a>
+        <a href="../trends/weekly/2026-07-05-weekly/index.html#ai-agent"><strong>直达 Agent 榜单</strong><span>AI Agent / multi-agent / browser-use / LangGraph / AutoGen</span></a>
+        <a href="https://github.com/tiktaalika/ai-engineering-newsletter"><strong>打开 GitHub 仓库</strong><span>tiktaalika/ai-engineering-newsletter</span></a>
+      </div>
+    </section>
+    
+    <nav class="nav"><a href="#2026-07-05">2026-07-05</a><a href="#2026-07-04">2026-07-04</a><span>2026-07-03</span><a href="#2026-07-02">2026-07-02</a><a href="#2026-07-01">2026-07-01</a><a href="#2026-06-30">2026-06-30</a><a href="#2026-06-29">2026-06-29</a></nav>
     <nav class="pager"><a href="page/2/index.html">更早</a><span>更新</span></nav>
     
     <section class="day" id="2026-07-05">
@@ -314,6 +350,150 @@
       </article>
     
       </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership">Google DeepMind and A24 announce first-of-its-kind research partnership</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 61.444</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.82</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+      <section class="paper-push">
+        <h3>Paper Push</h3>
+        <p class="reason">今天先手动补一版可见的 Paper Push。后续会把它变成周五固定出现的模块：前半部分是 AI4CAE，后半部分是 Biomedical。</p>
+        <div class="columns">
+          <section>
+            <h3>AI4CAE 论文</h3>
+            <p class="reason"><strong>检索来源:</strong> local daily candidate logs；weekly AI4CAE paper watch notes；arXiv paper pages；Crossref / publisher traces when available</p>
+            
+      <article class="item paper-item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">把 residual field 作为输入的神经求解器，强调 PDE surrogate 在分布外和约束违背场景中的自我修正能力。</p>
+          <h4><a href="https://arxiv.org/abs/2606.27354">Error-Conditioned Neural Solvers</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2026-06-25</span></div>
+          <p class="reason">理论相关度高，适合放在 AI4CAE 板块前列。</p>
+        </div>
+      </article>
+    
+      <article class="item paper-item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">用仿真数据 + 少量实验数据做迁移学习的结构损伤诊断框架，直接命中 damage / fatigue 方向。</p>
+          <h4><a href="https://arxiv.org/abs/2606.27304">A Multi-Fidelity Convolutional Autoencoder-Transfer Learning Framework for Guided-Wave-Based Damage Diagnosis Using Large Simulated and Limited Experimental Datasets</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2026-06-25</span></div>
+          <p class="reason">应用明确，工程结构损伤价值高。</p>
+        </div>
+      </article>
+    
+      <article class="item paper-item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">把标准 FEM 与预训练神经网络耦合，用于相场断裂从起裂到扩展的可泛化建模。</p>
+          <h4><a href="https://arxiv.org/abs/2606.27177">A hybrid IFENN solver for generalizable modeling of phase-field fracture initiation and propagation</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2026-06-25</span></div>
+          <p class="reason">有限元、断裂、损伤都很贴近你的 AI4CAE 范围。</p>
+        </div>
+      </article>
+    
+      <article class="item paper-item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">针对微纳尺度热传导反问题的 MC-PINN，和 heat-load simulation、热场反演很相关。</p>
+          <h4><a href="https://arxiv.org/abs/2606.25793">Monte Carlo physics-informed neural networks for inverse multiscale heat conduction problems via the phonon Boltzmann transport equation</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2026-06-24</span></div>
+          <p class="reason">热负载与多尺度热传导是你关心的长期主题。</p>
+        </div>
+      </article>
+    
+      <article class="item paper-item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">结合 FEniCSx 与 COMSOL 验证的自然对流 neural surrogate，工具链匹配度很高。</p>
+          <h4><a href="https://arxiv.org/abs/2606.25259">A Neural Surrogate Approach for Simulating Natural Convection Problems</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2026-06-24</span></div>
+          <p class="reason">明确出现 COMSOL / FEM / 热流耦合，是很好的 AI4CAE 工具链例子。</p>
+        </div>
+      </article>
+    
+          </section>
+          <section>
+            <h3>Biomedical 论文</h3>
+            <p class="reason"><strong>Biomedical 检索来源:</strong> arXiv (cs.LG, q-bio, eess, stat.ML relevant biomedical items)；medRxiv；bioRxiv；npj Digital Medicine；Nature Medicine；Nature Machine Intelligence；NEJM AI；The Lancet Digital Health</p>
+            
+      <article class="item paper-item">
+        <div class="rank">01</div>
+        <div>
+          <p class="zh-summary">评估 DNA language models 预训练是否真正带来下游 genomics 任务收益，是当前 genomics foundation models 的基础问题。</p>
+          <h4><a href="https://arxiv.org/abs/2606.30140">DNA Language Models: An Assessment of Pre-Training for Fine-Tuning Tasks</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2026-06-29</span></div>
+          <p class="reason">够新，而且直接对应 genetics / genomics AI。</p>
+        </div>
+      </article>
+    
+      <article class="item paper-item">
+        <div class="rank">02</div>
+        <div>
+          <p class="zh-summary">面向药物靶点位点发现的 AI agent，强调 modality-aware 的位点排序、风险提示和可追踪决策日志。</p>
+          <h4><a href="https://arxiv.org/abs/2606.01816">Site4Drug: Predicting Drug-Binding Target Sites with an AI Agent</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2026-06-01</span></div>
+          <p class="reason">既是 biomedical，又和 agent 工作流高度相关。</p>
+        </div>
+      </article>
+    
+      <article class="item paper-item">
+        <div class="rank">03</div>
+        <div>
+          <p class="zh-summary">把 LLM reasoning 直接接到 single-cell RNA-seq 分析和生信工具上，适合作为 omics-native AI 的代表作。</p>
+          <h4><a href="https://arxiv.org/abs/2602.11609">scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2026-02-12</span></div>
+          <p class="reason">非常适合放进 Biomedical 板块，区别于泛医疗影像新闻。</p>
+        </div>
+      </article>
+    
+      <article class="item paper-item">
+        <div class="rank">04</div>
+        <div>
+          <p class="zh-summary">面向治疗推理的 biomedical AI agent，整合多步推理、药物知识、临床约束和工具调用。</p>
+          <h4><a href="https://arxiv.org/abs/2503.10970">TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2025-03-14</span></div>
+          <p class="reason">能代表 clinical decision support + agentic biomedical AI 的路线。</p>
+        </div>
+      </article>
+    
+      <article class="item paper-item">
+        <div class="rank">05</div>
+        <div>
+          <p class="zh-summary">对 biomedical foundation models 的综述，覆盖 medical imaging、clinical informatics、drug discovery、computational biology。</p>
+          <h4><a href="https://arxiv.org/abs/2503.02104">Foundation Model in Biomedicine</a></h4>
+          
+          <div class="meta"><span>arXiv</span><span>2025-03-03</span></div>
+          <p class="reason">作为 Biomedical 板块的总览型入口很合适，也能帮后续扩源。</p>
+        </div>
+      </article>
+    
+          </section>
+        </div>
+      </section>
+    
     </section>
     
 
@@ -503,185 +683,37 @@
       </article>
     
       </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          
+          <h4><a href="https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership">Google DeepMind and A24 announce first-of-its-kind research partnership</a></h4>
+          <div class="meta"><span>Google DeepMind</span><span>score 63.268</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
     </section>
     
 
-    <section class="day" id="2026-07-03">
+    <section class="day missing" id="2026-07-03">
       <header class="day-head">
         <div>
           <p class="eyebrow">Friday, July 03, 2026</p>
           <h2>2026-07-03</h2>
         </div>
-        <div class="audit">
-          <span>16 fetched</span>
-          <span>16 candidates</span>
-          <span>1 failures</span>
-        </div>
       </header>
-      <div class="columns">
-        <section>
-          <h3>AI Top 10</h3>
-          
-      <article class="item">
-        <div class="rank">01</div>
-        <div>
-          <p class="zh-summary">Visa 把 payment passkeys 推向 AI agent commerce，支付授权开始适配 agent 交易。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOMV9XbTJkeU9IZFI5em80bGMwcWJLMFQ5bEZzNkpUME94WE50Qk8ybEU3Z3NnUzdqdEpFQjhWOG50SHJNUEgwTnhYM3hrd3ZFTDVqTC1yWFdVemFvWG5NT0xmQV9rVkVqVTNNLUNnRDAyeGxReGNsMmJENEJFT0x3NVk2WDZ3bFpqaWFxWU43bURGWUo2RXp0alhIQkNJcWxHU1h4OWZnTXJBS0ZUTEE?oc=5">Visa expands payment passkeys, from issuer rollout to AI agent commerce - Biometric Update</a></h4>
-          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 57.722</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.41</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">02</div>
-        <div>
-          <p class="zh-summary">Anthropic 希望把 Claude 用到药物研发，AI for science 继续升温。</p>
-          <h4><a href="https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development">Anthropic wants to develop its own drugs</a></h4>
-          <div class="meta"><span>The Verge AI</span><span>score 55.209</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.33</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">03</div>
-        <div>
-          <p class="zh-summary">一份 AI glossary 走红，说明大众市场仍在快速补基础概念。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ3h3V0UxWm5WUzJKOWd3TFd6V2V3TElOcTB2SV83clJhV0pvWm9zWlRHYTVSR19LajVwUlpiTnNhTE84UkZqNlU2emhSQ3JlLXdMcjVrdWdCeXBKVEhCWThQYjlKNWhXMUN6WUlqTTlFUEx5VWNFWTc2QWd4bktBZDVKOUxQam5nQ1l0UlI5aU9pYjBBU1RkQWRlSlRfa1E?oc=5">The only AI glossary you’ll need this year</a></h4>
-          <div class="meta"><span>The only AI glossary you’ll need this year</span><span>score </span></div>
-          <p class="reason"></p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">04</div>
-        <div>
-          <p class="zh-summary">浏览器之争不再只是 search，而是 AI native 入口之争。</p>
-          <h4><a href="https://www.tomsguide.com/computing/web-browsers/the-browser-wars-arent-about-search-anymore-here-are-the-best-alternatives-to-chrome-and-safari">The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari</a></h4>
-          <div class="meta"><span>The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari</span><span>score </span></div>
-          <p class="reason"></p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">05</div>
-        <div>
-          <p class="zh-summary">eDreams 接入 Visa 的 agentic payments，AI 购物结算开始出现真实商用案例。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRmhUN2dQd01CaDlwX1FUQ0l6YkxwQmFFZ3RLYV9jek1ZZ3JuUVZfakxUdnZ2dDYxQXQxMldvUlJqd1FTN1NReGJ4Zm5wd1liSE1uTkJhXzdtTHNSRFltcHU4OGQwTW1uUFA4QjN4ejhEN0llYVRwY09NejZLN1Q1bHFDbkJia2Q5Qm1LQ1I3clJ5N3pQcVZKV1FvS09YczNhTnV4bzdUSmFaT2Y?oc=5">eDreams ODIGEO Enables Agentic Payments with Visa - Let&#x27;s Data Science</a></h4>
-          <div class="meta"><span>eDreams ODIGEO Enables Agentic Payments with Visa - Let&#x27;s Data Science</span><span>score </span></div>
-          <p class="reason"></p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">06</div>
-        <div>
-          <p class="zh-summary">AI 与电网的关系成为数据中心扩张的新瓶颈。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQSmd1ZTlMblJVTWk4RGNRMkd6LUJ2N0hLNUUwR0VWNVFJeVRQNWlvNFp3MEd4VGdoNVNiT2xwd2dncVhUQzRFazNuZW9PQ3Q2bjNZZ05wWDR6X2tjQnJmcXQxWGRvWHdpRVNPeDlWN0Q1ZnNCa3VneUFDWm1JdTVOQzU0QQ?oc=5">AI meets the grid: Shaping the data center power play - Capgemini</a></h4>
-          <div class="meta"><span>AI meets the grid: Shaping the data center power play - Capgemini</span><span>score </span></div>
-          <p class="reason"></p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">07</div>
-        <div>
-          <p class="zh-summary">欧洲与新加坡的 Click to Pay 扩展，说明支付体验仍在为 AI 时代做准备。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ3g4NndtSEpOQkdJTUhUNVpGd3lYUVF1S0FzR2doNVJvMlNlVlJpV0xTUjNKeU1oNXQzSi1DOHpQeXdjRFdkb2hPTG16Y0NwU3laUHlpU0M4aHFaMEl6V2U3WW9JYkpLWW83QW12bV84cDVGU3RjZld1MHphWGEzSExXVmRFV2QzYnlvRVV0aXowN3Rja3NKdkJ0a2RKVQ?oc=5">ZEN.COM Launches Mastercard Click to Pay Across Europe and Singapore - PYMNTS.com</a></h4>
-          <div class="meta"><span>ZEN.COM Launches Mastercard Click to Pay Across Europe and Singapore - PYMNTS.com</span><span>score </span></div>
-          <p class="reason"></p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">08</div>
-        <div>
-          <p class="zh-summary">欧洲银行进入 agentic commerce 下一阶段，AI 支付网络开始区域扩展。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNaEJDSWpuMkpTbnJ1anZMZEdwckdEY2ZZN0o1OVFfRXRleWdka1lZZEhLd0JZekV6eEt4Nm0ybkEya0YtcXcyUWFlQzlpQ0YtSzdVQ05WTkNoUE1HUE1WQmVLUkM4cnBpMXdoS0hkbG5nM0N0MVQ1dWJZSEZqcG96THpmTGRTNVRrN3BnY2RfalQ4RnVhSmtqYWo4RTB5Y1RfdVFnMHE2dHBQYmJCR0ZuQw?oc=5">Visa and banks across Europe reach the next phase of agentic commerce - Business Review</a></h4>
-          <div class="meta"><span>Visa and banks across Europe reach the next phase of agentic commerce - Business Review</span><span>score </span></div>
-          <p class="reason"></p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">09</div>
-        <div>
-          <p class="zh-summary">医学边界技术的进展提醒我们，AI for science 往往和更广科学突破同时出现。</p>
-          <h4><a href="https://www.technologyreview.com/2026/07/03/1140490/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible">A device that revives eyeballs from dead donors could make eye transplants possible</a></h4>
-          <div class="meta"><span>A device that revives eyeballs from dead donors could make eye transplants possible</span><span>score </span></div>
-          <p class="reason"></p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">10</div>
-        <div>
-          <p class="zh-summary">一键支付与 tokenized checkout 扩展，继续为 AI shopping 铺路。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOUm1iYUhSRE9tM2RiU0M3bWhmWmJ0a3k3R0U2V3VnMlVscXE3Nk5sUE5DS1I2MWFvZ2x2aXhPTmxtRkpjSFF1YkR0bjd6Y2xuUjVfTmFWYmVmdE5OeHpCSHU4aVIxM0FCdnd5WmtnM1FZOW5hVW5JWi1wdlBNQ0hGX0dpNDlEdUdJZEIxNEg0SGpMd3M3dFlJNF9ub2hyQlZiVTJKbVQ5QkRneWpLdGRIbHJFRHh1bUd5Qw?oc=5">ZEN.COM Launches Mastercard Click to Pay Across its Platform to Enable Tokenised One-Click Checkout for Online Purchases - marketscreener.com</a></h4>
-          <div class="meta"><span>ZEN.COM Launches Mastercard Click to Pay Across its Platform to Enable Tokenised One-Click Checkout for Online Purchases - marketscreener.com</span><span>score </span></div>
-          <p class="reason"></p>
-        </div>
-      </article>
-    
-        </section>
-        <section>
-          <h3>Engineering AI Top 5</h3>
-          
-      <article class="item">
-        <div class="rank">01</div>
-        <div>
-          <p class="zh-summary">Siemens STAR-CCM+ 2606 持续强化 CFD 与多物理场仿真底座。</p>
-          <h4><a href="https://blogs.sw.siemens.com/simcenter/simcenter-star-ccm-2606-released">What’s new in Simcenter STAR-CCM+ 2606?</a></h4>
-          <div class="meta"><span>Siemens Simcenter</span><span>score 72.903</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.92</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">02</div>
-        <div>
-          <p class="zh-summary">Siemens 展示 agentic AI 如何接管仿真后处理和报告生成。</p>
-          <h4><a href="https://blogs.sw.siemens.com/art-of-the-possible/ask-dont-click-agentic-ai-takes-the-pain-out-of-simulation-post-processing">Ask, don’t click: Agentic AI takes the pain out of simulation post-processing</a></h4>
-          <div class="meta"><span>Siemens Art of the Possible</span><span>score 70.94</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.53</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">03</div>
-        <div>
-          <p class="zh-summary">COMSOL 的 Liberty Bell 案例继续说明高质量多物理场知识资产的重要性。</p>
-          <h4><a href="https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph">Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®</a></h4>
-          <div class="meta"><span>COMSOL</span><span>score 70.301</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.95</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">04</div>
-        <div>
-          <p class="zh-summary">IMTS 2026 把 Physical AI 作为制造业从 automation 走向 autonomy 的关键主题。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWlpjOU9CazFCYWhRYjRwSHJJQ3Z4UnJIRFBOMi1BS2ZJV3BrSDJPdmFQWkphcE5USTdDbXJuUU44aUxSWlRpamZlUHVlQjd0OUdoc3Znd0NCb0Mzd2x4ZnN0c2NvSTdsaHlkNTlBeDhxaTZFQW5Kdmdpdk1oSktCU3hPX0lTSHRwdllvLTlLbk5RR3dVbFg4eFJvbW1KakpSaFNBamZaTEhfQlM3bXNjc2MtMmJLVUNUMHhUbkZOSmlKWWVOR1k2TjMwYlJGbnIyZmowNnpoRVMwRmZmWk53TUd2bw?oc=5">IMTS 2026 Conference: From Automation to Autonomy: The Next Era of Manufacturing with Physical AI - Aerospace Manufacturing and Design</a></h4>
-          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 70.097</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.94</p>
-        </div>
-      </article>
-    
-      <article class="item">
-        <div class="rank">05</div>
-        <div>
-          <p class="zh-summary">Industrial AI 的核心难题从做出 pilot model 转向做出 enterprise value。</p>
-          <h4><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxONGJLbVNuUzREeFJFdmtud1A0YlE0RV9IUW5iTUcwNGUxU1BQaXlxYlg3VThmVjlWRFg5eDBZVElwdXNiY2NDMkZrNllpcXY5TFJsZWxIdzYwRXQ4S1Z0NF82SFR4eXpPd3AzcmJWdTEyLUhzZEtpcmtxZnRYZ1Q3eVJuajlPNVVh?oc=5">Scaling Industrial AI: From Pilot Models to Enterprise Value - ARC Advisory Group</a></h4>
-          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 69.873</span></div>
-          <p class="reason">source_priority=1.00; novelty=0.93</p>
-        </div>
-      </article>
-    
-        </section>
+      <div class="missing-note">
+        <h3>当日归档缺失</h3>
+        <p>当前站点里没有这一天的 digest 文件。页面会保留这个日期，避免时间线看起来像是连续的。</p>
       </div>
-      <section class="medical-section">
-        <h3>Medical / Bio AI Top 5</h3>
-        
-      </section>
     </section>
     
 
@@ -871,6 +903,8 @@
       </article>
     
       </section>
+      
+      
     </section>
     
 
@@ -1100,6 +1134,8 @@
       </article>
     
       </section>
+      
+      
     </section>
     
 
@@ -1289,6 +1325,8 @@
       </article>
     
       </section>
+      
+      
     </section>
     
 
@@ -1498,6 +1536,8 @@
       </article>
     
       </section>
+      
+      
     </section>
     
     <nav class="pager"><a href="page/2/index.html">更早</a><span>更新</span></nav>

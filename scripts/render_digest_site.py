@@ -13,12 +13,15 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 DIGEST_DIR = ROOT / "data" / "digests"
+REPORTS_DIR = ROOT / "reports"
 SITE_DIR = ROOT / "site"
 ROOT_OUT = SITE_DIR / "index.html"
 ZH_OUT = SITE_DIR / "zh" / "index.html"
 EN_OUT = SITE_DIR / "en" / "index.html"
+TRENDS_OUT = SITE_DIR / "trends"
 SUMMARY_CACHE = DIGEST_DIR / "site_summaries.json"
 ARCHIVE_PAGE_SIZE = 7
+GITHUB_REPO_URL = "https://github.com/tiktaalika/ai-engineering-newsletter"
 
 
 COMMON_EVENT_WORDS = {
@@ -66,6 +69,10 @@ def esc(value: Any) -> str:
     return html.escape("" if value is None else str(value), quote=True)
 
 
+def site_relative_path(path: Path) -> str:
+    return path.relative_to(SITE_DIR).as_posix()
+
+
 def format_date(date_slug: str) -> str:
     try:
         return datetime.strptime(date_slug, "%Y-%m-%d").strftime("%A, %B %d, %Y")
@@ -83,6 +90,13 @@ def load_summaries() -> dict[str, str]:
     if not SUMMARY_CACHE.exists():
         return {}
     return load_json(SUMMARY_CACHE)
+
+
+def load_paper_push(date_slug: str) -> dict[str, Any] | None:
+    path = DIGEST_DIR / f"{date_slug}-paper-push.json"
+    if not path.exists():
+        return None
+    return load_json(path)
 
 
 def parse_final_sections(markdown: str) -> dict[str, list[dict[str, str]]]:
@@ -312,18 +326,34 @@ def medical_bio_items(data: dict[str, Any], limit: int = 5) -> list[dict[str, An
     return selected
 
 
-def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+def research_items(data: dict[str, Any], limit: int = 5) -> list[dict[str, Any]]:
+    selected = select_unique(data.get("top_100_news_candidates", []), "research", limit)
+    if len(selected) >= limit:
+        return selected
+    for item in data.get("research_radar", []):
+        if any(is_same_event(item, existing) for existing in selected):
+            continue
+        selected.append(item)
+        if len(selected) == limit:
+            break
+    return selected
+
+
+def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], dict[str, Any] | None]:
     data = load_json(DIGEST_DIR / f"{date_slug}-candidates.json")
+    paper_push = load_paper_push(date_slug)
     final_path = DIGEST_DIR / f"{date_slug}-final.md"
     if final_path.exists():
         final_items = hydrate_final_items(data, final_path)
         medical = final_items["medical_bio_ai"] or medical_bio_items(data)
-        return data, final_items["general_ai"], final_items["engineering_ai"], medical
+        return data, final_items["general_ai"], final_items["engineering_ai"], medical, research_items(data), paper_push
     return (
         data,
         section_items(data, "general_ai", 10, "top_10_general_ai"),
         section_items(data, "engineering_ai", 5, "top_5_engineering_ai"),
         medical_bio_items(data),
+        research_items(data),
+        paper_push,
     )
 
 
@@ -371,8 +401,75 @@ def item_card_en(item: dict[str, Any], idx: int) -> str:
     """
 
 
+def paper_item_card(item: dict[str, Any], idx: int, language: str) -> str:
+    summary = item.get("summary_zh", "") if language == "zh" else item.get("summary_en", "")
+    why = item.get("why", "")
+    meta_parts = [item.get("source", ""), item.get("published", "")]
+    meta = "".join(f"<span>{esc(part)}</span>" for part in meta_parts if part)
+    return f"""
+      <article class="item paper-item">
+        <div class="rank">{idx:02d}</div>
+        <div>
+          {f'<p class="zh-summary">{esc(summary)}</p>' if summary and language == "zh" else ""}
+          <h4><a href="{esc(item.get("url", "#"))}">{esc(item.get("title", "Untitled"))}</a></h4>
+          {f'<p class="en-summary">{esc(summary)}</p>' if summary and language == "en" else ""}
+          <div class="meta">{meta}</div>
+          {f'<p class="reason">{esc(why)}</p>' if why else ""}
+        </div>
+      </article>
+    """
+
+
+def render_paper_push(paper_push: dict[str, Any], language: str) -> str:
+    title = paper_push.get("title_zh", "Paper Push") if language == "zh" else paper_push.get("title_en", "Paper Push")
+    intro = paper_push.get("intro_zh", "") if language == "zh" else paper_push.get("intro_en", "")
+    cae_title = "AI4CAE Papers" if language == "en" else "AI4CAE 论文"
+    bio_title = "Biomedical AI Papers" if language == "en" else "Biomedical 论文"
+    cae_sources_title = "Sources checked" if language == "en" else "检索来源"
+    bio_sources_title = "Biomedical sources checked" if language == "en" else "Biomedical 检索来源"
+    cae_items = "".join(paper_item_card(item, idx, language) for idx, item in enumerate(paper_push.get("cae_papers", []), 1))
+    bio_items = "".join(paper_item_card(item, idx, language) for idx, item in enumerate(paper_push.get("biomedical_papers", []), 1))
+    cae_sources = "；".join(paper_push.get("cae_sources_checked", [])) if language == "zh" else "; ".join(paper_push.get("cae_sources_checked", []))
+    bio_sources = "；".join(paper_push.get("biomedical_sources_checked", [])) if language == "zh" else "; ".join(paper_push.get("biomedical_sources_checked", []))
+    return f"""
+      <section class="paper-push">
+        <h3>{esc(title)}</h3>
+        {f'<p class="reason">{esc(intro)}</p>' if intro else ""}
+        <div class="columns">
+          <section>
+            <h3>{esc(cae_title)}</h3>
+            {f'<p class="reason"><strong>{esc(cae_sources_title)}:</strong> {esc(cae_sources)}</p>' if cae_sources else ""}
+            {cae_items}
+          </section>
+          <section>
+            <h3>{esc(bio_title)}</h3>
+            {f'<p class="reason"><strong>{esc(bio_sources_title)}:</strong> {esc(bio_sources)}</p>' if bio_sources else ""}
+            {bio_items}
+          </section>
+        </div>
+      </section>
+    """
+
+
+def render_research_radar(items: list[dict[str, Any]], language: str, summaries: dict[str, str]) -> str:
+    if not items:
+        return ""
+    title = "Research Radar" if language == "en" else "Research Radar"
+    cards = (
+        "".join(item_card_en(item, idx) for idx, item in enumerate(items, 1))
+        if language == "en"
+        else "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(items, 1))
+    )
+    return f"""
+      <section class="medical-section">
+        <h3>{esc(title)}</h3>
+        {cards}
+      </section>
+    """
+
+
 def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
-    data, general, cae, medical = day_items(date_slug)
+    data, general, cae, medical, research, paper_push = day_items(date_slug)
     return render_day_shell(
         date_slug,
         data,
@@ -382,11 +479,13 @@ def render_day_zh(date_slug: str, summaries: dict[str, str]) -> str:
         "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(general, 1)),
         "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(cae, 1)),
         "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(medical, 1)),
+        render_research_radar(research, "zh", summaries),
+        render_paper_push(paper_push, "zh") if paper_push else "",
     )
 
 
 def render_day_en(date_slug: str) -> str:
-    data, general, cae, medical = day_items(date_slug)
+    data, general, cae, medical, research, paper_push = day_items(date_slug)
     return render_day_shell(
         date_slug,
         data,
@@ -396,6 +495,8 @@ def render_day_en(date_slug: str) -> str:
         "".join(item_card_en(item, idx) for idx, item in enumerate(general, 1)),
         "".join(item_card_en(item, idx) for idx, item in enumerate(cae, 1)),
         "".join(item_card_en(item, idx) for idx, item in enumerate(medical, 1)),
+        render_research_radar(research, "en", {}),
+        render_paper_push(paper_push, "en") if paper_push else "",
     )
 
 
@@ -408,6 +509,8 @@ def render_day_shell(
     general_html: str,
     engineering_html: str,
     medical_html: str,
+    research_html: str,
+    paper_push_html: str,
 ) -> str:
     log = data.get("run_log", {})
     return f"""
@@ -437,6 +540,8 @@ def render_day_shell(
         <h3>{esc(medical_title)}</h3>
         {medical_html}
       </section>
+      {research_html}
+      {paper_push_html}
     </section>
     """
 
@@ -463,6 +568,193 @@ def render_missing_day(date_slug: str, language: str) -> str:
       </div>
     </section>
     """
+
+
+def latest_trend_reports() -> dict[str, Path | None]:
+    reports: dict[str, Path | None] = {"weekly": None, "monthly": None}
+    for kind in reports:
+        paths = sorted((REPORTS_DIR / kind).glob("*-github-trends.md"), reverse=True)
+        reports[kind] = paths[0] if paths else None
+    return reports
+
+
+def trend_report_title(path: Path | None, kind: str) -> str:
+    if not path:
+        return "No report yet"
+    date_match = re.match(r"(\d{4}-\d{2}-\d{2})-", path.name)
+    label = "Weekly" if kind == "weekly" else "Monthly"
+    return f"{label} report: {date_match.group(1) if date_match else path.stem}"
+
+
+def trend_report_output_path(path: Path) -> Path:
+    kind = path.parent.name
+    slug = path.stem.replace("-github-trends", "")
+    return TRENDS_OUT / kind / slug / "index.html"
+
+
+def trend_report_href(path: Path | None, from_dir: str) -> str:
+    if not path:
+        return "#"
+    output_path = trend_report_output_path(path)
+    relative = site_relative_path(output_path)
+    if from_dir == "root":
+        return relative
+    if from_dir in {"en", "zh"}:
+        return "../" + relative
+    return relative
+
+
+def heading_id(text: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return slug or "section"
+
+
+def trend_panel(language: str, from_dir: str) -> str:
+    reports = latest_trend_reports()
+    weekly = reports["weekly"]
+    monthly = reports["monthly"]
+    if language == "zh":
+        eyebrow = "GitHub 趋势监控"
+        title = "开源项目趋势雷达"
+        body = "每周和每月跟踪 AI Agent、MCP、RAG、LLM Infrastructure、Simulation、Engineering AI 六类 GitHub 仓库。"
+        weekly_label = "查看最新周报"
+        monthly_label = "查看最新月报"
+        agent_label = "直达 Agent 榜单"
+        repo_label = "打开 GitHub 仓库"
+    else:
+        eyebrow = "GitHub Trend Monitor"
+        title = "Open-source repository radar"
+        body = "Weekly and monthly tracking across AI Agent, MCP, RAG, LLM Infrastructure, Simulation, and Engineering AI repositories."
+        weekly_label = "Open latest weekly"
+        monthly_label = "Open latest monthly"
+        agent_label = "Jump to Agent ranking"
+        repo_label = "Open GitHub repository"
+    agent_href = trend_report_href(weekly, from_dir)
+    if agent_href != "#":
+        agent_href += "#ai-agent"
+    return f"""
+    <section class="trend-panel" id="github-trends">
+      <div>
+        <p class="eyebrow">{esc(eyebrow)}</p>
+        <h2>{esc(title)}</h2>
+        <p>{esc(body)}</p>
+      </div>
+      <div class="trend-actions">
+        <a href="{esc(trend_report_href(weekly, from_dir))}"><strong>{esc(weekly_label)}</strong><span>{esc(trend_report_title(weekly, "weekly"))}</span></a>
+        <a href="{esc(trend_report_href(monthly, from_dir))}"><strong>{esc(monthly_label)}</strong><span>{esc(trend_report_title(monthly, "monthly"))}</span></a>
+        <a href="{esc(agent_href)}"><strong>{esc(agent_label)}</strong><span>AI Agent / multi-agent / browser-use / LangGraph / AutoGen</span></a>
+        <a href="{esc(GITHUB_REPO_URL)}"><strong>{esc(repo_label)}</strong><span>tiktaalika/ai-engineering-newsletter</span></a>
+      </div>
+    </section>
+    """
+
+
+def markdown_inline(value: str) -> str:
+    escaped = esc(value)
+    escaped = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<a href="\2">\1</a>', escaped)
+    escaped = re.sub(r"`([^`]+)`", r"<code>\1</code>", escaped)
+    return escaped
+
+
+def markdown_report_to_html(markdown: str) -> str:
+    lines = markdown.splitlines()
+    html_lines: list[str] = []
+    paragraph: list[str] = []
+    idx = 0
+
+    def flush_paragraph() -> None:
+        if paragraph:
+            html_lines.append(f"<p>{markdown_inline(' '.join(paragraph))}</p>")
+            paragraph.clear()
+
+    while idx < len(lines):
+        line = lines[idx].rstrip()
+        if not line.strip():
+            flush_paragraph()
+            idx += 1
+            continue
+        if line.startswith("#"):
+            flush_paragraph()
+            level = min(len(line) - len(line.lstrip("#")), 4)
+            text = line.lstrip("#").strip()
+            html_lines.append(f'<h{level} id="{esc(heading_id(text))}">{markdown_inline(text)}</h{level}>')
+            idx += 1
+            continue
+        if line.startswith("- "):
+            flush_paragraph()
+            html_lines.append("<ul>")
+            while idx < len(lines) and lines[idx].startswith("- "):
+                html_lines.append(f"<li>{markdown_inline(lines[idx][2:].strip())}</li>")
+                idx += 1
+            html_lines.append("</ul>")
+            continue
+        if line.startswith("|") and idx + 1 < len(lines) and lines[idx + 1].startswith("|"):
+            flush_paragraph()
+            table_rows: list[list[str]] = []
+            while idx < len(lines) and lines[idx].startswith("|"):
+                cells = [cell.strip() for cell in lines[idx].strip("|").split("|")]
+                if cells and all(set(cell) <= {"-", ":", " "} for cell in cells):
+                    idx += 1
+                    continue
+                table_rows.append(cells)
+                idx += 1
+            if table_rows:
+                header, *body = table_rows
+                html_lines.append('<div class="report-table-wrap"><table class="report-table"><thead><tr>')
+                html_lines.extend(f"<th>{markdown_inline(cell)}</th>" for cell in header)
+                html_lines.append("</tr></thead><tbody>")
+                for row in body:
+                    html_lines.append("<tr>")
+                    html_lines.extend(f"<td>{markdown_inline(cell)}</td>" for cell in row)
+                    html_lines.append("</tr>")
+                html_lines.append("</tbody></table></div>")
+            continue
+        paragraph.append(line.strip())
+        idx += 1
+    flush_paragraph()
+    return "\n".join(html_lines)
+
+
+def render_trend_report_page(report_path: Path) -> str:
+    markdown = report_path.read_text(encoding="utf-8")
+    title_line = next((line.lstrip("#").strip() for line in markdown.splitlines() if line.startswith("# ")), report_path.stem)
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{esc(title_line)}</title>
+  <style>{site_css()}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>{esc(title_line)}</h1>
+        <p class="subtitle">GitHub repository trend monitoring report.</p>
+        <div class="language-switch"><a href="../../../en/index.html#github-trends">Back to Newsletter</a><a href="../../../zh/index.html#github-trends">返回中文页</a></div>
+      </div>
+      <div class="stamp">Trend Monitor<br><strong>{esc(report_path.parent.name.title())}</strong></div>
+    </div>
+  </header>
+  <main class="shell">
+    <article class="report-document">
+      {markdown_report_to_html(markdown)}
+    </article>
+  </main>
+</body>
+</html>
+"""
+
+
+def render_trend_report_pages() -> list[Path]:
+    written: list[Path] = []
+    for report_path in sorted(REPORTS_DIR.glob("*/*-github-trends.md")):
+        output_path = trend_report_output_path(report_path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(render_trend_report_page(report_path), encoding="utf-8")
+        written.append(output_path)
+    return written
 
 
 def site_css() -> str:
@@ -508,7 +800,9 @@ def site_css() -> str:
     .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
     .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
     .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .paper-push { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
     .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .paper-item { border-top: 1px solid var(--line); }
     .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
     .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
     h4 { margin: 0; font-size: 18px; line-height: 1.25; }
@@ -527,8 +821,27 @@ def site_css() -> str:
     .edition { display: block; border: 1px solid var(--line); background: var(--panel); padding: 24px; text-decoration: none; box-shadow: var(--shadow); }
     .edition strong { display: block; font-size: 28px; margin-bottom: 8px; }
     .edition span { color: var(--muted); line-height: 1.45; }
+    .trend-panel { background: var(--ink); color: var(--panel); margin: 0 0 28px; padding: 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 24px; align-items: end; }
+    .trend-panel .eyebrow { color: #f0b45f; }
+    .trend-panel h2 { font-size: 32px; }
+    .trend-panel p { margin: 10px 0 0; color: rgba(255,253,248,.76); line-height: 1.5; max-width: 720px; }
+    .trend-actions { display: grid; gap: 10px; }
+    .trend-actions a { border: 1px solid rgba(255,253,248,.28); color: var(--panel); padding: 14px; text-decoration: none; background: rgba(255,253,248,.08); }
+    .trend-actions strong { display: block; font-family: "Avenir Next", Verdana, sans-serif; font-size: 14px; margin-bottom: 4px; }
+    .trend-actions span { display: block; color: rgba(255,253,248,.72); font-size: 14px; }
+    .report-document { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); padding: 24px; }
+    .report-document h1 { font-size: 40px; margin-bottom: 14px; }
+    .report-document h2 { border-top: 2px solid var(--ink); margin-top: 30px; padding-top: 18px; font-size: 28px; }
+    .report-document h3 { margin-top: 24px; }
+    .report-document h4 { margin-top: 18px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .report-document p, .report-document li { line-height: 1.5; color: var(--muted); }
+    .report-table-wrap { overflow-x: auto; border: 1px solid var(--line); margin: 14px 0 22px; }
+    .report-table { width: 100%; border-collapse: collapse; min-width: 980px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; }
+    .report-table th, .report-table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    .report-table th { background: #eee7d8; color: var(--ink); position: sticky; top: 0; }
+    code { background: rgba(11,107,90,.08); padding: 1px 4px; }
     @media (max-width: 860px) {
-      .hero-inner, .day-head, .columns, .landing-links { grid-template-columns: 1fr; }
+      .hero-inner, .day-head, .columns, .landing-links, .trend-panel { grid-template-columns: 1fr; }
       .stamp { text-align: left; }
       .day { padding: 18px; }
       h2 { font-size: 30px; }
@@ -593,7 +906,7 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
     if language == "zh":
         lang_attr = "zh-CN"
         title = "AI Engineering Newsletter 中文版"
-        subtitle = "每日 General AI 与 Engineering AI 中文汇总。覆盖 CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。"
+        subtitle = "一个页面聚合 News Push、Paper Push 和 GitHub Trend Monitor。覆盖 General AI、Engineering AI、CAE、CAD、simulation、digital twin、industrial AI 与 scientific ML；最新日期在最上面。"
         switch = f'<a class="active" href="{esc(archive_page_href("zh", page_number, page_number))}">中文版</a><a href="{esc(switch_href("zh", page_number))}">English</a>'
         days = "\n".join(
             render_day_zh(entry["date"], summaries) if entry["available"] else render_missing_day(entry["date"], "zh")
@@ -603,7 +916,7 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
     else:
         lang_attr = "en"
         title = "AI Engineering Newsletter"
-        subtitle = "A daily English newsletter on general AI and engineering AI, covering CAE, CAD, simulation, digital twins, industrial AI, and scientific ML."
+        subtitle = "One public page for News Push, Paper Push, and GitHub Trend Monitor across general AI, engineering AI, CAE, CAD, simulation, digital twins, industrial AI, and scientific ML."
         switch = f'<a href="{esc(switch_href("en", page_number))}">中文版</a><a class="active" href="{esc(archive_page_href("en", page_number, page_number))}">English</a>'
         days = "\n".join(
             render_day_en(entry["date"]) if entry["available"] else render_missing_day(entry["date"], "en")
@@ -630,6 +943,7 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
     </div>
   </header>
   <main class="shell">
+    {trend_panel(language, language) if page_number == 1 else ""}
     <nav class="nav">{nav}</nav>
     <nav class="pager">{pager}</nav>
     {days}
@@ -656,11 +970,12 @@ def render_landing_page() -> str:
     <div class="landing-panel">
       <p class="eyebrow">Bilingual daily archive</p>
       <h1>AI Engineering Newsletter</h1>
-      <p class="subtitle">Daily coverage of general AI and engineering AI, including CAE, CAD, simulation, digital twins, industrial AI, and scientific ML. Latest Issued: <strong>{esc(latest)}</strong>.</p>
+      <p class="subtitle">One static public site for News Push, Paper Push, and GitHub Trend Monitor. Latest Issued: <strong>{esc(latest)}</strong>.</p>
       <div class="landing-links">
         <a class="edition" href="en/index.html"><strong>English Edition</strong><span>Public-facing newsletter with English titles, summaries, source links, and audit metadata.</span></a>
         <a class="edition" href="zh/index.html"><strong>中文版</strong><span>中文摘要版，方便日常阅读；每天自动提醒使用这个入口。</span></a>
       </div>
+      {trend_panel("en", "root")}
     </div>
   </main>
 </body>
@@ -674,6 +989,7 @@ def main() -> int:
     ZH_OUT.parent.mkdir(parents=True, exist_ok=True)
     EN_OUT.parent.mkdir(parents=True, exist_ok=True)
     ROOT_OUT.write_text(render_landing_page(), encoding="utf-8")
+    trend_paths = render_trend_report_pages()
     for page_number in range(1, total_pages + 1):
         zh_path = archive_page_path("zh", page_number)
         en_path = archive_page_path("en", page_number)
@@ -684,6 +1000,8 @@ def main() -> int:
     print(ROOT_OUT)
     print(ZH_OUT)
     print(EN_OUT)
+    for path in trend_paths:
+        print(path)
     return 0
 
 

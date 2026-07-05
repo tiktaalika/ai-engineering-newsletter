@@ -1,0 +1,1612 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Engineering Newsletter</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #191815;
+      --muted: #6f6a60;
+      --line: #d7d0c2;
+      --paper: #f8f5ee;
+      --panel: #fffdf8;
+      --accent: #0b6b5a;
+      --accent-2: #c1492e;
+      --shadow: 0 22px 70px rgba(47, 38, 24, .11);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Charter, "Iowan Old Style", Georgia, serif;
+      background:
+        linear-gradient(90deg, rgba(25,24,21,.035) 1px, transparent 1px) 0 0/38px 38px,
+        linear-gradient(#fbf8f1, #eee7d8);
+      color: var(--ink);
+    }
+    .shell { max-width: 1180px; margin: 0 auto; padding: 34px 22px 80px; }
+    .hero { position: sticky; top: 0; z-index: 5; padding: 22px 0 20px; backdrop-filter: blur(18px); background: color-mix(in srgb, var(--paper) 78%, transparent); border-bottom: 1px solid rgba(25,24,21,.1); }
+    .hero-inner { max-width: 1180px; margin: 0 auto; padding: 0 22px; display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: end; }
+    h1 { margin: 0; font-size: clamp(30px, 4vw, 56px); line-height: 1; letter-spacing: 0; font-weight: 700; }
+    .subtitle { margin: 12px 0 0; color: var(--muted); font-size: 17px; max-width: 760px; }
+    .stamp { text-align: right; font-size: 14px; color: var(--muted); }
+    .nav, .language-switch, .pager { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 28px; }
+    .nav { margin-bottom: 16px; }
+    .nav a, .nav span, .language-switch a, .pager a, .pager span { color: var(--ink); border: 1px solid var(--line); padding: 7px 10px; text-decoration: none; background: rgba(255,255,255,.55); }
+    .nav span, .pager span { color: var(--muted); }
+    .language-switch a.active { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+    .day { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); margin: 28px 0; padding: 24px; }
+    .day.missing { border-style: dashed; }
+    .day-head { display: flex; justify-content: space-between; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 22px; }
+    .eyebrow { margin: 0 0 5px; color: var(--accent-2); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; font-family: "Avenir Next", Verdana, sans-serif; }
+    h2 { margin: 0; font-size: 38px; }
+    h3 { margin: 0 0 14px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
+    .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
+    .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .paper-push { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
+    .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .paper-item { border-top: 1px solid var(--line); }
+    .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
+    .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
+    h4 { margin: 0; font-size: 18px; line-height: 1.25; }
+    .zh-summary { margin: 0 0 7px; font-size: 18px; line-height: 1.38; font-weight: 700; color: var(--ink); }
+    .en-summary { margin: 8px 0 0; font-size: 15px; line-height: 1.46; color: var(--muted); }
+    a { color: var(--ink); text-decoration-color: color-mix(in srgb, var(--accent), transparent 40%); text-underline-offset: 3px; }
+    .meta { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; color: var(--muted); }
+    .meta span { border: 1px solid var(--line); padding: 4px 7px; }
+    .reason { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+    .missing-note h3 { margin: 0 0 10px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .missing-note p { margin: 0; color: var(--muted); line-height: 1.5; max-width: 760px; }
+    .landing { min-height: 100vh; display: grid; align-items: center; }
+    .landing-panel { max-width: 980px; margin: 0 auto; padding: 44px 22px; }
+    .landing h1 { font-size: clamp(38px, 7vw, 86px); }
+    .landing-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 34px; }
+    .edition { display: block; border: 1px solid var(--line); background: var(--panel); padding: 24px; text-decoration: none; box-shadow: var(--shadow); }
+    .edition strong { display: block; font-size: 28px; margin-bottom: 8px; }
+    .edition span { color: var(--muted); line-height: 1.45; }
+    .trend-panel { background: var(--ink); color: var(--panel); margin: 0 0 28px; padding: 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 24px; align-items: end; }
+    .trend-panel .eyebrow { color: #f0b45f; }
+    .trend-panel h2 { font-size: 32px; }
+    .trend-panel p { margin: 10px 0 0; color: rgba(255,253,248,.76); line-height: 1.5; max-width: 720px; }
+    .trend-actions { display: grid; gap: 10px; }
+    .trend-actions a { border: 1px solid rgba(255,253,248,.28); color: var(--panel); padding: 14px; text-decoration: none; background: rgba(255,253,248,.08); }
+    .trend-actions strong { display: block; font-family: "Avenir Next", Verdana, sans-serif; font-size: 14px; margin-bottom: 4px; }
+    .trend-actions span { display: block; color: rgba(255,253,248,.72); font-size: 14px; }
+    .report-document { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); padding: 24px; }
+    .report-document h1 { font-size: 40px; margin-bottom: 14px; }
+    .report-document h2 { border-top: 2px solid var(--ink); margin-top: 30px; padding-top: 18px; font-size: 28px; }
+    .report-document h3 { margin-top: 24px; }
+    .report-document h4 { margin-top: 18px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .report-document p, .report-document li { line-height: 1.5; color: var(--muted); }
+    .report-table-wrap { overflow-x: auto; border: 1px solid var(--line); margin: 14px 0 22px; }
+    .report-table { width: 100%; border-collapse: collapse; min-width: 980px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; }
+    .report-table th, .report-table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    .report-table th { background: #eee7d8; color: var(--ink); position: sticky; top: 0; }
+    code { background: rgba(11,107,90,.08); padding: 1px 4px; }
+    @media (max-width: 860px) {
+      .hero-inner, .day-head, .columns, .landing-links, .trend-panel { grid-template-columns: 1fr; }
+      .stamp { text-align: left; }
+      .day { padding: 18px; }
+      h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>AI Engineering Newsletter</h1>
+        <p class="subtitle">One public page for News Push, Paper Push, and GitHub Trend Monitor across general AI, engineering AI, CAE, CAD, simulation, digital twins, industrial AI, and scientific ML.</p>
+        <div class="language-switch"><a href="../../../zh/page/4/index.html">中文版</a><a class="active" href="./index.html">English</a></div>
+      </div>
+      <div class="stamp">Latest Issued<br><strong>2026-07-05</strong></div>
+    </div>
+  </header>
+  <main class="shell">
+    
+    <nav class="nav"><a href="#2026-06-14">2026-06-14</a><a href="#2026-06-13">2026-06-13</a><a href="#2026-06-12">2026-06-12</a><a href="#2026-06-11">2026-06-11</a><a href="#2026-06-10">2026-06-10</a><a href="#2026-06-09">2026-06-09</a><a href="#2026-06-08">2026-06-08</a></nav>
+    <nav class="pager"><a href="../5/index.html">Previous</a><a href="../3/index.html">Later</a></nav>
+    
+    <section class="day" id="2026-06-14">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Sunday, June 14, 2026</p>
+          <h2>2026-06-14</h2>
+        </div>
+        <div class="audit">
+          <span>374 fetched</span>
+          <span>94 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark">NVIDIA Achieves Leading Agentic Coding Performance on First Agentic AI Benchmark</a></h4>
+          <p class="en-summary">AI agents have fundamentally changed the complexity of inference workloads. Until now, the industry has struggled to define a standard for measuring how</p>
+          <div class="meta"><span>NVIDIA AI</span><span>score 69.149</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.66</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai">Building Supercharger: How Rocket Close optimized title operations with agentic AI</a></h4>
+          <p class="en-summary">In this post, we explore how Rocket Close built a solution using Strands Agents, large language models (LLMs), Amazon Bedrock, Amazon Bedrock Knowledge Bases, and Model Context Protocol (MCP) tools. We cover solution features, the rationale for the technology stack, lessons learned, and the business impact at Rocket Close</p>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 66.539</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.65</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/from-pdfs-to-insights-architecting-an-intelligent-document-processing-pipeline-with-aws-generative-ai-services">From PDFs to insights: Architecting an intelligent document processing pipeline with AWS generative AI services</a></h4>
+          <p class="en-summary">This post outlines the development of a cost-effective and scalable intelligent document processing pipeline on AWS, powered by Amazon Bedrock and its features. BDA is a managed service within Amazon Bedrock that automates the extraction of insights from documents.</p>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 61.828</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.59</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban">Amazon security research reportedly led to the White House’s Anthropic Fable ban</a></h4>
+          <p class="en-summary">According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series […]</p>
+          <div class="meta"><span>The Verge AI</span><span>score 60.253</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.74</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVRWMHFIdFFFQUk3X3VRbHFCQURNQU5PYWhOeHVSblp0Y0tHWmR3dlpuaWpVNGF6ZG1fVTBpTHJaUmo3WWRzd3gydmszd2t6UjlMUm9rV3NGN1dlN2VlNWQ1bk5mSUlHWmExMHJ1LWNESVJMQzdmV3JGdnRQWThHa09feTdHMVR0NmNUeElmLUJScnBBU18zQlcxc1MtblhGVDlrU2RwWV80ZzRLLXk3bGFLTGJ1Z9IBtgFBVV95cUxPSVRWMHFIdFFFQUk3X3VRbHFCQURNQU5PYWhOeHVSblp0Y0tHWmR3dlpuaWpVNGF6ZG1fVTBpTHJaUmo3WWRzd3gydmszd2t6UjlMUm9rV3NGN1dlN2VlNWQ1bk5mSUlHWmExMHJ1LWNESVJMQzdmV3JGdnRQWThHa09feTdHMVR0NmNUeElmLUJScnBBU18zQlcxc1MtblhGVDlrU2RwWV80ZzRLLXk3bGFLTGJ1Zw?oc=5">Visa (V) to Integrate Payments into OpenAI for AI Agent Transaction - Insider Monkey</a></h4>
+          <p class="en-summary">Visa (V) to Integrate Payments into OpenAI for AI Agent Transaction Insider Monkey</p>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 61.965</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.60</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLWpBMVB1a1dIZE5yU1RCeHVGMmdzMWNQSVJXWWE0dnZaakROV2tHanVYWTFqbi1QTTlKT004QzFIei1mZElyWThVVEVEM3NGb2lYLUNaemRVdDNVUTl4THZiWi02aXBuOG5JVjJucGwxUWstMkYzZ29yc2lxalB2VlFtRlRkNHNCNHp6QzlLVnFqZ096NHpVOHRRTTRhV2ZMTW9ETFJ0aXNGYkpQNFZmMUwzSjJVMlNOTV9aUTQyc0xicHd6M2NYdmZsMFliOThtS0Zr0gHTAUFVX3lxTFAtakExUHVrV0hkTnJTVEJ4dUYyZ3MxY1BJUldZYTR2dlpqRE5Xa0dqdVhZMWpuLVBNOUpPTThDMUh6LWZkSXJZOFVURUQzc0ZvaVgtQ1p6ZFV0M1VROXhMdmJaLTZpcG44bklWMm5wbDFRay0yRjNnb3JzaXFqUHZWUW1GVGQ0c0I0enpDOUtWcWpnT3o0elU4dFFNNGFXZkxNb0RMUnRpc0ZiSlA0VmYxTDNKMlUyU05NX1pRNDJzTGJwd3ozY1h2ZmwwWWI5OG1LRms?oc=5">Mastercard (MA) Unveils AI Agent Payment Network Backed by More Than 30 Industry Partners - Insider Monkey</a></h4>
+          <p class="en-summary">Mastercard (MA) Unveils AI Agent Payment Network Backed by More Than 30 Industry Partners Insider Monkey</p>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 59.116</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.63</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ25yNVJhQ25qTjBHdUc0amJ6R1VUdkU3N2JkTThiV2N4bFVCOXZleEhIelM1aUVjbzhFMHhoZV9yWEl1UXhHUUQwVFlQdDl5MnNMQ1dyNWQ2cDcwNkV4SE9iejNuOVc1OHUwRXkybXY4Q1FnbE82eVkyeGlSNnhpTG9mS3FGdENjRmoyN2xQejZjS0psUWxqMDhja3FFeF9EUFUyaUR5VlRKd3NLOWthWVRYcmVpS3hwUFVwMtIBwgFBVV95cUxOaklQNFFsMXpuaEdybnE0bDhWc0t6YnhNWkVWRFpwa1Y3a2RtSmk2SThxeUhaTjdNcUlDRU4zNHBkemJsMDJsR1d5bUJZQmhCTW1NVDVZYjBNTlRLVVF6UFBDSDljbzI0NExWeEVqd1cxRHRtSlR1Q1Q3Uk10SnI4M0Y2ZTlDdzkwV0xXZ2ZIWV95S1I0SUlXZ2FicEFNNnNTcHRIUG53QlRwWi0yWVIzQk1aeTB6WmxUNUp5aW1JQmUzUQ?oc=5">OpenAI faces multistate probe over ChatGPT safety and handling of user data - Firstpost</a></h4>
+          <p class="en-summary">OpenAI faces multistate probe over ChatGPT safety and handling of user data Firstpost</p>
+          <div class="meta"><span>Google News Frontier AI Policy and Access</span><span>score 59.506</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/deploy-long-context-reasoning-and-agentic-workflows-with-minimax-m3-on-nvidia-accelerated-infrastructure">Deploy Long-Context Reasoning and Agentic Workflows with MiniMax M3 on NVIDIA Accelerated Infrastructure</a></h4>
+          <p class="en-summary">As enterprise AI adoption scales, developers are increasingly forced to stitch together fragmented pipelines—separate models for text, vision, and</p>
+          <div class="meta"><span>NVIDIA AI</span><span>score 58.328</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.59</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations">KPMG pulls report on AI usage due to apparent hallucinations</a></h4>
+          <p class="en-summary">Once again, AI proves to be an unreliable source of information about AI</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 55.2</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.90</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://openai.com/index/academy-courses-applying-ai-at-work">New OpenAI Academy courses for the next era of work</a></h4>
+          <p class="en-summary">OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work</p>
+          <div class="meta"><span>OpenAI</span><span>score 57.413</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.54</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/beyond-the-solver-how-geometric-deep-learning-is-reshaping-cae">Beyond the solver: How Geometric Deep Learning is reshaping CAE</a></h4>
+          <p class="en-summary">Discover how Geometric Deep Learning and Graph Neural Networks power Simcenter PhysicsAI to cut CFD &amp; FEA simulation time from days to seconds</p>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 82.74</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/reimagining-tool-life-with-ai-and-executable-digital-twins">The artisan’s ear in the digital age: Reimagining tool life with AI and Executable Digital Twins</a></h4>
+          <p class="en-summary">From shop floor intuition to AI-powered foresight – discover how Simcenter Reduced Order Modeling uses Bayesian Neural Networks to predict CNC tool wear and remaining useful life</p>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 75.389</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.88</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <p class="en-summary">How the next generation of cloud HPC is reshaping performance for digital twins and multi-physics simulation</p>
+          <div class="meta"><span>Rescale</span><span>score 71.659</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.86</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOUFN0dHoxUTUtZEVlYnVuUWl1SEI5eTNZVGpnQ0k3RnhVbDZOelBBczR1dUJVblRicTRFM2dxSUhoZ1d6MHZsek8zMENydFNrYndVdkZZZDN6NGRfMm9ZTTVreHdiRVFIR0ZTYlk1LTNVbjNJcWd1U2E3dUxTa2U0c2xsMDFfcmR5TWtqZE9zcjFSMFl5UWlsRzRoVkc?oc=5">JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach - Yahoo Finance</a></h4>
+          <p class="en-summary">JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach Yahoo Finance</p>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 70.813</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <p class="en-summary">AI applied to various aspects of engineers&#x27; day-to-day workflows has become the dominant theme across NAFEMS tracks globally, combined with nearly every industry and physics discipline on the agenda</p>
+          <div class="meta"><span>Rescale</span><span>score 66.068</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.76</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <p class="en-summary">Google DeepMind and partners announce a $10M funding call for multi-agent safety research</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 66.331</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.59</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 54.349</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.50</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <p class="en-summary">Google DeepMind and partners announce a $10M funding call for multi-agent safety research</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 66.331</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.59</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond">Measuring the impact of learning with AI in Sierra Leone and beyond</a></h4>
+          <p class="en-summary">Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 55.384</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.39</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate">Fluid, natural voice translation with Gemini 3.5 Live Translate</a></h4>
+          <p class="en-summary">Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 54.457</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.51</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 54.349</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.50</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/powering-the-future-of-robotics-in-europe">Powering the future of robotics in Europe</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 54.336</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.50</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-13">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Saturday, June 13, 2026</p>
+          <h2>2026-06-13</h2>
+        </div>
+        <div class="audit">
+          <span>374 fetched</span>
+          <span>105 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark">NVIDIA Achieves Leading Agentic Coding Performance on First Agentic AI Benchmark</a></h4>
+          <p class="en-summary">AI agents have fundamentally changed the complexity of inference workloads. Until now, the industry has struggled to define a standard for measuring how</p>
+          <div class="meta"><span>NVIDIA AI</span><span>score 74.644</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai">Building Supercharger: How Rocket Close optimized title operations with agentic AI</a></h4>
+          <p class="en-summary">In this post, we explore how Rocket Close built a solution using Strands Agents, large language models (LLMs), Amazon Bedrock, Amazon Bedrock Knowledge Bases, and Model Context Protocol (MCP) tools. We cover solution features, the rationale for the technology stack, lessons learned, and the business impact at Rocket Close</p>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 72.034</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.90</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/from-pdfs-to-insights-architecting-an-intelligent-document-processing-pipeline-with-aws-generative-ai-services">From PDFs to insights: Architecting an intelligent document processing pipeline with AWS generative AI services</a></h4>
+          <p class="en-summary">This post outlines the development of a cost-effective and scalable intelligent document processing pipeline on AWS, powered by Amazon Bedrock and its features. BDA is a managed service within Amazon Bedrock that automates the extraction of insights from documents.</p>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 67.323</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQNzRyRDNxVmtPaENsR1pja0NuWUNDSklfUXRRemdJREJlWGpHM01PbTVwSWFZdThLT0p4S3J3aEJ0UDNoM2FXYTJPV3pkSGY3TXJsNVVkejFjbWlhUDNISkoxRk1wWGpwb09Jc0QxWFl5czVtYkd4Z3R2dmFmT2dGQ0Z3UjZ0UXJXdThXVDdtamt0aWwzc3FPdXhMX21iTVpkeHVPWjJSSE80MDZKWHdGUmdCN2hXVWlvNkgwUA?oc=5">Anthropic disables top-tier AI models after US order limiting foreign access - Reuters</a></h4>
+          <p class="en-summary">Anthropic disables top-tier AI models after US order limiting foreign access Reuters</p>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 56.527</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX25JZVBtb3FNc1hTVjJwVEJvYmZFNWJJRnBsTDVJOWRMS2NSQlZobHJ6Ujg4UzhqSEFHcExJb1lqekItYVVMX1VCcnlyZ1g1aW45eTZTc3pYS1Fjd3dGc2F0cWhQMFYyU1ZmLUlNeDdNdW56OWxoMHZ1LVhWVjRiTU1EaDVkZURx0gGIAUFVX3lxTE9fbkllUG1vcU1zWFNWMnBUQm9iZkU1YklGcGxMNUk5ZExLY1JCVmhscnpSODhTOGpIQUdwTElvWWp6Qi1hVUxfVUJyeXJnWDVpbjl5NlNzelhLUWN3d0ZzYXRxaFAwVjJTVmYtSU14N011bno5bGgwdnUtWFZWNGJNTURoNWRlRHE?oc=5">Visa, OpenAI work together to support agent-led payments - Digital Commerce 360</a></h4>
+          <p class="en-summary">Visa, OpenAI work together to support agent-led payments Digital Commerce 360</p>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 61.835</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.75</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNQmI1NGtYbVFReEZKS0RJeHJTVWtGa2ZwTnBQQlpEYlZPUmhxVkVGWkt3ZEp5UHZRbGFITjNlck1xQXQxaldhajdlaDdRcGZtcHF5cm83RV9yWGJTczRDWFlMOG1wdFRDVzNkYXlva2EwenoyNU10OV9iSWttRmxUTmV3VjhJNnhuWVFlekc3Z1hVNmQ2UXhJ?oc=5">Mastercard launches new protocol for AI agent payments - Coinspot.io</a></h4>
+          <p class="en-summary">Mastercard launches new protocol for AI agent payments Coinspot.io</p>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 59.509</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.49</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/deploy-long-context-reasoning-and-agentic-workflows-with-minimax-m3-on-nvidia-accelerated-infrastructure">Deploy Long-Context Reasoning and Agentic Workflows with MiniMax M3 on NVIDIA Accelerated Infrastructure</a></h4>
+          <p class="en-summary">As enterprise AI adoption scales, developers are increasingly forced to stitch together fragmented pipelines—separate models for text, vision, and</p>
+          <div class="meta"><span>NVIDIA AI</span><span>score 63.823</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://openai.com/index/academy-courses-applying-ai-at-work">New OpenAI Academy courses for the next era of work</a></h4>
+          <p class="en-summary">OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work</p>
+          <div class="meta"><span>OpenAI</span><span>score 62.908</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.79</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOX0VNSkhmX3pnRzR1NWdCaW1iS3lCQ0dOdDREb3BSV2pNV2tTUVRBbGdMcjVtcW96Nm9rN1lkdkhQQmo1ZEgtU042TklUUUI1STFxS1F1LWE5RHVjdFJyRlRZcmU1eVl0UGxGWjJyX2dkNDlaWFlTYW50TEl5dWt0ZTA5YnozZlZva2JPOXcwREtXeU9RbE1JMUM5TEdDYWpSVlBLdTd6UVEwZ1p0X0FFS1k3eWdwRnpIRGM5UA?oc=5">OpenAI under investigation by group of state attorneys general, source says - Reuters</a></h4>
+          <p class="en-summary">OpenAI under investigation by group of state attorneys general, source says Reuters</p>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 56.172</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.80</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QQWpYUmNUc0MxNjBwczVRb3AtUnZVT01LbVVNRWpkRkJwT09JYlduRGNyeE9RN3VlVjQ3aUpDZ2VwMmtucHh2cmdoTkRVSXRhMHJ3SzV0SHFybFdRSVJDY2dmVDcwd3U3?oc=5">OpenAI to Acquire AI Agent Cloud Platform Ona - Built In</a></h4>
+          <p class="en-summary">OpenAI to Acquire AI Agent Cloud Platform Ona Built In</p>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 56.889</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.53</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/beyond-the-solver-how-geometric-deep-learning-is-reshaping-cae">Beyond the solver: How Geometric Deep Learning is reshaping CAE</a></h4>
+          <p class="en-summary">Discover how Geometric Deep Learning and Graph Neural Networks power Simcenter PhysicsAI to cut CFD &amp; FEA simulation time from days to seconds</p>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 83.289</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/reimagining-tool-life-with-ai-and-executable-digital-twins">The artisan’s ear in the digital age: Reimagining tool life with AI and Executable Digital Twins</a></h4>
+          <p class="en-summary">From shop floor intuition to AI-powered foresight – discover how Simcenter Reduced Order Modeling uses Bayesian Neural Networks to predict CNC tool wear and remaining useful life</p>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 75.939</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <p class="en-summary">How the next generation of cloud HPC is reshaping performance for digital twins and multi-physics simulation</p>
+          <div class="meta"><span>Rescale</span><span>score 72.209</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOQmZNM2VRaDJ4eUYtdS1EOVpFUEdqMnYxNW9vRVdVeXFSeUhybFlUdGxsdTNRYW9VbG02a0tlQzBEUkgyVkljcTBiWGNqQUxWREdGQ21MY2hIQlRuZllLSFJ2MTd6UWhPaHlvRklWTHB6cFREX3JwT0FWYW5odmpZaW1sQVptcm1Jd2o3NGI3MG1BZkZJWWhYU1FpSVh2bjVUVFl4R0NlSXYxd1FJ?oc=5">Jeff Bezos’s Physical AI Startup Prometheus Raises $12B at $41B Valuation - AI Insider</a></h4>
+          <p class="en-summary">Jeff Bezos’s Physical AI Startup Prometheus Raises $12B at $41B Valuation AI Insider</p>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 71.01</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <p class="en-summary">AI applied to various aspects of engineers&#x27; day-to-day workflows has become the dominant theme across NAFEMS tracks globally, combined with nearly every industry and physics discipline on the agenda</p>
+          <div class="meta"><span>Rescale</span><span>score 66.618</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.79</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <p class="en-summary">Google DeepMind and partners announce a $10M funding call for multi-agent safety research</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 68.686</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.70</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 56.704</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.61</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception">The Download: “reprogramming” aging, and the hidden sense of interoception</a></h4>
+          <p class="en-summary">This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed...</p>
+          <div class="meta"><span>MIT Technology Review AI</span><span>score 45.047</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.44</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <p class="en-summary">Google DeepMind and partners announce a $10M funding call for multi-agent safety research</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 68.686</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.70</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond">Measuring the impact of learning with AI in Sierra Leone and beyond</a></h4>
+          <p class="en-summary">Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 57.74</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.50</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate">Fluid, natural voice translation with Gemini 3.5 Live Translate</a></h4>
+          <p class="en-summary">Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 56.812</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.61</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 56.704</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.61</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/powering-the-future-of-robotics-in-europe">Powering the future of robotics in Europe</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 56.691</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.61</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-12">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Friday, June 12, 2026</p>
+          <h2>2026-06-12</h2>
+        </div>
+        <div class="audit">
+          <span>376 fetched</span>
+          <span>118 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit">Evaluate AI agents systematically with Agent-EvalKit</a></h4>
+          <p class="en-summary">Agent-EvalKit is an open-source toolkit (Apache 2.0) that makes this evaluation infrastructure available by integrating with AI coding assistants, including Claude Code, Kiro CLI, and Kilo Code. This post walks through how Agent-EvalKit works across its six evaluation phases, using a travel research agent built with the Strands Agents...</p>
+          <div class="meta"><span>Amazon AWS AI</span><span>score 70.083</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.85</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPeUE1ejg1WGhhNEE2OVNINDNyMl85d0pwTkl2OTFuVVJjOXh0VHoyR3VBMHlZX0NSUWVNTkJnbHFRRmZkMVFybkxDaW5xZ3J5YlZ5ZTBRVHl1TkItLWllVDFodVdhZDNzTUk1VUhtN2Z2UEJpWDBiRy00RWd4WkxMeEtYRkIxb2dVUmVjaWFJVEQyN1c2NmNQR0I0ZGx1QS1MVHc4ZXhsVlF4OWlxNVhrQzRoWFV4akd6TUE?oc=5">Visa Unleashes OpenAI Alliance and Programmable Money Rails to Power the AI Agent Economy - The Fintech Times</a></h4>
+          <p class="en-summary">Visa Unleashes OpenAI Alliance and Programmable Money Rails to Power the AI Agent Economy The Fintech Times</p>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 69.793</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://openai.com/index/openai-to-acquire-ona">OpenAI to acquire Ona</a></h4>
+          <p class="en-summary">OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows</p>
+          <div class="meta"><span>OpenAI</span><span>score 60.456</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.69</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNU2x6SzRaaEtHeGVuYk5uM0U3RE1WX2g0ZUtTZi1jR2FqQTlfU1FXQ3VMMU9vbHhZdjI5RC1PRmNOX1k3R3lEY3NfR3NfQlE5akl5WDMycFFueVlKYWFhQ0hIN2NtUXdfeDhCZ29maGpFb3BLYVF1cHhMZFo3dnpPUEFqc29CckV2TTY4TVZscE80QVNJb1JheFJB?oc=5">Mastercard Launches Payment System for AI Agents - Modern Consensus.</a></h4>
+          <p class="en-summary">Mastercard Launches Payment System for AI Agents Modern Consensus</p>
+          <div class="meta"><span>Google News AI Payments and Agent Commerce</span><span>score 63.553</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.83</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ2RhbUlPNS1IX0M0SElidk1KX2pRbzI4SThUUEdKVVllbF84bkNESE5ETXFoSHFNRVJCeXRPU2RwRWF1MXBPVWgtQjlzcXlEbnBRU29WOGR1U0tidmlqWGxBX0Vlb3JVdEhkTHBXZ25ZNGhVTHNXeUpLNzdBME5yWXBsNGpGc0ZXNmpmRG9PT1hiRDNwN28tRUFOV2RJYWx1OHVqU0pLMS1RM3Vo?oc=5">Anthropic Reverses Secret Policy That Silently Degraded Claude for Rival AI Researchers - MLQ.ai</a></h4>
+          <p class="en-summary">Anthropic Reverses Secret Policy That Silently Degraded Claude for Rival AI Researchers MLQ.ai</p>
+          <div class="meta"><span>Google News Frontier AI Policy and Access</span><span>score 63.162</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNaFNHOHZlXzY4dFkxQk12LXlQRHVMeVZULWhpaFI3cHRxX3kxVjl5ejZ1WDFrdkNwTFdhSDlkZTItZVB6am42Y1dZZEJIbEhnU3hKdzJqdzdicVZ1R0ZoWk9ZS2ozUGFkbmVmUDc2aUo5SVctOVlIOC1LME0taUo1cnJRYVZpWHdxZjczdDY0SDVZWkJRUUJ1aHh4V0dyQU1XUDRV?oc=5">The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic - WSJ</a></h4>
+          <p class="en-summary">The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic WSJ</p>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 60.554</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world">Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world</a></h4>
+          <p class="en-summary">The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 59.702</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUlZjRzBlMVhUMXZuVjBGWl9LYU9iTmNOaWlfaHI4a0F1MzROVzRQeFU1WEwyaHB6akd1dGZkcnRSZlZOTENpb0tOVThNa0wwTHYtM1VXVFZyRXRDdE01VVpsWm9WX1p6bENNdnBPVnlMX3pGdUdDZHBwRThnYWNFRldfWnBNQlRjT2psWEQ2MWdnSmVmbVVmaWJOSjRIY0dpZm8yTkpDNlpUM1BJd3N1WG81dzBXTmRTM01YMTd0SzN0STE4dXJTdGlnel9faFdCSW9IVHJn?oc=5">Microsoft’s open-source SkillOpt automatically upgrades AI agent skills without touching model weights - VentureBeat</a></h4>
+          <p class="en-summary">Microsoft’s open-source SkillOpt automatically upgrades AI agent skills without touching model weights VentureBeat</p>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 59.603</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.80</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjNjZUhmYmpJdFNHcjh5MDV1SHNudjNfMEtNRkZlZ1ZqZThjZzhhbkFXQW9uZ0t2Rl9SN3lTQTB4WXFBalphQWRTbmI1N3pxY25OeXR4d1EtVUNFV3lmNkFOdEdEUkN1emVKNEhIb1JLUkFpYk9GWWZONXlDUlNPWWtJYzBfWThsdXVPLUR5enJtNlZ6dGNRZzZJX3g5TVFISlRsMWFNUjFqMTctTnl2bU9IWjZ6MnM2?oc=5">Mother sues OpenAI, alleging ChatGPT encouraged daughter&#x27;s suicide - Reuters</a></h4>
+          <p class="en-summary">Mother sues OpenAI, alleging ChatGPT encouraged daughter&#x27;s suicide Reuters</p>
+          <div class="meta"><span>Google News Frontier AI Policy and Access</span><span>score 56.76</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.67</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything">Theker just raised $85M to build the factory robot that doesn’t specialize in anything</a></h4>
+          <p class="en-summary">Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker&#x27;s machines are built to be reconfigured</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 56.369</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.96</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/beyond-the-solver-how-geometric-deep-learning-is-reshaping-cae">Beyond the solver: How Geometric Deep Learning is reshaping CAE</a></h4>
+          <p class="en-summary">Discover how Geometric Deep Learning and Graph Neural Networks power Simcenter PhysicsAI to cut CFD &amp; FEA simulation time from days to seconds</p>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 83.84</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/reimagining-tool-life-with-ai-and-executable-digital-twins">The artisan’s ear in the digital age: Reimagining tool life with AI and Executable Digital Twins</a></h4>
+          <p class="en-summary">From shop floor intuition to AI-powered foresight – discover how Simcenter Reduced Order Modeling uses Bayesian Neural Networks to predict CNC tool wear and remaining useful life</p>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 76.489</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <p class="en-summary">How the next generation of cloud HPC is reshaping performance for digital twins and multi-physics simulation</p>
+          <div class="meta"><span>Rescale</span><span>score 72.759</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <p class="en-summary">AI applied to various aspects of engineers&#x27; day-to-day workflows has become the dominant theme across NAFEMS tracks globally, combined with nearly every industry and physics discipline on the agenda</p>
+          <div class="meta"><span>Rescale</span><span>score 67.169</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOejdQVk1hMHBJZGFkMVJOVnJIOHplWThidHVLOUtYQ2g3VTgxd0FGdGh0RFBvZTItLWVXUGkyUEY2UjU4Z01pUkZZN3FqRjJJc0ZsaWJJa1dLNy1fWWpaVTBYSHVFVHhtLVdJMHQtN0Q2S2FaWmdGVE5TbmlyZDlMVnkxLTZfWktjOEY1TDhkdHV5MFlyRmw4ZQ?oc=5">Prometheus raises $12B to build physical AI engineer - Let&#x27;s Data Science</a></h4>
+          <p class="en-summary">Prometheus raises $12B to build physical AI engineer Let&#x27;s Data Science</p>
+          <div class="meta"><span>Google News Engineering AI Discovery</span><span>score 71.221</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <p class="en-summary">Google DeepMind and partners announce a $10M funding call for multi-agent safety research</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 71.046</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 59.063</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.71</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/evaluate-clinical-asr-models-faster-with-agent-skills-and-nvidia-nemotron-speech">Evaluate Clinical ASR Models Faster with Agent Skills and NVIDIA Nemotron Speech</a></h4>
+          <p class="en-summary">Training a speech AI model to correctly recognize or synthesize clinical terminology is surprisingly difficult. Drug names like Acetaminophen, Amlodipine</p>
+          <div class="meta"><span>NVIDIA AI</span><span>score 49.56</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.34</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <p class="en-summary">Google DeepMind and partners announce a $10M funding call for multi-agent safety research</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 71.046</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.81</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond">Measuring the impact of learning with AI in Sierra Leone and beyond</a></h4>
+          <p class="en-summary">Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 60.099</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.60</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate">Fluid, natural voice translation with Gemini 3.5 Live Translate</a></h4>
+          <p class="en-summary">Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 59.172</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.72</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 59.063</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.71</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/powering-the-future-of-robotics-in-europe">Powering the future of robotics in Europe</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 59.051</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.71</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-11">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Thursday, June 11, 2026</p>
+          <h2>2026-06-11</h2>
+        </div>
+        <div class="audit">
+          <span>380 fetched</span>
+          <span>147 candidates</span>
+          <span>1 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTVaQ2JmSTJ2dG1yVC1nSHpNbWJqOVlUV2dmMW1vZ2d6VmlFN1ZDRTFOVS04SDZQM01CcDZIRS1WWDluTE5hYzJBV25NZlBKMndtTmRHRG5DZmphLWEydEhmM0g5cEVHcjlvNTBueWpZRmFpcDNPekV2OU9hWV9BMzJsd3NLNWEwcFpydDFQX1JZc0I2Xy1ZcktIZDlxV2RramNQT1F5WnXSAa4BQVVfeXFMTTA0akxwVmdMa0RybEpINXVxTUxTSkJWRWNnY3pDUXN2ZDAyaW53dkRvVG1QM3hQSWt4aFlQTnJwWkVoYUdzd3F3cWFybHA5cE9feHQyTlhHc0pDaFhlMVVTWTBRU3hLRHlWamFsQldzTnpHOWRXcjREbG9UcTRTRGZsLTFhYTlnQWQ4OFpUTEZkR21mR3VsdGpRbmloN01vT0ZxTGl6dEtkM09fZS1n?oc=5">OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ - CNBC</a></h4>
+          <p class="en-summary">OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ CNBC</p>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 56.986</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.68</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ3JHRTVCNVZKTDNuR1NlUDFjdGRwU1lWNndvZTFudmEtamhBOU5nRU9IWE5ZaDI2VjZBMmJhaUpLVmxYcGs0QVZPOXZ2U3dhX2c2eW5UbW9LRUEtNWNCUmt4YTVZMjB3RmdJakZoX2xFMGY0MW5obFZiMlNfYmlYeUN3amR4akVRSE43dDVNOA?oc=5">Fortune</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Fortune</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxORnEtMHRDdUF6VkFPSkE5MkpSQ3pKNWdvWGpCd3dDU0dTTEE0UVF0aVhfOC0zaHRNYWdDWXFpQklCOXVRbEEwT19ZNVN3ZnVjRWRsejhMU09scUh1eTdTd2dGa3ltUXJQUHd4ZW8tMWJLU3FjUkRPYW5fQVRSUjJfZ2JnOTQ0NWFDb3NSYTFNa2ZaX1lRV2tmT1BmQmFlclFuT2NZ?oc=5">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude - WIRED</a></h4>
+          <p class="en-summary">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude WIRED</p>
+          <div class="meta"><span>Google News Frontier AI Policy and Access</span><span>score 59.504</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.67</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2tNaEt3clRGZmRCQmp4eUxkMlp5eVpSMFhoN2xocUNEbm9CcEI1YlVxWVc5Q3NGako4OHZpZWpBejY1b0Vtc3hhUEl0cUxzNXVoVEhGbU5zOEY0em9zVlJLYjFXYlZweGJEdHdkeWhKTzVBbEpWd1lQb2oxc19GZGJtR2J2OUlPdWhzQ2R0eW9MWnIyTGZnN1lyaUlQb0tGbE1NWGYwRVR4V29KX0E?oc=5">Inside AI-pilled engineering teams: Five lessons for scaling without losing the plot - Bessemer Venture Partners</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Inside AI-pilled engineering teams: Five lessons for scaling without losing the plot - Bessemer Venture Partners</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnFDeXdUaGRRY3FzRWFMbVpRbFBrVXVhOHNDWDRMaFQ1T1kzclBENEtWa3R5UDBDQktzb3Z3N0FYUjJsejBwZUY5eURuejdvaFg4eXJrSndRLWdvTGtDcVdwOFdXeHZlVWo4eXJDc3ZGWlg0aTZwak1ySWwtS3hkSzNmdVR3MEhGXzdGRDRjV3dpMzVTOFhDX0o1Z3FBSDBqamfSAacBQVVfeXFMTzVVZEpXZk9NbHhzV241am1weGozclJlMUV6WFd1VFFQSnhoLXhibFlnVnNQaGRsUm5QNjFtT2F4ZXdQUk9BN0VCbHgweEUySVhkMjRHZDROSmRoem1FUGwzTXVVd2wxZWkycDdWZld1RW5JaFJJd0tQMkx2VlkwNG9wS3Z6blByVkFpLV9lbEhjMjNSTDdoQzROTDhPbnlGbTdlRHJIUE0?oc=5">ABC News</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>ABC News</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFZRVXVXbExma1lxdjN0RkRoUFo4SVFYWm1QWk9TYTQwZS1tUldwbUVhbndQRkFtSmVwNTNmWndVQWF5U2NpRXZfdnA4NEFxMTA3SXBoVFFMLWtvbHdhZjJZbTVJT0F3MWZCNHhxUnJEalJyTExqZUtLVWJrdk5WWHFHWmJOV2p6cmtPa3ZuZFA0UkRNXzI3MGhDZjFFYXpsRVhQdF92eHQxd0RGa1ZvdWROZ3FpeTBSV255WGx3cw?oc=5">Reuters</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Reuters</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1QVlNrVjFQNU0telNHZDE4YzFwaFhKSHRUak1Cb2VaMTYtVE53MGVEZ0RaZWJNYXdrc21kYjhrNzloazZjcFJsamJtSUdWbEJvVzM3YlhCMDFhVU90MFBNdlZWSlUteThOdUE?oc=5">I Built an AI Company. Here’s Why AI Won’t Kill Coding Jobs. - The Free Press</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>I Built an AI Company. Here’s Why AI Won’t Kill Coding Jobs. - The Free Press</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQcVJURHFsMTlVSHY5RDR1bnBYZWdWNDR4aVMyV2xHS0hCRmJwS0l3NEsyejFiZGN3MFZLbmJ6QWExWm9MNlNtMUN4LVVKVGl1V3dJeTZqM2M0bE55T2hPZk9mYWNkaEloTTlDdUxIbTZ2OWs4VkZhb1FsSlB1dEVTQ0pXYXJSQ0laNXVwX1I2RFNOWEd0N2VpNDhSRFREbjhDQ2ZjYjBB?oc=5">How frontier teams are reinventing AI-native development - Amazon Web Services</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>How frontier teams are reinventing AI-native development - Amazon Web Services</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPLXcwaXBhY3BNaDJjc2QxSmJ4MlNMODNFNERwNlFaUjVJbDkyeVdULS1PRXZzU2hTOUk0NVZwS1hGV3FFRDl3Z1FaaWpXNm92eDR6NVA2UTA3QjhoaTVSSV9tU0J2LXo4R0hrc1Q3a1NLLTZRZDJ6dURfejRqekxGZVNJRVRPa212WHFuVVBR?oc=5">Politico</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Politico</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbEtRbUVBNldBSEl0bTBVeHdGYWUzdi1TQ256RTVnbWhwaEFTYXpQLVdWZ1V6MkpwYXh1TXZydlUxWHpncW5SYlhJaXJNWXJsSXVBUFd1ZGZJWnhBMndDTUhST0dmYUoybGFMdUlWSjM3MGtPM3NkSW9tZ3BsZng1akc3UURSWkNHVGZSQ3dpOUFJZVBKOVktV0w2TTB1TzMxTFYwd2g2Wl9SZw?oc=5">Visa to Secure Payments for Shoppers on ChatGPT in OpenAI Partnership - WSJ</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Visa to Secure Payments for Shoppers on ChatGPT in OpenAI Partnership - WSJ</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/beyond-the-solver-how-geometric-deep-learning-is-reshaping-cae">Beyond the solver: How Geometric Deep Learning is reshaping CAE</a></h4>
+          <p class="en-summary">Discover how Geometric Deep Learning and Graph Neural Networks power Simcenter PhysicsAI to cut CFD &amp; FEA simulation time from days to seconds</p>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 84.216</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://blogs.sw.siemens.com/simcenter/reimagining-tool-life-with-ai-and-executable-digital-twins">The artisan’s ear in the digital age: Reimagining tool life with AI and Executable Digital Twins</a></h4>
+          <p class="en-summary">From shop floor intuition to AI-powered foresight – discover how Simcenter Reduced Order Modeling uses Bayesian Neural Networks to predict CNC tool wear and remaining useful life</p>
+          <div class="meta"><span>Siemens Simcenter</span><span>score 76.866</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <p class="en-summary">How the next generation of cloud HPC is reshaping performance for digital twins and multi-physics simulation</p>
+          <div class="meta"><span>Rescale</span><span>score 73.136</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMilANBVV95cUxOUmU2dmZ6aW5KdWRBaFdoeVE3elVfMGMzZ1RwUG5HYm5BOU51T3NwOU1YTXYtSy1uWjRBNm11MGpKQ2FNdE5SMFpSVFNiSGRmVHFkVENidnpJWnRXYlBRX25rS2RYQkVDYUk0bFRaNWpZZ0RFZXB6RUFXLVkwQXBNcmRhOVlyWk83SXE1M19CT1JLYjdYZ2dOa0FnOE4xcTB6dHZSOGpjMUEyYWtkekNobWV0SF96UTlWMks2OHFKVlYtV0NOUVpRc2pSeFlfWnB2Y1V1dVllVThwLUtyVmx2bDdyNEpxSFAycDJyN2huRjZxWjlFTVphd3oyd3pjQ1V0bE9RUU40T1dyM2pIMDRCZG1SelpwRndtOFMxWEkySi1CRzlyNDNhQUVfRG5CTUNLVktRRG81VHFRczRtd0ZTZGpDYy1hLUR6cGR3RVNCaXdrVXB2d01DOXlJUjNvbUFGSTFuejhCbTBxNW1WZVRFMEIwWmkySm8wWXlWTGJjRlhZT2ROTGFaeFYzd3M4NTZTeHJ6TdIBlANBVV95cUxOUmU2dmZ6aW5KdWRBaFdoeVE3elVfMGMzZ1RwUG5HYm5BOU51T3NwOU1YTXYtSy1uWjRBNm11MGpKQ2FNdE5SMFpSVFNiSGRmVHFkVENidnpJWnRXYlBRX25rS2RYQkVDYUk0bFRaNWpZZ0RFZXB6RUFXLVkwQXBNcmRhOVlyWk83SXE1M19CT1JLYjdYZ2dOa0FnOE4xcTB6dHZSOGpjMUEyYWtkekNobWV0SF96UTlWMks2OHFKVlYtV0NOUVpRc2pSeFlfWnB2Y1V1dVllVThwLUtyVmx2bDdyNEpxSFAycDJyN2huRjZxWjlFTVphd3oyd3pjQ1V0bE9RUU40T1dyM2pIMDRCZG1SelpwRndtOFMxWEkySi1CRzlyNDNhQUVfRG5CTUNLVktRRG81VHFRczRtd0ZTZGpDYy1hLUR6cGR3RVNCaXdrVXB2d01DOXlJUjNvbUFGSTFuejhCbTBxNW1WZVRFMEIwWmkySm8wWXlWTGJjRlhZT2ROTGFaeFYzd3M4NTZTeHJ6TQ?oc=5">The Manila Times</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>The Manila Times</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPbmJMd2ZVUTdSZ1RHX1B0Rk1wM3l0OEwweXFmSWFRRVZwTGszV0RzQy03dlBDV1ZTeTAwNHBrZlBHMVllcWVfWHU0VmR1bVZuelBOcTRuNTN1R3RTNmNfY28xY3g0MnFCV09BOGNjUWJrUEk4bFh3MWtEcTJoY1RLOWpwWTFUWkhFbFhTaXhJbTlGX29FRFFLQWdabTJNc09qdHFDM2RtYnJkZHI5MFE?oc=5">Engineer Live</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Engineer Live</span><span>score </span></div>
+          <p class="reason"></p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWHZKLWFpLUZyOWlkZmdQenBKWUdhZ1UzUUlWNnh3TkFqd3oxOWJnMDBXT19FS1Naa3BNNkdBSXc5M0lTTHdtR3B3QzlreU1lUXBfM3V0QWlZQkRwSGZIS0hlbXotX05HNGVnTTZ0aE9sYVhjekxGR0M2aGZHT05BWEpCdjRDRVN2VWR2blhqX1JlZDRMd2xRY1BGOHZ6M2ROQ3lZeHlMeFI?oc=5">Exclusive | Nvidia Is Developing an AI Healthcare Model With Startup Abridge - WSJ</a></h4>
+          <p class="en-summary">Exclusive | Nvidia Is Developing an AI Healthcare Model With Startup Abridge WSJ</p>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 59.565</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiggJBVV95cUxPb0EyaEhONGNVb1FaUWlDejBoVG16elZnVVdXcUVQLUZEaHdhQlphS2ZpQUVjc0VwdXJ1NDMxUDZFRTZ6cjJoU0Q0ZnM1aUZ3TDJFeTh0UmhJY2FKWkxMWnZlMWhTc0xQUjFTc0dyT3V5QUZLQmZyOUxfeVRCajIwT1pJTDRpMWQ1LW5GTzBaSjRKN1lQLTdXYjVMWUI3dEFCZFhKSVhyQW14SmVOeGJoTURRTll3bEc2dzE2UEZmYTk5cmdaRkp6N2VPdXJNWTRiRTUza01TLW9LRUVfbkZvOWROMEFCTEMyZ014X244NFA3TWdKOHJqUENTekMwaEhtbHc?oc=5">Using AI for medical advice; pelvic floor exercises; the hidden dangers of burning incense; plus other stories with Vanderbilt Health sources - Vanderbilt Health News</a></h4>
+          <p class="en-summary">Using AI for medical advice; pelvic floor exercises; the hidden dangers of burning incense; plus other stories with Vanderbilt Health sources Vanderbilt Health News</p>
+          <div class="meta"><span>Google News General AI Discovery</span><span>score 57.292</span></div>
+          <p class="reason">source_priority=1.00; novelty=1.00</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today">Anthropic’s Claude Fable 5 is a version of Mythos the public can access today</a></h4>
+          <p class="en-summary">Anthropic is releasing Claude Fable 5, its first Mythos-class model available to the public. The model comes with guardrails that block responses in high-risk areas like cybersecurity and biology</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 53.779</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.54</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/evaluate-clinical-asr-models-faster-with-agent-skills-and-nvidia-nemotron-speech">Evaluate Clinical ASR Models Faster with Agent Skills and NVIDIA Nemotron Speech</a></h4>
+          <p class="en-summary">Training a speech AI model to correctly recognize or synthesize clinical terminology is surprisingly difficult. Drug names like Acetaminophen, Amlodipine</p>
+          <div class="meta"><span>NVIDIA AI</span><span>score 53.32</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.51</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      <section class="medical-section">
+        <h3>Research Radar</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research">Investing in multi-agent AI safety research</a></h4>
+          <p class="en-summary">Google DeepMind and partners announce a $10M funding call for multi-agent safety research</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 72.657</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.88</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond">Measuring the impact of learning with AI in Sierra Leone and beyond</a></h4>
+          <p class="en-summary">Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 61.711</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.68</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate">Fluid, natural voice translation with Gemini 3.5 Live Translate</a></h4>
+          <p class="en-summary">Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 60.783</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.79</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model">Introducing Gemma 4 12B: a unified, encoder-free multimodal model</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 60.675</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.79</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://deepmind.google/blog/powering-the-future-of-robotics-in-europe">Powering the future of robotics in Europe</a></h4>
+          <p class="en-summary">Selected for its relevance, source priority, recency, and cross-source/topic evidence.</p>
+          <div class="meta"><span>Google DeepMind</span><span>score 60.662</span></div>
+          <p class="reason">source_priority=1.00; novelty=0.79</p>
+        </div>
+      </article>
+    
+      </section>
+    
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-10">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Wednesday, June 10, 2026</p>
+          <h2>2026-06-10</h2>
+        </div>
+        <div class="audit">
+          <span>314 fetched</span>
+          <span>71 candidates</span>
+          <span>10 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today">Anthropic’s Claude Fable 5 is a version of Mythos the public can access today</a></h4>
+          <p class="en-summary">Anthropic is releasing Claude Fable 5, its first Mythos-class model available to the public. The model comes with guardrails that block responses in high-risk areas like cybersecurity and biology</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 47.643</span></div>
+          <p class="reason">source_reach=0.82; recency=0.59</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/evaluate-clinical-asr-models-faster-with-agent-skills-and-nvidia-nemotron-speech">Evaluate Clinical ASR Models Faster with Agent Skills and NVIDIA Nemotron Speech</a></h4>
+          <p class="en-summary">Training a speech AI model to correctly recognize or synthesize clinical terminology is surprisingly difficult. Drug names like Acetaminophen, Amlodipine</p>
+          <div class="meta"><span>NVIDIA Technical Blog</span><span>score 43.893</span></div>
+          <p class="reason">source_reach=0.72; recency=0.53</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-09">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Tuesday, June 09, 2026</p>
+          <h2>2026-06-09</h2>
+        </div>
+        <div class="audit">
+          <span>322 fetched</span>
+          <span>61 candidates</span>
+          <span>9 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTFVa0JiVVVhTlRkNFdnSlc3OVBkSmtnVGZndmxMeWFuaWdNOUs4NUFuMUJlREtmcU5xaVlYazh4cFlPMGY0UkhtTG03TlREUm1SYUYtejBNRUR0VmZkYjhrM3dlOUxYZ0FxQTFRdm5ZSUl5QTlHNXlkZUduZEVNRURLQS02c2JxbVphOUNpWlNKWWRmY09BV9IBngFBVV95cUxOT2w2WUNKUmNudkNiNEZPNGEzcHBVSTdPRFFFX3N2WFIwd1RrcW13RUpSVThvVkozNzZGV1RpNERjTUp5X2RTNWRZZWJCRGVRRmFPa2FRbTV2QjQxSjMtU2NnYkZfYUx5emhvSTVjdGMxLWZBNThibHNrT1hKZVhPLXlNcDNFWUJIMkphSzBUaWk0bVRYYVdILUpZT0ZSZw?oc=5">Perplexity plans IPO in 2028 regardless of what happens to Anthropic or OpenAI, CEO tells CNBC - CNBC</a></h4>
+          <p class="en-summary">Perplexity plans IPO in 2028 regardless of what happens to Anthropic or OpenAI, CEO tells CNBC CNBC</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.189</span></div>
+          <p class="reason">source_reach=1.00; recency=0.83</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZFNfSG9fbUdOYjh4RllpYlZpT1poMExmVHBsWndaMHlZaHpSSG4zalhSeFJNRDc0bms0MjdYa3JaZk9ubzVPaThLNjdRNjJRdlQwNDY2RUNiZw?oc=5">OpenAI plans to go public setting up new race with Anthropic - BBC</a></h4>
+          <p class="en-summary">OpenAI plans to go public setting up new race with Anthropic BBC</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.495</span></div>
+          <p class="reason">source_reach=1.00; recency=0.80</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQOHh5ZUJodXpvNGI2Y09yQ25oNUszam5rendnZ2haX2l2dTMxbWcwU1Jlb0xjdnNRckNkMElCZy02aHhlQUFfNmZTeU1faE1vLW1aRzByektzWFJ4MEUycjJtY1dkRi1DVGN0dWNzdFIyQjlPdWJ2RG5LLTVXelN5SU5BUGZFeFZNSU0zMEpUcUFPLWxySlpSWjA2c0FvZDRxRzlZWWdPNU02M0JMVUVsN1Vfbw?oc=5">Apple introduces Siri AI, a profoundly more capable and personal assistant - Apple</a></h4>
+          <p class="en-summary">Apple introduces Siri AI, a profoundly more capable and personal assistant Apple</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.125</span></div>
+          <p class="reason">source_reach=1.00; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kaHBLR1JJWk1JWmxZenN1LU1ZeEhZN0ZEekNaeklqeDlOclpHNWZzNjFvSVpJdG1WLV9fakJoSnpMcGZKaGFqN2RPRUdkM2FyNUF5YlU0S2tpcnVpdGp3RQ?oc=5">How to Raise ‘AI-Native’ Kids - The Free Press</a></h4>
+          <p class="en-summary">How to Raise ‘AI-Native’ Kids The Free Press</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.931</span></div>
+          <p class="reason">source_reach=1.00; recency=0.92</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFB4TjFkZDFJdkg4ZVUwNmhSSENfbldRMDdRS1dYNTVMTXZMVUt5bldNTzFWdmkxQlo4U3JRUWJOZXU5S0tYdDhDSUFsRnlIQzZST293NUFST1BfbWMzbGhnYTBHdHVoenZzMXhjWnRwdk50Q0XSAXhBVV95cUxNRUI5M19abFhpcDlMVlJRV0NJUTFybXExZ2pkTWVBT0pLMGsxeklfSHJiMDlSOGVyTjNSQzJKaUxEX2R5NjdHdUJDUGYwWWluRkEtd1BjbFQ3TVFaLUpQcHZXeUs0V1h1MjdtbldGR2Z3Q0x1WDRkczE?oc=5">Apple partnering with Google and Nvidia for most advanced AI model - CNBC</a></h4>
+          <p class="en-summary">Apple partnering with Google and Nvidia for most advanced AI model CNBC</p>
+          <div class="meta"><span>Google News AI</span><span>score 57.47</span></div>
+          <p class="reason">source_reach=1.00; recency=0.72</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmRpeURmSGpnYmc4VHZHTEJMSjlxZFZXV3ROUVd4aGJ0TmdXYmF5X0pZX25sX0RDeG9UTG5JV1dZaFRGamhNTEhVNm5sVjRtdS0zOHplNUVOSFRaNzFHanhEdmY5aFRpVmUtWUlXTUZBSGdlNm04bHEyWWtjR1YxY1NwVk1VZnZfRDJ1NTZWVXktRWc3YlRTZ0djRmktLUlBZGdOUGFxb1_SAa4BQVVfeXFMTU0tS1NPRi1kdWVCV2oyaFRWTS0yNnM0dFVLTmFDXzdLcU5jQnAxdTFOejZFSzljUkVrNDdEYjAwT043UmIwRkpqSkRZNmJsY3dfQnU4Nm04cU9jbF9QRGpsWmIyc0xKY3ZBRExEUFRNYjczRTUwdkF1bk1SYjB6RmRWR1FjMnVLQnI4SURhdU9JcUVSX1Y0a1RQbGd5REtmM0VWdDdWUmo2RURtRVJR?oc=5">Nvidia CEO Jensen Huang declines Senate testimony on AI, China and exports - CNBC</a></h4>
+          <p class="en-summary">Nvidia CEO Jensen Huang declines Senate testimony on AI, China and exports CNBC</p>
+          <div class="meta"><span>Google News AI</span><span>score 56.836</span></div>
+          <p class="reason">source_reach=1.00; recency=0.69</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers">Apple bets cheaper AI will woo small developers</a></h4>
+          <p class="en-summary">As AI experimentation grows more expensive, Apple is waiving cloud API costs for developers with fewer than 2 million first-time App Store downloads</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 48.593</span></div>
+          <p class="reason">source_reach=0.82; recency=0.71</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://developer.nvidia.com/blog/train-models-faster-with-jax-and-maxtext-using-nvfp4-on-nvidia-blackwell">Train Models Faster with JAX and MaxText Using NVFP4 on NVIDIA Blackwell</a></h4>
+          <p class="en-summary">Pre-training frontier LLMs comes down to throughput. When training spans trillions of tokens across thousands of accelerators, every percentage point of step</p>
+          <div class="meta"><span>NVIDIA Technical Blog</span><span>score 45.97</span></div>
+          <p class="reason">source_reach=0.72; recency=0.63</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPcWV0MzNnSkpKRTB3eVVCR1l2NGJ2NmI4U2F4elZKTW5fT2NFYlNoN0xVekk5ZHRCVzMwTlVwRHBUbGJLQ1dZNXJwWnB2N003ZEt5QU5XdTNvcUsyQTVRWEFVYi1nUDhScmI0VlFZLUtRVHN2bGFEa0paOTh3YWRYM3BMQTlKSDl3eVJoNmt5Rm91NlhNc1RKWkp3WnBIQThnV2ltNnF6R184QlVRYVY1ejNPVG5FN2NlWE16OWt6Yw?oc=5">To Thrive in the AI Era, Tech Leaders Must Reinvent Organization and Operating Models - Boston Consulting Group</a></h4>
+          <p class="en-summary">To Thrive in the AI Era, Tech Leaders Must Reinvent Organization and Operating Models Boston Consulting Group</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.332</span></div>
+          <p class="reason">source_reach=1.00; recency=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxOVzF3NWZodWRLaDFmR0s2Vm9XOXFERVVxaFVxTmJEUGZ4ZkJfRjRMSDRuUzROMmdSTWk4OXlENnRvVG1URzlUM0UwZHFVR3R2ekw1SW5mOEpUWlJCYVpya095b1BOTWV2dUl3OU5iRGhYVE5zSGtoN2RuUFlRYnJMVVRVWjJvN2FnTFhnbUtqZndMblVj?oc=5">OpenAI files confidentially for IPO, following Anthropic - TechCrunch</a></h4>
+          <p class="en-summary">OpenAI files confidentially for IPO, following Anthropic TechCrunch</p>
+          <div class="meta"><span>Google News AI</span><span>score 59.168</span></div>
+          <p class="reason">source_reach=1.00; recency=0.73</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/powering-next-generation-rand-amazon-ec2-hpc8a">Powering the Next Generation of R&amp;D: Amazon EC2 Hpc8a Instances Are Generally Available on Rescale</a></h4>
+          <p class="en-summary">How the next generation of cloud HPC is reshaping performance for digital twins and multi-physics simulation</p>
+          <div class="meta"><span>Rescale Blog</span><span>score 47.566</span></div>
+          <p class="reason">source_reach=0.62; recency=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMilANBVV95cUxOUmU2dmZ6aW5KdWRBaFdoeVE3elVfMGMzZ1RwUG5HYm5BOU51T3NwOU1YTXYtSy1uWjRBNm11MGpKQ2FNdE5SMFpSVFNiSGRmVHFkVENidnpJWnRXYlBRX25rS2RYQkVDYUk0bFRaNWpZZ0RFZXB6RUFXLVkwQXBNcmRhOVlyWk83SXE1M19CT1JLYjdYZ2dOa0FnOE4xcTB6dHZSOGpjMUEyYWtkekNobWV0SF96UTlWMks2OHFKVlYtV0NOUVpRc2pSeFlfWnB2Y1V1dVllVThwLUtyVmx2bDdyNEpxSFAycDJyN2huRjZxWjlFTVphd3oyd3pjQ1V0bE9RUU40T1dyM2pIMDRCZG1SelpwRndtOFMxWEkySi1CRzlyNDNhQUVfRG5CTUNLVktRRG81VHFRczRtd0ZTZGpDYy1hLUR6cGR3RVNCaXdrVXB2d01DOXlJUjNvbUFGSTFuejhCbTBxNW1WZVRFMEIwWmkySm8wWXlWTGJjRlhZT2ROTGFaeFYzd3M4NTZTeHJ6TdIBlANBVV95cUxOUmU2dmZ6aW5KdWRBaFdoeVE3elVfMGMzZ1RwUG5HYm5BOU51T3NwOU1YTXYtSy1uWjRBNm11MGpKQ2FNdE5SMFpSVFNiSGRmVHFkVENidnpJWnRXYlBRX25rS2RYQkVDYUk0bFRaNWpZZ0RFZXB6RUFXLVkwQXBNcmRhOVlyWk83SXE1M19CT1JLYjdYZ2dOa0FnOE4xcTB6dHZSOGpjMUEyYWtkekNobWV0SF96UTlWMks2OHFKVlYtV0NOUVpRc2pSeFlfWnB2Y1V1dVllVThwLUtyVmx2bDdyNEpxSFAycDJyN2huRjZxWjlFTVphd3oyd3pjQ1V0bE9RUU40T1dyM2pIMDRCZG1SelpwRndtOFMxWEkySi1CRzlyNDNhQUVfRG5CTUNLVktRRG81VHFRczRtd0ZTZGpDYy1hLUR6cGR3RVNCaXdrVXB2d01DOXlJUjNvbUFGSTFuejhCbTBxNW1WZVRFMEIwWmkySm8wWXlWTGJjRlhZT2ROTGFaeFYzd3M4NTZTeHJ6TQ?oc=5">Thea Energy Accelerates Fusion Energy with Helios Power Plant Digital Twin and AI Surrogate Models in Collaboration with NVIDIA, Synopsys, Argonne National Laboratory, and Princeton Plasma Physics Laboratory - The Manila Times</a></h4>
+          <p class="en-summary">Thea Energy Accelerates Fusion Energy with Helios Power Plant Digital Twin and AI Surrogate Models in Collaboration with NVIDIA, Synopsys, Argonne National Laboratory, and Princeton Plasma Physics Laboratory The Manila Times</p>
+          <div class="meta"><span>Rescale AI Physics Search</span><span>score 47.437</span></div>
+          <p class="reason">source_reach=0.62; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBIYTNpQ2RXTTFGcFhqbVhJU1o2SG1uWkhtTFJGa1J3MTQ2UHpVZVNseUhnbFdMZnpYc1lTMlEwdHA5d3o4WC1xM21WdTlzREktb0trS1dYSHVhREpxSl9kNWtTV25mREZNZzB2bjZmRUtCSTAtMmNqWTJKcXliREk?oc=5">From Menu to Meal: Cooking Up a Safer Hybrid-Electric Aircraft Faster - Siemens Blog Network</a></h4>
+          <p class="en-summary">From Menu to Meal: Cooking Up a Safer Hybrid-Electric Aircraft Faster Siemens Blog Network</p>
+          <div class="meta"><span>Siemens Art of the Possible CAE AI Search</span><span>score 45.951</span></div>
+          <p class="reason">source_reach=0.62; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUmtnNDgtSGVlR2pGSXE4dG9jV0t4eVZjWGdWN20tOG8tNzM3RjR0RGJLaW10TmtkM2xkeXZJc0NqbU1ReDEyM3lObV8xUGNhQUlSZ3M0QXFBS0hROTlOU1pzRjF6RVVERUZvY0RBT3VBYnBKRC1faTVTb3lEdTNfbGpzdUJqemJsbXpiQlNJbzBYeWhUc0YxcV9pLXo2TndCUHZPbTRNU0ZSWHlDWjlrVEtJVHY4bllVenhjZmJMcDVxQjJZWjk1ZTVzQUVJUGxYSThXbk5hLTF3TU81QjR6bw?oc=5">Neural Concept Ramps Up Hiring and Industry Visibility as AI Simulation Gains Ground in Auto Design - TipRanks</a></h4>
+          <p class="en-summary">Neural Concept Ramps Up Hiring and Industry Visibility as AI Simulation Gains Ground in Auto Design TipRanks</p>
+          <div class="meta"><span>Neural Concept Engineering Search</span><span>score 44.989</span></div>
+          <p class="reason">source_reach=0.62; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd3hJTXZieUhNLUtESWFiTjIxUGxtRnRwYXBCMmJ6bUI0RFJ2RndNTFdQZGVBdS0zb2VPb3JUWEJnZGZhWDBjb3lTUkdHcGNlVDNpMXNkdjlMVUFsdndRNWFveTl4RHc0ZFlvaE5HSjJZOE1OdFF2dnVMb21zamp1OFl1OWlwYnJQVGJpVHpGaUxIQm1pR0xLYTFMallXc3hOZVJkZVFzbEpJNFRWQm16ajRFTjhsX1d1QjZJX3lIR1RkT21fcmUxdVUwTGR0X3NjMmVpY2FsTQ?oc=5">Closing the Quality Gap Between Computer-Aided Engineering and Real-World Automotive Manufacturing - Quality Magazine</a></h4>
+          <p class="en-summary">Closing the Quality Gap Between Computer-Aided Engineering and Real-World Automotive Manufacturing Quality Magazine</p>
+          <div class="meta"><span>Google News Simulation AI Use Cases</span><span>score 43.758</span></div>
+          <p class="reason">source_reach=0.62; recency=0.87</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDc0poWWVRZXlzMldPQXVoMWdSeWZSSFBSeG96QjdWWUNJc1g2ZXE5V253SWhOWmpfWlUwVDhubGdTY1dYYXljektTaFp1NHhuSVFGczBEM3NmWGNVWGVsSHFB?oc=5">Paving the way for agents in biology - Anthropic</a></h4>
+          <p class="en-summary">Paving the way for agents in biology Anthropic</p>
+          <div class="meta"><span>Google News AI</span><span>score 55.345</span></div>
+          <p class="reason">source_reach=1.00; recency=0.62</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      
+    </section>
+    
+
+    <section class="day" id="2026-06-08">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Monday, June 08, 2026</p>
+          <h2>2026-06-08</h2>
+        </div>
+        <div class="audit">
+          <span>321 fetched</span>
+          <span>41 candidates</span>
+          <span>9 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9RRzBjbklPYURRLVNZVEZlYUV2em9PaGpWam1GNFl5N2YwWkFOTGJaRmRTQW9iZ2tnUU9ueHJwdFdIMGxIaURSTU56MzRqa1dSVEZWd2NDOVZDSmZnNm5jQVhQYU9MdUM2Um83MGxrNDY?oc=5">We must not grant AI agents legal personhood - Financial Times</a></h4>
+          <p class="en-summary">We must not grant AI agents legal personhood Financial Times</p>
+          <div class="meta"><span>Google News AI</span><span>score 63.26</span></div>
+          <p class="reason">source_reach=1.00; recency=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSnIxb0NVLURyUUpNX2pKc05sZEdDeVVYbDUwUloxS3RYZHpkNWZhcEV1UTB3V25kLXFwUm5YQ3RlajktNDJhX3g5U3Z6X2l6czJPalQzeUtLc2ZjbkhXUkpkWHdxYWFhX0d6SkJmcUVOUWZHSksyQ1hDTmdCMl91d1JoTzhndk9CZjVoQmVYcnMyUGY0amdWc0hvenhkQjhUc1RRRjdLR1Q?oc=5">Nvidia Strikes AI Infrastructure Deals With South Korean Tech Firms - WSJ</a></h4>
+          <p class="en-summary">Nvidia Strikes AI Infrastructure Deals With South Korean Tech Firms WSJ</p>
+          <div class="meta"><span>Google News AI</span><span>score 62.694</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOTlMVjhHbFF6REhrTnFPdmlZdVg2a3I1UE5LODg5VTh1T1plajhVeGZqenJ2LWVRd2szeHdia19odEU2ZnNlNjRYU2VPSG5JZzd4cnJ2SS1zQ2ZtTE9oUk0zUTZZaTUyS2NTRDIzb3VrUS1HQmVLclBNUlo1ZmQxMmdfSnJIaV9N?oc=5">Agentic AI Is Rewriting the Rules of Data Risk Management - Boston Consulting Group</a></h4>
+          <p class="en-summary">Agentic AI Is Rewriting the Rules of Data Risk Management Boston Consulting Group</p>
+          <div class="meta"><span>Google News AI</span><span>score 62.026</span></div>
+          <p class="reason">source_reach=1.00; recency=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOYmlqYi0wa1U3clp2NkJBYXRCNmpTcnhWVmY5QmFDM3BLOFUxWXktUUU4dmFGVE9WelBuM293Z00zeDZKUWNOZGpraHhoRVlzcWFTX3hTWjZpV1RTZkRqUkJiOWZRWm1WM3JqQTVQOS1JYUJrWWFWaGFHbmdaSHZxLTRvV2xjRlJiRGVoNDlLcVkya2tPMUpFUUdYNm56NXFjdDhrMmhnWGlrbG80?oc=5">Do You Know the 160-Year-Old Law That Will Frame AI Regulation for National Banks for Years? - The Financial Brand</a></h4>
+          <p class="en-summary">Do You Know the 160-Year-Old Law That Will Frame AI Regulation for National Banks for Years? The Financial Brand</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.824</span></div>
+          <p class="reason">source_reach=1.00; recency=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1WZWJQbW5PdHZoZmNCbExjaVVXX25PcVlWNWlEcmMwSU9YakFyNDRoVXNRTm1tZUdIeThxaEJjMmR2NHl5TnFHbHhla2ctWGVfQldZREsxWEVYNFZCSDFLbVlONEM5dVZvVzl3czBn?oc=5">NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure - NVIDIA Blog</a></h4>
+          <p class="en-summary">NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure NVIDIA Blog</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.137</span></div>
+          <p class="reason">source_reach=1.00; recency=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPV3NoUWUyYWtDTGhwSTRXVktHYldyZ0llMjFVR3JXVEVOX2p5bXpOZ1RwU291VGNPQjNOWXdPWHJwWl90RGhWR0ZQV0pwRzdodHFGaWNOSFVmS0lyZFNWa0N2MXFzVzltX3plR21WQ2pPRmtoaWo3VFdlM0JQelNlSkVn?oc=5">Why AI is changing clinical development - Fierce Biotech</a></h4>
+          <p class="en-summary">Why AI is changing clinical development Fierce Biotech</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.25</span></div>
+          <p class="reason">source_reach=1.00; recency=0.94</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption">Notion restores access to Anthropic after service disruption</a></h4>
+          <p class="en-summary">Notion&#x27;s head of product said he was &quot;astonished&quot; at “the amount of people RT-ing this.&quot;</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 48.238</span></div>
+          <p class="reason">source_reach=0.82; recency=0.62</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app">OpenAI is still working on that ‘super app’</a></h4>
+          <p class="en-summary">&quot;Chat is dead&quot; — at least, according to a senior OpenAI employee</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 47.269</span></div>
+          <p class="reason">source_reach=0.82; recency=0.57</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQaWdZNzRIbzZvVE5JNWhqMkJaZU1aeDJDLWMtaTNTSHRVRnBnN1RudUZXZk5CMG8yOUM1eW40YnJCVVZEakwzeVhhZk1ld2wzcTZNX09GX1VQZnZETkUwU3B1TmgzVXlTVWp4SGNnUTRNN25ndXV0X1Q0bjZnZkhzb05CSVdZam1KbGVCQzlOcWlKVDI5?oc=5">AI is a Public Resource: You Should Own Half of It - CounterPunch.org</a></h4>
+          <p class="en-summary">AI is a Public Resource: You Should Own Half of It CounterPunch.org</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.466</span></div>
+          <p class="reason">source_reach=1.00; recency=1.00</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQRnBiSndhODM2U1VjdHJVT2pTSDd2VEdGd1JIbzVTUVI0SHAxbWY3OUJSUnZrN0QzaHBDZGFJWm8wTl9zVk52cU1heUNHQm9XYzVMVERvakFuNE5KTzZMMnViTXF6T29zSGdTNzJYRTZZYVh6ODFuZHpKcGZjWVFjQVR4TkpBZw?oc=5">Tim Cook gets a second bite at the AI apple - Morning Brew</a></h4>
+          <p class="en-summary">Tim Cook gets a second bite at the AI apple Morning Brew</p>
+          <div class="meta"><span>Google News AI</span><span>score 61.184</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+        </section>
+        <section>
+          <h3>Top 5 Engineering AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUmtnNDgtSGVlR2pGSXE4dG9jV0t4eVZjWGdWN20tOG8tNzM3RjR0RGJLaW10TmtkM2xkeXZJc0NqbU1ReDEyM3lObV8xUGNhQUlSZ3M0QXFBS0hROTlOU1pzRjF6RVVERUZvY0RBT3VBYnBKRC1faTVTb3lEdTNfbGpzdUJqemJsbXpiQlNJbzBYeWhUc0YxcV9pLXo2TndCUHZPbTRNU0ZSWHlDWjlrVEtJVHY4bllVenhjZmJMcDVxQjJZWjk1ZTVzQUVJUGxYSThXbk5hLTF3TU81QjR6bw?oc=5">Neural Concept Ramps Up Hiring and Industry Visibility as AI Simulation Gains Ground in Auto Design - TipRanks</a></h4>
+          <p class="en-summary">Neural Concept Ramps Up Hiring and Industry Visibility as AI Simulation Gains Ground in Auto Design TipRanks</p>
+          <div class="meta"><span>Neural Concept Engineering Search</span><span>score 45.489</span></div>
+          <p class="reason">source_reach=0.62; recency=0.96</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQRjRjaExjSndpZjdfN3F5RWhER3NiMGNBZUVkUDNLeXFyQ1lXN2ljMEg2YzZuQjNENGQyVGFKQ1Fqa08wQkktZGJqZC1vOC1Ta0l0eDl1MWJsSlM5MUp5V0p2X2ZDWHRxS29tQllJaFNrbGlQREsweWU3RkN6UVZSUkZZNktYbEdJT3lCcTlRXzRqWF8tdHdKS1Zpa2htbGphNEZnRG16QTZsaEdnaENuZEE5TUhCN3BacFE?oc=5">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - HPCwire</a></h4>
+          <p class="en-summary">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA HPCwire</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 44.598</span></div>
+          <p class="reason">source_reach=0.62; recency=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://rescale.com/blog/nafems-americas-2026-recap">NAFEMS Americas 2026: How Engineering Teams are Integrating Agents and AI Physics into CAE Workflows</a></h4>
+          <p class="en-summary">AI applied to various aspects of engineers&#x27; day-to-day workflows has become the dominant theme across NAFEMS tracks globally, combined with nearly every industry and physics discipline on the agenda</p>
+          <div class="meta"><span>Rescale Blog</span><span>score 44.513</span></div>
+          <p class="reason">source_reach=0.62; recency=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaS1VbElWSzc3Q3BFczZOU1NwQ2ktV19yOU9acGhMME81V2tkdXZ6SjVrYnZESXZJQ1pGTmI3bTE0NjBmTWR6TmNndXNIRW1SNFNUMzMwc0lZRVJ1YW9aX0tCYkRZbEJPTnE3SWRHemhPeVphNWRkZ1JhZWxVRWRoRll1OG9CTjNjSXVqdWNsV1RLTFVaRGVFcTlYM3VIVGJkaU43UWkzMHlNUQ?oc=5">From 15 hours to one minute: How AI/ML is speeding up GM’s development - Ars Technica</a></h4>
+          <p class="en-summary">From 15 hours to one minute: How AI/ML is speeding up GM’s development Ars Technica</p>
+          <div class="meta"><span>Google News CAE AI</span><span>score 43.043</span></div>
+          <p class="reason">source_reach=0.62; recency=0.84</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://www.comsol.com/blogs/part-1-editing-and-repairing-surface-meshes-in-comsol-multiphysics">Part 1: Editing and Repairing Surface Meshes in COMSOL Multiphysics®</a></h4>
+          <p class="en-summary">{:comsolmph} includes several operations for modifying imported surface meshes. You can create, intersect, partition, and join entities, adapt and refine mesh elements, and more</p>
+          <div class="meta"><span>COMSOL Blog</span><span>score 40.645</span></div>
+          <p class="reason">source_reach=0.62; recency=0.72</p>
+        </div>
+      </article>
+    
+        </section>
+      </div>
+      <section class="medical-section">
+        <h3>Top 5 Medical, Medicine, and Bio/Genetics AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPV3NoUWUyYWtDTGhwSTRXVktHYldyZ0llMjFVR3JXVEVOX2p5bXpOZ1RwU291VGNPQjNOWXdPWHJwWl90RGhWR0ZQV0pwRzdodHFGaWNOSFVmS0lyZFNWa0N2MXFzVzltX3plR21WQ2pPRmtoaWo3VFdlM0JQelNlSkVn?oc=5">Why AI is changing clinical development - Fierce Biotech</a></h4>
+          <p class="en-summary">Why AI is changing clinical development Fierce Biotech</p>
+          <div class="meta"><span>Google News AI</span><span>score 60.25</span></div>
+          <p class="reason">source_reach=1.00; recency=0.94</p>
+        </div>
+      </article>
+    
+      </section>
+      
+      
+    </section>
+    
+    <nav class="pager"><a href="../5/index.html">Previous</a><a href="../3/index.html">Later</a></nav>
+  </main>
+</body>
+</html>

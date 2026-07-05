@@ -46,7 +46,9 @@
     .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
     .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
     .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .paper-push { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
     .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .paper-item { border-top: 1px solid var(--line); }
     .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
     .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
     h4 { margin: 0; font-size: 18px; line-height: 1.25; }
@@ -65,8 +67,27 @@
     .edition { display: block; border: 1px solid var(--line); background: var(--panel); padding: 24px; text-decoration: none; box-shadow: var(--shadow); }
     .edition strong { display: block; font-size: 28px; margin-bottom: 8px; }
     .edition span { color: var(--muted); line-height: 1.45; }
+    .trend-panel { background: var(--ink); color: var(--panel); margin: 0 0 28px; padding: 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 24px; align-items: end; }
+    .trend-panel .eyebrow { color: #f0b45f; }
+    .trend-panel h2 { font-size: 32px; }
+    .trend-panel p { margin: 10px 0 0; color: rgba(255,253,248,.76); line-height: 1.5; max-width: 720px; }
+    .trend-actions { display: grid; gap: 10px; }
+    .trend-actions a { border: 1px solid rgba(255,253,248,.28); color: var(--panel); padding: 14px; text-decoration: none; background: rgba(255,253,248,.08); }
+    .trend-actions strong { display: block; font-family: "Avenir Next", Verdana, sans-serif; font-size: 14px; margin-bottom: 4px; }
+    .trend-actions span { display: block; color: rgba(255,253,248,.72); font-size: 14px; }
+    .report-document { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); padding: 24px; }
+    .report-document h1 { font-size: 40px; margin-bottom: 14px; }
+    .report-document h2 { border-top: 2px solid var(--ink); margin-top: 30px; padding-top: 18px; font-size: 28px; }
+    .report-document h3 { margin-top: 24px; }
+    .report-document h4 { margin-top: 18px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .report-document p, .report-document li { line-height: 1.5; color: var(--muted); }
+    .report-table-wrap { overflow-x: auto; border: 1px solid var(--line); margin: 14px 0 22px; }
+    .report-table { width: 100%; border-collapse: collapse; min-width: 980px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; }
+    .report-table th, .report-table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    .report-table th { background: #eee7d8; color: var(--ink); position: sticky; top: 0; }
+    code { background: rgba(11,107,90,.08); padding: 1px 4px; }
     @media (max-width: 860px) {
-      .hero-inner, .day-head, .columns, .landing-links { grid-template-columns: 1fr; }
+      .hero-inner, .day-head, .columns, .landing-links, .trend-panel { grid-template-columns: 1fr; }
       .stamp { text-align: left; }
       .day { padding: 18px; }
       h2 { font-size: 30px; }
@@ -78,11 +99,26 @@
     <div class="landing-panel">
       <p class="eyebrow">Bilingual daily archive</p>
       <h1>AI Engineering Newsletter</h1>
-      <p class="subtitle">Daily coverage of general AI and engineering AI, including CAE, CAD, simulation, digital twins, industrial AI, and scientific ML. Latest Issued: <strong>2026-07-05</strong>.</p>
+      <p class="subtitle">One static public site for News Push, Paper Push, and GitHub Trend Monitor. Latest Issued: <strong>2026-07-05</strong>.</p>
       <div class="landing-links">
         <a class="edition" href="en/index.html"><strong>English Edition</strong><span>Public-facing newsletter with English titles, summaries, source links, and audit metadata.</span></a>
         <a class="edition" href="zh/index.html"><strong>中文版</strong><span>中文摘要版，方便日常阅读；每天自动提醒使用这个入口。</span></a>
       </div>
+      
+    <section class="trend-panel" id="github-trends">
+      <div>
+        <p class="eyebrow">GitHub Trend Monitor</p>
+        <h2>Open-source repository radar</h2>
+        <p>Weekly and monthly tracking across AI Agent, MCP, RAG, LLM Infrastructure, Simulation, and Engineering AI repositories.</p>
+      </div>
+      <div class="trend-actions">
+        <a href="trends/weekly/2026-07-05-weekly/index.html"><strong>Open latest weekly</strong><span>Weekly report: 2026-07-05</span></a>
+        <a href="trends/monthly/2026-06-30-monthly/index.html"><strong>Open latest monthly</strong><span>Monthly report: 2026-06-30</span></a>
+        <a href="trends/weekly/2026-07-05-weekly/index.html#ai-agent"><strong>Jump to Agent ranking</strong><span>AI Agent / multi-agent / browser-use / LangGraph / AutoGen</span></a>
+        <a href="https://github.com/tiktaalika/ai-engineering-newsletter"><strong>Open GitHub repository</strong><span>tiktaalika/ai-engineering-newsletter</span></a>
+      </div>
+    </section>
+    
     </div>
   </main>
 </body>
