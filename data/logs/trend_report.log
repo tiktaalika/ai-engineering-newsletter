@@ -401,3 +401,73 @@ RuntimeError: HTTP 403 for https://api.github.com/search/repositories?q=serving+
 2026-07-05 12:10:42,582 INFO trend_report: Wrote 47 normalized records to /Users/fyang/news push/data/repos.jsonl
 2026-07-05 12:10:42,584 INFO trend_report: Generated weekly report at /Users/fyang/news push/reports/weekly/2026-07-05-weekly-github-trends.md
 2026-07-05 12:10:42,586 INFO trend_report: Generated monthly report at /Users/fyang/news push/reports/monthly/2026-06-30-monthly-github-trends.md
+2026-07-06 11:13:31,601 INFO trend_report: Fetching GitHub Search for AI Agent keyword agent
+2026-07-06 11:13:33,212 INFO trend_report: Fetching GitHub Search for AI Agent keyword agents
+2026-07-06 11:13:34,840 INFO trend_report: Fetching GitHub Search for AI Agent keyword autonomous agent
+2026-07-06 11:13:36,496 INFO trend_report: Fetching GitHub Search for AI Agent keyword multi-agent
+2026-07-06 11:13:38,011 INFO trend_report: Fetching GitHub Search for AI Agent keyword crewai
+2026-07-06 11:13:39,661 INFO trend_report: Fetching GitHub Search for AI Agent keyword langgraph
+2026-07-06 11:13:40,317 INFO trend_report: Fetching GitHub Search for MCP keyword mcp
+2026-07-06 11:13:41,909 INFO trend_report: Fetching GitHub Search for MCP keyword model context protocol
+2026-07-06 11:13:43,495 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-server
+2026-07-06 11:13:45,107 INFO trend_report: Fetching GitHub Search for MCP keyword mcp-client
+2026-07-06 11:13:46,655 INFO trend_report: Fetching GitHub Search for MCP keyword claude desktop
+2026-07-06 11:13:47,218 INFO trend_report: Fetching GitHub Search for RAG keyword rag
+2026-07-06 11:13:48,711 INFO trend_report: Fetching GitHub Search for RAG keyword retrieval augmented generation
+2026-07-06 11:13:50,356 INFO trend_report: Fetching GitHub Search for RAG keyword retrieval
+2026-07-06 11:13:51,971 INFO trend_report: Fetching GitHub Search for RAG keyword vector database
+2026-07-06 11:13:53,572 INFO trend_report: Fetching GitHub Search for RAG keyword embeddings
+2026-07-06 11:13:54,137 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword llm inference
+2026-07-06 11:13:55,683 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword serving
+2026-07-06 11:13:57,344 INFO trend_report: Fetching GitHub Search for LLM Infrastructure keyword vllm
+2026-07-06 11:13:57,952 INFO trend_report: Fetching GitHub Search for Simulation keyword simulation
+2026-07-06 11:13:59,573 INFO trend_report: Fetching GitHub Search for Simulation keyword cae
+2026-07-06 11:14:01,299 INFO trend_report: Fetching GitHub Search for Simulation keyword cfd
+2026-07-06 11:14:02,934 INFO trend_report: Fetching GitHub Search for Simulation keyword fem
+2026-07-06 11:14:04,503 INFO trend_report: Fetching GitHub Search for Simulation keyword finite element
+2026-07-06 11:14:06,151 INFO trend_report: Fetching GitHub Search for Simulation keyword multiphysics
+2026-07-06 11:14:06,770 INFO trend_report: Fetching GitHub Search for Engineering AI keyword engineering ai
+2026-07-06 11:14:08,387 INFO trend_report: Fetching GitHub Search for Engineering AI keyword ai engineering
+2026-07-06 11:14:09,994 INFO trend_report: Fetching GitHub Search for Engineering AI keyword simulation ai
+2026-07-06 11:14:11,496 INFO trend_report: Fetching GitHub Search for Engineering AI keyword design automation
+2026-07-06 11:14:13,129 INFO trend_report: Fetching GitHub Search for Engineering AI keyword cad
+2026-07-06 11:14:13,347 ERROR trend_report: GitHub Search failed for Engineering AI keyword cad
+Traceback (most recent call last):
+  File "/home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/trend_report/collectors.py", line 218, in get_json
+    with urllib.request.urlopen(req, timeout=30) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/trend_report/collectors.py", line 96, in collect_github_search
+    payload = get_json(url, headers, raw_dir / f"github_search_metadata_{slug(category)}_{slug(keyword)}.json")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/trend_report/collectors.py", line 222, in get_json
+    raise RuntimeError(f"HTTP {exc.code} for {url}: {body[:300]}") from exc
+RuntimeError: HTTP 403 for https://api.github.com/search/repositories?q=cad+in%3Aname%2Cdescription+pushed%3A%3E%3D2026-05-22+stars%3A%3E10&sort=stars&order=desc&per_page=5: {
+	"message": "API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID 4032:169178:142970E:48FC21A:6A4B8E05 and timestamp 2026-07-06 11:14:13 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Se
+2026-07-06 11:14:14,874 INFO trend_report: Parsed 6 relevant GitHub Trending repositories
+2026-07-06 11:14:15,169 INFO trend_report: Parsed 0 relevant repositories from oss_insight_trending
+2026-07-06 11:14:15,921 INFO trend_report: Parsed 2 relevant repositories from gitstar_ranking
+2026-07-06 11:14:15,921 INFO trend_report: Recorded Star History placeholder note
+2026-07-06 11:14:15,927 INFO trend_report: Wrote 130 normalized records to /home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/data/repos.jsonl
+2026-07-06 11:14:16,028 INFO trend_report: Generated weekly report at /home/runner/work/ai-engineering-newsletter/ai-engineering-newsletter/reports/weekly/2026-07-06-weekly-github-trends.md
