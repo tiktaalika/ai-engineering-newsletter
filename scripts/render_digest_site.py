@@ -20,7 +20,7 @@ ZH_OUT = SITE_DIR / "zh" / "index.html"
 EN_OUT = SITE_DIR / "en" / "index.html"
 TRENDS_OUT = SITE_DIR / "trends"
 SUMMARY_CACHE = DIGEST_DIR / "site_summaries.json"
-ARCHIVE_PAGE_SIZE = 120
+ARCHIVE_PAGE_SIZE = 7
 HISTORY_DEDUP_START = datetime(2026, 7, 5).date()
 GITHUB_REPO_URL = "https://github.com/tiktaalika/ai-engineering-newsletter"
 
@@ -1098,6 +1098,9 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
     latest = next((entry["date"] for entry in entries if entry["available"]), "No newsletters yet")
     start = (page_number - 1) * ARCHIVE_PAGE_SIZE
     page_entries = entries[start:start + ARCHIVE_PAGE_SIZE]
+    page_range = ""
+    if page_entries:
+        page_range = f"{page_entries[-1]['date']} — {page_entries[0]['date']}"
     nav = "".join(
         (
             f'<a href="#{esc(entry["date"])}">{esc(entry["date"])}</a>'
@@ -1108,16 +1111,16 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
     )
     pager_bits: list[str] = []
     if page_number < total_pages:
-        label = "Previous" if language == "en" else "更早"
+        label = "Older week" if language == "en" else "上一周"
         pager_bits.append(f'<a href="{esc(archive_page_href(language, page_number, page_number + 1))}">{esc(label)}</a>')
     else:
-        label = "Previous" if language == "en" else "更早"
+        label = "Older week" if language == "en" else "上一周"
         pager_bits.append(f'<span>{esc(label)}</span>')
     if page_number > 1:
-        label = "Later" if language == "en" else "更新"
+        label = "Newer week" if language == "en" else "下一周"
         pager_bits.append(f'<a href="{esc(archive_page_href(language, page_number, page_number - 1))}">{esc(label)}</a>')
     else:
-        label = "Later" if language == "en" else "更新"
+        label = "Newer week" if language == "en" else "下一周"
         pager_bits.append(f'<span>{esc(label)}</span>')
     pager = "".join(pager_bits)
     if language == "zh":
@@ -1129,7 +1132,7 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
             render_day_zh(entry["date"], summaries) if entry["available"] else render_missing_day(entry["date"], "zh")
             for entry in page_entries
         )
-        stamp = f'Latest Issued<br><strong>{esc(latest)}</strong>'
+        stamp = f'Latest Issued<br><strong>{esc(latest)}</strong><br><span>{esc(page_range)}</span>'
     else:
         lang_attr = "en"
         title = "AI Engineering Newsletter"
@@ -1139,7 +1142,7 @@ def render_archive_page(language: str, page_number: int, total_pages: int, entri
             render_day_en(entry["date"]) if entry["available"] else render_missing_day(entry["date"], "en")
             for entry in page_entries
         )
-        stamp = f'Latest Issued<br><strong>{esc(latest)}</strong>'
+        stamp = f'Latest Issued<br><strong>{esc(latest)}</strong><br><span>{esc(page_range)}</span>'
     return f"""<!doctype html>
 <html lang="{lang_attr}">
 <head>
