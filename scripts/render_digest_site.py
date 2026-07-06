@@ -20,7 +20,7 @@ ZH_OUT = SITE_DIR / "zh" / "index.html"
 EN_OUT = SITE_DIR / "en" / "index.html"
 TRENDS_OUT = SITE_DIR / "trends"
 SUMMARY_CACHE = DIGEST_DIR / "site_summaries.json"
-ARCHIVE_PAGE_SIZE = 7
+ARCHIVE_PAGE_SIZE = 120
 HISTORY_DEDUP_START = datetime(2026, 7, 5).date()
 GITHUB_REPO_URL = "https://github.com/tiktaalika/ai-engineering-newsletter"
 
