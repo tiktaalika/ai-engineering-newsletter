@@ -346,6 +346,7 @@ def select_unique(
     category: str,
     limit: int,
     historical_items: list[dict[str, Any]] | None = None,
+    require_guo_general: bool = True,
 ) -> list[dict[str, Any]]:
     category = canonical_category(category)
     historical_items = historical_items or []
@@ -356,7 +357,7 @@ def select_unique(
     for item in items:
         if not item_matches_section_category(item, category) or is_excluded(item, category):
             continue
-        if category == "general_ai" and not is_guo_yichen_reference_item(item):
+        if category == "general_ai" and require_guo_general and not is_guo_yichen_reference_item(item):
             continue
         if is_recent_repeat(item, historical_items):
             continue
@@ -378,7 +379,7 @@ def select_unique(
             break
         if not item_matches_section_category(item, category) or is_excluded(item, category):
             continue
-        if category == "general_ai" and not is_guo_yichen_reference_item(item):
+        if category == "general_ai" and require_guo_general and not is_guo_yichen_reference_item(item):
             continue
         if is_recent_repeat(item, historical_items):
             continue
@@ -394,7 +395,7 @@ def select_unique(
             break
         if not item_matches_section_category(item, category) or is_excluded(item, category):
             continue
-        if category == "general_ai" and not is_guo_yichen_reference_item(item):
+        if category == "general_ai" and require_guo_general and not is_guo_yichen_reference_item(item):
             continue
         if is_recent_repeat(item, historical_items):
             continue
@@ -415,7 +416,8 @@ def dedupe_and_fill_items(
     category = canonical_category(category)
     if category == "general_ai":
         primary_items = primary or data.get(fallback_key, [])
-        return select_unique(primary_items, category, limit, historical_items)
+        require_guo = any(is_guo_yichen_reference_item(item) for item in primary_items)
+        return select_unique(primary_items, category, limit, historical_items, require_guo_general=require_guo)
     pool: list[dict[str, Any]] = []
     for item in primary + data.get("top_100_news_candidates", []) + data.get(fallback_key, []):
         candidate = dict(item)
@@ -433,7 +435,9 @@ def section_items(
 ) -> list[dict[str, Any]]:
     category = canonical_category(category)
     if category == "general_ai":
-        return select_unique(data.get(fallback_key, []), category, limit, historical_items)
+        fallback_items = data.get(fallback_key, [])
+        require_guo = any(is_guo_yichen_reference_item(item) for item in fallback_items)
+        return select_unique(fallback_items, category, limit, historical_items, require_guo_general=require_guo)
     pool = data.get("top_100_news_candidates", [])
     selected = select_unique(pool, category, limit, historical_items)
     if len(selected) >= limit:
