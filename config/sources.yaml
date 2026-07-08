@@ -1008,7 +1008,7 @@ sources:
     category: engineering_ai
     priority: high
     tags: [engineering_ai, trusted_discovery, cae, simulation, industrial_ai]
-    query: (Siemens OR Simcenter OR Ansys OR COMSOL OR Dassault OR Autodesk OR Altair OR Hexagon OR MSC OR PTC OR Cadence OR Synopsys OR SimScale OR Synera OR PhysicsX OR "Luminary Cloud" OR "Neural Concept" OR "Monolith AI" OR Rescale OR nTop OR NAFEMS) (AI OR "machine learning" OR "digital twin" OR simulation OR CAE OR surrogate OR "physical AI" OR "scientific ML") when:30d
+    query: (Siemens OR Simcenter OR Ansys OR COMSOL OR Dassault OR Autodesk OR Altair OR Hexagon OR MSC OR PTC OR Cadence OR Synopsys OR SimScale OR Synera OR PhysicsX OR "Luminary Cloud" OR "Neural Concept" OR "Monolith AI" OR Rescale OR nTop OR NAFEMS OR Cursor OR Anysphere) (AI OR "machine learning" OR "digital twin" OR simulation OR CAE OR surrogate OR "physical AI" OR "scientific ML" OR "industrial AI" OR manufacturing) when:30d
     notes: Source-specific discovery for trusted Engineering AI vendors and communities when direct RSS is unavailable.
     enabled: true
     max_entries: 8

@@ -33,6 +33,9 @@ ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "news-push-ai-digest/0.1 (+auditable personal digest)"
 MAX_ITEMS_PER_SOURCE = 25
 MAX_CANDIDATES_TOTAL = 100
+MAX_SITEMAP_URLS_PER_SOURCE = 500
+MAX_CHILD_SITEMAPS_PER_SOURCE = 20
+MAX_DISCOVERY_LINKS_PER_SOURCE = 200
 COMMON_EVENT_WORDS = {
     "a",
     "an",
@@ -150,7 +153,9 @@ def fetch_kind(source: dict[str, Any]) -> str:
     source_type = source.get("source_type") or source.get("kind")
     if source_type == "rss":
         return "rss"
-    if source_type in {"manual", "website", "newsletter", "linkedin_manual", "x_api", "github", "arxiv"}:
+    if source_type == "website":
+        return "sitemap_or_search"
+    if source_type in {"manual", "newsletter", "linkedin_manual", "x_api", "github", "arxiv"}:
         return "web_search_query"
     return source_type or "web_search_query"
 
@@ -233,6 +238,90 @@ def clean_text(value: str | None) -> str:
     value = re.sub(r"<[^>]+>", " ", value)
     value = re.sub(r"\s+", " ", value)
     return value.strip()
+
+
+def title_from_url(url: str) -> str:
+    parsed = urllib.parse.urlsplit(url)
+    slug = parsed.path.rstrip("/").split("/")[-1]
+    if not slug:
+        return clean_text(parsed.netloc.replace("www.", ""))
+    slug = re.sub(r"\.(html?|php|aspx?)$", "", slug, flags=re.IGNORECASE)
+    words = re.sub(r"[-_]+", " ", urllib.parse.unquote(slug))
+    return clean_text(words).title()
+
+
+def sitemap_urls_for_source(source: dict[str, Any]) -> list[str]:
+    parsed = urllib.parse.urlsplit(source["url"])
+    if not parsed.scheme or not parsed.netloc:
+        return []
+    base = urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, "", "", ""))
+    candidates = [urllib.parse.urljoin(base, "/sitemap.xml")]
+    if parsed.path and parsed.path != "/":
+        candidates.append(urllib.parse.urljoin(base, parsed.path.rstrip("/") + "/sitemap.xml"))
+    return list(dict.fromkeys(candidates))
+
+
+def sitemap_records_from_xml(raw: str) -> tuple[list[dict[str, Any]], list[str]]:
+    raw = re.sub(r"&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)", "&amp;", raw)
+    root = ET.fromstring(raw)
+    records: list[dict[str, Any]] = []
+    child_sitemaps: list[str] = []
+    for sitemap in root.findall(".//{*}sitemap"):
+        loc = clean_text(sitemap.findtext("{*}loc"))
+        if loc:
+            child_sitemaps.append(loc)
+    for url_el in root.findall(".//{*}url"):
+        loc = clean_text(url_el.findtext("{*}loc"))
+        if not loc:
+            continue
+        lastmod = parse_datetime(clean_text(url_el.findtext("{*}lastmod")))
+        title = title_from_url(loc)
+        records.append(
+            {
+                "title": title,
+                "url": loc,
+                "published_at": lastmod,
+                "text": f"{title} {loc}",
+                "engagement": {},
+            }
+        )
+    return records, child_sitemaps
+
+
+def same_site_url(base_url: str, href: str) -> str | None:
+    if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
+        return None
+    absolute = urllib.parse.urljoin(base_url, href)
+    base = urllib.parse.urlsplit(base_url)
+    parsed = urllib.parse.urlsplit(absolute)
+    if parsed.scheme not in {"http", "https"}:
+        return None
+    if parsed.netloc.lower() != base.netloc.lower():
+        return None
+    return urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, parsed.path, parsed.query, ""))
+
+
+def link_records_from_html(source: dict[str, Any]) -> list[dict[str, Any]]:
+    raw = fetch_text(source["url"])
+    records: list[dict[str, Any]] = []
+    for match in re.finditer(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", raw, flags=re.IGNORECASE | re.DOTALL):
+        url = same_site_url(source["url"], html.unescape(match.group(1)))
+        if not url:
+            continue
+        anchor = clean_text(match.group(2))
+        title = anchor if len(anchor) >= 8 else title_from_url(url)
+        records.append(
+            {
+                "title": title,
+                "url": url,
+                "published_at": None,
+                "text": f"{title} {url}",
+                "engagement": {},
+            }
+        )
+        if len(records) >= MAX_DISCOVERY_LINKS_PER_SOURCE:
+            break
+    return records
 
 
 def parse_datetime(value: str | None) -> datetime | None:
@@ -574,6 +663,50 @@ def matches_core_terms(text: str, core_include: list[str] | None) -> bool:
     return any(term.lower() in haystack for term in core_include)
 
 
+def infer_candidate_category(source_category: str, text: str, score_parts: dict[str, float]) -> str:
+    category = canonical_category(source_category)
+    if category == "engineering_ai":
+        return "engineering_ai"
+    lower = text.lower()
+    industrial_terms = (
+        "industrial ai",
+        "ai for engineering",
+        "engineering ai",
+        "engineering simulation",
+        "computer-aided engineering",
+        "simulation",
+        "cae",
+        "cad",
+        "cfd",
+        "fea",
+        "spdm",
+        "plm",
+        "digital twin",
+        "manufacturing",
+        "robotics",
+        "surrogate model",
+        "physics-informed",
+        "scientific ml",
+    )
+    ai_terms = (
+        "ai",
+        "artificial intelligence",
+        "machine learning",
+        "ml",
+        "agent",
+        "copilot",
+        "generative",
+        "neural",
+    )
+    if score_parts.get("engineering_relevance_score", 0) >= 0.5:
+        return "engineering_ai"
+    if any(term in lower for term in industrial_terms) and any(term in lower for term in ai_terms):
+        return "engineering_ai"
+    if category == "research":
+        return "research"
+    return "general_ai"
+
+
 def recency_boost(published_at: datetime | None, now: datetime, window_hours: int) -> float:
     if not published_at:
         return 0.35
@@ -745,6 +878,56 @@ def web_search_placeholder(source: dict[str, Any]) -> list[dict[str, Any]]:
     ]
 
 
+def parse_sitemap_source(source: dict[str, Any]) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    child_sitemaps: list[str] = []
+    last_error: Exception | None = None
+    for sitemap_url in sitemap_urls_for_source(source):
+        try:
+            parsed_records, parsed_children = sitemap_records_from_xml(fetch_text(sitemap_url))
+        except Exception as exc:  # noqa: BLE001 - try the next conventional sitemap URL.
+            last_error = exc
+            continue
+        records.extend(parsed_records)
+        child_sitemaps.extend(parsed_children)
+        if records:
+            break
+    for child_url in child_sitemaps[:MAX_CHILD_SITEMAPS_PER_SOURCE]:
+        if len(records) >= MAX_SITEMAP_URLS_PER_SOURCE:
+            break
+        try:
+            parsed_records, _ = sitemap_records_from_xml(fetch_text(child_url))
+        except Exception:
+            continue
+        records.extend(parsed_records)
+    if records:
+        return records[:MAX_SITEMAP_URLS_PER_SOURCE]
+    if last_error:
+        raise last_error
+    raise ValueError("no sitemap records found")
+
+
+def parse_website_discovery(source: dict[str, Any]) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    for parser in (parse_sitemap_source, link_records_from_html):
+        try:
+            records.extend(parser(source))
+        except Exception:
+            continue
+    deduped: list[dict[str, Any]] = []
+    seen_urls: set[str] = set()
+    for record in records:
+        url = norm_url(record.get("url") or "")
+        if not url or url in seen_urls:
+            continue
+        seen_urls.add(url)
+        record["url"] = url
+        deduped.append(record)
+    if deduped:
+        return deduped
+    raise ValueError("no public sitemap or same-site links found")
+
+
 def fetch_source(source: dict[str, Any], keywords: dict[str, Any], window_hours: int) -> list[dict[str, Any]]:
     kind = source["kind"]
     max_entries = int(source.get("max_entries", MAX_ITEMS_PER_SOURCE))
@@ -761,6 +944,11 @@ def fetch_source(source: dict[str, Any], keywords: dict[str, Any], window_hours:
         return parse_reddit(source)[:max_entries]
     if kind == "web_search_query":
         return web_search_placeholder(source)[:max_entries]
+    if kind == "sitemap_or_search":
+        try:
+            return parse_website_discovery(source)
+        except Exception:
+            return web_search_placeholder(source)[:max_entries]
     raise ValueError(f"unsupported source kind: {kind}")
 
 
@@ -805,13 +993,33 @@ def build_candidates(args: argparse.Namespace) -> tuple[list[Candidate], RunLog,
             url = norm_url(record.get("url") or "")
             text = clean_text(record.get("text") or title)
             published_at = record.get("published_at")
-            source_cutoff = now - timedelta(hours=source_window_hours)
+            candidate_text = f"{title} {text}"
+            engineering_probe = keyword_bucket_name("engineering_ai")
+            engineering_bucket = keywords[engineering_probe]
+            engineering_matches, engineering_ok = matched_terms(
+                candidate_text,
+                engineering_bucket["include"],
+                engineering_bucket["exclude"],
+            )
+            candidate_window_hours = source_window_hours
+            if (
+                source["kind"] == "sitemap_or_search"
+                and source_category != "engineering_ai"
+                and engineering_ok
+                and matches_core_terms(candidate_text, engineering_bucket.get("ai_include"))
+            ):
+                candidate_window_hours = int(category_window_hours.get("engineering_ai", source_window_hours))
+            source_cutoff = now - timedelta(hours=candidate_window_hours)
             if published_at and published_at < source_cutoff:
                 continue
             if not title or not url or not language_looks_english(f"{title} {text}"):
                 continue
             bucket = keywords[keyword_bucket_name(source_category)]
             matches, ok = matched_terms(f"{title} {text}", bucket["include"], bucket["exclude"])
+            if not ok and engineering_ok:
+                bucket = engineering_bucket
+                matches = engineering_matches
+                ok = True
             if not ok:
                 continue
             if not matches_core_terms(f"{title} {text}", bucket.get("core_include")):
@@ -829,10 +1037,11 @@ def build_candidates(args: argparse.Namespace) -> tuple[list[Candidate], RunLog,
                 matches,
                 published_at,
                 now,
-                source_window_hours,
+                candidate_window_hours,
                 priority_scores,
                 f"{title} {text}",
             )
+            inferred_category = infer_candidate_category(source_category, f"{title} {text}", score_parts)
             log.filtered_count += 1
             candidates.append(
                 Candidate(
@@ -841,7 +1050,7 @@ def build_candidates(args: argparse.Namespace) -> tuple[list[Candidate], RunLog,
                     url=url,
                     source=source["name"],
                     source_kind=source["kind"],
-                    category="engineering_ai" if source_category == "engineering_ai" else ("research" if source_category == "research" else "general_ai"),
+                    category=inferred_category,
                     published_at=iso_or_none(published_at),
                     text=text[:1200],
                     matched_terms=matches,

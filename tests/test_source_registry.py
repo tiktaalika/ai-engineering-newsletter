@@ -12,10 +12,12 @@ sys.path.insert(0, str(ROOT))
 
 from scripts.build_digest_candidates import (  # noqa: E402
     Candidate,
+    infer_candidate_category,
     load_source_registry,
     score_candidate,
     select_medical_bio_ai,
     select_unique_events,
+    title_from_url,
     topic_key,
 )
 
@@ -37,12 +39,29 @@ class SourceRegistryTest(unittest.TestCase):
         self.assertTrue(any(source["name"] == "Simon Willison" and source["max_entries"] == 5 for source in registry["sources"]))
         self.assertTrue(
             any(
+                source["name"] == "Cursor / Anysphere"
+                and source["kind"] == "sitemap_or_search"
+                for source in registry["sources"]
+            )
+        )
+        self.assertTrue(
+            any(
                 source["name"] == "Siemens Art of the Possible"
                 and source["kind"] == "rss"
                 and source["priority"] == "high"
                 for source in registry["sources"]
             )
         )
+
+    def test_sitemap_slug_discovery_supports_industrial_ai_pages(self) -> None:
+        title = title_from_url("https://cursor.com/de/lp-team/industrial-ai-forum")
+        self.assertEqual(title, "Industrial Ai Forum")
+        inferred = infer_candidate_category(
+            "startup",
+            "Industrial AI Forum https://cursor.com/de/lp-team/industrial-ai-forum",
+            {"engineering_relevance_score": 0.25},
+        )
+        self.assertEqual(inferred, "engineering_ai")
 
     def test_user_requested_engineering_sources_are_curated(self) -> None:
         registry = load_source_registry()
