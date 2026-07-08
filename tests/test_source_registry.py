@@ -90,6 +90,36 @@ class SourceRegistryTest(unittest.TestCase):
         self.assertIn("site:engineering.com", trusted_media["query"])
         self.assertIn("site:industrial-ai-network.com", trusted_media["query"])
 
+    def test_biomedical_sources_are_curated(self) -> None:
+        registry = load_source_registry()
+        sources = {source["name"]: source for source in registry["sources"]}
+        expected = [
+            "STAT Health Tech",
+            "Healthcare IT News",
+            "MobiHealthNews",
+            "MedCity News",
+            "Fierce Biotech",
+            "Fierce Healthcare",
+            "Bio-IT World",
+            "Drug Target Review",
+            "GenomeWeb",
+            "Pharmaceutical Technology",
+            "NEJM AI",
+            "The Lancet Digital Health",
+            "Nature Medicine",
+            "Nature Biotechnology",
+            "Cell Patterns",
+        ]
+        for name in expected:
+            self.assertIn(name, sources)
+            self.assertTrue(sources[name]["enabled"])
+            self.assertTrue({"medical_ai", "bio_ai", "healthcare_ai", "digital_health", "clinical_ai", "genomics_ai"} & set(sources[name]["tags"]), name)
+
+        trusted_bio = sources["Trusted Biomedical AI Source Discovery"]
+        self.assertIn("site:ai.nejm.org", trusted_bio["query"])
+        self.assertIn("site:healthcareitnews.com", trusted_bio["query"])
+        self.assertIn("site:bio-itworld.com", trusted_bio["query"])
+
     def test_guo_yichen_reference_sources_are_marked(self) -> None:
         registry = load_source_registry()
         sources = {source["name"]: source for source in registry["sources"]}
@@ -310,6 +340,32 @@ class SourceRegistryTest(unittest.TestCase):
         self.assertTrue(any(candidate.source == "Siemens Simcenter" for candidate in selected))
         self.assertTrue(any(candidate.source == "Rescale" for candidate in selected))
         self.assertLessEqual(sum(1 for candidate in selected if candidate.source == "Google News Engineering AI Discovery"), 1)
+
+    def test_selection_excludes_historical_repeats(self) -> None:
+        def item(idx: int, title: str, score: float) -> Candidate:
+            return Candidate(
+                id=str(idx),
+                title=title,
+                url=f"https://example.com/{idx}",
+                source=f"test-{idx}",
+                source_kind="rss",
+                category="engineering_ai",
+                published_at=None,
+                text=title,
+                matched_terms=["AI", "simulation"],
+                engagement={},
+                score=score,
+                score_reasons=[],
+            )
+
+        previous = item(0, "Siemens Simcenter AI simulation workflow update", 100)
+        candidates = [
+            item(1, "Siemens Simcenter AI simulation workflow update announced", 99),
+            item(2, "Rescale AI model for CFD applications", 98),
+        ]
+        selected = select_unique_events(candidates, "engineering_ai", 2, [previous])
+
+        self.assertEqual([candidate.source for candidate in selected], ["test-2"])
 
     def test_biomedical_prefers_trusted_sources_before_broad_google(self) -> None:
         def item(idx: int, title: str, source: str, source_kind: str, tags: Optional[list[str]] = None) -> Candidate:

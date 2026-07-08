@@ -416,6 +416,63 @@ def is_same_event(left: Candidate, right: Candidate) -> bool:
     return False
 
 
+def candidate_from_dict(item: dict[str, Any]) -> Candidate:
+    return Candidate(
+        id=str(item.get("id") or entry_id(item.get("url", ""), item.get("title", ""))),
+        title=str(item.get("title", "")),
+        url=str(item.get("url", "")),
+        source=str(item.get("source", "")),
+        source_kind=str(item.get("source_kind", "")),
+        category=canonical_category(str(item.get("category", "general_ai"))),
+        published_at=item.get("published_at"),
+        text=str(item.get("text", "")),
+        matched_terms=list(item.get("matched_terms") or []),
+        engagement=dict(item.get("engagement") or {}),
+        score=float(item.get("score") or 0),
+        score_reasons=list(item.get("score_reasons") or []),
+        general_ai_score=float(item.get("general_ai_score") or 0),
+        engineering_relevance_score=float(item.get("engineering_relevance_score") or 0),
+        research_relevance_score=float(item.get("research_relevance_score") or 0),
+        novelty_score=float(item.get("novelty_score") or 0),
+        source_priority_score=float(item.get("source_priority_score") or 0),
+        source_tags=list(item.get("source_tags") or []),
+        registry_category=str(item.get("registry_category") or ""),
+        source_priority=str(item.get("source_priority") or "medium"),
+    )
+
+
+def historical_selected_items(date_slug: str, category: str, lookback_days: int) -> list[Candidate]:
+    try:
+        current = datetime.strptime(date_slug, "%Y-%m-%d").date()
+    except ValueError:
+        return []
+    digest_dir = ROOT / "data" / "digests"
+    section_keys = {
+        "general_ai": ("top_10_general_ai",),
+        "engineering_ai": ("top_5_engineering_ai", "top_5_cae_ai_engineering"),
+        "medical_bio_ai": ("top_5_medical_bio_ai",),
+        "research": ("research_radar",),
+    }.get(category, ())
+    history: list[Candidate] = []
+    for path in sorted(digest_dir.glob("*-candidates.json"), reverse=True):
+        previous_slug = path.name.removesuffix("-candidates.json")
+        try:
+            previous = datetime.strptime(previous_slug, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        age = (current - previous).days
+        if age <= 0 or age > lookback_days:
+            continue
+        try:
+            payload = load_json(path)
+        except Exception:
+            continue
+        for key in section_keys:
+            for item in payload.get(key, []):
+                history.append(candidate_from_dict(item))
+    return history
+
+
 def topic_key(candidate: Candidate) -> str:
     text = f"{candidate.title} {candidate.text}".lower()
     if any(term in text for term in ("payment", "payments", "agentic commerce", "wallet", "checkout", "stablecoin", "micropayment")):
@@ -499,8 +556,18 @@ def selection_category_matches(candidate: Candidate, category: str) -> bool:
     return candidate_category == category
 
 
-def select_unique_events(candidates: list[Candidate], category: str, limit: int) -> list[Candidate]:
+def is_historical_repeat(candidate: Candidate, historical_items: list[Candidate]) -> bool:
+    return any(is_same_event(candidate, previous) for previous in historical_items)
+
+
+def select_unique_events(
+    candidates: list[Candidate],
+    category: str,
+    limit: int,
+    historical_items: list[Candidate] | None = None,
+) -> list[Candidate]:
     category = canonical_category(category)
+    historical_items = historical_items or []
     max_per_topic = 2
     google_news_cap = 2 if category == "general_ai" else (1 if category == "engineering_ai" else limit)
     max_per_source = 2 if category == "general_ai" else (1 if category == "engineering_ai" else limit)
@@ -514,6 +581,8 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
         if category in {"general_ai", "engineering_ai"} and not is_trusted_or_curated(candidate):
             continue
         if category == "general_ai" and not is_guo_yichen_reference(candidate):
+            continue
+        if is_historical_repeat(candidate, historical_items):
             continue
         if any(is_same_event(candidate, existing) for existing in selected):
             continue
@@ -535,6 +604,8 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
             continue
         if category == "general_ai" and not is_guo_yichen_reference(candidate):
             continue
+        if is_historical_repeat(candidate, historical_items):
+            continue
         if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
             continue
         if source_counts.get(candidate.source, 0) >= max_per_source:
@@ -557,6 +628,8 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
             continue
         if category == "general_ai" and not is_guo_yichen_reference(candidate):
             continue
+        if is_historical_repeat(candidate, historical_items):
+            continue
         if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
             continue
         if source_counts.get(candidate.source, 0) >= max_per_source:
@@ -574,6 +647,8 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
         if not selection_category_matches(candidate, category):
             continue
         if category == "general_ai" and not is_guo_yichen_reference(candidate):
+            continue
+        if is_historical_repeat(candidate, historical_items):
             continue
         if category in {"general_ai", "engineering_ai"} and is_broad_google_discovery(candidate) and source_kind_counts.get("broad_google_news", 0) >= google_news_cap:
             continue
@@ -593,7 +668,12 @@ def select_unique_events(candidates: list[Candidate], category: str, limit: int)
     return selected
 
 
-def select_medical_bio_ai(candidates: list[Candidate], limit: int) -> list[Candidate]:
+def select_medical_bio_ai(
+    candidates: list[Candidate],
+    limit: int,
+    historical_items: list[Candidate] | None = None,
+) -> list[Candidate]:
+    historical_items = historical_items or []
     selected: list[Candidate] = []
     topic_counts: dict[str, int] = {}
     broad_google_count = 0
@@ -603,6 +683,8 @@ def select_medical_bio_ai(candidates: list[Candidate], limit: int) -> list[Candi
         if not is_medical_bio_ai(candidate):
             continue
         if not is_trusted_or_curated(candidate):
+            continue
+        if is_historical_repeat(candidate, historical_items):
             continue
         if any(is_same_event(candidate, existing) for existing in selected):
             continue
@@ -621,6 +703,8 @@ def select_medical_bio_ai(candidates: list[Candidate], limit: int) -> list[Candi
         if not is_medical_bio_ai(candidate):
             continue
         if is_broad_google_discovery(candidate) and broad_google_count >= 1:
+            continue
+        if is_historical_repeat(candidate, historical_items):
             continue
         if candidate in selected or any(is_same_event(candidate, existing) for existing in selected):
             continue
@@ -1079,10 +1163,14 @@ def write_outputs(candidates: list[Candidate], log: RunLog, search_tasks: list[d
     digest_dir.mkdir(parents=True, exist_ok=True)
 
     all_candidates = [asdict(item) for item in candidates[:100]]
-    general_top = [asdict(item) for item in select_unique_events(candidates, "general_ai", 10)]
-    engineering_top = [asdict(item) for item in select_unique_events(candidates, "engineering_ai", 5)]
-    medical_bio_top = [asdict(item) for item in select_medical_bio_ai(candidates, 5)]
-    research_radar = [asdict(item) for item in select_unique_events(candidates, "research", 5)]
+    general_history = historical_selected_items(date_slug, "general_ai", 7)
+    engineering_history = historical_selected_items(date_slug, "engineering_ai", 30)
+    medical_bio_history = historical_selected_items(date_slug, "medical_bio_ai", 30)
+    research_history = historical_selected_items(date_slug, "research", 30)
+    general_top = [asdict(item) for item in select_unique_events(candidates, "general_ai", 10, general_history)]
+    engineering_top = [asdict(item) for item in select_unique_events(candidates, "engineering_ai", 5, engineering_history)]
+    medical_bio_top = [asdict(item) for item in select_medical_bio_ai(candidates, 5, medical_bio_history)]
+    research_radar = [asdict(item) for item in select_unique_events(candidates, "research", 5, research_history)]
     payload = {
         "run_log": asdict(log),
         "selection_policy": {
@@ -1091,6 +1179,7 @@ def write_outputs(candidates: list[Candidate], log: RunLog, search_tasks: list[d
             "medical_bio_ai": "top 5 scored medical, medicine, biotech, biology, genomics, and genetics AI items after event deduplication and topic diversification",
             "research_radar": "optional research items from research/community sources",
             "ranking_note": "Score estimates readership/engagement when direct read counts are unavailable. Selection prefers topic diversity so one hot area does not crowd out the whole digest.",
+            "history_deduplication": "General AI excludes similar selected items from the previous 7 days. Engineering AI, Biomedical AI, and Research Radar exclude similar selected items from the previous 30 days so long discovery windows do not cause repeated daily publication.",
         },
         "top_10_general_ai": general_top,
         "top_5_engineering_ai": engineering_top,

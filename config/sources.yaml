@@ -1052,7 +1052,7 @@ sources:
     category: general_ai
     priority: high
     tags: [medical_ai, bio_ai, trusted_discovery, healthcare_ai, genomics_ai]
-    query: (site:nejm.org OR site:nature.com OR site:thelancet.com OR site:science.org OR site:cell.com OR site:statnews.com OR site:fiercebiotech.com) (AI OR "artificial intelligence" OR "machine learning" OR "foundation model" OR clinical OR genomics OR genetics OR "drug discovery" OR biotech) when:7d
+    query: (site:nejm.org OR site:ai.nejm.org OR site:nature.com OR site:thelancet.com OR site:jamanetwork.com OR site:science.org OR site:cell.com OR site:statnews.com OR site:fiercebiotech.com OR site:fiercehealthcare.com OR site:healthcareitnews.com OR site:mobihealthnews.com OR site:medcitynews.com OR site:bio-itworld.com OR site:drugtargetreview.com OR site:genomeweb.com OR site:pharmaceutical-technology.com) (AI OR "artificial intelligence" OR "machine learning" OR "foundation model" OR clinical OR healthcare OR genomics OR genetics OR "drug discovery" OR biotech OR "digital health") when:14d
     notes: Source-specific discovery for trusted biomedical, clinical, biotech, and digital-health publications.
     enabled: true
     max_entries: 8
@@ -1066,6 +1066,33 @@ sources:
     notes: STAT health and biotech feed, filtered for AI/ML relevance.
     enabled: true
     max_entries: 5
+  - name: Healthcare IT News
+    url: https://www.healthcareitnews.com/
+    source_type: website
+    category: general_ai
+    priority: high
+    tags: [medical_ai, healthcare_ai, digital_health]
+    notes: Healthcare technology news source; filtered for AI, clinical AI, digital health, and hospital deployment relevance.
+    enabled: true
+    max_entries: 8
+  - name: MobiHealthNews
+    url: https://www.mobihealthnews.com/
+    source_type: website
+    category: general_ai
+    priority: high
+    tags: [medical_ai, digital_health, healthcare_ai]
+    notes: Digital health and health-tech news source; filtered for AI relevance.
+    enabled: true
+    max_entries: 8
+  - name: MedCity News
+    url: https://medcitynews.com/
+    source_type: website
+    category: general_ai
+    priority: medium
+    tags: [medical_ai, healthcare_ai, biotech, digital_health]
+    notes: Healthcare business, digital health, and biotech news source; filtered for AI relevance.
+    enabled: true
+    max_entries: 8
   - name: Fierce Biotech
     url: https://www.fiercebiotech.com/rss/xml
     source_type: rss
@@ -1076,6 +1103,96 @@ sources:
     notes: Biotech industry feed, filtered for AI and drug-discovery relevance.
     enabled: true
     max_entries: 5
+  - name: Fierce Healthcare
+    url: https://www.fiercehealthcare.com/
+    source_type: website
+    category: general_ai
+    priority: medium
+    tags: [medical_ai, healthcare_ai, digital_health]
+    notes: Healthcare industry source; filtered for AI deployment, regulation, and digital-health relevance.
+    enabled: true
+    max_entries: 8
+  - name: Bio-IT World
+    url: https://www.bio-itworld.com/
+    source_type: website
+    category: general_ai
+    priority: high
+    tags: [bio_ai, biotech, genomics_ai, drug_discovery, research]
+    notes: Bioinformatics, genomics, computational biology, and biotech computing source; filtered for AI relevance.
+    enabled: true
+    max_entries: 8
+  - name: Drug Target Review
+    url: https://www.drugtargetreview.com/
+    source_type: website
+    category: general_ai
+    priority: medium
+    tags: [bio_ai, drug_discovery, biotech]
+    notes: Drug discovery and translational research source; filtered for AI and ML relevance.
+    enabled: true
+    max_entries: 8
+  - name: GenomeWeb
+    url: https://www.genomeweb.com/
+    source_type: website
+    category: general_ai
+    priority: medium
+    tags: [bio_ai, genomics_ai, genetics_ai, biotech]
+    notes: Genomics and molecular diagnostics source; filtered for AI, ML, and computational biology relevance.
+    enabled: true
+    max_entries: 8
+  - name: Pharmaceutical Technology
+    url: https://www.pharmaceutical-technology.com/
+    source_type: website
+    category: general_ai
+    priority: medium
+    tags: [bio_ai, pharma, drug_discovery, biotech]
+    notes: Pharma industry source; filtered for AI drug discovery and clinical development relevance.
+    enabled: true
+    max_entries: 8
+  - name: NEJM AI
+    url: https://ai.nejm.org/
+    source_type: website
+    category: research
+    priority: high
+    tags: [medical_ai, clinical_ai, research, trusted_discovery]
+    notes: NEJM AI journal site; use public website/sitemap discovery and trusted domain discovery, filtered for English AI medicine content.
+    enabled: true
+    max_entries: 8
+  - name: The Lancet Digital Health
+    url: https://www.thelancet.com/journals/landig/home
+    source_type: website
+    category: research
+    priority: high
+    tags: [medical_ai, digital_health, clinical_ai, research]
+    notes: Digital health journal source; filtered for AI, ML, clinical AI, and healthcare deployment relevance.
+    enabled: true
+    max_entries: 8
+  - name: Nature Medicine
+    url: https://www.nature.com/nm/
+    source_type: website
+    category: research
+    priority: high
+    tags: [medical_ai, clinical_ai, bio_ai, research]
+    notes: Nature Medicine source; filtered for AI/ML medicine, clinical, genomics, and drug-discovery relevance.
+    enabled: true
+    max_entries: 8
+  - name: Nature Biotechnology
+    url: https://www.nature.com/nbt/
+    source_type: website
+    category: research
+    priority: high
+    tags: [bio_ai, biotech, drug_discovery, genomics_ai, research]
+    notes: Nature Biotechnology source; filtered for AI-enabled biotech, drug discovery, genomics, and computational biology.
+    enabled: true
+    max_entries: 8
+  - name: Cell Patterns
+    url: https://www.cell.com/patterns/home
+    source_type: website
+    category: research
+    priority: medium
+    tags: [bio_ai, medical_ai, data_science, research]
+    notes: Cell Patterns source for data science, computational biology, and AI-for-science items.
+    enabled: true
+    max_entries: 8
   - name: LinkedIn Engineering AI Public Posts
     url: https://www.linkedin.com/search/results/content/
     source_type: linkedin_manual
