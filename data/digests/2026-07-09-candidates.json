@@ -1,0 +1,4988 @@
+{
+  "run_log": {
+    "generated_at": "2026-07-09T08:38:02.457726+00:00",
+    "window_hours": 24,
+    "source_count": 133,
+    "fetched_count": 17173,
+    "filtered_count": 2239,
+    "duplicate_count": 73,
+    "failures": [
+      {
+        "source": "Reuters Technology",
+        "error": "'query'"
+      },
+      {
+        "source": "VentureBeat AI",
+        "error": "'query'"
+      },
+      {
+        "source": "Perplexity",
+        "error": "'query'"
+      },
+      {
+        "source": "Ansys",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Autodesk",
+        "error": "'query'"
+      },
+      {
+        "source": "Altair",
+        "error": "'query'"
+      },
+      {
+        "source": "Cadence",
+        "error": "'query'"
+      },
+      {
+        "source": "Navasto",
+        "error": "'query'"
+      },
+      {
+        "source": "PhysicsX",
+        "error": "'query'"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
+      },
+      {
+        "source": "ESI Group",
+        "error": "'query'"
+      },
+      {
+        "source": "CADFEM",
+        "error": "'query'"
+      },
+      {
+        "source": "Nature Machine Intelligence",
+        "error": "'query'"
+      },
+      {
+        "source": "Science Robotics",
+        "error": "'query'"
+      },
+      {
+        "source": "ACM AI-related feeds",
+        "error": "'query'"
+      },
+      {
+        "source": "Reddit MachineLearning",
+        "error": "'query'"
+      },
+      {
+        "source": "Hamel Husain",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Context Window",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Chips and Cheese",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Sunday Letters",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "The Leverage",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Harry Stebbings 20VC",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "NEJM AI",
+        "error": "'query'"
+      },
+      {
+        "source": "The Lancet Digital Health",
+        "error": "'query'"
+      },
+      {
+        "source": "Nature Medicine",
+        "error": "'query'"
+      },
+      {
+        "source": "Nature Biotechnology",
+        "error": "'query'"
+      },
+      {
+        "source": "Cell Patterns",
+        "error": "'query'"
+      }
+    ]
+  },
+  "selection_policy": {
+    "general_ai": "top 10 scored English AI news items after event deduplication and topic diversification",
+    "engineering_ai": "top 5 scored engineering AI items covering simulation, CAD, CAE, SPDM, PLM, digital twin, physical AI, scientific ML, and industrial AI",
+    "medical_bio_ai": "top 5 scored medical, medicine, biotech, biology, genomics, and genetics AI items after event deduplication and topic diversification",
+    "research_radar": "optional research items from research/community sources",
+    "ranking_note": "Score estimates readership/engagement when direct read counts are unavailable. Selection prefers topic diversity so one hot area does not crowd out the whole digest.",
+    "history_deduplication": "General AI excludes similar selected items from the previous 7 days. Engineering AI, Biomedical AI, and Research Radar exclude similar selected items from the previous 30 days so long discovery windows do not cause repeated daily publication."
+  },
+  "top_10_general_ai": [
+    {
+      "id": "eaad4cbcfa7f5327",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T13:00:00+00:00",
+      "text": "Separating signal from noise in coding evaluations A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 62.167,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.795,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "61e23b58a7cabf5c",
+      "title": "Introducing GPT‑Live",
+      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T23:20:48+00:00",
+      "text": "Introducing GPT‑Live Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5: For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live. The previous voice mode in the ChatGPT app was based on a GPT-4o era model, with a knowledge cut-off some time in 2024. I had mostly stopped using voice mode because the age and relative weakness of the model greatly limited how useful it was as a brainstorming partner. During the preview period I encountered a pretty obscure bug: the model was interrupting me to laugh at things I said, which weren't even intended as jokes! It felt rude and condescending - I reported it to OpenAI and as far as",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.807,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.855,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "a8ed1f4debb94db3",
+      "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+      "url": "https://www.latent.space/p/modal2026",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T22:55:07+00:00",
+      "text": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO 2 years after our first coverage, we return with Modal's other cofounder to explore why Agent Experience is working now, and everything they have learned building the new agent cloud.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 60.66,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.848,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "d9aedbf9734e78e7",
+      "title": "[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition",
+      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T06:05:41+00:00",
+      "text": "[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition SpaceXAI continues to move faster than any other frontier lab on earth.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.46,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.96,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "7297e8d877a5bbaa",
+      "title": "Quoting Kenton Varda",
+      "url": "https://simonwillison.net/2026/Jul/8/kenton-varda",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T20:03:34+00:00",
+      "text": "Quoting Kenton Varda I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omitting the higher-level framing needed to understand broadly what the code is doing. — Kenton Varda Tags: kenton-varda , ai-assisted-programming , generative-ai , ai , llms",
+      "matched_terms": [
+        "AI",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 56.344,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.804,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "41b85c9cdb7a0122",
+      "title": "Our approach to government and national security partnerships",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T13:30:00+00:00",
+      "text": "Our approach to government and national security partnerships Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 56.282,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.801,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "450af95c2f1221d9",
+      "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
+      "source": "GitHub Blog AI and ML",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T21:11:56+00:00",
+      "text": "Automating cross-repo documentation with GitHub Agentic Workflows Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation. The post Automating cross-repo documentation with GitHub Agentic Workflows appeared first on The GitHub Blog .",
+      "matched_terms": [
+        "agent"
+      ],
+      "engagement": {},
+      "score": 54.713,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.881,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "developer_tools",
+        "ai_engineering",
+        "open_source",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "5535aeb9eb9d5ca5",
+      "title": "Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T17:16:05+00:00",
+      "text": "Data for Agents",
+      "matched_terms": [
+        "agent"
+      ],
+      "engagement": {},
+      "score": 52.051,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.76",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.76,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "f2a3364a10eb9acc",
+      "title": "Native-speed vLLM transformers modeling backend",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "text": "Native-speed vLLM transformers modeling backend",
+      "matched_terms": [
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 46.115,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.49",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.49,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "b73c8f825057786c",
+      "title": "The Pragmatic Engineer AMA",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-ama",
+      "source": "The Pragmatic Engineer",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T16:38:49+00:00",
+      "text": "The Pragmatic Engineer AMA In this AMA episode, Gergely Orosz answers listener questions on AI, engineering, hiring, and careers.",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 43.971,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.75",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.75,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "software_engineering",
+        "ai_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "medium"
+    }
+  ],
+  "top_5_engineering_ai": [
+    {
+      "id": "e231033a4c78d110",
+      "title": "Bridging Design & Simulation in Humanoid Robotics",
+      "url": "https://blogs.sw.siemens.com/simcenter/bridging-design-simulation-in-humanoid-robotics",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T13:18:29+00:00",
+      "text": "Bridging Design & Simulation in Humanoid Robotics For decades, humanoid robots remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 73.557,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "48a693d06a0d74d5",
+      "title": "Rewriting Bun in Rust",
+      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T23:57:21+00:00",
+      "text": "Rewriting Bun in Rust Rewriting Bun in Rust Jarred Sumner has been promising this blog post ( since May 9th ) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks. Jarred spends the first half of the post praising Zig for getting Bun this far. Then we get to a core idea in the piece, emphasis mine: Our bugfix list felt bad and I was tired of going to sleep worrying about crashes in Bun. I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it. We wouldn't have gotten this far if not for Zig, and I'll always be grateful. Until very recently, programming language choice was a one-way decision for a project like Bun. Everyone knows you should never stop the world and rewrite a large piece of software from the ground up. Joel Spolsky highlighted that in Things You Shou",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 71.184,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=5",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.864,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "7a6a9419c5cf0f9b",
+      "title": "AI Models Overthink Problems—and It’s a Security Risk",
+      "url": "https://spectrum.ieee.org/ai-reasoning-models-security-risk",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T11:00:01+00:00",
+      "text": "AI Models Overthink Problems—and It’s a Security Risk Large language models (LLMs) that can think through problems step-by-step have significantly increased the scope of tasks that AI can tackle. But new research suggests these reasoning capabilities also introduce a critical vulnerability that could allow attackers to slow these systems to a crawl. While earlier generations of LLMs would immediately produce a response to a user’s request, today’s most advanced models generate an internal monologue where they break down the problem into steps and reason about the best way to tackle it before providing an answer. This has allowed AI to tackle increasingly complex problems, particularly in areas like coding and math . However, previous research has shown that these models are susceptible to sometimes producing excessively long streams of reasoning that do little to boost performance, a phenomenon known as “overthinking.” In research presented this week at the International Conference on Machine Learning 2026 in Seoul, researchers from Zhejiang University and e-commerce giant Alibaba in China demonstrate that they can deliberately induce overthinking by subjecting models to logically ",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "large language model",
+        "reasoning model",
+        "OpenAI",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 70.627,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.32",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.324,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4937b819282bfe79",
+      "title": "Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation",
+      "url": "https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 67.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "123ee15fa287f5fd",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T19:19:15+00:00",
+      "text": "This startup thinks robotics is about to have its ChatGPT moment General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+      "matched_terms": [
+        "AI",
+        "foundation model",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 64.449,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.861,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    }
+  ],
+  "top_5_medical_bio_ai": [
+    {
+      "id": "e782570c8893c2e4",
+      "title": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research",
+      "url": "https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T16:57:12+00:00",
+      "text": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research In this post, we explore how Graph-based Retrieval Augmented Generation (GraphRAG) is transforming scientific research by combining graph databases with generative AI. With this approach, you can accelerate discovery processes without compromising scientific integrity.",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "RAG",
+        "retrieval augmented generation"
+      ],
+      "engagement": {},
+      "score": 66.407,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.837,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "536ce63894633f57",
+      "title": "What happens on ‘MAHA Monday’?",
+      "url": "https://www.statnews.com/2026/07/09/maha-mondays-great-american-state-fair-status-report-alex-hogan",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T08:30:00+00:00",
+      "text": "What happens on ‘MAHA Monday’? STAT's Alex Hogan and Chelsea Cirruzzo stopped by \"MAHA Monday\" at the Great American State Fair. Watch their report in this week's STATus Report.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.241,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.996,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8dd183ee360986d7",
+      "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T20:37:03+00:00",
+      "text": "Google’s deepfake detector system used to debunk McConnell hoax pic Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress. It turned out to be an AI-generated fake.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 54.58,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.875,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "178b134a9ea0565a",
+      "title": "Anthropic Launches Claude Science, Illumina's Spatial Insights Tool, Wellcome Sanger Institute, Google DeepMind AI Consortium",
+      "url": "https://www.bio-itworld.com/news/2026/06/30/anthropic-launches-claude-science--illumina's-spatial-insights-tool--wellcome-sanger-institute--google-deepmind-ai-consortium",
+      "source": "Bio-IT World",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Anthropic Launches Claude Science, Illumina's Spatial Insights Tool, Wellcome Sanger Institute, Google DeepMind AI Consortium https://www.bio-itworld.com/news/2026/06/30/anthropic-launches-claude-science--illumina's-spatial-insights-tool--wellcome-sanger-institute--google-deepmind-ai-consortium",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "Google DeepMind",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 53.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "bio_ai",
+        "biotech",
+        "genomics_ai",
+        "drug_discovery",
+        "research"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "bc23e6ea3f2b6cfa",
+      "title": "Learn More",
+      "url": "https://ai.meta.com/blog/upenn-dino-sam-helping-medical-triage",
+      "source": "Meta AI",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Learn More https://ai.meta.com/blog/upenn-dino-sam-helping-medical-triage/",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 51.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "research"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    }
+  ],
+  "top_5_cae_ai_engineering": [
+    {
+      "id": "e231033a4c78d110",
+      "title": "Bridging Design & Simulation in Humanoid Robotics",
+      "url": "https://blogs.sw.siemens.com/simcenter/bridging-design-simulation-in-humanoid-robotics",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T13:18:29+00:00",
+      "text": "Bridging Design & Simulation in Humanoid Robotics For decades, humanoid robots remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 73.557,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "48a693d06a0d74d5",
+      "title": "Rewriting Bun in Rust",
+      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T23:57:21+00:00",
+      "text": "Rewriting Bun in Rust Rewriting Bun in Rust Jarred Sumner has been promising this blog post ( since May 9th ) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks. Jarred spends the first half of the post praising Zig for getting Bun this far. Then we get to a core idea in the piece, emphasis mine: Our bugfix list felt bad and I was tired of going to sleep worrying about crashes in Bun. I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it. We wouldn't have gotten this far if not for Zig, and I'll always be grateful. Until very recently, programming language choice was a one-way decision for a project like Bun. Everyone knows you should never stop the world and rewrite a large piece of software from the ground up. Joel Spolsky highlighted that in Things You Shou",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 71.184,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=5",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.864,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "7a6a9419c5cf0f9b",
+      "title": "AI Models Overthink Problems—and It’s a Security Risk",
+      "url": "https://spectrum.ieee.org/ai-reasoning-models-security-risk",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T11:00:01+00:00",
+      "text": "AI Models Overthink Problems—and It’s a Security Risk Large language models (LLMs) that can think through problems step-by-step have significantly increased the scope of tasks that AI can tackle. But new research suggests these reasoning capabilities also introduce a critical vulnerability that could allow attackers to slow these systems to a crawl. While earlier generations of LLMs would immediately produce a response to a user’s request, today’s most advanced models generate an internal monologue where they break down the problem into steps and reason about the best way to tackle it before providing an answer. This has allowed AI to tackle increasingly complex problems, particularly in areas like coding and math . However, previous research has shown that these models are susceptible to sometimes producing excessively long streams of reasoning that do little to boost performance, a phenomenon known as “overthinking.” In research presented this week at the International Conference on Machine Learning 2026 in Seoul, researchers from Zhejiang University and e-commerce giant Alibaba in China demonstrate that they can deliberately induce overthinking by subjecting models to logically ",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "large language model",
+        "reasoning model",
+        "OpenAI",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 70.627,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.32",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.324,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4937b819282bfe79",
+      "title": "Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation",
+      "url": "https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 67.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "123ee15fa287f5fd",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T19:19:15+00:00",
+      "text": "This startup thinks robotics is about to have its ChatGPT moment General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+      "matched_terms": [
+        "AI",
+        "foundation model",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 64.449,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.861,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    }
+  ],
+  "research_radar": [
+    {
+      "id": "b47d35712994a918",
+      "title": "Flint: A visualization language for the AI era",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era",
+      "source": "Microsoft Research",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-08T16:00:00+00:00",
+      "text": "Flint: A visualization language for the AI era Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualization language for the AI era appeared first on Microsoft Research .",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 70.366,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.926,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "3e25372b9239ef76",
+      "title": "Nvidia Physical Ai",
+      "url": "https://huggingface.co/blog/nvidia-physical-ai",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Nvidia Physical Ai https://huggingface.co/blog/nvidia-physical-ai",
+      "matched_terms": [
+        "AI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 57.867,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "c1a4d7d6313d2fde",
+      "title": "Domain Specific Embedding Finetune",
+      "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Domain Specific Embedding Finetune https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "matched_terms": [
+        "AI",
+        "embedding",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 57.7,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "6daa14d2aac9d9a9",
+      "title": "Inference Providers Featherless",
+      "url": "https://huggingface.co/blog/inference-providers-featherless",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Inference Providers Featherless https://huggingface.co/blog/inference-providers-featherless",
+      "matched_terms": [
+        "inference"
+      ],
+      "engagement": {},
+      "score": 54.533,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "e548e0e285fcb13e",
+      "title": "Openai Privacy Filter Web Apps",
+      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Openai Privacy Filter Web Apps https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 54.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    }
+  ],
+  "supplemental_search_tasks": [
+    {
+      "source": "Engineering24",
+      "category": "engineering_ai",
+      "query": "site:www.engineering24.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.engineering24.com%20AI",
+      "source_type": "manual",
+      "priority": "medium",
+      "tags": "engineering_media, user_requested, url_pending_verification",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "arXiv AI Search",
+      "category": "research",
+      "query": "site:export.arxiv.org AI",
+      "url": "https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI",
+      "source_type": "arxiv",
+      "priority": "high",
+      "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "LinkedIn Engineering AI Public Posts",
+      "category": "engineering_ai",
+      "query": "(CAE OR simulation OR CFD OR FEA OR digital twin OR surrogate model OR SPDM OR PLM) (AI OR machine learning)",
+      "url": "https://www.google.com/search?q=%28CAE%20OR%20simulation%20OR%20CFD%20OR%20FEA%20OR%20digital%20twin%20OR%20surrogate%20model%20OR%20SPDM%20OR%20PLM%29%20%28AI%20OR%20machine%20learning%29",
+      "source_type": "linkedin_manual",
+      "priority": "medium",
+      "tags": "linkedin, engineering_ai, manual",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    }
+  ],
+  "watchlist_updates": [
+    {
+      "source": "Engineering24",
+      "category": "engineering_ai",
+      "query": "site:www.engineering24.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.engineering24.com%20AI",
+      "source_type": "manual",
+      "priority": "medium",
+      "tags": "engineering_media, user_requested, url_pending_verification",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "arXiv AI Search",
+      "category": "research",
+      "query": "site:export.arxiv.org AI",
+      "url": "https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI",
+      "source_type": "arxiv",
+      "priority": "high",
+      "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "LinkedIn Engineering AI Public Posts",
+      "category": "engineering_ai",
+      "query": "(CAE OR simulation OR CFD OR FEA OR digital twin OR surrogate model OR SPDM OR PLM) (AI OR machine learning)",
+      "url": "https://www.google.com/search?q=%28CAE%20OR%20simulation%20OR%20CFD%20OR%20FEA%20OR%20digital%20twin%20OR%20surrogate%20model%20OR%20SPDM%20OR%20PLM%29%20%28AI%20OR%20machine%20learning%29",
+      "source_type": "linkedin_manual",
+      "priority": "medium",
+      "tags": "linkedin, engineering_ai, manual",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    }
+  ],
+  "top_100_news_candidates": [
+    {
+      "id": "475a7ecbe023e4bc",
+      "title": "Your next colleague is an agent: The dawn of agentic AI-aided engineering",
+      "url": "https://blogs.sw.siemens.com/art-of-the-possible/agentic-ai-aided-engineering",
+      "source": "Siemens Art of the Possible",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-03T09:59:13+00:00",
+      "text": "Your next colleague is an agent: The dawn of agentic AI-aided engineering What if every engineer had instant access to simulation expertise? Agentic AI-Aided Engineering could transform engineering by putting intelligent AI agents alongside designers, automating complex CAE workflows, and breaking long-standing expertise bottlenecks. Discover how this emerging approach could democratize simulation and accelerate innovation across the engineering lifecycle",
+      "matched_terms": [
+        "CAE",
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 81.398,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.851,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "agentic_ai",
+        "cae",
+        "simulation",
+        "industrial_ai",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e231033a4c78d110",
+      "title": "Bridging Design & Simulation in Humanoid Robotics",
+      "url": "https://blogs.sw.siemens.com/simcenter/bridging-design-simulation-in-humanoid-robotics",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T13:18:29+00:00",
+      "text": "Bridging Design & Simulation in Humanoid Robotics For decades, humanoid robots remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 73.557,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "48a693d06a0d74d5",
+      "title": "Rewriting Bun in Rust",
+      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T23:57:21+00:00",
+      "text": "Rewriting Bun in Rust Rewriting Bun in Rust Jarred Sumner has been promising this blog post ( since May 9th ) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks. Jarred spends the first half of the post praising Zig for getting Bun this far. Then we get to a core idea in the piece, emphasis mine: Our bugfix list felt bad and I was tired of going to sleep worrying about crashes in Bun. I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it. We wouldn't have gotten this far if not for Zig, and I'll always be grateful. Until very recently, programming language choice was a one-way decision for a project like Bun. Everyone knows you should never stop the world and rewrite a large piece of software from the ground up. Joel Spolsky highlighted that in Things You Shou",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 71.184,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=5",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.864,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "7a6a9419c5cf0f9b",
+      "title": "AI Models Overthink Problems—and It’s a Security Risk",
+      "url": "https://spectrum.ieee.org/ai-reasoning-models-security-risk",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T11:00:01+00:00",
+      "text": "AI Models Overthink Problems—and It’s a Security Risk Large language models (LLMs) that can think through problems step-by-step have significantly increased the scope of tasks that AI can tackle. But new research suggests these reasoning capabilities also introduce a critical vulnerability that could allow attackers to slow these systems to a crawl. While earlier generations of LLMs would immediately produce a response to a user’s request, today’s most advanced models generate an internal monologue where they break down the problem into steps and reason about the best way to tackle it before providing an answer. This has allowed AI to tackle increasingly complex problems, particularly in areas like coding and math . However, previous research has shown that these models are susceptible to sometimes producing excessively long streams of reasoning that do little to boost performance, a phenomenon known as “overthinking.” In research presented this week at the International Conference on Machine Learning 2026 in Seoul, researchers from Zhejiang University and e-commerce giant Alibaba in China demonstrate that they can deliberately induce overthinking by subjecting models to logically ",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "large language model",
+        "reasoning model",
+        "OpenAI",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 70.627,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.32",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.324,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b47d35712994a918",
+      "title": "Flint: A visualization language for the AI era",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era",
+      "source": "Microsoft Research",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-08T16:00:00+00:00",
+      "text": "Flint: A visualization language for the AI era Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualization language for the AI era appeared first on Microsoft Research .",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 70.366,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.926,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "ab59fabe318f98c5",
+      "title": "What’s new in Simcenter STAR-CCM+ 2606?",
+      "url": "https://blogs.sw.siemens.com/simcenter/simcenter-star-ccm-2606-released",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-01T06:29:14+00:00",
+      "text": "What’s new in Simcenter STAR-CCM+ 2606? Simcenter STAR-CCM+ 2606 is now available, delivering advances that empower CFD engineers to tackle your most demanding simulation challenges with…",
+      "matched_terms": [
+        "simulation",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 70.217,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.798,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "fefac14dfe8908ce",
+      "title": "sqlite-utils 4.0, now with database schema migrations",
+      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-07T19:32:57+00:00",
+      "text": "sqlite-utils 4.0, now with database schema migrations This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations , nested transactions (via a new db.atomic() method), and support for compound foreign keys . Database schema migrations using sqlite-utils Schema migrations define a sequence of changes to be made to a SQLite database, plus a mechanism for tracking which migrations have been applied and applying any that are found to be pending. Migrations are defined in Python files using the sqlite-utils Python library , which includes a powerful table.transform() method providing enhanced alter table capabilities that are not supported by SQLite's ALTER TABLE statement. ( table.transform() implements the pattern recommended by the SQLite documentation - create a new temporary table with the new schema, copy across the data, then drop the old table and rename the temporary one in its place.) Here's an example migration file which creates a table cal",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "RAG",
+        "embedding",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 70.085,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.42",
+        "matched_terms=7",
+        "engineering_relevance=0.25",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.421,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "6041d49125de848e",
+      "title": "Ask, don’t click: Agentic AI takes the pain out of simulation post-processing",
+      "url": "https://blogs.sw.siemens.com/art-of-the-possible/ask-dont-click-agentic-ai-takes-the-pain-out-of-simulation-post-processing",
+      "source": "Siemens Art of the Possible",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-15T13:55:04+00:00",
+      "text": "Ask, don’t click: Agentic AI takes the pain out of simulation post-processing Picture this. You have just finished a hydraulic drive-cycle simulation in Simcenter Amesim. The solver finished in four minutes. Excellent….",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 68.254,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.41",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.406,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "agentic_ai",
+        "cae",
+        "simulation",
+        "industrial_ai",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "fdcca13bb581de3f",
+      "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
+      "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
+      "source": "COMSOL",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-02T14:24:05+00:00",
+      "text": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics® In this blog post we use COMSOL Multiphysics® to analyze the acoustics of the famous Liberty Bell and use uncertainty quantification to gain new insights into the material properties and optimal shape.",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 67.616,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.831,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "multiphysics",
+        "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4937b819282bfe79",
+      "title": "Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation",
+      "url": "https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 67.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8237995314afd1df",
+      "title": "Agentic Ai Cae Manufacturing Analysis Automotive Cae Grand Challenge",
+      "url": "https://www.synera.ai/webinar/agentic-ai-cae-manufacturing-analysis-automotive-cae-grand-challenge",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai Cae Manufacturing Analysis Automotive Cae Grand Challenge https://www.synera.ai/webinar/agentic-ai-cae-manufacturing-analysis-automotive-cae-grand-challenge",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 67.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e782570c8893c2e4",
+      "title": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research",
+      "url": "https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T16:57:12+00:00",
+      "text": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research In this post, we explore how Graph-based Retrieval Augmented Generation (GraphRAG) is transforming scientific research by combining graph databases with generative AI. With this approach, you can accelerate discovery processes without compromising scientific integrity.",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "RAG",
+        "retrieval augmented generation"
+      ],
+      "engagement": {},
+      "score": 66.407,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.837,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "123ee15fa287f5fd",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T19:19:15+00:00",
+      "text": "This startup thinks robotics is about to have its ChatGPT moment General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+      "matched_terms": [
+        "AI",
+        "foundation model",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 64.449,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.861,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "5b9107cfa1e3fd0e",
+      "title": "The 3 AI features in Designcenter Solid Edge - Engineering.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxdkVxOF8yZ3h6cXE1MTNFTkpvTFhkTDBka1E1Q19LX2Q2am9kU2dSN3o1Q3hObFVLajBXSTVzUmtZSEtqRjRYWGppaUp5Z29vMmVDWEx5UzIyV3FUc2FpRUhvLUl1UEp1X2xDa04yVkI1LVlMWEJjTlpVNGVsdw?oc=5",
+      "source": "Trusted Engineering Media Discovery",
+      "source_kind": "google_news_rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-24T07:00:00+00:00",
+      "text": "The 3 AI features in Designcenter Solid Edge - Engineering.com The 3 AI features in Designcenter Solid Edge Engineering.com",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 63.046,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.62",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.623,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_ai",
+        "trusted_discovery",
+        "engineering_media",
+        "industrial_ai",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b70c88e92880a6a9",
+      "title": "From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet",
+      "url": "https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 62.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "eaad4cbcfa7f5327",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T13:00:00+00:00",
+      "text": "Separating signal from noise in coding evaluations A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 62.167,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.795,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "2e1d33d546628e16",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T08:00:00+00:00",
+      "text": "Hot French startup ZML releases free product to speed inference across lots of AI chips ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "inference",
+        "AI chip"
+      ],
+      "engagement": {},
+      "score": 61.688,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.74",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.743,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "61e23b58a7cabf5c",
+      "title": "Introducing GPT‑Live",
+      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T23:20:48+00:00",
+      "text": "Introducing GPT‑Live Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5: For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live. The previous voice mode in the ChatGPT app was based on a GPT-4o era model, with a knowledge cut-off some time in 2024. I had mostly stopped using voice mode because the age and relative weakness of the model greatly limited how useful it was as a brainstorming partner. During the preview period I encountered a pretty obscure bug: the model was interrupting me to laugh at things I said, which weren't even intended as jokes! It felt rude and condescending - I reported it to OpenAI and as far as",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.807,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.855,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "a8ed1f4debb94db3",
+      "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+      "url": "https://www.latent.space/p/modal2026",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T22:55:07+00:00",
+      "text": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO 2 years after our first coverage, we return with Modal's other cofounder to explore why Agent Experience is working now, and everything they have learned building the new agent cloud.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 60.66,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.848,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "a5342c550d44bcb7",
+      "title": "Why this CEO thinks video games make better training data than the internet",
+      "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T17:47:55+00:00",
+      "text": "Why this CEO thinks video games make better training data than the internet When it comes to achieving artificial general intelligence (AGI), large language models just don’t have what it takes. Models like ChatGPT and Claude are great at text, but they’re less skilled at understanding how things actually move through space and time — an essential skill for producing intelligence that generalizes. That gap, it turns out, might be filled by gaming data. That’s the bet behind General Intuition, a […]",
+      "matched_terms": [
+        "AI",
+        "large language model",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 60.6,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.845,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "480c5907c71ef685",
+      "title": "Boris Scharinger Industrial Ai From Pilot To Profit",
+      "url": "https://www.industrial-ai-network.com/news/boris-scharinger-industrial-ai-from-pilot-to-profit",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Boris Scharinger Industrial Ai From Pilot To Profit https://www.industrial-ai-network.com/news/boris-scharinger-industrial-ai-from-pilot-to-profit",
+      "matched_terms": [
+        "ROM",
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a3c341cfec52c188",
+      "title": "Automating Fea Tasks Bridging The Gap Between Design Simulation",
+      "url": "https://www.synera.ai/webinar/automating-fea-tasks-bridging-the-gap-between-design-simulation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automating Fea Tasks Bridging The Gap Between Design Simulation https://www.synera.ai/webinar/automating-fea-tasks-bridging-the-gap-between-design-simulation",
+      "matched_terms": [
+        "simulation",
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "42281628d7d544ed",
+      "title": "11.18.2024 Luminary Cloud Uses NVIDIA Omniverse Blueprint for Real-Time Computer-Aided Engineering Digital Twins Luminary Press",
+      "url": "https://www.luminarycloud.com/resources/luminary-cloud-uses-nvidia-omniverse-blueprint-for-real-time-computer-aided-engineering-digital-twins",
+      "source": "Luminary Cloud",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "11.18.2024 Luminary Cloud Uses NVIDIA Omniverse Blueprint for Real-Time Computer-Aided Engineering Digital Twins Luminary Press https://www.luminarycloud.com/resources/luminary-cloud-uses-nvidia-omniverse-blueprint-for-real-time-computer-aided-engineering-digital-twins/",
+      "matched_terms": [
+        "computer-aided engineering",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud_cae",
+        "simulation",
+        "physics_ai"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "34915c8fa9888c1e",
+      "title": "Applying Machine Learning In Cfd To Accelerate Simulation",
+      "url": "https://www.neuralconcept.com/post/applying-machine-learning-in-cfd-to-accelerate-simulation",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Applying Machine Learning In Cfd To Accelerate Simulation https://www.neuralconcept.com/post/applying-machine-learning-in-cfd-to-accelerate-simulation",
+      "matched_terms": [
+        "simulation",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6c22caf76e458162",
+      "title": "Electric Motor Simulation Powerful Tool For Design Optimization",
+      "url": "https://www.neuralconcept.com/post/electric-motor-simulation-powerful-tool-for-design-optimization",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Electric Motor Simulation Powerful Tool For Design Optimization https://www.neuralconcept.com/post/electric-motor-simulation-powerful-tool-for-design-optimization",
+      "matched_terms": [
+        "simulation",
+        "design optimization"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "412d89d7f977469e",
+      "title": "Manufacturing Simulation Software Solutions For Optimization",
+      "url": "https://www.neuralconcept.com/post/manufacturing-simulation-software-solutions-for-optimization",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Manufacturing Simulation Software Solutions For Optimization https://www.neuralconcept.com/post/manufacturing-simulation-software-solutions-for-optimization",
+      "matched_terms": [
+        "simulation",
+        "manufacturing simulation"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f9b2bf03651dff5b",
+      "title": "Topology Optimization Vs Generative Design",
+      "url": "https://www.neuralconcept.com/post/topology-optimization-vs-generative-design",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Topology Optimization Vs Generative Design https://www.neuralconcept.com/post/topology-optimization-vs-generative-design",
+      "matched_terms": [
+        "topology optimization",
+        "generative design"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2fbe2f8f38db3729",
+      "title": "Understanding The Importance Of The Cfl Condition In Cfd Simulations",
+      "url": "https://www.neuralconcept.com/post/understanding-the-importance-of-the-cfl-condition-in-cfd-simulations",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Understanding The Importance Of The Cfl Condition In Cfd Simulations https://www.neuralconcept.com/post/understanding-the-importance-of-the-cfl-condition-in-cfd-simulations",
+      "matched_terms": [
+        "simulation",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "edde6cae541000a3",
+      "title": "What Is Engineering Simulation And How Does It Work",
+      "url": "https://www.neuralconcept.com/post/what-is-engineering-simulation-and-how-does-it-work",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "What Is Engineering Simulation And How Does It Work https://www.neuralconcept.com/post/what-is-engineering-simulation-and-how-does-it-work",
+      "matched_terms": [
+        "simulation",
+        "engineering simulation"
+      ],
+      "engagement": {},
+      "score": 60.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2f30f5e21698d29f",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T16:22:38+00:00",
+      "text": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents Founded in 2024, Prime Intellect’s goal is to give organizations capabilities to train their own agentic systems without relying on frontier AI labs.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.274,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.831,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "d22f990a554daaa6",
+      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
+      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "source": "Synopsys",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": "2026-07-09T02:41:43+00:00",
+      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 59.997,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.994,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "eda",
+        "simulation",
+        "digital_twin"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
+    },
+    {
+      "id": "e448c56d55563780",
+      "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
+      "url": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T15:00:00+00:00",
+      "text": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 59.959,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.816,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "d0a7f3d2c70a8110",
+      "title": "Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking",
+      "url": "https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 59.7,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "11cf0f7920bebbdf",
+      "title": "Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72",
+      "url": "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T16:05:25+00:00",
+      "text": "Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72 Presto is an open source, distributed SQL engine for running fast, interactive queries on very large datasets. On NVIDIA GPUs, Presto delivers peak performance...",
+      "matched_terms": [
+        "Nvidia",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 59.542,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.828,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "b44fa46ddb2918a2",
+      "title": "Harness Engineering for Self-Improvement",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness",
+      "source": "Lilian Weng",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-04T00:00:00+00:00",
+      "text": "Harness Engineering for Self-Improvement The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965) , where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase “recursive self-improvement” for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence. This feedback loop in modern AI may indicate the model rewriting its own weights directly, or more broadly the model improves the training pipeline and the deployment system , which in turn enables a better successor model with improved performance across economically valuable tasks. The speed of research development in AI has been shown to drastically accelerated in frontier labs ( Anthropic ; OpenAI ).",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 59.366,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.43",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.426,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "llm",
+        "agents",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "de92863115274012",
+      "title": "Helping K–12 educators build practical AI skills",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T10:00:00+00:00",
+      "text": "Helping K–12 educators build practical AI skills OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 58.98,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.76",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.764,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "f14364ea5975dca1",
+      "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database",
+      "url": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models",
+      "source": "InfoQ AI ML Data Engineering",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T08:00:00+00:00",
+      "text": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database Google shipped AlloyDB AI functions GA with a proxy model architecture that trains a lightweight local model from LLM outputs, then runs queries at database speed without external calls. Smart batching delivers 2,400x throughput improvement. The proxy model reaches 100,000 rows per second in preview, but benchmark numbers apply only to ai.if in internal testing. By Steef-Jan Wiggers",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "inference",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 58.364,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.98",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.98,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "software_engineering",
+        "mlops",
+        "data_engineering"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
+    },
+    {
+      "id": "2ba3e97371da34db",
+      "title": "Building an Analysis AI Agent for Industrial Alarm Management with NVIDIA Nemotron",
+      "url": "https://developer.nvidia.com/blog/building-an-analysis-ai-agent-for-industrial-alarm-management-with-nvidia-nemotron",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T17:00:00+00:00",
+      "text": "Building an Analysis AI Agent for Industrial Alarm Management with NVIDIA Nemotron Industrial machinery generates more alarms than technicians can triage. For each important alarm requiring follow-up, the technician pulls historical context,...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 58.251,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.59",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.587,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "3e25372b9239ef76",
+      "title": "Nvidia Physical Ai",
+      "url": "https://huggingface.co/blog/nvidia-physical-ai",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Nvidia Physical Ai https://huggingface.co/blog/nvidia-physical-ai",
+      "matched_terms": [
+        "AI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 57.867,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "82c4177600796e0e",
+      "title": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-07T15:10:10+00:00",
+      "text": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads Agentic systems turn model reasoning into action through multi-step workflows that combine inference, tool use, code execution, retrieval, orchestration, and...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "Nvidia",
+        "inference"
+      ],
+      "engagement": {},
+      "score": 57.831,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.57",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.568,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "c1a4d7d6313d2fde",
+      "title": "Domain Specific Embedding Finetune",
+      "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Domain Specific Embedding Finetune https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "matched_terms": [
+        "AI",
+        "embedding",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 57.7,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "a7d760ab746a249f",
+      "title": "Ai Q Top Ranking Open Portable Deep Research Agent",
+      "url": "https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Ai Q Top Ranking Open Portable Deep Research Agent https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 57.7,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "127f2e6c57960980",
+      "title": "Google Photos adds a new AI ‘Video Remix’ tool",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T18:30:08+00:00",
+      "text": "Google Photos adds a new AI ‘Video Remix’ tool The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.595,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.853,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "536ce63894633f57",
+      "title": "What happens on ‘MAHA Monday’?",
+      "url": "https://www.statnews.com/2026/07/09/maha-mondays-great-american-state-fair-status-report-alex-hogan",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T08:30:00+00:00",
+      "text": "What happens on ‘MAHA Monday’? STAT's Alex Hogan and Chelsea Cirruzzo stopped by \"MAHA Monday\" at the Great American State Fair. Watch their report in this week's STATus Report.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.241,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.996,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "efaf55cef858cf0e",
+      "title": "OpenAI releases new voice models for more natural live conversations",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T17:00:00+00:00",
+      "text": "OpenAI releases new voice models for more natural live conversations OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.084,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.837,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "d69800238eb95a13",
+      "title": "Automatically sort and prioritize your mailboxes by using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automatically-sort-and-prioritize-your-mailboxes-by-using-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T16:55:48+00:00",
+      "text": "Automatically sort and prioritize your mailboxes by using Amazon Bedrock In this post, we show how organizations in the public sector can automate their email management using a generative AI solution powered by Amazon Bedrock.",
+      "matched_terms": [
+        "AI",
+        "generative AI"
+      ],
+      "engagement": {},
+      "score": 57.068,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.836,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "76168cb3210e17d9",
+      "title": "Building and connecting a production-ready ecommerce MCP server using Amazon Bedrock AgentCore and Mistral AI Studio",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-and-connecting-a-production-ready-ecommerce-mcp-server-using-amazon-bedrock-agentcore-and-mistral-ai-studio",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-08T16:51:35+00:00",
+      "text": "Building and connecting a production-ready ecommerce MCP server using Amazon Bedrock AgentCore and Mistral AI Studio In this post, you build and connect that server end to end. You will implement MCP tools, set up two-layer JSON Web Token (JWT) authentication, deploy with AWS Cloud Development Kit (AWS CDK), and connect the result to Mistral AI’s Vibe. The post also covers prerequisites, solution architecture, best practices for MCP servers and Vibe connectors, and resource cleanup. The ecommerce server that you build supports product search, order placement, review submission, and returns processing using Amazon DynamoDB for data and Amazon Cognito for identity management.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.052,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.836,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "8426bc9786769987",
+      "title": "Siemens And Nvidia Building Next Gen Industrial Ai Operating System",
+      "url": "https://www.engineering.com/siemens-and-nvidia-building-next-gen-industrial-ai-operating-system",
+      "source": "Engineering.com",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Siemens And Nvidia Building Next Gen Industrial Ai Operating System https://www.engineering.com/siemens-and-nvidia-building-next-gen-industrial-ai-operating-system/",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_media",
+        "industrial_ai",
+        "design",
+        "simulation",
+        "plm",
+        "manufacturing"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a102955cccae6daf",
+      "title": "The 3 Ai Features In Designcenter Solid Edge",
+      "url": "https://www.engineering.com/the-3-ai-features-in-designcenter-solid-edge",
+      "source": "Engineering.com",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "The 3 Ai Features In Designcenter Solid Edge https://www.engineering.com/the-3-ai-features-in-designcenter-solid-edge/",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_media",
+        "industrial_ai",
+        "design",
+        "simulation",
+        "plm",
+        "manufacturing"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2281a3ecd176d213",
+      "title": "Association For Industrial Ai",
+      "url": "https://www.industrial-ai-network.com/association-for-industrial-ai",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Association For Industrial Ai https://www.industrial-ai-network.com/association-for-industrial-ai",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "57b898cbede194f6",
+      "title": "Join Industrial Ai Discord",
+      "url": "https://www.industrial-ai-network.com/help/join-industrial-ai-discord",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Join Industrial Ai Discord https://www.industrial-ai-network.com/help/join-industrial-ai-discord",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b9a80163671f8315",
+      "title": "Monthly Industrial Ai Call 2026 05 Recap",
+      "url": "https://www.industrial-ai-network.com/news/monthly-industrial-ai-call-2026-05-recap",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2026 05 Recap https://www.industrial-ai-network.com/news/monthly-industrial-ai-call-2026-05-recap",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ccfb889df7e4400",
+      "title": "Association Launches As European Industrial Ai Ngo",
+      "url": "https://www.industrial-ai-network.com/news/association-launches-as-european-industrial-ai-ngo",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Association Launches As European Industrial Ai Ngo https://www.industrial-ai-network.com/news/association-launches-as-european-industrial-ai-ngo",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "be2beb35078b8683",
+      "title": "Ai Spaces From Silos To Sovereign Cross Organizational Intelligence",
+      "url": "https://www.industrial-ai-network.com/publications/ai-spaces-from-silos-to-sovereign-cross-organizational-intelligence",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Spaces From Silos To Sovereign Cross Organizational Intelligence https://www.industrial-ai-network.com/publications/ai-spaces-from-silos-to-sovereign-cross-organizational-intelligence",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "9e62f8571a01deca",
+      "title": "Industrial Ai Terminology Guide Pdf Version 2",
+      "url": "https://www.industrial-ai-network.com/publications/industrial-ai-terminology-guide-pdf-version-2",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Industrial Ai Terminology Guide Pdf Version 2 https://www.industrial-ai-network.com/publications/industrial-ai-terminology-guide-pdf-version-2",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "59a8efebaf770ea2",
+      "title": "From Llm To Agentic Ai",
+      "url": "https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Llm To Agentic Ai https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2a47d8bcd1728daf",
+      "title": "Industrial Ai Solutions Market Reality",
+      "url": "https://www.industrial-ai-network.com/articles/industrial-ai-solutions-market-reality",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Industrial Ai Solutions Market Reality https://www.industrial-ai-network.com/articles/industrial-ai-solutions-market-reality",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "112f164d4697e452",
+      "title": "What Is Industrial Ai",
+      "url": "https://www.industrial-ai-network.com/articles/what-is-industrial-ai",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "What Is Industrial Ai https://www.industrial-ai-network.com/articles/what-is-industrial-ai",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c4411efe8356b617",
+      "title": "Monthly Industrial Ai Call 2023 05",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-05",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2023 05 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-05",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0bb13cb4c92a75dd",
+      "title": "Monthly Industrial Ai Call 2023 06",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-06",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2023 06 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-06",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "158e04c2e00801e6",
+      "title": "Monthly Industrial Ai Call 2023 07",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-07",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2023 07 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-07",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f60744583c7d026c",
+      "title": "Monthly Industrial Ai Call 2023 08",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-08",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2023 08 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-08",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "93442d84f94547c6",
+      "title": "Monthly Industrial Ai Call 2023 09",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-09",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2023 09 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-09",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3f742f7828a5e624",
+      "title": "Monthly Industrial Ai Call 2023 11",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-11",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2023 11 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2023-11",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "fe9f92e16bf150a8",
+      "title": "Monthly Industrial Ai Call 2024 01",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-01",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2024 01 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-01",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d3c407926f3dfd3b",
+      "title": "Monthly Industrial Ai Call 2024 02",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-02",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2024 02 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-02",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a4ea73ccb60c0c03",
+      "title": "Monthly Industrial Ai Call 2024 03",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-03",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2024 03 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-03",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6ef1f26af5bdf356",
+      "title": "Monthly Industrial Ai Call 2024 05",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-05",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2024 05 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-05",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "82577500d7fafd4a",
+      "title": "Monthly Industrial Ai Call 2024 07",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-07",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2024 07 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-07",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7d76520bec9be316",
+      "title": "Monthly Industrial Ai Call 2024 08",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-08",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2024 08 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-08",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "395f1be6bb540701",
+      "title": "Monthly Industrial Ai Call 2024 10",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-10",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2024 10 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-10",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "385643eb22838b60",
+      "title": "Monthly Industrial Ai Call 2024 11",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-11",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2024 11 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2024-11",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "18c213e8103863ed",
+      "title": "Monthly Industrial Ai Call 2025 01",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-01",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2025 01 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-01",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "98c8e266708c0011",
+      "title": "Monthly Industrial Ai Call 2025 07",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-07",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2025 07 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-07",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b3c752df0ae8723c",
+      "title": "Monthly Industrial Ai Call 2025 08",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-08",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2025 08 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-08",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b9f5e3f79099a97a",
+      "title": "Monthly Industrial Ai Call 2025 10",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-10",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2025 10 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-10",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4b6985dfe6d60b10",
+      "title": "Monthly Industrial Ai Call 2025 11",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-11",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2025 11 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2025-11",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "cab5e0e26b80554d",
+      "title": "Monthly Industrial Ai Call 2026 02",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-02",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2026 02 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-02",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "bb0958a31087f518",
+      "title": "Monthly Industrial Ai Call 2026 03",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-03",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2026 03 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-03",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6107bb5af2de6f25",
+      "title": "Monthly Industrial Ai Call 2026 05",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-05",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2026 05 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-05",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5a33f2af4b59f9ab",
+      "title": "Monthly Industrial Ai Call 2026 06",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-06",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2026 06 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-06",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "01835d1a2a5376ef",
+      "title": "Algorithm Based Fea",
+      "url": "https://www.synera.ai/workflows/algorithm-based-fea",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Algorithm Based Fea https://www.synera.ai/workflows/algorithm-based-fea",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c8c3641b2038b318",
+      "title": "Algorithmus Basierte Fea",
+      "url": "https://www.synera.ai/de/workflows/algorithmus-basierte-fea",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Algorithmus Basierte Fea https://www.synera.ai/de/workflows/algorithmus-basierte-fea",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "440676ab8c36fa75",
+      "title": "Fea Automation",
+      "url": "https://www.synera.ai/workflows/fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Automation https://www.synera.ai/workflows/fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3190c4385574038c",
+      "title": "Fea Automation",
+      "url": "https://www.synera.ai/de/workflows/fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Automation https://www.synera.ai/de/workflows/fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f44d2cb5d0e4a34",
+      "title": "Fea Execution On Remote Servers",
+      "url": "https://www.synera.ai/workflows/fea-execution-on-remote-servers",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Execution On Remote Servers https://www.synera.ai/workflows/fea-execution-on-remote-servers",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a7f940fee1270b4c",
+      "title": "Fea Execution On Remote Servers",
+      "url": "https://www.synera.ai/de/workflows/fea-execution-on-remote-servers",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Execution On Remote Servers https://www.synera.ai/de/workflows/fea-execution-on-remote-servers",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b847c73bc162dda5",
+      "title": "Fea Hotspot Reporting",
+      "url": "https://www.synera.ai/workflows/fea-hotspot-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Hotspot Reporting https://www.synera.ai/workflows/fea-hotspot-reporting",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "149580e921638f25",
+      "title": "Fea Hotspot Reporting",
+      "url": "https://www.synera.ai/de/workflows/fea-hotspot-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Hotspot Reporting https://www.synera.ai/de/workflows/fea-hotspot-reporting",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2f83a259524f9c7f",
+      "title": "Agentenbasierte Ki Trifft Auf Schweissnaht Mapping Fuer Durchgaengige Spritzgusssimulation",
+      "url": "https://www.synera.ai/de/news/agentenbasierte-ki-trifft-auf-schweissnaht-mapping-fuer-durchgaengige-spritzgusssimulation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentenbasierte Ki Trifft Auf Schweissnaht Mapping Fuer Durchgaengige Spritzgusssimulation https://www.synera.ai/de/news/agentenbasierte-ki-trifft-auf-schweissnaht-mapping-fuer-durchgaengige-spritzgusssimulation",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f08d5e0ccaa9c87",
+      "title": "Agentic Ai For Engineering In Aerospace And Defense",
+      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai For Engineering In Aerospace And Defense https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
+      "matched_terms": [
+        "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "aa7e190c8e57b532",
+      "title": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025",
+      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025 https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
+      "matched_terms": [
+        "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "40315e9e530db9ba",
+      "title": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems",
+      "url": "https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7faa8c6159a05886",
+      "title": "Einfuehrung Intact Simulation Add In",
+      "url": "https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Einfuehrung Intact Simulation Add In https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6c65c06c47193fc2",
+      "title": "Introducing Intact Simulation Add In",
+      "url": "https://www.synera.ai/news/introducing-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "84173670abec4920",
+      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
+      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ca5f8805ed4cc18e",
+      "title": "Nasa Ai Agents Build Spaceship From Text",
+      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0099e6807563ee55",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef8469f42c5a7ab5",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    }
+  ]
+}
