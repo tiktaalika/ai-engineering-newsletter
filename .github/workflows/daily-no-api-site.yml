@@ -43,6 +43,10 @@ jobs:
           python3 scripts/build_digest_candidates.py --window-hours 24 --date "$DATE"
       - name: Render combined site
         run: python3 scripts/render_digest_site.py
+      - name: Check recent duplicate items
+        run: |
+          DATE="$(TZ=Europe/Berlin date +%F)"
+          python3 scripts/check_recent_duplicates.py --date "$DATE" --lookback-days 7
       - name: Commit site artifacts
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

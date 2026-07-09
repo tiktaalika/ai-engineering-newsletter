@@ -12,6 +12,7 @@ pages:
     - DATE="$(TZ=Europe/Berlin date +%F)"
     - python3 scripts/build_digest_candidates.py --window-hours 24 --date "$DATE"
     - python3 scripts/render_digest_site.py
+    - python3 scripts/check_recent_duplicates.py --date "$DATE" --lookback-days 7
     - rm -rf public
     - cp -r site public
   artifacts:
