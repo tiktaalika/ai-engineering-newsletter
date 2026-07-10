@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-10T09:24:24.893805+00:00",
+    "generated_at": "2026-07-10T09:53:51.216669+00:00",
     "window_hours": 24,
     "source_count": 133,
-    "fetched_count": 17262,
-    "filtered_count": 2273,
-    "duplicate_count": 74,
+    "fetched_count": 17132,
+    "filtered_count": 2205,
+    "duplicate_count": 73,
     "failures": [
       {
         "source": "Reuters Technology",
@@ -92,6 +92,42 @@
         "error": "HTTP Error 403: Forbidden"
       },
       {
+        "source": "Google News General AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News AI Payments and Agent Commerce",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Frontier AI Policy and Access",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Engineering AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering AI Vendor Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering Media Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Medical AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Bio and Genetics AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Biomedical AI Source Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
         "source": "NEJM AI",
         "error": "'query'"
       },
@@ -110,6 +146,10 @@
       {
         "source": "Cell Patterns",
         "error": "'query'"
+      },
+      {
+        "source": "Curated AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
       }
     ]
   },
@@ -136,10 +176,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 66.361,
+      "score": 66.313,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -148,7 +188,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -173,7 +213,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.115,
+      "score": 60.003,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -185,7 +225,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.975,
+      "novelty_score": 0.97,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -210,10 +250,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.608,
+      "score": 59.44,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -222,7 +262,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.952,
+      "novelty_score": 0.944,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -248,7 +288,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.155,
+      "score": 57.986,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -260,7 +300,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.734,
+      "novelty_score": 0.727,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -286,10 +326,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.811,
+      "score": 57.642,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -298,7 +338,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -324,10 +364,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 43.668,
+      "score": 43.499,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -336,7 +376,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.736,
+      "novelty_score": 0.729,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -359,10 +399,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.657,
+      "score": 52.544,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -371,7 +411,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.787,
+      "novelty_score": 0.782,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -403,10 +443,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.481,
+      "score": 75.313,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -415,7 +455,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.787,
+      "novelty_score": 0.779,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -448,10 +488,10 @@
         "Mastercard"
       ],
       "engagement": {},
-      "score": 70.783,
+      "score": 70.446,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.33",
+        "novelty=0.32",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -460,7 +500,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.331,
+      "novelty_score": 0.316,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -520,7 +560,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.901,
+      "score": 64.788,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -532,7 +572,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.882,
+      "novelty_score": 0.877,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -555,7 +595,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.24,
+      "score": 63.228,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -594,10 +634,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.76,
+      "score": 61.648,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -606,7 +646,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -629,10 +669,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.71,
+      "score": 56.373,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -641,7 +681,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.972,
+      "novelty_score": 0.956,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -778,10 +818,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.481,
+      "score": 75.313,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -790,7 +830,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.787,
+      "novelty_score": 0.779,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -823,10 +863,10 @@
         "Mastercard"
       ],
       "engagement": {},
-      "score": 70.783,
+      "score": 70.446,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.33",
+        "novelty=0.32",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -835,7 +875,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.331,
+      "novelty_score": 0.316,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -895,7 +935,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.901,
+      "score": 64.788,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -907,7 +947,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.882,
+      "novelty_score": 0.877,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -930,7 +970,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.24,
+      "score": 63.228,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -968,10 +1008,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 66.361,
+      "score": 66.313,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -980,7 +1020,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1004,10 +1044,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 63.7,
+      "score": 63.651,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1016,7 +1056,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.926,
+      "novelty_score": 0.924,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1214,7 +1254,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.83,
+      "score": 80.819,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1227,7 +1267,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.826,
+      "novelty_score": 0.825,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1254,7 +1294,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 79.695,
+      "score": 79.684,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1266,7 +1306,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.956,
+      "novelty_score": 0.955,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1295,10 +1335,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.481,
+      "score": 75.313,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1307,7 +1347,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.787,
+      "novelty_score": 0.779,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1334,7 +1374,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 73.728,
+      "score": 73.717,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -1346,7 +1386,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.805,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1364,12 +1404,12 @@
       "source_kind": "rss",
       "category": "engineering_ai",
       "published_at": "2026-07-08T13:18:29+00:00",
-      "text": "Bridging design & simulation in humanoid robotics For decades, humanoid robots remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
+      "text": "Bridging design & simulation in humanoid robotics For decades, humanoid robotics remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
       "matched_terms": [
         "simulation"
       ],
       "engagement": {},
-      "score": 72.989,
+      "score": 72.978,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -1412,10 +1452,10 @@
         "Mastercard"
       ],
       "engagement": {},
-      "score": 70.783,
+      "score": 70.446,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.33",
+        "novelty=0.32",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -1424,7 +1464,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.331,
+      "novelty_score": 0.316,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -1449,10 +1489,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 67.933,
+      "score": 67.885,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1461,7 +1501,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1484,7 +1524,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.687,
+      "score": 67.675,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -1497,7 +1537,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.38,
+      "novelty_score": 0.379,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1522,10 +1562,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 67.048,
+      "score": 67.037,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1629,10 +1669,10 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 66.854,
+      "score": 66.741,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1641,7 +1681,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.857,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1666,10 +1706,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 66.361,
+      "score": 66.313,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1678,7 +1718,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1702,7 +1742,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 65.423,
+      "score": 65.411,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1739,7 +1779,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.901,
+      "score": 64.788,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1751,7 +1791,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.882,
+      "novelty_score": 0.877,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1774,10 +1814,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 63.7,
+      "score": 63.651,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1786,7 +1826,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.926,
+      "novelty_score": 0.924,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1794,43 +1834,6 @@
         "ai"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "c4a0826144b97f0b",
-      "title": "Anthropic’s new Claude feature is quietly selling you on AI",
-      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-09T14:53:09+00:00",
-      "text": "Anthropic’s new Claude feature is quietly selling you on AI Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 63.256,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.807,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -1846,7 +1849,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.24,
+      "score": 63.228,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -1866,6 +1869,43 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c4a0826144b97f0b",
+      "title": "Anthropic’s new Claude feature is quietly selling you on AI",
+      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-09T14:53:09+00:00",
+      "text": "Anthropic’s new Claude feature is quietly selling you on AI Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 63.143,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.802,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -1918,10 +1958,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.76,
+      "score": 61.648,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1930,7 +1970,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1955,7 +1995,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.42,
+      "score": 61.308,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1967,7 +2007,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.883,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1993,10 +2033,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.04,
+      "score": 60.703,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.58",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2005,7 +2045,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.593,
+      "novelty_score": 0.577,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2030,10 +2070,10 @@
         "retrieval augmented generation"
       ],
       "engagement": {},
-      "score": 60.729,
+      "score": 60.617,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
+        "novelty=0.57",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2042,7 +2082,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.579,
+      "novelty_score": 0.573,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2067,7 +2107,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.556,
+      "score": 60.443,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2079,7 +2119,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2087,41 +2127,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "57ef3517c8adbfd4",
-      "title": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms",
-      "url": "https://www.theguardian.com/technology/2026/jul/10/us-senator-unveils-ai-accountability-agenda-bills",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-10T09:00:16+00:00",
-      "text": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms Exclusive: Senator Ed Markey on why he has proposed legislation aimed at curbing datacenters, automated hiring systems and harm to children US senator Ed Markey is worried about the perils of unregulated artificial intelligence. What part? All of it: the costs associated with thirsty, energy-guzzling datacenters, intrusive workplace surveillance, bias in discriminatory algorithms, AI overriding workers’ judgments, and deepening economic inequality – as those who profit most from AI rake in extraordinary windfalls. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 60.39,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.987,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2451,6 +2456,41 @@
       "source_priority": "high"
     },
     {
+      "id": "57ef3517c8adbfd4",
+      "title": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms",
+      "url": "https://www.theguardian.com/technology/2026/jul/10/us-senator-unveils-ai-accountability-agenda-bills",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-10T09:00:16+00:00",
+      "text": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms Exclusive: Senator Ed Markey on why he has proposed legislation aimed at curbing datacenters, automated hiring systems and harm to children US senator Ed Markey is worried about the perils of unregulated artificial intelligence. What part? All of it: the costs associated with thirsty, energy-guzzling datacenters, intrusive workplace surveillance, bias in discriminatory algorithms, AI overriding workers’ judgments, and deepening economic inequality – as those who profit most from AI rake in extraordinary windfalls. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 60.053,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.972,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "027b05f9d0faae18",
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "url": "https://openai.com/index/deutsche-telekom",
@@ -2464,7 +2504,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.115,
+      "score": 60.003,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -2476,7 +2516,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.975,
+      "novelty_score": 0.97,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2485,42 +2525,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "9de14e96265af218",
-      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
-      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T19:05:58+00:00",
-      "text": "New York Times says OpenAI hid evidence in ChatGPT copyright trial News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.055,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.851,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2536,7 +2540,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.014,
+      "score": 60.003,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2548,7 +2552,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.995,
+      "novelty_score": 0.994,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2559,69 +2563,32 @@
       "source_priority": "medium"
     },
     {
-      "id": "17ec0cf81032f5a0",
-      "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
-      "url": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T17:15:04+00:00",
-      "text": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale Molecular dynamics (MD) simulations are among the most demanding workloads in computational science. Using them, researchers can observe atomic behavior in...",
-      "matched_terms": [
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 59.798,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.832,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "8e29a16695b1064c",
-      "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
-      "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits",
+      "id": "9de14e96265af218",
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-09T14:51:00+00:00",
-      "text": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000.",
+      "published_at": "2026-07-09T19:05:58+00:00",
+      "text": "New York Times says OpenAI hid evidence in ChatGPT copyright trial News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Anthropic"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 59.747,
+      "score": 59.942,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=3",
+        "novelty=0.85",
+        "matched_terms=2",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.807,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2667,6 +2634,79 @@
       "source_priority": "high"
     },
     {
+      "id": "17ec0cf81032f5a0",
+      "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
+      "url": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T17:15:04+00:00",
+      "text": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale Molecular dynamics (MD) simulations are among the most demanding workloads in computational science. Using them, researchers can observe atomic behavior in...",
+      "matched_terms": [
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 59.685,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.827,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "8e29a16695b1064c",
+      "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
+      "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T14:51:00+00:00",
+      "text": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 59.635,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.802,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "f7ffe7c764e66c3e",
       "title": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
       "url": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
@@ -2680,10 +2720,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.608,
+      "score": 59.44,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2692,7 +2732,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.952,
+      "novelty_score": 0.944,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -2717,10 +2757,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 58.657,
+      "score": 58.544,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2729,7 +2769,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.787,
+      "novelty_score": 0.782,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2753,7 +2793,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.575,
+      "score": 58.463,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2765,7 +2805,43 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.9,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "9491981398fceeeb",
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T22:24:24+00:00",
+      "text": "OpenAI launches its new family of models with GPT-5.6 OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 58.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2790,7 +2866,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.155,
+      "score": 57.986,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2802,82 +2878,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.734,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "9491981398fceeeb",
-      "title": "OpenAI launches its new family of models with GPT-5.6",
-      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T22:24:24+00:00",
-      "text": "OpenAI launches its new family of models with GPT-5.6 OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.146,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "6e37e68dc472e254",
-      "title": "llm 0.31.1",
-      "url": "https://simonwillison.net/2026/Jul/9/llm",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-09T16:06:15+00:00",
-      "text": "llm 0.31.1 Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tags: llm",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.052,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.73,
+      "novelty_score": 0.727,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2903,7 +2904,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 58.044,
+      "score": 57.931,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2915,7 +2916,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.876,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2923,6 +2924,45 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "6e37e68dc472e254",
+      "title": "llm 0.31.1",
+      "url": "https://simonwillison.net/2026/Jul/9/llm",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-09T16:06:15+00:00",
+      "text": "llm 0.31.1 Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tags: llm",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.884,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.72",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.722,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2959,78 +2999,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "4e5c1d04462b7c0d",
-      "title": "Quoting OpenAI",
-      "url": "https://simonwillison.net/2026/Jul/10/openai",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-10T01:05:57+00:00",
-      "text": "Quoting OpenAI [...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer. — OpenAI , trying (unsuccessfully) to clarify ChatGPT Work Tags: openai , chatgpt , ai",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.811,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "b95acbaa19fa60d2",
-      "title": "Reeves to launch City ‘skills compact’ committing firms to retrain staff in AI",
-      "url": "https://www.theguardian.com/business/2026/jul/10/rachel-reeves-city-skills-compact-ai-training",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T05:00:12+00:00",
-      "text": "Reeves to launch City ‘skills compact’ committing firms to retrain staff in AI Exclusive: Plan to improve skills of thousands of financial sector workers to keep pace with tech revolution Chancellor Rachel Reeves is to announce a new City “skills compact” that will commit firms such as Barclays and Lloyds to retraining thousands of financial sector workers for the AI revolution. The financial services skills compact will be launched on Tuesday, during what is likely to be Reeves’s final Mansion House speech to City bosses before Andy Burnham’s expected takeover of No 10. The government-backed initiative will commit employers to improving workers’ skills and helping them “keep pace” with significant technological changes that have prompted fears of mass redundancies. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.806,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.862,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3108,6 +3076,78 @@
       "source_priority": "high"
     },
     {
+      "id": "4e5c1d04462b7c0d",
+      "title": "Quoting OpenAI",
+      "url": "https://simonwillison.net/2026/Jul/10/openai",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-10T01:05:57+00:00",
+      "text": "Quoting OpenAI [...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer. — OpenAI , trying (unsuccessfully) to clarify ChatGPT Work Tags: openai , chatgpt , ai",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.642,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.863,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "b95acbaa19fa60d2",
+      "title": "Reeves to launch City ‘skills compact’ committing firms to retrain staff in AI",
+      "url": "https://www.theguardian.com/business/2026/jul/10/rachel-reeves-city-skills-compact-ai-training",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T05:00:12+00:00",
+      "text": "Reeves to launch City ‘skills compact’ committing firms to retrain staff in AI Exclusive: Plan to improve skills of thousands of financial sector workers to keep pace with tech revolution Chancellor Rachel Reeves is to announce a new City “skills compact” that will commit firms such as Barclays and Lloyds to retraining thousands of financial sector workers for the AI revolution. The financial services skills compact will be launched on Tuesday, during what is likely to be Reeves’s final Mansion House speech to City bosses before Andy Burnham’s expected takeover of No 10. The government-backed initiative will commit employers to improving workers’ skills and helping them “keep pace” with significant technological changes that have prompted fears of mass redundancies. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.469,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.847,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "241317adaedd7479",
       "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
       "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1",
@@ -3121,10 +3161,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.521,
+      "score": 57.408,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3133,7 +3173,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.857,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3157,10 +3197,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 57.292,
+      "score": 57.18,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3169,7 +3209,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.847,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3193,43 +3233,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.268,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.846,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "2d13fccb17c0bb23",
-      "title": "Telstra CEO Vicki Brady faces questions on nationwide outage – video",
-      "url": "https://www.theguardian.com/business/video/2026/jul/10/telstra-ceo-vicki-brady-faces-questions-on-nationwide-outage-video",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-10T04:22:18+00:00",
-      "text": "Telstra CEO Vicki Brady faces questions on nationwide outage – video Returning from annual leave, Telstra chief executive Vicki Brady has faced a barrage of questions for the first time since the company's nationwide outage on Wednesday affected train services, payment systems and triple zero calls. Brady says the failure was not the result of job restructuring , insisting that 'people and processes worked as they should have'. She said Telstra would conduct a thorough investigation into the software glitch behind the outage. An earlier headline on this video incorrectly said Telstra was reviewing executive bonuses in light of the incident How a throwback to 2006 took down Telstra’s national phone network As the Telstra crisis unfolded, the Coalition fell victim to another communications failure Taylor defends Sarah Henderson’s triple-zero calls as SA police investigate claimed Telstra-outage death Continue reading...",
-      "matched_terms": [
-        "AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 57.205,
+      "score": 57.156,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3241,13 +3245,14 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -4857,6 +4862,40 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Agentic Ai For Engineering In Aerospace And Defense https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
+      "matched_terms": [
+        "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "aa7e190c8e57b532",
+      "title": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025",
+      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025 https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
       "matched_terms": [
         "AI for engineering"
       ],
