@@ -593,21 +593,43 @@ def day_items(date_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], lis
     final_path = DIGEST_DIR / f"{date_slug}-final.md"
     if final_path.exists():
         final_items = hydrate_final_items(data, final_path)
-        medical = final_items["medical_bio_ai"] or medical_bio_items(data, historical_items=historical_items)
+        general = dedupe_and_fill_items(
+            final_items["general_ai"], data, "general_ai", 10, "top_10_general_ai", historical_items
+        )
+        engineering = dedupe_and_fill_items(
+            final_items["engineering_ai"],
+            data,
+            "engineering_ai",
+            5,
+            "top_5_engineering_ai",
+            historical_items + general,
+        )
+        medical_history = historical_items + general + engineering
+        medical = final_items["medical_bio_ai"] or medical_bio_items(data, historical_items=medical_history)
+        medical = [
+            item
+            for item in medical
+            if not any(is_same_event(item, previous) for previous in medical_history)
+        ][:5]
+        research = research_items(data, historical_items=historical_items + general + engineering + medical)
         return (
             data,
-            dedupe_and_fill_items(final_items["general_ai"], data, "general_ai", 10, "top_10_general_ai", historical_items),
-            dedupe_and_fill_items(final_items["engineering_ai"], data, "engineering_ai", 5, "top_5_engineering_ai", historical_items),
+            general,
+            engineering,
             medical,
-            research_items(data, historical_items=historical_items),
+            research,
             paper_push,
         )
+    general = section_items(data, "general_ai", 10, "top_10_general_ai", historical_items)
+    engineering = section_items(data, "engineering_ai", 5, "top_5_engineering_ai", historical_items + general)
+    medical = medical_bio_items(data, historical_items=historical_items + general + engineering)
+    research = research_items(data, historical_items=historical_items + general + engineering + medical)
     return (
         data,
-        section_items(data, "general_ai", 10, "top_10_general_ai", historical_items),
-        section_items(data, "engineering_ai", 5, "top_5_engineering_ai", historical_items),
-        medical_bio_items(data, historical_items=historical_items),
-        research_items(data, historical_items=historical_items),
+        general,
+        engineering,
+        medical,
+        research,
         paper_push,
     )
 

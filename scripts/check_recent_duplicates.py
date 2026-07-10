@@ -31,6 +31,30 @@ def current_sections(date_slug: str) -> dict[str, list[dict[str, Any]]]:
     }
 
 
+def find_quality_problems(date_slug: str) -> list[str]:
+    data_path = site.DIGEST_DIR / f"{date_slug}-candidates.json"
+    if not data_path.exists():
+        return [f"Missing candidate file: {data_path}"]
+
+    data = site.load_json(data_path)
+    run_log = data.get("run_log") or {}
+    source_count = int(run_log.get("source_count") or 0)
+    fetched_count = int(run_log.get("fetched_count") or 0)
+    top_candidates = data.get("top_100_news_candidates") or []
+    note = str(run_log.get("note") or "")
+
+    problems: list[str] = []
+    if source_count <= 0:
+        problems.append(
+            f"Candidate file has source_count={source_count}; this usually means the news source registry was not loaded."
+        )
+    if fetched_count <= 0 and not top_candidates:
+        problems.append("Candidate file has no fetched records and no top news candidates.")
+    if "placeholder" in note.lower():
+        problems.append(f"Candidate file is marked as a placeholder: {note}")
+    return problems
+
+
 def find_duplicates(date_slug: str, lookback_days: int) -> list[str]:
     sections = current_sections(date_slug)
     current_items: list[tuple[str, dict[str, Any]]] = [
@@ -71,14 +95,18 @@ def main() -> int:
         print(f"Invalid --date: {args.date}", file=sys.stderr)
         return 2
 
-    problems = find_duplicates(args.date, args.lookback_days)
+    problems = find_quality_problems(args.date)
+    problems.extend(find_duplicates(args.date, args.lookback_days))
     if problems:
-        print(f"Duplicate check failed for {args.date}:")
+        print(f"Pre-publish check failed for {args.date}:")
         for problem in problems:
             print(f"- {problem}")
         return 1
 
-    print(f"No duplicate news items found for {args.date} against the previous {args.lookback_days} days.")
+    print(
+        f"No empty candidate file or duplicate news items found for {args.date} "
+        f"against the previous {args.lookback_days} days."
+    )
     return 0
 
 
