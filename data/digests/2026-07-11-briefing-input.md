@@ -3,37 +3,37 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16284
-- filtered_count: 2265
+- fetched_count: 17281
+- filtered_count: 2264
 - duplicate_count: 77
 - failures: 27
 
 ## Top 10 General AI News
 1. [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-f5c)
    - source: Latent Space
-   - score: 61.233
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.905; source_priority=1.0
+   - score: 61.173
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.902; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Nilay Patel](https://simonwillison.net/2026/Jul/10/nilay-patel)
    - source: Simon Willison
-   - score: 51.866
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.751; source_priority=1.0
+   - score: 51.806
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [llm-meta-ai 0.1](https://simonwillison.net/2026/Jul/9/llm-meta-ai)
    - source: Simon Willison
-   - score: 46.645
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.363; source_priority=1.0
+   - score: 46.585
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.36; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.36; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [How GPT-5.6 Changes Knowledge Work](https://every.to/chain-of-thought/how-gpt-5-6-changes-knowledge-work)
    - source: Chain of Thought
-   - score: 40.163
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.729; source_priority=0.65
+   - score: 40.103
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.726; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Simulation Monitoring Automation](https://rescale.com/blog/simulation-monitoring-automation)
    - source: Rescale
-   - score: 70.921
+   - score: 70.917
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.981; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet](https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet)
@@ -60,8 +60,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit](https://developer.nvidia.com/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit)
    - source: NVIDIA AI
-   - score: 59.418
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.792; source_priority=1.0
+   - score: 59.377
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.79; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.79; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Sair Data Accelerating Drug Discovery With Ai](https://huggingface.co/blog/SandboxAQ/sair-data-accelerating-drug-discovery-with-ai)
    - source: Hugging Face Papers
