@@ -52,6 +52,13 @@ def find_quality_problems(date_slug: str) -> list[str]:
         problems.append("Candidate file has no fetched records and no top news candidates.")
     if "placeholder" in note.lower():
         problems.append(f"Candidate file is marked as a placeholder: {note}")
+    sections = current_sections(date_slug)
+    if len(sections["general_ai"]) < 5:
+        problems.append(
+            f"General AI has only {len(sections['general_ai'])} publishable items; at least 5 are required."
+        )
+    if sum(len(items) for items in sections.values()) < 10:
+        problems.append("The issue has fewer than 10 publishable items across all news sections.")
     return problems
 
 

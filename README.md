@@ -176,6 +176,8 @@ The newest newsletter appears at the top in both language editions. Each dated i
 
 Paper Push is rendered as a separate weekly section below the daily news columns. It must not create or overwrite `data/digests/YYYY-MM-DD-candidates.json`; the daily candidate file is reserved for news collection and is protected by the pre-publish duplicate/empty-run checks.
 
+On Fridays, `scripts/generate_weekly_paper_push.py` queries the public arXiv Atom API and writes only `YYYY-MM-DD-paper-push.json`. It requires at least three fresh engineering papers before writing, so an empty or failed paper search cannot erase the daily news or replace a previous paper issue.
+
 The Chinese page uses the human-written Chinese final markdown when available. The English page uses selected items with English titles, source links, source snippets, scores, and audit metadata, so it can be built without OpenAI.
 
 ## Mobile Web Publishing
@@ -188,7 +190,7 @@ After the first push, enable Pages in GitHub if needed:
 Repository Settings -> Pages -> Source: GitHub Actions
 ```
 
-The no-API GitHub Actions workflow at `.github/workflows/daily-no-api-site.yml` refreshes daily public news candidates and rebuilds the site every morning. The GitHub trend workflow at `.github/workflows/github-trend-report.yml` refreshes weekly/monthly trend reports. Push the updated files to GitHub to refresh the phone-accessible pages:
+The no-API GitHub Actions workflow at `.github/workflows/daily-no-api-site.yml` refreshes public news candidates, runs the publication checks, rebuilds the site, and deploys GitHub Pages every morning. The separate Pages workflow is manual recovery only, which avoids two deployments racing after one daily update. The GitHub trend workflow at `.github/workflows/github-trend-report.yml` refreshes weekly/monthly trend reports and deploys the combined site after it succeeds. All three publication paths share one Pages concurrency queue. GitHub scheduled workflows are best-effort and may start later than the configured time; the repeated morning attempts are intentional and idempotent.
 
 ```text
 https://tiktaalika.github.io/ai-engineering-newsletter/     # language selector

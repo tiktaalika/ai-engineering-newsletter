@@ -15,6 +15,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   refresh-site:
     environment:
@@ -31,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          python -m pip install -r requirements-no-api.txt
       - name: Show trigger context
         run: |
           echo "event=${{ github.event_name }}"
@@ -45,6 +49,11 @@ jobs:
         run: |
           DATE="$(TZ=Europe/Berlin date +%F)"
           python3 scripts/generate_daily_report.py --date "$DATE"
+      - name: Generate Friday paper push
+        continue-on-error: true
+        run: |
+          DATE="$(TZ=Europe/Berlin date +%F)"
+          python3 scripts/generate_weekly_paper_push.py --date "$DATE"
       - name: Render combined site
         run: python3 scripts/render_digest_site.py
       - name: Check recent duplicate items
@@ -55,7 +64,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update no-api newsletter site"
-          file_pattern: "data/digests/*-candidates.json data/digests/*-briefing-input.md data/digests/*-final.md site/**"
+          file_pattern: "data/digests/*-candidates.json data/digests/*-briefing-input.md data/digests/*-final.md data/digests/*-paper-push.json site/**"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload site

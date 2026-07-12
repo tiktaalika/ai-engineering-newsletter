@@ -216,7 +216,7 @@ def normalize_source(source: dict[str, Any]) -> dict[str, Any]:
     item["priority"] = item.get("priority", "medium")
     item["tags"] = item.get("tags") or []
     item["max_entries"] = int(item.get("max_entries", MAX_ITEMS_PER_SOURCE))
-    if item["kind"] == "web_search_query" and not item.get("query"):
+    if item["kind"] in {"web_search_query", "sitemap_or_search"} and not item.get("query"):
         item["query"] = f'site:{urllib.parse.urlsplit(item.get("url", "")).netloc} AI'
     return item
 
@@ -578,6 +578,7 @@ def select_unique_events(
     category: str,
     limit: int,
     historical_items: list[Candidate] | None = None,
+    require_guo_general: bool = True,
 ) -> list[Candidate]:
     category = canonical_category(category)
     historical_items = historical_items or []
@@ -593,7 +594,7 @@ def select_unique_events(
             continue
         if category in {"general_ai", "engineering_ai"} and not is_trusted_or_curated(candidate):
             continue
-        if category == "general_ai" and not is_guo_yichen_reference(candidate):
+        if category == "general_ai" and require_guo_general and not is_guo_yichen_reference(candidate):
             continue
         if is_historical_repeat(candidate, historical_items):
             continue
@@ -615,7 +616,7 @@ def select_unique_events(
             break
         if not selection_category_matches(candidate, category):
             continue
-        if category == "general_ai" and not is_guo_yichen_reference(candidate):
+        if category == "general_ai" and require_guo_general and not is_guo_yichen_reference(candidate):
             continue
         if is_historical_repeat(candidate, historical_items):
             continue
@@ -639,7 +640,7 @@ def select_unique_events(
             break
         if not selection_category_matches(candidate, category):
             continue
-        if category == "general_ai" and not is_guo_yichen_reference(candidate):
+        if category == "general_ai" and require_guo_general and not is_guo_yichen_reference(candidate):
             continue
         if is_historical_repeat(candidate, historical_items):
             continue
@@ -659,7 +660,7 @@ def select_unique_events(
             break
         if not selection_category_matches(candidate, category):
             continue
-        if category == "general_ai" and not is_guo_yichen_reference(candidate):
+        if category == "general_ai" and require_guo_general and not is_guo_yichen_reference(candidate):
             continue
         if is_historical_repeat(candidate, historical_items):
             continue
@@ -678,6 +679,20 @@ def select_unique_events(
         if is_broad_google_discovery(candidate):
             source_kind_counts["broad_google_news"] = source_kind_counts.get("broad_google_news", 0) + 1
         source_counts[candidate.source] = source_counts.get(candidate.source, 0) + 1
+    if category == "general_ai" and require_guo_general and len(selected) < limit:
+        expanded = select_unique_events(
+            candidates,
+            category,
+            limit,
+            historical_items,
+            require_guo_general=False,
+        )
+        for candidate in expanded:
+            if any(is_same_event(candidate, existing) for existing in selected):
+                continue
+            selected.append(candidate)
+            if len(selected) == limit:
+                break
     return selected
 
 
@@ -1187,7 +1202,7 @@ def write_outputs(candidates: list[Candidate], log: RunLog, search_tasks: list[d
     payload = {
         "run_log": asdict(log),
         "selection_policy": {
-            "general_ai": "top 10 scored English AI news items after event deduplication and topic diversification",
+            "general_ai": "top 10 scored English AI news items after event deduplication and topic diversification; Guo Yichen reference sources are preferred, then other curated sources fill remaining slots",
             "engineering_ai": "top 5 scored engineering AI items covering simulation, CAD, CAE, SPDM, PLM, digital twin, physical AI, scientific ML, and industrial AI",
             "medical_bio_ai": "top 5 scored medical, medicine, biotech, biology, genomics, and genetics AI items after event deduplication and topic diversification",
             "research_radar": "optional research items from research/community sources",

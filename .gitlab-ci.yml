@@ -7,7 +7,7 @@ pages:
   stage: deploy
   before_script:
     - python -m pip install --upgrade pip
-    - python -m pip install -r requirements.txt
+    - python -m pip install -r requirements-no-api.txt
   script:
     - DATE="$(TZ=Europe/Berlin date +%F)"
     - python3 scripts/build_digest_candidates.py --window-hours 24 --date "$DATE"

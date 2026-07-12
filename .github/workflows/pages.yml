@@ -1,8 +1,6 @@
 name: Deploy Digest Site
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

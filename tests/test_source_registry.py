@@ -14,6 +14,7 @@ from scripts.build_digest_candidates import (  # noqa: E402
     Candidate,
     infer_candidate_category,
     load_source_registry,
+    normalize_source,
     score_candidate,
     select_medical_bio_ai,
     select_unique_events,
@@ -53,6 +54,18 @@ class SourceRegistryTest(unittest.TestCase):
                 for source in registry["sources"]
             )
         )
+
+    def test_website_fallback_gets_a_default_query(self) -> None:
+        source = normalize_source(
+            {
+                "name": "Example News",
+                "url": "https://example.com/news",
+                "source_type": "website",
+                "category": "general_ai",
+            }
+        )
+        self.assertEqual(source["kind"], "sitemap_or_search")
+        self.assertEqual(source["query"], "site:example.com AI")
 
     def test_sitemap_slug_discovery_supports_industrial_ai_pages(self) -> None:
         title = title_from_url("https://cursor.com/de/lp-team/industrial-ai-forum")
@@ -327,7 +340,42 @@ class SourceRegistryTest(unittest.TestCase):
 
         selected = select_unique_events(candidates, "general_ai", 5)
 
-        self.assertEqual([candidate.source for candidate in selected], ["OpenAI", "Google Research", "Simon Willison"])
+        self.assertEqual(
+            [candidate.source for candidate in selected[:3]],
+            ["OpenAI", "Google Research", "Simon Willison"],
+        )
+        self.assertEqual(len(selected), 5)
+
+    def test_general_selection_falls_back_to_other_curated_sources(self) -> None:
+        def item(idx: int, source: str, tags: Optional[list[str]] = None) -> Candidate:
+            return Candidate(
+                id=str(idx),
+                title=f"Distinct AI update number {idx}",
+                url=f"https://example.com/general/{idx}",
+                source=source,
+                source_kind="rss",
+                category="general_ai",
+                published_at=None,
+                text=f"Distinct AI update number {idx}",
+                matched_terms=["AI"],
+                engagement={},
+                score=100 - idx,
+                score_reasons=[],
+                source_tags=tags or [],
+            )
+
+        candidates = [
+            item(1, "OpenAI", ["guo_yichen_reference"]),
+            item(2, "Reuters Technology"),
+            item(3, "The Verge AI"),
+            item(4, "MIT Technology Review"),
+            item(5, "VentureBeat"),
+        ]
+
+        selected = select_unique_events(candidates, "general_ai", 5)
+
+        self.assertEqual(len(selected), 5)
+        self.assertEqual(selected[0].source, "OpenAI")
 
     def test_engineering_prefers_curated_sources_before_broad_google(self) -> None:
         def item(idx: int, title: str, source: str, source_kind: str, tags: Optional[list[str]] = None) -> Candidate:
