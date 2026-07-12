@@ -4,8 +4,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 17272
-- filtered_count: 2213
-- duplicate_count: 71
+- filtered_count: 2212
+- duplicate_count: 70
 - failures: 27
 
 ## Top 10 General AI News
@@ -18,14 +18,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions](https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions)
    - source: Synopsys
-   - score: 58.926
+   - score: 58.917
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.945; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.95; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+   - reasons: source_priority=0.65; novelty=0.94; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [sqlite-utils 4.1](https://simonwillison.net/2026/Jul/11/sqlite-utils)
    - source: Simon Willison
-   - score: 57.717
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.858; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.589
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.853; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Siemens And Nvidia Building Next Gen Industrial Ai Operating System](https://www.engineering.com/siemens-and-nvidia-building-next-gen-industrial-ai-operating-system)
    - source: Engineering.com
    - score: 57.033
