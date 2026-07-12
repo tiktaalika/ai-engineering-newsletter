@@ -22,7 +22,6 @@ TRENDS_OUT = SITE_DIR / "trends"
 SUMMARY_CACHE = DIGEST_DIR / "site_summaries.json"
 ARCHIVE_PAGE_SIZE = 7
 HISTORY_DEDUP_START = datetime(2026, 7, 5).date()
-GITHUB_REPO_URL = "https://github.com/tiktaalika/ai-engineering-newsletter"
 PUBLISHED_SELECTIONS: dict[str, dict[str, list[dict[str, Any]]]] = {}
 BUILDING_SELECTION_INDEX = False
 
@@ -919,7 +918,6 @@ def trend_panel(language: str, from_dir: str) -> str:
         weekly_label = "查看最新周报"
         monthly_label = "查看最新月报"
         agent_label = "直达 Agent 榜单"
-        repo_label = "打开 GitHub 仓库"
     else:
         eyebrow = "GitHub Trend Monitor"
         title = "Open-source repository radar"
@@ -927,7 +925,6 @@ def trend_panel(language: str, from_dir: str) -> str:
         weekly_label = "Open latest weekly"
         monthly_label = "Open latest monthly"
         agent_label = "Jump to Agent ranking"
-        repo_label = "Open GitHub repository"
     agent_href = trend_report_href(weekly, from_dir)
     if agent_href != "#":
         agent_href += "#ai-agent"
@@ -942,7 +939,6 @@ def trend_panel(language: str, from_dir: str) -> str:
         <a href="{esc(trend_report_href(weekly, from_dir))}"><strong>{esc(weekly_label)}</strong><span>{esc(trend_report_title(weekly, "weekly"))}</span></a>
         <a href="{esc(trend_report_href(monthly, from_dir))}"><strong>{esc(monthly_label)}</strong><span>{esc(trend_report_title(monthly, "monthly"))}</span></a>
         <a href="{esc(agent_href)}"><strong>{esc(agent_label)}</strong><span>AI Agent / multi-agent / browser-use / LangGraph / AutoGen</span></a>
-        <a href="{esc(GITHUB_REPO_URL)}"><strong>{esc(repo_label)}</strong><span>tiktaalika/ai-engineering-newsletter</span></a>
       </div>
     </section>
     """
