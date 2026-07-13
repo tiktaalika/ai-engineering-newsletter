@@ -49,6 +49,18 @@ jobs:
         run: |
           DATE="$(TZ=Europe/Berlin date +%F)"
           python3 scripts/generate_daily_report.py --date "$DATE"
+      - name: Generate Chinese news summaries
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "OPENAI_API_KEY is not configured; skipping Chinese summaries."
+            exit 0
+          fi
+          python -m pip install -r requirements-llm.txt
+          DATE="$(TZ=Europe/Berlin date +%F)"
+          python3 scripts/generate_site_summaries.py --date "$DATE"
       - name: Generate Friday paper push
         continue-on-error: true
         run: |
@@ -64,7 +76,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update no-api newsletter site"
-          file_pattern: "data/digests/*-candidates.json data/digests/*-briefing-input.md data/digests/*-final.md data/digests/*-paper-push.json site/**"
+          file_pattern: "data/digests/*-candidates.json data/digests/*-briefing-input.md data/digests/*-final.md data/digests/*-paper-push.json data/digests/site_summaries.json site/**"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload site

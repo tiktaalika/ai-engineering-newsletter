@@ -180,6 +180,8 @@ On Fridays, `scripts/generate_weekly_paper_push.py` queries the public arXiv Ato
 
 The Chinese page uses the human-written Chinese final markdown when available. The English page uses selected items with English titles, source links, source snippets, scores, and audit metadata, so it can be built without OpenAI.
 
+When the repository secret `OPENAI_API_KEY` is configured, the daily workflow generates a factual 2-4 sentence Chinese summary for each final General AI, Engineering AI, and Biomedical AI item. Summaries are cached in `data/digests/site_summaries.json`, so previously summarized items do not consume tokens again. Without the secret, the English edition still publishes and the Chinese edition omits placeholder boilerplate instead of presenting it as a real summary.
+
 ## Mobile Web Publishing
 
 The `site/` directory is a static website and can be published with GitHub Pages. This repository includes a GitHub Actions workflow that deploys `site/` whenever the `main` branch is pushed.

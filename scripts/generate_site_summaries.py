@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Generate cached Chinese one-line summaries for the rolling digest page."""
+"""Generate cached Chinese news summaries for one published digest date."""
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import re
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -188,33 +190,37 @@ def select_unique(items: list[dict[str, Any]], category: str, limit: int) -> lis
     return selected
 
 
-def selected_items() -> list[dict[str, str]]:
+def selected_items(date_slug: str) -> list[dict[str, str]]:
+    from scripts import render_digest_site as site
+
+    site.ensure_published_selection_index()
+    _data, general, engineering, medical, _research, _paper_push = site.day_items(date_slug)
     rows: list[dict[str, str]] = []
-    for date_slug in candidate_dates():
-        data = load_json(DIGEST_DIR / f"{date_slug}-candidates.json")
-        pool = data.get("top_100_news_candidates", [])
-        for section, items in (
-            ("general_ai", select_unique(pool, "general_ai", 10)),
-            ("engineering_ai", select_unique(pool, "engineering_ai", 5)),
-        ):
-            for item in items:
-                rows.append(
-                    {
-                        "date": date_slug,
-                        "section": section,
-                        "id": item["id"],
-                        "title": item["title"],
-                        "source": item["source"],
-                        "text": item.get("text", "")[:700],
-                    }
-                )
+    for section, items in (
+        ("general_ai", general),
+        ("engineering_ai", engineering),
+        ("medical_bio_ai", medical),
+    ):
+        for item in items:
+            rows.append(
+                {
+                    "date": date_slug,
+                    "section": section,
+                    "id": item.get("id") or item.get("url", ""),
+                    "title": item.get("title", ""),
+                    "source": item.get("source", ""),
+                    "text": item.get("text", "")[:1100],
+                }
+            )
     return rows
 
 
 def make_prompt(batch: list[dict[str, str]]) -> str:
     return (
-        "为下面 AI 新闻候选各写一句中文摘要。要求：准确、克制、不要编造；"
-        "每条 18-36 个中文字符左右；如果是投资/市场情绪而非技术进展，要明确写出。"
+        "为下面每条英文 AI 新闻写 2-4 句中文摘要。摘要必须直接说明发生了什么、关键事实或数据、"
+        "以及它对行业或工程实践的重要性。每条约 80-160 个中文字符，准确、克制，不要编造，"
+        "不要使用‘值得跟进’、‘主题偏向’、‘建议关注’、‘出现一条更新’等空泛模板。"
+        "如果输入只是市场观点而非技术进展，要明确说明；如果材料不足，不要补充输入中没有的事实。"
         "只返回 JSON 数组，每个对象包含 id 和 zh_summary。\n\n"
         + json.dumps(batch, ensure_ascii=False)
     )
@@ -229,17 +235,26 @@ def parse_json_array(text: str) -> list[dict[str, str]]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--date", default=None, help="Digest date as YYYY-MM-DD; defaults to latest available date.")
+    parser.add_argument("--force", action="store_true", help="Regenerate summaries already present in the cache.")
+    args = parser.parse_args()
     load_dotenv(ROOT / ".env")
     model = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+    dates = candidate_dates()
+    date_slug = args.date or (dates[0] if dates else datetime.now().strftime("%Y-%m-%d"))
+    if date_slug not in dates:
+        raise FileNotFoundError(f"No candidate digest found for {date_slug}")
     cache = load_json(CACHE_PATH) if CACHE_PATH.exists() else {}
-    missing = [row for row in selected_items() if row["id"] not in cache]
+    rows = selected_items(date_slug)
+    missing = rows if args.force else [row for row in rows if row["id"] not in cache]
     if not missing:
-        print(f"no missing summaries; cache={CACHE_PATH}")
+        print(f"no missing summaries for {date_slug}; cache={CACHE_PATH}")
         return 0
 
     client = OpenAI()
-    for start in range(0, len(missing), 40):
-        batch = missing[start : start + 40]
+    for start in range(0, len(missing), 10):
+        batch = missing[start : start + 10]
         response = client.chat.completions.create(
             model=model,
             messages=[
@@ -247,6 +262,7 @@ def main() -> int:
                 {"role": "user", "content": make_prompt(batch)},
             ],
             temperature=0.2,
+            max_completion_tokens=4000,
         )
         content = response.choices[0].message.content or "[]"
         for row in parse_json_array(content):

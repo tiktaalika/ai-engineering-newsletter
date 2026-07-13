@@ -646,7 +646,12 @@ def english_summary(item: dict[str, Any]) -> str:
 
 
 def item_card_zh(item: dict[str, Any], idx: int, summaries: dict[str, str]) -> str:
-    summary = esc(item.get("zh_summary") or summaries.get(item.get("id", ""), ""))
+    cached_summary = summaries.get(item.get("id", ""), "")
+    embedded_summary = str(item.get("zh_summary") or "")
+    placeholder_terms = ("值得跟进", "主题偏向", "收录在", "建议优先看", "出现一条")
+    if any(term in embedded_summary for term in placeholder_terms):
+        embedded_summary = ""
+    summary = esc(cached_summary or embedded_summary)
     summary_html = f'<p class="zh-summary">{summary}</p>' if summary else ""
     return f"""
       <article class="item">
