@@ -3,69 +3,69 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17259
-- filtered_count: 2230
-- duplicate_count: 71
-- failures: 8
+- fetched_count: 17266
+- filtered_count: 2232
+- duplicate_count: 72
+- failures: 7
 
 ## Top 10 General AI News
 1. [DOOMQL](https://simonwillison.net/2026/Jul/13/doomql)
    - source: Simon Willison
-   - score: 64.067
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.882; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 63.264
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.845; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [datasette code-frequency chart on GitHub](https://simonwillison.net/2026/Jul/13/datasette-code-frequency)
    - source: Simon Willison
-   - score: 63.785
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.869; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 62.981
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.832; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??](https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months)
    - source: Latent Space
-   - score: 59.028
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT](https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html)
-   - source: New York Times Technology
-   - score: 62.298
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.923; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.225
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.889; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock)
+   - source: Amazon AWS AI
+   - score: 61.375
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.881; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Hermes agent maker Nous Research in talks for new funding at $1.5B valuation](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation)
    - source: TechCrunch AI
-   - score: 61.816
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.931; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-6. [Ed Husic tells Labor to get tougher on AI companies as letting them self-regulate ‘doomed to fail’](https://www.theguardian.com/australia-news/2026/jul/14/ed-husic-tells-labor-to-get-tougher-on-ai-companies-as-letting-them-self-regulate-doomed-to-fail)
-   - source: The Guardian Technology
-   - score: 60.351
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.986; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.281
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.907; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+6. [STAT+: 10 charts that explain America’s hidden alcohol epidemic](https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series)
+   - source: STAT Health Tech
+   - score: 57.333
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=1.0; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway](https://aws.amazon.com/blogs/machine-learning/implement-on-behalf-of-token-exchange-for-multi-tenant-agents-with-amazon-bedrock-agentcore-gateway)
    - source: Amazon AWS AI
-   - score: 57.761
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.868; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”](https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone)
+   - score: 57.225
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.844; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Microsoft Surface Laptop 8 review: a quality PC whose trackpad taps you back](https://www.theguardian.com/technology/2026/jul/14/microsoft-surface-laptop-8-review)
+   - source: The Guardian Technology
+   - score: 55.634
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.923; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”](https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone)
    - source: TechCrunch AI
-   - score: 56.098
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.944; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [When your brain works differently, AI isn’t a luxury—it’s accessibility](https://aws.amazon.com/blogs/machine-learning/when-your-brain-works-differently-ai-isnt-a-luxury-its-accessibility)
-   - source: Amazon AWS AI
-   - score: 54.514
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents](https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents)
-   - source: STAT Health Tech
-   - score: 51.035
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.714; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.562
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.919; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
+   - source: Anthropic
+   - score: 49.7
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Empowering India’s next generation of innovators with ATL Saathi](https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi)
    - source: Google DeepMind
-   - score: 66.946
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.922; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 66.717
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.911; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [Manufacturing Simulation Software Solutions For Optimization](https://www.neuralconcept.com/post/manufacturing-simulation-software-solutions-for-optimization)
    - source: Neural Concept
    - score: 60.367
@@ -73,9 +73,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Already rich, already successful, why the last wave of tech winners is grinding again](https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again)
    - source: TechCrunch AI
-   - score: 60.063
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.965; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.527
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.941; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Join Industrial Ai Discord](https://www.industrial-ai-network.com/help/join-industrial-ai-discord)
    - source: Industrial AI Network
    - score: 57.033
@@ -88,28 +88,28 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents](https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents)
+1. [STAT+: Drug metabolism AI competition results show that bigger may not always be better](https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio)
    - source: STAT Health Tech
-   - score: 51.035
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.714; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Healthcare Life Sciences](https://www.anthropic.com/news/healthcare-life-sciences)
+   - score: 57.333
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=1.0; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [STAT+: 10 charts that explain America’s hidden alcohol epidemic](https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series)
+   - source: STAT Health Tech
+   - score: 57.333
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=1.0; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents](https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents)
+   - source: STAT Health Tech
+   - score: 49.428
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.641; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.64; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Healthcare Life Sciences](https://www.anthropic.com/news/healthcare-life-sciences)
    - source: Anthropic
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Why Healthcare Ai Has Reached Tipping Point](https://www.healthcareitnews.com/news/why-healthcare-ai-has-reached-tipping-point)
+5. [Why Healthcare Ai Has Reached Tipping Point](https://www.healthcareitnews.com/news/why-healthcare-ai-has-reached-tipping-point)
    - source: Healthcare IT News
-   - score: 43.033
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [FDA Clears CliniComp PACS Viewer (MIMPS), Unifying Diagnostic Imaging, Enterprise EHR, and Native AI in a Single Platform](https://www.bio-itworld.com/news/2026/07/08/fda-clears-clinicomp-pacs-viewer-(mimps)-unifying-diagnostic-imaging-enterprise-ehr-and-native-ai-in-a-single-platform)
-   - source: Bio-IT World
-   - score: 43.033
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [[email protected]](https://www.bio-itworld.com/cdn-cgi/l/email-protection)
-   - source: Bio-IT World
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
@@ -176,5 +176,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden

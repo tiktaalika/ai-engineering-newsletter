@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-14T06:08:26.733204+00:00",
+    "generated_at": "2026-07-14T08:28:41.041854+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17259,
-    "filtered_count": 2230,
-    "duplicate_count": 71,
+    "fetched_count": 17266,
+    "filtered_count": 2232,
+    "duplicate_count": 72,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -65,10 +61,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.067,
+      "score": 63.264,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -77,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.882,
+      "novelty_score": 0.845,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,10 +100,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 63.785,
+      "score": 62.981,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -116,7 +112,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.869,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -142,10 +138,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 59.028,
+      "score": 58.225,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -154,7 +150,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.926,
+      "novelty_score": 0.889,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -166,24 +162,24 @@
       "source_priority": "high"
     },
     {
-      "id": "1a9b8517abaa6d34",
-      "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
-      "url": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
-      "source": "New York Times Technology",
+      "id": "90211e79e58f184e",
+      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-14T03:39:53+00:00",
-      "text": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT The partnership, a first of its kind for the artificial intelligence company, will use the prediction market’s data to power some search results about the soccer tournament.",
+      "published_at": "2026-07-13T21:01:20+00:00",
+      "text": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock Today, GPT-5.6 Sol, Terra, and Luna from OpenAI are generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Amazon Bedrock’s next-generation inference engine built for high-performance, security and reliability.",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "OpenAI"
+        "OpenAI",
+        "inference"
       ],
       "engagement": {},
-      "score": 62.298,
+      "score": 61.375,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.88",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -192,13 +188,14 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.923,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -215,10 +212,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 61.816,
+      "score": 61.281,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -227,7 +224,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.931,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -238,36 +235,36 @@
       "source_priority": "high"
     },
     {
-      "id": "78728f2435a809a4",
-      "title": "Ed Husic tells Labor to get tougher on AI companies as letting them self-regulate ‘doomed to fail’",
-      "url": "https://www.theguardian.com/australia-news/2026/jul/14/ed-husic-tells-labor-to-get-tougher-on-ai-companies-as-letting-them-self-regulate-doomed-to-fail",
-      "source": "The Guardian Technology",
+      "id": "45def20d51eeb337",
+      "title": "STAT+: 10 charts that explain America’s hidden alcohol epidemic",
+      "url": "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-14T05:40:52+00:00",
-      "text": "Ed Husic tells Labor to get tougher on AI companies as letting them self-regulate ‘doomed to fail’ Labor MP also says watering down copyright rules is ‘going against the ethos’ of his party The Labor MP Ed Husic says any moves to water down copyright law to benefit AI companies would be “going against the ethos” of the party, urging his colleagues to place stricter rules on the big tech firms or be “doomed to failure”. Ahead of Anthony Albanese’s major speech on artificial intelligence on Wednesday , the Media Entertainment & Arts Alliance – the union for journalists, artists and creatives – called on the government to enact tougher new copyright rules to prevent creative works being taken to train AI models. Continue reading...",
+      "published_at": "2026-07-14T08:30:00+00:00",
+      "text": "STAT+: 10 charts that explain America’s hidden alcohol epidemic America's hidden alcohol epidemic — the toll, emerging risks, shifting usage, and economic stakes — broken down in 10 charts.",
       "matched_terms": [
-        "AI",
-        "artificial intelligence"
+        "AI"
       ],
       "engagement": {},
-      "score": 60.351,
+      "score": 57.333,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=2",
+        "novelty=1.00",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.986,
+      "novelty_score": 1.0,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -286,10 +283,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.761,
+      "score": 57.225,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -298,7 +295,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.868,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -306,6 +303,40 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "6522110ff711f07e",
+      "title": "Microsoft Surface Laptop 8 review: a quality PC whose trackpad taps you back",
+      "url": "https://www.theguardian.com/technology/2026/jul/14/microsoft-surface-laptop-8-review",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T06:00:22+00:00",
+      "text": "Microsoft Surface Laptop 8 review: a quality PC whose trackpad taps you back Snappy performance, long battery life, great keyboard and excellent new haptic touchpad make the best of Windows 11 Microsoft’s Surface laptop for consumers is back, faster and with longer battery life and a hefty price increase because of the high cost of memory and chips. The Surface Laptop 8 is a straight replacement for the seventh edition from 2024, which was the first of Microsoft’s new generation of ARM-based, Qualcomm-powered PCs designed to better rival Apple’s MacBook Air and other thin and light machines. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.634,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.92",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.923,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -321,10 +352,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.098,
+      "score": 55.562,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -333,7 +364,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.944,
+      "novelty_score": 0.919,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -344,73 +375,40 @@
       "source_priority": "high"
     },
     {
-      "id": "a175fbce957630fe",
-      "title": "When your brain works differently, AI isn’t a luxury—it’s accessibility",
-      "url": "https://aws.amazon.com/blogs/machine-learning/when-your-brain-works-differently-ai-isnt-a-luxury-its-accessibility",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
+      "id": "8c7fd6681555a3f0",
+      "title": "Core Views On Ai Safety",
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+      "source": "Anthropic",
+      "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-07-13T17:50:16+00:00",
-      "text": "When your brain works differently, AI isn’t a luxury—it’s accessibility In this post, I share how AI serves as an accessibility tool for neurodivergent professionals. The system is built on Amazon Quick on your desktop, an AI-powered desktop and web assistant that compensates for executive function gaps every day.",
+      "published_at": null,
+      "text": "Core Views On Ai Safety https://www.anthropic.com/news/core-views-on-ai-safety",
       "matched_terms": [
-        "AI"
+        "AI",
+        "Anthropic",
+        "AI safety"
       ],
       "engagement": {},
-      "score": 54.514,
+      "score": 49.7,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=1",
+        "novelty=0.35",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.872,
+      "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "frontier_model",
+        "safety",
+        "policy"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "024dcecdc6b285c2",
-      "title": "STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents",
-      "url": "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T20:58:46+00:00",
-      "text": "STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents A group of AIDS activists obtained an R&D pact at the heart of a settlement between the U.S. government and Gilead Sciences over patents for HIV prevention.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 51.035,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.71",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.714,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -429,10 +427,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 66.946,
+      "score": 66.717,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -441,7 +439,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.922,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -500,10 +498,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.063,
+      "score": 59.527,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -512,7 +510,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.965,
+      "novelty_score": 0.941,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -597,6 +595,76 @@
   ],
   "top_5_medical_bio_ai": [
     {
+      "id": "e08a63f7356bd9b8",
+      "title": "STAT+: Drug metabolism AI competition results show that bigger may not always be better",
+      "url": "https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T08:30:00+00:00",
+      "text": "STAT+: Drug metabolism AI competition results show that bigger may not always be better The results of a recent AI competition show that better data trumps bigger models when it comes to predicting properties of drug candidates.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.333,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "45def20d51eeb337",
+      "title": "STAT+: 10 charts that explain America’s hidden alcohol epidemic",
+      "url": "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T08:30:00+00:00",
+      "text": "STAT+: 10 charts that explain America’s hidden alcohol epidemic America's hidden alcohol epidemic — the toll, emerging risks, shifting usage, and economic stakes — broken down in 10 charts.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.333,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "024dcecdc6b285c2",
       "title": "STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents",
       "url": "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents",
@@ -609,10 +677,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.035,
+      "score": 49.428,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.64",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -621,7 +689,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.714,
+      "novelty_score": 0.641,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -700,80 +768,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "fe1eae05e539576e",
-      "title": "FDA Clears CliniComp PACS Viewer (MIMPS), Unifying Diagnostic Imaging, Enterprise EHR, and Native AI in a Single Platform",
-      "url": "https://www.bio-itworld.com/news/2026/07/08/fda-clears-clinicomp-pacs-viewer-(mimps)-unifying-diagnostic-imaging-enterprise-ehr-and-native-ai-in-a-single-platform",
-      "source": "Bio-IT World",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "FDA Clears CliniComp PACS Viewer (MIMPS), Unifying Diagnostic Imaging, Enterprise EHR, and Native AI in a Single Platform https://www.bio-itworld.com/news/2026/07/08/fda-clears-clinicomp-pacs-viewer-(mimps)-unifying-diagnostic-imaging-enterprise-ehr-and-native-ai-in-a-single-platform",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 43.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "bio_ai",
-        "biotech",
-        "genomics_ai",
-        "drug_discovery",
-        "research"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "1ab8609804f29e28",
-      "title": "[email protected]",
-      "url": "https://www.bio-itworld.com/cdn-cgi/l/email-protection",
-      "source": "Bio-IT World",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "[email protected] https://www.bio-itworld.com/cdn-cgi/l/email-protection",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 43.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "bio_ai",
-        "biotech",
-        "genomics_ai",
-        "drug_discovery",
-        "research"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -791,10 +785,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 66.946,
+      "score": 66.717,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -803,7 +797,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.922,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -862,10 +856,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.063,
+      "score": 59.527,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -874,7 +868,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.965,
+      "novelty_score": 0.941,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1671,7 +1665,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 78.705,
+      "score": 78.651,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1684,7 +1678,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.729,
+      "novelty_score": 0.727,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1711,7 +1705,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 77.57,
+      "score": 77.516,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -1723,7 +1717,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.859,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1731,46 +1725,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b0ce4fdc4c7eb432",
-      "title": "Building a Foundation Stack for General-Purpose Robots",
-      "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-13T10:19:51+00:00",
-      "text": "Building a Foundation Stack for General-Purpose Robots This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perception, planning, and control parts that rarely add up to intelligence a robot can carry from one task to another, or one machine to another. The central problem in embodied AI is to find the equivalent recipe, and the field does not yet agree on what it is. X Square Robot , a Chinese embodied-AI company, has made an unusually explicit bet. It argues that the recipe is an integrated stack, spanning the data a robot learns from, a world model for predicting changes in the physical world, and an action model that brings together perception, planning, reasoning, and decision-making to generate executable robot behavior. The company also believes that the stack should be built and released in the open . X Square Robot shares its vision of bringing robots into real homes. X Square Robot X Square Robot’s embodied AI stack What holds the stack together is a sma",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "large language model",
-        "foundation model",
-        "benchmark",
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 71.881,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.38",
-        "matched_terms=6",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.381,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1788,7 +1742,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.603,
+      "score": 71.549,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -1800,7 +1754,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.709,
+      "novelty_score": 0.707,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1823,7 +1777,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.864,
+      "score": 70.811,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -1835,7 +1789,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.857,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1858,7 +1812,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.845,
+      "score": 70.791,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1870,7 +1824,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.978,
+      "novelty_score": 0.975,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1878,6 +1832,46 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b0ce4fdc4c7eb432",
+      "title": "Building a Foundation Stack for General-Purpose Robots",
+      "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-13T10:19:51+00:00",
+      "text": "Building a Foundation Stack for General-Purpose Robots This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perception, planning, and control parts that rarely add up to intelligence a robot can carry from one task to another, or one machine to another. The central problem in embodied AI is to find the equivalent recipe, and the field does not yet agree on what it is. X Square Robot , a Chinese embodied-AI company, has made an unusually explicit bet. It argues that the recipe is an integrated stack, spanning the data a robot learns from, a world model for predicting changes in the physical world, and an action model that brings together perception, planning, reasoning, and decision-making to generate executable robot behavior. The company also believes that the stack should be built and released in the open . X Square Robot shares its vision of bringing robots into real homes. X Square Robot X Square Robot’s embodied AI stack What holds the stack together is a sma",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "large language model",
+        "foundation model",
+        "benchmark",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 70.274,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.31",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.308,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1893,7 +1887,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.336,
+      "score": 69.283,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1905,7 +1899,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1999,10 +1993,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 66.946,
+      "score": 66.717,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2011,7 +2005,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.922,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2037,10 +2031,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.921,
+      "score": 66.385,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.84",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2049,7 +2043,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.86,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2072,7 +2066,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.562,
+      "score": 65.508,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -2085,7 +2079,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.283,
+      "novelty_score": 0.281,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2110,7 +2104,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 64.923,
+      "score": 64.869,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -2122,7 +2116,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.709,
+      "novelty_score": 0.706,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2146,10 +2140,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.067,
+      "score": 63.264,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2158,46 +2152,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.882,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "4350be873d6a9cc0",
-      "title": "datasette code-frequency chart on GitHub",
-      "url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T21:45:27+00:00",
-      "text": "datasette code-frequency chart on GitHub datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 63.785,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.869,
+      "novelty_score": 0.845,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2222,7 +2177,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 63.298,
+      "score": 63.244,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -2234,7 +2189,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.635,
+      "novelty_score": 0.632,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2242,6 +2197,45 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4350be873d6a9cc0",
+      "title": "datasette code-frequency chart on GitHub",
+      "url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T21:45:27+00:00",
+      "text": "datasette code-frequency chart on GitHub datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 62.981,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.832,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2280,42 +2274,6 @@
       "source_priority": "high"
     },
     {
-      "id": "1a9b8517abaa6d34",
-      "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
-      "url": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T03:39:53+00:00",
-      "text": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT The partnership, a first of its kind for the artificial intelligence company, will use the prediction market’s data to power some search results about the soccer tournament.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 62.298,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.923,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "90211e79e58f184e",
       "title": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
       "url": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock",
@@ -2330,10 +2288,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 61.91,
+      "score": 61.375,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.88",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2342,7 +2300,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2366,10 +2324,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 61.816,
+      "score": 61.281,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2378,7 +2336,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.931,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2401,10 +2359,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.114,
+      "score": 61.061,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.54",
+        "novelty=0.53",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2413,7 +2371,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.536,
+      "novelty_score": 0.533,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2421,6 +2379,42 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "1a9b8517abaa6d34",
+      "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
+      "url": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T03:39:53+00:00",
+      "text": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT The partnership, a first of its kind for the artificial intelligence company, will use the prediction market’s data to power some search results about the soccer tournament.",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.691,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.85,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2750,76 +2744,6 @@
       "source_priority": "high"
     },
     {
-      "id": "78728f2435a809a4",
-      "title": "Ed Husic tells Labor to get tougher on AI companies as letting them self-regulate ‘doomed to fail’",
-      "url": "https://www.theguardian.com/australia-news/2026/jul/14/ed-husic-tells-labor-to-get-tougher-on-ai-companies-as-letting-them-self-regulate-doomed-to-fail",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T05:40:52+00:00",
-      "text": "Ed Husic tells Labor to get tougher on AI companies as letting them self-regulate ‘doomed to fail’ Labor MP also says watering down copyright rules is ‘going against the ethos’ of his party The Labor MP Ed Husic says any moves to water down copyright law to benefit AI companies would be “going against the ethos” of the party, urging his colleagues to place stricter rules on the big tech firms or be “doomed to failure”. Ahead of Anthony Albanese’s major speech on artificial intelligence on Wednesday , the Media Entertainment & Arts Alliance – the union for journalists, artists and creatives – called on the government to enact tougher new copyright rules to prevent creative works being taken to train AI models. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 60.351,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.986,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "78847ab0d8a7eb37",
-      "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
-      "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T02:46:42+00:00",
-      "text": "Already rich, already successful, why the last wave of tech winners is grinding again They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 60.063,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.965,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2832,10 +2756,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.041,
+      "score": 59.987,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2844,7 +2768,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.993,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2890,6 +2814,41 @@
       "source_priority": "high"
     },
     {
+      "id": "78847ab0d8a7eb37",
+      "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
+      "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T02:46:42+00:00",
+      "text": "Already rich, already successful, why the last wave of tech winners is grinding again They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.527,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.941,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "29f637f9e2214d14",
       "title": "How SimScale’s AI Agent Transforms Simulation Workflows On April 23, we dived deep into an end-to-end agentic workflow in SimScale. It was a great live session in Alex Graham May 13, 2026 Engineering AI",
       "url": "https://www.simscale.com/blog/how-ai-agents-transform-simulation-workflows",
@@ -2926,43 +2885,6 @@
       "source_priority": "medium"
     },
     {
-      "id": "ac1def651d7c654d",
-      "title": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
-      "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-14T01:22:27+00:00",
-      "text": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code?? a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
-      "matched_terms": [
-        "AI",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 59.028,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.926,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "b47d35712994a918",
       "title": "Flint: A visualization language for the AI era",
       "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era",
@@ -2977,10 +2899,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.825,
+      "score": 58.596,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.40",
+        "novelty=0.39",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2989,7 +2911,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.401,
+      "novelty_score": 0.391,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2997,6 +2919,43 @@
         "ai"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "ac1def651d7c654d",
+      "title": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+      "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T01:22:27+00:00",
+      "text": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code?? a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+      "matched_terms": [
+        "AI",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 58.225,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.89",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.889,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -3013,43 +2972,7 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 58.568,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "ecbc76a36f0e024f",
-      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
-      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T18:22:10+00:00",
-      "text": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.969,
+      "score": 58.032,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -3061,7 +2984,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.877,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3105,78 +3028,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "148cb744a6b6cf86",
-      "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T17:34:38+00:00",
-      "text": "Building an agentic AI solution at Bluesight with Amazon Bedrock In this post, we describe how Bluesight used two AWS engagements and Amazon Bedrock AgentCore to evolve from a single-product AI prototype to Prism, a unified agentic AI solution spanning six healthcare compliance products. Prism Assistant for ControlCheck launched in May 2026 and is already in use by 20 health systems. A more complex multi-product agentic solution is on track for later in 2026.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.788,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.869,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "627b787675b4fef3",
-      "title": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway",
-      "url": "https://aws.amazon.com/blogs/machine-learning/implement-on-behalf-of-token-exchange-for-multi-tenant-agents-with-amazon-bedrock-agentcore-gateway",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T17:27:40+00:00",
-      "text": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway Building multi-tenant agents with Amazon Bedrock AgentCore and Apply fine-grained access control with Bedrock AgentCore Gateway interceptors establish the conceptual foundation for on-behalf-of (OBO) token exchange in agentic systems. This post is the implementation guide. It walks through a complete multi-tenant OBO setup against Okta, shows the JSON Web Token (JWT) claim transformations on each hop, and demonstrates how audience binding produces defense in depth that scales across tenants.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.761,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.868,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3254,56 +3105,20 @@
       "source_priority": "high"
     },
     {
-      "id": "a2ef2f6fd453a00e",
-      "title": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X",
-      "url": "https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-13T19:00:00+00:00",
-      "text": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X Useful quantum computers will require fault tolerant logical operations. Researchers are actively exploring many different quantum error correction (QEC) codes...",
-      "matched_terms": [
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.447,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.884,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "d8c4f12b71f9e00d",
-      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
-      "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us",
+      "id": "ecbc76a36f0e024f",
+      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-13T15:34:59+00:00",
-      "text": "Anthropic starts localizing Claude pricing for India, its biggest market after the US Claude users in India are starting to see Indian rupee-denominated subscription plans.",
+      "published_at": "2026-07-13T18:22:10+00:00",
+      "text": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
       "matched_terms": [
-        "Anthropic",
-        "Claude"
+        "AI",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.331,
+      "score": 57.433,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3315,7 +3130,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3326,75 +3141,145 @@
       "source_priority": "high"
     },
     {
-      "id": "ff9f8581ffa8dc44",
-      "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
-      "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data",
-      "source": "Google Research",
+      "id": "e08a63f7356bd9b8",
+      "title": "STAT+: Drug metabolism AI competition results show that bigger may not always be better",
+      "url": "https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-09T09:56:00+00:00",
-      "text": "SensorFM: Towards a general intelligence and interface for wearable health data Generative AI",
-      "matched_terms": [
-        "AI",
-        "generative AI"
-      ],
-      "engagement": {},
-      "score": 57.253,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.481,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "d880ad9433b48638",
-      "title": "Waze adds new AI-powered features and customization updates",
-      "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-13T14:18:16+00:00",
-      "text": "Waze adds new AI-powered features and customization updates Some of the new features are powered by Google's Gemini AI assistant, which reflects the tech giant's broader push to integrate Gemini across its products while also better positioning Waze to compete with rival services such as Apple Maps.",
+      "category": "general_ai",
+      "published_at": "2026-07-14T08:30:00+00:00",
+      "text": "STAT+: Drug metabolism AI competition results show that bigger may not always be better The results of a recent AI competition show that better data trumps bigger models when it comes to predicting properties of drug candidates.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.204,
+      "score": 57.333,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=1.00",
         "matched_terms=1",
-        "engineering_relevance=0.25",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
+      "novelty_score": 1.0,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "45def20d51eeb337",
+      "title": "STAT+: 10 charts that explain America’s hidden alcohol epidemic",
+      "url": "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-14T08:30:00+00:00",
+      "text": "STAT+: 10 charts that explain America’s hidden alcohol epidemic America's hidden alcohol epidemic — the toll, emerging risks, shifting usage, and economic stakes — broken down in 10 charts.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.333,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "148cb744a6b6cf86",
+      "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T17:34:38+00:00",
+      "text": "Building an agentic AI solution at Bluesight with Amazon Bedrock In this post, we describe how Bluesight used two AWS engagements and Amazon Bedrock AgentCore to evolve from a single-product AI prototype to Prism, a unified agentic AI solution spanning six healthcare compliance products. Prism Assistant for ControlCheck launched in May 2026 and is already in use by 20 health systems. A more complex multi-product agentic solution is on track for later in 2026.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.252,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.845,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "627b787675b4fef3",
+      "title": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implement-on-behalf-of-token-exchange-for-multi-tenant-agents-with-amazon-bedrock-agentcore-gateway",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-13T17:27:40+00:00",
+      "text": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway Building multi-tenant agents with Amazon Bedrock AgentCore and Apply fine-grained access control with Bedrock AgentCore Gateway interceptors establish the conceptual foundation for on-behalf-of (OBO) token exchange in agentic systems. This post is the implementation guide. It walks through a complete multi-tenant OBO setup against Okta, shows the JSON Web Token (JWT) claim transformations on each hop, and demonstrates how audience binding produces defense in depth that scales across tenants.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.225,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.844,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -5279,6 +5164,108 @@
       "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
       "matched_terms": [
         "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef8469f42c5a7ab5",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f5d0a2c047483415",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
       ],
       "engagement": {},
       "score": 57.033,
