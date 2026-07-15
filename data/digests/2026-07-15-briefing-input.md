@@ -4,81 +4,81 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 17262
-- filtered_count: 2263
-- duplicate_count: 73
+- filtered_count: 2262
+- duplicate_count: 74
 - failures: 7
 
 ## Top 10 General AI News
 1. [simonw/pedalican](https://simonwillison.net/2026/Jul/14/pedalican)
    - source: Simon Willison
-   - score: 63.599
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.83; source_priority=1.0
+   - score: 63.532
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.827; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Quoting Armin Ronacher](https://simonwillison.net/2026/Jul/14/armin-ronacher)
    - source: Simon Willison
-   - score: 62.078
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.761; source_priority=1.0
+   - score: 62.012
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.758; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [5 Trends That Defined AI Engineering at World’s Fair 2026](https://www.latent.space/p/aiewf26trends)
    - source: Latent Space
-   - score: 57.228
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.844; source_priority=1.0
+   - score: 57.161
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.841; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era)
    - source: OpenAI
-   - score: 55.313
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.757; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.269
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.755; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [What is “loop engineering?”](https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering)
    - source: The Pragmatic Engineer
-   - score: 40.521
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.745; source_priority=0.65
+   - score: 40.454
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.742; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills](https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills)
    - source: NVIDIA AI
-   - score: 66.688
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.819; source_priority=1.0
+   - score: 66.644
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo](https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo)
    - source: NVIDIA AI
-   - score: 66.022
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.819; source_priority=1.0
+   - score: 65.977
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.817; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [Multi-agent social intelligence with Strands Agents and Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock)
    - source: Amazon AWS AI
-   - score: 63.316
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.848; source_priority=1.0
+   - score: 63.272
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.846; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B](https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b)
    - source: TechCrunch AI
-   - score: 61.292
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.907; source_priority=1.0
+   - score: 61.247
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.905; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [‘Not up for grabs’: Albanese establishes AI office and vows to protect Australian creatives from copyright ‘theft’](https://www.theguardian.com/technology/2026/jul/15/office-of-ai-artificial-intelligence-copyright-australia-government)
    - source: The Guardian Technology
-   - score: 58.564
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
+   - score: 58.431
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Celebrating 40 Years of Multiphysics Simulation](https://www.comsol.com/blogs/celebrating-40-years-of-multiphysics-simulation)
    - source: COMSOL
-   - score: 76.902
+   - score: 76.897
    - score_breakdown: general=0.333; engineering=1.0; research=0.333; novelty=0.98; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
 2. [How I Turned AI to the Dark Side](https://spectrum.ieee.org/jailbreaking-llms)
    - source: IEEE Spectrum AI
-   - score: 73.56
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.457; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.46; matched_terms=9; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 73.427
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.451; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.45; matched_terms=9; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 3. [Leveraging know-how with AI into efficient product design](https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design)
    - source: Siemens Art of the Possible
-   - score: 70.878
+   - score: 70.873
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.979; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Agent-Driven Simulation Troubleshooting](https://rescale.com/blog/agent-driven-simulation-troubleshooting)
    - source: Rescale
-   - score: 70.844
+   - score: 70.839
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.978; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Topology Optimization Vs Generative Design](https://www.neuralconcept.com/post/topology-optimization-vs-generative-design)
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B](https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b)
    - source: TechCrunch AI
-   - score: 61.292
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.907; source_priority=1.0
+   - score: 61.247
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.905; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [STAT+: Medicare Advantage insurers face new bipartisan scrutiny over AI and care denials](https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley)
    - source: STAT Health Tech
-   - score: 57.086
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.989; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.953
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.983; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [How Sugar on Brain Cells May Be Driving Alzheimer’s and How a Common Joint Supplement May Be Making It Worse](https://www.bio-itworld.com/news/2026/07/14/how-sugar-on-brain-cells-may-be-driving-alzheimer-s-and-how-a-common-joint-supplement-may-be-making-it-worse)
    - source: Bio-IT World
    - score: 43.033
