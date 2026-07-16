@@ -3,106 +3,106 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17278
-- filtered_count: 2285
+- fetched_count: 17162
+- filtered_count: 2282
 - duplicate_count: 73
-- failures: 9
+- failures: 11
 
 ## Top 10 General AI News
 1. [How I tricked Claude into leaking your deepest, darkest secrets](https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration)
    - source: Simon Willison
-   - score: 68.577
-   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.754; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.75; matched_terms=6; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Mermaid to Unicode box art (grok-mermaid)](https://simonwillison.net/2026/Jul/16/grok-mermaid)
+   - score: 67.736
+   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.715; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=6; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)](https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b)
+   - source: Latent Space
+   - score: 63.214
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.964; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Mermaid to Unicode box art (grok-mermaid)](https://simonwillison.net/2026/Jul/16/grok-mermaid)
    - source: Simon Willison
-   - score: 62.08
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.913; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [The US is advancing AI safety through state and federal action](https://openai.com/index/advancing-ai-safety-through-state-and-federal-action)
+   - score: 61.239
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.874; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [The US is advancing AI safety through state and federal action](https://openai.com/index/advancing-ai-safety-through-state-and-federal-action)
    - source: OpenAI
-   - score: 59.843
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red)
-   - source: OpenAI
-   - score: 59.385
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.79; source_priority=1.0
+   - score: 59.282
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.786; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.79; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [What building Shippy taught us about building agents](https://huggingface.co/blog/allenai/shippy-tech-blog)
-   - source: Hugging Face
-   - score: 52.986
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.802; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Introducing Real World VoiceEQ: Measuring the human quality of voice AI](https://huggingface.co/blog/real-world-voiceeq)
-   - source: Hugging Face
-   - score: 46.973
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.529; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Context engineering with Dex Horthy](https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy)
+5. [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red)
+   - source: OpenAI
+   - score: 58.824
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.765; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Context engineering with Dex Horthy](https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy)
    - source: The Pragmatic Engineer
-   - score: 41.324
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.781; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance](https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance)
+   - score: 40.483
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.743; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance](https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance)
    - source: Amazon AWS AI
-   - score: 64.607
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.876; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Inside Ode with Anthropic, the startup betting AI services are the future of enterprise](https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise)
+   - score: 64.046
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.851; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Inside Ode with Anthropic, the startup betting AI services are the future of enterprise](https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise)
    - source: TechCrunch AI
-   - score: 63.864
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex)
+   - score: 63.303
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex)
    - source: TechCrunch AI
-   - score: 61.606
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.891; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.045
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.866; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers](https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers)
+   - source: Amazon AWS AI
+   - score: 57.369
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.85; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [xai-org/grok-build, now open source](https://simonwillison.net/2026/Jul/15/grok-build)
    - source: Simon Willison
-   - score: 75.386
-   - score_breakdown: general=1.0; engineering=0.25; research=0.0; novelty=0.904; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=6; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 74.545
+   - score_breakdown: general=1.0; engineering=0.25; research=0.0; novelty=0.866; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=6; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [Develop Lightweight USD Runtimes Faster with AI Agents](https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents)
    - source: NVIDIA AI
-   - score: 72.625
-   - score_breakdown: general=0.5; engineering=0.75; research=0.0; novelty=0.915; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=3; engineering_relevance=0.75; research_relevance=0.00; visible_engagement=unavailable
+   - score: 72.064
+   - score_breakdown: general=0.5; engineering=0.75; research=0.0; novelty=0.889; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.75; research_relevance=0.00; visible_engagement=unavailable
 3. [The First Chatbot’s Multiple Personalities](https://spectrum.ieee.org/eliza-chatbot-source-code)
    - source: IEEE Spectrum AI
-   - score: 66.502
-   - score_breakdown: general=0.333; engineering=0.75; research=0.667; novelty=0.546; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.55; matched_terms=2; engineering_relevance=0.75; research_relevance=0.67; visible_engagement=unavailable
+   - score: 64.82
+   - score_breakdown: general=0.333; engineering=0.75; research=0.667; novelty=0.469; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.47; matched_terms=2; engineering_relevance=0.75; research_relevance=0.67; visible_engagement=unavailable
 4. [Understanding The Importance Of The Cfl Condition In Cfd Simulations](https://www.neuralconcept.com/post/understanding-the-importance-of-the-cfl-condition-in-cfd-simulations)
    - source: Neural Concept
    - score: 60.367
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Hack suggests AI music generator Suno scraped YouTube for training data](https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data)
-   - source: TechCrunch AI
-   - score: 57.824
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.863; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+5. [The social media ban sceptic: are we getting it wrong on kids, tech and mental health?](https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans)
+   - source: The Guardian Technology
+   - score: 59.633
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.945; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Graham’s death from aortic dissection raises questions about preventing the rare disorder](https://www.statnews.com/2026/07/15/lindsay-graham-death-aortic-dissection-risk-prediction-warning-signs)
+1. [STAT+: CMS signals intent to revamp how it pays for clinical software and AI](https://www.statnews.com/2026/07/16/cms-to-revamp-payments-for-clinical-software-ai)
    - source: STAT Health Tech
-   - score: 52.456
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.778; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Scaling medical content review at Flo Health with Amazon Bedrock – Part 2](https://aws.amazon.com/blogs/machine-learning/scaling-medical-content-review-at-flo-health-with-amazon-bedrock-part-2)
+   - score: 57.273
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.997; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Opinion: Medicaid and SNAP cuts are exacerbating the intertwined problems of hunger and mental illness](https://www.statnews.com/2026/07/16/snap-cuts-mental-illness-hunger-psychiatric-emergency)
+   - source: STAT Health Tech
+   - score: 57.273
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.997; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Scaling medical content review at Flo Health with Amazon Bedrock – Part 2](https://aws.amazon.com/blogs/machine-learning/scaling-medical-content-review-at-flo-health-with-amazon-bedrock-part-2)
    - source: Amazon AWS AI
-   - score: 52.053
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.608; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.61; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [STAT+: New study untangles how Epstein-Barr viral infection triggers immune response in multiple sclerosis](https://www.statnews.com/2026/07/15/epstein-barr-virus-immune-response-multiple-sclerosis-new-study)
-   - source: STAT Health Tech
-   - score: 49.191
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.63; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.63; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.492
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.583; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.58; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Lyric Acquires Concert Expand Ai Enabled Precision Medicine Payments](https://www.mobihealthnews.com/news/lyric-acquires-concert-expand-ai-enabled-precision-medicine-payments)
    - source: MobiHealthNews
    - score: 43.033
@@ -152,6 +152,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
+- [Papers with Code](https://www.google.com/search?q=site%3Apaperswithcode.com%20AI): site:paperswithcode.com AI (website, medium)
 - [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
@@ -170,12 +171,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Similar-title and canonical-URL duplicate detection is applied before final selection.
 
 ## Source Failures
+- Hugging Face: The read operation timed out
+- Siemens Digital Industries Software: The read operation timed out
+- Siemens Simcenter: The read operation timed out
+- Siemens Art of the Possible: The read operation timed out
 - Ansys: The read operation timed out
-- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden

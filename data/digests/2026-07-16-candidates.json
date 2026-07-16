@@ -1,19 +1,31 @@
 {
   "run_log": {
-    "generated_at": "2026-07-16T06:08:24.884684+00:00",
+    "generated_at": "2026-07-16T08:35:14.002327+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17278,
-    "filtered_count": 2285,
+    "fetched_count": 17162,
+    "filtered_count": 2282,
     "duplicate_count": 73,
     "failures": [
       {
-        "source": "Ansys",
+        "source": "Hugging Face",
         "error": "The read operation timed out"
       },
       {
-        "source": "Rescale",
-        "error": "mismatched tag: line 93, column 2"
+        "source": "Siemens Digital Industries Software",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Siemens Simcenter",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Siemens Art of the Possible",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Ansys",
+        "error": "The read operation timed out"
       },
       {
         "source": "Hamel Husain",
@@ -34,10 +46,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -72,10 +80,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 68.577,
+      "score": 67.736,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.72",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -84,13 +92,51 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.754,
+      "novelty_score": 0.715,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
         "llm",
         "agents",
         "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "7b9538ff9de748fd",
+      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-16T06:18:05+00:00",
+      "text": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B) Thinky's first full LLM release is a banger and bonus: it's open weights!",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "multimodal"
+      ],
+      "engagement": {},
+      "score": 63.214,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.964,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
         "guo_yichen_reference"
       ],
       "registry_category": "community",
@@ -111,10 +157,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.08,
+      "score": 61.239,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -123,7 +169,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.913,
+      "novelty_score": 0.874,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -150,10 +196,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 59.843,
+      "score": 59.282,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -162,7 +208,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.786,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -188,10 +234,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 59.385,
+      "score": 58.824,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -200,7 +246,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.765,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -209,78 +255,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "53e3149d2cc17d3e",
-      "title": "What building Shippy taught us about building agents",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "source": "Hugging Face",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-15T17:29:41+00:00",
-      "text": "What building Shippy taught us about building agents",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 52.986,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.80",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.802,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "open_source",
-        "models",
-        "datasets",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "5d7569c2afe37a81",
-      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "url": "https://huggingface.co/blog/real-world-voiceeq",
-      "source": "Hugging Face",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-15T00:00:00+00:00",
-      "text": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 46.973,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.529,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "open_source",
-        "models",
-        "datasets",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -296,10 +270,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 41.324,
+      "score": 40.483,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.78",
+        "novelty=0.74",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -308,7 +282,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.781,
+      "novelty_score": 0.743,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -334,10 +308,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.607,
+      "score": 64.046,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -346,7 +320,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.876,
+      "novelty_score": 0.851,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -372,10 +346,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.864,
+      "score": 63.303,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -384,7 +358,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -409,10 +383,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.606,
+      "score": 61.045,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -421,7 +395,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -429,6 +403,42 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "10459344a6c19aae",
+      "title": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-15T18:11:57+00:00",
+      "text": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers In this post, we walk you through the Computer Vision MCP Server, which illustrates this approach, representing how AI systems can process visual information and make intelligent decisions through a single, standardized interface. This convergence transforms what was once a complex integration challenge into a streamlined process, making AI capabilities accessible to a broader range of applications and developers.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.369,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.85,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     }
   ],
@@ -451,10 +461,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.386,
+      "score": 74.545,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -463,7 +473,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -490,10 +500,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 72.625,
+      "score": 72.064,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.75",
         "research_relevance=0.00",
@@ -502,7 +512,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.915,
+      "novelty_score": 0.889,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -527,10 +537,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 66.502,
+      "score": 64.82,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.55",
+        "novelty=0.47",
         "matched_terms=2",
         "engineering_relevance=0.75",
         "research_relevance=0.67",
@@ -539,7 +549,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.546,
+      "novelty_score": 0.469,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -586,22 +596,22 @@
       "source_priority": "high"
     },
     {
-      "id": "264ddc681c98a9a5",
-      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
-      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data",
-      "source": "TechCrunch AI",
+      "id": "b5e4bd58aa89118b",
+      "title": "The social media ban sceptic: are we getting it wrong on kids, tech and mental health?",
+      "url": "https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-15T17:00:34+00:00",
-      "text": "Hack suggests AI music generator Suno scraped YouTube for training data The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+      "published_at": "2026-07-16T06:50:29+00:00",
+      "text": "The social media ban sceptic: are we getting it wrong on kids, tech and mental health? Psychologist Candice Odgers has studied adolescent mental health for 25 years. She fears the current debate around smartphones obscures some of the biggest issues facing teenagers – from the impact of Covid to the health of their adult caregivers The quickest way to make being online safer for children and teens would be to kick all adult men off the internet, the Canadian psychologist Candice Odgers believes. Men are the biggest perpetrators of sextortion and most likely to spread misinformation, she says. Odgers is not recommending this as a policy for governments to adopt: “That would be crazy, right? It would be unfair.” But she is on a drive to puncture the prevailing narrative that the best way to address online harms is a social media ban for teenagers. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.824,
+      "score": 59.633,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -610,35 +620,34 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.945,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "1452706931546f8e",
-      "title": "Graham’s death from aortic dissection raises questions about preventing the rare disorder",
-      "url": "https://www.statnews.com/2026/07/15/lindsay-graham-death-aortic-dissection-risk-prediction-warning-signs",
+      "id": "ba4c545a6abec0a5",
+      "title": "STAT+: CMS signals intent to revamp how it pays for clinical software and AI",
+      "url": "https://www.statnews.com/2026/07/16/cms-to-revamp-payments-for-clinical-software-ai",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-15T23:02:48+00:00",
-      "text": "Graham’s death from aortic dissection raises questions about preventing the rare disorder When the body’s most important blood vessel tears from the inside, it’s a medical emergency that can be years in the making.",
+      "published_at": "2026-07-16T08:30:00+00:00",
+      "text": "STAT+: CMS signals intent to revamp how it pays for clinical software and AI CMS wants to build a standardized payment structure for clinical software and AI that factors in their impact on patient outcomes.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 52.456,
+      "score": 57.273,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=1.00",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -647,7 +656,42 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.778,
+      "novelty_score": 0.997,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e5bdb8188e6c8e5a",
+      "title": "Opinion: Medicaid and SNAP cuts are exacerbating the intertwined problems of hunger and mental illness",
+      "url": "https://www.statnews.com/2026/07/16/snap-cuts-mental-illness-hunger-psychiatric-emergency",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-16T08:30:00+00:00",
+      "text": "Opinion: Medicaid and SNAP cuts are exacerbating the intertwined problems of hunger and mental illness “No one built a psychiatric unit to solve hunger,” writes clinical dietician Cole Hanson. But patients come anyway.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.273,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.997,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -671,10 +715,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 52.053,
+      "score": 51.492,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.58",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -683,7 +727,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.608,
+      "novelty_score": 0.583,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -691,41 +735,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "44585b2b837e25ce",
-      "title": "STAT+: New study untangles how Epstein-Barr viral infection triggers immune response in multiple sclerosis",
-      "url": "https://www.statnews.com/2026/07/15/epstein-barr-virus-immune-response-multiple-sclerosis-new-study",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-15T18:17:51+00:00",
-      "text": "STAT+: New study untangles how Epstein-Barr viral infection triggers immune response in multiple sclerosis A new study claims to have uncovered how Epstein-Barr virus launches immune responses seen in people with multiple sclerosis.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 49.191,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.63,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -818,10 +827,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.386,
+      "score": 74.545,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -830,7 +839,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -857,10 +866,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 72.625,
+      "score": 72.064,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.75",
         "research_relevance=0.00",
@@ -869,7 +878,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.915,
+      "novelty_score": 0.889,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -894,10 +903,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 66.502,
+      "score": 64.82,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.55",
+        "novelty=0.47",
         "matched_terms=2",
         "engineering_relevance=0.75",
         "research_relevance=0.67",
@@ -906,7 +915,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.546,
+      "novelty_score": 0.469,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -953,22 +962,22 @@
       "source_priority": "high"
     },
     {
-      "id": "264ddc681c98a9a5",
-      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
-      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data",
-      "source": "TechCrunch AI",
+      "id": "b5e4bd58aa89118b",
+      "title": "The social media ban sceptic: are we getting it wrong on kids, tech and mental health?",
+      "url": "https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-15T17:00:34+00:00",
-      "text": "Hack suggests AI music generator Suno scraped YouTube for training data The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+      "published_at": "2026-07-16T06:50:29+00:00",
+      "text": "The social media ban sceptic: are we getting it wrong on kids, tech and mental health? Psychologist Candice Odgers has studied adolescent mental health for 25 years. She fears the current debate around smartphones obscures some of the biggest issues facing teenagers – from the impact of Covid to the health of their adult caregivers The quickest way to make being online safer for children and teens would be to kick all adult men off the internet, the Canadian psychologist Candice Odgers believes. Men are the biggest perpetrators of sextortion and most likely to spread misinformation, she says. Odgers is not recommending this as a policy for governments to adopt: “That would be crazy, right? It would be unfair.” But she is on a drive to puncture the prevailing narrative that the best way to address online harms is a social media ban for teenagers. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.824,
+      "score": 59.633,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -977,14 +986,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.945,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -1315,6 +1323,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Papers with Code",
+      "category": "research",
+      "query": "site:paperswithcode.com AI",
+      "url": "https://www.google.com/search?q=site%3Apaperswithcode.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, benchmarks",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Nature Machine Intelligence",
       "category": "research",
       "query": "site:www.nature.com AI",
@@ -1577,6 +1595,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Papers with Code",
+      "category": "research",
+      "query": "site:paperswithcode.com AI",
+      "url": "https://www.google.com/search?q=site%3Apaperswithcode.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, benchmarks",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Nature Machine Intelligence",
       "category": "research",
       "query": "site:www.nature.com AI",
@@ -1689,40 +1717,38 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "475a7ecbe023e4bc",
-      "title": "Your next colleague is an agent: The dawn of agentic AI-aided engineering",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/agentic-ai-aided-engineering",
-      "source": "Siemens Art of the Possible",
+      "id": "da9d0703229ae16b",
+      "title": "Open-source AI Datasets for AI Physics Model Training",
+      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
+      "source": "Rescale",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-03T09:59:13+00:00",
-      "text": "Your next colleague is an agent: The dawn of agentic AI-aided engineering What if every engineer had instant access to simulation expertise? Agentic AI-Aided Engineering could transform engineering by putting intelligent AI agents alongside designers, automating complex CAE workflows, and breaking long-standing expertise bottlenecks. Discover how this emerging approach could democratize simulation and accelerate innovation across the engineering lifecycle",
+      "published_at": "2026-07-08T15:00:00+00:00",
+      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
       "matched_terms": [
-        "CAE",
-        "simulation"
+        "simulation",
+        "surrogate model",
+        "ROM"
       ],
       "engagement": {},
-      "score": 77.605,
+      "score": 76.414,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=2",
+        "novelty=0.81",
+        "matched_terms=3",
         "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.679,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.807,
       "source_priority_score": 1.0,
       "source_tags": [
-        "agentic_ai",
-        "cae",
+        "hpc",
         "simulation",
-        "industrial_ai",
-        "simcenter"
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1741,7 +1767,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 76.425,
+      "score": 76.369,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1753,7 +1779,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.959,
+      "novelty_score": 0.956,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1780,10 +1806,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.386,
+      "score": 74.545,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -1792,7 +1818,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1819,10 +1845,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 72.625,
+      "score": 72.064,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.75",
         "research_relevance=0.00",
@@ -1831,7 +1857,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.915,
+      "novelty_score": 0.889,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1843,22 +1869,59 @@
       "source_priority": "high"
     },
     {
-      "id": "4693532790c5e944",
-      "title": "Leveraging know-how with AI into efficient product design",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
-      "source": "Siemens Art of the Possible",
+      "id": "90cd344a0949cc26",
+      "title": "GeoTransolver AI Model Architecture Integration for CFD Applications",
+      "url": "https://rescale.com/blog/geotransolver-ai-model-architecture-integration-cfd-applications",
+      "source": "Rescale",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-14T13:29:04+00:00",
-      "text": "Leveraging know-how with AI into efficient product design Is your engineering data a hidden goldmine? Overcome the ‘cold start’ problem in AI by using geometric similarity and transfer learning to transform existing models and simulations into powerful assets, speeding up product design and innovation",
+      "published_at": "2026-07-02T15:00:00+00:00",
+      "text": "GeoTransolver AI Model Architecture Integration for CFD Applications Power complex and high-accuracy AI surrogate models for CFD and FEA with GeoTransolver model architecture. Now available in Rescale AI Physics as part of the NVIDIA PhysicsNeMo library, GeoTransolver is a geometry-aware transformer architecture that uses GALE attention to model relationships across complex 3D geometries and unstructured meshes. It is designed to generalize across changing operating conditions and learn transient, geometry-aware physical behavior, making it well-suited for surrogate models that need to predict aerodynamic, structural, or deformation behavior across a range of design variants.",
+      "matched_terms": [
+        "surrogate model",
+        "FEA",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 70.447,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.66",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.657,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f7a88fc37e79f3e4",
+      "title": "Agent-Driven Simulation Troubleshooting",
+      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T12:00:00+00:00",
+      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
       "matched_terms": [
         "simulation"
       ],
       "engagement": {},
-      "score": 70.402,
+      "score": 70.312,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1867,70 +1930,33 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.958,
+      "novelty_score": 0.954,
       "source_priority_score": 1.0,
       "source_tags": [
-        "agentic_ai",
-        "cae",
+        "hpc",
         "simulation",
-        "industrial_ai",
-        "simcenter"
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
-      "id": "e231033a4c78d110",
-      "title": "Bridging design & simulation in humanoid robotics",
-      "url": "https://blogs.sw.siemens.com/simcenter/bridging-design-simulation-in-humanoid-robotics",
-      "source": "Siemens Simcenter",
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-08T13:18:29+00:00",
-      "text": "Bridging design & simulation in humanoid robotics For decades, humanoid robotics remained confined to science fiction lore, imagined as assistants or workers capable of human-like behavior and interaction. Today, advances in AI, robotics, and simulation are rapidly turning that vision into reality, pushing humanoids beyond research labs into real industrial environments.",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
       "matched_terms": [
         "simulation"
       ],
       "engagement": {},
-      "score": 69.764,
+      "score": 68.18,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.807,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e5d2e12963a9fef8",
-      "title": "Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606",
-      "url": "https://blogs.sw.siemens.com/simcenter/python-in-the-loop-ai-driven-simulation-and-validation-for-autonomous-systems-simcenter-prescan-2606",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-13T08:50:01+00:00",
-      "text": "Python in the loop: AI-Driven simulation and validation for autonomous systems – Simcenter Prescan 2606 What’s new ADAS and autonomous system development increasingly relies on Python, machine learning frameworks, and large volumes of sensor data. Yet…",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 69.745,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1939,12 +1965,12 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.928,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cae",
+        "hpc",
         "simulation",
-        "simcenter"
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1967,10 +1993,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 68.577,
+      "score": 67.736,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.72",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1979,7 +2005,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.754,
+      "novelty_score": 0.715,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2075,10 +2101,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 66.502,
+      "score": 64.82,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.55",
+        "novelty=0.47",
         "matched_terms=2",
         "engineering_relevance=0.75",
         "research_relevance=0.67",
@@ -2087,7 +2113,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.546,
+      "novelty_score": 0.469,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -2113,10 +2139,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.607,
+      "score": 64.046,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2125,7 +2151,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.876,
+      "novelty_score": 0.851,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2133,6 +2159,40 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "fdcca13bb581de3f",
+      "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
+      "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
+      "source": "COMSOL",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-02T14:24:05+00:00",
+      "text": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics® In this blog post, we use COMSOL Multiphysics® to analyze the acoustics of the famous Liberty Bell and use uncertainty quantification to gain new insights into the material properties and optimal shape.",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 63.767,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.66",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.656,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "multiphysics",
+        "simulation"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2151,10 +2211,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.864,
+      "score": 63.303,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2163,7 +2223,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2174,58 +2234,24 @@
       "source_priority": "high"
     },
     {
-      "id": "fdcca13bb581de3f",
-      "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
-      "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
-      "source": "COMSOL",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-02T14:24:05+00:00",
-      "text": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics® In this blog post, we use COMSOL Multiphysics® to analyze the acoustics of the famous Liberty Bell and use uncertainty quantification to gain new insights into the material properties and optimal shape.",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 63.823,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.66",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.659,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "multiphysics",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cce1dcce4c530f32",
-      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
-      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic",
-      "source": "TechCrunch AI",
+      "id": "7b9538ff9de748fd",
+      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "source": "Latent Space",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-15T23:59:44+00:00",
-      "text": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+      "published_at": "2026-07-16T06:18:05+00:00",
+      "text": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B) Thinky's first full LLM release is a banger and bonus: it's open weights!",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Anthropic"
+        "LLM",
+        "multimodal"
       ],
       "engagement": {},
-      "score": 62.592,
+      "score": 63.214,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.96",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2234,14 +2260,15 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.936,
+      "novelty_score": 0.964,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
       ],
-      "registry_category": "startup",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2280,6 +2307,78 @@
       "source_priority": "high"
     },
     {
+      "id": "cd0ef033508aa3cc",
+      "title": "Knowledge Base Support on AWS and Azure",
+      "url": "https://rescale.com/blog/knowledge-base-support-on-aws-and-azure",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-29T15:29:12+00:00",
+      "text": "Knowledge Base Support on AWS and Azure Connect and interact with all your data in one place. Rescale now connects engineering data stored in AWS S3 and Azure Blob Storage directly to the Rescale Assistant through vectorized search. Once connected, engineers can ask natural language questions and receive fast, contextually grounded answers drawn from their organization's own data, rather than relying only on general AI knowledge or manual file searches.",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 62.141,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.58",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.582,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "cce1dcce4c530f32",
+      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-15T23:59:44+00:00",
+      "text": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 62.031,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "77ccb073c59f3752",
       "title": "Empowering India’s next generation of innovators with ATL Saathi",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi",
@@ -2293,10 +2392,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.232,
+      "score": 61.992,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2305,7 +2404,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.708,
+      "novelty_score": 0.697,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2313,45 +2412,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "ea0bb84cd05bc789",
-      "title": "Mermaid to Unicode box art (grok-mermaid)",
-      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-16T00:33:18+00:00",
-      "text": "Mermaid to Unicode box art (grok-mermaid) Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust. I figured it would be fun to try that out in a browser via WebAssembly. Here's the prompt I ran in Claude Code for web (Fable 5), and this is what the resulting tool looks like: Auth{Authenticated?} Auth -->|yes| Rate{Rate limit OK?} Auth -->|no| R401[401 Unauthorized] Rate -->|yes| H(Handle request) Rate -->|no| R429[429 Too Many Requests] H -.-> Log[Audit log] H ==> Resp[200 OK]. Below the code are controls labeled Max width: Fit output panel, Copy as text, and Copy link to this diagram. The rendered flowchart on a dark background flows top-down: Request received leads to Authenticated?, which branches yes to Rate limit OK? and no to 401 Unauthorized. Rate limit OK? branches yes to Handle request and no to 429 Too Many Requests. Handle request connects with a dotted arrow to Audit log and a thick arrow to 200 OK.\" src=\"https://static.simonwillison.net/static/2026/grok-mermaid-wasm.png\" /> Tags",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 62.08,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.913,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2371,10 +2431,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 61.926,
+      "score": 61.365,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.58",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2383,7 +2443,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.603,
+      "novelty_score": 0.577,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2392,6 +2452,45 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "ea0bb84cd05bc789",
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-16T00:33:18+00:00",
+      "text": "Mermaid to Unicode box art (grok-mermaid) Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust. I figured it would be fun to try that out in a browser via WebAssembly. Here's the prompt I ran in Claude Code for web (Fable 5), and this is what the resulting tool looks like: Auth{Authenticated?} Auth -->|yes| Rate{Rate limit OK?} Auth -->|no| R401[401 Unauthorized] Rate -->|yes| H(Handle request) Rate -->|no| R429[429 Too Many Requests] H -.-> Log[Audit log] H ==> Resp[200 OK]. Below the code are controls labeled Max width: Fit output panel, Copy as text, and Copy link to this diagram. The rendered flowchart on a dark background flows top-down: Request received leads to Authenticated?, which branches yes to Rate limit OK? and no to 401 Unauthorized. Rate limit OK? branches yes to Handle request and no to 429 Too Many Requests. Handle request connects with a dotted arrow to Audit log and a thick arrow to 200 OK.\" src=\"https://static.simonwillison.net/static/2026/grok-mermaid-wasm.png\" /> Tags",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 61.239,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.874,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2409,10 +2508,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.606,
+      "score": 61.045,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2421,7 +2520,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2447,10 +2546,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 61.26,
+      "score": 60.699,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.58",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2459,7 +2558,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.603,
+      "novelty_score": 0.577,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2468,42 +2567,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "58623c35930cb0e2",
-      "title": "This AI Folds DNA Into Mini Masterpieces",
-      "url": "https://spectrum.ieee.org/ai-dna-origami",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-15T13:00:01+00:00",
-      "text": "This AI Folds DNA Into Mini Masterpieces Shaped like dogs, stars, and the Mona Lisa, you could mistake these DNA structures for fun-shaped macaroni if they weren’t only nanometers wide. South Korean scientists made the constructions using a technique called DNA origami , which can bend genetic material into any form. Designing DNA strands so they’ll fold into a specific shape typically requires tedious manual work, but the researchers behind the playful fabrications have developed a shortcut using generative AI. The AI model, called Generative SNUPI (short for Structured Nucleic Acids Programming Interface, and, yes, inspired by the dog), was created by research teams at Seoul National University (SNU) and Hanyang University . The work behind it, which was accepted for publication in Nature Communications , shows the model can conjure DNA origami designs that work in the real world for user-requested shapes. For a design like the Mona Lisa, that doesn’t mean simply tracing an outline; the model considers the chemical rules of DNA to tell researchers how unpaired DNA strands should be sequenced so that molecular forces will cause them to self-contort into the required shape. DNA ori",
-      "matched_terms": [
-        "AI",
-        "generative AI"
-      ],
-      "engagement": {},
-      "score": 60.383,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.46",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.464,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2833,40 +2896,38 @@
       "source_priority": "high"
     },
     {
-      "id": "83d5a15310e3a6b6",
-      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
-      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models",
-      "source": "TechCrunch AI",
+      "id": "3824b64966784a9b",
+      "title": "Agentic Simulation Report Generation",
+      "url": "https://rescale.com/blog/agentic-simulation-report-generation",
+      "source": "Rescale",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-15T13:10:47+00:00",
-      "text": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
+      "category": "engineering_ai",
+      "published_at": "2026-06-25T16:13:24+00:00",
+      "text": "Agentic Simulation Report Generation Presentation-ready reports in minutes vs. hours. Rescale’s Report Generator Agent eliminates the gap between raw results and structured reporting. Once a simulation study is complete, the agent takes the results data and automatically generates a report aligned to a customer's own reporting templates, including findings, relevant charts, and recommendations.",
       "matched_terms": [
-        "AI",
-        "embedding",
-        "Anthropic"
+        "simulation"
       ],
       "engagement": {},
-      "score": 60.113,
+      "score": 59.958,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
+        "novelty=0.48",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.483,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
-      "registry_category": "startup",
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2882,7 +2943,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.986,
+      "score": 59.929,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2894,7 +2955,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.991,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2903,81 +2964,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "a7a2286fcda29082",
-      "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
-      "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-15T12:00:00+00:00",
-      "text": "Vint Cerf is working on a plan to unleash AI agents on the open internet The guy behind TCP/IP is working on a standard for identifying AI agents in the wild.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 59.843,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "1e97faa490facd0c",
-      "title": "The US is advancing AI safety through state and federal action",
-      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "source": "OpenAI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-15T12:00:00+00:00",
-      "text": "The US is advancing AI safety through state and federal action OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "AI safety"
-      ],
-      "engagement": {},
-      "score": 59.843,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
     },
     {
       "id": "c0dcd6361ecf5ed3",
@@ -2992,7 +2978,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 59.763,
+      "score": 59.707,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.98",
@@ -3004,7 +2990,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.981,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3050,21 +3036,92 @@
       "source_priority": "high"
     },
     {
-      "id": "ee230258f27f8a0d",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "source": "OpenAI",
+      "id": "b5e4bd58aa89118b",
+      "title": "The social media ban sceptic: are we getting it wrong on kids, tech and mental health?",
+      "url": "https://www.theguardian.com/society/2026/jul/16/psychologist-candice-odgers-kids-tech-mental-health-social-media-bans",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-15T10:00:00+00:00",
-      "text": "GPT-Red: Unlocking Self-Improvement for Robustness Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "category": "engineering_ai",
+      "published_at": "2026-07-16T06:50:29+00:00",
+      "text": "The social media ban sceptic: are we getting it wrong on kids, tech and mental health? Psychologist Candice Odgers has studied adolescent mental health for 25 years. She fears the current debate around smartphones obscures some of the biggest issues facing teenagers – from the impact of Covid to the health of their adult caregivers The quickest way to make being online safer for children and teens would be to kick all adult men off the internet, the Canadian psychologist Candice Odgers believes. Men are the biggest perpetrators of sextortion and most likely to spread misinformation, she says. Odgers is not recommending this as a policy for governments to adopt: “That would be crazy, right? It would be unfair.” But she is on a drive to puncture the prevailing narrative that the best way to address online harms is a social media ban for teenagers. Continue reading...",
       "matched_terms": [
-        "AI",
-        "OpenAI",
-        "AI safety"
+        "AI"
       ],
       "engagement": {},
-      "score": 59.385,
+      "score": 59.633,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.945,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "83d5a15310e3a6b6",
+      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-15T13:10:47+00:00",
+      "text": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
+      "matched_terms": [
+        "AI",
+        "embedding",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 59.552,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.798,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "a7a2286fcda29082",
+      "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
+      "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-15T12:00:00+00:00",
+      "text": "Vint Cerf is working on a plan to unleash AI agents on the open internet The guy behind TCP/IP is working on a standard for identifying AI agents in the wild.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 59.282,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -3076,7 +3133,44 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.786,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "1e97faa490facd0c",
+      "title": "The US is advancing AI safety through state and federal action",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-15T12:00:00+00:00",
+      "text": "The US is advancing AI safety through state and federal action OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "AI safety"
+      ],
+      "engagement": {},
+      "score": 59.282,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.79",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.786,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3124,6 +3218,80 @@
       "source_priority": "medium"
     },
     {
+      "id": "ee230258f27f8a0d",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-15T10:00:00+00:00",
+      "text": "GPT-Red: Unlocking Self-Improvement for Robustness Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "AI safety"
+      ],
+      "engagement": {},
+      "score": 58.824,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.76",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.765,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "58623c35930cb0e2",
+      "title": "This AI Folds DNA Into Mini Masterpieces",
+      "url": "https://spectrum.ieee.org/ai-dna-origami",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-15T13:00:01+00:00",
+      "text": "This AI Folds DNA Into Mini Masterpieces Shaped like dogs, stars, and the Mona Lisa, you could mistake these DNA structures for fun-shaped macaroni if they weren’t only nanometers wide. South Korean scientists made the constructions using a technique called DNA origami , which can bend genetic material into any form. Designing DNA strands so they’ll fold into a specific shape typically requires tedious manual work, but the researchers behind the playful fabrications have developed a shortcut using generative AI. The AI model, called Generative SNUPI (short for Structured Nucleic Acids Programming Interface, and, yes, inspired by the dog), was created by research teams at Seoul National University (SNU) and Hanyang University . The work behind it, which was accepted for publication in Nature Communications , shows the model can conjure DNA origami designs that work in the real world for user-requested shapes. For a design like the Mona Lisa, that doesn’t mean simply tracing an outline; the model considers the chemical rules of DNA to tell researchers how unpaired DNA strands should be sequenced so that molecular forces will cause them to self-contort into the required shape. DNA ori",
+      "matched_terms": [
+        "AI",
+        "generative AI"
+      ],
+      "engagement": {},
+      "score": 58.701,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.39",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.388,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "ba3049d945c69220",
       "title": "Multi-agent social intelligence with Strands Agents and Amazon Bedrock",
       "url": "https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock",
@@ -3138,10 +3306,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 58.554,
+      "score": 57.993,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.63",
+        "novelty=0.61",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3150,43 +3318,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.631,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "10459344a6c19aae",
-      "title": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-15T18:11:57+00:00",
-      "text": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers In this post, we walk you through the Computer Vision MCP Server, which illustrates this approach, representing how AI systems can process visual information and make intelligent decisions through a single, standardized interface. This convergence transforms what was once a complex integration challenge into a streamlined process, making AI capabilities accessible to a broader range of applications and developers.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.93,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.876,
+      "novelty_score": 0.606,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3230,76 +3362,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "264ddc681c98a9a5",
-      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
-      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-15T17:00:34+00:00",
-      "text": "Hack suggests AI music generator Suno scraped YouTube for training data The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.824,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "4171beed3f2f24d7",
-      "title": "Whatnot acquires Shaped to power real-time live shopping recommendations",
-      "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-15T17:00:00+00:00",
-      "text": "Whatnot acquires Shaped to power real-time live shopping recommendations Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search. The deal will bolster Whatnot’s personalization and discovery features as it expands into new product categories.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.822,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3377,31 +3439,207 @@
       "source_priority": "high"
     },
     {
-      "id": "11aee9868a589220",
-      "title": "How Terrorist Groups Are Using A.I. to Gain an Edge in Battle",
-      "url": "https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html",
-      "source": "New York Times Technology",
+      "id": "10459344a6c19aae",
+      "title": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-16T02:34:56+00:00",
-      "text": "How Terrorist Groups Are Using A.I. to Gain an Edge in Battle A.I. chatbots are not just a propaganda tool for violent extremists but are aiding in bomb construction and attack planning, new research finds.",
+      "published_at": "2026-07-15T18:11:57+00:00",
+      "text": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers In this post, we walk you through the Computer Vision MCP Server, which illustrates this approach, representing how AI systems can process visual information and make intelligent decisions through a single, standardized interface. This convergence transforms what was once a complex integration challenge into a streamlined process, making AI capabilities accessible to a broader range of applications and developers.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.369,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.85,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba4c545a6abec0a5",
+      "title": "STAT+: CMS signals intent to revamp how it pays for clinical software and AI",
+      "url": "https://www.statnews.com/2026/07/16/cms-to-revamp-payments-for-clinical-software-ai",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-16T08:30:00+00:00",
+      "text": "STAT+: CMS signals intent to revamp how it pays for clinical software and AI CMS wants to build a standardized payment structure for clinical software and AI that factors in their impact on patient outcomes.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.554,
+      "score": 57.273,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=1.00",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.889,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.997,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e5bdb8188e6c8e5a",
+      "title": "Opinion: Medicaid and SNAP cuts are exacerbating the intertwined problems of hunger and mental illness",
+      "url": "https://www.statnews.com/2026/07/16/snap-cuts-mental-illness-hunger-psychiatric-emergency",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-16T08:30:00+00:00",
+      "text": "Opinion: Medicaid and SNAP cuts are exacerbating the intertwined problems of hunger and mental illness “No one built a psychiatric unit to solve hunger,” writes clinical dietician Cole Hanson. But patients come anyway.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.273,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.997,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "264ddc681c98a9a5",
+      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
+      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-15T17:00:34+00:00",
+      "text": "Hack suggests AI music generator Suno scraped YouTube for training data The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.263,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.838,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "4171beed3f2f24d7",
+      "title": "Whatnot acquires Shaped to power real-time live shopping recommendations",
+      "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-15T17:00:00+00:00",
+      "text": "Whatnot acquires Shaped to power real-time live shopping recommendations Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search. The deal will bolster Whatnot’s personalization and discovery features as it expands into new product categories.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.261,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.838,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "ed62d210ed359674",
+      "title": "Europe Finds It Hard to Break Up With American and Chinese Technology",
+      "url": "https://www.nytimes.com/2026/07/16/world/europe/digital-autonomy-ai.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-16T08:20:56+00:00",
+      "text": "Europe Finds It Hard to Break Up With American and Chinese Technology France and Germany want to quit relying on America and China for key technology like artificial intelligence, but they’re having to choose where to do it.",
+      "matched_terms": [
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 57.169,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -5120,210 +5358,6 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "7faa8c6159a05886",
-      "title": "Einfuehrung Intact Simulation Add In",
-      "url": "https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Einfuehrung Intact Simulation Add In https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6c65c06c47193fc2",
-      "title": "Introducing Intact Simulation Add In",
-      "url": "https://www.synera.ai/news/introducing-intact-simulation-add-in",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "84173670abec4920",
-      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
-      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ca5f8805ed4cc18e",
-      "title": "Nasa Ai Agents Build Spaceship From Text",
-      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "0099e6807563ee55",
-      "title": "Promising Combination Ai Bionics",
-      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "8ec1dcab85f0344e",
-      "title": "Promising Combination Ai Bionics",
-      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
       "matched_terms": [
         "ROM"
       ],
