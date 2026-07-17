@@ -1,0 +1,159 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-07-09 至 2026-07-17 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-07-09 to 2026-07-17.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "SciPhy Reinforcement Learning for Portfolio Optimization",
+      "url": "https://arxiv.org/abs/2607.15195",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Igor Halperin",
+        "Andrey Itkin"
+      ],
+      "summary_en": "This paper introduces a dynamic portfolio optimization framework for large institutional investors using Scientific Physics-Informed Reinforcement Learning (SciPhyRL). Formulated in continuous time over an extended state space that includes explicit cumulative costs, the approach leverages offline historical data to learn optimal, distribution-aware strategies. A core innovation reduces the optimization challenge to solving an HJB equation by projecting it onto observed trajectories as a pathwis",
+      "summary_zh": "英文摘要：This paper introduces a dynamic portfolio optimization framework for large institutional investors using Scientific Physics-Informed Reinforcement Learning (SciPhyRL). Formulated in continuous time over an extended state space that includes explicit cumulative costs, the approach leverages offline historical data to learn optimal, distribution-aware strategies. A core innovation reduces the optimization challenge to solving an HJB equation by projecting it onto observed trajectories as a pathwis",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "AHEAD: Anticipatory Hand-Driven Teleoperation via Human Intent Prediction",
+      "url": "https://arxiv.org/abs/2607.15172",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Seok Joon Kim",
+        "Junho Lee",
+        "Federica Spinola",
+        "Taein Kwon",
+        "Mohsen Moghaddam"
+      ],
+      "summary_en": "Direct hand-driven teleoperation maps an operator's hand motion to robot end-effector commands at every frame, enabling precise control, but it requires constant monitoring and correction during approach, grasp, and placement, which can be slow and fatiguing. For repetitive pick-and-place tasks, supervisory (goal-based) teleoperation simplifies this process: the operator specifies goals/waypoints, and the robot executes the motion using planning algorithms. Yet, this introduces latency, as the r",
+      "summary_zh": "英文摘要：Direct hand-driven teleoperation maps an operator's hand motion to robot end-effector commands at every frame, enabling precise control, but it requires constant monitoring and correction during approach, grasp, and placement, which can be slow and fatiguing. For repetitive pick-and-place tasks, supervisory (goal-based) teleoperation simplifies this process: the operator specifies goals/waypoints, and the robot executes the motion using planning algorithms. Yet, this introduces latency, as the r",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Split Complex-Valued Physics-Informed Neural Networks for Forward and Inverse Nonlinear PDEs",
+      "url": "https://arxiv.org/abs/2607.15087",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Biswanath Barman",
+        "Rajendra K. Ray",
+        "Debdeep Chatterjee"
+      ],
+      "summary_en": "Physics-informed neural networks (PINNs) have emerged as a powerful framework for solving forward and inverse partial differential equations (PDEs), but conventional real-valued PINNs (RV-PINNs) often suffer from spectral bias, limited expressivity, and reduced accuracy for high-frequency, oscillatory, and phase-dependent dynamics. In this work, we propose a generalized split complex-valued physics-informed neural network (SCV-PINN), in which network parameters and latent representations are def",
+      "summary_zh": "英文摘要：Physics-informed neural networks (PINNs) have emerged as a powerful framework for solving forward and inverse partial differential equations (PDEs), but conventional real-valued PINNs (RV-PINNs) often suffer from spectral bias, limited expressivity, and reduced accuracy for high-frequency, oscillatory, and phase-dependent dynamics. In this work, we propose a generalized split complex-valued physics-informed neural network (SCV-PINN), in which network parameters and latent representations are def",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "An Introduction to Sparse Identification of Nonlinear Dynamics for Engineering Applications",
+      "url": "https://arxiv.org/abs/2607.15077",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Yao Cheng Li",
+        "Ana Larrañaga",
+        "Steven L. Brunton",
+        "Urban Fasel"
+      ],
+      "summary_en": "Many engineering problems involve phenomena whose governing equations are poorly characterized or only partially known. Surrogate modeling techniques such as neural networks can capture the behavior of these systems, but they typically demand large training datasets that are difficult to obtain in engineering contexts and yield models with limited physical interpretability. The Sparse Identification of Nonlinear Dynamics (SINDy) method addresses both limitations by performing sparse regression o",
+      "summary_zh": "英文摘要：Many engineering problems involve phenomena whose governing equations are poorly characterized or only partially known. Surrogate modeling techniques such as neural networks can capture the behavior of these systems, but they typically demand large training datasets that are difficult to obtain in engineering contexts and yield models with limited physical interpretability. The Sparse Identification of Nonlinear Dynamics (SINDy) method addresses both limitations by performing sparse regression o",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Neural operators solve inverse problems for constitutive model discovery",
+      "url": "https://arxiv.org/abs/2607.15049",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Moritz Flaschel",
+        "Burigede Liu",
+        "Ellen Kuhl"
+      ],
+      "summary_en": "Characterizing the mechanical response of materials traditionally requires solving optimization problems in which model parameters are calibrated or trained to minimize the discrepancy between model predictions and experimental data. This process can be computationally expensive and time-consuming. To overcome this limitation, we propose two neural operator architectures that directly map experimentally measured data to the constitutive functions governing the mechanical response of the material",
+      "summary_zh": "英文摘要：Characterizing the mechanical response of materials traditionally requires solving optimization problems in which model parameters are calibrated or trained to minimize the discrepancy between model predictions and experimental data. This process can be computationally expensive and time-consuming. To overcome this limitation, we propose two neural operator architectures that directly map experimentally measured data to the constitutive functions governing the mechanical response of the material",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Harnessing Machine Learning for Hybrid Constitutive Modelling of Viscoelastic Fluid Flows in Computational Rheology",
+      "url": "https://arxiv.org/abs/2607.14944",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "J. L. Cummings",
+        "C. Fernandes",
+        "F. Dong",
+        "M. A. Alves",
+        "M. S. N. Oliveira"
+      ],
+      "summary_en": "Recent advances in data-driven modelling have highlighted the potential of hybrid approaches which combine Tensor Basis Neural Networks (TBNN) with Universal Differential Equations (UDE) to discover frame-invariant, non-linear viscoelastic constitutive models. These hybrid models enable the creation of digital twins for complex viscoelastic fluids, offering direct transferability to computational fluid dynamics simulations. In this work, we introduce a reduced dimensional tensor basis formulatio",
+      "summary_zh": "英文摘要：Recent advances in data-driven modelling have highlighted the potential of hybrid approaches which combine Tensor Basis Neural Networks (TBNN) with Universal Differential Equations (UDE) to discover frame-invariant, non-linear viscoelastic constitutive models. These hybrid models enable the creation of digital twins for complex viscoelastic fluids, offering direct transferability to computational fluid dynamics simulations. In this work, we introduce a reduced dimensional tensor basis formulatio",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Physics-Informed Diffusion for Biomechanically Plausible 3D Sign Language Generation",
+      "url": "https://arxiv.org/abs/2607.14836",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Emanuele Colonna",
+        "Moises Diaz",
+        "Gennaro Vessio",
+        "Miguel Angel Ferrer",
+        "Giovanna Castellano"
+      ],
+      "summary_en": "Sign language production, which generates continuous 3D skeletal motion from spoken language input, must simultaneously satisfy two constraints: semantic fidelity, so that a deaf viewer can recognize the intended sequence of glosses, and biomechanical plausibility, so that the generated skeleton respects anatomical constraints. Existing approaches optimize semantic reconstruction through coordinate-based objectives that treat the skeleton as an unstructured vector, thus allowing for bone length ",
+      "summary_zh": "英文摘要：Sign language production, which generates continuous 3D skeletal motion from spoken language input, must simultaneously satisfy two constraints: semantic fidelity, so that a deaf viewer can recognize the intended sequence of glosses, and biomechanical plausibility, so that the generated skeleton respects anatomical constraints. Existing approaches optimize semantic reconstruction through coordinate-based objectives that treat the skeleton as an unstructured vector, thus allowing for bone length ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A new strategy for physics-informed neural networks based on hierarchical collocation point refinement",
+      "url": "https://arxiv.org/abs/2607.14665",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Minjae Choi",
+        "Dukhwan Shin",
+        "Youngsoo Yang",
+        "Eunjung Lee"
+      ],
+      "summary_en": "Physics-informed neural networks (PINNs) offer a flexible framework for solving partial differential equations (PDEs), but training can become computationally expensive when a large number of collocation points are required to accurately enforce the governing equations. To alleviate this cost, we introduce multigrid-based parameter-updated PINNs (MPU-PINNs), a coarse-to-fine training strategy that progressively increases the number of training points throughout the learning process. The proposed",
+      "summary_zh": "英文摘要：Physics-informed neural networks (PINNs) offer a flexible framework for solving partial differential equations (PDEs), but training can become computationally expensive when a large number of collocation points are required to accurately enforce the governing equations. To alleviate this cost, we introduce multigrid-based parameter-updated PINNs (MPU-PINNs), a coarse-to-fine training strategy that progressively increases the number of training points throughout the learning process. The proposed",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Probabilistic Physics-Informed Neural Networks for Estimating Heterogeneous Elastic Properties from Low-Resolution and Noisy Displacement Data",
+      "url": "https://arxiv.org/abs/2607.14563",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Tatthapong Srikitrungruang",
+        "Jaesung Lee"
+      ],
+      "summary_en": "Estimating spatially heterogeneous elastic properties from low-resolution displacement measurements is a severely ill-posed inverse elasticity problem because low resolution obscures spatial details needed to distinguish heterogeneous property variations, and small measurement perturbations or fitting errors are amplified through inverse estimation. Existing inverse methods often rely on high-fidelity observations and manually prespecified loss weights, limiting their adaptability and making the",
+      "summary_zh": "英文摘要：Estimating spatially heterogeneous elastic properties from low-resolution displacement measurements is a severely ill-posed inverse elasticity problem because low resolution obscures spatial details needed to distinguish heterogeneous property variations, and small measurement perturbations or fitting errors are amplified through inverse estimation. Existing inverse methods often rely on high-fidelity observations and manually prespecified loss weights, limiting their adaptability and making the",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Active Real-World Factor-Based Evaluation for Generalist Robot Policies",
+      "url": "https://arxiv.org/abs/2607.14439",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Andrew Liao",
+        "Hanchen Cui",
+        "Karthik Desingh",
+        "Aryan Deshwal"
+      ],
+      "summary_en": "Generalist robot manipulation policies trained on large, diverse datasets have shown remarkable promise across a wide range of tasks. However, rigorously evaluating these policies remains a fundamental challenge. Real-world performance depends on a large combinatorial space of task factors including object poses and camera viewpoints, making full, exhaustive evaluation intractable. Additionally, real hardware evaluation is slow and resource-intensive, so current practice is to use narrow test su",
+      "summary_zh": "英文摘要：Generalist robot manipulation policies trained on large, diverse datasets have shown remarkable promise across a wide range of tasks. However, rigorously evaluating these policies remains a fundamental challenge. Real-world performance depends on a large combinatorial space of task factors including object poses and camera viewpoints, making full, exhaustive evaluation intractable. Additionally, real hardware evaluation is slow and resource-intensive, so current practice is to use narrow test su",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
