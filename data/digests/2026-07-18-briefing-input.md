@@ -3,56 +3,56 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17320
-- filtered_count: 2251
+- fetched_count: 17310
+- filtered_count: 2242
 - duplicate_count: 73
-- failures: 7
+- failures: 8
 
 ## Top 10 General AI News
 1. [Claude make Fable 5 permanent](https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent)
    - source: Simon Willison
-   - score: 69.644
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.953; source_priority=1.0
+   - score: 69.573
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.95; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [nascheme/quixote](https://simonwillison.net/2026/Jul/18/quixote)
    - source: Simon Willison
-   - score: 56.125
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.945; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.054
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.942; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age)
    - source: OpenAI
-   - score: 55.4
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.761; source_priority=1.0
+   - score: 55.353
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.758; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers](https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel)
    - source: Hugging Face
-   - score: 51.484
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.734; source_priority=1.0
+   - score: 51.414
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.731; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs](https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs)
    - source: TechCrunch AI
-   - score: 61.694
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.895; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.647
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.893; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Why the first GPU financiers are turning to inference chips in a $400 million deal](https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal)
    - source: TechCrunch AI
-   - score: 59.192
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.781; source_priority=1.0
+   - score: 59.145
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.779; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Transform your sales organization with Amazon Quick: your new agentic AI teammate](https://aws.amazon.com/blogs/machine-learning/transform-your-sales-organization-with-amazon-quick-your-new-agentic-ai-teammate)
    - source: Amazon AWS AI
-   - score: 57.396
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.851; source_priority=1.0
+   - score: 57.349
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.849; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic](https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 56.268
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.497; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.50; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.126
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.491; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.49; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Quoting Kimi K3](https://simonwillison.net/2026/Jul/17/kimi-k3)
    - source: Simon Willison
-   - score: 54.05
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.699; source_priority=1.0
+   - score: 53.979
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.696; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.70; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
@@ -61,28 +61,28 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Rescale Interlink: Open-Source Data Transfer and Job Management](https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management)
-   - source: Rescale
-   - score: 70.853
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.978; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking](https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking)
+1. [Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking](https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking)
    - source: Neural Concept
    - score: 59.7
    - score_breakdown: general=0.167; engineering=1.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
-3. [Ferrari Cuts Powertrain Prototypes By 40 Percent With Simulation](https://www.synopsys.com/success-stories/ferrari-cuts-powertrain-prototypes-by-40-percent-with-simulation.html)
+2. [Ferrari Cuts Powertrain Prototypes By 40 Percent With Simulation](https://www.synopsys.com/success-stories/ferrari-cuts-powertrain-prototypes-by-40-percent-with-simulation.html)
    - source: Synopsys
-   - score: 58.598
+   - score: 58.594
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.93; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.93; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Agility Robotics plants its flag in Tesla’s backyard](https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard)
+3. [Agility Robotics plants its flag in Tesla’s backyard](https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard)
    - source: TechCrunch AI
-   - score: 57.768
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.868; source_priority=1.0
+   - score: 57.721
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.866; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Ai Spaces From Silos To Sovereign Cross Organizational Intelligence](https://www.industrial-ai-network.com/publications/ai-spaces-from-silos-to-sovereign-cross-organizational-intelligence)
+4. [Ai Spaces From Silos To Sovereign Cross Organizational Intelligence](https://www.industrial-ai-network.com/publications/ai-spaces-from-silos-to-sovereign-cross-organizational-intelligence)
    - source: Industrial AI Network
+   - score: 57.033
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Algorithm Based Fea](https://www.synera.ai/workflows/algorithm-based-fea)
+   - source: Synera
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: STAT readers on the value of primary care, obesity as a disease, and more](https://www.statnews.com/2026/07/18/primary-care-debate-letters-to-editor)
    - source: STAT Health Tech
-   - score: 57.003
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.985; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.862
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.979; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Opinion: What the 20th-century war on smog tells us about today’s wildfire smoke](https://www.statnews.com/2026/07/17/wildfire-smoke-air-quality-smog-policy-climate-change)
    - source: STAT Health Tech
-   - score: 48.962
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.619; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.62; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.82
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.613; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.61; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Sustaining Rural Health](https://www.healthcareitnews.com/projects/how-it-can-help-sustain-rural-healthcare)
    - source: Healthcare IT News
    - score: 43.033
@@ -171,6 +171,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: The read operation timed out
+- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
