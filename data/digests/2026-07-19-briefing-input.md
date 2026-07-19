@@ -3,57 +3,57 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17288
-- filtered_count: 2196
+- fetched_count: 17287
+- filtered_count: 2197
 - duplicate_count: 72
 - failures: 7
 
 ## Top 10 General AI News
 1. [Controlling Reasoning Effort in LLMs](https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms)
    - source: Ahead of AI
-   - score: 63.203
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.903; source_priority=1.0
+   - score: 63.172
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.902; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust)
    - source: Simon Willison
-   - score: 62.26
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.921; source_priority=1.0
+   - score: 62.153
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.916; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.92; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-830)
    - source: Latent Space
-   - score: 47.551
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.555; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.444
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.55; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.55; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [AI Mania Is Eviscerating Global Decision-Making](https://simonwillison.net/2026/Jul/19/ai-mania)
    - source: Simon Willison
-   - score: 56.007
+   - score: 55.9
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.935; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Politicians Are Trying to Change What Chatbots Say About Them](https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html)
+   - source: New York Times Technology
+   - score: 57.151
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.992; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [The ‘Bad Blood’ Between Polymarket’s Shayne Coplan and Kalshi’s Tarek Mansour](https://www.nytimes.com/2026/07/19/technology/polymarket-kalshi-rivalry-coplan-mansour.html)
+   - source: New York Times Technology
+   - score: 57.148
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.992; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Victoria announces new social media ‘demasking’ powers for accounts accused of vilification](https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers)
+   - source: The Guardian Technology
+   - score: 56.021
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.94; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Victoria announces new social media ‘demasking’ powers for accounts accused of vilification](https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers)
-   - source: The Guardian Technology
-   - score: 56.236
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [‘We noticed a login from a new device’: the message from fraudsters targeting your X account](https://www.theguardian.com/money/2026/jul/19/x-scams-login-new-device-message-account-crypto-phishing)
-   - source: The Guardian Technology
-   - score: 55.3
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.908; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Databricks hits $188B valuation, extending its run as AI’s favorite second act](https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act)
+8. [Databricks hits $188B valuation, extending its run as AI’s favorite second act](https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act)
    - source: TechCrunch AI
-   - score: 52.037
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.638; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.64; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-8. [Neil Rimer thinks the AI money is coming back out](https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out)
+   - score: 51.965
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.635; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.63; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+9. [Apple’s lawsuit couldn’t come at a worse time for OpenAI](https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai)
    - source: TechCrunch AI
-   - score: 50.877
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.707; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
-   - source: Anthropic
-   - score: 49.7
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.749
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.549; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.55; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
    - source: Anthropic
    - score: 49.033
@@ -63,7 +63,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Rescale Interlink: Open-Source Data Transfer and Job Management](https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management)
    - source: Rescale
-   - score: 70.303
+   - score: 70.296
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.953; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Industrial Ai Terminology Guide Pdf Version 2](https://www.industrial-ai-network.com/publications/industrial-ai-terminology-guide-pdf-version-2)
@@ -100,7 +100,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Ean 2026 Bocunebarts Promise As Migraine Preventive In Treatment Refractory Patients](https://www.pharmaceutical-technology.com/analyst-comment/ean-2026-bocunebarts-promise-as-migraine-preventive-in-treatment-refractory-patients)
    - source: Pharmaceutical Technology
-   - score: 36.477
+   - score: 36.47
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.561; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [2135932.Article](https://www.drugtargetreview.com/home/as-ai-agents-mature-the-question-becomes-what-is-the-human-for/2135932.article)
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [Controlling Reasoning Effort in LLMs](https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms)
    - source: Ahead of AI
-   - score: 63.203
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.903; source_priority=1.0
+   - score: 63.172
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.902; source_priority=1.0
 2. [Agents Course](https://huggingface.co/learn/agents-course)
    - source: Hugging Face Papers
    - score: 51.033
