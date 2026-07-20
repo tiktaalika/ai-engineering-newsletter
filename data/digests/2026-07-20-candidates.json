@@ -1,19 +1,15 @@
 {
   "run_log": {
-    "generated_at": "2026-07-20T09:45:53.021598+00:00",
+    "generated_at": "2026-07-20T10:20:50.919803+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17323,
-    "filtered_count": 2220,
-    "duplicate_count": 71,
+    "fetched_count": 17283,
+    "filtered_count": 2243,
+    "duplicate_count": 69,
     "failures": [
       {
         "source": "Ansys",
         "error": "The read operation timed out"
-      },
-      {
-        "source": "Rescale",
-        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -66,10 +62,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 65.283,
+      "score": 65.083,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -78,7 +74,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,10 +100,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 46.764,
+      "score": 46.563,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.36",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -116,7 +112,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.368,
+      "novelty_score": 0.359,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -129,36 +125,37 @@
       "source_priority": "high"
     },
     {
-      "id": "3921df47f5928440",
-      "title": "AI is more likely than humans to form biases when hiring",
-      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
-      "source": "MIT Technology Review AI",
+      "id": "90cef26b7e07e68a",
+      "title": "China delivers a one-two punch to America’s AI dominance",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "source": "The Verge AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-20T08:39:01+00:00",
-      "text": "AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
+      "published_at": "2026-07-20T10:16:33+00:00",
+      "text": "China delivers a one-two punch to America’s AI dominance China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming […]",
       "matched_terms": [
         "AI",
-        "LLM"
+        "OpenAI",
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 62.567,
+      "score": 63.951,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
-        "matched_terms=2",
+        "novelty=1.00",
+        "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.965,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.998,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
-        "analysis"
+        "product"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -177,10 +174,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 62.554,
+      "score": 62.153,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -189,7 +186,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.965,
+      "novelty_score": 0.946,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -212,10 +209,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.378,
+      "score": 57.244,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -224,7 +221,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -247,10 +244,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 56.833,
+      "score": 56.432,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -259,7 +256,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.959,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -281,10 +278,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.464,
+      "score": 56.063,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -293,7 +290,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.96,
+      "novelty_score": 0.942,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -431,10 +428,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 61.854,
+      "score": 61.453,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
+        "novelty=0.27",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -443,7 +440,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.289,
+      "novelty_score": 0.271,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -611,10 +608,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.464,
+      "score": 56.063,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -623,7 +620,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.96,
+      "novelty_score": 0.942,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -794,10 +791,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 61.854,
+      "score": 61.453,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
+        "novelty=0.27",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -806,7 +803,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.289,
+      "novelty_score": 0.271,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1289,6 +1286,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1541,6 +1548,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1656,10 +1673,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.322,
+      "score": 75.308,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
+        "novelty=0.57",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1682,6 +1699,43 @@
       "source_priority": "high"
     },
     {
+      "id": "da9d0703229ae16b",
+      "title": "Open-source AI Datasets for AI Physics Model Training",
+      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T15:00:00+00:00",
+      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
+      "matched_terms": [
+        "simulation",
+        "surrogate model",
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 74.173,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.705,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "ed26ceddfa654dba",
       "title": "Celebrating 40 Years of Multiphysics Simulation",
       "url": "https://www.comsol.com/blogs/celebrating-40-years-of-multiphysics-simulation",
@@ -1695,7 +1749,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 74.142,
+      "score": 74.129,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1707,11 +1761,83 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.855,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a9313472d40e9aa4",
+      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
+      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-17T12:01:00+00:00",
+      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 69.722,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.927,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "90cd344a0949cc26",
+      "title": "GeoTransolver AI Model Architecture Integration for CFD Applications",
+      "url": "https://rescale.com/blog/geotransolver-ai-model-architecture-integration-cfd-applications",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-02T15:00:00+00:00",
+      "text": "GeoTransolver AI Model Architecture Integration for CFD Applications Power complex and high-accuracy AI surrogate models for CFD and FEA with GeoTransolver model architecture. Now available in Rescale AI Physics as part of the NVIDIA PhysicsNeMo library, GeoTransolver is a geometry-aware transformer architecture that uses GALE attention to model relationships across complex 3D geometries and unstructured meshes. It is designed to generalize across changing operating conditions and learn transient, geometry-aware physical behavior, making it well-suited for surrogate models that need to predict aerodynamic, structural, or deformation behavior across a range of design variants.",
+      "matched_terms": [
+        "surrogate model",
+        "FEA",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 68.207,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.555,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1729,7 +1855,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.119,
+      "score": 68.105,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1741,7 +1867,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1749,6 +1875,41 @@
         "simulation",
         "industrial_ai",
         "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f7a88fc37e79f3e4",
+      "title": "Agent-Driven Simulation Troubleshooting",
+      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T12:00:00+00:00",
+      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 68.071,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.852,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1766,7 +1927,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.481,
+      "score": 67.468,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -1778,7 +1939,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.704,
+      "novelty_score": 0.703,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1801,7 +1962,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.462,
+      "score": 67.449,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -1813,7 +1974,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.824,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1894,6 +2055,41 @@
       "source_priority": "high"
     },
     {
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 65.94,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.75",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.755,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "115d933ecc6df9df",
       "title": "Quoting Sam Altman",
       "url": "https://simonwillison.net/2026/Jul/20/sam-altman",
@@ -1909,10 +2105,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 65.283,
+      "score": 65.083,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1921,7 +2117,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1934,71 +2130,37 @@
       "source_priority": "high"
     },
     {
-      "id": "3921df47f5928440",
-      "title": "AI is more likely than humans to form biases when hiring",
-      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
-      "source": "MIT Technology Review AI",
+      "id": "90cef26b7e07e68a",
+      "title": "China delivers a one-two punch to America’s AI dominance",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "source": "The Verge AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-20T08:39:01+00:00",
-      "text": "AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
+      "published_at": "2026-07-20T10:16:33+00:00",
+      "text": "China delivers a one-two punch to America’s AI dominance China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming […]",
       "matched_terms": [
         "AI",
-        "LLM"
+        "OpenAI",
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 62.567,
+      "score": 63.951,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
-        "matched_terms=2",
+        "novelty=1.00",
+        "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.965,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.998,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
-        "analysis"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "d7a5fc6bc82449ef",
-      "title": "Jeff Bezos and UK government invest in £2bn British startup CuspAI",
-      "url": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-20T08:37:52+00:00",
-      "text": "Jeff Bezos and UK government invest in £2bn British startup CuspAI Company aims to develop AI software that cuts research times and use of rare metals in chipmakers’ supply chains Business live – latest updates Amazon’s founder, Jeff Bezos, and the UK government have invested in a £2bn British artificial intelligence startup that is aiming to become the “search engine for rare materials” that accelerates the next wave of technological breakthroughs. The Cambridge-based CuspAI has raised $450m (£330m) in funding from investors including Bezos and the government’s sovereign AI fund, valuing the two-year-old business at $2.6bn. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 62.554,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.965,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
+        "product"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -2039,36 +2201,67 @@
       "source_priority": "high"
     },
     {
-      "id": "a90caad7a6dbf774",
-      "title": "Could AI be conscious?",
-      "url": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
-      "source": "The Guardian Technology",
+      "id": "3921df47f5928440",
+      "title": "AI is more likely than humans to form biases when hiring",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
+      "source": "MIT Technology Review AI",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-19T11:00:25+00:00",
-      "text": "Could AI be conscious? Experts believe it’s at least possible. We urgently need a plan to navigate the ethical implications In January, the AI company Anthropic published a new constitution for Claude, its most advanced large language model (LLM), which contained the comment: “We are caught in a difficult position where we neither want to overstate the likelihood of Claude’s moral patienthood nor dismiss it out of hand.” A month later, Anthropic’s CEO Dario Amodei went on a podcast and said his company couldn’t rule out the possibility that Claude was conscious. Philosopher David Chalmers, who coined the phrase “the hard problem of consciousness”, has said there is a significant chance of conscious LLMs within a decade. And what about Claude itself? When asked during testing to estimate the probability that it is a moral patient , meaning that its wellbeing matters in its own right, it gave numbers ranging from 5% to 40% and stressed how uncertain it was. Modern AI systems are extraordinarily complex, and they are advancing fast. In terms of structural complexity and computational scale, by some measures a few are already in the range of a mouse brain, and at recent growth rates, t",
+      "category": "general_ai",
+      "published_at": "2026-07-20T08:39:01+00:00",
+      "text": "AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
       "matched_terms": [
         "AI",
-        "LLM",
-        "large language model",
-        "Anthropic",
-        "Claude",
-        "Dario Amodei"
+        "LLM"
       ],
       "engagement": {},
-      "score": 61.854,
+      "score": 62.167,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.29",
-        "matched_terms=6",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.289,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.947,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d7a5fc6bc82449ef",
+      "title": "Jeff Bezos and UK government invest in £2bn British startup CuspAI",
+      "url": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-20T08:37:52+00:00",
+      "text": "Jeff Bezos and UK government invest in £2bn British startup CuspAI Company aims to develop AI software that cuts research times and use of rare metals in chipmakers’ supply chains Business live – latest updates Amazon’s founder, Jeff Bezos, and the UK government have invested in a £2bn British artificial intelligence startup that is aiming to become the “search engine for rare materials” that accelerates the next wave of technological breakthroughs. The Cambridge-based CuspAI has raised $450m (£330m) in funding from investors including Bezos and the government’s sovereign AI fund, valuing the two-year-old business at $2.6bn. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 62.153,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.946,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2090,7 +2283,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 61.54,
+      "score": 61.526,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2102,13 +2295,52 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.555,
+      "novelty_score": 0.554,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a90caad7a6dbf774",
+      "title": "Could AI be conscious?",
+      "url": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-19T11:00:25+00:00",
+      "text": "Could AI be conscious? Experts believe it’s at least possible. We urgently need a plan to navigate the ethical implications In January, the AI company Anthropic published a new constitution for Claude, its most advanced large language model (LLM), which contained the comment: “We are caught in a difficult position where we neither want to overstate the likelihood of Claude’s moral patienthood nor dismiss it out of hand.” A month later, Anthropic’s CEO Dario Amodei went on a podcast and said his company couldn’t rule out the possibility that Claude was conscious. Philosopher David Chalmers, who coined the phrase “the hard problem of consciousness”, has said there is a significant chance of conscious LLMs within a decade. And what about Claude itself? When asked during testing to estimate the probability that it is a moral patient , meaning that its wellbeing matters in its own right, it gave numbers ranging from 5% to 40% and stressed how uncertain it was. Modern AI systems are extraordinarily complex, and they are advancing fast. In terms of structural complexity and computational scale, by some measures a few are already in the range of a mouse brain, and at recent growth rates, t",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "large language model",
+        "Anthropic",
+        "Claude",
+        "Dario Amodei"
+      ],
+      "engagement": {},
+      "score": 61.453,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.27",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.271,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2124,7 +2356,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 60.767,
+      "score": 60.71,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -2136,7 +2368,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.792,
+      "novelty_score": 0.79,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2474,6 +2706,41 @@
       "source_priority": "high"
     },
     {
+      "id": "cd0ef033508aa3cc",
+      "title": "Knowledge Base Support on AWS and Azure",
+      "url": "https://rescale.com/blog/knowledge-base-support-on-aws-and-azure",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-29T15:29:12+00:00",
+      "text": "Knowledge Base Support on AWS and Azure Connect and interact with all your data in one place. Rescale now connects engineering data stored in AWS S3 and Azure Blob Storage directly to the Rescale Assistant through vectorized search. Once connected, engineers can ask natural language questions and receive fast, contextually grounded answers drawn from their organization's own data, rather than relying only on general AI knowledge or manual file searches.",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 59.901,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.48",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.48,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2486,7 +2753,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.902,
+      "score": 59.889,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2544,42 +2811,6 @@
       "source_priority": "high"
     },
     {
-      "id": "e723c4e752505f26",
-      "title": "Our approach to bioresilience",
-      "url": "https://deepmind.google/blog/our-approach-to-bioresilience",
-      "source": "Google DeepMind",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-16T09:30:42+00:00",
-      "text": "Our approach to bioresilience Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
-      "matched_terms": [
-        "AI",
-        "Google DeepMind"
-      ],
-      "engagement": {},
-      "score": 59.213,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.57",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.57,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "research",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
       "id": "29f637f9e2214d14",
       "title": "How SimScale’s AI Agent Transforms Simulation Workflows On April 23, we dived deep into an end-to-end agentic workflow in SimScale. It was a great live session in Alex Graham May 13, 2026 Engineering AI",
       "url": "https://www.simscale.com/blog/how-ai-agents-transform-simulation-workflows",
@@ -2616,6 +2847,42 @@
       "source_priority": "medium"
     },
     {
+      "id": "e723c4e752505f26",
+      "title": "Our approach to bioresilience",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-16T09:30:42+00:00",
+      "text": "Our approach to bioresilience Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "matched_terms": [
+        "AI",
+        "Google DeepMind"
+      ],
+      "engagement": {},
+      "score": 59.156,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.57",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.568,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
       "id": "3e25372b9239ef76",
       "title": "Nvidia Physical Ai",
       "url": "https://huggingface.co/blog/nvidia-physical-ai",
@@ -2649,6 +2916,41 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "3824b64966784a9b",
+      "title": "Agentic Simulation Report Generation",
+      "url": "https://rescale.com/blog/agentic-simulation-report-generation",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-06-25T16:13:24+00:00",
+      "text": "Agentic Simulation Report Generation Presentation-ready reports in minutes vs. hours. Rescale’s Report Generator Agent eliminates the gap between raw results and structured reporting. Once a simulation study is complete, the agent takes the results data and automatically generates a report aligned to a customer's own reporting templates, including findings, relevant charts, and recommendations.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.718,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.38",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.381,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2738,7 +3040,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 57.48,
+      "score": 57.467,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.88",
@@ -2774,10 +3076,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.378,
+      "score": 57.244,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2786,7 +3088,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -4969,281 +5271,6 @@
       "source_tags": [
         "engineering_agents",
         "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "51f9f00633997da4",
-      "title": "Automating Cae Reporting",
-      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a04eae22c7539e13",
-      "title": "Automatisierung Cae Berichterstattung",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "0a951fddf5b3666d",
-      "title": "Automatisierung Fea Aufgaben",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "d8f5a4edfd9ee155",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba6a4cbdb5dbf1b3",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c47f51de21ac3351",
-      "title": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
-      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
-      "source": "Luminary Cloud",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "03.18.2025 Luminary Cloud and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud_cae",
-        "simulation",
-        "physics_ai"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "68416d20bf0d7089",
-      "title": "Ai In Cae",
-      "url": "https://www.neuralconcept.com/post/ai-in-cae",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "955ec8dc94a3f30b",
-      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
-      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
