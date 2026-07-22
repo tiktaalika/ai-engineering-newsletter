@@ -3,83 +3,83 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17048
-- filtered_count: 2186
-- duplicate_count: 71
-- failures: 18
+- fetched_count: 17104
+- filtered_count: 2246
+- duplicate_count: 75
+- failures: 8
 
 ## Top 10 General AI News
 1. [Introducing the ChatGPT for small business program](https://openai.com/index/introducing-chatgpt-small-business-program)
    - source: OpenAI
-   - score: 57.055
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.836; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.941
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.831; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [[AINews] AI Cybersecurity becomes top of mind](https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top)
    - source: Latent Space
-   - score: 55.512
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.917; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.34
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.909; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [OpenAI and Hugging Face partner to address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident)
    - source: OpenAI
-   - score: 54.764
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.732; source_priority=1.0
+   - score: 54.65
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.727; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.73; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Nativ: Run AI models locally on your Mac](https://simonwillison.net/2026/Jul/21/nativ)
    - source: Simon Willison
-   - score: 54.347
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.713; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.176
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.705; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.70; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)](https://www.latent.space/p/xaira)
    - source: Latent Space
-   - score: 52.799
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.794; source_priority=1.0
+   - score: 52.628
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.786; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Pushing software engineering limits with “napkin math”](https://newsletter.pragmaticengineer.com/p/pushing-software-engineering-limits)
    - source: The Pragmatic Engineer
-   - score: 40.671
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.752; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 40.5
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.744; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai)
    - source: NVIDIA AI
-   - score: 63.264
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.15
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.81; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [NVIDIA Vera CPU: Olympus Cores Built for Maximum Single-Thread Performance in Agentic AI](https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai)
    - source: NVIDIA AI
-   - score: 63.264
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.15
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.81; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [The Anthropic-Physical Intelligence rumor roiling AI Twitter](https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter)
    - source: TechCrunch AI
-   - score: 62.761
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.944; source_priority=1.0
+   - score: 62.646
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.938; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.94; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents](https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents)
    - source: TechCrunch AI
-   - score: 61.014
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.864; source_priority=1.0
+   - score: 60.9
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.859; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [A Fireside Chat with Cat and Thariq from the Claude Code team](https://simonwillison.net/2026/Jul/21/cat-and-thariq)
    - source: Simon Willison
-   - score: 76.007
-   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.69; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.69; matched_terms=8; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+   - score: 75.836
+   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.682; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.68; matched_terms=8; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
 2. [Why AI Needs a “Genie Coefficient”](https://spectrum.ieee.org/ai-agent-benchmark)
    - source: IEEE Spectrum AI
-   - score: 75.138
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.529; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=7; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 74.796
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.513; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.51; matched_terms=7; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 3. [The State of Simulation for Physical AI: An Overview](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai)
    - source: Hugging Face
-   - score: 59.95
-   - score_breakdown: general=0.167; engineering=0.5; research=0.0; novelty=0.801; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.779
+   - score_breakdown: general=0.167; engineering=0.5; research=0.0; novelty=0.793; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
 4. [AI and the rise of the universal entertainment app](https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app)
    - source: TechCrunch AI
-   - score: 57.831
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.864; source_priority=1.0
+   - score: 57.717
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.858; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [What Is Industrial Ai](https://www.industrial-ai-network.com/articles/what-is-industrial-ai)
    - source: Industrial AI Network
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Federal health quality research grants worth $109 million ended early](https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding)
    - source: STAT Health Tech
-   - score: 59.823
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.992; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 59.48
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.976; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Opinion: STAT+: Hospitals’ AI may be drifting. Who’s watching?](https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance)
    - source: STAT Health Tech
-   - score: 57.156
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.992; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.814
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.976; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Winning Best of Show Again: A Reflection on MLADU, Research Data, and the Bio-IT World Community](https://www.bio-itworld.com/news/2026/07/21/winning-best-of-show-again--a-reflection-on-mladu--research-data--and-the-bio-it-world-community)
    - source: Bio-IT World
    - score: 45.7
@@ -110,9 +110,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Bms Nvidia Build Ai Supercomputer Pharma](https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma)
    - source: Pharmaceutical Technology
-   - score: 33.97
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.296; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.30; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 33.627
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.28; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.28; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [AI at Meta](https://huggingface.co/facebook)
@@ -140,6 +140,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)
 - [VentureBeat AI](https://www.google.com/search?q=site%3Aventurebeat.com%20AI): site:venturebeat.com AI (website, medium)
 - [Perplexity](https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI): site:www.perplexity.ai AI (website, medium)
+- [Snowflake AI](https://www.google.com/search?q=site%3Awww.snowflake.com%20AI): site:www.snowflake.com AI (website, medium)
 - [Engineering.com Design News Weekly](https://www.google.com/search?q=site%3Aengineering.com/category/technology/design%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20CAD%20OR%20CAE%20OR%20simulation%20OR%20manufacturing%20OR%20%22Solid%20Edge%22%20OR%20Designcenter%20OR%20Siemens%20OR%20Autodesk%20OR%20PLM%29): site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM) (newsletter, high)
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
@@ -173,20 +174,10 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: The read operation timed out
+- COMSOL: HTTP Error 503: Service Unavailable
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
-- Google News General AI Discovery: HTTP Error 503: Service Unavailable
-- Google News AI Payments and Agent Commerce: HTTP Error 503: Service Unavailable
-- Google News Frontier AI Policy and Access: HTTP Error 503: Service Unavailable
-- Google News Engineering AI Discovery: HTTP Error 503: Service Unavailable
-- Trusted Engineering AI Vendor Discovery: HTTP Error 503: Service Unavailable
-- Trusted Engineering Media Discovery: HTTP Error 503: Service Unavailable
-- Google News Medical AI Discovery: HTTP Error 503: Service Unavailable
-- Google News Bio and Genetics AI Discovery: HTTP Error 503: Service Unavailable
-- Trusted Biomedical AI Source Discovery: HTTP Error 503: Service Unavailable
-- Curated AI Newsletter Discovery: HTTP Error 503: Service Unavailable
-- Generative AI Newsletter Discovery: HTTP Error 503: Service Unavailable
