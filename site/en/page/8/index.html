@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Engineering Newsletter</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #191815;
+      --muted: #6f6a60;
+      --line: #d7d0c2;
+      --paper: #f8f5ee;
+      --panel: #fffdf8;
+      --accent: #0b6b5a;
+      --accent-2: #c1492e;
+      --shadow: 0 22px 70px rgba(47, 38, 24, .11);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Charter, "Iowan Old Style", Georgia, serif;
+      background:
+        linear-gradient(90deg, rgba(25,24,21,.035) 1px, transparent 1px) 0 0/38px 38px,
+        linear-gradient(#fbf8f1, #eee7d8);
+      color: var(--ink);
+    }
+    .shell { max-width: 1180px; margin: 0 auto; padding: 34px 22px 80px; }
+    .hero { position: sticky; top: 0; z-index: 5; padding: 22px 0 20px; backdrop-filter: blur(18px); background: color-mix(in srgb, var(--paper) 78%, transparent); border-bottom: 1px solid rgba(25,24,21,.1); }
+    .hero-inner { max-width: 1180px; margin: 0 auto; padding: 0 22px; display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: end; }
+    h1 { margin: 0; font-size: clamp(30px, 4vw, 56px); line-height: 1; letter-spacing: 0; font-weight: 700; }
+    .subtitle { margin: 12px 0 0; color: var(--muted); font-size: 17px; max-width: 760px; }
+    .stamp { text-align: right; font-size: 14px; color: var(--muted); }
+    .nav, .language-switch, .pager { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 28px; }
+    .nav { margin-bottom: 16px; }
+    .nav a, .nav span, .language-switch a, .pager a, .pager span { color: var(--ink); border: 1px solid var(--line); padding: 7px 10px; text-decoration: none; background: rgba(255,255,255,.55); }
+    .nav span, .pager span { color: var(--muted); }
+    .language-switch a.active { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+    .day { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); margin: 28px 0; padding: 24px; }
+    .day.missing { border-style: dashed; }
+    .day-head { display: flex; justify-content: space-between; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 22px; }
+    .eyebrow { margin: 0 0 5px; color: var(--accent-2); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; font-family: "Avenir Next", Verdana, sans-serif; }
+    h2 { margin: 0; font-size: 38px; }
+    h3 { margin: 0 0 14px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
+    .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
+    .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .subsection { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
+    .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
+    .paper-push { margin-top: 26px; padding-top: 20px; border-top: 2px solid var(--ink); }
+    .paper-intro { margin: 0 0 8px; color: var(--muted); line-height: 1.5; max-width: 820px; }
+    .paper-item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
+    .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
+    h4 { margin: 0; font-size: 18px; line-height: 1.25; }
+    .zh-summary { margin: 0 0 7px; font-size: 18px; line-height: 1.38; font-weight: 700; color: var(--ink); }
+    .en-summary { margin: 8px 0 0; font-size: 15px; line-height: 1.46; color: var(--muted); }
+    a { color: var(--ink); text-decoration-color: color-mix(in srgb, var(--accent), transparent 40%); text-underline-offset: 3px; }
+    .meta { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; color: var(--muted); }
+    .meta span { border: 1px solid var(--line); padding: 4px 7px; }
+    .reason { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+    .empty-note { margin: 0; border: 1px dashed var(--line); padding: 14px; color: var(--muted); line-height: 1.45; background: rgba(255,255,255,.42); }
+    .missing-note h3 { margin: 0 0 10px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .missing-note p { margin: 0; color: var(--muted); line-height: 1.5; max-width: 760px; }
+    .landing { min-height: 100vh; display: grid; align-items: center; }
+    .landing-panel { max-width: 980px; margin: 0 auto; padding: 44px 22px; }
+    .landing h1 { font-size: clamp(38px, 7vw, 86px); }
+    .landing-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 34px; }
+    .edition { display: block; border: 1px solid var(--line); background: var(--panel); padding: 24px; text-decoration: none; box-shadow: var(--shadow); }
+    .edition strong { display: block; font-size: 28px; margin-bottom: 8px; }
+    .edition span { color: var(--muted); line-height: 1.45; }
+    .trend-panel { background: var(--ink); color: var(--panel); margin: 0 0 28px; padding: 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 24px; align-items: end; }
+    .trend-panel .eyebrow { color: #f0b45f; }
+    .trend-panel h2 { font-size: 32px; }
+    .trend-panel p { margin: 10px 0 0; color: rgba(255,253,248,.76); line-height: 1.5; max-width: 720px; }
+    .trend-actions { display: grid; gap: 10px; }
+    .trend-actions a { border: 1px solid rgba(255,253,248,.28); color: var(--panel); padding: 14px; text-decoration: none; background: rgba(255,253,248,.08); }
+    .trend-actions strong { display: block; font-family: "Avenir Next", Verdana, sans-serif; font-size: 14px; margin-bottom: 4px; }
+    .trend-actions span { display: block; color: rgba(255,253,248,.72); font-size: 14px; }
+    .report-document { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); padding: 24px; }
+    .report-document h1 { font-size: 40px; margin-bottom: 14px; }
+    .report-document h2 { border-top: 2px solid var(--ink); margin-top: 30px; padding-top: 18px; font-size: 28px; }
+    .report-document h3 { margin-top: 24px; }
+    .report-document h4 { margin-top: 18px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .report-document p, .report-document li { line-height: 1.5; color: var(--muted); }
+    .report-table-wrap { overflow-x: auto; border: 1px solid var(--line); margin: 14px 0 22px; }
+    .report-table { width: 100%; border-collapse: collapse; min-width: 980px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; }
+    .report-table th, .report-table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    .report-table th { background: #eee7d8; color: var(--ink); position: sticky; top: 0; }
+    code { background: rgba(11,107,90,.08); padding: 1px 4px; }
+    @media (max-width: 860px) {
+      .hero-inner, .day-head, .columns, .landing-links, .trend-panel { grid-template-columns: 1fr; }
+      .stamp { text-align: left; }
+      .day { padding: 18px; }
+      h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>AI Engineering Newsletter</h1>
+        <p class="subtitle">One public page for News Push and GitHub Trend Monitor across general AI, engineering AI, CAE, CAD, simulation, digital twins, industrial AI, and scientific ML.</p>
+        <div class="language-switch"><a href="../../../zh/page/8/index.html">中文版</a><a class="active" href="./index.html">English</a></div>
+      </div>
+      <div class="stamp">Latest Issued<br><strong>2026-07-22</strong><br><span>2026-06-03 — 2026-06-03</span></div>
+    </div>
+  </header>
+  <main class="shell">
+    
+    <nav class="nav"><a href="#2026-06-03">2026-06-03</a></nav>
+    <nav class="pager"><span>Older week</span><a href="../7/index.html">Newer week</a></nav>
+    
+    <section class="day" id="2026-06-03">
+      <header class="day-head">
+        <div>
+          <p class="eyebrow">Wednesday, June 03, 2026</p>
+          <h2>2026-06-03</h2>
+        </div>
+        <div class="audit">
+          <span>325 fetched</span>
+          <span>59 candidates</span>
+          <span>9 failures</span>
+        </div>
+      </header>
+      <div class="columns">
+        <section>
+          <h3>Top 10 General AI News</h3>
+          
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ0VmR0diTmJnejBXTlNDMTExQU9wWnh0U3ZWOXNOb0VHdTZScnFIR2w4dm8zcFNDdGk1ellycUpCUnh4NG51SVhOQ21RWGZtSlg0MHJtY0ZwU05ZbG5BR1V6b2hxeEJOTzR6VWEwZkwybWt1NC0wUl9qRHRXekM1RnM2VkxNR2M3OEtQQ0VKb3ZkUE95NEthYnR1eVZWczMtbWlMWTRyZ093dV9BamxIal91WXlhQXIyY21uU3ZR?oc=5">Meta enters enterprise AI race with new business agent - Reuters</a></h4>
+          <p class="en-summary">Meta enters enterprise AI race with new business agent Reuters</p>
+          <div class="meta"><span>Reuters</span><span>score 61.6</span></div>
+          <p class="reason">source_reach=1.00; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWVlDRlB3R1l4enIwMVItTzdlOGFkcnV2Tk9hRTNkMXZMREdub3FtNURmb3gwbVVjZlQ3Vm1HVEx4WmxOZEFCdmh0QzJpQ09vWVpQTGN5cFpUb2hmTFpOZjZJZW5SS3h3WGsxMEEyQ01wWThXakRHTXZSVzM0WjdBTl82Zl9XZjgxTWxEa2xDanU4Mk8zTVNpLUtlaXpjT29DTFVXUDNib3ZGZlNpVVRoM2tsZ0JIWU1BQjNN?oc=5">AI is not artificial intelligence, it is MACHINE LEARNING. - Daily Kos</a></h4>
+          <p class="en-summary">AI is not artificial intelligence, it is MACHINE LEARNING. Daily Kos</p>
+          <div class="meta"><span>Daily Kos</span><span>score 61.249</span></div>
+          <p class="reason">source_reach=1.00; recency=0.91</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZWtSVUtmeUhQa1QwXzVFQjlXZEFiSi1UdXVvM1dPZkczcVM4eDJKUVZyaFNiUUlzQzRoMGpUYURJV0tZUjVVU3VQTmZaeThDVlpQUW52ZGdCZW40Y29JX0xCRFNQNE1RNVRXMkJmQWRJdDllZWlaenUyanlxekdjN04xdklDdVk4dVZEQVJJeUluUTA3VkMtUzJSbC10T0hEYXFkdXVrTmx3RjZ6Mndmd25WQkp1dU5SZ05mblRzQkM?oc=5">Executive Order Creates Voluntary Regulatory Regime of Frontier AI Models - Crowell &amp; Moring LLP</a></h4>
+          <p class="en-summary">Executive Order Creates Voluntary Regulatory Regime of Frontier AI Models Crowell &amp; Moring LLP</p>
+          <div class="meta"><span>Crowell &amp; Moring LLP</span><span>score 61.185</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ3VmNVkyNmUwcUJ4NDh3VnFNaVBUNk15cmJlOTZwYzVvRFB1UThhdHhtT2plT0VxTmt6Sl9RZkFxMzFQWWtkWnlUU2dmd01ZUllOOEwzYzd1ZW0yQUZYanBSZGpmWnF6X0FiTHJweVhURTRKbEZXb0JFU0JYMDJLMnJDQlo4Z09PaTIyenFsYWtUeGNCdV9ZQ2Z4WGl6em1Qal9iUmZDdFVkVmctcElnV1Rmbks?oc=5">Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO - Bloomberg</a></h4>
+          <p class="en-summary">Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO Bloomberg</p>
+          <div class="meta"><span>Bloomberg</span><span>score 59.313</span></div>
+          <p class="reason">source_reach=1.00; recency=0.89</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQVjhjLXFSbFNBTEprX3k0MktqcHN2WVc3THlMc1lzWmtrR2xoNVpoLXFPMWZINHNCVDR0UEg2OVhiaHdqMmR2UEcyOGJpRlZHTjU1anNEeFFvei1oTDVNcjdNbHM1ZmxTMEo5RWVuMzJXdWwzQ0VKeXhySTkyWGdNNDY0STI3b19sYXBiRnlsRV8wNE4yNExyX0lNckM4RE1QeE1PdTFwRUxRUTJ6cXpUZTM0Z0o3blp0TWlHMHBNOA?oc=5">High-level signature event: Strategic roadmap for digitalisation and AI in energy - energy.ec.europa.eu</a></h4>
+          <p class="en-summary">High-level signature event: Strategic roadmap for digitalisation and AI in energy energy.ec.europa.eu</p>
+          <div class="meta"><span>energy.ec.europa.eu</span><span>score 58.44</span></div>
+          <p class="reason">source_reach=1.00; recency=0.85</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">06</div>
+        <div>
+          <h4><a href="https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition">Microsoft and OpenAI broke up — now they’re ready to fight</a></h4>
+          <p class="en-summary">At Microsoft&#x27;s annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it&#x27;s […]</p>
+          <div class="meta"><span>The Verge AI</span><span>score 56.238</span></div>
+          <p class="reason">source_reach=0.82; recency=0.80</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">07</div>
+        <div>
+          <h4><a href="https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation">Publishers will be able to opt out of AI Search, thanks to new regulation</a></h4>
+          <p class="en-summary">U.K. regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features.</p>
+          <div class="meta"><span>TechCrunch AI</span><span>score 52.306</span></div>
+          <p class="reason">source_reach=0.82; recency=0.83</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">08</div>
+        <div>
+          <h4><a href="https://www.theverge.com/policy/942296/google-water-commitments-data-centers">AI has a water problem — Google thinks it has a fix</a></h4>
+          <p class="en-summary">In the face of widespread backlash to the AI data center buildout throughout the US, Google is touting its efforts to minimize the environmental impact by actually increasing water for local communities. The company laid out five commitments around water use in a new blog post published Wednesday, including a goal to replenish more wat...</p>
+          <div class="meta"><span>The Verge AI</span><span>score 47.071</span></div>
+          <p class="reason">source_reach=0.82; recency=0.64</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">09</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQSE9zcEJXbjZ1SW9neEpHU0FRT1MyaXNaYTl0SFFmTG9aSVRrSXhTeEF0YkNJWlk0bjZUWFZrRGstaGFfdDJsMG9MMzgtbzA2Ti1Bek5JeUhaMFVOYk1yRlEwY2JnRGJPYTNGa3JIQnV0bTJSUnEtMjlxNjRHVjFyNTktTWVic2FTTUtVaFZXRkg0QkJuanplS05KNlNnb2ZtTmxkZUp4WXRhc0pvb0drdk9FZFRFZzJraVRNOWkwWTRieDg3NW9r?oc=5">C3 AI Announces Fiscal Fourth Quarter and Full Fiscal Year 2026 Results - Business Wire</a></h4>
+          <p class="en-summary">C3 AI Announces Fiscal Fourth Quarter and Full Fiscal Year 2026 Results Business Wire</p>
+          <div class="meta"><span>Business Wire</span><span>score 61.198</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">10</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQaFA5ZHJYcVcxSHdtcjNfUjU3Yk5OcXA2RFFOMEJNWjZhSC1pQ0JRV204STFfS1YtdEFSZV9aSGljbExXVk9uaXY3SnN1NUR4aFlvSTlRN3FOT3h0aGpMSFJFQmZFZUJweXhvd1BPWDg3dkxDM0pKS2Z3NWl3UUFwUXlB?oc=5">Pentagon looks to AI, other tech to help tackle contested logistics challenges - DefenseScoop</a></h4>
+          <p class="en-summary">Pentagon looks to AI, other tech to help tackle contested logistics challenges DefenseScoop</p>
+          <div class="meta"><span>DefenseScoop</span><span>score 61.093</span></div>
+          <p class="reason">source_reach=1.00; recency=0.98</p>
+        </div>
+      </article>
+    
+        </section>
+        
+      <section>
+        <h3>Top 5 Engineering AI News</h3>
+        
+      <article class="item">
+        <div class="rank">01</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire</a></h4>
+          <p class="en-summary">Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA Business Wire</p>
+          <div class="meta"><span>Business Wire</span><span>score 46.486</span></div>
+          <p class="reason">source_reach=0.62; recency=0.93</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">02</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOY1prY1VXbWpJWkNfV0tIa3JMUWdMckZnMFVvOHdZMGxxaDVvSHI3ODhVMEp3WDg5TElPVVhsbnd1QmNJVWtxZ0t1SHJsNjhGSkxWaXlyN2ZKVG9sSnRzVDVMcHVhT3JlOGt4U3ZZaUZxdXQ3NS1fX1czd2RQSjJma0dxNlZWd2lKVHpKMHhB?oc=5">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters - bikebiz.com</a></h4>
+          <p class="en-summary">AiRO’s AI-CFD Aerodynamic Fit Platform Reaches 100 Global Fitters bikebiz.com</p>
+          <div class="meta"><span>bikebiz.com</span><span>score 46.108</span></div>
+          <p class="reason">source_reach=0.62; recency=0.99</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">03</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOb1NhNlZWNzB2eVFubmg2a0xLX2hMVnFJdzJNc2xidnlLS3J4aEhxRlFfb2xjZUtWRzNmVjJjczB0WHk3eS1YLTNLMUk1SW5rNVNZZlpFQ0FpWTdXTkdFZHo2RnNsWUJVUzNoTW9rclpaWDlLMjQwY0pCcHpKRmphUVBuWU1ReUc4aDI1c1A1Y2o?oc=5">How Atomis is using AI simulations to commercialize MOFs - R&amp;D World</a></h4>
+          <p class="en-summary">How Atomis is using AI simulations to commercialize MOFs R&amp;D World</p>
+          <div class="meta"><span>R&amp;D World</span><span>score 45.676</span></div>
+          <p class="reason">source_reach=0.62; recency=0.97</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">04</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaS1VbElWSzc3Q3BFczZOU1NwQ2ktV19yOU9acGhMME81V2tkdXZ6SjVrYnZESXZJQ1pGTmI3bTE0NjBmTWR6TmNndXNIRW1SNFNUMzMwc0lZRVJ1YW9aX0tCYkRZbEJPTnE3SWRHemhPeVphNWRkZ1JhZWxVRWRoRll1OG9CTjNjSXVqdWNsV1RLTFVaRGVFcTlYM3VIVGJkaU43UWkzMHlNUQ?oc=5">From 15 hours to one minute: How AI/ML is speeding up GM’s development - Ars Technica</a></h4>
+          <p class="en-summary">From 15 hours to one minute: How AI/ML is speeding up GM’s development Ars Technica</p>
+          <div class="meta"><span>Ars Technica</span><span>score 45.24</span></div>
+          <p class="reason">source_reach=0.62; recency=0.95</p>
+        </div>
+      </article>
+    
+      <article class="item">
+        <div class="rank">05</div>
+        <div>
+          <h4><a href="https://news.google.com/rss/articles/CBMijwJBVV95cUxNLXhTX01kZ2RpejhMazB0dVNGZG11WnhrbjhhRDVhMWdpT2RVYVdNN2JDY0lRUWxMOXZwYldOX25Md0VHbGhpMFViMTJwd0U3LVRzTjEzUFVGenc1cWpTTDZKM0pyamRtSXNVS2dPODU4OFM0RXBDX19rTm9PeS1xeURmbGlUQnVNcy1SNkpBZGlmbFBiRUtZeXB4UkQzWU91NkJ5TUdmYUExWjlEdFJ3OHBlZU1PWmtVYUh3LURzVjFZQUxEWllHaG02WWdnNll3OHZfVURwZnNKaUVVMUU5bTNVeW5wTVdMcXNSbFRkV2NyUWUyYmdKZFh2YnZqbUxfMW44ZEc2SV9Cd2NPeG1F?oc=5">FinancialContent - GIGABYTE Showcases Full-Stack AI Infrastructure from Rack-Scale Systems to Real-World Deployment at COMPUTEX 2026 - FinancialContent</a></h4>
+          <p class="en-summary">FinancialContent - GIGABYTE Showcases Full-Stack AI Infrastructure from Rack-Scale Systems to Real-World Deployment at COMPUTEX 2026 FinancialContent</p>
+          <div class="meta"><span>FinancialContent</span><span>score 45.09</span></div>
+          <p class="reason">source_reach=0.62; recency=0.94</p>
+        </div>
+      </article>
+    
+        <div class="subsection">
+          <h3>Top 5 Biomedical AI News</h3>
+          <p class="empty-note">Pre-publish history checks did not find enough fresh non-duplicate items for this section.</p>
+        </div>
+      </section>
+    
+      </div>
+      
+    </section>
+    
+    <nav class="pager"><span>Older week</span><a href="../7/index.html">Newer week</a></nav>
+  </main>
+</body>
+</html>
