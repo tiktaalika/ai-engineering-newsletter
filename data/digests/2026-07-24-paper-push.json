@@ -1,0 +1,184 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-07-16 至 2026-07-24 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-07-16 to 2026-07-24.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "Cycle-Consistent and Uncertainty-Aware Neural Surrogates for Tokamak Edge Plasmas",
+      "url": "https://arxiv.org/abs/2607.21407",
+      "source": "arXiv",
+      "published": "2026-07-23",
+      "authors": [
+        "Abdourahmane Diaw",
+        "Sebastian De Pascuale",
+        "Jae-Sun Park",
+        "Ivan Paradela Perez",
+        "Jeremy D. Lore",
+        "Stefan Dasbach"
+      ],
+      "summary_en": "The boundary and divertor plasma govern how a tokamak exhausts power and particles, setting heat fluxes, target conditions, and the onset of detachment. Predicting these quantities is essential for operating current and future devices, but edge simulations that resolve them are too slow for parameter scans, optimization, or real-time control. Machine-learning surrogates offer a fast alternative, yet most are forward-only: they cannot recover input parameters from observations or assess the relia",
+      "summary_zh": "英文摘要：The boundary and divertor plasma govern how a tokamak exhausts power and particles, setting heat fluxes, target conditions, and the onset of detachment. Predicting these quantities is essential for operating current and future devices, but edge simulations that resolve them are too slow for parameter scans, optimization, or real-time control. Machine-learning surrogates offer a fast alternative, yet most are forward-only: they cannot recover input parameters from observations or assess the relia",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A Diffusion-Model Subpopulation Digital Twin for Mobile Health Deployment: A Case Study on the HeartSteps Intervention",
+      "url": "https://arxiv.org/abs/2607.21403",
+      "source": "arXiv",
+      "published": "2026-07-23",
+      "authors": [
+        "Ziping Xu",
+        "Yuyi Chang",
+        "Chenshun Ni",
+        "Nithin Sugavanam",
+        "Asim H. Gazi",
+        "Pedja Klasnja",
+        "Emre Ertin",
+        "Susan A. Murphy"
+      ],
+      "summary_en": "Mobile-health interventions increasingly use online learning and decision making algorithms to personalize when to nudge users toward healthier behavior, but a poorly designed algorithm can burden and disengage participants. New algorithm design decisions should therefore be vetted against realistic simulated users before each real-life deployment. We propose a method to develop ``JITAI-Twins'': digital twins of a target subpopulation for comparing candidate online algorithms before a just-in-ti",
+      "summary_zh": "英文摘要：Mobile-health interventions increasingly use online learning and decision making algorithms to personalize when to nudge users toward healthier behavior, but a poorly designed algorithm can burden and disengage participants. New algorithm design decisions should therefore be vetted against realistic simulated users before each real-life deployment. We propose a method to develop ``JITAI-Twins'': digital twins of a target subpopulation for comparing candidate online algorithms before a just-in-ti",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Toward Federated Cognitive Digital Twins over the Edge-to-Cloud Continuum",
+      "url": "https://arxiv.org/abs/2607.21357",
+      "source": "arXiv",
+      "published": "2026-07-23",
+      "authors": [
+        "Alessandra Somma",
+        "Alessio Bucaioni"
+      ],
+      "summary_en": "Digital Twins (DTs) are increasingly adopted to monitor, analyze, and optimize Cyber-Physical Systems (CPSs) through continuous interaction between physical assets and their digital counterparts. However, current DT architectures often rely on centralized and monolithic designs, leading to scalability, latency, and resilience issues in distributed environment such as smart cities. Moreover, they provide limited support for semantic integration and high-level reasoning, reducing the effectiveness",
+      "summary_zh": "英文摘要：Digital Twins (DTs) are increasingly adopted to monitor, analyze, and optimize Cyber-Physical Systems (CPSs) through continuous interaction between physical assets and their digital counterparts. However, current DT architectures often rely on centralized and monolithic designs, leading to scalability, latency, and resilience issues in distributed environment such as smart cities. Moreover, they provide limited support for semantic integration and high-level reasoning, reducing the effectiveness",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Double screening in the training dynamics of variational physics-informed neural networks for heterogeneous coupled parabolic systems",
+      "url": "https://arxiv.org/abs/2607.21352",
+      "source": "arXiv",
+      "published": "2026-07-23",
+      "authors": [
+        "Ali Ouattara Kouma",
+        "Gossrin Jean-Marc Bomisso"
+      ],
+      "summary_en": "We analyze the training dynamics of variational physics-informed neural networks applied to linear coupled parabolic convection--diffusion--reaction systems, called heterogeneous when only a subset of the components undergoes convective transport. In the neural tangent kernel regime, the gradient flow on the space-time variational residuals reduces to a linear differential system whose operator is a Gram matrix built from the space-time symbol of the system operator and the matrix tangent kernel",
+      "summary_zh": "英文摘要：We analyze the training dynamics of variational physics-informed neural networks applied to linear coupled parabolic convection--diffusion--reaction systems, called heterogeneous when only a subset of the components undergoes convective transport. In the neural tangent kernel regime, the gradient flow on the space-time variational residuals reduces to a linear differential system whose operator is a Gram matrix built from the space-time symbol of the system operator and the matrix tangent kernel",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Machine learning based prediction of optical properties in two-dimensional Mo-W-S-Se-Te transition-metal dichalcogenide alloys through physics-informed sampling",
+      "url": "https://arxiv.org/abs/2607.21246",
+      "source": "arXiv",
+      "published": "2026-07-23",
+      "authors": [
+        "Vivek Chowdhury",
+        "Tarvir Anjum Aditto",
+        "Md. Samrat",
+        "Hafiz Imtiaz",
+        "Ahmed Zubair"
+      ],
+      "summary_en": "Two-dimensional transition-metal dichalcogenide (TMD) alloys provide a compositionally tunable platform for controlling the optical and electronic properties. However, systematic prediction of their dielectric response across multicomponent alloy spaces remains challenging owing to the combinatorial cost of first-principles calculations. In this work, we combined ab initio optical-property calculations with a tabular foundation-model regression to predict the real and imaginary components of the",
+      "summary_zh": "英文摘要：Two-dimensional transition-metal dichalcogenide (TMD) alloys provide a compositionally tunable platform for controlling the optical and electronic properties. However, systematic prediction of their dielectric response across multicomponent alloy spaces remains challenging owing to the combinatorial cost of first-principles calculations. In this work, we combined ab initio optical-property calculations with a tabular foundation-model regression to predict the real and imaginary components of the",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Physics-Informed Deep Learning Model for Cross-Modality Super-Resolution in Fluorescence Microscopy",
+      "url": "https://arxiv.org/abs/2607.21190",
+      "source": "arXiv",
+      "published": "2026-07-23",
+      "authors": [
+        "Mohammad Soltaninezhad",
+        "Elena Corbetta",
+        "Francisco Paez Larios",
+        "Paul M. Jordan",
+        "Oliver Werz",
+        "Christian Eggeling",
+        "Thomas Bocklitz"
+      ],
+      "summary_en": "Cross-modality image translation offers a route to super-resolution fluorescence microscopy from low-resolution images while reducing phototoxicity and instrumentation demands. However, purely data-driven models can produce visually plausible outputs that are inconsistent with optical image formation. Here, we propose a physics-informed generative adversarial network for confocal-to-STED image translation that incorporates microscope-specific point spread function information into the training o",
+      "summary_zh": "英文摘要：Cross-modality image translation offers a route to super-resolution fluorescence microscopy from low-resolution images while reducing phototoxicity and instrumentation demands. However, purely data-driven models can produce visually plausible outputs that are inconsistent with optical image formation. Here, we propose a physics-informed generative adversarial network for confocal-to-STED image translation that incorporates microscope-specific point spread function information into the training o",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Multilevel Graph Wavelet Compressed Sensing with Scale-Aware Neural Recovery",
+      "url": "https://arxiv.org/abs/2607.20857",
+      "source": "arXiv",
+      "published": "2026-07-23",
+      "authors": [
+        "Amirhossein Nouranizadeh",
+        "Sarang Rajendra Patil",
+        "Alan John Varghese",
+        "Varsha Narayanan",
+        "Amit Chakraborty",
+        "Mengjia Xu"
+      ],
+      "summary_en": "Scientific machine learning methods such as neural operators and physics-informed neural networks have advanced engineering applications and inverse problems, but their training typically requires large volumes of simulated data. This makes data preparation and model training expensive. We propose Graph Wavelet Compressed Sensing (GWCS), a learning-based framework for offline compression of graph signals by representing them as sparse, interpretable wavelet-domain representations using the spect",
+      "summary_zh": "英文摘要：Scientific machine learning methods such as neural operators and physics-informed neural networks have advanced engineering applications and inverse problems, but their training typically requires large volumes of simulated data. This makes data preparation and model training expensive. We propose Graph Wavelet Compressed Sensing (GWCS), a learning-based framework for offline compression of graph signals by representing them as sparse, interpretable wavelet-domain representations using the spect",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Component-Level Inverse Design of Transmon Qubits Using Neural Networks",
+      "url": "https://arxiv.org/abs/2607.20795",
+      "source": "arXiv",
+      "published": "2026-07-22",
+      "authors": [
+        "Olivia Seidel",
+        "Firas Abouzahr",
+        "Abhishek Chakraborty",
+        "Sadman Ahmed Shanto",
+        "Saikat Das",
+        "Daniel Baxter",
+        "Jonathan Asaadi",
+        "Nicola Pancotti",
+        "Haoyu Yang",
+        "Brucek Khailany",
+        "Sara Sussman",
+        "Enectali Figueroa-Feliciano",
+        "Eli M Levenson-Falk",
+        "Taylor L. Patti"
+      ],
+      "summary_en": "Designing a superconducting qubit to realize specific Hamiltonian parameters typically requires iterating through a time and compute-intensive forward loop in which the designer chooses a layout geometry, simulates it, extracts circuit parameters such as capacitances, and refines the geometry. We study the inverse version of this task using a neural-network workflow that maps target Hamiltonian parameters directly to component-level layout parameters, which we subsequently demonstrate on a plana",
+      "summary_zh": "英文摘要：Designing a superconducting qubit to realize specific Hamiltonian parameters typically requires iterating through a time and compute-intensive forward loop in which the designer chooses a layout geometry, simulates it, extracts circuit parameters such as capacitances, and refines the geometry. We study the inverse version of this task using a neural-network workflow that maps target Hamiltonian parameters directly to component-level layout parameters, which we subsequently demonstrate on a plana",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Scalable Low-Cost Laboratory Automation: A Digital Twin-Integrated Robotic Platform for Autonomous Liquid Handling (RAINBOTTM)",
+      "url": "https://arxiv.org/abs/2607.20662",
+      "source": "arXiv",
+      "published": "2026-07-22",
+      "authors": [
+        "Mohamed Rami Ayeche",
+        "Souhil Sid",
+        "Ahyen Mostofa",
+        "Rehaan Hussain",
+        "Ali Shayesteh",
+        "Fadwa El Mellouhi"
+      ],
+      "summary_en": "Laboratory automation accelerates discovery, yet its adoption is constrained by the high cost, proprietary design, and limited remote supervisability of commercial liquid-handling systems. This work presents RAINBOT\\textsuperscript{TM}, a low-cost, openly reproducible liquid-handling robot built by converting a consumer-grade Cartesian 3D printer (Elegoo Neptune 4 Max). The printer extruder is replaced by a precision single-channel pipette actuated through the printer's own G-code-driven X--Y--Z",
+      "summary_zh": "英文摘要：Laboratory automation accelerates discovery, yet its adoption is constrained by the high cost, proprietary design, and limited remote supervisability of commercial liquid-handling systems. This work presents RAINBOT\\textsuperscript{TM}, a low-cost, openly reproducible liquid-handling robot built by converting a consumer-grade Cartesian 3D printer (Elegoo Neptune 4 Max). The printer extruder is replaced by a precision single-channel pipette actuated through the printer's own G-code-driven X--Y--Z",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "PG-KINN: A Physics-Informed Petrov-Galerkin Kolmogorov-Arnold Network for Solving Forward and Inverse PDEs",
+      "url": "https://arxiv.org/abs/2607.20378",
+      "source": "arXiv",
+      "published": "2026-07-22",
+      "authors": [
+        "Amirhossein Sadr",
+        "Nima Soltani",
+        "Vahideh Moghtadaiee",
+        "Aida Pakniyat",
+        "Dara Rahmati",
+        "Saeid Gorgin"
+      ],
+      "summary_en": "Physics-informed learning of partial differential equations (PDEs) has been dominated by multilayer perceptrons (MLPs), whose spectral bias and dense parameterization limit both accuracy and interpretability. Kolmogorov Arnold Networks (KANs) mitigate these limitations because their learnable spline activations are structurally aligned with the piecewise-polynomial bases of classical discretizations. However, the way a PDE is cast into a loss functional is as decisive as the choice of approximat",
+      "summary_zh": "英文摘要：Physics-informed learning of partial differential equations (PDEs) has been dominated by multilayer perceptrons (MLPs), whose spectral bias and dense parameterization limit both accuracy and interpretability. Kolmogorov Arnold Networks (KANs) mitigate these limitations because their learnable spline activations are structurally aligned with the piecewise-polynomial bases of classical discretizations. However, the way a PDE is cast into a loss functional is as decisive as the choice of approximat",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
