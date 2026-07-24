@@ -3,74 +3,74 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16649
-- filtered_count: 2246
-- duplicate_count: 72
-- failures: 8
+- fetched_count: 16227
+- filtered_count: 2263
+- duplicate_count: 71
+- failures: 7
 
 ## Top 10 General AI News
 1. [The first known runaway AI agent - or a very bad marketing stunt?](https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent)
    - source: Simon Willison
-   - score: 79.506
-   - score_breakdown: general=1.0; engineering=0.0; research=1.0; novelty=0.887; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=6; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 78.618
+   - score_breakdown: general=1.0; engineering=0.0; research=1.0; novelty=0.846; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=6; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [How news organizations are using AI to advance their vital missions](https://openai.com/index/how-news-organizations-are-using-ai)
    - source: OpenAI
-   - score: 51.239
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.571; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.57; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.646
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.545; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.54; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Quoting Seth Larson](https://simonwillison.net/2026/Jul/23/seth-larson)
    - source: Simon Willison
-   - score: 48.637
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.605; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.60; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.749
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.564; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [The Pulse: Quitting Spotify Podcasts over reliability](https://newsletter.pragmaticengineer.com/p/the-pulse-quitting-spotify-podcasts)
    - source: The Pragmatic Engineer
-   - score: 47.937
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.779; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.78; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.048
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.739; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.74; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Building trade assistant: How Jefferies optimized front office trading operations with AI](https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai)
    - source: Amazon AWS AI
-   - score: 70.923
-   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.86; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=7; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 70.331
+   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.833; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=7; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors](https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors)
    - source: TechCrunch AI
-   - score: 63.864
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.271
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Best practices for applying Amazon Bedrock Guardrails to code generation workflows](https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows)
    - source: Amazon AWS AI
-   - score: 62.378
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.786
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.899; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing](https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing)
    - source: TechCrunch AI
-   - score: 61.365
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.88; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.773
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.853; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit](https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit)
    - source: NVIDIA AI
-   - score: 60.786
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.854; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Brent Crude Oil Prices Top $100 as Conflict With Iran Drags On](https://www.nytimes.com/2026/07/24/technology/oil-prices-global-stocks-shipping.html)
-   - source: New York Times Technology
-   - score: 56.694
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.971; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.194
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.827; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [STAT+: White House offers its science blueprint: More AI, less life sciences](https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction)
+   - source: STAT Health Tech
+   - score: 59.845
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.993; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [NASA Puts Google’s Gemma Large Language Model in Orbit](https://spectrum.ieee.org/nasa-ai-satellite-image-analysis)
    - source: IEEE Spectrum AI
-   - score: 73.716
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.464; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.46; matched_terms=8; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 71.939
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.384; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.38; matched_terms=8; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 2. [[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal)
    - source: Latent Space
-   - score: 63.437
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.974; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.549
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.934; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Beijing Academy of Artificial Intelligence](https://huggingface.co/BAAI)
    - source: Hugging Face Papers
    - score: 57.867
@@ -88,31 +88,31 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [OpenAI is making big claims as it rolls out ChatGPT Health to everyone](https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims)
+1. [STAT+: White House offers its science blueprint: More AI, less life sciences](https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction)
+   - source: STAT Health Tech
+   - score: 59.845
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.993; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+2. [Opinion: The U.S. pharmaceutical supply chain problem is not about China](https://www.statnews.com/2026/07/24/pharmaceutical-supply-chain-resilience-china)
+   - source: STAT Health Tech
+   - score: 57.178
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.993; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [OpenAI is making big claims as it rolls out ChatGPT Health to everyone](https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims)
    - source: The Verge AI
-   - score: 51.632
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.589; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [How AI helps scientists design the next generation of medicines](https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines)
+   - score: 49.856
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.509; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.51; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [How AI helps scientists design the next generation of medicines](https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines)
    - source: MIT Technology Review AI
-   - score: 44.861
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.433; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.43; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [The Most Expensive AI Mistake in Biotech Isn’t a Hallucination, It’s a Process Failure](https://www.bio-itworld.com/news/2026/07/24/the-most-expensive-ai-mistake-in-biotech-isn-t-a-hallucination--it-s-a-process-failure)
+   - score: 43.085
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.352; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [The Most Expensive AI Mistake in Biotech Isn’t a Hallucination, It’s a Process Failure](https://www.bio-itworld.com/news/2026/07/24/the-most-expensive-ai-mistake-in-biotech-isn-t-a-hallucination--it-s-a-process-failure)
    - source: Bio-IT World
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Lilly to Acquire AtaiBeckley to Advance Innovative Biotech Therapies for Treatment-Resistant Depression](https://www.bio-itworld.com/news/2026/07/21/lilly-to-acquire-ataibeckley-to-advance-innovative-biotech-therapies-for-treatment-resistant-depression)
-   - source: Bio-IT World
-   - score: 43.033
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Agentic Phi De Identification Across Multimodal Healthcare Data](https://www.databricks.com/dataaisummit/session/agentic-phi-de-identification-across-multimodal-healthcare-data)
-   - source: Databricks AI
-   - score: 38.5
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Cerebras Gemma4 Voice Ai](https://huggingface.co/blog/cerebras-gemma4-voice-ai)
@@ -140,7 +140,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)
 - [VentureBeat AI](https://www.google.com/search?q=site%3Aventurebeat.com%20AI): site:venturebeat.com AI (website, medium)
 - [Perplexity](https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI): site:www.perplexity.ai AI (website, medium)
-- [Snowflake AI](https://www.google.com/search?q=site%3Awww.snowflake.com%20AI): site:www.snowflake.com AI (website, medium)
 - [Engineering.com Design News Weekly](https://www.google.com/search?q=site%3Aengineering.com/category/technology/design%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20CAD%20OR%20CAE%20OR%20simulation%20OR%20manufacturing%20OR%20%22Solid%20Edge%22%20OR%20Designcenter%20OR%20Siemens%20OR%20Autodesk%20OR%20PLM%29): site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM) (newsletter, high)
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
@@ -180,5 +179,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
