@@ -3,73 +3,73 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16227
-- filtered_count: 2263
+- fetched_count: 16728
+- filtered_count: 2264
 - duplicate_count: 71
 - failures: 7
 
 ## Top 10 General AI News
 1. [The first known runaway AI agent - or a very bad marketing stunt?](https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent)
    - source: Simon Willison
-   - score: 78.618
-   - score_breakdown: general=1.0; engineering=0.0; research=1.0; novelty=0.846; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=6; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 78.465
+   - score_breakdown: general=1.0; engineering=0.0; research=1.0; novelty=0.839; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=6; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [How news organizations are using AI to advance their vital missions](https://openai.com/index/how-news-organizations-are-using-ai)
    - source: OpenAI
-   - score: 50.646
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.545; source_priority=1.0
+   - score: 50.545
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.54; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.54; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Quoting Seth Larson](https://simonwillison.net/2026/Jul/23/seth-larson)
    - source: Simon Willison
-   - score: 47.749
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.564; source_priority=1.0
+   - score: 47.597
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.557; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [The Pulse: Quitting Spotify Podcasts over reliability](https://newsletter.pragmaticengineer.com/p/the-pulse-quitting-spotify-podcasts)
    - source: The Pragmatic Engineer
-   - score: 47.048
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.739; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.74; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 46.896
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.732; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.73; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Building trade assistant: How Jefferies optimized front office trading operations with AI](https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai)
    - source: Amazon AWS AI
-   - score: 70.331
-   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.833; source_priority=1.0
+   - score: 70.23
+   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.829; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=7; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors](https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors)
    - source: TechCrunch AI
-   - score: 63.271
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.17
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Best practices for applying Amazon Bedrock Guardrails to code generation workflows](https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows)
    - source: Amazon AWS AI
-   - score: 61.786
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.899; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.684
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.895; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing](https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing)
    - source: TechCrunch AI
-   - score: 60.773
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.853; source_priority=1.0
+   - score: 60.671
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.849; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit](https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit)
    - source: NVIDIA AI
-   - score: 60.194
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.827; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.093
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.822; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [STAT+: White House offers its science blueprint: More AI, less life sciences](https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction)
    - source: STAT Health Tech
-   - score: 59.845
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.993; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 59.541
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.979; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [NASA Puts Google’s Gemma Large Language Model in Orbit](https://spectrum.ieee.org/nasa-ai-satellite-image-analysis)
    - source: IEEE Spectrum AI
-   - score: 71.939
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.384; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.38; matched_terms=8; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 71.635
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.37; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.37; matched_terms=8; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 2. [[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal)
    - source: Latent Space
-   - score: 62.549
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.934; source_priority=1.0
+   - score: 62.397
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.927; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Beijing Academy of Artificial Intelligence](https://huggingface.co/BAAI)
    - source: Hugging Face Papers
@@ -90,24 +90,24 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: White House offers its science blueprint: More AI, less life sciences](https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction)
    - source: STAT Health Tech
-   - score: 59.845
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.993; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 59.541
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.979; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Opinion: The U.S. pharmaceutical supply chain problem is not about China](https://www.statnews.com/2026/07/24/pharmaceutical-supply-chain-resilience-china)
    - source: STAT Health Tech
-   - score: 57.178
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.993; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.874
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.979; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [OpenAI is making big claims as it rolls out ChatGPT Health to everyone](https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims)
    - source: The Verge AI
-   - score: 49.856
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.509; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.51; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.551
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.495; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.49; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [How AI helps scientists design the next generation of medicines](https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines)
    - source: MIT Technology Review AI
-   - score: 43.085
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.352; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 42.781
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.339; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.34; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The Most Expensive AI Mistake in Biotech Isn’t a Hallucination, It’s a Process Failure](https://www.bio-itworld.com/news/2026/07/24/the-most-expensive-ai-mistake-in-biotech-isn-t-a-hallucination--it-s-a-process-failure)
    - source: Bio-IT World
    - score: 43.033
