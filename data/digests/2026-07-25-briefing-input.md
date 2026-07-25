@@ -3,79 +3,79 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16697
-- filtered_count: 2246
+- fetched_count: 16767
+- filtered_count: 2266
 - duplicate_count: 73
-- failures: 8
+- failures: 7
 
 ## Top 10 General AI News
 1. [Quoting Boris Cherny](https://simonwillison.net/2026/Jul/25/boris-cherny)
    - source: Simon Willison
-   - score: 65.468
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.915; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model](https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model)
+   - score: 64.689
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.88; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)](https://www.latent.space/p/ainews-claude-opus-5-fable-level)
+   - source: Latent Space
+   - score: 63.663
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.985; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model](https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model)
    - source: Amazon AWS AI
-   - score: 67.88
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock)
+   - score: 67.361
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.85; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock)
    - source: Amazon AWS AI
-   - score: 64.017
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.849; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities](https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release)
+   - score: 63.497
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.826; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Why Cognition bought Poke: AI personality is becoming a competitive advantage](https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage)
+   - source: TechCrunch AI
+   - score: 57.394
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.851; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [As US weighs response to Chinese AI, industry urges against broad open-weight restrictions](https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions)
+   - source: TechCrunch AI
+   - score: 56.875
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.828; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities](https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release)
    - source: The Verge AI
-   - score: 58.298
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.589; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Be skeptical of OpenAI’s rogue hacker agent story | John Thickstun](https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker)
-   - source: The Guardian Technology
-   - score: 58.217
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.464; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.46; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-6. [Why Cognition bought Poke: AI personality is becoming a competitive advantage](https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage)
-   - source: TechCrunch AI
-   - score: 57.913
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.875; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Bluesky’s AI assistant Attie expands into an open social research tool](https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool)
-   - source: TechCrunch AI
-   - score: 56.583
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.845; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-8. [The UK’s first TikTok PM? Andy Burnham channels Zohran Mamdani as he hits social media](https://www.theguardian.com/politics/2026/jul/25/tiktok-andy-burnham-zohran-mamdani-social-media)
-   - source: The Guardian Technology
-   - score: 56.555
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.965; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Start Customizing NVIDIA Nemotron 3 Nano with Prime Intellect Lab in Minutes](https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes)
+   - score: 56.74
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.518; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.52; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Start Customizing NVIDIA Nemotron 3 Nano with Prime Intellect Lab in Minutes](https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes)
    - source: NVIDIA AI
-   - score: 51.926
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.603; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.60; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Make Long-Running NVIDIA TensorRT Engine Builds Observable and Cancelable in Python or C++](https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c)
-   - source: NVIDIA AI
-   - score: 46.56
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.359; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.36; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.406
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.579; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.58; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Studio Build, test, and run AI agents and apps.](https://mistral.ai/products/studio)
+   - source: Mistral AI
+   - score: 49.7
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Vibe AI agent for long-horizon work.](https://mistral.ai/products/vibe)
+   - source: Mistral AI
+   - score: 49.7
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [AI Physics for Automotive Crash and Structural FEA Simulations](https://rescale.com/blog/ai-physics-automotive-crash-structural-fea-simulations)
    - source: Rescale
-   - score: 80.883
-   - score_breakdown: general=0.667; engineering=1.0; research=0.0; novelty=0.98; source_priority=1.0
+   - score: 80.831
+   - score_breakdown: general=0.667; engineering=1.0; research=0.0; novelty=0.977; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=4; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Introducing Claude Opus 5](https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5)
    - source: Simon Willison
-   - score: 68.658
-   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.901; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 67.879
+   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.866; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [‘I thought, I’ve tried everything else, why not give AI a shot?’: the long-lost family reunited by ChatGPT](https://www.theguardian.com/lifeandstyle/ng-interactive/2026/jul/25/long-lost-family-reunited-chatgpt-artificial-intelligence-ai)
    - source: The Guardian Technology
-   - score: 63.555
-   - score_breakdown: general=0.167; engineering=0.5; research=0.0; novelty=0.965; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.997
+   - score_breakdown: general=0.167; engineering=0.5; research=0.0; novelty=0.894; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
 4. [Agentenbasierte Ki Trifft Auf Schweissnaht Mapping Fuer Durchgaengige Spritzgusssimulation](https://www.synera.ai/de/news/agentenbasierte-ki-trifft-auf-schweissnaht-mapping-fuer-durchgaengige-spritzgusssimulation)
    - source: Synera
    - score: 57.033
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [FDA advisory panel narrowly rejects compounding of one peptide, backs two others](https://www.statnews.com/2026/07/24/fda-peptide-compounding-panel-backs-epitalon-rejects-emideltide)
    - source: STAT Health Tech
-   - score: 49.464
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.642; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.64; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.906
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.572; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: Fatal gene-editing trial in China raises ethics and oversight questions](https://www.statnews.com/2026/07/24/biotech-news-fatal-gene-editing-trial-in-china-raises-ethics-questions)
    - source: STAT Health Tech
-   - score: 46.021
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.486; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.49; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 44.463
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.415; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.41; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Agentic Phi De Identification Across Multimodal Healthcare Data](https://www.databricks.com/dataaisummit/session/agentic-phi-de-identification-across-multimodal-healthcare-data)
    - source: Databricks AI
    - score: 38.5
@@ -140,7 +140,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)
 - [VentureBeat AI](https://www.google.com/search?q=site%3Aventurebeat.com%20AI): site:venturebeat.com AI (website, medium)
 - [Perplexity](https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI): site:www.perplexity.ai AI (website, medium)
-- [Snowflake AI](https://www.google.com/search?q=site%3Awww.snowflake.com%20AI): site:www.snowflake.com AI (website, medium)
 - [Engineering.com Design News Weekly](https://www.google.com/search?q=site%3Aengineering.com/category/technology/design%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20CAD%20OR%20CAE%20OR%20simulation%20OR%20manufacturing%20OR%20%22Solid%20Edge%22%20OR%20Designcenter%20OR%20Siemens%20OR%20Autodesk%20OR%20PLM%29): site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM) (newsletter, high)
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
@@ -180,5 +179,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
