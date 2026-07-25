@@ -1,12 +1,16 @@
 {
   "run_log": {
-    "generated_at": "2026-07-25T08:51:56.876575+00:00",
+    "generated_at": "2026-07-25T09:12:38.494589+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16767,
-    "filtered_count": 2264,
+    "fetched_count": 14763,
+    "filtered_count": 2066,
     "duplicate_count": 73,
     "failures": [
+      {
+        "source": "Hugging Face",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
       {
         "source": "Ansys",
         "error": "The read operation timed out"
@@ -62,7 +66,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.532,
+      "score": 64.413,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -74,7 +78,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.873,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -101,10 +105,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 63.505,
+      "score": 63.387,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -113,7 +117,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.978,
+      "novelty_score": 0.972,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -141,7 +145,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.256,
+      "score": 67.177,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -153,7 +157,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.845,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -179,7 +183,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 63.392,
+      "score": 63.313,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -191,7 +195,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -215,10 +219,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.289,
+      "score": 57.21,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -227,7 +231,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.846,
+      "novelty_score": 0.843,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -235,6 +239,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "7cc067a0f981ad06",
+      "title": "QR Codes Make Their Way Down Wedding Aisles",
+      "url": "https://www.nytimes.com/2026/07/25/style/wedding-qr-codes.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-25T09:00:40+00:00",
+      "text": "QR Codes Make Their Way Down Wedding Aisles The technology, often associated with pandemic-era menus, is being used by more couples for ease, cost, expedience and sustainability.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.196,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.994,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -251,7 +289,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 56.77,
+      "score": 56.691,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -263,7 +301,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -289,10 +327,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 56.426,
+      "score": 56.188,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -301,7 +339,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.504,
+      "novelty_score": 0.493,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -324,7 +362,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 51.302,
+      "score": 51.223,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.57",
@@ -336,7 +374,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.574,
+      "novelty_score": 0.571,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -382,42 +420,6 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
-    },
-    {
-      "id": "5e0b8e7384530abd",
-      "title": "Vibe AI agent for long-horizon work.",
-      "url": "https://mistral.ai/products/vibe",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Vibe AI agent for long-horizon work. https://mistral.ai/products/vibe/",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 49.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
@@ -437,7 +439,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 80.82,
+      "score": 80.812,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -449,7 +451,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -475,10 +477,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.722,
+      "score": 67.603,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -487,7 +489,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.859,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -512,10 +514,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.682,
+      "score": 61.445,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -524,7 +526,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.879,
+      "novelty_score": 0.869,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -617,10 +619,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.592,
+      "score": 47.355,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -629,7 +631,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.557,
+      "novelty_score": 0.546,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -652,10 +654,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 44.148,
+      "score": 43.911,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.40",
+        "novelty=0.39",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -664,7 +666,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.401,
+      "novelty_score": 0.39,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -746,21 +748,21 @@
       "source_priority": "medium"
     },
     {
-      "id": "511707be7baed00d",
-      "title": "2136069.Article",
-      "url": "https://www.drugtargetreview.com/3d-genome-reorganisation-identified-as-alzheimers-disease-molecular-hallmark/2136069.article",
-      "source": "Drug Target Review",
+      "id": "2b27b467c3a4e12e",
+      "title": "Lilly to Acquire AtaiBeckley to Advance Innovative Biotech Therapies for Treatment-Resistant Depression",
+      "url": "https://www.bio-itworld.com/news/2026/07/21/lilly-to-acquire-ataibeckley-to-advance-innovative-biotech-therapies-for-treatment-resistant-depression",
+      "source": "Bio-IT World",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
       "published_at": null,
-      "text": "2136069.Article https://www.drugtargetreview.com/3d-genome-reorganisation-identified-as-alzheimers-disease-molecular-hallmark/2136069.article",
+      "text": "Lilly to Acquire AtaiBeckley to Advance Innovative Biotech Therapies for Treatment-Resistant Depression https://www.bio-itworld.com/news/2026/07/21/lilly-to-acquire-ataibeckley-to-advance-innovative-biotech-therapies-for-treatment-resistant-depression",
       "matched_terms": [
-        "LLM"
+        "AI"
       ],
       "engagement": {},
-      "score": 31.833,
+      "score": 43.033,
       "score_reasons": [
-        "source_priority=0.65",
+        "source_priority=1.00",
         "novelty=0.35",
         "matched_terms=1",
         "engineering_relevance=0.00",
@@ -771,14 +773,16 @@
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
       "novelty_score": 0.35,
-      "source_priority_score": 0.65,
+      "source_priority_score": 1.0,
       "source_tags": [
         "bio_ai",
+        "biotech",
+        "genomics_ai",
         "drug_discovery",
-        "biotech"
+        "research"
       ],
       "registry_category": "general_ai",
-      "source_priority": "medium"
+      "source_priority": "high"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -798,7 +802,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 80.82,
+      "score": 80.812,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -810,7 +814,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -836,10 +840,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.722,
+      "score": 67.603,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -848,7 +852,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.859,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -873,10 +877,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.682,
+      "score": 61.445,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -885,7 +889,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.879,
+      "novelty_score": 0.869,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -964,183 +968,7 @@
       "source_priority": "high"
     }
   ],
-  "research_radar": [
-    {
-      "id": "91d16542fa1f3b29",
-      "title": "Discoformer",
-      "url": "https://huggingface.co/blog/allenai/discoformer",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Discoformer https://huggingface.co/blog/allenai/discoformer",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "dba1e8f05869c4fb",
-      "title": "Cross Origin Storage",
-      "url": "https://huggingface.co/blog/cross-origin-storage",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Cross Origin Storage https://huggingface.co/blog/cross-origin-storage",
-      "matched_terms": [
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "bfe33e0877ce605d",
-      "title": "Vllm Colocate",
-      "url": "https://huggingface.co/blog/vllm-colocate",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Vllm Colocate https://huggingface.co/blog/vllm-colocate",
-      "matched_terms": [
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "2f081a663d68f606",
-      "title": "Llm Performance Prefill Decode Concurrent Requests",
-      "url": "https://huggingface.co/blog/tngtech/llm-performance-prefill-decode-concurrent-requests",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Llm Performance Prefill Decode Concurrent Requests https://huggingface.co/blog/tngtech/llm-performance-prefill-decode-concurrent-requests",
-      "matched_terms": [
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "cd9496c2e2e8a6e7",
-      "title": "Hugging Face Pollen Robotics Acquisition",
-      "url": "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Hugging Face Pollen Robotics Acquisition https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
-      "matched_terms": [
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    }
-  ],
+  "research_radar": [],
   "supplemental_search_tasks": [
     {
       "source": "Reuters Technology",
@@ -1170,6 +998,26 @@
       "source_type": "website",
       "priority": "medium",
       "tags": "search, product",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Snowflake AI",
+      "category": "vendor",
+      "query": "site:www.snowflake.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "data, enterprise_ai",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Siemens Energy",
+      "category": "engineering_ai",
+      "query": "site:www.siemens-energy.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.siemens-energy.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "energy, industrial_ai, digital_twin",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1243,6 +1091,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "SimScale",
+      "category": "engineering_ai",
+      "query": "site:www.simscale.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.simscale.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "cloud_cae, simulation",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Navasto",
       "category": "engineering_ai",
       "query": "site:www.navasto.de AI",
@@ -1290,6 +1148,26 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Papers with Code",
+      "category": "research",
+      "query": "site:paperswithcode.com AI",
+      "url": "https://www.google.com/search?q=site%3Apaperswithcode.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, benchmarks",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Hugging Face Papers",
+      "category": "research",
+      "query": "site:huggingface.co AI",
+      "url": "https://www.google.com/search?q=site%3Ahuggingface.co%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "research, community, papers",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1360,6 +1238,16 @@
       "source_type": "website",
       "priority": "high",
       "tags": "medical_ai, digital_health, healthcare_ai",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Drug Target Review",
+      "category": "general_ai",
+      "query": "site:www.drugtargetreview.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.drugtargetreview.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "bio_ai, drug_discovery, biotech",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1465,6 +1353,26 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Snowflake AI",
+      "category": "vendor",
+      "query": "site:www.snowflake.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "data, enterprise_ai",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Siemens Energy",
+      "category": "engineering_ai",
+      "query": "site:www.siemens-energy.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.siemens-energy.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "energy, industrial_ai, digital_twin",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1535,6 +1443,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "SimScale",
+      "category": "engineering_ai",
+      "query": "site:www.simscale.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.simscale.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "cloud_cae, simulation",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Navasto",
       "category": "engineering_ai",
       "query": "site:www.navasto.de AI",
@@ -1582,6 +1500,26 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Papers with Code",
+      "category": "research",
+      "query": "site:paperswithcode.com AI",
+      "url": "https://www.google.com/search?q=site%3Apaperswithcode.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, benchmarks",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Hugging Face Papers",
+      "category": "research",
+      "query": "site:huggingface.co AI",
+      "url": "https://www.google.com/search?q=site%3Ahuggingface.co%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "research, community, papers",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1652,6 +1590,16 @@
       "source_type": "website",
       "priority": "high",
       "tags": "medical_ai, digital_health, healthcare_ai",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Drug Target Review",
+      "category": "general_ai",
+      "query": "site:www.drugtargetreview.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.drugtargetreview.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "bio_ai, drug_discovery, biotech",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1742,7 +1690,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 80.82,
+      "score": 80.812,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1754,7 +1702,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1779,7 +1727,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 75.466,
+      "score": 75.458,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1791,7 +1739,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1815,7 +1763,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 72.592,
+      "score": 72.584,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.45",
@@ -1855,7 +1803,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 71.457,
+      "score": 71.449,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -1891,7 +1839,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 71.413,
+      "score": 71.405,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1930,10 +1878,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 70.319,
+      "score": 70.201,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.47",
+        "novelty=0.46",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1942,7 +1890,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.469,
+      "novelty_score": 0.464,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1967,7 +1915,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 69.788,
+      "score": 69.78,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1979,7 +1927,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.93,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2005,10 +1953,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.722,
+      "score": 67.603,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2017,7 +1965,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.859,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2046,7 +1994,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.256,
+      "score": 67.177,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2058,7 +2006,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.845,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2151,7 +2099,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.006,
+      "score": 66.998,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2188,10 +2136,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 66.173,
+      "score": 66.139,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2200,7 +2148,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.735,
+      "novelty_score": 0.734,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2226,7 +2174,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 65.491,
+      "score": 65.483,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -2261,7 +2209,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.389,
+      "score": 65.381,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2273,7 +2221,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.73,
+      "novelty_score": 0.729,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2298,7 +2246,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.355,
+      "score": 65.347,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2339,7 +2287,7 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 64.799,
+      "score": 64.72,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2351,7 +2299,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.582,
+      "novelty_score": 0.578,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2377,7 +2325,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.532,
+      "score": 64.413,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2389,7 +2337,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.873,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2416,10 +2364,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 63.505,
+      "score": 63.387,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2428,7 +2376,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.978,
+      "novelty_score": 0.972,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -2455,7 +2403,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 63.392,
+      "score": 63.313,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2467,7 +2415,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2490,7 +2438,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.224,
+      "score": 63.216,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -2560,10 +2508,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.682,
+      "score": 61.445,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -2572,49 +2520,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.879,
+      "novelty_score": 0.869,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "eed16821fcdd7ed9",
-      "title": "State Of Simulation For Physical Ai",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "State Of Simulation For Physical Ai https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 61.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.50",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2993,7 +2905,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.588,
+      "score": 59.509,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -3005,7 +2917,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.799,
+      "novelty_score": 0.796,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3028,7 +2940,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.501,
+      "score": 59.493,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -3065,10 +2977,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 59.364,
+      "score": 59.285,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.66",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3077,7 +2989,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.668,
+      "novelty_score": 0.664,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3102,10 +3014,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 59.259,
+      "score": 59.022,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -3114,7 +3026,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.504,
+      "novelty_score": 0.493,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3136,7 +3048,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.81,
+      "score": 58.802,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -3148,7 +3060,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.431,
+      "novelty_score": 0.43,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -3170,7 +3082,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.732,
+      "score": 58.698,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -3182,7 +3094,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.7,
+      "novelty_score": 0.698,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3206,7 +3118,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.723,
+      "score": 58.644,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -3218,7 +3130,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.912,
+      "novelty_score": 0.908,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3226,78 +3138,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "3e25372b9239ef76",
-      "title": "Nvidia Physical Ai",
-      "url": "https://huggingface.co/blog/nvidia-physical-ai",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Nvidia Physical Ai https://huggingface.co/blog/nvidia-physical-ai",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.867,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "1cd13896aacc5572",
-      "title": "Beijing Academy of Artificial Intelligence",
-      "url": "https://huggingface.co/BAAI",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Beijing Academy of Artificial Intelligence https://huggingface.co/BAAI",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 57.867,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -3316,7 +3156,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 57.739,
+      "score": 57.66,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -3328,7 +3168,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.564,
+      "novelty_score": 0.56,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3336,80 +3176,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "c1a4d7d6313d2fde",
-      "title": "Domain Specific Embedding Finetune",
-      "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Domain Specific Embedding Finetune https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
-      "matched_terms": [
-        "AI",
-        "embedding",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "a7d760ab746a249f",
-      "title": "Ai Q Top Ranking Open Portable Deep Research Agent",
-      "url": "https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Ai Q Top Ranking Open Portable Deep Research Agent https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -3426,10 +3192,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.289,
+      "score": 57.21,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3438,7 +3204,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.846,
+      "novelty_score": 0.843,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3446,6 +3212,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "7cc067a0f981ad06",
+      "title": "QR Codes Make Their Way Down Wedding Aisles",
+      "url": "https://www.nytimes.com/2026/07/25/style/wedding-qr-codes.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-25T09:00:40+00:00",
+      "text": "QR Codes Make Their Way Down Wedding Aisles The technology, often associated with pandemic-era menus, is being used by more couples for ease, cost, expedience and sustainability.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.196,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.994,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3461,7 +3261,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 57.185,
+      "score": 57.177,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -5363,6 +5163,142 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef8469f42c5a7ab5",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f5d0a2c047483415",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b59a1ade7d5b68bc",
+      "title": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows",
+      "url": "https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
       "matched_terms": [
         "ROM"
       ],
