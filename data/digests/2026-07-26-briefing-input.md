@@ -3,22 +3,22 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16694
-- filtered_count: 2209
+- fetched_count: 16196
+- filtered_count: 2211
 - duplicate_count: 74
 - failures: 7
 
 ## Top 10 General AI News
 1. [Ruff v0.16.0](https://simonwillison.net/2026/Jul/25/ruff)
    - source: Simon Willison
-   - score: 73.003
-   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.833; source_priority=1.0
+   - score: 72.877
+   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.828; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=6; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [The AI jobs apocalypse probably isn’t coming anytime soon](https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor)
    - source: The Guardian Technology
-   - score: 56.654
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.363; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.36; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.403
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.352; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
    - source: Anthropic
    - score: 55.7
@@ -26,24 +26,24 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Monday.com is the latest tech company to blame AI for layoffs — here are 20 others](https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai)
    - source: TechCrunch AI
-   - score: 55.524
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.918; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.441
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.914; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [What links Horrible Histories and Gordon Brown’s neighbour? The bumper summer quiz](https://www.theguardian.com/games/2026/jul/26/what-links-horrible-histories-and-gordon-browns-neighbour-the-bumper-summer-quiz)
    - source: The Guardian Technology
-   - score: 55.001
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.894; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.75
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.883; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Silicon Valley Splits Over Closing the Borders to Chinese A.I.](https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html)
    - source: New York Times Technology
-   - score: 54.878
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.585; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.627
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.574; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [One fallen power line exposed a growing AI data center problem. Here’s how to fix it.](https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it)
    - source: TechCrunch AI
-   - score: 52.679
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.788; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.595
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.785; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
    - score: 52.367
@@ -51,9 +51,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Detecting silent agent failures with Amazon Bedrock AgentCore optimization](https://aws.amazon.com/blogs/machine-learning/detecting-silent-agent-failures-with-amazon-bedrock-agentcore-optimization)
    - source: Amazon AWS AI
-   - score: 49.161
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.326; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.33; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.077
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.322; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.32; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Vibe for code Coding agents in the terminal, IDE, and background.](https://mistral.ai/products/vibe/code)
    - source: Mistral AI
    - score: 46.367
@@ -63,14 +63,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [MLBB: Team Liquid PH eliminated from MSC after bowing to Entity7 - GMA Network](https://news.google.com/rss/articles/CBMixwFBVV95cUxNVzh5VHBqVXZ4S0l5dmRsLTNzOHp0YlpIMlhMNXppN3RiVHlSR0NXcDF1WGZZMmJyNjFnaEprUDh6WHFsNTloNXlvOE5OeXRxU29PdW9YUlMzaUszOVVNaXgtRUxRY0JnNTVUYmFzYWJ6ZF9vYTZxSWRwZlVCRWV0RmlHekd5bkJGWmVqZjBIRTg0VVFfZEVoa1ZHV1F0XzFTUWpVYTYtSF9XU1ZpbXFmWm9SSGRGVFg0QS1BVHF1THhMQXlHREU00gHMAUFVX3lxTFBNc195LU9wdW9PMkh0ZkVEd0JjbjBXT1BQeGp6STRKNGZFS0J4dnJaT3ZsMDRVRGJ2QW1MbE9MdldRd1dLRG5JLUVoZXdzWlRkYWRKbkV3cHVNV2Fidkpfdm11LVhObFVDa1dOUmRXVHhncmd3TmVYMGNiYUhVeVcxZFBlSXNrenMzbDZ4dXh3LVlOSUZrRjVJLUVnai1vajByUU5XX0VNVDdHZjdYSVhlYml3LTB4cUlnc3pOUzdETnBwcVpSd3hZdnM4Ug?oc=5)
    - source: Trusted Engineering AI Vendor Discovery
-   - score: 70.942
+   - score: 70.934
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.982; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Why TikTok’s Algorithm Keeps You Trapped in a Breakup Loop](https://www.nytimes.com/2026/07/26/technology/personaltech/tiktok-instagram-breakup-content.html)
    - source: New York Times Technology
-   - score: 60.568
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.988; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.316
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.976; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Ai Agents In Engineering From Single Models To Scalable Agentic Systems](https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems)
    - source: Synera
    - score: 57.033
@@ -108,11 +108,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. ["Refusal Rules Useless... Asked AI 'How Do You Make Biological Weapons?' and Got Detailed Answers" - 아시아경제](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5YVdRRHNxWUt6anVCRVEwa2xIb3lRVEZ5X2s0bmxVRXZuLVNoV2ZTTzZKLVB0OHJOU2Y3TkNydG1aR0xxLUNZNVdVaHM5enJ6Q2pQYkt3ck1sY3pPbENDUnhNaXQ?oc=5)
+5. ["Refusal Rules Useless... Asked AI 'How Do You Make Biological Weapons?' and Got Detailed Answers" - 아시아경제](https://news.google.com/rss/articles/CBMib0FVX3lxTE50aFFuMk90eEFpYW52UGp0azhhZW04Y3JDTlVfVlN6VmpubURSM0k5a1N3ZDREMGpBUllqSTJOd1JXZUhWamU3Rlk4Y3k4ZWJfTTFVVjJLbDJkbGliaHhXa3JNcC05dWtJdlFRSldBbw?oc=5)
    - source: Google News Bio and Genetics AI Discovery
-   - score: 36.007
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.976; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 35.756
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.965; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Mosaicleaks](https://huggingface.co/blog/ServiceNow/mosaicleaks)
@@ -147,6 +147,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
+- [Hexagon / MSC](https://www.google.com/search?q=site%3Ahexagon.com%20AI): site:hexagon.com AI (website, medium)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
 - [Navasto](https://www.google.com/search?q=site%3Awww.navasto.de%20AI): site:www.navasto.de AI (website, medium)
 - [PhysicsX](https://www.google.com/search?q=site%3Awww.physicsx.ai%20AI): site:www.physicsx.ai AI (website, high)
