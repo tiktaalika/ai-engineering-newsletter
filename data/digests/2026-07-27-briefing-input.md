@@ -1,0 +1,185 @@
+# AI Engineering Newsletter - 2026-07-27
+
+Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
+
+## Run Log
+- fetched_count: 16108
+- filtered_count: 2184
+- duplicate_count: 70
+- failures: 8
+
+## Top 10 General AI News
+1. [Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack)
+   - source: TechCrunch AI
+   - score: 60.886
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.858; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Misleading AI-generated doctors pose ‘huge danger to public safety’](https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok)
+   - source: The Guardian Technology
+   - score: 59.91
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.996; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+3. [Are brain waves the next unlock for physical AI?](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai)
+   - source: TechCrunch AI
+   - score: 59.5
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.939; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+4. [NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding](https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding)
+   - source: NVIDIA AI
+   - score: 59.431
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.944; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [I risk losing my livelihood because Nissan failed to repair my car](https://www.theguardian.com/money/2026/jul/27/nissan-repair-car-driving-instructor)
+   - source: The Guardian Technology
+   - score: 57.243
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.996; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
+   - source: Anthropic
+   - score: 49.7
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Vibe AI agent for long-horizon work.](https://mistral.ai/products/vibe)
+   - source: Mistral AI
+   - score: 49.7
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+   - source: Anthropic
+   - score: 49.033
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+9. [Compute Frontier-scale infrastructure for training and inference.](https://mistral.ai/products/compute)
+   - source: Mistral AI
+   - score: 46.367
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants](https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants)
+   - source: Windsurf
+   - score: 46.367
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+
+## Top 5 Engineering AI News
+1. [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market)
+   - source: Simon Willison
+   - score: 60.514
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.834; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+2. [Multiphysics Fusion Chip Design](https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-fusion-chip-design.html)
+   - source: Synopsys
+   - score: 58.674
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.934; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.93; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Optical Tech Would Update a Robot’s AI on the Fly](https://spectrum.ieee.org/ai-in-robotics)
+   - source: IEEE Spectrum AI
+   - score: 58.216
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.464; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.46; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+4. [Einfuehrung Intact Simulation Add In](https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in)
+   - source: Synera
+   - score: 57.033
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Engineering Ais Last Frontier](https://www.neuralconcept.com/post/engineering-ais-last-frontier)
+   - source: Neural Concept
+   - score: 57.033
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+
+## Top 5 Medical, Medicine, and Bio/Genetics AI News
+1. [Misleading AI-generated doctors pose ‘huge danger to public safety’](https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok)
+   - source: The Guardian Technology
+   - score: 59.91
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.996; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+2. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
+   - source: Scale AI
+   - score: 34.5
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+3. [Medical Answering Service](https://elevenlabs.io/agents/medical-answering-service)
+   - source: ElevenLabs
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Empowering Non Technical Users Pharma Dashboards And Chatbots Working](https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working)
+   - source: Databricks AI
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
+   - source: Databricks AI
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+
+## Research Radar
+1. [Glm 52 Blog](https://huggingface.co/blog/zai-org/glm-52-blog)
+   - source: Hugging Face Papers
+   - score: 51.033
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
+2. [Agentic Resource Discovery Launch](https://huggingface.co/blog/agentic-resource-discovery-launch)
+   - source: Hugging Face Papers
+   - score: 51.033
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
+3. [Eu Ai Act For Oss Developers](https://huggingface.co/blog/eu-ai-act-for-oss-developers)
+   - source: Hugging Face Papers
+   - score: 51.033
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
+4. [Digital Green Llm Judge](https://huggingface.co/blog/digital-green-llm-judge)
+   - source: Hugging Face Papers
+   - score: 51.033
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
+5. [1 58 Llm Extreme Quantization](https://huggingface.co/blog/1_58_llm_extreme_quantization)
+   - source: Hugging Face Papers
+   - score: 51.033
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
+
+## Watchlist Updates
+- [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)
+- [VentureBeat AI](https://www.google.com/search?q=site%3Aventurebeat.com%20AI): site:venturebeat.com AI (website, medium)
+- [Perplexity](https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI): site:www.perplexity.ai AI (website, medium)
+- [Snowflake AI](https://www.google.com/search?q=site%3Awww.snowflake.com%20AI): site:www.snowflake.com AI (website, medium)
+- [Engineering.com Design News Weekly](https://www.google.com/search?q=site%3Aengineering.com/category/technology/design%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20CAD%20OR%20CAE%20OR%20simulation%20OR%20manufacturing%20OR%20%22Solid%20Edge%22%20OR%20Designcenter%20OR%20Siemens%20OR%20Autodesk%20OR%20PLM%29): site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM) (newsletter, high)
+- [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
+- [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
+- [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
+- [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
+- [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
+- [Hexagon / MSC](https://www.google.com/search?q=site%3Ahexagon.com%20AI): site:hexagon.com AI (website, medium)
+- [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
+- [Navasto](https://www.google.com/search?q=site%3Awww.navasto.de%20AI): site:www.navasto.de AI (website, medium)
+- [PhysicsX](https://www.google.com/search?q=site%3Awww.physicsx.ai%20AI): site:www.physicsx.ai AI (website, high)
+- [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
+- [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
+- [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
+- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
+- [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
+- [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
+- [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
+- [Reddit MachineLearning](https://www.google.com/search?q=site%3Awww.reddit.com%20AI): site:www.reddit.com AI (website, low)
+- [Healthcare IT News](https://www.google.com/search?q=site%3Awww.healthcareitnews.com%20AI): site:www.healthcareitnews.com AI (website, high)
+- [MobiHealthNews](https://www.google.com/search?q=site%3Awww.mobihealthnews.com%20AI): site:www.mobihealthnews.com AI (website, high)
+- [NEJM AI](https://www.google.com/search?q=site%3Aai.nejm.org%20AI): site:ai.nejm.org AI (website, high)
+- [The Lancet Digital Health](https://www.google.com/search?q=site%3Awww.thelancet.com%20AI): site:www.thelancet.com AI (website, high)
+- [Nature Medicine](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, high)
+- [Nature Biotechnology](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, high)
+- [Cell Patterns](https://www.google.com/search?q=site%3Awww.cell.com%20AI): site:www.cell.com AI (website, medium)
+- [LinkedIn Engineering AI Public Posts](https://www.google.com/search?q=%28CAE%20OR%20simulation%20OR%20CFD%20OR%20FEA%20OR%20digital%20twin%20OR%20surrogate%20model%20OR%20SPDM%20OR%20PLM%29%20%28AI%20OR%20machine%20learning%29): (CAE OR simulation OR CFD OR FEA OR digital twin OR surrogate model OR SPDM OR PLM) (AI OR machine learning) (linkedin_manual, medium)
+- [Generative AI Newsletter](https://www.google.com/search?q=site%3Agenai.works%20%28OpenAI%20OR%20Anthropic%20OR%20Claude%20OR%20ChatGPT%20OR%20%22AI%20agent%22%20OR%20%22generative%20AI%22%20OR%20%22AI%20newsletter%22%29): site:genai.works (OpenAI OR Anthropic OR Claude OR ChatGPT OR "AI agent" OR "generative AI" OR "AI newsletter") (newsletter, high)
+
+## Why It Matters
+- The digest is selected from an extensible curated source registry, not a closed hard-coded source list.
+- Ranking combines general AI relevance, engineering relevance, research relevance, novelty, source priority, and visible engagement when available.
+- Similar-title and canonical-URL duplicate detection is applied before final selection.
+
+## Source Failures
+- Ansys: The read operation timed out
+- Rescale: The read operation timed out
+- Hamel Husain: HTTP Error 403: Forbidden
+- Context Window: HTTP Error 403: Forbidden
+- Chips and Cheese: HTTP Error 403: Forbidden
+- Sunday Letters: HTTP Error 403: Forbidden
+- The Leverage: HTTP Error 403: Forbidden
+- Harry Stebbings 20VC: HTTP Error 403: Forbidden
