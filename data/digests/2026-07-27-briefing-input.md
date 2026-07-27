@@ -4,45 +4,45 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16675
-- filtered_count: 2215
-- duplicate_count: 73
+- filtered_count: 2216
+- duplicate_count: 71
 - failures: 7
 
 ## Top 10 General AI News
 1. [Six Agent Harness Capabilities for Higher Model Performance](https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance)
    - source: NVIDIA AI
-   - score: 63.733
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.988; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.659
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.985; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack)
    - source: TechCrunch AI
-   - score: 59.964
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.89
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.813; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Glitched into empty space: why video games are obsessed with the Backrooms](https://www.theguardian.com/games/2026/jul/27/video-games-obsessed-backrooms)
    - source: The Guardian Technology
-   - score: 59.205
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.964; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 58.984
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.954; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding](https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding)
    - source: NVIDIA AI
-   - score: 58.509
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.902; source_priority=1.0
+   - score: 58.435
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.899; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Misleading AI-generated doctors pose ‘huge danger to public safety’](https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok)
    - source: The Guardian Technology
-   - score: 57.142
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.87; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 56.921
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.86; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 6. [How Meta Got Everything It Wanted in a Secret Louisiana Data Center Deal](https://www.nytimes.com/2026/07/27/technology/meta-data-center-louisiana.html)
    - source: New York Times Technology
-   - score: 56.536
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.964; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.315
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.954; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Making sense of the panic over Chinese AI](https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai)
    - source: TechCrunch AI
-   - score: 54.014
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.849; source_priority=1.0
+   - score: 53.941
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.846; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
    - source: Anthropic
@@ -63,17 +63,17 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics](https://huggingface.co/blog/nvidia/cosmos-h-dreams)
    - source: Hugging Face
-   - score: 63.951
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.99; source_priority=1.0
+   - score: 63.841
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.985; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market)
    - source: Simon Willison
-   - score: 59.13
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.771; source_priority=1.0
+   - score: 59.02
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.766; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Multiphysics Fusion Chip Design](https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-fusion-chip-design.html)
    - source: Synopsys
-   - score: 58.582
+   - score: 58.574
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.929; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.93; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Einfuehrung Intact Simulation Add In](https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in)
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Misleading AI-generated doctors pose ‘huge danger to public safety’](https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok)
    - source: The Guardian Technology
-   - score: 57.142
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.87; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 56.921
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.86; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Biointron Rushdata Platform Ai Driven Antibody](https://www.pharmaceutical-technology.com/news/biointron-rushdata-platform-ai-driven-antibody)
    - source: Pharmaceutical Technology
-   - score: 45.605
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.976; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.383
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.966; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
    - source: Scale AI
    - score: 34.5
