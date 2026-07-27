@@ -3,79 +3,79 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16108
-- filtered_count: 2184
-- duplicate_count: 70
-- failures: 8
+- fetched_count: 16675
+- filtered_count: 2215
+- duplicate_count: 73
+- failures: 7
 
 ## Top 10 General AI News
-1. [Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack)
+1. [Six Agent Harness Capabilities for Higher Model Performance](https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance)
+   - source: NVIDIA AI
+   - score: 63.733
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.988; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack)
    - source: TechCrunch AI
-   - score: 60.886
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.858; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Misleading AI-generated doctors pose ‘huge danger to public safety’](https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok)
+   - score: 59.964
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Glitched into empty space: why video games are obsessed with the Backrooms](https://www.theguardian.com/games/2026/jul/27/video-games-obsessed-backrooms)
    - source: The Guardian Technology
-   - score: 59.91
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.996; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-3. [Are brain waves the next unlock for physical AI?](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai)
-   - source: TechCrunch AI
-   - score: 59.5
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.939; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.205
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.964; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding](https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding)
    - source: NVIDIA AI
-   - score: 59.431
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.944; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [I risk losing my livelihood because Nissan failed to repair my car](https://www.theguardian.com/money/2026/jul/27/nissan-repair-car-driving-instructor)
+   - score: 58.509
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.902; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Misleading AI-generated doctors pose ‘huge danger to public safety’](https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok)
    - source: The Guardian Technology
-   - score: 57.243
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.996; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
+   - score: 57.142
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.87; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+6. [How Meta Got Everything It Wanted in a Secret Louisiana Data Center Deal](https://www.nytimes.com/2026/07/27/technology/meta-data-center-louisiana.html)
+   - source: New York Times Technology
+   - score: 56.536
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.964; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Making sense of the panic over Chinese AI](https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai)
+   - source: TechCrunch AI
+   - score: 54.014
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.849; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
    - source: Anthropic
    - score: 49.7
    - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Vibe AI agent for long-horizon work.](https://mistral.ai/products/vibe)
+9. [Vibe AI agent for long-horizon work.](https://mistral.ai/products/vibe)
    - source: Mistral AI
    - score: 49.7
    - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+10. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
    - source: Anthropic
    - score: 49.033
    - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-9. [Compute Frontier-scale infrastructure for training and inference.](https://mistral.ai/products/compute)
-   - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants](https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants)
-   - source: Windsurf
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market)
+1. [NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics](https://huggingface.co/blog/nvidia/cosmos-h-dreams)
+   - source: Hugging Face
+   - score: 63.951
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.99; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+2. [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market)
    - source: Simon Willison
-   - score: 60.514
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.834; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-2. [Multiphysics Fusion Chip Design](https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-fusion-chip-design.html)
+   - score: 59.13
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.771; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+3. [Multiphysics Fusion Chip Design](https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-fusion-chip-design.html)
    - source: Synopsys
-   - score: 58.674
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.934; source_priority=0.65
+   - score: 58.582
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.929; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.93; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Optical Tech Would Update a Robot’s AI on the Fly](https://spectrum.ieee.org/ai-in-robotics)
-   - source: IEEE Spectrum AI
-   - score: 58.216
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.464; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.46; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Einfuehrung Intact Simulation Add In](https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in)
    - source: Synera
    - score: 57.033
@@ -90,25 +90,25 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Misleading AI-generated doctors pose ‘huge danger to public safety’](https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok)
    - source: The Guardian Technology
-   - score: 59.91
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.996; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-2. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
+   - score: 57.142
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.87; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+2. [Biointron Rushdata Platform Ai Driven Antibody](https://www.pharmaceutical-technology.com/news/biointron-rushdata-platform-ai-driven-antibody)
+   - source: Pharmaceutical Technology
+   - score: 45.605
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.976; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
    - source: Scale AI
    - score: 34.5
    - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-3. [Medical Answering Service](https://elevenlabs.io/agents/medical-answering-service)
+4. [Medical Answering Service](https://elevenlabs.io/agents/medical-answering-service)
    - source: ElevenLabs
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Empowering Non Technical Users Pharma Dashboards And Chatbots Working](https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working)
-   - source: Databricks AI
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
+5. [Empowering Non Technical Users Pharma Dashboards And Chatbots Working](https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working)
    - source: Databricks AI
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
@@ -147,7 +147,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
-- [Hexagon / MSC](https://www.google.com/search?q=site%3Ahexagon.com%20AI): site:hexagon.com AI (website, medium)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
 - [Navasto](https://www.google.com/search?q=site%3Awww.navasto.de%20AI): site:www.navasto.de AI (website, medium)
 - [PhysicsX](https://www.google.com/search?q=site%3Awww.physicsx.ai%20AI): site:www.physicsx.ai AI (website, high)
@@ -176,7 +175,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: The read operation timed out
-- Rescale: The read operation timed out
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden

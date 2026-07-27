@@ -1,18 +1,14 @@
 {
   "run_log": {
-    "generated_at": "2026-07-27T06:08:26.823978+00:00",
+    "generated_at": "2026-07-27T10:09:57.110568+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16108,
-    "filtered_count": 2184,
-    "duplicate_count": 70,
+    "fetched_count": 16675,
+    "filtered_count": 2215,
+    "duplicate_count": 73,
     "failures": [
       {
         "source": "Ansys",
-        "error": "The read operation timed out"
-      },
-      {
-        "source": "Rescale",
         "error": "The read operation timed out"
       },
       {
@@ -51,6 +47,44 @@
   },
   "top_10_general_ai": [
     {
+      "id": "5f1bdcae2948b98c",
+      "title": "Six Agent Harness Capabilities for Higher Model Performance",
+      "url": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T09:00:00+00:00",
+      "text": "Six Agent Harness Capabilities for Higher Model Performance Building a great AI agent isn’t just about choosing the right models. The harness is the architecture surrounding the model. How it renders context, executes...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 63.733,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.988,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "8fa0d5fa5bb953d4",
       "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
       "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
@@ -65,10 +99,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.886,
+      "score": 59.964,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -77,7 +111,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -88,22 +122,22 @@
       "source_priority": "high"
     },
     {
-      "id": "6e206d9299829685",
-      "title": "Misleading AI-generated doctors pose ‘huge danger to public safety’",
-      "url": "https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok",
+      "id": "86be346fa0d84795",
+      "title": "Glitched into empty space: why video games are obsessed with the Backrooms",
+      "url": "https://www.theguardian.com/games/2026/jul/27/video-games-obsessed-backrooms",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-27T06:00:34+00:00",
-      "text": "Misleading AI-generated doctors pose ‘huge danger to public safety’ Research shows AI accounts are gaining millions of views on TikTok by spreading dubious health advice Misleading health claims online pose a “huge danger to public safety”, experts have warned, after research has shown that AI-generated doctors are gaining millions of views on TikTok by spreading dubious health advice. The British Medical Association council deputy chair, Dr Emma Runswick, flagged the risks posed by AI accounts that “peddle medical myths and promote so-called miracle cures”. Continue reading...",
+      "published_at": "2026-07-27T09:00:36+00:00",
+      "text": "Glitched into empty space: why video games are obsessed with the Backrooms The horror movie sensation of 2026 has its roots in gaming’s discovery of ‘noclip’ – and the hidden virtual realms that could be opened up inside games. Developers explain how everyone got lost in these liminal spaces It starts on 4chan, in a May 2019 thread entitled “unsettling images”. The first post was a photo showing an empty room with the now iconic yellow wallpaper, no natural lighting and a kind of inexplicable jutting half-wall. Shortly afterwards, another user (there are no usernames on 4chan, just identifying numbers) responded with 78 words of text that would essentially lay out the blueprint for a future $262m A24 movie sensation . “If you’re not careful and you noclip out of reality in the wrong areas, you’ll end up in the Backrooms,” the post begins. For the uninitiated, “noclip” refers to a game mode in which collision with solid objects is disabled, allowing players to move freely through walls and floors. Think of Chiwetel Ejiofor’s character in the film, finding a permeable wall in the basement of his furniture store and passing through to the world on the other side. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 59.91,
+      "score": 59.205,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -112,48 +146,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.996,
+      "novelty_score": 0.964,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "81a7106a01095442",
-      "title": "Are brain waves the next unlock for physical AI?",
-      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T00:19:14+00:00",
-      "text": "Are brain waves the next unlock for physical AI? Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 59.5,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.94",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.939,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -170,10 +169,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.431,
+      "score": 58.509,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.90",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -182,7 +181,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.944,
+      "novelty_score": 0.902,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -194,22 +193,56 @@
       "source_priority": "high"
     },
     {
-      "id": "1eb753a95e895412",
-      "title": "I risk losing my livelihood because Nissan failed to repair my car",
-      "url": "https://www.theguardian.com/money/2026/jul/27/nissan-repair-car-driving-instructor",
+      "id": "6e206d9299829685",
+      "title": "Misleading AI-generated doctors pose ‘huge danger to public safety’",
+      "url": "https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
       "published_at": "2026-07-27T06:00:34+00:00",
-      "text": "I risk losing my livelihood because Nissan failed to repair my car I’m a self-employed driving instructor and I’m running out of cash to hire a replacement dual-control vehicle My livelihood as a self-employed driving instructor is under threat owing to Nissan’s failure to repair my leased dual-control car. It has been off the road awaiting a spare part for three months, and I’ve now been told it will take at least a further month to arrive. Continue reading...",
+      "text": "Misleading AI-generated doctors pose ‘huge danger to public safety’ Research shows AI accounts are gaining millions of views on TikTok by spreading dubious health advice Misleading health claims online pose a “huge danger to public safety”, experts have warned, after research has shown that AI-generated doctors are gaining millions of views on TikTok by spreading dubious health advice. The British Medical Association council deputy chair, Dr Emma Runswick, flagged the risks posed by AI accounts that “peddle medical myths and promote so-called miracle cures”. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.243,
+      "score": 57.142,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.87",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.87,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6d2b3b5e575ffdbe",
+      "title": "How Meta Got Everything It Wanted in a Secret Louisiana Data Center Deal",
+      "url": "https://www.nytimes.com/2026/07/27/technology/meta-data-center-louisiana.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T09:00:20+00:00",
+      "text": "How Meta Got Everything It Wanted in a Secret Louisiana Data Center Deal A Times examination details how the Silicon Valley giant used private talks with local officials to start a project big enough to cover nearly six square miles.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.536,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -218,13 +251,48 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.964,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "cd03ad1bc0498f21",
+      "title": "Making sense of the panic over Chinese AI",
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-26T19:40:57+00:00",
+      "text": "Making sense of the panic over Chinese AI On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 54.014,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.849,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -335,79 +403,46 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
-    },
-    {
-      "id": "25ee4c663561b7da",
-      "title": "Compute Frontier-scale infrastructure for training and inference.",
-      "url": "https://mistral.ai/products/compute",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Compute Frontier-scale infrastructure for training and inference. https://mistral.ai/products/compute/",
-      "matched_terms": [
-        "AI",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "923639699d73def4",
-      "title": "Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants",
-      "url": "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
-      "source": "Windsurf",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
-      "matched_terms": [
-        "AI",
-        "coding assistant"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "coding_assistant",
-        "developer_tools"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
+    {
+      "id": "9101339b1ac24639",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-27T09:32:20+00:00",
+      "text": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "matched_terms": [
+        "Nvidia",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 63.951,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.99,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
     {
       "id": "4f9abd950bf45f1d",
       "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
@@ -422,10 +457,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 60.514,
+      "score": 59.13,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.77",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -434,7 +469,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.834,
+      "novelty_score": 0.771,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -459,7 +494,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.674,
+      "score": 58.582,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.93",
@@ -471,7 +506,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.934,
+      "novelty_score": 0.929,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -480,44 +515,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "faef43bde7d1c1cb",
-      "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-      "url": "https://spectrum.ieee.org/ai-in-robotics",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-26T13:00:01+00:00",
-      "text": "Optical Tech Would Update a Robot’s AI on the Fly Atop a lab bench, Cornell Tech postdoctoral researcher Yifan He positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that resemble a QR code. When you hold your phone camera up to a QR code, light strikes the image sensor as only a first step to revealing the data hidden behind the black and white matrix. The receiver here is doing something different: Directly altering its own memory using the photocurrents produced by the beamed array of light. And unlike the data behind a QR code, which might point to a simple web address, this optical code could convey the parameters of an AI model . The new receiver design, presented last month at the IEEE/JSAP Symposium on VLSI Technology & Circuits , seeks to reduce the burden of increasing memory demands on AI systems. Shining data down onto processors could lower the energy typically required for data centers, self-driving cars, and even “edge” applications like AI-powered robots, researchers say. “People are designing all sorts of diffe",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "AI chip",
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 58.216,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.46",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.464,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
     },
     {
       "id": "7faa8c6159a05886",
@@ -603,10 +600,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.91,
+      "score": 57.142,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -615,7 +612,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.996,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -623,6 +620,42 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "ce97739dc4ced733",
+      "title": "Biointron Rushdata Platform Ai Driven Antibody",
+      "url": "https://www.pharmaceutical-technology.com/news/biointron-rushdata-platform-ai-driven-antibody",
+      "source": "Pharmaceutical Technology",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": "2026-07-27T09:23:48+00:00",
+      "text": "Biointron Rushdata Platform Ai Driven Antibody https://www.pharmaceutical-technology.com/news/biointron-rushdata-platform-ai-driven-antibody/",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 45.605,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.976,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "bio_ai",
+        "pharma",
+        "drug_discovery",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "8d09f828aee59f69",
@@ -726,43 +759,46 @@
       ],
       "registry_category": "vendor",
       "source_priority": "medium"
-    },
-    {
-      "id": "a801804f43c1065c",
-      "title": "Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl",
-      "url": "https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl",
-      "source": "Databricks AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "data",
-        "enterprise_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
+    {
+      "id": "9101339b1ac24639",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-27T09:32:20+00:00",
+      "text": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "matched_terms": [
+        "Nvidia",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 63.951,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.99,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
     {
       "id": "4f9abd950bf45f1d",
       "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
@@ -777,10 +813,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 60.514,
+      "score": 59.13,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.77",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -789,7 +825,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.834,
+      "novelty_score": 0.771,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -814,7 +850,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.674,
+      "score": 58.582,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.93",
@@ -826,7 +862,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.934,
+      "novelty_score": 0.929,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -835,44 +871,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "faef43bde7d1c1cb",
-      "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-      "url": "https://spectrum.ieee.org/ai-in-robotics",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-26T13:00:01+00:00",
-      "text": "Optical Tech Would Update a Robot’s AI on the Fly Atop a lab bench, Cornell Tech postdoctoral researcher Yifan He positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that resemble a QR code. When you hold your phone camera up to a QR code, light strikes the image sensor as only a first step to revealing the data hidden behind the black and white matrix. The receiver here is doing something different: Directly altering its own memory using the photocurrents produced by the beamed array of light. And unlike the data behind a QR code, which might point to a simple web address, this optical code could convey the parameters of an AI model . The new receiver design, presented last month at the IEEE/JSAP Symposium on VLSI Technology & Circuits , seeks to reduce the burden of increasing memory demands on AI systems. Shining data down onto processors could lower the energy typically required for data centers, self-driving cars, and even “edge” applications like AI-powered robots, researchers say. “People are designing all sorts of diffe",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "AI chip",
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 58.216,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.46",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.464,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
     },
     {
       "id": "7faa8c6159a05886",
@@ -1223,16 +1221,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Hexagon / MSC",
-      "category": "engineering_ai",
-      "query": "site:hexagon.com AI",
-      "url": "https://www.google.com/search?q=site%3Ahexagon.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "msc, cae, manufacturing",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Cadence",
       "category": "engineering_ai",
       "query": "site:community.cadence.com AI",
@@ -1535,16 +1523,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Hexagon / MSC",
-      "category": "engineering_ai",
-      "query": "site:hexagon.com AI",
-      "url": "https://www.google.com/search?q=site%3Ahexagon.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "msc, cae, manufacturing",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Cadence",
       "category": "engineering_ai",
       "query": "site:community.cadence.com AI",
@@ -1747,6 +1725,44 @@
   ],
   "top_100_news_candidates": [
     {
+      "id": "58734c7c02d92a7e",
+      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
+      "url": "https://rescale.com/blog/ai-physics-automotive-crash-structural-fea-simulations",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-24T10:29:00+00:00",
+      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
+      "matched_terms": [
+        "simulation",
+        "surrogate model",
+        "FEA",
+        "structural simulation"
+      ],
+      "engagement": {},
+      "score": 79.691,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=4",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.925,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "88cce48c228ad936",
       "title": "Enhancing pharmaceutical process design with simulation",
       "url": "https://blogs.sw.siemens.com/simcenter/enhance-pharmaceutical-process-design",
@@ -1761,10 +1777,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 74.428,
+      "score": 74.336,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1773,7 +1789,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.838,
+      "novelty_score": 0.833,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1797,7 +1813,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 71.555,
+      "score": 71.463,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -1810,7 +1826,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.404,
+      "novelty_score": 0.4,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1835,7 +1851,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 70.466,
+      "score": 70.374,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1847,7 +1863,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.961,
+      "novelty_score": 0.956,
       "source_priority_score": 1.0,
       "source_tags": [
         "engineering_ai",
@@ -1855,6 +1871,43 @@
         "cae",
         "simulation",
         "industrial_ai"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "da9d0703229ae16b",
+      "title": "Open-source AI Datasets for AI Physics Model Training",
+      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-08T15:00:00+00:00",
+      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
+      "matched_terms": [
+        "simulation",
+        "surrogate model",
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 70.327,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.53",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.53,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1873,7 +1926,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 70.375,
+      "score": 70.283,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1885,7 +1938,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.684,
+      "novelty_score": 0.68,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1907,7 +1960,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 68.751,
+      "score": 68.658,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1919,7 +1972,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.883,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2000,6 +2053,41 @@
       "source_priority": "high"
     },
     {
+      "id": "a9313472d40e9aa4",
+      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
+      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-17T12:01:00+00:00",
+      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 65.876,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.75",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.752,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d992405fa3ec1241",
       "title": "Ruff v0.16.0",
       "url": "https://simonwillison.net/2026/Jul/25/ruff",
@@ -2017,10 +2105,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 65.871,
+      "score": 64.487,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.45",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2029,7 +2117,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.509,
+      "novelty_score": 0.446,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2039,6 +2127,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "90cd344a0949cc26",
+      "title": "GeoTransolver AI Model Architecture Integration for CFD Applications",
+      "url": "https://rescale.com/blog/geotransolver-ai-model-architecture-integration-cfd-applications",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-02T15:00:00+00:00",
+      "text": "GeoTransolver AI Model Architecture Integration for CFD Applications Power complex and high-accuracy AI surrogate models for CFD and FEA with GeoTransolver model architecture. Now available in Rescale AI Physics as part of the NVIDIA PhysicsNeMo library, GeoTransolver is a geometry-aware transformer architecture that uses GALE attention to model relationships across complex 3D geometries and unstructured meshes. It is designed to generalize across changing operating conditions and learn transient, geometry-aware physical behavior, making it well-suited for surrogate models that need to predict aerodynamic, structural, or deformation behavior across a range of design variants.",
+      "matched_terms": [
+        "surrogate model",
+        "FEA",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 64.361,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.38",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.38,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2054,7 +2179,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 64.352,
+      "score": 64.259,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -2066,7 +2191,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.683,
+      "novelty_score": 0.678,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2076,6 +2201,116 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f7a88fc37e79f3e4",
+      "title": "Agent-Driven Simulation Troubleshooting",
+      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T12:00:00+00:00",
+      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 64.225,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.68",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.677,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "9101339b1ac24639",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-27T09:32:20+00:00",
+      "text": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "matched_terms": [
+        "Nvidia",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 63.951,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.99,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f1bdcae2948b98c",
+      "title": "Six Agent Harness Capabilities for Higher Model Performance",
+      "url": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T09:00:00+00:00",
+      "text": "Six Agent Harness Capabilities for Higher Model Performance Building a great AI agent isn’t just about choosing the right models. The harness is the architecture surrounding the model. How it renders context, executes...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 63.733,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.988,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2114,41 +2349,38 @@
       "source_priority": "high"
     },
     {
-      "id": "adbe7b1c6753ce36",
-      "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
-      "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment",
-      "source": "Google Research",
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
       "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-22T21:32:00+00:00",
-      "text": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment General Science",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
       "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
+        "simulation"
       ],
       "engagement": {},
-      "score": 61.726,
+      "score": 62.094,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
+        "novelty=0.58",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.533,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.58,
       "source_priority_score": 1.0,
       "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
-      "registry_category": "research",
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2188,78 +2420,41 @@
       "source_priority": "high"
     },
     {
-      "id": "8fa0d5fa5bb953d4",
-      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
-      "source": "TechCrunch AI",
+      "id": "adbe7b1c6753ce36",
+      "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+      "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment",
+      "source": "Google Research",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-26T16:33:13+00:00",
-      "text": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack \"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
+      "category": "research",
+      "published_at": "2026-07-22T21:32:00+00:00",
+      "text": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment General Science",
       "matched_terms": [
         "AI",
         "agent",
-        "OpenAI"
+        "AI agent"
       ],
       "engagement": {},
-      "score": 60.886,
+      "score": 61.331,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.52",
         "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.515,
       "source_priority_score": 1.0,
       "source_tags": [
+        "research",
+        "computer_science",
         "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "4f9abd950bf45f1d",
-      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
-      "url": "https://simonwillison.net/2026/Jul/26/relay-market",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-26T19:30:54+00:00",
-      "text": "An Inside Look at the Relay Market Powering Token Resellers and Fraud An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks. The software they are using for these proxies is open source - mostly one-api and its more actively developed fork new-api , both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials. The buyers are seeking cheap tokens, avoiding geo-restrictions, and in some cases collecting data for model distillation. I've been cautious about exposing my own LLM-driven applications publicly out of fear of abuse leading to big token bills. The existence of this marketplace makes me even more cautious: there's now an entire ecosystem that can profit from finding a new",
-      "matched_terms": [
-        "AI",
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 60.514,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.834,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
         "guo_yichen_reference"
       ],
-      "registry_category": "community",
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2589,6 +2784,43 @@
       "source_priority": "high"
     },
     {
+      "id": "8fa0d5fa5bb953d4",
+      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-26T16:33:13+00:00",
+      "text": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack \"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 59.964,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.817,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2601,7 +2833,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.016,
+      "score": 59.924,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2613,7 +2845,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.995,
+      "novelty_score": 0.99,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2622,40 +2854,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "6e206d9299829685",
-      "title": "Misleading AI-generated doctors pose ‘huge danger to public safety’",
-      "url": "https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T06:00:34+00:00",
-      "text": "Misleading AI-generated doctors pose ‘huge danger to public safety’ Research shows AI accounts are gaining millions of views on TikTok by spreading dubious health advice Misleading health claims online pose a “huge danger to public safety”, experts have warned, after research has shown that AI-generated doctors are gaining millions of views on TikTok by spreading dubious health advice. The British Medical Association council deputy chair, Dr Emma Runswick, flagged the risks posed by AI accounts that “peddle medical myths and promote so-called miracle cures”. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 59.91,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=1.00",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.996,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -2693,6 +2891,113 @@
       "source_priority": "high"
     },
     {
+      "id": "86be346fa0d84795",
+      "title": "Glitched into empty space: why video games are obsessed with the Backrooms",
+      "url": "https://www.theguardian.com/games/2026/jul/27/video-games-obsessed-backrooms",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T09:00:36+00:00",
+      "text": "Glitched into empty space: why video games are obsessed with the Backrooms The horror movie sensation of 2026 has its roots in gaming’s discovery of ‘noclip’ – and the hidden virtual realms that could be opened up inside games. Developers explain how everyone got lost in these liminal spaces It starts on 4chan, in a May 2019 thread entitled “unsettling images”. The first post was a photo showing an empty room with the now iconic yellow wallpaper, no natural lighting and a kind of inexplicable jutting half-wall. Shortly afterwards, another user (there are no usernames on 4chan, just identifying numbers) responded with 78 words of text that would essentially lay out the blueprint for a future $262m A24 movie sensation . “If you’re not careful and you noclip out of reality in the wrong areas, you’ll end up in the Backrooms,” the post begins. For the uninitiated, “noclip” refers to a game mode in which collision with solid objects is disabled, allowing players to move freely through walls and floors. Think of Chiwetel Ejiofor’s character in the film, finding a permeable wall in the basement of his furniture store and passing through to the world on the other side. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.205,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.964,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4f9abd950bf45f1d",
+      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "url": "https://simonwillison.net/2026/Jul/26/relay-market",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-26T19:30:54+00:00",
+      "text": "An Inside Look at the Relay Market Powering Token Resellers and Fraud An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks. The software they are using for these proxies is open source - mostly one-api and its more actively developed fork new-api , both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials. The buyers are seeking cheap tokens, avoiding geo-restrictions, and in some cases collecting data for model distillation. I've been cautious about exposing my own LLM-driven applications publicly out of fear of abuse leading to big token bills. The existence of this marketplace makes me even more cautious: there's now an entire ecosystem that can profit from finding a new",
+      "matched_terms": [
+        "AI",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 59.13,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.771,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "728db2ea7eedd8a8",
+      "title": "Multiphysics Fusion Chip Design",
+      "url": "https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-fusion-chip-design.html",
+      "source": "Synopsys",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": "2026-07-24T14:27:41+00:00",
+      "text": "Multiphysics Fusion Chip Design https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-fusion-chip-design.html",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 58.582,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.93",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.929,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "eda",
+        "simulation",
+        "digital_twin"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
+    },
+    {
       "id": "81a7106a01095442",
       "title": "Are brain waves the next unlock for physical AI?",
       "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
@@ -2705,10 +3010,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.5,
+      "score": 58.577,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2717,7 +3022,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.939,
+      "novelty_score": 0.897,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2741,10 +3046,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.431,
+      "score": 58.509,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.90",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2753,7 +3058,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.944,
+      "novelty_score": 0.902,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2762,79 +3067,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "728db2ea7eedd8a8",
-      "title": "Multiphysics Fusion Chip Design",
-      "url": "https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-fusion-chip-design.html",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": "2026-07-24T14:27:41+00:00",
-      "text": "Multiphysics Fusion Chip Design https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-fusion-chip-design.html",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 58.674,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.93",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.934,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "faef43bde7d1c1cb",
-      "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-      "url": "https://spectrum.ieee.org/ai-in-robotics",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-26T13:00:01+00:00",
-      "text": "Optical Tech Would Update a Robot’s AI on the Fly Atop a lab bench, Cornell Tech postdoctoral researcher Yifan He positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that resemble a QR code. When you hold your phone camera up to a QR code, light strikes the image sensor as only a first step to revealing the data hidden behind the black and white matrix. The receiver here is doing something different: Directly altering its own memory using the photocurrents produced by the beamed array of light. And unlike the data behind a QR code, which might point to a simple web address, this optical code could convey the parameters of an AI model . The new receiver design, presented last month at the IEEE/JSAP Symposium on VLSI Technology & Circuits , seeks to reduce the burden of increasing memory demands on AI systems. Shining data down onto processors could lower the energy typically required for data centers, self-driving cars, and even “edge” applications like AI-powered robots, researchers say. “People are designing all sorts of diffe",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "AI chip",
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 58.216,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.46",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.464,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2874,37 +3106,38 @@
       "source_priority": "high"
     },
     {
-      "id": "fdcca13bb581de3f",
-      "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
-      "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
-      "source": "COMSOL",
+      "id": "862bf4faa93240b3",
+      "title": "Honor Magic V6 review: sleek foldable phone lacking a bit of polish",
+      "url": "https://www.theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-02T14:24:05+00:00",
-      "text": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics® In this blog post, we use COMSOL Multiphysics® to analyze the acoustics of the famous Liberty Bell and use uncertainty quantification to gain new insights into the material properties and optimal shape.",
+      "category": "general_ai",
+      "published_at": "2026-07-27T06:00:32+00:00",
+      "text": "Honor Magic V6 review: sleek foldable phone lacking a bit of polish Super-premium Android has top performance, long battery life and good cameras, but is let down by software Honor’s svelte Android phone-tablet has been given a glow-up for its sixth version, offering a great alternative to Samsung for a fancy foldable with a red suede-like back framed in gold. The Magic V6 continues the Chinese challenger brand’s strategy of taking a razor-thin device and slapping a giant circular lump on the back to fit in top-class cameras, something others often forgo. It costs a not inconsiderable £1,500 (€1,700/A$2,999) but only until August when the price jumps to a cool £2,000 (€2,300) – a solid £300 more than last year’s model as the cost of RAMageddon continues to bite , even at the very top end of the market. Main screen: 7.95in (403ppi) 120Hz OLED flexible display Cover screen: 6.52in (406ppi) 120Hz OLED Processor: Qualcomm Snapdragon 8 Elite Gen 5 RAM: 16GB Storage: 512GB Operating system: MagicOS 10 (Android 16) Camera: 50MP + 50MP ultrawide + 64MP 3x tele; 2x 20MP selfie Connectivity: 5G, dual sim + esim, USB-C, wifi 7, NFC, Bluetooth 6, GNSS Water resistance: IP68/69 (1.5 metres for ",
       "matched_terms": [
-        "multiphysics"
+        "AI",
+        "RAG"
       ],
       "engagement": {},
-      "score": 57.773,
+      "score": 57.809,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.38",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.384,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
-        "multiphysics",
-        "simulation"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "engineering_ai",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2982,31 +3215,65 @@
       "source_priority": "high"
     },
     {
-      "id": "1eb753a95e895412",
-      "title": "I risk losing my livelihood because Nissan failed to repair my car",
-      "url": "https://www.theguardian.com/money/2026/jul/27/nissan-repair-car-driving-instructor",
-      "source": "The Guardian Technology",
+      "id": "fdcca13bb581de3f",
+      "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
+      "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
+      "source": "COMSOL",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T06:00:34+00:00",
-      "text": "I risk losing my livelihood because Nissan failed to repair my car I’m a self-employed driving instructor and I’m running out of cash to hire a replacement dual-control vehicle My livelihood as a self-employed driving instructor is under threat owing to Nissan’s failure to repair my leased dual-control car. It has been off the road awaiting a spare part for three months, and I’ve now been told it will take at least a further month to arrive. Continue reading...",
+      "category": "engineering_ai",
+      "published_at": "2026-07-02T14:24:05+00:00",
+      "text": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics® In this blog post, we use COMSOL Multiphysics® to analyze the acoustics of the famous Liberty Bell and use uncertainty quantification to gain new insights into the material properties and optimal shape.",
       "matched_terms": [
-        "AI"
+        "multiphysics"
       ],
       "engagement": {},
-      "score": 57.243,
+      "score": 57.68,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.38",
         "matched_terms=1",
-        "engineering_relevance=0.00",
+        "engineering_relevance=1.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
+      "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.379,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "multiphysics",
+        "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6e206d9299829685",
+      "title": "Misleading AI-generated doctors pose ‘huge danger to public safety’",
+      "url": "https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T06:00:34+00:00",
+      "text": "Misleading AI-generated doctors pose ‘huge danger to public safety’ Research shows AI accounts are gaining millions of views on TikTok by spreading dubious health advice Misleading health claims online pose a “huge danger to public safety”, experts have warned, after research has shown that AI-generated doctors are gaining millions of views on TikTok by spreading dubious health advice. The British Medical Association council deputy chair, Dr Emma Runswick, flagged the risks posed by AI accounts that “peddle medical myths and promote so-called miracle cures”. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.142,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -5067,278 +5334,6 @@
       "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
       "matched_terms": [
         "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "674b5396927b0e3a",
-      "title": "Ai Agents In Engineering Ai Conference 2025",
-      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "matched_terms": [
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "3cfd8b1d1cd4d509",
-      "title": "Altair Learning Synera Basics Intro Fea Automation",
-      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ea9ebd5a3b0bd743",
-      "title": "Altair Learning Synera Basics Intro Fea Automation",
-      "url": "https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "51f9f00633997da4",
-      "title": "Automating Cae Reporting",
-      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a04eae22c7539e13",
-      "title": "Automatisierung Cae Berichterstattung",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "0a951fddf5b3666d",
-      "title": "Automatisierung Fea Aufgaben",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "d8f5a4edfd9ee155",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba6a4cbdb5dbf1b3",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
