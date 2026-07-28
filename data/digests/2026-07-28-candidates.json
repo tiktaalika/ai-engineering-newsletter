@@ -1,9 +1,9 @@
 {
   "run_log": {
-    "generated_at": "2026-07-28T09:05:15.838926+00:00",
+    "generated_at": "2026-07-28T09:25:22.914803+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16777,
+    "fetched_count": 16781,
     "filtered_count": 2270,
     "duplicate_count": 75,
     "failures": [
@@ -61,7 +61,7 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 60.756,
+      "score": 60.641,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -73,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.847,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -98,10 +98,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.388,
+      "score": 56.272,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -110,7 +110,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.957,
+      "novelty_score": 0.952,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -134,7 +134,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.26,
+      "score": 52.227,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.91",
@@ -146,7 +146,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.915,
+      "novelty_score": 0.913,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -172,10 +172,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.686,
+      "score": 62.456,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -184,7 +184,42 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.94,
+      "novelty_score": 0.93,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d0c20934a2b85a5b",
+      "title": "The Mermaid Mask review – the funniest underwater murder mystery you can play",
+      "url": "https://www.theguardian.com/games/2026/jul/28/the-mermaid-mask-review-detective-grimoire-sfb",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T09:00:35+00:00",
+      "text": "The Mermaid Mask review – the funniest underwater murder mystery you can play PC, Nintendo Switch/Switch 2, PS5; SFB Games Detective Grimoire is at it again in the long-awaited new entry to this stylish series of comedy whodunnits In a boom time for mystery games, the Detective Grimoire series stands out for its style and sense of humour. The Mermaid Mask continues to build upon the formula laid down in Secret of the Swamp and polished in Tangle Tower, and while there is still room for further improvements this sequel is worth the seven years’ wait. This time, the casually competent Grimoire and his smart if sarcastic sidekick Sally have been summoned to a submarine to solve the locked-room murder of its captain, Magnus Mortuga. You click around the cluttered rooms of the vessel to hear the detectives’ comedic commentary and look for clues and – closer up – click and drag to move objects around for further examination or to solve a puzzle. (For those playing on Nintendo Switch 2, the mouse controls are actually useful here, if not comfortable in the long run.) Continue reading...",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 60.383,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -208,7 +243,7 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 60.128,
+      "score": 60.051,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -220,48 +255,12 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.824,
+      "novelty_score": 0.821,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
         "enterprise_ai",
         "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "eb885d8898bd532d",
-      "title": "GitHub Copilot app for Beginners: Getting started",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-      "source": "GitHub Copilot",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T16:00:00+00:00",
-      "text": "GitHub Copilot app for Beginners: Getting started New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.084,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.822,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "coding_assistant",
-        "developer_tools"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -281,10 +280,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.915,
+      "score": 59.684,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -293,7 +292,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.814,
+      "novelty_score": 0.804,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -316,7 +315,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.195,
+      "score": 59.118,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -328,7 +327,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.812,
+      "novelty_score": 0.808,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -351,7 +350,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.436,
+      "score": 53.36,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -363,7 +362,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -386,7 +385,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.73,
+      "score": 52.653,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -398,7 +397,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.791,
+      "novelty_score": 0.787,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -426,10 +425,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.665,
+      "score": 69.55,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -438,7 +437,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.826,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -465,10 +464,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 65.469,
+      "score": 65.392,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -477,7 +476,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -488,31 +487,31 @@
       "source_priority": "high"
     },
     {
-      "id": "30e0e9587d8fc2e2",
-      "title": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury",
-      "url": "https://www.theguardian.com/technology/2026/jul/27/meta-tennessee-trial-jury",
+      "id": "d7f57535edf09fdc",
+      "title": "AI sell-off intensifies as investors ditch chip stocks",
+      "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-28T01:43:55+00:00",
-      "text": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury In opening statements, state argued Meta’s own research showed it harmed teens while firm’s attorneys pointed to transparency The long-awaited trial between the social media company Meta and the state of Tennessee began proceedings on Monday. Attorneys for Tennessee told a jury in Nashville that Meta, which owns Instagram and Facebook, disregarded internal research about its platform’s impact on teenagers, while the company sought ⁠to maximize profit from those young users. During ⁠opening statements in a seven-week ​trial in state court, the state’s lawyers said Meta researchers repeatedly flagged teenagers’ compulsive use of the platform – leading to eating disorders, depression and self-harm. But despite those warnings, Meta did not ⁠disable features such as autoplay, notifications and infinite scroll which, the lawyers said, were designed to keep teens on Instagram as long as possible and increase the number of ads they viewed. Continue reading...",
+      "published_at": "2026-07-28T09:03:12+00:00",
+      "text": "AI sell-off intensifies as investors ditch chip stocks Samsung and SK Hynix fall by more than 10% amid renewed fears over AI spending and Chinese competition Business live – latest updates The sell-off in AI stocks has intensified, driving South Korea’s stock market down to its lowest level in three months. Investors continued to ditch chip stocks on Tuesday, amid rising concerns about the huge amount of borrowing among AI companies to fund their datacentre expansion plans. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 58.443,
+      "score": 60.579,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.77,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.988,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -605,10 +604,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.929,
+      "score": 56.699,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -617,7 +616,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.982,
+      "novelty_score": 0.971,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -640,7 +639,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.436,
+      "score": 53.36,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -652,7 +651,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -675,7 +674,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 53.417,
+      "score": 53.341,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -687,7 +686,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.822,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -713,10 +712,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 49.502,
+      "score": 49.272,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.34",
+        "novelty=0.33",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -725,7 +724,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.341,
+      "novelty_score": 0.331,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -748,10 +747,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 45.943,
+      "score": 45.712,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.33",
+        "novelty=0.32",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -760,7 +759,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.331,
+      "novelty_score": 0.32,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -787,10 +786,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.665,
+      "score": 69.55,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -799,7 +798,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.826,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -826,10 +825,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 65.469,
+      "score": 65.392,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -838,7 +837,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -849,31 +848,31 @@
       "source_priority": "high"
     },
     {
-      "id": "30e0e9587d8fc2e2",
-      "title": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury",
-      "url": "https://www.theguardian.com/technology/2026/jul/27/meta-tennessee-trial-jury",
+      "id": "d7f57535edf09fdc",
+      "title": "AI sell-off intensifies as investors ditch chip stocks",
+      "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-28T01:43:55+00:00",
-      "text": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury In opening statements, state argued Meta’s own research showed it harmed teens while firm’s attorneys pointed to transparency The long-awaited trial between the social media company Meta and the state of Tennessee began proceedings on Monday. Attorneys for Tennessee told a jury in Nashville that Meta, which owns Instagram and Facebook, disregarded internal research about its platform’s impact on teenagers, while the company sought ⁠to maximize profit from those young users. During ⁠opening statements in a seven-week ​trial in state court, the state’s lawyers said Meta researchers repeatedly flagged teenagers’ compulsive use of the platform – leading to eating disorders, depression and self-harm. But despite those warnings, Meta did not ⁠disable features such as autoplay, notifications and infinite scroll which, the lawyers said, were designed to keep teens on Instagram as long as possible and increase the number of ads they viewed. Continue reading...",
+      "published_at": "2026-07-28T09:03:12+00:00",
+      "text": "AI sell-off intensifies as investors ditch chip stocks Samsung and SK Hynix fall by more than 10% amid renewed fears over AI spending and Chinese competition Business live – latest updates The sell-off in AI stocks has intensified, driving South Korea’s stock market down to its lowest level in three months. Investors continued to ditch chip stocks on Tuesday, amid rising concerns about the huge amount of borrowing among AI companies to fund their datacentre expansion plans. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 58.443,
+      "score": 60.579,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.77,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.988,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -966,7 +965,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.26,
+      "score": 52.227,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.91",
@@ -978,7 +977,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.915,
+      "novelty_score": 0.913,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -1730,7 +1729,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 79.165,
+      "score": 79.158,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1767,7 +1766,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 73.81,
+      "score": 73.803,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -1779,7 +1778,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.81,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1803,7 +1802,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.937,
+      "score": 70.93,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -1841,7 +1840,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.849,
+      "score": 69.841,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1853,7 +1852,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.933,
+      "novelty_score": 0.932,
       "source_priority_score": 1.0,
       "source_tags": [
         "engineering_ai",
@@ -1880,7 +1879,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.802,
+      "score": 69.794,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -1916,7 +1915,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 69.758,
+      "score": 69.75,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -1928,7 +1927,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.656,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1953,10 +1952,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.665,
+      "score": 69.55,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1965,7 +1964,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.826,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1990,7 +1989,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 68.133,
+      "score": 68.125,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2002,7 +2001,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2097,10 +2096,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 65.469,
+      "score": 65.392,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2109,7 +2108,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2132,7 +2131,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.35,
+      "score": 65.343,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2169,7 +2168,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 63.835,
+      "score": 63.828,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -2204,7 +2203,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.734,
+      "score": 63.726,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -2216,7 +2215,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.655,
+      "novelty_score": 0.654,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2241,7 +2240,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.7,
+      "score": 63.692,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -2278,10 +2277,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.686,
+      "score": 62.456,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2290,7 +2289,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.94,
+      "novelty_score": 0.93,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2347,7 +2346,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.569,
+      "score": 61.561,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -2384,7 +2383,7 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 60.756,
+      "score": 60.641,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2396,7 +2395,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.847,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2406,6 +2405,75 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "d7f57535edf09fdc",
+      "title": "AI sell-off intensifies as investors ditch chip stocks",
+      "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-28T09:03:12+00:00",
+      "text": "AI sell-off intensifies as investors ditch chip stocks Samsung and SK Hynix fall by more than 10% amid renewed fears over AI spending and Chinese competition Business live – latest updates The sell-off in AI stocks has intensified, driving South Korea’s stock market down to its lowest level in three months. Investors continued to ditch chip stocks on Tuesday, amid rising concerns about the huge amount of borrowing among AI companies to fund their datacentre expansion plans. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 60.579,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.988,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d0c20934a2b85a5b",
+      "title": "The Mermaid Mask review – the funniest underwater murder mystery you can play",
+      "url": "https://www.theguardian.com/games/2026/jul/28/the-mermaid-mask-review-detective-grimoire-sfb",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T09:00:35+00:00",
+      "text": "The Mermaid Mask review – the funniest underwater murder mystery you can play PC, Nintendo Switch/Switch 2, PS5; SFB Games Detective Grimoire is at it again in the long-awaited new entry to this stylish series of comedy whodunnits In a boom time for mystery games, the Detective Grimoire series stands out for its style and sense of humour. The Mermaid Mask continues to build upon the formula laid down in Secret of the Swamp and polished in Tangle Tower, and while there is still room for further improvements this sequel is worth the seven years’ wait. This time, the casually competent Grimoire and his smart if sarcastic sidekick Sally have been summoned to a submarine to solve the locked-room murder of its captain, Magnus Mortuga. You click around the cluttered rooms of the vessel to hear the detectives’ comedic commentary and look for clues and – closer up – click and drag to move objects around for further examination or to solve a puzzle. (For those playing on Nintendo Switch 2, the mouse controls are actually useful here, if not comfortable in the long run.) Continue reading...",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 60.383,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.987,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2749,7 +2817,7 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 60.128,
+      "score": 60.051,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2761,7 +2829,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.824,
+      "novelty_score": 0.821,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2786,7 +2854,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.084,
+      "score": 60.007,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2798,7 +2866,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.822,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -2820,7 +2888,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.975,
+      "score": 59.968,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2832,7 +2900,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.992,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2841,42 +2909,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "0657143c72abbce6",
-      "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia",
-      "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-28T03:08:44+00:00",
-      "text": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia The chipmaking giant is in talks with OpenAI to provide a $250 billion financial backstop for the project, which would be among the largest of the A.I. boom.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 59.915,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.814,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -2914,6 +2946,42 @@
       "source_priority": "high"
     },
     {
+      "id": "0657143c72abbce6",
+      "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia",
+      "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T03:08:44+00:00",
+      "text": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia The chipmaking giant is in talks with OpenAI to provide a $250 billion financial backstop for the project, which would be among the largest of the A.I. boom.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 59.684,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.804,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "b048c3e35d7f8886",
       "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
       "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research",
@@ -2927,7 +2995,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.195,
+      "score": 59.118,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2939,7 +3007,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.812,
+      "novelty_score": 0.808,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2964,7 +3032,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 59.079,
+      "score": 59.047,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -2976,7 +3044,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.413,
+      "novelty_score": 0.411,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3002,7 +3070,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.48,
+      "score": 58.403,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -3014,7 +3082,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.749,
+      "novelty_score": 0.746,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3038,10 +3106,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.443,
+      "score": 58.212,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -3050,7 +3118,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.77,
+      "novelty_score": 0.76,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3072,7 +3140,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.056,
+      "score": 58.049,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.91",
@@ -3084,7 +3152,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.906,
+      "novelty_score": 0.905,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3093,41 +3161,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "023b55a12d1d0342",
-      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
-      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T20:19:42+00:00",
-      "text": "PSA: Your Claude shared chats and Artifacts may have ended up on Google The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
-      "matched_terms": [
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 57.909,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
     },
     {
       "id": "3e25372b9239ef76",
@@ -3163,6 +3196,41 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "023b55a12d1d0342",
+      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T20:19:42+00:00",
+      "text": "PSA: Your Claude shared chats and Artifacts may have ended up on Google The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+      "matched_terms": [
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 57.832,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.864,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3240,6 +3308,40 @@
       "source_priority": "high"
     },
     {
+      "id": "27ef879b235e7612",
+      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
+      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T09:18:57+00:00",
+      "text": "Samsung’s chip workers are jumping ship to rival SK Hynix Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on…",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.26,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.997,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "983df068e7aa9fc1",
       "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
       "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
@@ -3253,10 +3355,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.332,
+      "score": 57.255,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3265,7 +3367,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.845,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3273,6 +3375,74 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "fdcca13bb581de3f",
+      "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
+      "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
+      "source": "COMSOL",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-02T14:24:05+00:00",
+      "text": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics® In this blog post, we use COMSOL Multiphysics® to analyze the acoustics of the famous Liberty Bell and use uncertainty quantification to gain new insights into the material properties and optimal shape.",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 57.147,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.36",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.355,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "multiphysics",
+        "simulation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2a58c8ebd3b148b6",
+      "title": "Hugging Face is being used to easily undress women and children",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T09:07:14+00:00",
+      "text": "Hugging Face is being used to easily undress women and children Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit AI Forensics, which found that seven out of the top nine image editing models hosted by Hugging Face readily complied with […]",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.125,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.991,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3288,10 +3458,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.305,
+      "score": 57.074,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3300,7 +3470,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.999,
+      "novelty_score": 0.988,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3322,10 +3492,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.282,
+      "score": 57.052,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3334,7 +3504,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.998,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3344,73 +3514,37 @@
       "source_priority": "high"
     },
     {
-      "id": "fdcca13bb581de3f",
-      "title": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics®",
-      "url": "https://www.comsol.com/blogs/modeling-the-acoustics-of-the-liberty-bell-in-comsolmph",
-      "source": "COMSOL",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-02T14:24:05+00:00",
-      "text": "Modeling the Acoustics of the Liberty Bell in COMSOL Multiphysics® In this blog post, we use COMSOL Multiphysics® to analyze the acoustics of the famous Liberty Bell and use uncertainty quantification to gain new insights into the material properties and optimal shape.",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 57.155,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.36",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.356,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "multiphysics",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e529b17d1ebfbab0",
-      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
-      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
-      "source": "TechCrunch AI",
+      "id": "843e940db6f92d5d",
+      "title": "A self-emptying, frictionless marvel: Shark PowerDetect Speed Clean and Empty Pet Pro review",
+      "url": "https://www.theguardian.com/thefilter/2026/jul/28/shark-powerdetect-speed-clean-and-empty-pet-pro-review",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-27T17:28:42+00:00",
-      "text": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+      "published_at": "2026-07-28T09:00:35+00:00",
+      "text": "A self-emptying, frictionless marvel: Shark PowerDetect Speed Clean and Empty Pet Pro review Shark’s cordless vacuum is a whiz at cleaning hard floors and pet hair, but a disarmingly short battery life caught our reviewer off guard • The best cordless vacuum cleaners – tested Vacuuming rarely starts with vacuuming. First you have to clear the floor of stray socks and abandoned toys left behind by children, pets or messy partners. Then there’s the irritation of finding the vacuum’s dustbin still full of dirt, or the battery flat because someone forgot to charge it. The (take a deep breath – long name coming up) Shark PowerDetect Speed Clean and Empty Pet Pro cordless vacuum Ultramarine IA3241UKT certainly won’t pick up the scattered toys for you, but it has been designed to make the job of vacuuming as frictionless as possible. Continue reading...",
       "matched_terms": [
-        "AI",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.09,
+      "score": 57.049,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
+        "novelty=0.99",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.837,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5193,142 +5327,6 @@
       "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
       "matched_terms": [
         "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "84173670abec4920",
-      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
-      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ca5f8805ed4cc18e",
-      "title": "Nasa Ai Agents Build Spaceship From Text",
-      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "0099e6807563ee55",
-      "title": "Promising Combination Ai Bionics",
-      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "8ec1dcab85f0344e",
-      "title": "Promising Combination Ai Bionics",
-      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
-      "matched_terms": [
-        "ROM"
       ],
       "engagement": {},
       "score": 57.033,
