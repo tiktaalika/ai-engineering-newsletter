@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-28T06:08:32.486373+00:00",
+    "generated_at": "2026-07-28T09:05:15.838926+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16775,
-    "filtered_count": 2268,
-    "duplicate_count": 76,
+    "fetched_count": 16777,
+    "filtered_count": 2270,
+    "duplicate_count": 75,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -65,10 +61,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 61.769,
+      "score": 60.756,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -77,13 +73,49 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.899,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
         "llm",
         "agents",
         "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "abde6a421348d459",
+      "title": "[AINews] Much ado about Open Weights",
+      "url": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T06:20:13+00:00",
+      "text": "[AINews] Much ado about Open Weights Everyone is writing a lot, but only Kimi K3 shipped today",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.388,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.957,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
         "guo_yichen_reference"
       ],
       "registry_category": "community",
@@ -102,10 +134,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.55,
+      "score": 52.26,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -114,7 +146,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.928,
+      "novelty_score": 0.915,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -126,24 +158,24 @@
       "source_priority": "medium"
     },
     {
-      "id": "0657143c72abbce6",
-      "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia",
-      "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
-      "source": "New York Times Technology",
+      "id": "e8da75218b1dcbc7",
+      "title": "Some people's chats with Claude AI found to be publicly available online",
+      "url": "https://www.bbc.co.uk/news/articles/cly5qgjk5ywo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-28T03:08:44+00:00",
-      "text": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia The chipmaking giant is in talks with OpenAI to provide a $250 billion financial backstop for the project, which would be among the largest of the A.I. boom.",
+      "published_at": "2026-07-28T07:10:37+00:00",
+      "text": "Some people's chats with Claude AI found to be publicly available online Hundreds of conversations with Anthropic’s chatbot were discovered as being publicly accessible.",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Nvidia"
+        "Anthropic",
+        "Claude"
       ],
       "engagement": {},
-      "score": 61.94,
+      "score": 62.686,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.94",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -152,7 +184,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.906,
+      "novelty_score": 0.94,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -176,10 +208,10 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 60.803,
+      "score": 60.128,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -188,7 +220,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -213,10 +245,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.759,
+      "score": 60.084,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -225,13 +257,49 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
         "developer_tools"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "0657143c72abbce6",
+      "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia",
+      "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T03:08:44+00:00",
+      "text": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia The chipmaking giant is in talks with OpenAI to provide a $250 billion financial backstop for the project, which would be among the largest of the A.I. boom.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 59.915,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.81",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.814,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -248,10 +316,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.87,
+      "score": 59.195,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.81",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -260,42 +328,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.843,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "023b55a12d1d0342",
-      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
-      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T20:19:42+00:00",
-      "text": "PSA: Your Claude shared chats and Artifacts may have ended up on Google The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
-      "matched_terms": [
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 58.584,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -318,10 +351,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.111,
+      "score": 53.436,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -330,7 +363,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -341,76 +374,38 @@
       "source_priority": "high"
     },
     {
-      "id": "939407be184090fb",
-      "title": "The path to artificial superintelligence",
-      "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence",
-      "source": "MIT Technology Review AI",
+      "id": "879ef7c5e1318a65",
+      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-27T12:00:00+00:00",
-      "text": "The path to artificial superintelligence Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate…",
+      "published_at": "2026-07-27T13:00:00+00:00",
+      "text": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
       "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
+        "AI"
       ],
       "engagement": {},
-      "score": 51.527,
+      "score": 52.73,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=3",
+        "novelty=0.79",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.433,
+      "novelty_score": 0.791,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
-        "analysis"
+        "startup",
+        "funding"
       ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f9665a80c94082e3",
-      "title": "Uk Ai Safety Summit",
-      "url": "https://www.anthropic.com/news/uk-ai-safety-summit",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Uk Ai Safety Summit https://www.anthropic.com/news/uk-ai-safety-summit",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "AI safety"
-      ],
-      "engagement": {},
-      "score": 49.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
+      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
@@ -431,10 +426,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.677,
+      "score": 69.665,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -443,7 +438,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.872,
+      "novelty_score": 0.826,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -470,10 +465,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 66.144,
+      "score": 65.469,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -482,7 +477,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.938,
+      "novelty_score": 0.908,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -490,6 +485,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "30e0e9587d8fc2e2",
+      "title": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury",
+      "url": "https://www.theguardian.com/technology/2026/jul/27/meta-tennessee-trial-jury",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-28T01:43:55+00:00",
+      "text": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury In opening statements, state argued Meta’s own research showed it harmed teens while firm’s attorneys pointed to transparency The long-awaited trial between the social media company Meta and the state of Tennessee began proceedings on Monday. Attorneys for Tennessee told a jury in Nashville that Meta, which owns Instagram and Facebook, disregarded internal research about its platform’s impact on teenagers, while the company sought ⁠to maximize profit from those young users. During ⁠opening statements in a seven-week ​trial in state court, the state’s lawyers said Meta researchers repeatedly flagged teenagers’ compulsive use of the platform – leading to eating disorders, depression and self-harm. But despite those warnings, Meta did not ⁠disable features such as autoplay, notifications and infinite scroll which, the lawyers said, were designed to keep teens on Instagram as long as possible and increase the number of ads they viewed. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.443,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.77,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -560,43 +589,44 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
+    }
+  ],
+  "top_5_medical_bio_ai": [
     {
-      "id": "0d1a03f568f19530",
-      "title": "FEATURED",
-      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl",
-      "source": "Meta AI",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "FEATURED https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+      "id": "4a2f86bff2901061",
+      "title": "After PCOS became PMOS, there’s hope for new awareness among Black and Latina women",
+      "url": "https://www.statnews.com/2026/07/28/pmos-name-change-growing-awareness-faster-diagnosis-women-of-color",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T08:30:00+00:00",
+      "text": "After PCOS became PMOS, there’s hope for new awareness among Black and Latina women Growing awareness of a painful endocrine disorder now named PMOS is good news for women of color, who have high prevalence and low diagnosis.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 54.533,
+      "score": 56.929,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.98",
         "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.982,
       "source_priority_score": 1.0,
       "source_tags": [
-        "open_source",
-        "research"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "research",
+      "registry_category": "general_ai",
       "source_priority": "high"
-    }
-  ],
-  "top_5_medical_bio_ai": [
+    },
     {
       "id": "286d9bcc058a7a64",
       "title": "How Guardoc transforms medical document processing with Amazon Nova models",
@@ -610,10 +640,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.111,
+      "score": 53.436,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -622,7 +652,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -645,10 +675,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 54.092,
+      "score": 53.417,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -657,7 +687,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -683,10 +713,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 51.527,
+      "score": 49.502,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.34",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -695,7 +725,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.433,
+      "novelty_score": 0.341,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -718,10 +748,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 47.968,
+      "score": 45.943,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.42",
+        "novelty=0.33",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -730,46 +760,11 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.423,
+      "novelty_score": 0.331,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "analysis"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b51074b74d85f51d",
-      "title": "STAT+: Pharmalittle: We’re reading about a U.S. peptide panel’s votes, Amgen scuffling with the FDA, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/27/fda-panel-peptide-votes-amgen-fights-tavneos-withdrawal",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T13:19:47+00:00",
-      "text": "STAT+: Pharmalittle: We’re reading about a U.S. peptide panel’s votes, Amgen scuffling with the FDA, and more An FDA panel recommended that compounding pharmacies be allowed to make two more peptides, a step toward RFK Jr.'s goal to make them more available",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 45.775,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.47",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.475,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -792,10 +787,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.677,
+      "score": 69.665,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -804,7 +799,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.872,
+      "novelty_score": 0.826,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -831,10 +826,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 66.144,
+      "score": 65.469,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -843,7 +838,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.938,
+      "novelty_score": 0.908,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -851,6 +846,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "30e0e9587d8fc2e2",
+      "title": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury",
+      "url": "https://www.theguardian.com/technology/2026/jul/27/meta-tennessee-trial-jury",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-28T01:43:55+00:00",
+      "text": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury In opening statements, state argued Meta’s own research showed it harmed teens while firm’s attorneys pointed to transparency The long-awaited trial between the social media company Meta and the state of Tennessee began proceedings on Monday. Attorneys for Tennessee told a jury in Nashville that Meta, which owns Instagram and Facebook, disregarded internal research about its platform’s impact on teenagers, while the company sought ⁠to maximize profit from those young users. During ⁠opening statements in a seven-week ​trial in state court, the state’s lawyers said Meta researchers repeatedly flagged teenagers’ compulsive use of the platform – leading to eating disorders, depression and self-harm. But despite those warnings, Meta did not ⁠disable features such as autoplay, notifications and infinite scroll which, the lawyers said, were designed to keep teens on Instagram as long as possible and increase the number of ads they viewed. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.443,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.77,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -921,40 +950,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "0d1a03f568f19530",
-      "title": "FEATURED",
-      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl",
-      "source": "Meta AI",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "FEATURED https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 54.533,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "open_source",
-        "research"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
     }
   ],
   "research_radar": [
@@ -971,10 +966,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.55,
+      "score": 52.26,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -983,7 +978,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.928,
+      "novelty_score": 0.915,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -1735,7 +1730,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 79.233,
+      "score": 79.165,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1747,7 +1742,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.901,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1772,7 +1767,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 73.878,
+      "score": 73.81,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -1784,7 +1779,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.813,
+      "novelty_score": 0.81,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1808,7 +1803,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 71.005,
+      "score": 70.937,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -1821,7 +1816,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.379,
+      "novelty_score": 0.376,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1831,46 +1826,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "007897e2c8adf008",
-      "title": "An opinionated guide to which AI to use to do stuff",
-      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-27T21:55:53+00:00",
-      "text": "An opinionated guide to which AI to use to do stuff An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode. Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\". Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. Gemini Spark has yet to prove itself! Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use: To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...] The most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map on",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 70.677,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=4",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.872,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -1886,10 +1841,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.916,
+      "score": 69.849,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1898,7 +1853,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.936,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "engineering_ai",
@@ -1925,7 +1880,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.87,
+      "score": 69.802,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -1937,7 +1892,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.509,
+      "novelty_score": 0.506,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1961,7 +1916,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 69.825,
+      "score": 69.758,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -1973,13 +1928,53 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.659,
+      "novelty_score": 0.656,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "007897e2c8adf008",
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-27T21:55:53+00:00",
+      "text": "An opinionated guide to which AI to use to do stuff An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode. Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\". Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. Gemini Spark has yet to prove itself! Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use: To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...] The most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map on",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 69.665,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=4",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.826,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -1995,10 +1990,10 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 68.201,
+      "score": 68.133,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2007,7 +2002,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2102,10 +2097,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 66.144,
+      "score": 65.469,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2114,7 +2109,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.938,
+      "novelty_score": 0.908,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2137,7 +2132,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.418,
+      "score": 65.35,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2149,7 +2144,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.731,
+      "novelty_score": 0.728,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2174,7 +2169,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 63.903,
+      "score": 63.835,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -2186,7 +2181,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.359,
+      "novelty_score": 0.356,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2209,10 +2204,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.802,
+      "score": 63.734,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.65",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2221,7 +2216,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.658,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2246,10 +2241,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.768,
+      "score": 63.7,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.65",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2258,7 +2253,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.656,
+      "novelty_score": 0.653,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2266,6 +2261,42 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e8da75218b1dcbc7",
+      "title": "Some people's chats with Claude AI found to be publicly available online",
+      "url": "https://www.bbc.co.uk/news/articles/cly5qgjk5ywo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T07:10:37+00:00",
+      "text": "Some people's chats with Claude AI found to be publicly available online Hundreds of conversations with Anthropic’s chatbot were discovered as being publicly accessible.",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 62.686,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.94,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2304,39 +2335,38 @@
       "source_priority": "high"
     },
     {
-      "id": "0657143c72abbce6",
-      "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia",
-      "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
-      "source": "New York Times Technology",
+      "id": "e369b6082884aab2",
+      "title": "Simulation Monitoring Automation",
+      "url": "https://rescale.com/blog/simulation-monitoring-automation",
+      "source": "Rescale",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-28T03:08:44+00:00",
-      "text": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia The chipmaking giant is in talks with OpenAI to provide a $250 billion financial backstop for the project, which would be among the largest of the A.I. boom.",
+      "category": "engineering_ai",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
       "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Nvidia"
+        "simulation"
       ],
       "engagement": {},
-      "score": 61.94,
+      "score": 61.569,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
+        "novelty=0.56",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.906,
+      "novelty_score": 0.556,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2354,118 +2384,7 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 61.769,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.899,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "e369b6082884aab2",
-      "title": "Simulation Monitoring Automation",
-      "url": "https://rescale.com/blog/simulation-monitoring-automation",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T15:00:00+00:00",
-      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 61.636,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.559,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "5ab5e38bca850abc",
-      "title": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T16:11:32+00:00",
-      "text": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS Traditional RAG hits a ceiling on analytical tasks that span hundreds of documents. This post shows how to use task-aware knowledge compression (TAKC) on AWS to pre-compress entire knowledge bases into task-specific representations, cache them at multiple fidelity tiers, and route each query to the right tier, with an open-source implementation you can deploy.",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "knowledge base"
-      ],
-      "engagement": {},
-      "score": 60.803,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "eb885d8898bd532d",
-      "title": "GitHub Copilot app for Beginners: Getting started",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-      "source": "GitHub Copilot",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T16:00:00+00:00",
-      "text": "GitHub Copilot app for Beginners: Getting started New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.759,
+      "score": 60.756,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2480,10 +2399,13 @@
       "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
-        "coding_assistant",
-        "developer_tools"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "vendor",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2813,6 +2735,79 @@
       "source_priority": "high"
     },
     {
+      "id": "5ab5e38bca850abc",
+      "title": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T16:11:32+00:00",
+      "text": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS Traditional RAG hits a ceiling on analytical tasks that span hundreds of documents. This post shows how to use task-aware knowledge compression (TAKC) on AWS to pre-compress entire knowledge bases into task-specific representations, cache them at multiple fidelity tiers, and route each query to the right tier, with an open-source implementation you can deploy.",
+      "matched_terms": [
+        "AI",
+        "RAG",
+        "knowledge base"
+      ],
+      "engagement": {},
+      "score": 60.128,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.824,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "eb885d8898bd532d",
+      "title": "GitHub Copilot app for Beginners: Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
+      "source": "GitHub Copilot",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T16:00:00+00:00",
+      "text": "GitHub Copilot app for Beginners: Getting started New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.084,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.822,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "coding_assistant",
+        "developer_tools"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2825,10 +2820,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.043,
+      "score": 59.975,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2837,7 +2832,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.993,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2848,39 +2843,39 @@
       "source_priority": "medium"
     },
     {
-      "id": "b048c3e35d7f8886",
-      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
-      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research",
-      "source": "TechCrunch AI",
+      "id": "0657143c72abbce6",
+      "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia",
+      "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
+      "source": "New York Times Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-27T15:01:50+00:00",
-      "text": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+      "published_at": "2026-07-28T03:08:44+00:00",
+      "text": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia The chipmaking giant is in talks with OpenAI to provide a $250 billion financial backstop for the project, which would be among the largest of the A.I. boom.",
       "matched_terms": [
         "AI",
+        "OpenAI",
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.87,
+      "score": 59.915,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
+        "novelty=0.81",
+        "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.843,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.814,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2919,6 +2914,42 @@
       "source_priority": "high"
     },
     {
+      "id": "b048c3e35d7f8886",
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-27T15:01:50+00:00",
+      "text": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+      "matched_terms": [
+        "AI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 59.195,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.81",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.812,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "adbe7b1c6753ce36",
       "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
       "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment",
@@ -2933,10 +2964,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 59.369,
+      "score": 59.079,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.41",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2945,7 +2976,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.426,
+      "novelty_score": 0.413,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2971,80 +3002,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 59.155,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "023b55a12d1d0342",
-      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
-      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T20:19:42+00:00",
-      "text": "PSA: Your Claude shared chats and Artifacts may have ended up on Google The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
-      "matched_terms": [
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 58.584,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "e8da75218b1dcbc7",
-      "title": "Some people's chats with Claude AI found publicly available online",
-      "url": "https://www.bbc.co.uk/news/articles/cly5qgjk5ywo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T22:14:04+00:00",
-      "text": "Some people's chats with Claude AI found publicly available online Hundreds of conversations with Anthropic’s chatbot were discovered as being publicly accessible.",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 58.563,
+      "score": 58.48,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -3056,45 +3014,43 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.753,
+      "novelty_score": 0.749,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
-      "id": "bd0f13d229e863b9",
-      "title": "Boss of startup hacked by rogue OpenAI agent urges ‘radical transparency’ in investigation",
-      "url": "https://www.theguardian.com/technology/2026/jul/27/startup-hacked-by-rogue-openai-agent-hugging-face-artificial-intelligence",
+      "id": "30e0e9587d8fc2e2",
+      "title": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury",
+      "url": "https://www.theguardian.com/technology/2026/jul/27/meta-tennessee-trial-jury",
       "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T12:15:03+00:00",
-      "text": "Boss of startup hacked by rogue OpenAI agent urges ‘radical transparency’ in investigation Artificial intelligence firm should provide $100m for cyber defences, says Hugging Face CEO The boss of the startup hacked by an OpenAI agent has called for the investigation into the incident to show “radical transparency”. Clément Delangue, the chief executive of Hugging Face, said the “unprecedented” attack on his business required a similar response. Continue reading...",
+      "category": "engineering_ai",
+      "published_at": "2026-07-28T01:43:55+00:00",
+      "text": "Meta disregarded its own research on teen harm, Tennessee lawyers tell jury In opening statements, state argued Meta’s own research showed it harmed teens while firm’s attorneys pointed to transparency The long-awaited trial between the social media company Meta and the state of Tennessee began proceedings on Monday. Attorneys for Tennessee told a jury in Nashville that Meta, which owns Instagram and Facebook, disregarded internal research about its platform’s impact on teenagers, while the company sought ⁠to maximize profit from those young users. During ⁠opening statements in a seven-week ​trial in state court, the state’s lawyers said Meta researchers repeatedly flagged teenagers’ compulsive use of the platform – leading to eating disorders, depression and self-harm. But despite those warnings, Meta did not ⁠disable features such as autoplay, notifications and infinite scroll which, the lawyers said, were designed to keep teens on Instagram as long as possible and increase the number of ads they viewed. Continue reading...",
       "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "agent",
-        "AI agent",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 58.366,
+      "score": 58.443,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.44",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "novelty=0.77",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.441,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.77,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3116,7 +3072,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.124,
+      "score": 58.056,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.91",
@@ -3128,7 +3084,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.906,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3139,32 +3095,31 @@
       "source_priority": "medium"
     },
     {
-      "id": "983df068e7aa9fc1",
-      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
+      "id": "023b55a12d1d0342",
+      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-27T18:32:11+00:00",
-      "text": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+      "published_at": "2026-07-27T20:19:42+00:00",
+      "text": "PSA: Your Claude shared chats and Artifacts may have ended up on Google The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
       "matched_terms": [
-        "AI",
-        "agent"
+        "Claude"
       ],
       "engagement": {},
-      "score": 58.007,
+      "score": 57.909,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
+        "novelty=0.87",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.879,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3208,42 +3163,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "e529b17d1ebfbab0",
-      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
-      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-27T17:28:42+00:00",
-      "text": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.764,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.868,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3321,23 +3240,23 @@
       "source_priority": "high"
     },
     {
-      "id": "d90e5527f5bf2310",
-      "title": "Threads users can now chat with Meta AI in their DMs",
-      "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms",
+      "id": "983df068e7aa9fc1",
+      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-27T16:45:24+00:00",
-      "text": "Threads users can now chat with Meta AI in their DMs Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
+      "published_at": "2026-07-27T18:32:11+00:00",
+      "text": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
       "matched_terms": [
         "AI",
-        "Meta AI"
+        "agent"
       ],
       "engagement": {},
-      "score": 57.599,
+      "score": 57.332,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3346,7 +3265,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.861,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3357,33 +3276,31 @@
       "source_priority": "high"
     },
     {
-      "id": "45fb9bd31378b041",
-      "title": "Apple Regains Spot Over Nvidia as Most Valuable Public Company",
-      "url": "https://www.nytimes.com/2026/07/27/technology/apple-valuation.html",
+      "id": "c364bf8eba5b682c",
+      "title": "In This Costa Rican Forest, Monkeys Come Face-to-Face With A.I.",
+      "url": "https://www.nytimes.com/2026/07/28/science/costa-rica-monkeys-ai.html",
       "source": "New York Times Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-27T20:34:32+00:00",
-      "text": "Apple Regains Spot Over Nvidia as Most Valuable Public Company The company slipped by the chipmaker Nvidia, amid growing concern about costs associated with the artificial intelligence boom.",
+      "published_at": "2026-07-28T09:02:46+00:00",
+      "text": "In This Costa Rican Forest, Monkeys Come Face-to-Face With A.I. CapuchinAI, a portable testing station equipped with a touch screen and facial recognition software, could help scientists study primate intelligence in the wild.",
       "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "Nvidia"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.423,
+      "score": 57.305,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
-        "matched_terms=3",
+        "novelty=1.00",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.701,
+      "novelty_score": 0.999,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3393,40 +3310,37 @@
       "source_priority": "high"
     },
     {
-      "id": "f143efbfe201f040",
-      "title": "How AI is expanding what people do at work",
-      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "source": "OpenAI",
+      "id": "f97edb1dc26a82a5",
+      "title": "Police Say Binance Is Making It Harder to Fight Crime",
+      "url": "https://www.nytimes.com/2026/07/28/us/binance-crypto-crime.html",
+      "source": "New York Times Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-27T03:30:00+00:00",
-      "text": "How AI is expanding what people do at work New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "published_at": "2026-07-28T09:00:48+00:00",
+      "text": "Police Say Binance Is Making It Harder to Fight Crime Investigators in Europe said that the cryptocurrency giant Binance had made it more difficult to track down scammers and solve other crimes.",
       "matched_terms": [
-        "AI",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.228,
+      "score": 57.282,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=2",
+        "novelty=1.00",
+        "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.722,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.998,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3442,7 +3356,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.223,
+      "score": 57.155,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -3454,7 +3368,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.359,
+      "novelty_score": 0.356,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -3464,40 +3378,39 @@
       "source_priority": "high"
     },
     {
-      "id": "9101339b1ac24639",
-      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "source": "Hugging Face",
+      "id": "e529b17d1ebfbab0",
+      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-27T09:32:20+00:00",
-      "text": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "category": "general_ai",
+      "published_at": "2026-07-27T17:28:42+00:00",
+      "text": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
       "matched_terms": [
-        "Nvidia",
-        "robotics"
+        "AI",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.084,
+      "score": 57.09,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.68",
+        "novelty=0.84",
         "matched_terms=2",
-        "engineering_relevance=0.25",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.678,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
-        "open_source",
-        "models",
-        "datasets",
-        "guo_yichen_reference"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "community",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -5346,6 +5259,74 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0099e6807563ee55",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
       "matched_terms": [
         "ROM"
       ],
