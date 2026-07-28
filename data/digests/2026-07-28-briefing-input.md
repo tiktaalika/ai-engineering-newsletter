@@ -3,79 +3,79 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16545
-- filtered_count: 2214
+- fetched_count: 16780
+- filtered_count: 2269
 - duplicate_count: 75
 - failures: 7
 
 ## Top 10 General AI News
 1. [moonshotai/Kimi-K3](https://simonwillison.net/2026/Jul/27/kimi-k3)
    - source: Simon Willison
-   - score: 60.514
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.358
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.834; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [[AINews] Much ado about Open Weights](https://www.latent.space/p/ainews-much-ado-about-open-weights)
    - source: Latent Space
-   - score: 56.145
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.946; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.99
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.939; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Public Intelligence](https://www.argmin.net/p/public-intelligence)
    - source: Argmin Gravitas
-   - score: 52.191
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.912; source_priority=0.65
+   - score: 52.147
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.91; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 4. [Some people's chats with Claude AI found to be publicly available online](https://www.bbc.co.uk/news/articles/cly5qgjk5ywo?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 62.202
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.918; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [The Mermaid Mask review – the funniest underwater murder mystery you can play](https://www.theguardian.com/games/2026/jul/28/the-mermaid-mask-review-detective-grimoire-sfb)
-   - source: The Guardian Technology
-   - score: 60.128
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.976; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS](https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws)
+   - score: 61.891
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS](https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws)
    - source: Amazon AWS AI
-   - score: 59.967
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.863
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.812; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [GitHub Copilot app for Beginners: Getting started](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started)
+   - source: GitHub Copilot
+   - score: 59.819
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.81; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia](https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html)
    - source: New York Times Technology
-   - score: 59.43
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.792; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.119
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.778; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research](https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research)
    - source: TechCrunch AI
-   - score: 59.034
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.805; source_priority=1.0
+   - score: 58.93
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.8; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [How Guardoc transforms medical document processing with Amazon Nova models](https://aws.amazon.com/blogs/machine-learning/how-guardoc-transforms-medical-document-processing-with-amazon-nova-models)
    - source: Amazon AWS AI
-   - score: 53.275
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.816; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.171
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Enigma raises $71M to make controlling a robot as easy as adjusting the volume](https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume)
    - source: TechCrunch AI
-   - score: 52.568
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.783; source_priority=1.0
+   - score: 52.465
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.779; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [An opinionated guide to which AI to use to do stuff](https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff)
    - source: Simon Willison
-   - score: 69.423
-   - score_breakdown: general=0.667; engineering=0.25; research=0.333; novelty=0.815; source_priority=1.0
+   - score: 69.267
+   - score_breakdown: general=0.667; engineering=0.25; research=0.333; novelty=0.808; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 2. [Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI](https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai)
    - source: TechCrunch AI
-   - score: 65.308
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.9; source_priority=1.0
+   - score: 65.204
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.896; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [AI sell-off intensifies as investors ditch chip stocks](https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung)
    - source: The Guardian Technology
-   - score: 60.325
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.977; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.014
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.963; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai](https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai)
    - source: Synera
    - score: 57.033
@@ -90,35 +90,35 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [After PCOS became PMOS, there’s hope for new awareness among Black and Latina women](https://www.statnews.com/2026/07/28/pmos-name-change-growing-awareness-faster-diagnosis-women-of-color)
    - source: STAT Health Tech
-   - score: 56.445
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.96; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.134
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.945; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [How Guardoc transforms medical document processing with Amazon Nova models](https://aws.amazon.com/blogs/machine-learning/how-guardoc-transforms-medical-document-processing-with-amazon-nova-models)
    - source: Amazon AWS AI
-   - score: 53.275
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.816; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.171
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning](https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning)
    - source: NVIDIA AI
-   - score: 53.256
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
+   - score: 53.152
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.81; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [The path to artificial superintelligence](https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence)
    - source: MIT Technology Review AI
-   - score: 49.017
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.319; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.32; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.707
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.305; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.30; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Closing the data loop in AI-driven drug discovery](https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery)
    - source: MIT Technology Review AI
-   - score: 45.458
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.309; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.31; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.147
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.295; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.29; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Public Intelligence](https://www.argmin.net/p/public-intelligence)
    - source: Argmin Gravitas
-   - score: 52.191
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.912; source_priority=0.65
+   - score: 52.147
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.91; source_priority=0.65
 2. [Spaces Agents Md](https://huggingface.co/blog/mishig/spaces-agents-md)
    - source: Hugging Face Papers
    - score: 51.033
