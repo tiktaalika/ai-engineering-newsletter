@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-07-29T06:08:34.450749+00:00",
+    "generated_at": "2026-07-29T09:09:18.246966+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16750,
-    "filtered_count": 2293,
+    "fetched_count": 16757,
+    "filtered_count": 2287,
     "duplicate_count": 78,
     "failures": [
       {
         "source": "Ansys",
         "error": "The read operation timed out"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -30,10 +34,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -67,10 +67,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.462,
+      "score": 72.427,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.84",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -79,7 +79,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.885,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -107,10 +107,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 67.023,
+      "score": 65.987,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -119,7 +119,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.865,
+      "novelty_score": 0.818,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -146,10 +146,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.946,
+      "score": 57.911,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.72",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -158,7 +158,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.77,
+      "novelty_score": 0.723,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -183,10 +183,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.655,
+      "score": 56.964,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.83",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -195,7 +195,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -219,10 +219,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 52.63,
+      "score": 51.595,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.74",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -231,7 +231,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.786,
+      "novelty_score": 0.739,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -255,10 +255,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 52.138,
+      "score": 51.103,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.72",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -267,7 +267,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.764,
+      "novelty_score": 0.717,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -292,10 +292,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 44.545,
+      "score": 43.509,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.78",
+        "novelty=0.73",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -304,7 +304,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.776,
+      "novelty_score": 0.729,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -313,6 +313,43 @@
       ],
       "registry_category": "community",
       "source_priority": "medium"
+    },
+    {
+      "id": "43ba3dd4a79771d4",
+      "title": "STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them?",
+      "url": "https://www.statnews.com/2026/07/29/clinical-ai-vs-generalist-llm-benchmark-study-trust-accuracy-safety",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-29T08:30:00+00:00",
+      "text": "STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them? As LLMs compete for doctors' attention, some developers say the science of benchmarking their AI tools for safety and accuracy is flawed.",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 66.216,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
     },
     {
       "id": "5fa8da85f3b01686",
@@ -329,10 +366,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 62.627,
+      "score": 61.937,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -341,7 +378,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.938,
+      "novelty_score": 0.906,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -365,10 +402,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.031,
+      "score": 61.34,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -377,7 +414,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -387,81 +424,9 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
-    },
-    {
-      "id": "b2c5644991e05786",
-      "title": "Mark Zuckerberg Blasts Centralization of A.I. Power",
-      "url": "https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-29T00:59:08+00:00",
-      "text": "Mark Zuckerberg Blasts Centralization of A.I. Power In an interview with The Times, Meta’s chief executive took aim at Anthropic and OpenAI, which have pushed to tightly control A.I. development, and said he supported “more openness.”",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 60.454,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
-    {
-      "id": "62d96c69dc2ef01f",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 83.592,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.981,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
     {
       "id": "21bb05a890754ab8",
       "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
@@ -477,10 +442,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 65.657,
+      "score": 64.621,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -489,7 +454,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.869,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -570,14 +535,48 @@
       "source_priority": "high"
     },
     {
-      "id": "fc8c187b735b5bd9",
-      "title": "Assistive Robotics University Of Pittsburgh Sam Dino",
-      "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino",
+      "id": "0d1a03f568f19530",
+      "title": "FEATURED",
+      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl",
       "source": "Meta AI",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
       "published_at": null,
-      "text": "Assistive Robotics University Of Pittsburgh Sam Dino https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
+      "text": "FEATURED https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 54.533,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "research"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "e8788bf50532d146",
+      "title": "Bringing Robotics Ai To Embedded Platforms",
+      "url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Bringing Robotics Ai To Embedded Platforms https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
       "matched_terms": [
         "AI",
         "robotics"
@@ -598,14 +597,52 @@
       "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
-        "open_source",
-        "research"
+        "research",
+        "community",
+        "papers"
       ],
       "registry_category": "research",
       "source_priority": "high"
     }
   ],
   "top_5_medical_bio_ai": [
+    {
+      "id": "43ba3dd4a79771d4",
+      "title": "STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them?",
+      "url": "https://www.statnews.com/2026/07/29/clinical-ai-vs-generalist-llm-benchmark-study-trust-accuracy-safety",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-29T08:30:00+00:00",
+      "text": "STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them? As LLMs compete for doctors' attention, some developers say the science of benchmarking their AI tools for safety and accuracy is flawed.",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 66.216,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
     {
       "id": "1695386461b6b293",
       "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
@@ -620,10 +657,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.031,
+      "score": 61.34,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -632,7 +669,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -657,10 +694,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.655,
+      "score": 56.964,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.83",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -669,7 +706,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -678,6 +715,41 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "2fceb5661e3e0fae",
+      "title": "STAT+: In the biotech industry, a most-wanted fugitive was long hiding in plain sight",
+      "url": "https://www.statnews.com/2026/07/29/ronald-fischer-fugitive-used-alias-forged-cv-held-biotech-executive-jobs",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-29T08:30:00+00:00",
+      "text": "STAT+: In the biotech industry, a most-wanted fugitive was long hiding in plain sight Ronald Fischer, a most-wanted fugitive, was long hiding in the biotech industry in plain sight, and using an alias more extensively than has been previously reported.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.883,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -693,10 +765,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.814,
+      "score": 50.743,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -705,7 +777,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.795,
+      "novelty_score": 0.7,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -714,117 +786,9 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "5e49047d2ac3ea06",
-      "title": "Visa time limits on foreign Ph.D. students and postdocs will harm U.S. science, experts warn",
-      "url": "https://www.statnews.com/2026/07/28/dhs-visa-policy-change-international-students-scientific-research-impact",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-28T17:00:20+00:00",
-      "text": "Visa time limits on foreign Ph.D. students and postdocs will harm U.S. science, experts warn A Trump administration plan to limit visas for graduate student and postdocs to four years is fueling concerns that the U.S. could lose out on foreign scientists",
-      "matched_terms": [
-        "Visa"
-      ],
-      "engagement": {},
-      "score": 48.301,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.59",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.589,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "8141bbc2ac5ff557",
-      "title": "Ai Readiness Starts With Solving Healthcares Data Fragmentation Problem",
-      "url": "https://medcitynews.com/2026/07/ai-readiness-starts-with-solving-healthcares-data-fragmentation-problem",
-      "source": "MedCity News",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Ai Readiness Starts With Solving Healthcares Data Fragmentation Problem https://medcitynews.com/2026/07/ai-readiness-starts-with-solving-healthcares-data-fragmentation-problem/",
-      "matched_terms": [
-        "AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 35.167,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech",
-        "digital_health"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
-    {
-      "id": "62d96c69dc2ef01f",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 83.592,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.981,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
     {
       "id": "21bb05a890754ab8",
       "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
@@ -840,10 +804,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 65.657,
+      "score": 64.621,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -852,7 +816,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.869,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -933,14 +897,48 @@
       "source_priority": "high"
     },
     {
-      "id": "fc8c187b735b5bd9",
-      "title": "Assistive Robotics University Of Pittsburgh Sam Dino",
-      "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino",
+      "id": "0d1a03f568f19530",
+      "title": "FEATURED",
+      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl",
       "source": "Meta AI",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
       "published_at": null,
-      "text": "Assistive Robotics University Of Pittsburgh Sam Dino https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
+      "text": "FEATURED https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 54.533,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "research"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "e8788bf50532d146",
+      "title": "Bringing Robotics Ai To Embedded Platforms",
+      "url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Bringing Robotics Ai To Embedded Platforms https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
       "matched_terms": [
         "AI",
         "robotics"
@@ -961,8 +959,9 @@
       "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
-        "open_source",
-        "research"
+        "research",
+        "community",
+        "papers"
       ],
       "registry_category": "research",
       "source_priority": "high"
@@ -1075,6 +1074,41 @@
       "source_priority": "high"
     },
     {
+      "id": "ab26f73b42adbcb2",
+      "title": "Nvidia",
+      "url": "https://huggingface.co/nvidia",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Nvidia https://huggingface.co/nvidia",
+      "matched_terms": [
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 51.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
       "id": "aa369dabec1f00e3",
       "title": "Inference Providers",
       "url": "https://paperswithcode.com/inference/models",
@@ -1107,41 +1141,6 @@
       ],
       "registry_category": "research",
       "source_priority": "medium"
-    },
-    {
-      "id": "efb37e358a0f95fa",
-      "title": "Direct Preference Optimization Beyond Chatbots",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Direct Preference Optimization Beyond Chatbots https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
     }
   ],
   "supplemental_search_tasks": [
@@ -1730,75 +1729,38 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "62d96c69dc2ef01f",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
-      "source": "Rescale",
+      "id": "88cce48c228ad936",
+      "title": "Enhancing pharmaceutical process design with simulation",
+      "url": "https://blogs.sw.siemens.com/simcenter/enhance-pharmaceutical-process-design",
+      "source": "Siemens Simcenter",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 83.592,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.981,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "58734c7c02d92a7e",
-      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
-      "url": "https://rescale.com/blog/ai-physics-automotive-crash-structural-fea-simulations",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-24T10:29:00+00:00",
-      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
+      "published_at": "2026-07-20T18:16:13+00:00",
+      "text": "Enhancing pharmaceutical process design with simulation How digitalization is transforming pharmaceutical scale-up from lab to production This blog explains how pharmaceutical companies use simulation and Executable Digital Twins (xDT) to accelerate…",
       "matched_terms": [
         "simulation",
-        "surrogate model",
-        "FEA",
-        "structural simulation"
+        "ROM",
+        "digital twin"
       ],
       "engagement": {},
-      "score": 78.683,
+      "score": 73.259,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=4",
+        "novelty=0.78",
+        "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.88,
+      "novelty_score": 0.784,
       "source_priority_score": 1.0,
       "source_tags": [
-        "hpc",
+        "cae",
         "simulation",
-        "cloud_cae"
+        "simcenter"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1820,10 +1782,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.462,
+      "score": 72.427,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.84",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -1832,7 +1794,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.885,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1842,43 +1804,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "88cce48c228ad936",
-      "title": "Enhancing pharmaceutical process design with simulation",
-      "url": "https://blogs.sw.siemens.com/simcenter/enhance-pharmaceutical-process-design",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-20T18:16:13+00:00",
-      "text": "Enhancing pharmaceutical process design with simulation How digitalization is transforming pharmaceutical scale-up from lab to production This blog explains how pharmaceutical companies use simulation and Executable Digital Twins (xDT) to accelerate…",
-      "matched_terms": [
-        "simulation",
-        "ROM",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 73.328,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.79",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.788,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1895,7 +1820,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.455,
+      "score": 70.386,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.35",
@@ -1908,7 +1833,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.354,
+      "novelty_score": 0.351,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1933,7 +1858,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.366,
+      "score": 69.297,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1945,7 +1870,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "engineering_ai",
@@ -1953,43 +1878,6 @@
         "cae",
         "simulation",
         "industrial_ai"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "da9d0703229ae16b",
-      "title": "Open-source AI Datasets for AI Physics Model Training",
-      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-08T15:00:00+00:00",
-      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 69.32,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.484,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2008,7 +1896,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 69.275,
+      "score": 69.206,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -2020,7 +1908,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.634,
+      "novelty_score": 0.631,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2042,7 +1930,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 67.651,
+      "score": 67.582,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2054,7 +1942,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2135,6 +2023,43 @@
       "source_priority": "high"
     },
     {
+      "id": "43ba3dd4a79771d4",
+      "title": "STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them?",
+      "url": "https://www.statnews.com/2026/07/29/clinical-ai-vs-generalist-llm-benchmark-study-trust-accuracy-safety",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-29T08:30:00+00:00",
+      "text": "STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them? As LLMs compete for doctors' attention, some developers say the science of benchmarking their AI tools for safety and accuracy is flawed.",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 66.216,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "bb609ea156e7e645",
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
       "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion",
@@ -2150,10 +2075,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 67.023,
+      "score": 65.987,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2162,7 +2087,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.865,
+      "novelty_score": 0.818,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2189,10 +2114,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 65.657,
+      "score": 64.621,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2201,7 +2126,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.869,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -2213,22 +2138,22 @@
       "source_priority": "high"
     },
     {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
+      "id": "4693532790c5e944",
+      "title": "Leveraging know-how with AI into efficient product design",
+      "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
+      "source": "Siemens Art of the Possible",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "published_at": "2026-07-14T13:29:04+00:00",
+      "text": "Leveraging know-how with AI into efficient product design Is your engineering data a hidden goldmine? Overcome the ‘cold start’ problem in AI by using geometric similarity and transfer learning to transform existing models and simulations into powerful assets, speeding up product design and innovation",
       "matched_terms": [
         "simulation"
       ],
       "engagement": {},
-      "score": 64.868,
+      "score": 63.183,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.63",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2237,12 +2162,14 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.706,
+      "novelty_score": 0.63,
       "source_priority_score": 1.0,
       "source_tags": [
-        "hpc",
+        "agentic_ai",
+        "cae",
         "simulation",
-        "cloud_cae"
+        "industrial_ai",
+        "simcenter"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2262,10 +2189,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.901,
+      "score": 62.866,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2274,7 +2201,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.874,
+      "novelty_score": 0.827,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2284,115 +2211,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "4693532790c5e944",
-      "title": "Leveraging know-how with AI into efficient product design",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
-      "source": "Siemens Art of the Possible",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T13:29:04+00:00",
-      "text": "Leveraging know-how with AI into efficient product design Is your engineering data a hidden goldmine? Overcome the ‘cold start’ problem in AI by using geometric similarity and transfer learning to transform existing models and simulations into powerful assets, speeding up product design and innovation",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 63.252,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.633,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 63.218,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.631,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "5fa8da85f3b01686",
-      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-      "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-29T00:09:05+00:00",
-      "text": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents The deal is Cyera's third acquisition this year.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 62.627,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.94",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.938,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2431,6 +2249,43 @@
       "source_priority": "high"
     },
     {
+      "id": "5fa8da85f3b01686",
+      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+      "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-29T00:09:05+00:00",
+      "text": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents The deal is Cyera's third acquisition this year.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 61.937,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.906,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "1695386461b6b293",
       "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
       "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation",
@@ -2444,10 +2299,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.031,
+      "score": 61.34,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2456,7 +2311,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2468,105 +2323,32 @@
       "source_priority": "high"
     },
     {
-      "id": "e369b6082884aab2",
-      "title": "Simulation Monitoring Automation",
-      "url": "https://rescale.com/blog/simulation-monitoring-automation",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T15:00:00+00:00",
-      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 61.086,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.534,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "287e1596aea7848d",
-      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
-      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T00:13:33+00:00",
-      "text": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Dario Amodei"
-      ],
-      "engagement": {},
-      "score": 60.644,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.688,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "b2c5644991e05786",
-      "title": "Mark Zuckerberg Blasts Centralization of A.I. Power",
-      "url": "https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html",
-      "source": "New York Times Technology",
+      "id": "52469202431c46f4",
+      "title": "OpenAI says its rogue AI tried to hack other companies",
+      "url": "https://www.bbc.co.uk/news/articles/c2el319vzr3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-29T00:59:08+00:00",
-      "text": "Mark Zuckerberg Blasts Centralization of A.I. Power In an interview with The Times, Meta’s chief executive took aim at Anthropic and OpenAI, which have pushed to tightly control A.I. development, and said he supported “more openness.”",
+      "published_at": "2026-07-29T08:49:27+00:00",
+      "text": "OpenAI says its rogue AI tried to hack other companies The out-of-control AI found four logins which allowed it to access multiple unnamed online services.",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Anthropic"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 60.454,
+      "score": 60.439,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
+        "novelty=0.99",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.99,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2902,6 +2684,43 @@
       "source_priority": "high"
     },
     {
+      "id": "287e1596aea7848d",
+      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-28T00:13:33+00:00",
+      "text": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "Dario Amodei"
+      ],
+      "engagement": {},
+      "score": 59.954,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.66",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.657,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2914,7 +2733,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.986,
+      "score": 59.916,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2926,7 +2745,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.99,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2984,7 +2803,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.468,
+      "score": 59.399,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -2996,7 +2815,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.97,
+      "novelty_score": 0.967,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3005,6 +2824,42 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
+    },
+    {
+      "id": "b2c5644991e05786",
+      "title": "Mark Zuckerberg Blasts Centralization of A.I. Power",
+      "url": "https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-29T00:59:08+00:00",
+      "text": "Mark Zuckerberg Blasts Centralization of A.I. Power In an interview with The Times, Meta’s chief executive took aim at Anthropic and OpenAI, which have pushed to tightly control A.I. development, and said he supported “more openness.”",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 58.383,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.74",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.745,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
     },
     {
       "id": "358e404db86d110e",
@@ -3021,10 +2876,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.946,
+      "score": 57.911,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.72",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3033,7 +2888,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.77,
+      "novelty_score": 0.723,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -3078,42 +2933,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "796e756877958a55",
-      "title": "Market surveillance agent with LangGraph and Strands on AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/market-surveillance-agent-with-langgraph-and-strands-on-agentcore",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-28T17:24:54+00:00",
-      "text": "Market surveillance agent with LangGraph and Strands on AgentCore Learn how to architect and deploy a production-ready multi-agent AI system using LangGraph for workflow orchestration and Strands for agent reasoning on Amazon Bedrock AgentCore. This post walks through a market surveillance example with state-driven orchestration, checkpoint-based recovery, and AgentCore memory and observability.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.75,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3191,23 +3010,57 @@
       "source_priority": "high"
     },
     {
-      "id": "df22037e3e0ff3ea",
-      "title": "Scientific computing in the age of agentic AI",
-      "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "source": "OpenAI",
+      "id": "16e17479f03c94c1",
+      "title": "Shares in Asian chip firms plunge further as AI sell-off continues",
+      "url": "https://www.theguardian.com/business/2026/jul/29/asian-chip-firms-shares-plunge-ai-sell-off-stock-markets",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-28T17:00:00+00:00",
-      "text": "Scientific computing in the age of agentic AI A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "published_at": "2026-07-29T08:50:26+00:00",
+      "text": "Shares in Asian chip firms plunge further as AI sell-off continues Drop comes after South Korean company SK Hynix’s results undershot investors’ expectations Business live – latest updates Shares in companies linked to AI have plunged further after disappointing results from the South Korean chipmaker SK Hynix, sending the country’s stock market tumbling for the second day in a row . Seoul’s Kospi index, which is dominated by semiconductor manufacturers, slid by as much as 12.6% at one point on Wednesday, following on from a near 11% slump the previous day, reaching its lowest level since early April. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.117,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.99,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "796e756877958a55",
+      "title": "Market surveillance agent with LangGraph and Strands on AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/market-surveillance-agent-with-langgraph-and-strands-on-agentcore",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-28T17:24:54+00:00",
+      "text": "Market surveillance agent with LangGraph and Strands on AgentCore Learn how to architect and deploy a production-ready multi-agent AI system using LangGraph for workflow orchestration and Strands for agent reasoning on Amazon Bedrock AgentCore. This post walks through a market surveillance example with state-driven orchestration, checkpoint-based recovery, and AgentCore memory and observability.",
       "matched_terms": [
         "AI",
         "agent"
       ],
       "engagement": {},
-      "score": 57.655,
+      "score": 57.06,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3216,13 +3069,12 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -5345,6 +5197,142 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ea9ebd5a3b0bd743",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "51f9f00633997da4",
+      "title": "Automating Cae Reporting",
+      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a04eae22c7539e13",
+      "title": "Automatisierung Cae Berichterstattung",
+      "url": "https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0a951fddf5b3666d",
+      "title": "Automatisierung Fea Aufgaben",
+      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
       "matched_terms": [
         "FEA"
       ],
