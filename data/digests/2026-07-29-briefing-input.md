@@ -3,74 +3,74 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16771
-- filtered_count: 2290
-- duplicate_count: 77
+- fetched_count: 16774
+- filtered_count: 2293
+- duplicate_count: 78
 - failures: 7
 
 ## Top 10 General AI News
 1. [Discovering cryptographic weaknesses with Claude](https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude)
    - source: Simon Willison
-   - score: 72.197
-   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.827; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 72.038
+   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.82; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 2. [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion)
    - source: Simon Willison
-   - score: 65.758
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.807; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 65.599
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.8; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI](https://www.latent.space/p/chatgpt-work)
    - source: Latent Space
-   - score: 57.681
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.713; source_priority=1.0
+   - score: 57.522
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.706; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.71; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Scientific computing in the age of agentic AI](https://openai.com/index/scientific-computing-agentic-ai)
    - source: OpenAI
-   - score: 56.811
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.825; source_priority=1.0
+   - score: 56.705
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.82; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The OlmoEarth Platform: Geospatial inference at planetary scale](https://huggingface.co/blog/allenai/olmoearth-infrastructure)
    - source: Hugging Face
-   - score: 51.365
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.729; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.206
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.721; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [LFM2.5-Encoders for Fast Long-Context Inference on CPU](https://huggingface.co/blog/LiquidAI/lfm2-5-encoders)
    - source: Hugging Face
-   - score: 50.873
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.706; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.714
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.699; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.70; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How building software is changing at Anthropic](https://newsletter.pragmaticengineer.com/p/inside-anthropic)
    - source: The Pragmatic Engineer
-   - score: 43.28
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.719; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.72; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 43.121
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.712; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.71; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them?](https://www.statnews.com/2026/07/29/clinical-ai-vs-generalist-llm-benchmark-study-trust-accuracy-safety)
    - source: STAT Health Tech
-   - score: 65.757
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.959; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 65.439
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.944; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents)
    - source: TechCrunch AI
-   - score: 61.784
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.899; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.678
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.894; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Developing Healthcare Robotics with GPU-Native Medical Physics Simulation](https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation)
    - source: NVIDIA AI
-   - score: 61.187
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.865; source_priority=1.0
+   - score: 61.081
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.86; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Agent-Accelerated Computational Chemistry](https://rescale.com/blog/agent-accelerated-computational-chemistry)
    - source: Rescale
-   - score: 83.508
-   - score_breakdown: general=0.167; engineering=1.0; research=0.333; novelty=0.978; source_priority=1.0
+   - score: 83.497
+   - score_breakdown: general=0.167; engineering=1.0; research=0.333; novelty=0.977; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.33; engineering_workflow_ai_boost=10; visible_engagement=unavailable
 2. [[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to "Pace" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack](https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic)
    - source: Latent Space
-   - score: 64.392
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.859; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 64.233
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.851; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Nasa Ai Agents Build Spaceship From Text](https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text)
    - source: Synera
    - score: 57.033
@@ -90,29 +90,29 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them?](https://www.statnews.com/2026/07/29/clinical-ai-vs-generalist-llm-benchmark-study-trust-accuracy-safety)
    - source: STAT Health Tech
-   - score: 65.757
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.959; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 65.439
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.944; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Developing Healthcare Robotics with GPU-Native Medical Physics Simulation](https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation)
    - source: NVIDIA AI
-   - score: 61.187
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.865; source_priority=1.0
+   - score: 61.081
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.86; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Scientific computing in the age of agentic AI](https://openai.com/index/scientific-computing-agentic-ai)
    - source: OpenAI
-   - score: 56.811
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.825; source_priority=1.0
+   - score: 56.705
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.82; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [STAT+: In the biotech industry, a most-wanted fugitive was long hiding in plain sight](https://www.statnews.com/2026/07/29/ronald-fischer-fugitive-used-alias-forged-cv-held-biotech-executive-jobs)
    - source: STAT Health Tech
-   - score: 56.424
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.959; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [STAT+: American Diabetes Association, facing calls for resignations, asks for patience](https://www.statnews.com/2026/07/28/american-diabetes-association-fallout-researchers-expulsion)
-   - source: STAT Health Tech
-   - score: 50.283
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.68; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.68; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.106
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.944; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Medical AI has a measurement problem - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YZkk0V0wydld6QmszRnp4SnFjNmp4RUUyd1RQeDFBR1lLWWVlOU90N1lxZnFqZlpna05tUGJvaHFhRUc1WXBrX3F3SklMdk5qQlV5YUI5WXBUdzBKTFpR?oc=5)
+   - source: Trusted Biomedical AI Source Discovery
+   - score: 46.214
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.373; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.37; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Research Radar
 1. [Cosmos H Dreams](https://huggingface.co/blog/nvidia/cosmos-h-dreams)
