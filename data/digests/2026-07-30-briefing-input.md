@@ -3,84 +3,84 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16749
-- filtered_count: 2290
+- fetched_count: 16684
+- filtered_count: 2272
 - duplicate_count: 77
 - failures: 7
 
 ## Top 10 General AI News
 1. [Quoting Matthew Green](https://simonwillison.net/2026/Jul/29/matthew-green)
    - source: Simon Willison
-   - score: 64.842
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.766; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 64.707
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.759; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [How enabling two settings tripled our scores on the ARC-AGI-3 benchmark](https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores)
    - source: OpenAI
-   - score: 59.138
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.809; source_priority=1.0
+   - score: 59.047
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.805; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [AI Worming through Word](https://simonwillison.net/2026/Jul/29/ai-worming-through-word)
    - source: Simon Willison
-   - score: 55.651
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.772; source_priority=1.0
+   - score: 55.515
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.766; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [[AINews] AI is eating Finance; AIE NYC now open](https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc)
    - source: Latent Space
-   - score: 53.974
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.847; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.839
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.841; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Open and Shut](https://www.argmin.net/p/open-and-shut)
    - source: Argmin Gravitas
-   - score: 52.29
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.916; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 52.251
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.914; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 6. [Recapping SPC's Summer 2026 Demo Faire](https://blog.southparkcommons.com/p/recapping-spcs-summer-2026-demo-faire)
    - source: South Park Commons
-   - score: 42.209
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.822; source_priority=0.65
+   - score: 42.073
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.815; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How GPT-5.6 fuses frontier intelligence with frontier efficiency](https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency)
    - source: OpenAI
-   - score: 56.367
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.653; source_priority=1.0
+   - score: 56.276
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.649; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.65; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Formal methods with Hillel Wayne](https://newsletter.pragmaticengineer.com/p/formal-methods-with-hillel-wayne)
    - source: The Pragmatic Engineer
-   - score: 40.312
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.735; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 40.177
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.729; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI](https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai)
    - source: TechCrunch AI
-   - score: 63.876
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.873; source_priority=1.0
+   - score: 63.785
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.869; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [Microsoft is openly competing with OpenAI, Anthropic more than ever](https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever)
    - source: TechCrunch AI
-   - score: 61.947
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.907; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.857
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.903; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [AI Is Hyper-Scaling Digital Inequality](https://spectrum.ieee.org/ai-digital-divide)
    - source: IEEE Spectrum AI
-   - score: 66.997
-   - score_breakdown: general=0.667; engineering=0.5; research=1.0; novelty=0.303; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.30; matched_terms=4; engineering_relevance=0.50; research_relevance=1.00; visible_engagement=unavailable
+   - score: 66.726
+   - score_breakdown: general=0.667; engineering=0.5; research=1.0; novelty=0.291; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.29; matched_terms=4; engineering_relevance=0.50; research_relevance=1.00; visible_engagement=unavailable
 2. [Chronically ill people face confusion over new Medicaid work rules and ‘medically frail’ exemption](https://www.statnews.com/2026/07/30/medicaid-work-requirements-medical-frailty-exemption-coverage-loss)
    - source: STAT Health Tech
-   - score: 63.61
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.339
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.962; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Accelerating scientific discovery with ChatGPT for Academic Researchers](https://openai.com/index/chatgpt-for-academic-researchers)
    - source: OpenAI
-   - score: 61.492
-   - score_breakdown: general=0.333; engineering=0.25; research=0.333; novelty=0.757; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=2; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 61.401
+   - score_breakdown: general=0.333; engineering=0.25; research=0.333; novelty=0.753; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 4. [Claude Opus 5 became downright ruthless when tasked with running a vending machine](https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine)
    - source: TechCrunch AI
-   - score: 60.832
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.848; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.742
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.844; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [Promising Combination Ai Bionics](https://www.synera.ai/news/promising-combination-ai-bionics)
    - source: Synera
    - score: 57.033
@@ -90,19 +90,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: U.S. dependence on China is a national security risk](https://www.statnews.com/2026/07/30/china-us-pharmaceutical-supply-chain-national-security-risk)
    - source: STAT Health Tech
-   - score: 56.777
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.506
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.962; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Opinion: Ten years after WHO recognition, mycetoma remains one of the world’s most neglected diseases](https://www.statnews.com/2026/07/30/mycetoma-who-neglected-disease-research-sudan)
    - source: STAT Health Tech
-   - score: 56.777
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.506
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.962; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Phase 2b Trial of a NaV1.8 Inhibitor for Acute Pain - The New England Journal of Medicine](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RVFdrMDI0eGl4UjdEcHZBam5jQi1UVlVHMnVIbHJ0UmFFTHFzejNSbDN3YU5aeE91R1NpcG9rV1dzYUk0N3A2OF93NW13TjdsTU9QaXUtNGZQM2VYX2dYeA?oc=5)
    - source: Trusted Biomedical AI Source Discovery
-   - score: 49.027
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.622; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.62; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.756
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.61; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.61; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Ai Readiness Starts With Solving Healthcares Data Fragmentation Problem](https://medcitynews.com/2026/07/ai-readiness-starts-with-solving-healthcares-data-fragmentation-problem)
    - source: MedCity News
    - score: 35.167
@@ -121,8 +121,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
 2. [Open and Shut](https://www.argmin.net/p/open-and-shut)
    - source: Argmin Gravitas
-   - score: 52.29
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.916; source_priority=0.65
+   - score: 52.251
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.914; source_priority=0.65
 3. [Direct Preference Optimization Beyond Chatbots](https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots)
    - source: Hugging Face Papers
    - score: 51.033
@@ -140,6 +140,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)
 - [VentureBeat AI](https://www.google.com/search?q=site%3Aventurebeat.com%20AI): site:venturebeat.com AI (website, medium)
 - [Perplexity](https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI): site:www.perplexity.ai AI (website, medium)
+- [Snowflake AI](https://www.google.com/search?q=site%3Awww.snowflake.com%20AI): site:www.snowflake.com AI (website, medium)
 - [Engineering.com Design News Weekly](https://www.google.com/search?q=site%3Aengineering.com/category/technology/design%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20CAD%20OR%20CAE%20OR%20simulation%20OR%20manufacturing%20OR%20%22Solid%20Edge%22%20OR%20Designcenter%20OR%20Siemens%20OR%20Autodesk%20OR%20PLM%29): site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM) (newsletter, high)
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
