@@ -3,138 +3,138 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16682
-- filtered_count: 2277
-- duplicate_count: 73
-- failures: 8
+- fetched_count: 16734
+- filtered_count: 2290
+- duplicate_count: 74
+- failures: 7
 
 ## Top 10 General AI News
 1. [Advancing the price-performance frontier with GPT‑5.6](https://simonwillison.net/2026/Jul/30/luna-price-drop)
    - source: Simon Willison
-   - score: 74.548
-   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.904; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=8; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 73.464
+   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.854; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=8; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence](https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence)
    - source: Google Research
-   - score: 64.397
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.957; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 64.087
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.943; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 3. [Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration](https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration)
    - source: Google DeepMind
-   - score: 63.848
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.932; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-4. [llm-chat-completions-server 0.1a0](https://simonwillison.net/2026/Jul/30/llm-chat-completions-server)
-   - source: Simon Willison
-   - score: 59.043
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.775; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.538
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.918; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+4. [Advancing responsible AI across Europe](https://openai.com/index/advancing-responsible-ai-across-europe)
+   - source: OpenAI
+   - score: 60.667
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=1.0; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Gemini Robotics 2 brings whole body intelligence to robots](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots)
    - source: Google DeepMind
-   - score: 58.971
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.711; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-6. [Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web](https://www.latent.space/p/ontologies-agentic-systems)
-   - source: Latent Space
-   - score: 57.523
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.706; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [How avatarin built a 24/7 retail agent with GPT-Realtime](https://openai.com/index/avatarin)
+   - score: 58.661
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.697; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.70; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+6. [llm-chat-completions-server 0.1a0](https://simonwillison.net/2026/Jul/30/llm-chat-completions-server)
+   - source: Simon Willison
+   - score: 57.959
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.725; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Univé builds an AI-ready workforce](https://openai.com/index/unive)
    - source: OpenAI
-   - score: 57.093
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.686; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.69; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [GPU Management: Why Idle GPUs Are the New Grounded Aircraft](https://huggingface.co/blog/Dharma-AI/gpu-management)
-   - source: Hugging Face
-   - score: 55.514
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.766; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization](https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80)
-   - source: Latent Space
-   - score: 56.832
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.977; source_priority=1.0
+   - score: 56.807
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.976; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [How we set up our cloud agent environment](https://cursor.com/blog/cloud-agent-environment)
-   - source: Cursor Blog RSS
-   - score: 53.176
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web](https://www.latent.space/p/ontologies-agentic-systems)
+   - source: Latent Space
+   - score: 56.439
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.656; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.66; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [GPU Management: Why Idle GPUs Are the New Grounded Aircraft](https://huggingface.co/blog/Dharma-AI/gpu-management)
+   - source: Hugging Face
+   - score: 54.43
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.717; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization](https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80)
+   - source: Latent Space
+   - score: 55.747
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.928; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Investigating three real-world incidents in our cybersecurity evaluations](https://simonwillison.net/2026/Jul/30/three-real-world-incidents)
    - source: Simon Willison
-   - score: 80.616
-   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.899; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=6; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
-2. [Are AI Models Working Harder Than They Need to?](https://spectrum.ieee.org/ai-energy-weightless-neural-networks)
+   - score: 79.532
+   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.85; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=6; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+2. [UK petrol prices expected to rise to highest this year as US attacks Iran – business live](https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates)
+   - source: The Guardian Technology
+   - score: 63.717
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.98; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+3. [Are AI Models Working Harder Than They Need to?](https://spectrum.ieee.org/ai-energy-weightless-neural-networks)
    - source: IEEE Spectrum AI
-   - score: 63.956
-   - score_breakdown: general=0.667; engineering=0.0; research=1.0; novelty=0.483; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.48; matched_terms=4; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-3. [LinkedIn adds a button to report AI-generated ‘slop’](https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop)
+   - score: 61.788
+   - score_breakdown: general=0.667; engineering=0.0; research=1.0; novelty=0.384; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.38; matched_terms=4; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+4. [LinkedIn adds a button to report AI-generated ‘slop’](https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop)
    - source: TechCrunch AI
-   - score: 58.071
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.874; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-4. [Update Hxgn Emendates New Casting Design Feature](https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature)
+   - score: 57.349
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.842; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+5. [Ai Agents In Engineering Ai Conference 2025](https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025)
    - source: Synera
-   - score: 57.033
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [How Many Simulations Do You Need To Train Your Predictive Model](https://www.neuralconcept.com/post/how-many-simulations-do-you-need-to-train-your-predictive-model)
-   - source: Neural Concept
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Judge denies states’ motion to postpone Medicaid work requirement](https://www.statnews.com/2026/07/30/medicaid-work-requirements-judge-declines-states-request-injunction)
+1. [Opinion: We once praised the American Diabetes Association’s courage. How things have changed](https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence)
    - source: STAT Health Tech
-   - score: 46.075
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.488; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.49; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [STAT+: Rising oil prices can boost the cost of some medicines. One expert says it’s time to lower reliance on fossil fuels](https://www.statnews.com/pharmalot/2026/07/30/rising-oil-prices-cost-of-medicines-fosil-fuels)
+   - score: 60.12
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Syphilis spreads while researchers contend with federal constraints and a drug shortage](https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate)
    - source: STAT Health Tech
-   - score: 45.807
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.476; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape](https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape)
-   - source: Pharmaceutical Technology
-   - score: 45.131
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.954; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
+   - score: 59.453
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.975; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+3. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
    - source: Scale AI
    - score: 34.5
    - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-5. [GSK to Pay Relation up to $100M for Building Cellular Foundation Models for Drug Research](https://www.genomeweb.com/business-news/gsk-pay-relation-100m-building-cellular-foundation-models-drug-research)
+4. [GSK to Pay Relation up to $100M for Building Cellular Foundation Models for Drug Research](https://www.genomeweb.com/business-news/gsk-pay-relation-100m-building-cellular-foundation-models-drug-research)
    - source: GenomeWeb
    - score: 34.5
    - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [Medical Answering Service](https://elevenlabs.io/agents/medical-answering-service)
+   - source: ElevenLabs
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Echoverse: Deep, evolving environments for computer-use agents](https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents)
    - source: Microsoft Research
-   - score: 70.709
-   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.941; source_priority=1.0
+   - score: 70.4
+   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.927; source_priority=1.0
 2. [Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence](https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence)
    - source: Google Research
-   - score: 64.397
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.957; source_priority=1.0
+   - score: 64.087
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.943; source_priority=1.0
 3. [EvoLib: Turning experience into evolving knowledge](https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge)
    - source: Microsoft Research
-   - score: 63.944
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.937; source_priority=1.0
+   - score: 63.635
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.923; source_priority=1.0
 4. [Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration](https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration)
    - source: Google DeepMind
-   - score: 63.848
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.932; source_priority=1.0
+   - score: 63.538
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.918; source_priority=1.0
 5. [Gemini Robotics 2 brings whole body intelligence to robots](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots)
    - source: Google DeepMind
-   - score: 58.971
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.711; source_priority=1.0
+   - score: 58.661
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.697; source_priority=1.0
 
 ## Watchlist Updates
 - [Reuters Technology](https://www.google.com/search?q=site%3Awww.reuters.com%20AI): site:www.reuters.com AI (website, high)
@@ -180,5 +180,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden

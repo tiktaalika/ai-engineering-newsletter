@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-07-31T06:08:27.938547+00:00",
+    "generated_at": "2026-07-31T09:17:42.383457+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16682,
-    "filtered_count": 2277,
-    "duplicate_count": 73,
+    "fetched_count": 16734,
+    "filtered_count": 2290,
+    "duplicate_count": 74,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -70,10 +66,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 74.548,
+      "score": 73.464,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=8",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -82,7 +78,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.904,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -107,10 +103,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 64.397,
+      "score": 64.087,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -119,7 +115,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.957,
+      "novelty_score": 0.943,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -143,10 +139,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 63.848,
+      "score": 63.538,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -155,7 +151,79 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.932,
+      "novelty_score": 0.918,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "b86dc435d64acf26",
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T15:00:00+00:00",
+      "text": "Advancing responsible AI across Europe OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.667,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "82c2a5cb1208ca69",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-28T13:21:37+00:00",
+      "text": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "matched_terms": [
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 58.661,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.697,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -180,10 +248,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.043,
+      "score": 57.959,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.73",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -192,7 +260,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.775,
+      "novelty_score": 0.725,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -205,38 +273,39 @@
       "source_priority": "high"
     },
     {
-      "id": "82c2a5cb1208ca69",
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots",
-      "source": "Google DeepMind",
+      "id": "4879819590782b03",
+      "title": "Univé builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "source": "OpenAI",
       "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-28T13:21:37+00:00",
-      "text": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "category": "general_ai",
+      "published_at": "2026-07-31T07:00:00+00:00",
+      "text": "Univé builds an AI-ready workforce See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
       "matched_terms": [
-        "robotics"
+        "AI"
       ],
       "engagement": {},
-      "score": 58.971,
+      "score": 56.807,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=1.00",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.711,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
-        "research",
+        "product",
+        "api",
         "guo_yichen_reference"
       ],
-      "registry_category": "research",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -254,10 +323,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 57.523,
+      "score": 56.439,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.66",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -266,7 +335,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.706,
+      "novelty_score": 0.656,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -275,44 +344,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "9146ff1756af0f60",
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "url": "https://openai.com/index/avatarin",
-      "source": "OpenAI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T00:00:00+00:00",
-      "text": "How avatarin built a 24/7 retail agent with GPT-Realtime avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.093,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.686,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -329,10 +360,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 55.514,
+      "score": 54.43,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.72",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -341,7 +372,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.766,
+      "novelty_score": 0.717,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -365,10 +396,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.832,
+      "score": 55.747,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -377,7 +408,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.928,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -386,42 +417,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "5077dc199200e32d",
-      "title": "How we set up our cloud agent environment",
-      "url": "https://cursor.com/blog/cloud-agent-environment",
-      "source": "Cursor Blog RSS",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T12:00:00+00:00",
-      "text": "How we set up our cloud agent environment",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 53.176,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "coding_assistant",
-        "developer_tools",
-        "curated_rss",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
@@ -444,10 +439,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 80.616,
+      "score": 79.532,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -456,7 +451,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.899,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -466,6 +461,41 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "feb797f48c7cbc50",
+      "title": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live",
+      "url": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-31T08:38:27+00:00",
+      "text": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live Live, rolling coverage as the AA says average petrol prices could rise above 159.7p per litre mark set in May Petrol prices in the UK are expected to rise to their highest level so far this year this weekend after Donald Trump restarted attacks on Iran, adding to pressure on household finances. The AA , a motoring services company, said that average UK petrol prices had risen to 159.5p a litre on Thursday, having gone up more than 3p this week. The intriguing aspect of current pump prices is that, in early May when wholesale costs shot up 3p to 6p for more than a fortnight, average petrol prices put on less than 2p. Fuel Finder compliance started to be enforced at the beginning of the month and that likely had an impact. When costs plummeted from late May onwards, pump prices followed rapidly which was unlike previous years of ‘rocket and feather’ pump pricing. What attracted us to Argos is the strength of the business, with a trusted brand, loyal customers and dedicated colleagues. We believe strongly in Argos’s future and see real opportunities to invest and build on its progress. Argos’s co",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 63.717,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -484,10 +514,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.956,
+      "score": 61.788,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
+        "novelty=0.38",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -496,7 +526,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.483,
+      "novelty_score": 0.384,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -519,10 +549,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.071,
+      "score": 57.349,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.84",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -531,7 +561,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -542,16 +572,16 @@
       "source_priority": "high"
     },
     {
-      "id": "ef8469f42c5a7ab5",
-      "title": "Update Hxgn Emendates New Casting Design Feature",
-      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "id": "674b5396927b0e3a",
+      "title": "Ai Agents In Engineering Ai Conference 2025",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
       "source": "Synera",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
       "published_at": null,
-      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
       "matched_terms": [
-        "FEA"
+        "engineering AI"
       ],
       "engagement": {},
       "score": 57.033,
@@ -574,70 +604,36 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "6512b296e92b0383",
-      "title": "How Many Simulations Do You Need To Train Your Predictive Model",
-      "url": "https://www.neuralconcept.com/post/how-many-simulations-do-you-need-to-train-your-predictive-model",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "How Many Simulations Do You Need To Train Your Predictive Model https://www.neuralconcept.com/post/how-many-simulations-do-you-need-to-train-your-predictive-model",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
     }
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "5d7105b3a1a56500",
-      "title": "Judge denies states’ motion to postpone Medicaid work requirement",
-      "url": "https://www.statnews.com/2026/07/30/medicaid-work-requirements-judge-declines-states-request-injunction",
+      "id": "cfeaad309000da54",
+      "title": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed",
+      "url": "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-30T13:45:55+00:00",
-      "text": "Judge denies states’ motion to postpone Medicaid work requirement Federal judge denied 26 states’ request to postpone the implementation of Medicaid work requirements announced in June.",
+      "published_at": "2026-07-31T08:30:00+00:00",
+      "text": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed “The ADA is no longer what we’d call a profile in courage,” write Adam Marcus and Ivan Oransky of Retraction Watch.",
       "matched_terms": [
-        "AI"
+        "AI",
+        "RAG"
       ],
       "engagement": {},
-      "score": 46.075,
+      "score": 60.12,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.49",
-        "matched_terms=1",
+        "novelty=0.98",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.488,
+      "novelty_score": 0.975,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -648,31 +644,31 @@
       "source_priority": "high"
     },
     {
-      "id": "743b483e47fe4d06",
-      "title": "STAT+: Rising oil prices can boost the cost of some medicines. One expert says it’s time to lower reliance on fossil fuels",
-      "url": "https://www.statnews.com/pharmalot/2026/07/30/rising-oil-prices-cost-of-medicines-fosil-fuels",
+      "id": "1fea917a58829ba3",
+      "title": "Syphilis spreads while researchers contend with federal constraints and a drug shortage",
+      "url": "https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-30T13:22:30+00:00",
-      "text": "STAT+: Rising oil prices can boost the cost of some medicines. One expert says it’s time to lower reliance on fossil fuels Unitaid found the rising price of oil could boost the cost of a widely used HIV medicine it reviewed in a detailed analysis.",
+      "published_at": "2026-07-31T08:30:00+00:00",
+      "text": "Syphilis spreads while researchers contend with federal constraints and a drug shortage At the San Diego-Tijuana border, syphilis spreads while researchers contend with federal constraints and a drug shortage.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 45.807,
+      "score": 59.453,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.476,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.975,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -681,42 +677,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "fadc8fbb4111ea2f",
-      "title": "From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape",
-      "source": "Pharmaceutical Technology",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": "2026-07-29T10:23:24+00:00",
-      "text": "From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 45.131,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.95",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "bio_ai",
-        "pharma",
-        "drug_discovery",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
     },
     {
       "id": "8d09f828aee59f69",
@@ -788,6 +748,40 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "medium"
+    },
+    {
+      "id": "6347abc361ef74d9",
+      "title": "Medical Answering Service",
+      "url": "https://elevenlabs.io/agents/medical-answering-service",
+      "source": "ElevenLabs",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Medical Answering Service https://elevenlabs.io/agents/medical-answering-service",
+      "matched_terms": [
+        "agent"
+      ],
+      "engagement": {},
+      "score": 31.833,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "audio_ai",
+        "voice"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -809,10 +803,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 80.616,
+      "score": 79.532,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -821,7 +815,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.899,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -831,6 +825,41 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "feb797f48c7cbc50",
+      "title": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live",
+      "url": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-31T08:38:27+00:00",
+      "text": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live Live, rolling coverage as the AA says average petrol prices could rise above 159.7p per litre mark set in May Petrol prices in the UK are expected to rise to their highest level so far this year this weekend after Donald Trump restarted attacks on Iran, adding to pressure on household finances. The AA , a motoring services company, said that average UK petrol prices had risen to 159.5p a litre on Thursday, having gone up more than 3p this week. The intriguing aspect of current pump prices is that, in early May when wholesale costs shot up 3p to 6p for more than a fortnight, average petrol prices put on less than 2p. Fuel Finder compliance started to be enforced at the beginning of the month and that likely had an impact. When costs plummeted from late May onwards, pump prices followed rapidly which was unlike previous years of ‘rocket and feather’ pump pricing. What attracted us to Argos is the strength of the business, with a trusted brand, loyal customers and dedicated colleagues. We believe strongly in Argos’s future and see real opportunities to invest and build on its progress. Argos’s co",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 63.717,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.98,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -849,10 +878,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.956,
+      "score": 61.788,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
+        "novelty=0.38",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -861,7 +890,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.483,
+      "novelty_score": 0.384,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -884,10 +913,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.071,
+      "score": 57.349,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.84",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -896,7 +925,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -907,16 +936,16 @@
       "source_priority": "high"
     },
     {
-      "id": "ef8469f42c5a7ab5",
-      "title": "Update Hxgn Emendates New Casting Design Feature",
-      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "id": "674b5396927b0e3a",
+      "title": "Ai Agents In Engineering Ai Conference 2025",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
       "source": "Synera",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
       "published_at": null,
-      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
       "matched_terms": [
-        "FEA"
+        "engineering AI"
       ],
       "engagement": {},
       "score": 57.033,
@@ -939,41 +968,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "6512b296e92b0383",
-      "title": "How Many Simulations Do You Need To Train Your Predictive Model",
-      "url": "https://www.neuralconcept.com/post/how-many-simulations-do-you-need-to-train-your-predictive-model",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "How Many Simulations Do You Need To Train Your Predictive Model https://www.neuralconcept.com/post/how-many-simulations-do-you-need-to-train-your-predictive-model",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
     }
   ],
   "research_radar": [
@@ -992,10 +986,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 70.709,
+      "score": 70.4,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1004,7 +998,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.927,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1027,10 +1021,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 64.397,
+      "score": 64.087,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1039,7 +1033,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.957,
+      "novelty_score": 0.943,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1063,10 +1057,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.944,
+      "score": 63.635,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1075,7 +1069,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.937,
+      "novelty_score": 0.923,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1098,10 +1092,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 63.848,
+      "score": 63.538,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1110,7 +1104,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.932,
+      "novelty_score": 0.918,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1133,10 +1127,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 58.971,
+      "score": 58.661,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1145,7 +1139,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.711,
+      "novelty_score": 0.697,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1774,7 +1768,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 82.492,
+      "score": 82.42,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1787,7 +1781,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.931,
+      "novelty_score": 0.928,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1815,10 +1809,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 80.616,
+      "score": 79.532,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -1827,7 +1821,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.899,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1855,7 +1849,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 77.583,
+      "score": 77.511,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1867,7 +1861,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.83,
+      "novelty_score": 0.826,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1897,10 +1891,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 74.548,
+      "score": 73.464,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=8",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1909,7 +1903,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.904,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1936,10 +1930,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 72.228,
+      "score": 72.156,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1948,7 +1942,42 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.738,
+      "novelty_score": 0.734,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2e8bb6dda48e822c",
+      "title": "What’s new in Simcenter PhysicsAI 2026.1?",
+      "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-physicsai-2026-1",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-29T17:10:35+00:00",
+      "text": "What’s new in Simcenter PhysicsAI 2026.1? Explore what’s new in Simcenter PhysicsAI 2026.1: generative AI for engineering design, improved hotspot predictions, 5× faster training, SPH support, and more.",
+      "matched_terms": [
+        "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 70.414,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.958,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1973,10 +2002,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 70.709,
+      "score": 70.4,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1985,7 +2014,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.927,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1993,41 +2022,6 @@
         "ai"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "2e8bb6dda48e822c",
-      "title": "What’s new in Simcenter PhysicsAI 2026.1?",
-      "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-physicsai-2026-1",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-29T17:10:35+00:00",
-      "text": "What’s new in Simcenter PhysicsAI 2026.1? Explore what’s new in Simcenter PhysicsAI 2026.1: generative AI for engineering design, improved hotspot predictions, 5× faster training, SPH support, and more.",
-      "matched_terms": [
-        "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 70.486,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.961,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2044,7 +2038,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.355,
+      "score": 69.283,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.30",
@@ -2057,7 +2051,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.304,
+      "novelty_score": 0.301,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2067,44 +2061,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "52dc536798258da8",
-      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
-      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T23:25:58+00:00",
-      "text": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 68.463,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.93,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2120,7 +2076,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 68.266,
+      "score": 68.194,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2132,7 +2088,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.861,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "engineering_ai",
@@ -2159,7 +2115,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 68.22,
+      "score": 68.147,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -2171,7 +2127,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.434,
+      "novelty_score": 0.431,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2195,7 +2151,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 68.175,
+      "score": 68.103,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2207,13 +2163,51 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.584,
+      "novelty_score": 0.58,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "52dc536798258da8",
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-30T23:25:58+00:00",
+      "text": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
+      "matched_terms": [
+        "AI",
+        "RAG",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 67.74,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.90",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.897,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2299,7 +2293,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 66.551,
+      "score": 66.478,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2311,7 +2305,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.783,
+      "novelty_score": 0.779,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2319,6 +2313,117 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "34b469f6de398ccb",
+      "title": "Anthropic Says Its A.I. Systems Broke Into Computers at 3 Organizations",
+      "url": "https://www.nytimes.com/2026/07/30/technology/anthropic-ai-hack.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T07:02:03+00:00",
+      "text": "Anthropic Says Its A.I. Systems Broke Into Computers at 3 Organizations The disclosure followed OpenAI’s report last week that its own artificial intelligence had hacked into the network of an online library.",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 65.779,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.929,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "1f38712b054a8dc8",
+      "title": "Anthropic’s AI Claude escaped testing environment and hacked organizations",
+      "url": "https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T00:22:16+00:00",
+      "text": "Anthropic’s AI Claude escaped testing environment and hacked organizations Company says it discovered unauthorized access during ‘proactive review’ after rival OpenAI revealed rogue agent Anthropic ⁠said on Thursday its AI Claude model hacked ⁠systems of ⁠three ​organizations during testing, days after rival OpenAI ⁠revealed a rogue agent had gone on a days-long ⁠hacking spree at AI ​firm Hugging ‌Face. Claude gained ‌unauthorized access to the ‌systems during cybersecurity evaluations after a misconfiguration allowed the models to reach the internet from testing environments that ‌were supposed to be isolated, Anthropic said. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 64.531,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.72",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.721,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "18321dc95cc5a2f1",
+      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+      "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
+      "source": "Google Research",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-30T20:36:36+00:00",
+      "text": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence General Science",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 64.087,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.943,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2336,10 +2441,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 65.0,
+      "score": 63.916,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2348,7 +2453,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.886,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2361,184 +2466,38 @@
       "source_priority": "high"
     },
     {
-      "id": "18321dc95cc5a2f1",
-      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-      "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
-      "source": "Google Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T20:36:36+00:00",
-      "text": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence General Science",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 64.397,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.957,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "94331e001cb98f05",
-      "title": "Are AI Models Working Harder Than They Need to?",
-      "url": "https://spectrum.ieee.org/ai-energy-weightless-neural-networks",
-      "source": "IEEE Spectrum AI",
+      "id": "feb797f48c7cbc50",
+      "title": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live",
+      "url": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-30T13:35:32+00:00",
-      "text": "Are AI Models Working Harder Than They Need to? Much of modern AI runs on multiplication. Neural networks behind everything from generated answers to photo organization and song recommendations perform millions or billions of operations that multiply inputs by learned weights. Lizy K. John thinks that’s more work than the job requires. John, a professor of electrical and computer engineering at the University of Texas at Austin, has spent the past five years working on a class of models called weightless neural networks . Instead of repeatedly multiplying inputs by weights, these networks pass binary inputs through interconnected lookup tables—closer to consulting a collection of stored answers than solving the same arithmetic problem repeatedly. Depending on the task, she says, the networks can be 1,000 times as small or as fast as conventional alternatives while maintaining comparable accuracy. Her team’s work has so far focused on small, specific problems: medical sensors, activity tracking, keyword spotting. But she thinks the same approach could eventually reach much bigger targets, including the transformer models behind today’s chatbots. What made you walk away from weights ",
+      "published_at": "2026-07-31T08:38:27+00:00",
+      "text": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live Live, rolling coverage as the AA says average petrol prices could rise above 159.7p per litre mark set in May Petrol prices in the UK are expected to rise to their highest level so far this year this weekend after Donald Trump restarted attacks on Iran, adding to pressure on household finances. The AA , a motoring services company, said that average UK petrol prices had risen to 159.5p a litre on Thursday, having gone up more than 3p this week. The intriguing aspect of current pump prices is that, in early May when wholesale costs shot up 3p to 6p for more than a fortnight, average petrol prices put on less than 2p. Fuel Finder compliance started to be enforced at the beginning of the month and that likely had an impact. When costs plummeted from late May onwards, pump prices followed rapidly which was unlike previous years of ‘rocket and feather’ pump pricing. What attracted us to Argos is the strength of the business, with a trusted brand, loyal customers and dedicated colleagues. We believe strongly in Argos’s future and see real opportunities to invest and build on its progress. Argos’s co",
       "matched_terms": [
         "AI",
-        "RAG",
-        "inference",
-        "GPU"
+        "RAG"
       ],
       "engagement": {},
-      "score": 63.956,
+      "score": 63.717,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.483,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "5632af334a32abd0",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge",
-      "source": "Microsoft Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T16:00:00+00:00",
-      "text": "EvoLib: Turning experience into evolving knowledge LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research .",
-      "matched_terms": [
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 63.944,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.94",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.937,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "34b469f6de398ccb",
-      "title": "Anthropic Says Its A.I. Systems Broke Into Computers at 3 Organizations",
-      "url": "https://www.nytimes.com/2026/07/30/technology/anthropic-ai-hack.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T01:10:12+00:00",
-      "text": "Anthropic Says Its A.I. Systems Broke Into Computers at 3 Organizations The disclosure followed OpenAI’s report last week that its own artificial intelligence had hacked into the network of an online library.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 63.916,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.845,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2b882e1b8e7677a3",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
-      "source": "Google DeepMind",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T15:00:59+00:00",
-      "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "matched_terms": [
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 63.848,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.932,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "research",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2554,10 +2513,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.768,
+      "score": 63.696,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.65",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2566,7 +2525,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.656,
+      "novelty_score": 0.653,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2577,40 +2536,109 @@
       "source_priority": "high"
     },
     {
-      "id": "32ac40c413564ad2",
-      "title": "Anthropic says its own AI models breached three companies during security tests",
-      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
-      "source": "TechCrunch AI",
+      "id": "5632af334a32abd0",
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge",
+      "source": "Microsoft Research",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T01:06:54+00:00",
-      "text": "Anthropic says its own AI models breached three companies during security tests After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "category": "research",
+      "published_at": "2026-07-30T16:00:00+00:00",
+      "text": "EvoLib: Turning experience into evolving knowledge LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research .",
       "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
+        "LLM"
       ],
       "engagement": {},
-      "score": 62.848,
+      "score": 63.635,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=3",
+        "novelty=0.92",
+        "matched_terms=1",
         "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.923,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "2b882e1b8e7677a3",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-30T15:00:59+00:00",
+      "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "matched_terms": [
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 63.538,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.92",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.918,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "15cc492fcc530e64",
+      "title": "Could AI take your job? Some workers in China already know the answer",
+      "url": "https://www.theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-31T02:22:05+00:00",
+      "text": "Could AI take your job? Some workers in China already know the answer Across the country, workers are fearful about the impact of AI on their livelihoods in an increasingly fragile labour market On the tree-lined streets of Wuhan, where cars jostle for space with mopeds and cargo trucks, the malfunctioning of a new type of vehicle has recently been causing chaos on the city’s roads. In March, several cars from a fleet of driverless taxis stopped abruptly in the streets. The “system malfunction” left distressed riders stranded for hours. The robotaxis, known as Apollo Go and powered by artificial intelligence (AI), were taken off Wuhan’s streets for months for investigations. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 62.738,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.78",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.948,
+      "novelty_score": 0.784,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2649,6 +2677,43 @@
       "source_priority": "high"
     },
     {
+      "id": "32ac40c413564ad2",
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T01:06:54+00:00",
+      "text": "Anthropic says its own AI models breached three companies during security tests After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 62.125,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.915,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "4693532790c5e944",
       "title": "Leveraging know-how with AI into efficient product design",
       "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
@@ -2661,7 +2726,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.152,
+      "score": 62.079,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2673,7 +2738,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.583,
+      "novelty_score": 0.579,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2698,7 +2763,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.118,
+      "score": 62.045,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2710,7 +2775,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.581,
+      "novelty_score": 0.578,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2718,6 +2783,44 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "94331e001cb98f05",
+      "title": "Are AI Models Working Harder Than They Need to?",
+      "url": "https://spectrum.ieee.org/ai-energy-weightless-neural-networks",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-30T13:35:32+00:00",
+      "text": "Are AI Models Working Harder Than They Need to? Much of modern AI runs on multiplication. Neural networks behind everything from generated answers to photo organization and song recommendations perform millions or billions of operations that multiply inputs by learned weights. Lizy K. John thinks that’s more work than the job requires. John, a professor of electrical and computer engineering at the University of Texas at Austin, has spent the past five years working on a class of models called weightless neural networks . Instead of repeatedly multiplying inputs by weights, these networks pass binary inputs through interconnected lookup tables—closer to consulting a collection of stored answers than solving the same arithmetic problem repeatedly. Depending on the task, she says, the networks can be 1,000 times as small or as fast as conventional alternatives while maintaining comparable accuracy. Her team’s work has so far focused on small, specific problems: medical sensors, activity tracking, keyword spotting. But she thinks the same approach could eventually reach much bigger targets, including the transformer models behind today’s chatbots. What made you walk away from weights ",
+      "matched_terms": [
+        "AI",
+        "RAG",
+        "inference",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 61.788,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.38",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.384,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2735,10 +2838,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.943,
+      "score": 61.221,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2747,7 +2850,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.874,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2759,75 +2862,38 @@
       "source_priority": "high"
     },
     {
-      "id": "c7024dd73f9e74b2",
-      "title": "Okta buys AI security startup Permiso — source says for about $200M",
-      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m",
-      "source": "TechCrunch AI",
+      "id": "b86dc435d64acf26",
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "OpenAI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-30T16:09:42+00:00",
-      "text": "Okta buys AI security startup Permiso — source says for about $200M The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+      "published_at": "2026-07-31T15:00:00+00:00",
+      "text": "Advancing responsible AI across Europe OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 60.796,
+      "score": 60.667,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
+        "novelty=1.00",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 1.0,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "82306834e96fff53",
-      "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T16:02:32+00:00",
-      "text": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, along with explicit prompt caching that gives you precise control over which parts of your prompt are cached and reused. Learn how to get started, set up explicit caching, and migrate existing GPT workloads to reduce inference cost.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 60.769,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -3159,6 +3225,116 @@
       "source_priority": "high"
     },
     {
+      "id": "cfeaad309000da54",
+      "title": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed",
+      "url": "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T08:30:00+00:00",
+      "text": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed “The ADA is no longer what we’d call a profile in courage,” write Adam Marcus and Ivan Oransky of Retraction Watch.",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 60.12,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.975,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c7024dd73f9e74b2",
+      "title": "Okta buys AI security startup Permiso — source says for about $200M",
+      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-30T16:09:42+00:00",
+      "text": "Okta buys AI security startup Permiso — source says for about $200M The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.074,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.822,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "82306834e96fff53",
+      "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-30T16:02:32+00:00",
+      "text": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, along with explicit prompt caching that gives you precise control over which parts of your prompt are cached and reused. Learn how to get started, set up explicit caching, and migrate existing GPT workloads to reduce inference cost.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "inference"
+      ],
+      "engagement": {},
+      "score": 60.046,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.82,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -3171,10 +3347,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.054,
+      "score": 59.982,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -3183,7 +3359,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.993,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3206,7 +3382,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 59.986,
+      "score": 59.914,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -3218,7 +3394,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.484,
+      "novelty_score": 0.481,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3264,42 +3440,38 @@
       "source_priority": "high"
     },
     {
-      "id": "195a03d03f9e1b51",
-      "title": "llm-chat-completions-server 0.1a0",
-      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
-      "source": "Simon Willison",
+      "id": "1fea917a58829ba3",
+      "title": "Syphilis spreads while researchers contend with federal constraints and a drug shortage",
+      "url": "https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-30T15:43:16+00:00",
-      "text": "llm-chat-completions-server 0.1a0 Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Content-Type: application/json' \\ -d '{ \"model\": \"qwen3.5-4b\", \"messages\": [ {\"role\": \"user\", \"content\": \"Capital of France?\"}, {\"role\": \"assistant\", \"content\": \"Paris.\"}, {\"role\": \"user\", \"content\": \"Germany?\"} ] }' Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts. To test that out, I built this plugin: uv tool install llm --pre llm install llm-chat-completions-server llm chat-completions-server -p 9001 Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint. GPT-5.6 Sol wrote the whole thing - it turns out it knows the OpenAI Chat Completions API shape really well. Tag",
+      "published_at": "2026-07-31T08:30:00+00:00",
+      "text": "Syphilis spreads while researchers contend with federal constraints and a drug shortage At the San Diego-Tijuana border, syphilis spreads while researchers contend with federal constraints and a drug shortage.",
       "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 59.043,
+      "score": 59.453,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
-        "matched_terms=3",
+        "novelty=0.98",
+        "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.775,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.975,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "community",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3315,10 +3487,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 58.971,
+      "score": 58.661,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -3327,7 +3499,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.711,
+      "novelty_score": 0.697,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3335,42 +3507,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "2875a4400bb8269a",
-      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
-      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T20:26:38+00:00",
-      "text": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 58.444,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.899,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3386,7 +3522,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.368,
+      "score": 58.296,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.92",
@@ -3398,7 +3534,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.92,
+      "novelty_score": 0.916,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3409,74 +3545,42 @@
       "source_priority": "medium"
     },
     {
-      "id": "1987e6b0c2c73dc6",
-      "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
-      "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai",
-      "source": "TechCrunch AI",
+      "id": "195a03d03f9e1b51",
+      "title": "llm-chat-completions-server 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-30T18:57:58+00:00",
-      "text": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
+      "published_at": "2026-07-30T15:43:16+00:00",
+      "text": "llm-chat-completions-server 0.1a0 Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Content-Type: application/json' \\ -d '{ \"model\": \"qwen3.5-4b\", \"messages\": [ {\"role\": \"user\", \"content\": \"Capital of France?\"}, {\"role\": \"assistant\", \"content\": \"Paris.\"}, {\"role\": \"user\", \"content\": \"Germany?\"} ] }' Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts. To test that out, I built this plugin: uv tool install llm --pre llm install llm-chat-completions-server llm chat-completions-server -p 9001 Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint. GPT-5.6 Sol wrote the whole thing - it turns out it knows the OpenAI Chat Completions API shape really well. Tag",
       "matched_terms": [
         "AI",
-        "LLM"
+        "LLM",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 58.106,
+      "score": 57.959,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
+        "novelty=0.73",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.725,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "208aa591b12e3a44",
-      "title": "LinkedIn adds a button to report AI-generated ‘slop’",
-      "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-30T18:05:21+00:00",
-      "text": "LinkedIn adds a button to report AI-generated ‘slop’ LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It's also replacing its own AI writing feature with a proofreading tool.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.071,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -3513,6 +3617,42 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "2875a4400bb8269a",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-30T20:26:38+00:00",
+      "text": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
+      "matched_terms": [
+        "AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 57.722,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.866,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3590,144 +3730,32 @@
       "source_priority": "high"
     },
     {
-      "id": "eb04debe72ccc23b",
-      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
-      "url": "https://www.latent.space/p/ontologies-agentic-systems",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T11:17:55+00:00",
-      "text": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 57.523,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.71",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.706,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "58a13c72a52a6f68",
-      "title": "Inference meta-monitoring for Amazon SageMaker AI endpoints with Amazon Quick",
-      "url": "https://aws.amazon.com/blogs/machine-learning/inference-meta-monitoring-for-amazon-sagemaker-ai-endpoints-with-amazon-quick",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T16:10:10+00:00",
-      "text": "Inference meta-monitoring for Amazon SageMaker AI endpoints with Amazon Quick Learn how to build an inference meta-monitoring system for Amazon SageMaker AI endpoints using Amazon Quick. This governance layer sits above production ML inference pipelines to continuously track prediction and data quality, detect drift, integrate delayed ground truth, and surface automated performance dashboards.",
-      "matched_terms": [
-        "AI",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 57.465,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "3cb7612d3060746d",
-      "title": "NVIDIA Exemplar Cloud: Lessons for Unlocking Full Performance on AI Infrastructure",
-      "url": "https://developer.nvidia.com/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T16:00:00+00:00",
-      "text": "NVIDIA Exemplar Cloud: Lessons for Unlocking Full Performance on AI Infrastructure Two AI computing clusters built from identical NVIDIA H100, GB200 NVL72, or GB300 NVL72 systems can deliver materially different training throughput. We...",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.426,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "98d58a46009d50a3",
-      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-      "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever",
+      "id": "1987e6b0c2c73dc6",
+      "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-30T00:21:06+00:00",
-      "text": "Microsoft is openly competing with OpenAI, Anthropic more than ever Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
+      "published_at": "2026-07-30T18:57:58+00:00",
+      "text": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Anthropic"
+        "LLM"
       ],
       "engagement": {},
-      "score": 57.173,
+      "score": 57.383,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=3",
+        "novelty=0.85",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.69,
+      "novelty_score": 0.851,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3738,32 +3766,31 @@
       "source_priority": "high"
     },
     {
-      "id": "554d4b36bce3be0b",
-      "title": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
-      "url": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable",
+      "id": "208aa591b12e3a44",
+      "title": "LinkedIn adds a button to report AI-generated ‘slop’",
+      "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop",
       "source": "TechCrunch AI",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T14:48:32+00:00",
-      "text": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
+      "category": "engineering_ai",
+      "published_at": "2026-07-30T18:05:21+00:00",
+      "text": "LinkedIn adds a button to report AI-generated ‘slop’ LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It's also replacing its own AI writing feature with a proofreading tool.",
       "matched_terms": [
-        "AI",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.153,
+      "score": 57.349,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3774,41 +3801,105 @@
       "source_priority": "high"
     },
     {
-      "id": "9146ff1756af0f60",
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "url": "https://openai.com/index/avatarin",
-      "source": "OpenAI",
+      "id": "cb733b0427dbc5cb",
+      "title": "Five Takeaways From the Times Investigation Into Larry Ellison’s A.I. Gamble",
+      "url": "https://www.nytimes.com/2026/07/31/magazine/takeaways-larry-ellison-oracle-ai.html",
+      "source": "New York Times Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-30T00:00:00+00:00",
-      "text": "How avatarin built a 24/7 retail agent with GPT-Realtime avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "published_at": "2026-07-31T09:05:03+00:00",
+      "text": "Five Takeaways From the Times Investigation Into Larry Ellison’s A.I. Gamble The billionaire’s company took on ominous loads of debt to build data centers around the world. The implications go far beyond Oracle.",
       "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.093,
+      "score": 57.188,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=3",
+        "novelty=0.99",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.686,
+      "novelty_score": 0.993,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0f2a93cb298e50bc",
+      "title": "We All Do Errands. Noah Blau Films Them.",
+      "url": "https://www.nytimes.com/2026/07/31/style/errands-should-be-the-most-boring-show-on-the-internet.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T09:04:17+00:00",
+      "text": "We All Do Errands. Noah Blau Films Them. Fighting a traffic ticket. Hanging a curtain. Installing an air-conditioner. With his cult-hit online series, Noah Blau has made the mundane fascinating.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.18,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7d987156d137a229",
+      "title": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble?",
+      "url": "https://www.nytimes.com/2026/07/31/magazine/larry-ellison-ai-oracle.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T09:03:59+00:00",
+      "text": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble? Inside the 81-year-old billionaire’s risky, debt-fueled scramble to transform his data empire into an A.I. juggernaut.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.176,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5319,108 +5410,6 @@
       "text": "Fea Execution On Remote Servers https://www.synera.ai/de/workflows/fea-execution-on-remote-servers",
       "matched_terms": [
         "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b847c73bc162dda5",
-      "title": "Fea Hotspot Reporting",
-      "url": "https://www.synera.ai/workflows/fea-hotspot-reporting",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Fea Hotspot Reporting https://www.synera.ai/workflows/fea-hotspot-reporting",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "149580e921638f25",
-      "title": "Fea Hotspot Reporting",
-      "url": "https://www.synera.ai/de/workflows/fea-hotspot-reporting",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Fea Hotspot Reporting https://www.synera.ai/de/workflows/fea-hotspot-reporting",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2f83a259524f9c7f",
-      "title": "Agentenbasierte Ki Trifft Auf Schweissnaht Mapping Fuer Durchgaengige Spritzgusssimulation",
-      "url": "https://www.synera.ai/de/news/agentenbasierte-ki-trifft-auf-schweissnaht-mapping-fuer-durchgaengige-spritzgusssimulation",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Agentenbasierte Ki Trifft Auf Schweissnaht Mapping Fuer Durchgaengige Spritzgusssimulation https://www.synera.ai/de/news/agentenbasierte-ki-trifft-auf-schweissnaht-mapping-fuer-durchgaengige-spritzgusssimulation",
-      "matched_terms": [
-        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
