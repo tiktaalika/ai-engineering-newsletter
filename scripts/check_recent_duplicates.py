@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from __future__ import annotations
+from __future__ import annotations  # noqa: EXE001
 
 import argparse
 import sys
@@ -10,7 +10,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from scripts import render_digest_site as site  # noqa: E402
+from scripts import render_digest_site as site
 
 
 def item_label(item: dict[str, Any]) -> str:

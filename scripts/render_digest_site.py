@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the bilingual AI engineering newsletter as a static HTML site."""
+"""Render the bilingual AI engineering newsletter as a static HTML site."""  # noqa: EXE001
 
 from __future__ import annotations
 
@@ -9,7 +9,6 @@ import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
-
 
 ROOT = Path(__file__).resolve().parents[1]
 DIGEST_DIR = ROOT / "data" / "digests"
@@ -265,7 +264,7 @@ def topic_key(item: dict[str, Any]) -> str:
         return "robotics_autonomy"
     if any(term in text for term in ("model", "claude", "chatgpt", "openai", "anthropic", "deepmind", "llm", "benchmark")):
         return "frontier_models"
-    if canonical_category(item.get("category", "")) == "engineering_ai":
+    if canonical_category(item.get("category", "")) == "engineering_ai":  # noqa: SIM102
         if any(term in text for term in ("cfd", "fea", "cae", "simulation", "surrogate", "digital twin", "neural operator")):
             return "cae_simulation"
     return "other"
@@ -696,12 +695,20 @@ def empty_note(language: str, section: str) -> str:
 def render_research_radar(items: list[dict[str, Any]], language: str, summaries: dict[str, str]) -> str:
     if not items:
         return ""
-    title = "Research Radar" if language == "en" else "Research Radar"
+
+    if language == "en":
+        title = "Research Radar"
+    elif language == "zh":
+        title = "研究雷达"
+    else:
+        title = "Research Radar"
+
     cards = (
         "".join(item_card_en(item, idx) for idx, item in enumerate(items, 1))
         if language == "en"
         else "".join(item_card_zh(item, idx, summaries) for idx, item in enumerate(items, 1))
     )
+
     return f"""
       <section class="medical-section">
         <h3>{esc(title)}</h3>

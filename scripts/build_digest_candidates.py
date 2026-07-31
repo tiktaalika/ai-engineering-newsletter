@@ -5,7 +5,7 @@ The script intentionally separates evidence collection from summarization.
 It fetches configured public sources, filters for English AI/Engineering AI relevance,
 scores visible popularity signals, and writes JSON artifacts that a daily
 agent can inspect before producing the Chinese digest.
-"""
+"""  # noqa: EXE001
 
 from __future__ import annotations
 
@@ -16,7 +16,6 @@ import html
 import json
 import math
 import re
-import sys
 import time
 import urllib.parse
 import urllib.request
@@ -27,7 +26,6 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-
 
 ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "news-push-ai-digest/0.1 (+auditable personal digest)"
@@ -417,7 +415,7 @@ def is_same_event(left: Candidate, right: Candidate) -> bool:
         return True
     if len(intersection) >= 5 and len(intersection) / max(smaller, 1) >= 0.5:
         return True
-    if len(intersection) >= 4 and len(intersection) / max(len(union), 1) >= 0.42:
+    if len(intersection) >= 4 and len(intersection) / max(len(union), 1) >= 0.42:  # noqa: SIM103
         return True
     return False
 
@@ -502,7 +500,7 @@ def topic_key(candidate: Candidate) -> str:
         return "robotics_autonomy"
     if any(term in text for term in ("model", "claude", "chatgpt", "openai", "anthropic", "deepmind", "llm", "benchmark")):
         return "frontier_models"
-    if candidate.category in {"engineering_ai", "cae_ai_engineering"}:
+    if candidate.category in {"engineering_ai", "cae_ai_engineering"}:  # noqa: SIM102
         if any(term in text for term in ("cfd", "fea", "cae", "simulation", "surrogate", "digital twin", "neural operator")):
             return "cae_simulation"
     return "other"
@@ -828,7 +826,7 @@ def recency_boost(published_at: datetime | None, now: datetime, window_hours: in
     return max(0.15, 1.0 - (age_hours / window_hours) * 0.75)
 
 
-def log_scale(value: float | int | None, cap: float) -> float:
+def log_scale(value: float, cap: float) -> float:
     if not value or value <= 0:
         return 0.0
     return min(math.log1p(float(value)) / math.log1p(cap), 1.0)
@@ -913,7 +911,7 @@ def parse_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     items = root.findall(".//item") or root.findall(".//{http://www.w3.org/2005/Atom}entry")
     records = []
     for item in items:
-        get = lambda name: item.findtext(name) or item.findtext(f"{{http://www.w3.org/2005/Atom}}{name}")
+        get = lambda name, item=item: item.findtext(name) or item.findtext(f"{{http://www.w3.org/2005/Atom}}{name}")
         title = clean_text(get("title"))
         link = clean_text(get("link"))
         if not link:
@@ -1328,4 +1326,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())
