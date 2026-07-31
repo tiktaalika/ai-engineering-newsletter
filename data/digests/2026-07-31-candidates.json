@@ -1,15 +1,23 @@
 {
   "run_log": {
-    "generated_at": "2026-07-31T09:32:56.706068+00:00",
+    "generated_at": "2026-07-31T09:59:23.774615+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16826,
-    "filtered_count": 2290,
-    "duplicate_count": 74,
+    "fetched_count": 14837,
+    "filtered_count": 2112,
+    "duplicate_count": 73,
     "failures": [
+      {
+        "source": "Hugging Face",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
       {
         "source": "Ansys",
         "error": "The read operation timed out"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -66,10 +74,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.377,
+      "score": 73.225,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=8",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -78,7 +86,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.85,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -103,7 +111,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 64.063,
+      "score": 64.019,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.94",
@@ -115,7 +123,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.942,
+      "novelty_score": 0.94,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -139,7 +147,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 63.513,
+      "score": 63.47,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -151,7 +159,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.917,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -211,10 +219,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 58.636,
+      "score": 58.593,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -223,7 +231,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.696,
+      "novelty_score": 0.694,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -248,10 +256,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.872,
+      "score": 57.72,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.71",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -260,7 +268,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.721,
+      "novelty_score": 0.715,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -285,7 +293,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.749,
+      "score": 56.648,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -297,7 +305,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.973,
+      "novelty_score": 0.969,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -323,7 +331,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 56.351,
+      "score": 56.2,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -335,49 +343,12 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.652,
+      "novelty_score": 0.645,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
         "ai_engineering",
         "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "0c4ee6c64e107bf1",
-      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "source": "Hugging Face",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T15:09:09+00:00",
-      "text": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "matched_terms": [
-        "AI",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 54.343,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.71",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.713,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "open_source",
-        "models",
-        "datasets",
         "guo_yichen_reference"
       ],
       "registry_category": "community",
@@ -396,7 +367,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.66,
+      "score": 55.509,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -408,7 +379,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.917,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -417,6 +388,42 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "5077dc199200e32d",
+      "title": "How we set up our cloud agent environment",
+      "url": "https://cursor.com/blog/cloud-agent-environment",
+      "source": "Cursor Blog RSS",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-30T12:00:00+00:00",
+      "text": "How we set up our cloud agent environment",
+      "matched_terms": [
+        "agent"
+      ],
+      "engagement": {},
+      "score": 52.294,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.771,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "coding_assistant",
+        "developer_tools",
+        "curated_rss",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
@@ -439,10 +446,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 79.445,
+      "score": 79.293,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -451,7 +458,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.846,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -478,10 +485,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 62.563,
+      "score": 62.26,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -490,7 +497,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.776,
+      "novelty_score": 0.762,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -515,10 +522,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 61.613,
+      "score": 61.31,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.38",
+        "novelty=0.36",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -527,7 +534,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.376,
+      "novelty_score": 0.363,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -550,10 +557,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.29,
+      "score": 57.189,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -562,7 +569,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -622,10 +629,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 59.945,
+      "score": 59.642,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.95",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -634,7 +641,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.967,
+      "novelty_score": 0.953,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -657,10 +664,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.279,
+      "score": 58.976,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -669,7 +676,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.967,
+      "novelty_score": 0.953,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -678,6 +685,42 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "440130ea68b29ab6",
+      "title": "Jj Sail Biomedicines Collaboration Potential Acquisition In Vivo Car T",
+      "url": "https://www.pharmaceutical-technology.com/news/jj-sail-biomedicines-collaboration-potential-acquisition-in-vivo-car-t",
+      "source": "Pharmaceutical Technology",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": "2026-07-31T09:59:11+00:00",
+      "text": "Jj Sail Biomedicines Collaboration Potential Acquisition In Vivo Car T https://www.pharmaceutical-technology.com/news/jj-sail-biomedicines-collaboration-potential-acquisition-in-vivo-car-t/",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 46.131,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "bio_ai",
+        "pharma",
+        "drug_discovery",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "8d09f828aee59f69",
@@ -749,40 +792,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "6347abc361ef74d9",
-      "title": "Medical Answering Service",
-      "url": "https://elevenlabs.io/agents/medical-answering-service",
-      "source": "ElevenLabs",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Medical Answering Service https://elevenlabs.io/agents/medical-answering-service",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "audio_ai",
-        "voice"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -804,10 +813,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 79.445,
+      "score": 79.293,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -816,7 +825,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.846,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -843,10 +852,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 62.563,
+      "score": 62.26,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -855,7 +864,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.776,
+      "novelty_score": 0.762,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -880,10 +889,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 61.613,
+      "score": 61.31,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.38",
+        "novelty=0.36",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -892,7 +901,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.376,
+      "novelty_score": 0.363,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -915,10 +924,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.29,
+      "score": 57.189,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -927,7 +936,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -988,10 +997,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 70.375,
+      "score": 70.331,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1000,7 +1009,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.926,
+      "novelty_score": 0.924,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1023,7 +1032,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 64.063,
+      "score": 64.019,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.94",
@@ -1035,7 +1044,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.942,
+      "novelty_score": 0.94,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1059,7 +1068,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.61,
+      "score": 63.566,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -1071,7 +1080,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.922,
+      "novelty_score": 0.92,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1094,7 +1103,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 63.513,
+      "score": 63.47,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -1106,7 +1115,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.917,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1129,10 +1138,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 58.636,
+      "score": 58.593,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1141,7 +1150,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.696,
+      "novelty_score": 0.694,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1184,13 +1193,13 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Snowflake AI",
-      "category": "vendor",
-      "query": "site:www.snowflake.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
+      "source": "Siemens Energy",
+      "category": "engineering_ai",
+      "query": "site:www.siemens-energy.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.siemens-energy.com%20AI",
       "source_type": "website",
       "priority": "medium",
-      "tags": "data, enterprise_ai",
+      "tags": "energy, industrial_ai, digital_twin",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1264,6 +1273,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "SimScale",
+      "category": "engineering_ai",
+      "query": "site:www.simscale.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.simscale.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "cloud_cae, simulation",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Navasto",
       "category": "engineering_ai",
       "query": "site:www.navasto.de AI",
@@ -1311,6 +1330,36 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Papers with Code",
+      "category": "research",
+      "query": "site:paperswithcode.com AI",
+      "url": "https://www.google.com/search?q=site%3Apaperswithcode.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, benchmarks",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Hugging Face Papers",
+      "category": "research",
+      "query": "site:huggingface.co AI",
+      "url": "https://www.google.com/search?q=site%3Ahuggingface.co%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "research, community, papers",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1374,6 +1423,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Drug Target Review",
+      "category": "general_ai",
+      "query": "site:www.drugtargetreview.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.drugtargetreview.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "bio_ai, drug_discovery, biotech",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "NEJM AI",
       "category": "research",
       "query": "site:ai.nejm.org AI",
@@ -1391,6 +1450,26 @@
       "source_type": "website",
       "priority": "high",
       "tags": "medical_ai, digital_health, clinical_ai, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Medicine",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "medical_ai, clinical_ai, bio_ai, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Biotechnology",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "bio_ai, biotech, drug_discovery, genomics_ai, research",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1456,13 +1535,13 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Snowflake AI",
-      "category": "vendor",
-      "query": "site:www.snowflake.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
+      "source": "Siemens Energy",
+      "category": "engineering_ai",
+      "query": "site:www.siemens-energy.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.siemens-energy.com%20AI",
       "source_type": "website",
       "priority": "medium",
-      "tags": "data, enterprise_ai",
+      "tags": "energy, industrial_ai, digital_twin",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1536,6 +1615,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "SimScale",
+      "category": "engineering_ai",
+      "query": "site:www.simscale.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.simscale.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "cloud_cae, simulation",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Navasto",
       "category": "engineering_ai",
       "query": "site:www.navasto.de AI",
@@ -1583,6 +1672,36 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Papers with Code",
+      "category": "research",
+      "query": "site:paperswithcode.com AI",
+      "url": "https://www.google.com/search?q=site%3Apaperswithcode.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, benchmarks",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Hugging Face Papers",
+      "category": "research",
+      "query": "site:huggingface.co AI",
+      "url": "https://www.google.com/search?q=site%3Ahuggingface.co%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "research, community, papers",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1646,6 +1765,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Drug Target Review",
+      "category": "general_ai",
+      "query": "site:www.drugtargetreview.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.drugtargetreview.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "bio_ai, drug_discovery, biotech",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "NEJM AI",
       "category": "research",
       "query": "site:ai.nejm.org AI",
@@ -1663,6 +1792,26 @@
       "source_type": "website",
       "priority": "high",
       "tags": "medical_ai, digital_health, clinical_ai, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Medicine",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "medical_ai, clinical_ai, bio_ai, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Biotechnology",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "bio_ai, biotech, drug_discovery, genomics_ai, research",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1698,42 +1847,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "62d96c69dc2ef01f",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 82.414,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.928,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "9a5018d6598d94c7",
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
       "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents",
@@ -1751,10 +1864,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 79.445,
+      "score": 79.293,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -1763,7 +1876,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.846,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1773,44 +1886,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "58734c7c02d92a7e",
-      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
-      "url": "https://rescale.com/blog/ai-physics-automotive-crash-structural-fea-simulations",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-24T10:29:00+00:00",
-      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "FEA",
-        "structural simulation"
-      ],
-      "engagement": {},
-      "score": 77.505,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=4",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.826,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1833,10 +1908,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.377,
+      "score": 73.225,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=8",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1845,7 +1920,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.85,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1872,7 +1947,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 72.15,
+      "score": 72.14,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1907,7 +1982,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 70.408,
+      "score": 70.398,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1919,7 +1994,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.958,
+      "novelty_score": 0.957,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1944,10 +2019,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 70.375,
+      "score": 70.331,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1956,7 +2031,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.926,
+      "novelty_score": 0.924,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1980,7 +2055,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.277,
+      "score": 69.267,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.30",
@@ -2018,7 +2093,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 68.188,
+      "score": 68.178,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2043,43 +2118,6 @@
       "source_priority": "high"
     },
     {
-      "id": "da9d0703229ae16b",
-      "title": "Open-source AI Datasets for AI Physics Model Training",
-      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-08T15:00:00+00:00",
-      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 68.142,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.431,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "ed26ceddfa654dba",
       "title": "Celebrating 40 Years of Multiphysics Simulation",
       "url": "https://www.comsol.com/blogs/celebrating-40-years-of-multiphysics-simulation",
@@ -2093,7 +2131,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 68.097,
+      "score": 68.087,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2130,7 +2168,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 67.682,
+      "score": 67.581,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -2142,7 +2180,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.895,
+      "novelty_score": 0.89,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2235,7 +2273,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 66.473,
+      "score": 66.462,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2273,10 +2311,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 65.604,
+      "score": 65.301,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2285,7 +2323,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.921,
+      "novelty_score": 0.908,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2311,10 +2349,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.357,
+      "score": 64.054,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2323,7 +2361,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.713,
+      "novelty_score": 0.699,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2345,7 +2383,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 64.063,
+      "score": 64.019,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.94",
@@ -2357,7 +2395,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.942,
+      "novelty_score": 0.94,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2383,7 +2421,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.828,
+      "score": 63.677,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2395,7 +2433,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
+      "novelty_score": 0.826,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2405,41 +2443,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 63.69,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.653,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2455,7 +2458,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 63.61,
+      "score": 63.566,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -2467,7 +2470,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.922,
+      "novelty_score": 0.92,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2490,7 +2493,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 63.513,
+      "score": 63.47,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -2502,7 +2505,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.917,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2510,42 +2513,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "15cc492fcc530e64",
-      "title": "Could AI take your job? Some workers in China already know the answer",
-      "url": "https://www.theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-31T02:22:05+00:00",
-      "text": "Could AI take your job? Some workers in China already know the answer Across the country, workers are fearful about the impact of AI on their livelihoods in an increasingly fragile labour market On the tree-lined streets of Wuhan, where cars jostle for space with mopeds and cargo trucks, the malfunctioning of a new type of vehicle has recently been causing chaos on the city’s roads. In March, several cars from a fleet of driverless taxis stopped abruptly in the streets. The “system malfunction” left distressed riders stranded for hours. The robotaxis, known as Apollo Go and powered by artificial intelligence (AI), were taken off Wuhan’s streets for months for investigations. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 62.563,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.776,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2584,6 +2551,42 @@
       "source_priority": "high"
     },
     {
+      "id": "15cc492fcc530e64",
+      "title": "Could AI take your job? Some workers in China already know the answer",
+      "url": "https://www.theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-31T02:22:05+00:00",
+      "text": "Could AI take your job? Some workers in China already know the answer Across the country, workers are fearful about the impact of AI on their livelihoods in an increasingly fragile labour market On the tree-lined streets of Wuhan, where cars jostle for space with mopeds and cargo trucks, the malfunctioning of a new type of vehicle has recently been causing chaos on the city’s roads. In March, several cars from a fleet of driverless taxis stopped abruptly in the streets. The “system malfunction” left distressed riders stranded for hours. The robotaxis, known as Apollo Go and powered by artificial intelligence (AI), were taken off Wuhan’s streets for months for investigations. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 62.26,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.76",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.762,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "4693532790c5e944",
       "title": "Leveraging know-how with AI into efficient product design",
       "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
@@ -2596,7 +2599,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.074,
+      "score": 62.063,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2635,7 +2638,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.067,
+      "score": 61.966,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2647,7 +2650,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.912,
+      "novelty_score": 0.908,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2655,41 +2658,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 62.04,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.58",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.578,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2708,10 +2676,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 61.613,
+      "score": 61.31,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.38",
+        "novelty=0.36",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2720,7 +2688,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.376,
+      "novelty_score": 0.363,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -2745,7 +2713,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.162,
+      "score": 61.061,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2757,7 +2725,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.871,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2803,41 +2771,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "feb797f48c7cbc50",
-      "title": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live",
-      "url": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T09:22:09+00:00",
-      "text": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live Live, rolling coverage as the AA says average petrol prices could rise above 159.7p per litre mark set in May Another group of bankers will be looking forward to a bump in bonuses this year, after NatWest group grew the payout pool after a near 30% surge in quarterly profits. The high street lender said pre-tax profit jumped 29% to £2.3bn between April and June compared with the same period last year, after a jump in customer deposits, mortgage lending, and better economic conditions reduced the prospect of soured loans. We’re the biggest lender to infrastructure. We have the biggest SME bank. It’s important that we play our part and help get growth in every nation and the region of the UK. And that’s how I’d want to use the bank’s capital. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 60.543,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.994,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3167,6 +3100,76 @@
       "source_priority": "high"
     },
     {
+      "id": "feb797f48c7cbc50",
+      "title": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live",
+      "url": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T09:22:09+00:00",
+      "text": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live Live, rolling coverage as the AA says average petrol prices could rise above 159.7p per litre mark set in May Another group of bankers will be looking forward to a bump in bonuses this year, after NatWest group grew the payout pool after a near 30% surge in quarterly profits. The high street lender said pre-tax profit jumped 29% to £2.3bn between April and June compared with the same period last year, after a jump in customer deposits, mortgage lending, and better economic conditions reduced the prospect of soured loans. We’re the biggest lender to infrastructure. We have the biggest SME bank. It’s important that we play our part and help get growth in every nation and the region of the UK. And that’s how I’d want to use the bank’s capital. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 60.24,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d22f990a554daaa6",
+      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
+      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "source": "Synopsys",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": "2026-07-31T02:41:30+00:00",
+      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 59.966,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.992,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "eda",
+        "simulation",
+        "digital_twin"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
+    },
+    {
       "id": "c7024dd73f9e74b2",
       "title": "Okta buys AI security startup Permiso — source says for about $200M",
       "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m",
@@ -3181,10 +3184,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.015,
+      "score": 59.914,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3193,7 +3196,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.819,
+      "novelty_score": 0.814,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3218,10 +3221,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 59.988,
+      "score": 59.887,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3230,7 +3233,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.818,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3238,112 +3241,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "d22f990a554daaa6",
-      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
-      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": "2026-07-31T02:41:30+00:00",
-      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 59.976,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "cfeaad309000da54",
-      "title": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed",
-      "url": "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T08:30:00+00:00",
-      "text": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed “The ADA is no longer what we’d call a profile in courage,” write Adam Marcus and Ivan Oransky of Retraction Watch.",
-      "matched_terms": [
-        "AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 59.945,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.97",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.967,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e369b6082884aab2",
-      "title": "Simulation Monitoring Automation",
-      "url": "https://rescale.com/blog/simulation-monitoring-automation",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T15:00:00+00:00",
-      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 59.908,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.481,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -3382,6 +3279,42 @@
       "source_priority": "high"
     },
     {
+      "id": "cfeaad309000da54",
+      "title": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed",
+      "url": "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T08:30:00+00:00",
+      "text": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed “The ADA is no longer what we’d call a profile in courage,” write Adam Marcus and Ivan Oransky of Retraction Watch.",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 59.642,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "1fea917a58829ba3",
       "title": "Syphilis spreads while researchers contend with federal constraints and a drug shortage",
       "url": "https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate",
@@ -3394,10 +3327,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.279,
+      "score": 58.976,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3406,7 +3339,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.967,
+      "novelty_score": 0.953,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -3429,10 +3362,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 58.636,
+      "score": 58.593,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -3441,7 +3374,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.696,
+      "novelty_score": 0.694,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3464,7 +3397,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.29,
+      "score": 58.28,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.92",
@@ -3501,10 +3434,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.872,
+      "score": 57.72,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.71",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3513,7 +3446,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.721,
+      "novelty_score": 0.715,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3523,116 +3456,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "3e25372b9239ef76",
-      "title": "Nvidia Physical Ai",
-      "url": "https://huggingface.co/blog/nvidia-physical-ai",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Nvidia Physical Ai https://huggingface.co/blog/nvidia-physical-ai",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.867,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "c1a4d7d6313d2fde",
-      "title": "Domain Specific Embedding Finetune",
-      "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Domain Specific Embedding Finetune https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
-      "matched_terms": [
-        "AI",
-        "embedding",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "a7d760ab746a249f",
-      "title": "Ai Q Top Ranking Open Portable Deep Research Agent",
-      "url": "https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Ai Q Top Ranking Open Portable Deep Research Agent https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -3649,7 +3472,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 57.663,
+      "score": 57.562,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -3661,7 +3484,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3685,10 +3508,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 57.325,
+      "score": 57.224,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3697,7 +3520,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3720,10 +3543,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.29,
+      "score": 57.189,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -3732,7 +3555,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5352,6 +5175,312 @@
       "text": "Agentenbasierte Ki Trifft Auf Schweissnaht Mapping Fuer Durchgaengige Spritzgusssimulation https://www.synera.ai/de/news/agentenbasierte-ki-trifft-auf-schweissnaht-mapping-fuer-durchgaengige-spritzgusssimulation",
       "matched_terms": [
         "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f08d5e0ccaa9c87",
+      "title": "Agentic Ai For Engineering In Aerospace And Defense",
+      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai For Engineering In Aerospace And Defense https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
+      "matched_terms": [
+        "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "aa7e190c8e57b532",
+      "title": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025",
+      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025 https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
+      "matched_terms": [
+        "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "40315e9e530db9ba",
+      "title": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems",
+      "url": "https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7faa8c6159a05886",
+      "title": "Einfuehrung Intact Simulation Add In",
+      "url": "https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Einfuehrung Intact Simulation Add In https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6c65c06c47193fc2",
+      "title": "Introducing Intact Simulation Add In",
+      "url": "https://www.synera.ai/news/introducing-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "84173670abec4920",
+      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
+      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ca5f8805ed4cc18e",
+      "title": "Nasa Ai Agents Build Spaceship From Text",
+      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0099e6807563ee55",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
       ],
       "engagement": {},
       "score": 57.033,
