@@ -1,0 +1,175 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-07-23 至 2026-07-31 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-07-23 to 2026-07-31.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "Cosmo-SPINN: Fuzzy Dark Matter Simulations with Physics-Informed Generative Networks",
+      "url": "https://arxiv.org/abs/2607.28604",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Ashutosh Kumar Mishra",
+        "Emma Tolley",
+        "Nicolas Cerardi"
+      ],
+      "summary_en": "Generative machine learning models have recently emerged as powerful tools for producing cosmological simulations. However, many existing emulators do not explicitly enforce the underlying physical dynamics governing cosmological evolution, often leading to artifacts and poor adherence to the evolution equations. In this work, we present a physics-informed generative U-Net framework for fuzzy dark matter (FDM) that addresses two complementary tasks: (i) the evolution of cosmological fields from ",
+      "summary_zh": "英文摘要：Generative machine learning models have recently emerged as powerful tools for producing cosmological simulations. However, many existing emulators do not explicitly enforce the underlying physical dynamics governing cosmological evolution, often leading to artifacts and poor adherence to the evolution equations. In this work, we present a physics-informed generative U-Net framework for fuzzy dark matter (FDM) that addresses two complementary tasks: (i) the evolution of cosmological fields from ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A Cloud Continuum Research Infrastructure for Distributed CPS Experimentation",
+      "url": "https://arxiv.org/abs/2607.28193",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Fabio Orazio Mirto",
+        "Giuseppe Tricomi",
+        "Luca D'Agati",
+        "Andrea Sabbioni",
+        "Stefano Silvestri",
+        "Francesco Longo",
+        "Giovanni Merlino",
+        "Armir Bujari",
+        "Paolo Bellavista",
+        "Antonio Puliafito"
+      ],
+      "summary_en": "Cloud Continuum applications require experimental environments capable of combining heterogeneous Edge, Fog, Cloud, and high-performance computing resources while preserving reproducibility, observability, and control over distributed deployments. This paper presents a two-level reference architecture for Cloud Continuum experimentation built on top of the SLICES Cloud Continuum Blueprint. The proposed approach separates the research-infrastructure layer, which exposes and manages distributed re",
+      "summary_zh": "英文摘要：Cloud Continuum applications require experimental environments capable of combining heterogeneous Edge, Fog, Cloud, and high-performance computing resources while preserving reproducibility, observability, and control over distributed deployments. This paper presents a two-level reference architecture for Cloud Continuum experimentation built on top of the SLICES Cloud Continuum Blueprint. The proposed approach separates the research-infrastructure layer, which exposes and manages distributed re",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Old Tricks, New Models: How Simple Image Transformations Break Modern AI-based Content Moderation",
+      "url": "https://arxiv.org/abs/2607.28187",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Marco Alecci",
+        "Francesco Marchiori",
+        "Iyiola Emmanuel Olatunji",
+        "Tegawendé F. Bissyandé",
+        "Jacques Klein"
+      ],
+      "summary_en": "While automated content-moderation systems have become essential for screening harmful content at scale, conventional task-specific classifiers often provide limited policy cov- erage and contextual understanding. Recently, commercial multimodal moderation APIs built on large foundation models have been introduced with the promise of providing broader and more capable safety filters. In this work, we analyze whether this shift also yields more robust image moderation. We conduct a large-scale bl",
+      "summary_zh": "英文摘要：While automated content-moderation systems have become essential for screening harmful content at scale, conventional task-specific classifiers often provide limited policy cov- erage and contextual understanding. Recently, commercial multimodal moderation APIs built on large foundation models have been introduced with the promise of providing broader and more capable safety filters. In this work, we analyze whether this shift also yields more robust image moderation. We conduct a large-scale bl",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "mmRadarTwin: A Measurement-Calibrated Signal-Level Digital Twin Platform for Indoor mmWave Radar",
+      "url": "https://arxiv.org/abs/2607.28108",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Jianyi Zhou",
+        "Chenghao Zhang",
+        "Yanli Li",
+        "Dong Yuan"
+      ],
+      "summary_en": "Indoor mmWave radar perception is difficult to reproduce because measured range-angle responses depend on scene geometry, material response, multipath, hardware conventions, and signal processing. Existing ray-tracing and digital-twin tools often expose rendering, channel, or path-level quantities, while radar sensing requires complex signal products that can be processed and compared in the same domain as real FMCW measurements. We present mmRadarTwin, a signal-level and path-attributed digital",
+      "summary_zh": "英文摘要：Indoor mmWave radar perception is difficult to reproduce because measured range-angle responses depend on scene geometry, material response, multipath, hardware conventions, and signal processing. Existing ray-tracing and digital-twin tools often expose rendering, channel, or path-level quantities, while radar sensing requires complex signal products that can be processed and compared in the same domain as real FMCW measurements. We present mmRadarTwin, a signal-level and path-attributed digital",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Chem World: A Large-Scale Benchmark and Physics-Informed Framework for Trustworthy Chemical Property Prediction",
+      "url": "https://arxiv.org/abs/2607.28079",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Tianyou Bai",
+        "Huan Wang",
+        "Mingchen Gao",
+        "Fangyue Lin",
+        "Pinze Ren",
+        "Zhenlin Zhao",
+        "Siming Dong"
+      ],
+      "summary_en": "Chemical property prediction plays a critical role in accelerating scientific discovery in chemistry, materials science, and drug development. However, existing benchmarks often suffer from limited task diversity, fragmented datasets, and inconsistent evaluation protocols, making it challenging to systematically assess the reliability and generalization of AI models. In this work, we introduce Chem World, a comprehensive benchmark for chemical property prediction that integrates 17 diverse chemi",
+      "summary_zh": "英文摘要：Chemical property prediction plays a critical role in accelerating scientific discovery in chemistry, materials science, and drug development. However, existing benchmarks often suffer from limited task diversity, fragmented datasets, and inconsistent evaluation protocols, making it challenging to systematically assess the reliability and generalization of AI models. In this work, we introduce Chem World, a comprehensive benchmark for chemical property prediction that integrates 17 diverse chemi",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Data-free neural PDE solvers based on Graph Neural Networks and weak forms",
+      "url": "https://arxiv.org/abs/2607.27901",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Mikel M. Iparraguirre",
+        "Iciar Alfaro",
+        "David Gonzalez",
+        "Elias Cueto"
+      ],
+      "summary_en": "We present a physics-informed, data-free neural solver for partial differential equations, built on a graph neural network architecture that utilises message passing. By relying on the weak form of the problem, we use gradients of finite-element shape functions (which are therefore polynomials) rather than automatic differentiation operators to compute the residuals of the equation from the displacements predicted by the network itself. Our approach generalises to previously unseen load cases an",
+      "summary_zh": "英文摘要：We present a physics-informed, data-free neural solver for partial differential equations, built on a graph neural network architecture that utilises message passing. By relying on the weak form of the problem, we use gradients of finite-element shape functions (which are therefore polynomials) rather than automatic differentiation operators to compute the residuals of the equation from the displacements predicted by the network itself. Our approach generalises to previously unseen load cases an",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Orca: Neural Operators for Causal Reasoning in Continuous Time",
+      "url": "https://arxiv.org/abs/2607.27867",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Gerrit Großmann",
+        "David A. Selby",
+        "Sebastian J. Vollmer"
+      ],
+      "summary_en": "Structural causal models are the standard language for reasoning about interventions and counterfactuals, but they describe static variables, typically measured once, and usually forbid cyclic dependencies. Many systems we care about, such as patients, climates, and economies, instead evolve continuously in time, are observed at irregular time points, and contain feedback loops. We argue that neural operator learning provides a natural foundation for causal reasoning in this setting, and propose",
+      "summary_zh": "英文摘要：Structural causal models are the standard language for reasoning about interventions and counterfactuals, but they describe static variables, typically measured once, and usually forbid cyclic dependencies. Many systems we care about, such as patients, climates, and economies, instead evolve continuously in time, are observed at irregular time points, and contain feedback loops. We argue that neural operator learning provides a natural foundation for causal reasoning in this setting, and propose",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "PhySR: Physics-Informed Neural Network for Super-Resolution Reconstruction in Radio Synthesis Imaging",
+      "url": "https://arxiv.org/abs/2607.27750",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Hongkun Yang",
+        "Li Zhang",
+        "Ming Zhang",
+        "Yong-Feng Huang"
+      ],
+      "summary_en": "Radio telescope arrays are constrained by the number of antennas and baseline distribution, resulting in incomplete spatial-frequency sampling, limited image resolution, and blurring, distortion, and loss of small-scale structures caused by coupling between the primary and synthesized beams. Existing general-purpose model-driven methods remove observational effects sequentially and may accumulate errors, but cannot directly address limited imaging resolution, while data-driven methods lack expli",
+      "summary_zh": "英文摘要：Radio telescope arrays are constrained by the number of antennas and baseline distribution, resulting in incomplete spatial-frequency sampling, limited image resolution, and blurring, distortion, and loss of small-scale structures caused by coupling between the primary and synthesized beams. Existing general-purpose model-driven methods remove observational effects sequentially and may accumulate errors, but cannot directly address limited imaging resolution, while data-driven methods lack expli",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Articulated Object Reconstruction from Rest-State Observation",
+      "url": "https://arxiv.org/abs/2607.27749",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Daeun Lee",
+        "Jaeah Lee",
+        "Woosung Kim",
+        "Haebeom Jung",
+        "Jaesik Park"
+      ],
+      "summary_en": "Building interactive digital twins requires recovering both 3D geometry and the kinematic structures that govern how objects articulate. Yet existing methods for articulated object reconstruction require explicitly observable motion from multiple articulation states. We introduce a rest-state formulation that reconstructs articulated objects from a single closed configuration, an inherently ill-posed setting where geometry, semantics, and motion priors compensate for the absence of motion cues. ",
+      "summary_zh": "英文摘要：Building interactive digital twins requires recovering both 3D geometry and the kinematic structures that govern how objects articulate. Yet existing methods for articulated object reconstruction require explicitly observable motion from multiple articulation states. We introduce a rest-state formulation that reconstructs articulated objects from a single closed configuration, an inherently ill-posed setting where geometry, semantics, and motion priors compensate for the absence of motion cues. ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Three-Photon Bayesian Imaging of Ortho-Positronium",
+      "url": "https://arxiv.org/abs/2607.27741",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "L. Raczynski",
+        "W. Krzemien",
+        "A. Coussat",
+        "M. Bala",
+        "B. C. Hiesmayr",
+        "K. Klimaszewski",
+        "M. Obara",
+        "R. Y. Shopa"
+      ],
+      "summary_en": "PET provides functional images relying on two-photon coincidences from positron-electron annihilation. In human tissue, about 40\\% of annihilations are preceded by Ps formation, of which o-Ps component partially decays into three photons, with the remainder annihilating via pick-off or spin-exchange into two photons. This three-photon channel carries additional information about the surrounding micro-environment, including the three-to-two-photon yield ratio as a potential diagnostic marker. We ",
+      "summary_zh": "英文摘要：PET provides functional images relying on two-photon coincidences from positron-electron annihilation. In human tissue, about 40\\% of annihilations are preceded by Ps formation, of which o-Ps component partially decays into three photons, with the remainder annihilating via pick-off or spin-exchange into two photons. This three-photon channel carries additional information about the surrounding micro-environment, including the three-to-two-photon yield ratio as a potential diagnostic marker. We ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
