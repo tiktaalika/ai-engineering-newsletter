@@ -3,69 +3,69 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16806
-- filtered_count: 2285
-- duplicate_count: 73
-- failures: 8
+- fetched_count: 16683
+- filtered_count: 2217
+- duplicate_count: 70
+- failures: 18
 
 ## Top 10 General AI News
 1. [Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)](https://simonwillison.net/2026/Jul/31/stateless-mcp)
    - source: Simon Willison
-   - score: 70.954
-   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.892; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 70.12
+   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.854; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Oxide and Friends: The Open Weight Revolution with Simon Willison](https://simonwillison.net/2026/Jul/31/oxide-and-friends)
    - source: Simon Willison
-   - score: 67.047
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.866; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-3. [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-038)
-   - source: Latent Space
-   - score: 55.784
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.93; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Building abundant intelligence](https://openai.com/index/building-abundant-intelligence)
+   - score: 66.213
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.828; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+3. [Ten advances in mathematics and theoretical computer science](https://openai.com/index/ten-advances-in-mathematics)
    - source: OpenAI
-   - score: 53.863
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [How we set up our cloud agent environment](https://cursor.com/blog/cloud-agent-environment)
+   - score: 58.703
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-038)
+   - source: Latent Space
+   - score: 54.95
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.892; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Building abundant intelligence](https://openai.com/index/building-abundant-intelligence)
+   - source: OpenAI
+   - score: 53.307
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [How we set up our cloud agent environment](https://cursor.com/blog/cloud-agent-environment)
    - source: Cursor Blog RSS
-   - score: 47.675
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.561; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [July 2026 Update](https://blog.southparkcommons.com/p/july-2026-update)
+   - score: 47.12
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.536; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.54; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [July 2026 Update](https://blog.southparkcommons.com/p/july-2026-update)
    - source: South Park Commons
-   - score: 42.102
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.817; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Announcing the Agentic Catalog Experience in Amazon Quick](https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick)
+   - score: 41.268
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.779; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Announcing the Agentic Catalog Experience in Amazon Quick](https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick)
    - source: Amazon AWS AI
-   - score: 60.982
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.893; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-8. [Optimizing production agents with Amazon Bedrock AgentCore Observability](https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability)
+   - score: 60.426
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.868; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+9. [Optimizing production agents with Amazon Bedrock AgentCore Observability](https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability)
    - source: Amazon AWS AI
-   - score: 60.656
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.848; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [It’s time to panic about AI safety](https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast)
+   - score: 60.1
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.823; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [It’s time to panic about AI safety](https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast)
    - source: The Verge AI
-   - score: 56.27
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.497; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.50; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Anthropic says Claude accidentally hacked real companies too](https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests)
-   - source: The Verge AI
-   - score: 56.02
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.486; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.49; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.602
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.421; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.42; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation](https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation)
    - source: TechCrunch AI
-   - score: 58.461
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.892; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.905
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.867; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [Ai Agents In Engineering Ai Conference 2025](https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025)
    - source: Synera
    - score: 57.033
@@ -88,26 +88,26 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [STAT+: Novo Nordisk inflammation-targeting drug misses mark in heart disease study](https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab)
-   - source: STAT Health Tech
-   - score: 45.235
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.45; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.45; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Federal government could improve infectious disease monitoring, says federal government](https://www.statnews.com/2026/07/31/health-news-federal-government-infectious-disease-monitoring-issues)
-   - source: STAT Health Tech
-   - score: 45.185
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.448; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.45; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [The Download: Montana’s new experimental drug rules](https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks)
-   - source: MIT Technology Review AI
-   - score: 45.043
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.441; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.44; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape](https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape)
+1. [From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape](https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape)
    - source: Pharmaceutical Technology
-   - score: 44.581
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.929; source_priority=0.65
+   - score: 44.525
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.927; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [STAT+: Novo Nordisk inflammation-targeting drug misses mark in heart disease study](https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab)
+   - source: STAT Health Tech
+   - score: 43.567
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.374; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.37; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Federal government could improve infectious disease monitoring, says federal government](https://www.statnews.com/2026/07/31/health-news-federal-government-infectious-disease-monitoring-issues)
+   - source: STAT Health Tech
+   - score: 43.517
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.372; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.37; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [The Download: Montana’s new experimental drug rules](https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks)
+   - source: MIT Technology Review AI
+   - score: 43.375
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.366; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.37; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [2136128.Article](https://www.drugtargetreview.com/insilico-medicine-launches-ai-drug-discovery-benchmarking-platform/2136128.article)
    - source: Drug Target Review
    - score: 37.833
@@ -152,7 +152,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
-- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
@@ -179,5 +178,15 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
+- Google News General AI Discovery: HTTP Error 503: Service Unavailable
+- Google News AI Payments and Agent Commerce: HTTP Error 503: Service Unavailable
+- Google News Frontier AI Policy and Access: HTTP Error 503: Service Unavailable
+- Google News Engineering AI Discovery: HTTP Error 503: Service Unavailable
+- Trusted Engineering AI Vendor Discovery: HTTP Error 503: Service Unavailable
+- Trusted Engineering Media Discovery: HTTP Error 503: Service Unavailable
+- Google News Medical AI Discovery: HTTP Error 503: Service Unavailable
+- Google News Bio and Genetics AI Discovery: HTTP Error 503: Service Unavailable
+- Trusted Biomedical AI Source Discovery: HTTP Error 503: Service Unavailable
+- Curated AI Newsletter Discovery: HTTP Error 503: Service Unavailable
+- Generative AI Newsletter Discovery: HTTP Error 503: Service Unavailable

@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-01T06:08:36.088258+00:00",
+    "generated_at": "2026-08-01T08:34:09.998919+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16806,
-    "filtered_count": 2285,
-    "duplicate_count": 73,
+    "fetched_count": 16683,
+    "filtered_count": 2217,
+    "duplicate_count": 70,
     "failures": [
       {
         "source": "Ansys",
@@ -32,12 +32,52 @@
         "error": "HTTP Error 403: Forbidden"
       },
       {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
-      },
-      {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Google News General AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News AI Payments and Agent Commerce",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Frontier AI Policy and Access",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Engineering AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering AI Vendor Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering Media Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Medical AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Bio and Genetics AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Biomedical AI Source Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Curated AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Generative AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
       }
     ]
   },
@@ -67,10 +107,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.954,
+      "score": 70.12,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.85",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -79,7 +119,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.892,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -107,10 +147,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.047,
+      "score": 66.213,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -119,7 +159,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.866,
+      "novelty_score": 0.828,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -129,6 +169,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "6d58997b466ca59f",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-01T00:00:00+00:00",
+      "text": "Ten advances in mathematics and theoretical computer science OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 58.703,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -144,10 +221,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.784,
+      "score": 54.95,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -156,7 +233,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.93,
+      "novelty_score": 0.892,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -180,10 +257,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.863,
+      "score": 53.307,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -192,7 +269,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -216,10 +293,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 47.675,
+      "score": 47.12,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.54",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -228,7 +305,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.561,
+      "novelty_score": 0.536,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -252,10 +329,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 42.102,
+      "score": 41.268,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.82",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -264,7 +341,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.817,
+      "novelty_score": 0.779,
       "source_priority_score": 0.65,
       "source_tags": [
         "startup",
@@ -289,10 +366,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 60.982,
+      "score": 60.426,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -301,7 +378,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.893,
+      "novelty_score": 0.868,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -326,10 +403,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.656,
+      "score": 60.1,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -338,7 +415,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -364,10 +441,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 56.27,
+      "score": 54.602,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.42",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -376,44 +453,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.497,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6da874292559b71d",
-      "title": "Anthropic says Claude accidentally hacked real companies too",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T13:41:17+00:00",
-      "text": "Anthropic says Claude accidentally hacked real companies too Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 56.02,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.49",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.486,
+      "novelty_score": 0.421,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -437,10 +477,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.461,
+      "score": 57.905,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -449,7 +489,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -601,6 +641,42 @@
   ],
   "top_5_medical_bio_ai": [
     {
+      "id": "fadc8fbb4111ea2f",
+      "title": "From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape",
+      "source": "Pharmaceutical Technology",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": "2026-07-29T10:23:24+00:00",
+      "text": "From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape/",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 44.525,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.93",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.927,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "bio_ai",
+        "pharma",
+        "drug_discovery",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
+    },
+    {
       "id": "23df73ce0660df46",
       "title": "STAT+: Novo Nordisk inflammation-targeting drug misses mark in heart disease study",
       "url": "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab",
@@ -613,10 +689,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 45.235,
+      "score": 43.567,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.45",
+        "novelty=0.37",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -625,7 +701,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.45,
+      "novelty_score": 0.374,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -648,10 +724,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 45.185,
+      "score": 43.517,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.45",
+        "novelty=0.37",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -660,7 +736,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.448,
+      "novelty_score": 0.372,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -683,10 +759,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 45.043,
+      "score": 43.375,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.44",
+        "novelty=0.37",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -695,7 +771,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.441,
+      "novelty_score": 0.366,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -703,42 +779,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "fadc8fbb4111ea2f",
-      "title": "From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape",
-      "source": "Pharmaceutical Technology",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": "2026-07-29T10:23:24+00:00",
-      "text": "From Friction To Compliance Cultivating Seamless Operations In A Shifting Regulatory Landscape https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 44.581,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.93",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.929,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "bio_ai",
-        "pharma",
-        "drug_discovery",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
     },
     {
       "id": "d594cc13a51d52dd",
@@ -791,10 +831,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.461,
+      "score": 57.905,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -803,7 +843,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1280,16 +1320,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1572,16 +1602,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1726,10 +1746,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 81.942,
+      "score": 81.886,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1739,7 +1759,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.906,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1765,7 +1785,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 77.033,
+      "score": 76.977,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1777,7 +1797,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.805,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1802,7 +1822,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.678,
+      "score": 71.622,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -1814,7 +1834,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.713,
+      "novelty_score": 0.71,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1841,10 +1861,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.954,
+      "score": 70.12,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.85",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1853,7 +1873,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.892,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1878,10 +1898,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.936,
+      "score": 69.881,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1890,7 +1910,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.936,
+      "novelty_score": 0.934,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1914,7 +1934,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.805,
+      "score": 68.749,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -1927,7 +1947,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.279,
+      "novelty_score": 0.276,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1954,10 +1974,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 68.352,
+      "score": 68.114,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1966,7 +1986,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.834,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1991,7 +2011,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.67,
+      "score": 67.614,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -2003,7 +2023,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.409,
+      "novelty_score": 0.407,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2027,7 +2047,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 67.625,
+      "score": 67.57,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -2039,53 +2059,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.559,
+      "novelty_score": 0.556,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "022c2f540c3be328",
-      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
-      "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T21:33:13+00:00",
-      "text": "Oxide and Friends: The Open Weight Revolution with Simon Willison Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and public letters about Open Weights and American AI Leadership signed by almost every big name in AI (with one notable exception ). It was a great conversation, even though it's already out-of-date! DeepSeek V4 Flash 0731 and Anthropic's own embarrassing cyber incident would absolutely have made the cut if we had recorded just a few days later. We also talk about Golden Gate Claude , the Zizians , Alameda wild turkey attacks , Soviet Marburg virus research , the Lead-crime hypothesis , and a bunch of other worthy digressions. Finally, we revisited some of our predictions from January , and we added a new Pope prediction : Prediction by the end of this year: the Pope says something about open models. Tags: predictions , ai , generative-ai , local-llms , llms , oxide , bryan-cantrill , podcast-appearances , ai-i",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 67.047,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.866,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2159,6 +2139,46 @@
       "source_priority": "high"
     },
     {
+      "id": "022c2f540c3be328",
+      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T21:33:13+00:00",
+      "text": "Oxide and Friends: The Open Weight Revolution with Simon Willison Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and public letters about Open Weights and American AI Leadership signed by almost every big name in AI (with one notable exception ). It was a great conversation, even though it's already out-of-date! DeepSeek V4 Flash 0731 and Anthropic's own embarrassing cyber incident would absolutely have made the cut if we had recorded just a few days later. We also talk about Golden Gate Claude , the Zizians , Alameda wild turkey attacks , Soviet Marburg virus research , the Lead-crime hypothesis , and a bunch of other worthy digressions. Finally, we revisited some of our predictions from January , and we added a new Pope prediction : Prediction by the end of this year: the Pope says something about open models. Tags: predictions , ai , generative-ai , local-llms , llms , oxide , bryan-cantrill , podcast-appearances , ai-i",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 66.213,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.828,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "a36b120f1b2bf972",
       "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
       "url": "https://simonwillison.net/2026/Jul/31/smevals",
@@ -2174,10 +2194,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.945,
+      "score": 66.111,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2186,7 +2206,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.861,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2211,7 +2231,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 66.001,
+      "score": 65.945,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -2223,7 +2243,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.758,
+      "novelty_score": 0.755,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2246,7 +2266,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.218,
+      "score": 63.162,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -2258,7 +2278,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.631,
+      "novelty_score": 0.629,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2284,10 +2304,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.962,
+      "score": 62.406,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.68",
+        "novelty=0.65",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2296,7 +2316,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.68,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2342,6 +2362,42 @@
       "source_priority": "high"
     },
     {
+      "id": "18321dc95cc5a2f1",
+      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+      "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
+      "source": "Google Research",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-30T20:36:36+00:00",
+      "text": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence General Science",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 61.802,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.839,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
       "id": "ac16dfe35be63552",
       "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
       "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok",
@@ -2356,10 +2412,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.315,
+      "score": 61.759,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2368,7 +2424,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.923,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2393,10 +2449,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 62.196,
+      "score": 61.64,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2405,7 +2461,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.918,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2417,22 +2473,94 @@
       "source_priority": "high"
     },
     {
-      "id": "18321dc95cc5a2f1",
-      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-      "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
-      "source": "Google Research",
+      "id": "4693532790c5e944",
+      "title": "Leveraging know-how with AI into efficient product design",
+      "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
+      "source": "Siemens Art of the Possible",
       "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T20:36:36+00:00",
-      "text": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence General Science",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T13:29:04+00:00",
+      "text": "Leveraging know-how with AI into efficient product design Is your engineering data a hidden goldmine? Overcome the ‘cold start’ problem in AI by using geometric similarity and transfer learning to transform existing models and simulations into powerful assets, speeding up product design and innovation",
       "matched_terms": [
-        "AI"
+        "simulation"
       ],
       "engagement": {},
-      "score": 62.04,
+      "score": 61.546,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.56",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.555,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "agentic_ai",
+        "cae",
+        "simulation",
+        "industrial_ai",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f7a88fc37e79f3e4",
+      "title": "Agent-Driven Simulation Troubleshooting",
+      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T12:00:00+00:00",
+      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 61.512,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.554,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5632af334a32abd0",
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge",
+      "source": "Microsoft Research",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-30T16:00:00+00:00",
+      "text": "EvoLib: Turning experience into evolving knowledge LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research .",
+      "matched_terms": [
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 61.349,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2441,12 +2569,46 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
         "computer_science",
-        "ai",
+        "ai"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "2b882e1b8e7677a3",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-30T15:00:59+00:00",
+      "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "matched_terms": [
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 61.252,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.81",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.814,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
         "guo_yichen_reference"
       ],
       "registry_category": "research",
@@ -2467,10 +2629,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 61.887,
+      "score": 61.053,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2479,7 +2641,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2489,148 +2651,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "4693532790c5e944",
-      "title": "Leveraging know-how with AI into efficient product design",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
-      "source": "Siemens Art of the Possible",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T13:29:04+00:00",
-      "text": "Leveraging know-how with AI into efficient product design Is your engineering data a hidden goldmine? Overcome the ‘cold start’ problem in AI by using geometric similarity and transfer learning to transform existing models and simulations into powerful assets, speeding up product design and innovation",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 61.602,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.558,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "5632af334a32abd0",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge",
-      "source": "Microsoft Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T16:00:00+00:00",
-      "text": "EvoLib: Turning experience into evolving knowledge LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research .",
-      "matched_terms": [
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 61.587,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.83,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 61.568,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.556,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2b882e1b8e7677a3",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
-      "source": "Google DeepMind",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T15:00:59+00:00",
-      "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "matched_terms": [
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 61.491,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.825,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "research",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2647,10 +2667,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 60.982,
+      "score": 60.426,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2659,44 +2679,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.893,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "38098a3497400f76",
-      "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
-      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T15:33:11+00:00",
-      "text": "Optimizing production agents with Amazon Bedrock AgentCore Observability As your AI agents move from prototype to production, the challenge shifts from getting them to work to keeping them fast and efficient. Learn how to use Amazon Bedrock AgentCore Observability and Amazon CloudWatch to find performance bottlenecks and diagnose memory issues in long-running agent sessions.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.656,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.868,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3033,6 +3016,43 @@
       "source_priority": "high"
     },
     {
+      "id": "38098a3497400f76",
+      "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T15:33:11+00:00",
+      "text": "Optimizing production agents with Amazon Bedrock AgentCore Observability As your AI agents move from prototype to production, the challenge shifts from getting them to work to keeping them fast and efficient. Learn how to use Amazon Bedrock AgentCore Observability and Amazon CloudWatch to find performance bottlenecks and diagnose memory issues in long-running agent sessions.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.1,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.823,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "d0a7f3d2c70a8110",
       "title": "Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking",
       "url": "https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking",
@@ -3080,7 +3100,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.504,
+      "score": 59.449,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -3092,7 +3112,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.971,
+      "novelty_score": 0.969,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3115,7 +3135,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 59.436,
+      "score": 59.381,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.46",
@@ -3127,7 +3147,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.459,
+      "novelty_score": 0.457,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3138,40 +3158,40 @@
       "source_priority": "high"
     },
     {
-      "id": "feb797f48c7cbc50",
-      "title": "FTSE 100 on track for best month since first US attacks on Iran five months ago – as it happened",
-      "url": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates",
-      "source": "The Guardian Technology",
+      "id": "6d58997b466ca59f",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "OpenAI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-31T14:10:52+00:00",
-      "text": "FTSE 100 on track for best month since first US attacks on Iran five months ago – as it happened Live, rolling coverage as London’s biggest companies defy Middle East disruption and UK petrol prices rise to around £1.60 per litre, the highest since Donald Trump ordered renewed strikes The story piquing the interest of the financial press this morning is that of Leopold Aschenbrenner , the AI Wunderkind (he’s German-born) who has been forced to sell off his fund in a fire sale after the AI boom ran out of steam. The 24-year-old had persuaded a lot of people to give him a lot of money for a hedge fund, after previously working for OpenAI and the FTX Future Fund, a charitable arm of the fraudulent crypto empire of Sam Bankman-Fried, who is now in prison . Aschenbrenner ploughed that money into debt-fuelled bets on artificial intelligence companies, earning huge returns until he found out that stocks can also fall. The trader dubbed the “Nostradamus of AI” would have been hard-pressed to foresee how quickly his high-flying hedge fund would run into trouble. The firm’s rapid downward spiral is a familiar tale, as Silicon Valley and Wall Street once again threw their weight behind a brig",
+      "published_at": "2026-08-01T00:00:00+00:00",
+      "text": "Ten advances in mathematics and theoretical computer science OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "RAG",
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.026,
+      "score": 58.703,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=4",
+        "novelty=0.91",
+        "matched_terms=2",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.501,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3187,10 +3207,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.461,
+      "score": 57.905,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -3199,7 +3219,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3258,7 +3278,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.818,
+      "score": 57.762,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.89",
@@ -3270,7 +3290,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.892,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3279,42 +3299,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "cdef019f7271230d",
-      "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
-      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T17:26:32+00:00",
-      "text": "Sam Altman isn’t the only one who wants to pump the brakes on AI After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts point out, sloppy security seems to have […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.756,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.868,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
     },
     {
       "id": "c1a4d7d6313d2fde",
@@ -3391,57 +3375,57 @@
       "source_priority": "high"
     },
     {
-      "id": "32ac40c413564ad2",
-      "title": "Anthropic says its own AI models breached three companies during security tests",
-      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
-      "source": "TechCrunch AI",
+      "id": "feb797f48c7cbc50",
+      "title": "FTSE 100 on track for best month since first US attacks on Iran five months ago – as it happened",
+      "url": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-31T01:06:54+00:00",
-      "text": "Anthropic says its own AI models breached three companies during security tests After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.",
+      "published_at": "2026-07-31T14:10:52+00:00",
+      "text": "FTSE 100 on track for best month since first US attacks on Iran five months ago – as it happened Live, rolling coverage as London’s biggest companies defy Middle East disruption and UK petrol prices rise to around £1.60 per litre, the highest since Donald Trump ordered renewed strikes The story piquing the interest of the financial press this morning is that of Leopold Aschenbrenner , the AI Wunderkind (he’s German-born) who has been forced to sell off his fund in a fire sale after the AI boom ran out of steam. The 24-year-old had persuaded a lot of people to give him a lot of money for a hedge fund, after previously working for OpenAI and the FTX Future Fund, a charitable arm of the fraudulent crypto empire of Sam Bankman-Fried, who is now in prison . Aschenbrenner ploughed that money into debt-fuelled bets on artificial intelligence companies, earning huge returns until he found out that stocks can also fall. The trader dubbed the “Nostradamus of AI” would have been hard-pressed to foresee how quickly his high-flying hedge fund would run into trouble. The firm’s rapid downward spiral is a familiar tale, as Silicon Valley and Wall Street once again threw their weight behind a brig",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Anthropic"
+        "artificial intelligence",
+        "RAG",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.348,
+      "score": 57.358,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
-        "matched_terms=3",
+        "novelty=0.43",
+        "matched_terms=4",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.698,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.425,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "b86dc435d64acf26",
-      "title": "Advancing responsible AI across Europe",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "source": "OpenAI",
+      "id": "cdef019f7271230d",
+      "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
+      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-07-31T15:00:00+00:00",
-      "text": "Advancing responsible AI across Europe OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "published_at": "2026-07-31T17:26:32+00:00",
+      "text": "Sam Altman isn’t the only one who wants to pump the brakes on AI After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts point out, sloppy security seems to have […]",
       "matched_terms": [
         "AI",
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.196,
+      "score": 57.2,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3456,12 +3440,11 @@
       "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "vendor",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -5344,6 +5327,40 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
       "matched_terms": [
         "ROM"
       ],
