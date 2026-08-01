@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-01T09:20:50.375101+00:00",
+    "generated_at": "2026-08-01T09:35:25.255472+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16808,
-    "filtered_count": 2279,
-    "duplicate_count": 75,
+    "fetched_count": 16677,
+    "filtered_count": 2215,
+    "duplicate_count": 70,
     "failures": [
       {
         "source": "Ansys",
@@ -34,6 +34,50 @@
       {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Google News General AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News AI Payments and Agent Commerce",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Frontier AI Policy and Access",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Engineering AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering AI Vendor Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering Media Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Medical AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Bio and Genetics AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Biomedical AI Source Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Curated AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Generative AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
       }
     ]
   },
@@ -63,7 +107,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.853,
+      "score": 69.769,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -75,7 +119,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.842,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -103,10 +147,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 65.946,
+      "score": 65.862,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -115,7 +159,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.816,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -141,7 +185,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.525,
+      "score": 58.469,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -153,7 +197,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -177,7 +221,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.683,
+      "score": 54.599,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -189,7 +233,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.88,
+      "novelty_score": 0.876,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -213,7 +257,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.129,
+      "score": 53.073,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -225,7 +269,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.809,
+      "novelty_score": 0.806,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -249,7 +293,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 46.941,
+      "score": 46.886,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -261,7 +305,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.528,
+      "novelty_score": 0.525,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -285,10 +329,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 41.001,
+      "score": 40.917,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -297,7 +341,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.767,
+      "novelty_score": 0.763,
       "source_priority_score": 0.65,
       "source_tags": [
         "startup",
@@ -322,7 +366,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 60.248,
+      "score": 60.192,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -334,7 +378,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.86,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -359,7 +403,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 59.922,
+      "score": 59.866,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -371,7 +415,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -397,10 +441,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 54.067,
+      "score": 53.9,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.40",
+        "novelty=0.39",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -409,7 +453,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.397,
+      "novelty_score": 0.389,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -433,7 +477,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.727,
+      "score": 57.671,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -445,7 +489,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.859,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -609,7 +653,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 44.507,
+      "score": 44.502,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.93",
@@ -682,10 +726,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 42.982,
+      "score": 42.815,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.34",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -694,7 +738,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.348,
+      "novelty_score": 0.34,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -717,10 +761,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 42.84,
+      "score": 42.673,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.34",
+        "novelty=0.33",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -729,7 +773,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.341,
+      "novelty_score": 0.334,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -789,7 +833,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.727,
+      "score": 57.671,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -801,7 +845,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.859,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1724,7 +1768,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 81.868,
+      "score": 81.863,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1763,7 +1807,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 76.959,
+      "score": 76.954,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1800,7 +1844,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.604,
+      "score": 71.599,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -1835,7 +1879,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.863,
+      "score": 69.857,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1874,7 +1918,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.853,
+      "score": 69.769,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -1886,7 +1930,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.842,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1912,7 +1956,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.731,
+      "score": 68.726,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -1925,7 +1969,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.276,
+      "novelty_score": 0.275,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1952,7 +1996,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 68.037,
+      "score": 68.013,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -1964,7 +2008,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.82,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1989,7 +2033,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.596,
+      "score": 67.591,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -2025,7 +2069,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 67.552,
+      "score": 67.546,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -2117,46 +2161,6 @@
       "source_priority": "high"
     },
     {
-      "id": "022c2f540c3be328",
-      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
-      "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T21:33:13+00:00",
-      "text": "Oxide and Friends: The Open Weight Revolution with Simon Willison Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and public letters about Open Weights and American AI Leadership signed by almost every big name in AI (with one notable exception ). It was a great conversation, even though it's already out-of-date! DeepSeek V4 Flash 0731 and Anthropic's own embarrassing cyber incident would absolutely have made the cut if we had recorded just a few days later. We also talk about Golden Gate Claude , the Zizians , Alameda wild turkey attacks , Soviet Marburg virus research , the Lead-crime hypothesis , and a bunch of other worthy digressions. Finally, we revisited some of our predictions from January , and we added a new Pope prediction : Prediction by the end of this year: the Pope says something about open models. Tags: predictions , ai , generative-ai , local-llms , llms , oxide , bryan-cantrill , podcast-appearances , ai-i",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 65.946,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.816,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "c98636a5d381bfcc",
       "title": "What’s new in Simcenter 3D 2606",
       "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-3d-2606",
@@ -2169,7 +2173,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 65.927,
+      "score": 65.922,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -2192,6 +2196,46 @@
       "source_priority": "high"
     },
     {
+      "id": "022c2f540c3be328",
+      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T21:33:13+00:00",
+      "text": "Oxide and Friends: The Open Weight Revolution with Simon Willison Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and public letters about Open Weights and American AI Leadership signed by almost every big name in AI (with one notable exception ). It was a great conversation, even though it's already out-of-date! DeepSeek V4 Flash 0731 and Anthropic's own embarrassing cyber incident would absolutely have made the cut if we had recorded just a few days later. We also talk about Golden Gate Claude , the Zizians , Alameda wild turkey attacks , Soviet Marburg virus research , the Lead-crime hypothesis , and a bunch of other worthy digressions. Finally, we revisited some of our predictions from January , and we added a new Pope prediction : Prediction by the end of this year: the Pope says something about open models. Tags: predictions , ai , generative-ai , local-llms , llms , oxide , bryan-cantrill , podcast-appearances , ai-i",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 65.862,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.81",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.812,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "a36b120f1b2bf972",
       "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
       "url": "https://simonwillison.net/2026/Jul/31/smevals",
@@ -2207,7 +2251,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 65.844,
+      "score": 65.76,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2219,7 +2263,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.811,
+      "novelty_score": 0.807,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2244,7 +2288,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.145,
+      "score": 63.139,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -2317,10 +2361,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.228,
+      "score": 62.172,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.65",
+        "novelty=0.64",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2329,7 +2373,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.647,
+      "novelty_score": 0.644,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2352,10 +2396,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.725,
+      "score": 61.701,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2364,7 +2408,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.836,
+      "novelty_score": 0.835,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2390,7 +2434,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.581,
+      "score": 61.525,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -2402,7 +2446,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.89,
+      "novelty_score": 0.888,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2425,7 +2469,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.528,
+      "score": 61.523,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2462,7 +2506,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.494,
+      "score": 61.489,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2499,7 +2543,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 61.462,
+      "score": 61.406,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2511,7 +2555,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.882,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2535,10 +2579,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 61.272,
+      "score": 61.249,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2547,7 +2591,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.814,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2570,7 +2614,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 61.176,
+      "score": 61.152,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2582,7 +2626,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.81,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2607,7 +2651,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 60.785,
+      "score": 60.702,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2619,7 +2663,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2971,7 +3015,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 60.248,
+      "score": 60.192,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2983,7 +3027,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.86,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3008,7 +3052,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 59.922,
+      "score": 59.866,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -3020,7 +3064,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3078,7 +3122,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.431,
+      "score": 59.425,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -3113,7 +3157,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 59.363,
+      "score": 59.357,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.46",
@@ -3149,7 +3193,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.525,
+      "score": 58.469,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -3161,7 +3205,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3221,7 +3265,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.745,
+      "score": 57.739,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.89",
@@ -3242,41 +3286,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "5c88eea83cf85938",
-      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
-      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-31T19:47:28+00:00",
-      "text": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.727,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.859,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
     },
     {
       "id": "c1a4d7d6313d2fde",
@@ -3350,6 +3359,41 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "5c88eea83cf85938",
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-31T19:47:28+00:00",
+      "text": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.671,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.856,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
