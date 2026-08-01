@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-01T08:34:09.998919+00:00",
+    "generated_at": "2026-08-01T08:56:25.839662+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16683,
-    "filtered_count": 2217,
-    "duplicate_count": 70,
+    "fetched_count": 17308,
+    "filtered_count": 2782,
+    "duplicate_count": 74,
     "failures": [
       {
         "source": "Ansys",
@@ -34,50 +34,6 @@
       {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Google News General AI Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News AI Payments and Agent Commerce",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News Frontier AI Policy and Access",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News Engineering AI Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Trusted Engineering AI Vendor Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Trusted Engineering Media Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News Medical AI Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News Bio and Genetics AI Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Trusted Biomedical AI Source Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Curated AI Newsletter Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Generative AI Newsletter Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
       }
     ]
   },
@@ -107,7 +63,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.12,
+      "score": 69.993,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -119,7 +75,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.854,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -147,10 +103,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.213,
+      "score": 66.086,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -159,7 +115,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.828,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -185,7 +141,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.703,
+      "score": 58.618,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -197,7 +153,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -221,7 +177,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.95,
+      "score": 54.822,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -233,7 +189,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.886,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -257,10 +213,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.307,
+      "score": 53.222,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -269,7 +225,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.817,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -293,10 +249,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 47.12,
+      "score": 47.034,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.54",
+        "novelty=0.53",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -305,7 +261,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.536,
+      "novelty_score": 0.532,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -329,10 +285,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 41.268,
+      "score": 41.141,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -341,7 +297,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.779,
+      "novelty_score": 0.773,
       "source_priority_score": 0.65,
       "source_tags": [
         "startup",
@@ -366,10 +322,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 60.426,
+      "score": 60.341,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -378,7 +334,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.868,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -403,7 +359,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.1,
+      "score": 60.015,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -415,7 +371,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -441,10 +397,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 54.602,
+      "score": 54.347,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.42",
+        "novelty=0.41",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -453,7 +409,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.421,
+      "novelty_score": 0.41,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -477,10 +433,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.905,
+      "score": 57.82,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -489,7 +445,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -653,7 +609,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 44.525,
+      "score": 44.517,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.93",
@@ -689,10 +645,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 43.567,
+      "score": 43.312,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.36",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -701,7 +657,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.374,
+      "novelty_score": 0.363,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -724,10 +680,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 43.517,
+      "score": 43.262,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.36",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -736,7 +692,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.372,
+      "novelty_score": 0.36,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -759,10 +715,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 43.375,
+      "score": 43.12,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.35",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -771,7 +727,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.366,
+      "novelty_score": 0.354,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -831,10 +787,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.905,
+      "score": 57.82,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -843,7 +799,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1190,16 +1146,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Perplexity",
-      "category": "startup",
-      "query": "site:www.perplexity.ai AI",
-      "url": "https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "search, product",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1472,16 +1418,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Perplexity",
-      "category": "startup",
-      "query": "site:www.perplexity.ai AI",
-      "url": "https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "search, product",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1746,7 +1682,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 81.886,
+      "score": 81.878,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1785,7 +1721,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 76.977,
+      "score": 76.969,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1822,7 +1758,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.622,
+      "score": 71.614,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -1861,7 +1797,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.12,
+      "score": 69.993,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1873,7 +1809,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.854,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1898,7 +1834,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.881,
+      "score": 69.872,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1934,7 +1870,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.749,
+      "score": 68.741,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -1974,7 +1910,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 68.114,
+      "score": 68.077,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -1986,7 +1922,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2011,7 +1947,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.614,
+      "score": 67.606,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -2023,7 +1959,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.407,
+      "novelty_score": 0.406,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2047,7 +1983,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 67.57,
+      "score": 67.561,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -2154,10 +2090,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.213,
+      "score": 66.086,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2166,7 +2102,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.828,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2194,7 +2130,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.111,
+      "score": 65.984,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2206,7 +2142,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.823,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2231,10 +2167,10 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 65.945,
+      "score": 65.936,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2266,7 +2202,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.162,
+      "score": 63.154,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -2278,7 +2214,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.629,
+      "novelty_score": 0.628,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2286,44 +2222,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "52dc536798258da8",
-      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
-      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T23:25:58+00:00",
-      "text": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 62.406,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.655,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2362,6 +2260,44 @@
       "source_priority": "high"
     },
     {
+      "id": "52dc536798258da8",
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-30T23:25:58+00:00",
+      "text": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
+      "matched_terms": [
+        "AI",
+        "RAG",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 62.321,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.65",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.651,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "18321dc95cc5a2f1",
       "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
       "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
@@ -2374,7 +2310,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.802,
+      "score": 61.765,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2386,7 +2322,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2412,10 +2348,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.759,
+      "score": 61.674,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2424,7 +2360,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.894,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2449,7 +2385,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 61.64,
+      "score": 61.555,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -2461,7 +2397,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.893,
+      "novelty_score": 0.889,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2485,10 +2421,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.546,
+      "score": 61.537,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2522,7 +2458,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.512,
+      "score": 61.503,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2534,7 +2470,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.554,
+      "novelty_score": 0.553,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2557,7 +2493,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 61.349,
+      "score": 61.312,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2569,7 +2505,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.819,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2592,7 +2528,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 61.252,
+      "score": 61.216,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2604,7 +2540,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.814,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2629,10 +2565,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 61.053,
+      "score": 60.925,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2641,7 +2577,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.866,
+      "novelty_score": 0.86,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2651,42 +2587,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "a0dd6f17a3d02d9f",
-      "title": "Announcing the Agentic Catalog Experience in Amazon Quick",
-      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T19:53:04+00:00",
-      "text": "Announcing the Agentic Catalog Experience in Amazon Quick Amazon Quick introduces the Agentic Catalog Experience, an AI-powered workflow for data curators to discover upstream catalog assets in natural language and auto-create Datasets and Topics with inherited semantics. Now in preview for AWS Glue Data Catalog and Databricks Unity Catalog.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 60.426,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.868,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3016,6 +2916,42 @@
       "source_priority": "high"
     },
     {
+      "id": "a0dd6f17a3d02d9f",
+      "title": "Announcing the Agentic Catalog Experience in Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T19:53:04+00:00",
+      "text": "Announcing the Agentic Catalog Experience in Amazon Quick Amazon Quick introduces the Agentic Catalog Experience, an AI-powered workflow for data curators to discover upstream catalog assets in natural language and auto-create Datasets and Topics with inherited semantics. Now in preview for AWS Glue Data Catalog and Databricks Unity Catalog.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 60.341,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.864,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "38098a3497400f76",
       "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
       "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability",
@@ -3030,7 +2966,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.1,
+      "score": 60.015,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -3042,7 +2978,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3100,7 +3036,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.449,
+      "score": 59.44,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -3112,7 +3048,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.969,
+      "novelty_score": 0.968,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3135,7 +3071,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 59.381,
+      "score": 59.372,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.46",
@@ -3147,7 +3083,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.457,
+      "novelty_score": 0.456,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3171,7 +3107,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.703,
+      "score": 58.618,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -3183,7 +3119,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3192,41 +3128,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "5c88eea83cf85938",
-      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
-      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-31T19:47:28+00:00",
-      "text": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.905,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3266,6 +3167,41 @@
       "source_priority": "high"
     },
     {
+      "id": "5c88eea83cf85938",
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-31T19:47:28+00:00",
+      "text": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.82,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.863,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "116ff43b5d3d49c4",
       "title": "Multiphysics Chip Design Challenges",
       "url": "https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-chip-design-challenges.html",
@@ -3278,7 +3214,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.762,
+      "score": 57.754,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.89",
@@ -3375,6 +3311,42 @@
       "source_priority": "high"
     },
     {
+      "id": "cdef019f7271230d",
+      "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
+      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-07-31T17:26:32+00:00",
+      "text": "Sam Altman isn’t the only one who wants to pump the brakes on AI After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts point out, sloppy security seems to have […]",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.115,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.839,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "feb797f48c7cbc50",
       "title": "FTSE 100 on track for best month since first US attacks on Iran five months ago – as it happened",
       "url": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates",
@@ -3390,10 +3362,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.358,
+      "score": 57.103,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.41",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3402,49 +3374,13 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.425,
+      "novelty_score": 0.414,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cdef019f7271230d",
-      "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
-      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T17:26:32+00:00",
-      "text": "Sam Altman isn’t the only one who wants to pump the brakes on AI After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts point out, sloppy security seems to have […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.2,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
