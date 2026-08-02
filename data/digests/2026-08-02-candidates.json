@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-02T09:21:05.775601+00:00",
+    "generated_at": "2026-08-02T09:44:42.719869+00:00",
     "window_hours": 24,
     "source_count": 138,
     "fetched_count": 16801,
-    "filtered_count": 2230,
+    "filtered_count": 2233,
     "duplicate_count": 69,
     "failures": [
       {
@@ -65,10 +65,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.9,
+      "score": 64.764,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -77,7 +77,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.92,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,10 +104,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.268,
+      "score": 60.133,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -116,7 +116,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.83,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -142,10 +142,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 57.552,
+      "score": 57.462,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -154,7 +154,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -162,6 +162,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "7c9695089421ebbb",
+      "title": "Stock market turmoil sheds stark light on the opaque AI economy",
+      "url": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-02T09:00:17+00:00",
+      "text": "Stock market turmoil sheds stark light on the opaque AI economy Investors scramble to make sense of a shock Chinese challenge to the dominance of western chipmakers Even for the rollercoaster world of AI, last week was particularly volatile as investors scrambled to keep up with developments that threatened the dominance of the largest western chipmakers. It began with a double whammy. On Monday, the Chinese memory chipmaker CXMT floated on the Shanghai stock market, soaring by 466% in value to 3.3tn yuan (£365bn). Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.824,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.977,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -177,10 +211,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.373,
+      "score": 54.283,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -189,7 +223,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.865,
+      "novelty_score": 0.861,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -214,7 +248,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 50.208,
+      "score": 50.117,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -226,7 +260,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.373,
+      "novelty_score": 0.369,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -380,42 +414,6 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
-    },
-    {
-      "id": "483bb23e2bd772bf",
-      "title": "NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
-      "url": "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-31T15:13:02+00:00",
-      "text": "NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration,...",
-      "matched_terms": [
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 47.678,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.561,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
@@ -438,10 +436,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 81.09,
+      "score": 80.955,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -450,7 +448,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.921,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -475,10 +473,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.219,
+      "score": 58.949,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -487,7 +485,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.927,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -761,10 +759,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 37.554,
+      "score": 37.419,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.31",
+        "novelty=0.30",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -773,7 +771,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.307,
+      "novelty_score": 0.301,
       "source_priority_score": 0.65,
       "source_tags": [
         "newsletter",
@@ -806,10 +804,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 81.09,
+      "score": 80.955,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -818,7 +816,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.921,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -843,10 +841,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.219,
+      "score": 58.949,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -855,7 +853,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.927,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1746,7 +1744,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 81.318,
+      "score": 81.309,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1788,10 +1786,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 81.09,
+      "score": 80.955,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -1800,7 +1798,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.921,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1829,10 +1827,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 78.61,
+      "score": 78.475,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=5",
         "engineering_relevance=0.50",
         "research_relevance=0.67",
@@ -1841,7 +1839,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.8,
+      "novelty_score": 0.794,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1869,7 +1867,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 76.409,
+      "score": 76.4,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1906,7 +1904,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.054,
+      "score": 71.045,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1941,7 +1939,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.313,
+      "score": 69.304,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1977,7 +1975,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.181,
+      "score": 68.172,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.25",
@@ -1990,7 +1988,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.251,
+      "novelty_score": 0.25,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2017,7 +2015,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.046,
+      "score": 67.037,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -2029,7 +2027,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.381,
+      "novelty_score": 0.38,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2123,7 +2121,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 67.002,
+      "score": 66.993,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2159,7 +2157,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 65.68,
+      "score": 65.641,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -2171,7 +2169,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.713,
+      "novelty_score": 0.711,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2194,7 +2192,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 65.377,
+      "score": 65.368,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2231,10 +2229,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.9,
+      "score": 64.764,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2243,7 +2241,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.92,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2268,7 +2266,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.594,
+      "score": 62.585,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2280,7 +2278,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.603,
+      "novelty_score": 0.602,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2338,7 +2336,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.978,
+      "score": 60.969,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2375,7 +2373,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.944,
+      "score": 60.935,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2387,7 +2385,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.528,
+      "novelty_score": 0.527,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2738,10 +2736,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.268,
+      "score": 60.133,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2750,7 +2748,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.83,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2810,7 +2808,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.368,
+      "score": 59.329,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2822,7 +2820,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.729,
+      "novelty_score": 0.727,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2846,10 +2844,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.219,
+      "score": 58.949,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2858,7 +2856,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.927,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2880,7 +2878,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 58.915,
+      "score": 58.876,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -2892,7 +2890,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.708,
+      "novelty_score": 0.706,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2915,7 +2913,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.881,
+      "score": 58.872,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.94",
@@ -2938,41 +2936,6 @@
       "source_priority": "medium"
     },
     {
-      "id": "2b882e1b8e7677a3",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
-      "source": "Google DeepMind",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T15:00:59+00:00",
-      "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "matched_terms": [
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 58.818,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.70",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.704,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "research",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
       "id": "e369b6082884aab2",
       "title": "Simulation Monitoring Automation",
       "url": "https://rescale.com/blog/simulation-monitoring-automation",
@@ -2985,7 +2948,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.813,
+      "score": 58.804,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -2997,7 +2960,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.431,
+      "novelty_score": 0.43,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3005,6 +2968,41 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2b882e1b8e7677a3",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-30T15:00:59+00:00",
+      "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "matched_terms": [
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 58.78,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.702,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -3131,10 +3129,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 57.552,
+      "score": 57.462,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3143,7 +3141,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3166,7 +3164,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.194,
+      "score": 57.185,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.87",

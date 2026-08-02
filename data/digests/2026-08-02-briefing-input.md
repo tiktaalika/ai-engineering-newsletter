@@ -4,73 +4,73 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16801
-- filtered_count: 2230
+- filtered_count: 2233
 - duplicate_count: 69
 - failures: 8
 
 ## Top 10 General AI News
 1. [July 2026 newsletter](https://simonwillison.net/2026/Aug/2/july-newsletter)
    - source: Simon Willison
-   - score: 64.9
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.92; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 64.764
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.914; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Greg Brockman](https://simonwillison.net/2026/Aug/1/greg-brockman)
    - source: Simon Willison
-   - score: 60.268
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.83; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.133
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.824; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [YouTuber Hank Green says his AI usage is ‘not healthy’](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy)
    - source: TechCrunch AI
-   - score: 57.552
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.858; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps)
+   - score: 57.462
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.854; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Stock market turmoil sheds stark light on the opaque AI economy](https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy)
+   - source: The Guardian Technology
+   - score: 56.824
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.977; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps)
    - source: TechCrunch AI
-   - score: 54.373
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.865; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Four Ways to Deploy More Secure AI Agents](https://developer.nvidia.com/blog/four-ways-to-deploy-more-secure-ai-agents)
+   - score: 54.283
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.861; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Four Ways to Deploy More Secure AI Agents](https://developer.nvidia.com/blog/four-ways-to-deploy-more-secure-ai-agents)
    - source: NVIDIA AI
-   - score: 50.208
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.373; source_priority=1.0
+   - score: 50.117
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.369; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.37; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
+7. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
    - source: Anthropic
    - score: 49.7
    - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Studio Build, test, and run AI agents and apps.](https://mistral.ai/products/studio)
+8. [Studio Build, test, and run AI agents and apps.](https://mistral.ai/products/studio)
    - source: Mistral AI
    - score: 49.7
    - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+9. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
    - source: Anthropic
    - score: 49.033
    - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-9. [Research Upgrading agentic coding capabilities with the new Devstral models July 10, 2025 By Mistral AI](https://mistral.ai/news/devstral-2507)
+10. [Research Upgrading agentic coding capabilities with the new Devstral models July 10, 2025 By Mistral AI](https://mistral.ai/news/devstral-2507)
    - source: Mistral AI
    - score: 49.033
    - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-10. [NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek](https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek)
-   - source: NVIDIA AI
-   - score: 47.678
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.561; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Open letters about AI development](https://simonwillison.net/2026/Aug/2/open-letters)
    - source: Simon Willison
-   - score: 81.09
-   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.921; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=7; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+   - score: 80.955
+   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.915; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=7; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
 2. [‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years](https://www.theguardian.com/games/2026/aug/02/the-language-of-pokemon-is-universal-why-fans-are-still-catching-em-all-after-30-years)
    - source: The Guardian Technology
-   - score: 59.219
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.927; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.949
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.914; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Automating Cae Reporting](https://www.synera.ai/webinar/automating-cae-reporting)
    - source: Synera
    - score: 57.033
@@ -110,9 +110,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [WellSpan Health, Hippocratic AI ink ‘multi-year’ partnership with plans to co-develop clinical AI agents - Fierce Healthcare](https://news.google.com/rss/articles/CBMizAFBVV95cUxOTjNFYWQ2WGJOR0ZGWHY5UEVQeUh5NnVVYmNtMDk1NUdLOHBRZXM1NElYLWRUbVJnbXg0Yk90QWhNQ3dRZ3B0T2E4OU1rOE1DOHZSSGlRdHkxbV9EX2R6TlpTVkV0NTVlVzFOYm9QcG5jbFl0aHBFdW9wQ1JPbzhlYktLZ0ZNV1AtTG5EMDhXLVI0c205NXdLM095OGdHdnV2dDd3TkpramNRNWFOY2JWXzZvR0dWakphUXZQME9vR1FObmxLY3FlOU42SnE?oc=5)
    - source: Generative AI Newsletter Discovery
-   - score: 37.554
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.307; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.31; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 37.419
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.301; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.30; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Gpu Management](https://huggingface.co/blog/Dharma-AI/gpu-management)
