@@ -3,7 +3,7 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16801
+- fetched_count: 16841
 - filtered_count: 2235
 - duplicate_count: 70
 - failures: 8
@@ -11,28 +11,28 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 10 General AI News
 1. [July 2026 newsletter](https://simonwillison.net/2026/Aug/2/july-newsletter)
    - source: Simon Willison
-   - score: 65.151
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.931; source_priority=1.0
+   - score: 65.025
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.925; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Greg Brockman](https://simonwillison.net/2026/Aug/1/greg-brockman)
    - source: Simon Willison
-   - score: 60.519
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
+   - score: 60.393
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.836; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [YouTuber Hank Green says his AI usage is ‘not healthy’](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy)
    - source: TechCrunch AI
-   - score: 57.72
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.866; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.636
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.862; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps)
    - source: TechCrunch AI
-   - score: 54.541
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
+   - score: 54.457
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.869; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Four Ways to Deploy More Secure AI Agents](https://developer.nvidia.com/blog/four-ways-to-deploy-more-secure-ai-agents)
    - source: NVIDIA AI
-   - score: 50.375
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.381; source_priority=1.0
+   - score: 50.291
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.377; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.38; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
    - source: Anthropic
@@ -56,21 +56,21 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek](https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek)
    - source: NVIDIA AI
-   - score: 47.845
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.569; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.57; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.761
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.565; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Open letters about AI development](https://simonwillison.net/2026/Aug/2/open-letters)
    - source: Simon Willison
-   - score: 81.341
-   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.932; source_priority=1.0
+   - score: 81.215
+   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.926; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=7; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
 2. [‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years](https://www.theguardian.com/games/2026/aug/02/the-language-of-pokemon-is-universal-why-fans-are-still-catching-em-all-after-30-years)
    - source: The Guardian Technology
-   - score: 59.722
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.949; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.47
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.938; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Automating Cae Reporting](https://www.synera.ai/webinar/automating-cae-reporting)
    - source: Synera
    - score: 57.033
@@ -83,9 +83,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Fridays With Bob](https://spectrum.ieee.org/risk)
    - source: IEEE Spectrum AI
-   - score: 52.823
-   - score_breakdown: general=0.167; engineering=0.5; research=0.333; novelty=0.356; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.36; matched_terms=1; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
+   - score: 52.571
+   - score_breakdown: general=0.167; engineering=0.5; research=0.333; novelty=0.344; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.34; matched_terms=1; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Spotlight](https://medcitynews.com/tag/spotlight-applications-of-agentic-ai)
@@ -108,11 +108,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Healthcare Answering Service](https://elevenlabs.io/agents/healthcare-answering-service)
-   - source: ElevenLabs
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [WellSpan Health, Hippocratic AI ink ‘multi-year’ partnership with plans to co-develop clinical AI agents - Fierce Healthcare](https://news.google.com/rss/articles/CBMizAFBVV95cUxOTjNFYWQ2WGJOR0ZGWHY5UEVQeUh5NnVVYmNtMDk1NUdLOHBRZXM1NElYLWRUbVJnbXg0Yk90QWhNQ3dRZ3B0T2E4OU1rOE1DOHZSSGlRdHkxbV9EX2R6TlpTVkV0NTVlVzFOYm9QcG5jbFl0aHBFdW9wQ1JPbzhlYktLZ0ZNV1AtTG5EMDhXLVI0c205NXdLM095OGdHdnV2dDd3TkpramNRNWFOY2JWXzZvR0dWakphUXZQME9vR1FObmxLY3FlOU42SnE?oc=5)
+   - source: Generative AI Newsletter Discovery
+   - score: 37.679
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.313; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.31; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Gpu Management](https://huggingface.co/blog/Dharma-AI/gpu-management)
@@ -152,7 +152,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
-- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
