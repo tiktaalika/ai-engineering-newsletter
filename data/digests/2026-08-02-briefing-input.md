@@ -3,44 +3,44 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16673
-- filtered_count: 2186
-- duplicate_count: 69
-- failures: 19
+- fetched_count: 16801
+- filtered_count: 2235
+- duplicate_count: 70
+- failures: 8
 
 ## Top 10 General AI News
 1. [July 2026 newsletter](https://simonwillison.net/2026/Aug/2/july-newsletter)
    - source: Simon Willison
-   - score: 66.003
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.97; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 65.151
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.931; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Greg Brockman](https://simonwillison.net/2026/Aug/1/greg-brockman)
    - source: Simon Willison
-   - score: 61.371
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.881; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.519
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [YouTuber Hank Green says his AI usage is ‘not healthy’](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy)
    - source: TechCrunch AI
-   - score: 58.288
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.892; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.72
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.866; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps)
    - source: TechCrunch AI
-   - score: 55.108
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.899; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.541
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Four Ways to Deploy More Secure AI Agents](https://developer.nvidia.com/blog/four-ways-to-deploy-more-secure-ai-agents)
    - source: NVIDIA AI
-   - score: 50.943
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.406; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.41; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [‘More than just objects’: Australian booksellers raise alarm over ‘horrific’ destruction of rare titles to feed AI](https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain)
-   - source: The Guardian Technology
-   - score: 50.36
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.683; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.68; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
+   - score: 50.375
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.381; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.38; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
    - source: Anthropic
+   - score: 49.7
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Studio Build, test, and run AI agents and apps.](https://mistral.ai/products/studio)
+   - source: Mistral AI
    - score: 49.7
    - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
@@ -56,36 +56,36 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek](https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek)
    - source: NVIDIA AI
-   - score: 48.413
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.595; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.845
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.569; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Open letters about AI development](https://simonwillison.net/2026/Aug/2/open-letters)
    - source: Simon Willison
-   - score: 82.193
-   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.971; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=7; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
-2. [Automating Cae Reporting](https://www.synera.ai/webinar/automating-cae-reporting)
+   - score: 81.341
+   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.932; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=7; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+2. [‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years](https://www.theguardian.com/games/2026/aug/02/the-language-of-pokemon-is-universal-why-fans-are-still-catching-em-all-after-30-years)
+   - source: The Guardian Technology
+   - score: 59.722
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.949; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+3. [Automating Cae Reporting](https://www.synera.ai/webinar/automating-cae-reporting)
    - source: Synera
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Industrial Ai Revolution Shaping The Future Of Manufacturing](https://www.neuralconcept.com/post/industrial-ai-revolution-shaping-the-future-of-manufacturing)
+4. [Industrial Ai Revolution Shaping The Future Of Manufacturing](https://www.neuralconcept.com/post/industrial-ai-revolution-shaping-the-future-of-manufacturing)
    - source: Neural Concept
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Fridays With Bob](https://spectrum.ieee.org/risk)
+5. [Fridays With Bob](https://spectrum.ieee.org/risk)
    - source: IEEE Spectrum AI
-   - score: 54.527
-   - score_breakdown: general=0.167; engineering=0.5; research=0.333; novelty=0.433; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.43; matched_terms=1; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
-5. [Why Simulation Engineers Are Switching to Cloud-Native Tools Desktop CAE bolts AI on the side of a fixed tool. Cloud-native weaves it through the data, compute, and workflow. Here is why simulation engineers are switching. Alex Graham July 27, 2026 Engineering AI , Product](https://www.simscale.com/blog/cloud-native-simulation-why-engineers-switching)
-   - source: SimScale
-   - score: 52.5
-   - score_breakdown: general=0.5; engineering=1.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=3; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.823
+   - score_breakdown: general=0.167; engineering=0.5; research=0.333; novelty=0.356; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.36; matched_terms=1; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Spotlight](https://medcitynews.com/tag/spotlight-applications-of-agentic-ai)
@@ -181,14 +181,3 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
-- Google News General AI Discovery: HTTP Error 503: Service Unavailable
-- Google News AI Payments and Agent Commerce: HTTP Error 503: Service Unavailable
-- Google News Frontier AI Policy and Access: HTTP Error 503: Service Unavailable
-- Google News Engineering AI Discovery: HTTP Error 503: Service Unavailable
-- Trusted Engineering AI Vendor Discovery: HTTP Error 503: Service Unavailable
-- Trusted Engineering Media Discovery: HTTP Error 503: Service Unavailable
-- Google News Medical AI Discovery: HTTP Error 503: Service Unavailable
-- Google News Bio and Genetics AI Discovery: HTTP Error 503: Service Unavailable
-- Trusted Biomedical AI Source Discovery: HTTP Error 503: Service Unavailable
-- Curated AI Newsletter Discovery: HTTP Error 503: Service Unavailable
-- Generative AI Newsletter Discovery: HTTP Error 503: Service Unavailable

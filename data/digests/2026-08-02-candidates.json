@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-02T06:08:35.617910+00:00",
+    "generated_at": "2026-08-02T08:37:16.512347+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16673,
-    "filtered_count": 2186,
-    "duplicate_count": 69,
+    "fetched_count": 16801,
+    "filtered_count": 2235,
+    "duplicate_count": 70,
     "failures": [
       {
         "source": "OpenAI Research RSS",
@@ -38,50 +38,6 @@
       {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Google News General AI Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News AI Payments and Agent Commerce",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News Frontier AI Policy and Access",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News Engineering AI Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Trusted Engineering AI Vendor Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Trusted Engineering Media Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News Medical AI Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Google News Bio and Genetics AI Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Trusted Biomedical AI Source Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Curated AI Newsletter Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
-        "source": "Generative AI Newsletter Discovery",
-        "error": "HTTP Error 503: Service Unavailable"
       }
     ]
   },
@@ -109,10 +65,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.003,
+      "score": 65.151,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.93",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -121,7 +77,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.97,
+      "novelty_score": 0.931,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -148,10 +104,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.371,
+      "score": 60.519,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -160,7 +116,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -186,10 +142,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 58.288,
+      "score": 57.72,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -198,7 +154,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -221,10 +177,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.108,
+      "score": 54.541,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -233,7 +189,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.899,
+      "novelty_score": 0.873,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -258,10 +214,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 50.943,
+      "score": 50.375,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.41",
+        "novelty=0.38",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -270,7 +226,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.406,
+      "novelty_score": 0.381,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -279,40 +235,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "84635cb2f008ddc3",
-      "title": "‘More than just objects’: Australian booksellers raise alarm over ‘horrific’ destruction of rare titles to feed AI",
-      "url": "https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-01T20:00:02+00:00",
-      "text": "‘More than just objects’: Australian booksellers raise alarm over ‘horrific’ destruction of rare titles to feed AI Secondhand booksellers believe they may have been caught up in the AI supply chain that sees old books scanned then destroyed Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast “Sometimes books tell you more than the content,” says Tim White, as he lines up carefully dust-jacketed books and pamphlets in plastic sleeves on temporary shelves in Melbourne University’s Wilson Hall. He’s preparing his stall for this weekend’s Melbourne Rare Book Fair . For people like White, who runs independent bookshop Books for Cooks, the book as a physical object is just as important as what’s inside it. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 50.36,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.683,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -348,6 +270,42 @@
         "frontier_model",
         "safety",
         "policy"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "f0e043a201f7c6c9",
+      "title": "Studio Build, test, and run AI agents and apps.",
+      "url": "https://mistral.ai/products/studio",
+      "source": "Mistral AI",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Studio Build, test, and run AI agents and apps. https://mistral.ai/products/studio/",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 49.7,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "open_model"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -436,10 +394,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 48.413,
+      "score": 47.845,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.57",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -448,7 +406,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.595,
+      "novelty_score": 0.569,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -480,10 +438,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 82.193,
+      "score": 81.341,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.93",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -492,7 +450,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.971,
+      "novelty_score": 0.932,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -502,6 +460,40 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "4b38881b633e8cb0",
+      "title": "‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years",
+      "url": "https://www.theguardian.com/games/2026/aug/02/the-language-of-pokemon-is-universal-why-fans-are-still-catching-em-all-after-30-years",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-02T07:00:15+00:00",
+      "text": "‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years As Pokémon Go celebrates its 10th anniversary, its devoted players explain how the game has created a vibrant intergenerational community spanning the globe Most Pokémon obsessives count rare, absurdly expensive playing cards or pristine, fully boxed game cartridges that have survived decades in the attic among their most prized possessions. But for Mairead Ralph, her Pokémon-related crown jewel is a bit different. “Technically, it’s my husband!” she says. The pair first locked eyes amid decks of Pokémon playing cards and Pokéballs at a fan event 16 years ago and the rest is history. Ralph was among hundreds of Pokémon fans who flocked to Shoreditch, east London, on Saturday afternoon for a pop-up celebrating the 10th anniversary of Pokémon Go, the massively successful augmented reality smartphone game that has seen millions of players physically venture to all corners of the earth to catch ’em all in person. In that spirit, the surrounding area was full of Pokéheads wandering the streets, their heads in their phones, seeking to catch exclusive Pokémon that had been released. Continue reading",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.722,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.949,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -586,10 +578,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.527,
+      "score": 52.823,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.36",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -598,7 +590,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.433,
+      "novelty_score": 0.356,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -607,42 +599,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "78fc1fa18b05fd27",
-      "title": "Why Simulation Engineers Are Switching to Cloud-Native Tools Desktop CAE bolts AI on the side of a fixed tool. Cloud-native weaves it through the data, compute, and workflow. Here is why simulation engineers are switching. Alex Graham July 27, 2026 Engineering AI , Product",
-      "url": "https://www.simscale.com/blog/cloud-native-simulation-why-engineers-switching",
-      "source": "SimScale",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Why Simulation Engineers Are Switching to Cloud-Native Tools Desktop CAE bolts AI on the side of a fixed tool. Cloud-native weaves it through the data, compute, and workflow. Here is why simulation engineers are switching. Alex Graham July 27, 2026 Engineering AI , Product https://www.simscale.com/blog/cloud-native-simulation-why-engineers-switching/",
-      "matched_terms": [
-        "CAE",
-        "simulation",
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 52.5,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "cloud_cae",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     }
   ],
   "top_5_medical_bio_ai": [
@@ -844,10 +800,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 82.193,
+      "score": 81.341,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.93",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -856,7 +812,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.971,
+      "novelty_score": 0.932,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -866,6 +822,40 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "4b38881b633e8cb0",
+      "title": "‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years",
+      "url": "https://www.theguardian.com/games/2026/aug/02/the-language-of-pokemon-is-universal-why-fans-are-still-catching-em-all-after-30-years",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-02T07:00:15+00:00",
+      "text": "‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years As Pokémon Go celebrates its 10th anniversary, its devoted players explain how the game has created a vibrant intergenerational community spanning the globe Most Pokémon obsessives count rare, absurdly expensive playing cards or pristine, fully boxed game cartridges that have survived decades in the attic among their most prized possessions. But for Mairead Ralph, her Pokémon-related crown jewel is a bit different. “Technically, it’s my husband!” she says. The pair first locked eyes amid decks of Pokémon playing cards and Pokéballs at a fan event 16 years ago and the rest is history. Ralph was among hundreds of Pokémon fans who flocked to Shoreditch, east London, on Saturday afternoon for a pop-up celebrating the 10th anniversary of Pokémon Go, the massively successful augmented reality smartphone game that has seen millions of players physically venture to all corners of the earth to catch ’em all in person. In that spirit, the surrounding area was full of Pokéheads wandering the streets, their heads in their phones, seeking to catch exclusive Pokémon that had been released. Continue reading",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.722,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.949,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -950,10 +940,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.527,
+      "score": 52.823,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.36",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -962,7 +952,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.433,
+      "novelty_score": 0.356,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -971,42 +961,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "78fc1fa18b05fd27",
-      "title": "Why Simulation Engineers Are Switching to Cloud-Native Tools Desktop CAE bolts AI on the side of a fixed tool. Cloud-native weaves it through the data, compute, and workflow. Here is why simulation engineers are switching. Alex Graham July 27, 2026 Engineering AI , Product",
-      "url": "https://www.simscale.com/blog/cloud-native-simulation-why-engineers-switching",
-      "source": "SimScale",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Why Simulation Engineers Are Switching to Cloud-Native Tools Desktop CAE bolts AI on the side of a fixed tool. Cloud-native weaves it through the data, compute, and workflow. Here is why simulation engineers are switching. Alex Graham July 27, 2026 Engineering AI , Product https://www.simscale.com/blog/cloud-native-simulation-why-engineers-switching/",
-      "matched_terms": [
-        "CAE",
-        "simulation",
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 52.5,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "cloud_cae",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     }
   ],
   "research_radar": [
@@ -1791,10 +1745,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 82.193,
+      "score": 81.341,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.93",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -1803,7 +1757,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.971,
+      "novelty_score": 0.932,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1828,7 +1782,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 81.392,
+      "score": 81.335,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1841,7 +1795,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.881,
+      "novelty_score": 0.879,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1868,10 +1822,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 79.713,
+      "score": 78.861,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.81",
         "matched_terms=5",
         "engineering_relevance=0.50",
         "research_relevance=0.67",
@@ -1880,7 +1834,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.851,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1908,7 +1862,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 76.483,
+      "score": 76.426,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1920,7 +1874,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.777,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1945,7 +1899,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.128,
+      "score": 71.071,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -1957,7 +1911,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.688,
+      "novelty_score": 0.685,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1980,7 +1934,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.386,
+      "score": 69.329,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1992,7 +1946,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.909,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2016,7 +1970,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.255,
+      "score": 68.198,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.25",
@@ -2029,7 +1983,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.254,
+      "novelty_score": 0.251,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2056,7 +2010,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.12,
+      "score": 67.063,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -2068,47 +2022,12 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.384,
+      "novelty_score": 0.382,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
         "simulation",
         "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ed26ceddfa654dba",
-      "title": "Celebrating 40 Years of Multiphysics Simulation",
-      "url": "https://www.comsol.com/blogs/celebrating-40-years-of-multiphysics-simulation",
-      "source": "COMSOL",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T14:31:26+00:00",
-      "text": "Celebrating 40 Years of Multiphysics Simulation COMSOL was founded in 1986 with the goal of helping engineers and researchers solve design challenges through simulation. Now, 40 years later, that goal remains unchanged.",
-      "matched_terms": [
-        "simulation",
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 67.075,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.534,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "multiphysics",
-        "simulation"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2184,42 +2103,38 @@
       "source_priority": "high"
     },
     {
-      "id": "8d6dcf3c90aa93c1",
-      "title": "July 2026 newsletter",
-      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter",
-      "source": "Simon Willison",
+      "id": "ed26ceddfa654dba",
+      "title": "Celebrating 40 Years of Multiphysics Simulation",
+      "url": "https://www.comsol.com/blogs/celebrating-40-years-of-multiphysics-simulation",
+      "source": "COMSOL",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-02T04:12:41+00:00",
-      "text": "July 2026 newsletter The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731 Open letters about Al development A fireside chat and a podcast Reigniting my interest in MCP Other model releases My projects What I'm using at the moment Here's a copy of the June newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+      "category": "engineering_ai",
+      "published_at": "2026-07-14T14:31:26+00:00",
+      "text": "Celebrating 40 Years of Multiphysics Simulation COMSOL was founded in 1986 with the goal of helping engineers and researchers solve design challenges through simulation. Now, 40 years later, that goal remains unchanged.",
       "matched_terms": [
-        "Anthropic",
-        "model release",
-        "Claude"
+        "simulation",
+        "multiphysics"
       ],
       "engagement": {},
-      "score": 66.003,
+      "score": 67.019,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
+        "novelty=0.53",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.97,
+      "novelty_score": 0.531,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
+        "multiphysics",
+        "simulation"
       ],
-      "registry_category": "community",
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2237,10 +2152,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 65.995,
+      "score": 65.751,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2249,7 +2164,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.727,
+      "novelty_score": 0.716,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2272,7 +2187,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 65.451,
+      "score": 65.394,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2284,7 +2199,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.733,
+      "novelty_score": 0.73,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2292,6 +2207,45 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8d6dcf3c90aa93c1",
+      "title": "July 2026 newsletter",
+      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-02T04:12:41+00:00",
+      "text": "July 2026 newsletter The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731 Open letters about Al development A fireside chat and a podcast Reigniting my interest in MCP Other model releases My projects What I'm using at the moment Here's a copy of the June newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+      "matched_terms": [
+        "Anthropic",
+        "model release",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 65.151,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.931,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2307,10 +2261,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.668,
+      "score": 62.611,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.60",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2319,7 +2273,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.606,
+      "novelty_score": 0.604,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2365,45 +2319,6 @@
       "source_priority": "high"
     },
     {
-      "id": "a388c9e1b78df225",
-      "title": "Quoting Greg Brockman",
-      "url": "https://simonwillison.net/2026/Aug/1/greg-brockman",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-01T22:29:44+00:00",
-      "text": "Quoting Greg Brockman at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people. — Greg Brockman , President and Co-Founder, OpenAI Tags: ai-ethics , ai-misuse , generative-ai , openai , ai , llms",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.371,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "4693532790c5e944",
       "title": "Leveraging know-how with AI into efficient product design",
       "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
@@ -2416,7 +2331,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.052,
+      "score": 60.995,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2428,7 +2343,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.533,
+      "novelty_score": 0.53,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2453,7 +2368,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.018,
+      "score": 60.961,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2465,7 +2380,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.531,
+      "novelty_score": 0.529,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2473,6 +2388,45 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a388c9e1b78df225",
+      "title": "Quoting Greg Brockman",
+      "url": "https://simonwillison.net/2026/Aug/1/greg-brockman",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-01T22:29:44+00:00",
+      "text": "Quoting Greg Brockman at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people. — Greg Brockman , President and Co-Founder, OpenAI Tags: ai-ethics , ai-misuse , generative-ai , openai , ai , llms",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.519,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.842,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2802,6 +2756,40 @@
       "source_priority": "high"
     },
     {
+      "id": "4b38881b633e8cb0",
+      "title": "‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years",
+      "url": "https://www.theguardian.com/games/2026/aug/02/the-language-of-pokemon-is-universal-why-fans-are-still-catching-em-all-after-30-years",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-02T07:00:15+00:00",
+      "text": "‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years As Pokémon Go celebrates its 10th anniversary, its devoted players explain how the game has created a vibrant intergenerational community spanning the globe Most Pokémon obsessives count rare, absurdly expensive playing cards or pristine, fully boxed game cartridges that have survived decades in the attic among their most prized possessions. But for Mairead Ralph, her Pokémon-related crown jewel is a bit different. “Technically, it’s my husband!” she says. The pair first locked eyes amid decks of Pokémon playing cards and Pokéballs at a fan event 16 years ago and the rest is history. Ralph was among hundreds of Pokémon fans who flocked to Shoreditch, east London, on Saturday afternoon for a pop-up celebrating the 10th anniversary of Pokémon Go, the massively successful augmented reality smartphone game that has seen millions of players physically venture to all corners of the earth to catch ’em all in person. In that spirit, the surrounding area was full of Pokéheads wandering the streets, their heads in their phones, seeking to catch exclusive Pokémon that had been released. Continue reading",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.722,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.949,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d0a7f3d2c70a8110",
       "title": "Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking",
       "url": "https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking",
@@ -2849,10 +2837,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.683,
+      "score": 59.439,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2861,7 +2849,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.743,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2885,10 +2873,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 59.23,
+      "score": 58.987,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.71",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2897,47 +2885,12 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.723,
+      "novelty_score": 0.712,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
         "computer_science",
         "ai"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "2b882e1b8e7677a3",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
-      "source": "Google DeepMind",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T15:00:59+00:00",
-      "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "matched_terms": [
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 59.133,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.718,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "research",
-        "guo_yichen_reference"
       ],
       "registry_category": "research",
       "source_priority": "high"
@@ -2955,10 +2908,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.954,
+      "score": 58.897,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2967,7 +2920,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
+      "novelty_score": 0.944,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2976,6 +2929,41 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
+    },
+    {
+      "id": "2b882e1b8e7677a3",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-07-30T15:00:59+00:00",
+      "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "matched_terms": [
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 58.89,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.71",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.707,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
     },
     {
       "id": "e369b6082884aab2",
@@ -2990,7 +2978,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.886,
+      "score": 58.83,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -3002,7 +2990,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.434,
+      "novelty_score": 0.432,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3010,42 +2998,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "faffeeac24fbeb6c",
-      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-01T19:45:45+00:00",
-      "text": "YouTuber Hank Green says his AI usage is ‘not healthy’ Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
-      "matched_terms": [
-        "AI",
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 58.288,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3082,6 +3034,42 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "faffeeac24fbeb6c",
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-01T19:45:45+00:00",
+      "text": "YouTuber Hank Green says his AI usage is ‘not healthy’ Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
+      "matched_terms": [
+        "AI",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 57.72,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.866,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3159,6 +3147,41 @@
       "source_priority": "high"
     },
     {
+      "id": "116ff43b5d3d49c4",
+      "title": "Multiphysics Chip Design Challenges",
+      "url": "https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-chip-design-challenges.html",
+      "source": "Synopsys",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": "2026-07-28T01:06:38+00:00",
+      "text": "Multiphysics Chip Design Challenges https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-chip-design-challenges.html",
+      "matched_terms": [
+        "multiphysics"
+      ],
+      "engagement": {},
+      "score": 57.211,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.87",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.867,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "eda",
+        "simulation",
+        "digital_twin"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
+    },
+    {
       "id": "ba0eb6022ed8437e",
       "title": "Sam Altman is still making the case for parenting via ChatGPT",
       "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
@@ -3172,10 +3195,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.684,
+      "score": 57.116,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3184,7 +3207,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3193,79 +3216,6 @@
       ],
       "registry_category": "startup",
       "source_priority": "high"
-    },
-    {
-      "id": "52dc536798258da8",
-      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
-      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-07-30T23:25:58+00:00",
-      "text": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 57.462,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.43,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "116ff43b5d3d49c4",
-      "title": "Multiphysics Chip Design Challenges",
-      "url": "https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-chip-design-challenges.html",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T01:06:38+00:00",
-      "text": "Multiphysics Chip Design Challenges https://www.synopsys.com/zh-tw/taiwan/blog/multiphysics-chip-design-challenges.html",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 57.268,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.87",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     },
     {
       "id": "8426bc9786769987",
