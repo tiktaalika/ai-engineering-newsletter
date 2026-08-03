@@ -3,42 +3,42 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16774
-- filtered_count: 2222
+- fetched_count: 16730
+- filtered_count: 2221
 - duplicate_count: 73
-- failures: 9
+- failures: 8
 
 ## Top 10 General AI News
 1. [condense-json 1.0](https://simonwillison.net/2026/Aug/2/condense-json)
    - source: Simon Willison
-   - score: 53.17
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.028
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.804; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [datasette-apps 0.2a0](https://simonwillison.net/2026/Aug/1/datasette-apps)
    - source: Simon Willison
-   - score: 47.265
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.421; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.42; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 47.124
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.415; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.41; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [Here’s why AI agents lie and cheat to reach their goals](https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals)
    - source: MIT Technology Review AI
-   - score: 65.997
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.939; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 65.713
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [A Marc Benioff-backed startup thinks AI can solve the AI deployment problem](https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem)
    - source: TechCrunch AI
-   - score: 57.231
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.995; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.137
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.991; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning?](https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch)
    - source: STAT Health Tech
-   - score: 55.996
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.939; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.713
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Heart transplant candidates fail if they get too weak. New program tries inpatient prehab](https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project)
    - source: STAT Health Tech
-   - score: 55.996
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.939; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.713
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
    - source: Anthropic
    - score: 55.7
@@ -46,24 +46,24 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [Sam Altman and AI’s decel debate](https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate)
    - source: TechCrunch AI
-   - score: 54.231
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.859; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
+   - score: 54.136
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.855; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
    - source: Anthropic
-   - score: 52.367
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 53.033
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Embabel Agent Framework Reaches 1.0](https://www.infoq.com/news/2026/08/embabel-1)
    - source: InfoQ AI ML Data Engineering
-   - score: 48.861
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.821; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.578
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.808; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Multi Die Multiphysics Co Design](https://www.synopsys.com/blogs/chip-design/multi-die-multiphysics-co-design.html)
    - source: Synopsys
-   - score: 57.144
+   - score: 57.135
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.864; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.86; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Automatisierung Cae Berichterstattung](https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung)
@@ -90,29 +90,29 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning?](https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch)
    - source: STAT Health Tech
-   - score: 55.996
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.939; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.713
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Heart transplant candidates fail if they get too weak. New program tries inpatient prehab](https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project)
    - source: STAT Health Tech
-   - score: 55.996
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.939; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
-   - source: Databricks AI
+   - score: 55.713
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Subscribe via email](https://medcitynews.com/subscribe)
+   - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Subscribe via email](https://medcitynews.com/subscribe)
+4. [Send Tips](https://medcitynews.com/cdn-cgi/l/email-protection)
    - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Opinion: We lead the Federation of State Medical Boards. Here’s what we think about licensing AI to practice medicine](https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards)
    - source: STAT Health Tech
-   - score: 55.996
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.939; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.713
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.926; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Eva](https://huggingface.co/blog/ServiceNow-AI/eva)
@@ -159,6 +159,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Reddit MachineLearning](https://www.google.com/search?q=site%3Awww.reddit.com%20AI): site:www.reddit.com AI (website, low)
 - [Healthcare IT News](https://www.google.com/search?q=site%3Awww.healthcareitnews.com%20AI): site:www.healthcareitnews.com AI (website, high)
 - [MobiHealthNews](https://www.google.com/search?q=site%3Awww.mobihealthnews.com%20AI): site:www.mobihealthnews.com AI (website, high)
+- [Bio-IT World](https://www.google.com/search?q=site%3Awww.bio-itworld.com%20AI): site:www.bio-itworld.com AI (website, high)
 - [NEJM AI](https://www.google.com/search?q=site%3Aai.nejm.org%20AI): site:ai.nejm.org AI (website, high)
 - [The Lancet Digital Health](https://www.google.com/search?q=site%3Awww.thelancet.com%20AI): site:www.thelancet.com AI (website, high)
 - [Nature Medicine](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, high)
@@ -175,7 +176,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Source Failures
 - OpenAI Research RSS: HTTP Error 404: Not Found
 - Ansys: The read operation timed out
-- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
