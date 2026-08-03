@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-03T10:06:09.643723+00:00",
+    "generated_at": "2026-08-03T10:26:44.169562+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16780,
-    "filtered_count": 2224,
+    "fetched_count": 16774,
+    "filtered_count": 2222,
     "duplicate_count": 73,
     "failures": [
       {
@@ -14,6 +14,10 @@
       {
         "source": "Ansys",
         "error": "The read operation timed out"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -63,10 +67,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 53.288,
+      "score": 53.17,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -75,7 +79,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.816,
+      "novelty_score": 0.811,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -100,10 +104,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 47.383,
+      "score": 47.265,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.42",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -112,7 +116,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.427,
+      "novelty_score": 0.421,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -140,10 +144,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 66.232,
+      "score": 65.997,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -152,13 +156,48 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.95,
+      "novelty_score": 0.939,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "analysis"
       ],
       "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b6a8849c9fa0251b",
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-03T10:00:00+00:00",
+      "text": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.231,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.995,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -174,10 +213,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.231,
+      "score": 55.996,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -186,7 +225,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.95,
+      "novelty_score": 0.939,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -209,10 +248,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.231,
+      "score": 55.996,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -221,7 +260,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.95,
+      "novelty_score": 0.939,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -282,7 +321,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.309,
+      "score": 54.231,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -294,7 +333,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -342,41 +381,6 @@
       "source_priority": "high"
     },
     {
-      "id": "59a85518969cac8c",
-      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-02T19:36:08+00:00",
-      "text": "Fender’s CEO seems to think your bandmates are just analog AI Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company pissing off […]",
-      "matched_terms": [
-        "AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 50.698,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.55",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.547,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "74467e5e202b4067",
       "title": "Embabel Agent Framework Reaches 1.0",
       "url": "https://www.infoq.com/news/2026/08/embabel-1",
@@ -391,10 +395,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 49.097,
+      "score": 48.861,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -403,7 +407,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.821,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -428,7 +432,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.152,
+      "score": 57.144,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.86",
@@ -605,10 +609,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.231,
+      "score": 55.996,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -617,7 +621,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.95,
+      "novelty_score": 0.939,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -640,10 +644,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.231,
+      "score": 55.996,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -652,7 +656,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.95,
+      "novelty_score": 0.939,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -745,10 +749,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.231,
+      "score": 55.996,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -757,7 +761,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.95,
+      "novelty_score": 0.939,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -782,7 +786,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.152,
+      "score": 57.144,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.86",
@@ -1708,80 +1712,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "62d96c69dc2ef01f",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 80.751,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.852,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "58734c7c02d92a7e",
-      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
-      "url": "https://rescale.com/blog/ai-physics-automotive-crash-structural-fea-simulations",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-24T10:29:00+00:00",
-      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "FEA",
-        "structural simulation"
-      ],
-      "engagement": {},
-      "score": 75.842,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=4",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.75,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "c2ecae666cad8f68",
       "title": "Open letters about AI development",
       "url": "https://simonwillison.net/2026/Aug/2/open-letters",
@@ -1800,7 +1730,7 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 72.582,
+      "score": 72.464,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -1812,7 +1742,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.534,
+      "novelty_score": 0.529,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1839,7 +1769,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 70.487,
+      "score": 70.479,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -1851,7 +1781,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.659,
+      "novelty_score": 0.658,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1874,7 +1804,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 68.745,
+      "score": 68.738,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1967,43 +1897,6 @@
       "source_priority": "high"
     },
     {
-      "id": "da9d0703229ae16b",
-      "title": "Open-source AI Datasets for AI Physics Model Training",
-      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-08T15:00:00+00:00",
-      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 66.479,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.36",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.355,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "ed26ceddfa654dba",
       "title": "Celebrating 40 Years of Multiphysics Simulation",
       "url": "https://www.comsol.com/blogs/celebrating-40-years-of-multiphysics-simulation",
@@ -2017,7 +1910,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 66.435,
+      "score": 66.427,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -2029,7 +1922,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.505,
+      "novelty_score": 0.504,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2054,10 +1947,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 66.232,
+      "score": 65.997,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2066,7 +1959,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.95,
+      "novelty_score": 0.939,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2088,7 +1981,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 64.81,
+      "score": 64.802,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -2125,7 +2018,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.249,
+      "score": 63.215,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2137,7 +2030,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.602,
+      "novelty_score": 0.601,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2183,41 +2076,6 @@
       "source_priority": "high"
     },
     {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 62.027,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.58",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.577,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "4693532790c5e944",
       "title": "Leveraging know-how with AI into efficient product design",
       "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
@@ -2230,7 +2088,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.411,
+      "score": 60.403,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -2242,7 +2100,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.504,
+      "novelty_score": 0.503,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2250,41 +2108,6 @@
         "simulation",
         "industrial_ai",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 60.377,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.502,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2628,7 +2451,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.926,
+      "score": 59.918,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2640,7 +2463,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.991,
+      "novelty_score": 0.99,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2681,41 +2504,6 @@
         "surrogate_model",
         "cae",
         "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e369b6082884aab2",
-      "title": "Simulation Monitoring Automation",
-      "url": "https://rescale.com/blog/simulation-monitoring-automation",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-10T15:00:00+00:00",
-      "text": "Simulation Monitoring Automation Detect diverging and stalled simulations in real time, before they waste hours of compute. The Simulation Monitor automation runs alongside iterative solver jobs on Rescale, providing a live dashboard with residual plots, tabular data switching, and automated CSV exports without requiring an interactive workstation. It supports Ansys Fluent, STAR-CCM+, and CFX today, with a plugin-based framework designed for fast extension to additional solvers.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 58.246,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.41",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.405,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2831,6 +2619,41 @@
       "source_priority": "high"
     },
     {
+      "id": "b6a8849c9fa0251b",
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-03T10:00:00+00:00",
+      "text": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.231,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.995,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "ea54d0732e9027c6",
       "title": "Multi Die Multiphysics Co Design",
       "url": "https://www.synopsys.com/blogs/chip-design/multi-die-multiphysics-co-design.html",
@@ -2843,7 +2666,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.152,
+      "score": 57.144,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.86",
@@ -5296,6 +5119,181 @@
       "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
       "matched_terms": [
         "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "955ec8dc94a3f30b",
+      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
+      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6b83445bacefae79",
+      "title": "Cae Tools Used In Automotive Industry",
+      "url": "https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Tools Used In Automotive Industry https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba2eeead7c00722a",
+      "title": "Deep Neural Network In Simulations",
+      "url": "https://www.neuralconcept.com/post/deep-neural-network-in-simulations",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Deep Neural Network In Simulations https://www.neuralconcept.com/post/deep-neural-network-in-simulations",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e043e3171654f4d6",
+      "title": "Dynamic Simulation In Engineering Techniques And Applications",
+      "url": "https://www.neuralconcept.com/post/dynamic-simulation-in-engineering-techniques-and-applications",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Dynamic Simulation In Engineering Techniques And Applications https://www.neuralconcept.com/post/dynamic-simulation-in-engineering-techniques-and-applications",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ea2ea522bdc901b2",
+      "title": "Electric Vehicle Simulation Reducing Development Costs And Time",
+      "url": "https://www.neuralconcept.com/post/electric-vehicle-simulation-reducing-development-costs-and-time",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Electric Vehicle Simulation Reducing Development Costs And Time https://www.neuralconcept.com/post/electric-vehicle-simulation-reducing-development-costs-and-time",
+      "matched_terms": [
+        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
