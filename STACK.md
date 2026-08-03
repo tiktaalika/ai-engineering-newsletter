@@ -1,0 +1,4 @@
+- Configuration in: tomllib
+- Fetching in: httpx & selectolax & trafilatura & rss-parser
+- Templating: Jinja2
+- arxiv python wrapper

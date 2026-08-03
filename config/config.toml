@@ -1,0 +1,1016 @@
+user_agent = "ai-engineering-newsletter/2.0 (https://github.com/tiktaalika/ai-engineering-newsletter/)"
+
+[priority_presets]
+high = 1.0
+medium = 0.65
+low = 0.35
+
+[category_window_hours]
+general_ai = 24
+engineering_ai = 720
+research = 168
+startup = 72
+vendor = 72
+community = 48
+
+#
+# [[sources]]
+# name = ""
+# scrape_url = ""
+# priority = "high"
+# fetch_type = "rss" # rss or website
+# category = "general_ai"
+# tags = []
+
+[[sources]]
+name = "Reuters Technology"
+scrape_url = "https://www.reuters.com/technology/"
+priority = "high"
+fetch_type = "website"
+category = "general_ai"
+tags = ["technology", "global_news"]
+
+[[sources]]
+name = "Associated Press Technology"
+scrape_url = "https://apnews.com/hub/technology"
+priority = "high"
+fetch_type = "website"
+category = "general_ai"
+tags = ["technology", "global_news"]
+
+[[sources]]
+name = "MIT Technology Review AI"
+scrape_url = "https://www.technologyreview.com/feed/"
+priority = "high"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["ai", "analysis"]
+
+[[sources]]
+name = "The Verge AI"
+scrape_url = "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+priority = "high"
+fetch_type = "atom"
+category = "general_ai"
+tags = ["ai", "product"]
+
+[[sources]]
+name = "TechCrunch AI"
+scrape_url = "https://techcrunch.com/category/artificial-intelligence/feed/"
+priority = "high"
+fetch_type = "rss"
+category = "startup"
+tags = ["ai", "startup", "funding"]
+
+[[sources]]
+name = "VentureBeat AI"
+scrape_url = "https://venturebeat.com/category/ai/"
+priority = "medium"
+fetch_type = "website"
+category = "general_ai"
+tags = ["enterprise_ai"]
+
+[[sources]]
+name = "Ars Technica AI"
+scrape_url = "https://feeds.arstechnica.com/arstechnica/technology-lab"
+priority = "medium"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["technology", "policy"]
+
+[[sources]]
+name = "BBC Technology"
+scrape_url = "https://feeds.bbci.co.uk/news/technology/rss.xml"
+priority = "high"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["mainstream_news", "technology"]
+
+[[sources]]
+name = "The Guardian Technology"
+scrape_url = "https://www.theguardian.com/technology/rss"
+priority = "high"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["mainstream_news", "technology"]
+
+[[sources]]
+name = "New York Times Technology"
+scrape_url = "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+priority = "high"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["mainstream_news", "policy"]
+
+[[sources]]
+name = "CNBC Technology"
+scrape_url = "https://www.cnbc.com/id/19854910/device/rss/rss.html"
+priority = "medium"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["market", "enterprise"]
+
+[[sources]]
+name = "Forbes Tech"
+scrape_url = "https://www.forbes.com/innovation/feed2/"
+priority = "medium"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["market", "enterprise"]
+
+[[sources]]
+name = "Bloomberg Technology"
+scrape_url = "https://www.bloomberg.com/technology"
+priority = "high"
+fetch_type = "website"
+category = "general_ai"
+tags = ["market", "policy"]
+
+[[sources]]
+name = "Wall Street Journal Tech"
+scrape_url = "https://www.wsj.com/news/technology"
+priority = "high"
+fetch_type = "website"
+category = "general_ai"
+tags = ["market", "policy"]
+
+[[sources]]
+name = "Financial Times Tech"
+scrape_url = "https://www.ft.com/technology"
+priority = "high"
+fetch_type = "website"
+category = "general_ai"
+tags = ["market", "global_policy"]
+
+[[sources]]
+name = "Wired AI"
+scrape_url = "https://www.wired.com/feed/tag/ai/latest/rss"
+priority = "medium"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["policy", "society"]
+
+[[sources]]
+name = "IEEE Spectrum AI"
+scrape_url = "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+priority = "high"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["engineering", "hardware", "robotics"]
+
+[[sources]]
+name = "Nature Machine Intelligence"
+scrape_url = "https://www.nature.com/natmachintell.rss"
+priority = "high"
+fetch_type = "rdf"
+category = "research"
+tags = ["research", "journal"]
+
+[[sources]]
+name = "ACM TechNews"
+scrape_url = "https://rss.acm.org/technews/TechNews.xml"
+priority = "medium"
+fetch_type = "rss"
+category = "research"
+tags = ["computer_science", "research"]
+
+[[sources]]
+name = "Quanta Magazine Computer Science"
+scrape_url = "https://www.quantamagazine.org/feed/"
+priority = "high"
+fetch_type = "rss"
+category = "research"
+tags = ["mathematics", "theory"]
+
+[[sources]]
+name = "OpenAI Blog"
+scrape_url = "https://openai.com/news/rss.xml"
+priority = "high"
+fetch_type = "rss"
+category = "vendor"
+tags = ["model_release", "lab"]
+
+[[sources]]
+name = "Anthropic News"
+scrape_url = "https://www.anthropic.com/news"
+priority = "high"
+fetch_type = "website"
+category = "vendor"
+tags = ["model_release", "lab"]
+
+[[sources]]
+name = "Google DeepMind Blog"
+scrape_url = "https://deepmind.google/blog/rss.xml"
+priority = "high"
+fetch_type = "rss"
+category = "vendor"
+tags = ["lab", "research"]
+
+[[sources]]
+name = "Meta AI Blog"
+scrape_url = "https://ai.meta.com/blog/"
+priority = "high"
+fetch_type = "website"
+category = "vendor"
+tags = ["open_source", "lab"]
+
+[[sources]]
+name = "Microsoft Research AI"
+scrape_url = "https://www.microsoft.com/en-us/research/feed/"
+priority = "medium"
+fetch_type = "rss"
+category = "vendor"
+tags = ["research", "enterprise"]
+
+[[sources]]
+name = "NVIDIA Blog AI"
+scrape_url = "https://blogs.nvidia.com/feed/"
+priority = "high"
+fetch_type = "rss"
+category = "vendor"
+tags = ["hardware", "infrastructure"]
+
+[[sources]]
+name = "AWS AI Blog"
+scrape_url = "https://aws.amazon.com/blogs/machine-learning/feed/"
+priority = "medium"
+fetch_type = "rss"
+category = "vendor"
+tags = ["cloud", "infrastructure"]
+
+[[sources]]
+name = "Hugging Face Blog"
+scrape_url = "https://huggingface.co/blog/feed.xml"
+priority = "high"
+fetch_type = "rss"
+category = "community"
+tags = ["open_source", "community"]
+
+[[sources]]
+name = "LangChain Blog"
+scrape_url = "https://www.langchain.com/blog/rss.xml"
+priority = "high"
+fetch_type = "atom"
+category = "engineering_ai"
+tags = ["agent", "developer_tools"]
+
+[[sources]]
+name = "LlamaIndex Blog"
+scrape_url = "https://www.llamaindex.ai/blog/"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["rag", "developer_tools"]
+
+[[sources]]
+name = "Scale AI Blog"
+scrape_url = "https://scale.com/blog"
+priority = "medium"
+fetch_type = "website"
+category = "vendor"
+tags = ["data", "evaluation"]
+
+[[sources]]
+name = "Mistral AI Blog"
+scrape_url = "https://mistral.ai/news"
+priority = "high"
+fetch_type = "website"
+category = "vendor"
+tags = ["open_source", "lab"]
+
+[[sources]]
+name = "Cohere Blog"
+scrape_url = "https://cohere.com/blog"
+priority = "medium"
+fetch_type = "website"
+category = "vendor"
+tags = ["enterprise", "rag"]
+
+[[sources]]
+name = "Stability AI Blog"
+scrape_url = "https://stability.ai/news"
+priority = "medium"
+fetch_type = "website"
+category = "vendor"
+tags = ["generative_media", "open_source"]
+
+[[sources]]
+name = "Alignment Newsletter Archive"
+scrape_url = "https://rohinshah.com/alignment-newsletter/"
+priority = "low"
+fetch_type = "website"
+category = "research"
+tags = ["safety", "alignment"]
+
+[[sources]]
+name = "Import AI Newsletter"
+scrape_url = "https://importai.substack.com/feed"
+priority = "high"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["newsletter", "policy"]
+
+[[sources]]
+name = "Ahead of AI by Sebastian Raschka"
+scrape_url = "https://magazine.sebastianraschka.com/feed"
+priority = "high"
+fetch_type = "rss"
+category = "research"
+tags = ["research", "machine_learning"]
+
+[[sources]]
+name = "One Useful Thing by Ethan Mollick"
+scrape_url = "https://www.oneusefulthing.org/feed"
+priority = "high"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["adoption", "enterprise"]
+
+[[sources]]
+name = "Interconnects by Nathan Lambert"
+scrape_url = "https://www.interconnects.ai/feed"
+priority = "high"
+fetch_type = "rss"
+category = "research"
+tags = ["rlhf", "open_source"]
+
+[[sources]]
+name = "The Batch by DeepLearning.AI"
+scrape_url = "https://www.deeplearning.ai/the-batch/"
+priority = "high"
+fetch_type = "website"
+category = "general_ai"
+tags = ["news", "education"]
+
+[[sources]]
+name = "SemiAnalysis by Dylan Patel"
+scrape_url = "https://semianalysis.com/feed"
+priority = "high"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["hardware", "semiconductor"]
+
+[[sources]]
+name = "Fabricated Knowledge by Doug O'Laughlin"
+scrape_url = "https://www.fabricatedknowledge.com/feed"
+priority = "medium"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["hardware", "semiconductor"]
+
+[[sources]]
+name = "Stratechery by Ben Thompson"
+scrape_url = "https://stratechery.com/feed/"
+priority = "high"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["strategy", "platform"]
+
+[[sources]]
+name = "Not Boring by Packy McCormick"
+scrape_url = "https://www.notboring.co/feed"
+priority = "medium"
+fetch_type = "rss"
+category = "startup"
+tags = ["tech", "strategy"]
+
+[[sources]]
+name = "Machine Learning Street Talk"
+scrape_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCMLtBahfY09f57kcP3tmVCA"
+priority = "medium"
+fetch_type = "youtube"
+category = "research"
+tags = ["podcast", "deep_dive"]
+
+[[sources]]
+name = "Latent Space Podcast"
+scrape_url = "https://www.latent.space/feed"
+priority = "high"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["ai_engineer", "podcast"]
+
+[[sources]]
+name = "No Priors Podcast"
+scrape_url = "https://nopriors.com/feed"
+priority = "medium"
+fetch_type = "website"
+category = "startup"
+tags = ["vc", "founder"]
+
+[[sources]]
+name = "Hacker News Frontpage"
+scrape_url = "https://news.ycombinator.com/"
+priority = "high"
+fetch_type = "api"
+category = "community"
+tags = ["discussion", "developer"]
+
+[[sources]]
+name = "Reddit MachineLearning"
+scrape_url = "https://www.reddit.com/r/MachineLearning/hot.json?limit=25"
+priority = "high"
+fetch_type = "json"
+category = "community"
+tags = ["paper", "discussion"]
+
+[[sources]]
+name = "Reddit LocalLLaMA"
+scrape_url = "https://www.reddit.com/r/LocalLLaMA/hot.json?limit=25"
+priority = "high"
+fetch_type = "json"
+category = "engineering_ai"
+tags = ["open_source", "inference"]
+
+[[sources]]
+name = "Hugging Face Papers"
+scrape_url = "https://huggingface.co/papers"
+priority = "high"
+fetch_type = "website"
+category = "research"
+tags = ["paper", "trending"]
+
+[[sources]]
+name = "arXiv Computer Vision (cs.CV)"
+scrape_url = "https://rss.arxiv.org/rss/cs.CV"
+priority = "medium"
+fetch_type = "rss"
+category = "research"
+tags = ["arxiv", "vision"]
+
+[[sources]]
+name = "arXiv Computation and Language (cs.CL)"
+scrape_url = "https://rss.arxiv.org/rss/cs.CL"
+priority = "high"
+fetch_type = "rss"
+category = "research"
+tags = ["arxiv", "nlp"]
+
+[[sources]]
+name = "arXiv Machine Learning (cs.LG)"
+scrape_url = "https://rss.arxiv.org/rss/cs.LG"
+priority = "high"
+fetch_type = "rss"
+category = "research"
+tags = ["arxiv", "ml_theory"]
+
+[[sources]]
+name = "arXiv Artificial Intelligence (cs.AI)"
+scrape_url = "https://rss.arxiv.org/rss/cs.AI"
+priority = "medium"
+fetch_type = "rss"
+category = "research"
+tags = ["arxiv", "general_ai"]
+
+[[sources]]
+name = "arXiv Robotics (cs.RO)"
+scrape_url = "https://rss.arxiv.org/rss/cs.RO"
+priority = "medium"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["arxiv", "robotics"]
+
+[[sources]]
+name = "AlphaSignal AI"
+scrape_url = "https://alphasignal.ai/"
+priority = "medium"
+fetch_type = "website"
+category = "general_ai"
+tags = ["summary", "code"]
+
+[[sources]]
+name = "TLDR AI"
+scrape_url = "https://tldr.tech/ai"
+priority = "medium"
+fetch_type = "website"
+category = "general_ai"
+tags = ["summary", "industry"]
+
+[[sources]]
+name = "Deepgram Blog"
+scrape_url = "https://deepgram.com/learn/article"
+priority = "medium"
+fetch_type = "website"
+category = "vendor"
+tags = ["speech", "audio"]
+
+[[sources]]
+name = "AssemblyAI Blog"
+scrape_url = "https://www.assemblyai.com/blog"
+priority = "medium"
+fetch_type = "website"
+category = "vendor"
+tags = ["speech", "developer"]
+
+[[sources]]
+name = "Pinecone Blog"
+scrape_url = "https://www.pinecone.io/blog/"
+priority = "medium"
+fetch_type = "website"
+category = "vendor"
+tags = ["vector_db", "rag"]
+
+[[sources]]
+name = "Weaviate Blog"
+scrape_url = "https://weaviate.io/blog/rss.xml"
+priority = "medium"
+fetch_type = "rss"
+category = "vendor"
+tags = ["vector_db", "open_source"]
+
+[[sources]]
+name = "Qdrant Blog"
+scrape_url = "https://qdrant.tech/blog/index.xml"
+priority = "medium"
+fetch_type = "rss"
+category = "vendor"
+tags = ["vector_db", "rust"]
+
+[[sources]]
+name = "Anyscale Blog"
+scrape_url = "https://www.anyscale.com/blog/"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["ray", "distributed"]
+
+[[sources]]
+name = "Modal Blog"
+scrape_url = "https://modal.com/blog/"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["cloud", "serverless_gpu"]
+
+[[sources]]
+name = "Braintrust Blog"
+scrape_url = "https://www.braintrust.dev/blog/atom"
+priority = "medium"
+fetch_type = "atom"
+category = "engineering_ai"
+tags = ["evaluation", "prompt_engineering"]
+
+[[sources]]
+name = "Weights & Biases Blog"
+scrape_url = "https://wandb.ai/fully-connected/"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["mlops", "tracking"]
+
+[[sources]]
+name = "Comet ML Blog"
+scrape_url = "https://www.comet.com/site/blog/feed/"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["mlops", "tracking"]
+
+[[sources]]
+name = "Labelbox Blog"
+scrape_url = "https://labelbox.com/blog/"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["data", "annotation"]
+
+[[sources]]
+name = "Snorkel AI Blog"
+scrape_url = "https://snorkel.ai/feed/"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["programmatic_labeling", "data"]
+
+[[sources]]
+name = "Lightning AI Blog"
+scrape_url = "https://lightning.ai/pages/category/announcements/"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["pytorch", "training"]
+
+[[sources]]
+name = "Fireworks AI Blog"
+scrape_url = "https://fireworks.ai/blog"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["inference", "fast_api"]
+
+[[sources]]
+name = "Together AI Blog"
+scrape_url = "https://www.together.ai/blog/rss.xml"
+priority = "medium"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["open_models", "cloud"]
+
+[[sources]]
+name = "Groq News"
+scrape_url = "https://groq.com/newsroom"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["lpu", "low_latency"]
+
+[[sources]]
+name = "Cerebras Blog"
+scrape_url = "https://www.cerebras.ai/blog"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["wafer_scale", "hardware"]
+
+[[sources]]
+name = "SambaNova Blog"
+scrape_url = "https://sambanova.ai/blog/rss.xml"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["rdu", "enterprise"]
+
+[[sources]]
+name = "Graphcore Blog"
+scrape_url = "https://www.graphcore.ai/posts/rss.xml"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["ipu", "hardware"]
+
+[[sources]]
+name = "Tenstorrent Blog"
+scrape_url = "https://tenstorrent.com/newsroom/"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["riscv", "open_hardware"]
+
+[[sources]]
+name = "Mythic AI Blog"
+scrape_url = "https://mythic.ai/feed/"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["analog_compute", "edge"]
+
+[[sources]]
+name = "d-Matrix Blog"
+scrape_url = "https://www.d-matrix.ai/feed/"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["digital_in_memory", "inference"]
+
+[[sources]]
+name = "Rain AI Blog"
+scrape_url = "https://rain.ai/blog/rss.xml"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["neuromorphic", "hardware"]
+
+[[sources]]
+name = "Extropic Blog"
+scrape_url = "https://extropic.ai/writing"
+priority = "low"
+fetch_type = "website"
+category = "research"
+tags = ["thermodynamic", "hardware"]
+
+[[sources]]
+name = "Siemens Digital Industries Software Blog"
+scrape_url = "https://blogs.sw.siemens.com/feed/"
+priority = "medium"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["cad", "cae", "plm", "industrial_ai"]
+
+[[sources]]
+name = "Ansys Blog"
+scrape_url = "https://www.ansys.com/blog"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["cae", "simulation", "multiphysics"]
+
+[[sources]]
+name = "Dassault Systèmes Blog"
+scrape_url = "https://blog.3ds.com/"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["cad", "plm", "simulation"]
+
+[[sources]]
+name = "PTC Blog"
+scrape_url = "https://www.ptc.com/en/news"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["cad", "iot", "plm"]
+
+[[sources]]
+name = "Autodesk News"
+scrape_url = "https://adsknews.autodesk.com/feed"
+priority = "medium"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["cad", "generative_design", "bim"]
+
+[[sources]]
+name = "Cadence Blog"
+scrape_url = "https://community.cadence.com/"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["eda", "chip_design", "cfd"]
+
+
+[[sources]]
+name = "Siemens Simcenter"
+scrape_url = "https://blogs.sw.siemens.com/simcenter/"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["cae", "cfd", "hpc"]
+
+[[sources]]
+name = "COMSOL Blog"
+scrape_url = "https://www.comsol.com/blogs/feed/"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["multiphysics", "simulation"]
+
+[[sources]]
+name = "Rescale Blog"
+scrape_url = "https://rescale.com/blog/feed/"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["hpc_cloud", "cae"]
+
+[[sources]]
+name = "Physical Intelligence (pi.co)"
+scrape_url = "https://www.pi.co/blog"
+priority = "high"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["robotics", "foundation_models", "physical_ai"]
+
+[[sources]]
+name = "Figure AI News"
+scrape_url = "https://www.figure.ai/news"
+priority = "high"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["humanoid", "robotics", "embodied_ai"]
+
+[[sources]]
+name = "Boston Dynamics Blog"
+scrape_url = "https://bostondynamics.com/feed/"
+priority = "medium"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["robotics", "control", "dynamics"]
+
+[[sources]]
+name = "Sanctuary AI News"
+scrape_url = "https://www.sanctuary.ai/news/"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["humanoid", "general_purpose_robots"]
+
+[[sources]]
+name = "Skild AI"
+scrape_url = "https://www.skild.ai/"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["robotics", "brain", "foundation_models"]
+
+[[sources]]
+name = "Robust AI Blog"
+scrape_url = "https://www.robust.ai/blog?format=rss"
+priority = "low"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["collaborative_robots", "software"]
+
+[[sources]]
+name = "1X Technologies News"
+scrape_url = "https://www.1x.tech/news"
+priority = "medium"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["humanoid", "bipedal", "embodiment"]
+
+[[sources]]
+name = "Agility Robotics Blog"
+scrape_url = "https://www.agilityrobotics.com/latest-press"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["digit", "bipedal", "logistics"]
+
+[[sources]]
+name = "Apptronik News"
+scrape_url = "https://apptronik.com/news"
+priority = "low"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["apollo", "humanoid"]
+
+[[sources]]
+name = "Deepmind Robotics Research"
+scrape_url = "https://deepmind.google/discover/blog/?tag=robotics"
+priority = "high"
+fetch_type = "website"
+category = "engineering_ai"
+tags = ["rt2", "roboagent", "manipulation"]
+
+[[sources]]
+name = "Berkeley AI Research (BAIR) Blog"
+scrape_url = "https://bair.berkeley.edu/blog/feed.xml"
+priority = "high"
+fetch_type = "rss"
+category = "research"
+tags = ["berkeley", "robotics", "rl"]
+
+[[sources]]
+name = "Stanford AI Lab (SAIL) Blog"
+scrape_url = "https://ai.stanford.edu/blog/feed.xml"
+priority = "high"
+fetch_type = "rss"
+category = "research"
+tags = ["stanford", "foundation_models"]
+
+[[sources]]
+name = "CMU Robotics Institute News"
+scrape_url = "https://www.ri.cmu.edu/feed/"
+priority = "medium"
+fetch_type = "rss"
+category = "research"
+tags = ["cmu", "perception", "motion_planning"]
+
+[[sources]]
+name = "MIT CSAIL News"
+scrape_url = "https://www.csail.mit.edu/news/"
+priority = "high"
+fetch_type = "website"
+category = "research"
+tags = ["mit", "algorithms", "systems"]
+
+[[sources]]
+name = "Cambridge Machine Learning Group"
+scrape_url = "https://mlg.eng.cam.ac.uk/blog/feed.xml"
+priority = "low"
+fetch_type = "atom"
+category = "research"
+tags = ["cambridge", "bayesian"]
+
+[[sources]]
+name = "ETH Zurich AI Center News"
+scrape_url = "https://ethz.ch/en/news-and-events.html"
+priority = "medium"
+fetch_type = "website"
+category = "research"
+tags = ["eth", "robotics", "computer_vision"]
+
+[[sources]]
+name = "Max Planck Institute for Intelligent Systems"
+scrape_url = "https://is.mpg.de/en/news"
+priority = "medium"
+fetch_type = "website"
+category = "research"
+tags = ["mpg", "empirical_inference", "haptic"]
+
+[[sources]]
+name = "RIKEN Center for AIP News"
+scrape_url = "https://aip.riken.jp/feed/"
+priority = "low"
+fetch_type = "atom"
+category = "research"
+tags = ["riken", "japan", "optimization"]
+
+[[sources]]
+name = "Mila AI Institute News"
+scrape_url = "https://mila.quebec/en/news/"
+priority = "medium"
+fetch_type = "website"
+category = "research"
+tags = ["mila", "deep_learning", "climate_ai"]
+
+[[sources]]
+name = "Vector Institute News"
+scrape_url = "https://vectorinstitute.ai/feed/"
+priority = "medium"
+fetch_type = "rss"
+category = "research"
+tags = ["vector", "toronto", "health_ai"]
+
+[[sources]]
+name = "Alan Turing Institute News"
+scrape_url = "https://www.turing.ac.uk/blog"
+priority = "low"
+fetch_type = "website"
+category = "research"
+tags = ["turing", "uk", "data_science"]
+
+[[sources]]
+name = "Analytics Vidhya AI"
+scrape_url = "https://www.analyticsvidhya.com/feed/"
+priority = "low"
+fetch_type = "rss"
+category = "community"
+tags = ["tutorials", "data_science"]
+
+[[sources]]
+name = "KDnuggets AI"
+scrape_url = "https://www.kdnuggets.com/feed"
+priority = "low"
+fetch_type = "rss"
+category = "community"
+tags = ["tutorials", "cheat_sheets"]
+
+[[sources]]
+name = "Towards Data Science"
+scrape_url = "https://towardsdatascience.com/feed"
+priority = "medium"
+fetch_type = "rss"
+category = "community"
+tags = ["medium", "community_articles"]
+
+[[sources]]
+name = "Lilian Weng Blog (Lil'Log)"
+scrape_url = "https://lilianweng.github.io/index.xml"
+priority = "high"
+fetch_type = "rss"
+category = "research"
+tags = ["deep_dive", "survey", "OpenAI"]
+
+[[sources]]
+name = "Chip Huyen Blog"
+scrape_url = "https://huyenchip.com/feed.xml"
+priority = "high"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["mlops", "system_design"]
+
+[[sources]]
+name = "Eugene Yan Blog"
+scrape_url = "https://eugeneyan.com/rss/"
+priority = "high"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["recsys", "patterns", "rag"]
+
+[[sources]]
+name = "Simon Willison Blog"
+scrape_url = "https://simonwillison.net/atom/everything/"
+priority = "high"
+fetch_type = "atom"
+category = "engineering_ai"
+tags = ["llm", "security", "prompt_injection"]
+
+[[sources]]
+name = "Andrej Karpathy Blog / Channel"
+scrape_url = "https://karpathy.ai/"
+priority = "high"
+fetch_type = "website"
+category = "research"
+tags = ["education", "architecture", "zero_to_hero"]
+
+[[sources]]
+name = "Tim Dettmers Blog"
+scrape_url = "https://timdettmers.com/feed/"
+priority = "medium"
+fetch_type = "rss"
+category = "research"
+tags = ["quantization", "hardware", "bitsandbytes"]
+
+[[sources]]
+name = "Greg Kamradt (Data Independent)"
+scrape_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCv8x6xG0B-p2V_K77s2-d_w"
+priority = "medium"
+fetch_type = "youtube"
+category = "engineering_ai"
+tags = ["langchain", "rag_eval", "needle_in_haystack"]
+
+[[sources]]
+name = "Swyx (Shawn Wang) Blog"
+scrape_url = "https://www.swyx.io/rss.xml"
+priority = "high"
+fetch_type = "rss"
+category = "engineering_ai"
+tags = ["ai_engineer", "trend"]
+
+[[sources]]
+name = "Stratechery Articles"
+scrape_url = "https://stratechery.com/category/articles/"
+priority = "high"
+fetch_type = "website"
+category = "general_ai"
+tags = ["tech_business", "monopoly"]
