@@ -3,69 +3,69 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16746
+- fetched_count: 16780
 - filtered_count: 2224
-- duplicate_count: 72
-- failures: 9
+- duplicate_count: 73
+- failures: 8
 
 ## Top 10 General AI News
 1. [condense-json 1.0](https://simonwillison.net/2026/Aug/2/condense-json)
    - source: Simon Willison
-   - score: 54.649
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.878; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.288
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.816; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [datasette-apps 0.2a0](https://simonwillison.net/2026/Aug/1/datasette-apps)
    - source: Simon Willison
-   - score: 48.744
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.488; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.49; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-3. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
+   - score: 47.383
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.427; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.43; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+3. [Here’s why AI agents lie and cheat to reach their goals](https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals)
+   - source: MIT Technology Review AI
+   - score: 66.232
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning?](https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch)
+   - source: STAT Health Tech
+   - score: 56.231
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Heart transplant candidates fail if they get too weak. New program tries inpatient prehab](https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project)
+   - source: STAT Health Tech
+   - score: 56.231
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
    - source: Anthropic
    - score: 55.7
    - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-4. [Sam Altman and AI’s decel debate](https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate)
+7. [Sam Altman and AI’s decel debate](https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate)
    - source: TechCrunch AI
-   - score: 55.217
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Fender’s CEO seems to think your bandmates are just analog AI](https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music)
-   - source: The Verge AI
-   - score: 53.42
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.671; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.67; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+   - score: 54.309
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.863; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
-   - score: 53.033
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Embabel Agent Framework Reaches 1.0](https://www.infoq.com/news/2026/08/embabel-1)
+   - score: 52.367
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+9. [Fender’s CEO seems to think your bandmates are just analog AI](https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music)
+   - source: The Verge AI
+   - score: 50.698
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.547; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.55; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Embabel Agent Framework Reaches 1.0](https://www.infoq.com/news/2026/08/embabel-1)
    - source: InfoQ AI ML Data Engineering
-   - score: 51.819
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.955; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.96; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Vibe for code Coding agents in the terminal, IDE, and background.](https://mistral.ai/products/vibe/code)
-   - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Compute Frontier-scale infrastructure for training and inference.](https://mistral.ai/products/compute)
-   - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Anthropic Compute Partnership](https://x.ai/news/anthropic-compute-partnership)
-   - source: xAI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.097
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.832; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Multi Die Multiphysics Co Design](https://www.synopsys.com/blogs/chip-design/multi-die-multiphysics-co-design.html)
    - source: Synopsys
-   - score: 57.243
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.869; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.87; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.152
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.864; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.86; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Automatisierung Cae Berichterstattung](https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung)
    - source: Synera
    - score: 57.033
@@ -88,16 +88,16 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Healthcare Answering Service](https://elevenlabs.io/agents/healthcare-answering-service)
-   - source: ElevenLabs
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Healthcare](https://elevenlabs.io/agents/healthcare)
-   - source: ElevenLabs
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+1. [STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning?](https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch)
+   - source: STAT Health Tech
+   - score: 56.231
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Heart transplant candidates fail if they get too weak. New program tries inpatient prehab](https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project)
+   - source: STAT Health Tech
+   - score: 56.231
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
    - source: Databricks AI
    - score: 31.833
@@ -108,11 +108,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [U.Va. Health expands AI use across patient care, research and education - The Cavalier Daily](https://news.google.com/rss/articles/CBMitAFBVV95cUxQTnpvS3hxaG40dERnOHhvNjJ3eUNKNzVQeVdteldxc0lNSW9qdUszeVEwQzhkNGRQdVRycnlvOVJLRUFnZFFuRXNKQ0ZSajlYaWpTeFJyWVBDd2J6QWZqUmJFZUhYRExPTEtsRjk1dEZXU1FrQTRtcmY2WHpyU3RySi1WS3QyV19wQi1yTG9ld3A2cmJ0RDZ6VGNsM0Y0MFVxTm40dENkZFNqMnBlbl9BanJoWGo?oc=5)
-   - source: Google News Medical AI Discovery
-   - score: 36.469
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.876; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [Opinion: We lead the Federation of State Medical Boards. Here’s what we think about licensing AI to practice medicine](https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards)
+   - source: STAT Health Tech
+   - score: 56.231
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Eva](https://huggingface.co/blog/ServiceNow-AI/eva)
@@ -180,5 +180,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden

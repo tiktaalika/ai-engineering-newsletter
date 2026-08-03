@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-03T06:08:35.467609+00:00",
+    "generated_at": "2026-08-03T10:06:09.643723+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16746,
+    "fetched_count": 16780,
     "filtered_count": 2224,
-    "duplicate_count": 72,
+    "duplicate_count": 73,
     "failures": [
       {
         "source": "OpenAI Research RSS",
@@ -36,10 +36,6 @@
         "error": "HTTP Error 403: Forbidden"
       },
       {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
-      },
-      {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
       }
@@ -67,10 +63,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 54.649,
+      "score": 53.288,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -79,7 +75,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
+      "novelty_score": 0.816,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,10 +100,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 48.744,
+      "score": 47.383,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.49",
+        "novelty=0.43",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -116,7 +112,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.488,
+      "novelty_score": 0.427,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -126,6 +122,113 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "82e177f4c64b9c7f",
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-03T08:30:05+00:00",
+      "text": "Here’s why AI agents lie and cheat to reach their goals MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers…",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 66.232,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ffbcd3fafbd363f8",
+      "title": "STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning?",
+      "url": "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-03T08:30:00+00:00",
+      "text": "STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning? Educators want future physicians to be fluent in AI scribes, but they worry what off-loading clinical notes to AI could do to learning.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.231,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8f00ceada17f90d8",
+      "title": "Heart transplant candidates fail if they get too weak. New program tries inpatient prehab",
+      "url": "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-03T08:30:00+00:00",
+      "text": "Heart transplant candidates fail if they get too weak. New program tries inpatient prehab Patients often get weaker waiting in the hospital for heart transplant. A cardiologist had an idea: inpatient prehabilitation.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.231,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -179,10 +282,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.217,
+      "score": 54.309,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -191,7 +294,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -199,6 +302,43 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "e303ca6905c72349",
+      "title": "Claude Plays Robotics",
+      "url": "https://www.anthropic.com/research/claude-plays-robotics",
+      "source": "Anthropic",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Claude Plays Robotics https://www.anthropic.com/research/claude-plays-robotics",
+      "matched_terms": [
+        "Anthropic",
+        "robotics",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 52.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "safety",
+        "policy"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -215,10 +355,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 53.42,
+      "score": 50.698,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.55",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -227,51 +367,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.671,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "product"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "414ce4b52e368291",
-      "title": "Demystifying Evals For Ai Agents",
-      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Demystifying Evals For Ai Agents https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 53.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -289,10 +391,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 51.819,
+      "score": 49.097,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.96",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -301,7 +403,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
+      "novelty_score": 0.832,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -310,110 +412,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "8a1eddf7b92feb63",
-      "title": "Vibe for code Coding agents in the terminal, IDE, and background.",
-      "url": "https://mistral.ai/products/vibe/code",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Vibe for code Coding agents in the terminal, IDE, and background. https://mistral.ai/products/vibe/code/",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "25ee4c663561b7da",
-      "title": "Compute Frontier-scale infrastructure for training and inference.",
-      "url": "https://mistral.ai/products/compute",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Compute Frontier-scale infrastructure for training and inference. https://mistral.ai/products/compute/",
-      "matched_terms": [
-        "AI",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "04411cc504845dda",
-      "title": "Anthropic Compute Partnership",
-      "url": "https://x.ai/news/anthropic-compute-partnership",
-      "source": "xAI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Anthropic Compute Partnership https://x.ai/news/anthropic-compute-partnership",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
@@ -430,10 +428,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.243,
+      "score": 57.152,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -442,7 +440,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.869,
+      "novelty_score": 0.864,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -595,22 +593,22 @@
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "0ae00a5d9ab0ce46",
-      "title": "Healthcare Answering Service",
-      "url": "https://elevenlabs.io/agents/healthcare-answering-service",
-      "source": "ElevenLabs",
-      "source_kind": "sitemap_or_search",
+      "id": "ffbcd3fafbd363f8",
+      "title": "STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning?",
+      "url": "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": null,
-      "text": "Healthcare Answering Service https://elevenlabs.io/agents/healthcare-answering-service",
+      "published_at": "2026-08-03T08:30:00+00:00",
+      "text": "STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning? Educators want future physicians to be fluent in AI scribes, but they worry what off-loading clinical notes to AI could do to learning.",
       "matched_terms": [
-        "agent"
+        "AI"
       ],
       "engagement": {},
-      "score": 31.833,
+      "score": 56.231,
       "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
+        "source_priority=1.00",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -619,32 +617,33 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
       "source_tags": [
-        "audio_ai",
-        "voice"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
+      "registry_category": "general_ai",
+      "source_priority": "high"
     },
     {
-      "id": "9b6af8d7c074039b",
-      "title": "Healthcare",
-      "url": "https://elevenlabs.io/agents/healthcare",
-      "source": "ElevenLabs",
-      "source_kind": "sitemap_or_search",
+      "id": "8f00ceada17f90d8",
+      "title": "Heart transplant candidates fail if they get too weak. New program tries inpatient prehab",
+      "url": "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": null,
-      "text": "Healthcare https://elevenlabs.io/agents/healthcare",
+      "published_at": "2026-08-03T08:30:00+00:00",
+      "text": "Heart transplant candidates fail if they get too weak. New program tries inpatient prehab Patients often get weaker waiting in the hospital for heart transplant. A cardiologist had an idea: inpatient prehabilitation.",
       "matched_terms": [
-        "agent"
+        "AI"
       ],
       "engagement": {},
-      "score": 31.833,
+      "score": 56.231,
       "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
+        "source_priority=1.00",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -653,14 +652,15 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
       "source_tags": [
-        "audio_ai",
-        "voice"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
+      "registry_category": "general_ai",
+      "source_priority": "high"
     },
     {
       "id": "a801804f43c1065c",
@@ -733,39 +733,39 @@
       "source_priority": "medium"
     },
     {
-      "id": "cf4cf7ffabcea540",
-      "title": "U.Va. Health expands AI use across patient care, research and education - The Cavalier Daily",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTnpvS3hxaG40dERnOHhvNjJ3eUNKNzVQeVdteldxc0lNSW9qdUszeVEwQzhkNGRQdVRycnlvOVJLRUFnZFFuRXNKQ0ZSajlYaWpTeFJyWVBDd2J6QWZqUmJFZUhYRExPTEtsRjk1dEZXU1FrQTRtcmY2WHpyU3RySi1WS3QyV19wQi1yTG9ld3A2cmJ0RDZ6VGNsM0Y0MFVxTm40dENkZFNqMnBlbl9BanJoWGo?oc=5",
-      "source": "Google News Medical AI Discovery",
-      "source_kind": "google_news_rss",
+      "id": "7bf39835fb68b04e",
+      "title": "Opinion: We lead the Federation of State Medical Boards. Here’s what we think about licensing AI to practice medicine",
+      "url": "https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-03T02:10:13+00:00",
-      "text": "U.Va. Health expands AI use across patient care, research and education - The Cavalier Daily U.Va. Health expands AI use across patient care, research and education The Cavalier Daily",
+      "published_at": "2026-08-03T08:30:00+00:00",
+      "text": "Opinion: We lead the Federation of State Medical Boards. Here’s what we think about licensing AI to practice medicine The leaders of the Federation of State Medical Boards weigh in on the question of licensing AI to practice medicine.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 36.469,
+      "score": 56.231,
       "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.88",
+        "source_priority=1.00",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.876,
-      "source_priority_score": 0.35,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
         "healthcare_ai",
-        "discovery"
+        "biotech"
       ],
       "registry_category": "general_ai",
-      "source_priority": "low"
+      "source_priority": "high"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -782,10 +782,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.243,
+      "score": 57.152,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -794,7 +794,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.869,
+      "novelty_score": 0.864,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -1720,10 +1720,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.842,
+      "score": 80.751,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1733,7 +1733,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.856,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1759,7 +1759,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 75.933,
+      "score": 75.842,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -1771,7 +1771,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.755,
+      "novelty_score": 0.75,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1800,10 +1800,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 73.943,
+      "score": 72.582,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.53",
         "matched_terms=7",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -1812,7 +1812,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.596,
+      "novelty_score": 0.534,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1839,7 +1839,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 70.578,
+      "score": 70.487,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -1851,7 +1851,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.663,
+      "novelty_score": 0.659,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1874,10 +1874,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 68.836,
+      "score": 68.745,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1886,7 +1886,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.886,
+      "novelty_score": 0.882,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1981,7 +1981,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 66.57,
+      "score": 66.479,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -1993,7 +1993,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.359,
+      "novelty_score": 0.355,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2017,10 +2017,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 66.525,
+      "score": 66.435,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.50",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -2029,13 +2029,50 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.509,
+      "novelty_score": 0.505,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "82e177f4c64b9c7f",
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-03T08:30:05+00:00",
+      "text": "Here’s why AI agents lie and cheat to reach their goals MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers…",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 66.232,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2051,10 +2088,10 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 64.901,
+      "score": 64.81,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2063,7 +2100,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.708,
+      "novelty_score": 0.703,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2088,10 +2125,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.638,
+      "score": 63.249,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.62",
+        "novelty=0.60",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2100,7 +2137,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.62,
+      "novelty_score": 0.602,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2158,7 +2195,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.118,
+      "score": 62.027,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2170,7 +2207,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.581,
+      "novelty_score": 0.577,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2193,10 +2230,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.502,
+      "score": 60.411,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.50",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2205,7 +2242,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.508,
+      "novelty_score": 0.504,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2230,10 +2267,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.468,
+      "score": 60.377,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.50",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2242,7 +2279,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.506,
+      "novelty_score": 0.502,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2591,7 +2628,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.017,
+      "score": 59.926,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2603,7 +2640,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.995,
+      "novelty_score": 0.991,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2661,7 +2698,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.336,
+      "score": 58.246,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -2673,7 +2710,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.409,
+      "novelty_score": 0.405,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2717,45 +2754,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "8d6dcf3c90aa93c1",
-      "title": "July 2026 newsletter",
-      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-02T04:12:41+00:00",
-      "text": "July 2026 newsletter The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731 Open letters about Al development A fireside chat and a podcast Reigniting my interest in MCP Other model releases My projects What I'm using at the moment Here's a copy of the June newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
-      "matched_terms": [
-        "Anthropic",
-        "model release",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 57.753,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.59",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.595,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2833,42 +2831,6 @@
       "source_priority": "high"
     },
     {
-      "id": "18321dc95cc5a2f1",
-      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-      "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
-      "source": "Google Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-07-30T20:36:36+00:00",
-      "text": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence General Science",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.326,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.64",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.636,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
       "id": "ea54d0732e9027c6",
       "title": "Multi Die Multiphysics Co Design",
       "url": "https://www.synopsys.com/blogs/chip-design/multi-die-multiphysics-co-design.html",
@@ -2881,10 +2843,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 57.243,
+      "score": 57.152,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2893,7 +2855,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.869,
+      "novelty_score": 0.864,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -5319,6 +5281,41 @@
         "cloud_cae",
         "simulation",
         "physics_ai"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "68416d20bf0d7089",
+      "title": "Ai In Cae",
+      "url": "https://www.neuralconcept.com/post/ai-in-cae",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
