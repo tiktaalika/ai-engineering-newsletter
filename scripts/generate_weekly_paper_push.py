@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a Friday AI-for-engineering paper section from the public arXiv API."""
+"""Build a Friday AI-for-engineering paper section from the public arXiv API."""  # noqa: EXE001
 
 from __future__ import annotations
 
@@ -12,7 +12,6 @@ import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
-
 
 ROOT = Path(__file__).resolve().parents[1]
 DIGEST_DIR = ROOT / "data" / "digests"
@@ -58,18 +57,7 @@ def previous_urls(date_slug: str, lookback_days: int = 60) -> set[str]:
 
 
 def fetch_arxiv(max_results: int = 50) -> list[dict[str, Any]]:
-    query = " OR ".join(
-        [
-            'all:"physics informed"',
-            'all:"neural operator"',
-            'all:"surrogate model"',
-            'all:"computational fluid dynamics"',
-            'all:"finite element"',
-            'all:"topology optimization"',
-            'all:"digital twin"',
-            'all:"engineering design"',
-        ]
-    )
+    query = 'all:"physics informed" OR all:"neural operator" OR all:"surrogate model" OR all:"computational fluid dynamics" OR all:"finite element" OR all:"topology optimization" OR all:"digital twin" OR all:"engineering design"'
     params = urllib.parse.urlencode(
         {
             "search_query": query,

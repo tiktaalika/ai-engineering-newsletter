@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a deterministic daily markdown report from digest candidates."""
+"""Generate a deterministic daily markdown report from digest candidates."""  # noqa: EXE001
 
 from __future__ import annotations
 
@@ -8,7 +8,6 @@ import json
 from datetime import datetime
 from pathlib import Path
 from typing import Any
-
 
 ROOT = Path(__file__).resolve().parents[1]
 DIGEST_DIR = ROOT / "data" / "digests"

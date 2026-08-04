@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate cached Chinese news summaries for one published digest date."""
+"""Generate cached Chinese news summaries for one published digest date."""  # noqa: EXE001
 
 from __future__ import annotations
 
@@ -13,7 +13,6 @@ from typing import Any
 
 from dotenv import load_dotenv
 from openai import OpenAI
-
 
 ROOT = Path(__file__).resolve().parents[1]
 DIGEST_DIR = ROOT / "data" / "digests"
@@ -107,7 +106,7 @@ def is_same_event(left: dict[str, Any], right: dict[str, Any]) -> bool:
     union = left_tokens | right_tokens
     if len(intersection) >= 5 and len(intersection) / max(smaller, 1) >= 0.5:
         return True
-    if len(intersection) >= 4 and len(intersection) / max(len(union), 1) >= 0.42:
+    if len(intersection) >= 4 and len(intersection) / max(len(union), 1) >= 0.42:  # noqa: SIM103
         return True
     return False
 
@@ -128,7 +127,7 @@ def topic_key(item: dict[str, Any]) -> str:
         return "robotics_autonomy"
     if any(term in text for term in ("model", "claude", "chatgpt", "openai", "anthropic", "deepmind", "llm", "benchmark")):
         return "frontier_models"
-    if canonical_category(item.get("category", "")) == "engineering_ai":
+    if canonical_category(item.get("category", "")) == "engineering_ai":  # noqa: SIM102
         if any(term in text for term in ("cfd", "fea", "cae", "simulation", "surrogate", "digital twin", "neural operator")):
             return "cae_simulation"
     return "other"
