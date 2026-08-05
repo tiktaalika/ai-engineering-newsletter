@@ -42,31 +42,7 @@ def _parse_pub_date(raw_date: Any) -> datetime:
 
 
 @frozen
-class Candidate:
-    id: str
-    title: str
-    url: str
-    source: str
-    source_kind: str
-    category: str
-    published_at: str | None
-    text: str
-    matched_terms: list[str]
-    engagement: dict[str, float | int | None]
-    score: float
-    score_reasons: list[str]
-    general_ai_score: float = 0.0
-    engineering_relevance_score: float = 0.0
-    research_relevance_score: float = 0.0
-    novelty_score: float = 0.0
-    source_priority_score: float = 0.0
-    source_tags: list[str] = field(factory=list)
-    registry_category: str = ""
-    source_priority: str = "medium"
-
-
-@frozen
-class RawRecord:
+class RawRSSRecord:
     source_name: str
     title: str
     link: str
@@ -75,7 +51,7 @@ class RawRecord:
     engagement: dict[str, float | int | None] = field(factory=dict)
 
 
-def fetch_rss_record(source: Source, client: httpx.Client) -> list[RawRecord]:
+def fetch_rss_record(source: Source, client: httpx.Client) -> list[RawRSSRecord]:
     """Fetch and parse rss fetched records."""
     assert source.fetch_type == "rss"
 
@@ -83,7 +59,7 @@ def fetch_rss_record(source: Source, client: httpx.Client) -> list[RawRecord]:
     response.raise_for_status()
 
     feed = parse_rss(response.content)
-    records: list[RawRecord] = []
+    records: list[RawRSSRecord] = []
 
     channel = getattr(feed, "channel", None)
     items = getattr(channel, "items", []) or [] if channel else []
@@ -133,7 +109,7 @@ def fetch_rss_record(source: Source, client: httpx.Client) -> list[RawRecord]:
         pub_date = _parse_pub_date(raw_date)
 
         records.append(
-            RawRecord(
+            RawRSSRecord(
                 source_name=source.name,
                 title=title,
                 link=link,
@@ -143,6 +119,38 @@ def fetch_rss_record(source: Source, client: httpx.Client) -> list[RawRecord]:
         )
 
     return records
+
+
+def rss_record_to_canidate(source: Source, record: RawRSSRecord) -> Candidate:
+    """Convert RSS record to candiate"""
+    return Candidate(
+        title=record.title,
+        description=record.description,
+        pub_date=record.pub_date,
+        url=record.link,
+        source=source,
+    )
+
+
+@frozen
+class Candidate:
+    title: str
+    description: str
+    url: str
+    pub_date: datetime
+    source: Source
+
+
+def fetch_sources(request_client: httpx.Client, config: Configuration):
+    all_candidates: list[Candidate] = []
+    for src in config.sources:
+        if src.fetch_type == "rss":
+            records = fetch_rss_record(src, request_client)
+            all_candidates.extend(
+                [rss_record_to_canidate(src, record) for record in records]
+            )
+
+    return all_candidates
 
 
 def main() -> int:
@@ -164,13 +172,8 @@ def main() -> int:
         follow_redirects=True,
     )
 
-    all_records: list[RawRecord] = []
-    for src in config.sources:
-        if src.fetch_type == "rss":
-            records = fetch_rss_record(src, request_client)
-            all_records.extend(records)
+    fetch_sources(request_client, config)
 
-    logger.info("Fetched %d total RSS records", len(all_records))
     return 0
 
 
