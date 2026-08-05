@@ -23,6 +23,14 @@ community = 48
 # tags = []
 
 [[sources]]
+name = "Quesma Blog"
+scrape_url = "https://quesma.com/rss.xml"
+priority = "medium"
+fetch_type = "rss"
+category = "general_ai"
+tags = ["technology", "llm"]
+
+[[sources]]
 name = "Reuters Technology"
 scrape_url = "https://www.reuters.com/technology/"
 priority = "high"
