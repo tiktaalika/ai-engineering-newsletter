@@ -3,78 +3,78 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16320
-- filtered_count: 2286
-- duplicate_count: 76
+- fetched_count: 16815
+- filtered_count: 2284
+- duplicate_count: 75
 - failures: 8
 
 ## Top 10 General AI News
 1. [Third-party cyber evaluations involving OpenAI models](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models)
    - source: OpenAI
-   - score: 57.434
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.853; source_priority=1.0
+   - score: 57.361
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.85; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [llm 0.32](https://simonwillison.net/2026/Aug/4/llm)
    - source: Simon Willison
-   - score: 55.22
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.752; source_priority=1.0
+   - score: 55.11
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.747; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [[AINews] Megakernels are so dead and so back](https://www.latent.space/p/ainews-megakernels-are-so-dead-and)
    - source: Latent Space
-   - score: 54.672
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.879; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.563
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.874; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Deploy local agents everywhere with LFM2.5-2.6B](https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b)
    - source: Hugging Face
-   - score: 50.757
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.701; source_priority=1.0
+   - score: 50.648
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.696; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.70; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [PipeNetwork/minimax-h3-mlx](https://simonwillison.net/2026/Aug/4/minimax-h3-mlx)
    - source: Simon Willison
-   - score: 52.543
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.782; source_priority=1.0
+   - score: 52.434
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.777; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Unpacking ChatGPT Work: the Agent for a Billion Users](https://www.latent.space/p/unpacking-chatgpt-work)
    - source: Latent Space
-   - score: 52.257
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.769; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [OpenAI and Anthropic models ‘went rogue’ during UK cybersecurity test](https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute)
-   - source: The Guardian Technology
-   - score: 67.041
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.987; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress](https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress)
-   - source: TechCrunch AI
-   - score: 64.211
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.858; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [OpenAI pays $3.2m to settle claims it discriminated against US workers](https://www.theguardian.com/us-news/2026/aug/04/openai-worker-discrimination-claims-settlement)
-   - source: The Guardian Technology
-   - score: 61.619
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.74; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.74; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [AI used new levels of 'autonomy and deception' to trick people in safety test](https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss)
+   - score: 52.148
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.764; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Anthropic AI created fake profiles and impersonated people in attempted hack](https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 61.1
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.717; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.72; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 67.321
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.999; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [OpenAI and Anthropic models ‘went rogue’ during UK cybersecurity test](https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute)
+   - source: The Guardian Technology
+   - score: 66.822
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.977; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress](https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress)
+   - source: TechCrunch AI
+   - score: 64.138
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.855; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [OpenAI pays $3.2m to settle claims it discriminated against US workers](https://www.theguardian.com/us-news/2026/aug/04/openai-worker-discrimination-claims-settlement)
+   - source: The Guardian Technology
+   - score: 61.4
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.73; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging](https://simonwillison.net/2026/Aug/4/new-release-of-llm)
    - source: Simon Willison
-   - score: 79.694
-   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.857; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=7; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+   - score: 79.585
+   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.852; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=7; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
 2. [What’s new in Simcenter PhysicsAI 2026.1?](https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-physicsai-2026-1)
    - source: Siemens Simcenter
-   - score: 67.668
+   - score: 67.661
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.833; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [2026 08 04 Synopsys Expands Global Collaboration With Murata To Accelerate Simulation Driven Innovation](https://www.synopsys.com/ja-jp/japan/press-releases/2026-08-04-synopsys-expands-global-collaboration-with-murata-to-accelerate-simulation-driven-innovation.html)
    - source: Synopsys
-   - score: 59.023
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.95; source_priority=0.65
+   - score: 59.016
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.949; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.95; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Cae Automation Design Smarter Develop Faster](https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster)
    - source: Synera
@@ -90,24 +90,24 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Exemption of rare disease therapies in drug-pricing pilots would wipe out huge savings, analysis finds](https://www.statnews.com/2026/08/05/cms-drug-pricing-pilot-programs-rare-disease-drugs)
    - source: STAT Health Tech
-   - score: 59.584
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.981; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 59.366
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.971; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Opinion: Tear down the wall between M.D. and D.O. education](https://www.statnews.com/2026/08/05/md-vs-do-medical-education-merge)
    - source: STAT Health Tech
-   - score: 56.917
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.981; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.699
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.971; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Opinion: Something is missing from movies about medical aid in dying](https://www.statnews.com/2026/08/05/new-york-medical-aid-dying-assisted-suicide-room-next-door-movies)
    - source: STAT Health Tech
-   - score: 56.917
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.981; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.699
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.971; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Phylo Chugai Ai Platform Drug Discovery](https://www.pharmaceutical-technology.com/news/phylo-chugai-ai-platform-drug-discovery)
    - source: Pharmaceutical Technology
-   - score: 46.009
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.994; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.791
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.984; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Pathos Ai Agent Agentic Cancer Alphamab Trop2 Her3 Bispecific Adc Astrazeneca Azn](https://medcitynews.com/2026/08/pathos-ai-agent-agentic-cancer-alphamab-trop2-her3-bispecific-adc-astrazeneca-azn)
    - source: MedCity News
    - score: 38.5
