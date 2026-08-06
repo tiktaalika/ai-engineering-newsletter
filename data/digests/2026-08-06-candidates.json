@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-06T06:08:35.941592+00:00",
+    "generated_at": "2026-08-06T09:06:49.998238+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16814,
-    "filtered_count": 2288,
-    "duplicate_count": 73,
+    "fetched_count": 16829,
+    "filtered_count": 2286,
+    "duplicate_count": 75,
     "failures": [
       {
         "source": "OpenAI Research RSS",
@@ -34,10 +34,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -71,10 +67,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.728,
+      "score": 72.707,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -83,7 +79,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.897,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -114,10 +110,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.414,
+      "score": 69.393,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.79",
         "matched_terms=7",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -126,7 +122,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.837,
+      "novelty_score": 0.791,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -151,10 +147,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.792,
+      "score": 55.771,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -163,7 +159,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.975,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -172,6 +168,44 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "6716d33c74e96fb5",
+      "title": "Anthropic is hiring an AI chip design team",
+      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-05T14:13:18+00:00",
+      "text": "Anthropic is hiring an AI chip design team Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "AI chip",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 63.004,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.803,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -192,10 +226,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 63.76,
+      "score": 61.718,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.44",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -204,51 +238,13 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.535,
+      "novelty_score": 0.442,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "product"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6716d33c74e96fb5",
-      "title": "Anthropic is hiring an AI chip design team",
-      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T14:13:18+00:00",
-      "text": "Anthropic is hiring an AI chip design team Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "AI chip",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 63.685,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.834,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -266,10 +262,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.987,
+      "score": 61.306,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.88",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -278,7 +274,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -303,10 +299,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.252,
+      "score": 60.571,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -315,7 +311,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -340,10 +336,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.226,
+      "score": 60.546,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -352,7 +348,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.843,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -363,66 +359,31 @@
       "source_priority": "high"
     },
     {
-      "id": "625969e55938abed",
-      "title": "How China’s A.I. Is Surging Across Africa",
-      "url": "https://www.nytimes.com/2026/08/05/technology/ai-china-africa.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T20:41:16+00:00",
-      "text": "How China’s A.I. Is Surging Across Africa In African tech hubs, developers are picking China’s cheap, freely available artificial intelligence models over more powerful U.S. ones.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 54.166,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.70",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.705,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "4a194bbd4daf8d54",
-      "title": "STAT+: Federal regulators invite industry, researchers, and lobbyists to closed-door meetings on clinical AI",
-      "url": "https://www.statnews.com/2026/08/05/federal-regulators-invite-industry-closed-door-meetings-clinical-ai",
+      "id": "28c6efafbabfe918",
+      "title": "Opinion: Stop asking if AI is good for medicine",
+      "url": "https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-05T20:05:08+00:00",
-      "text": "STAT+: Federal regulators invite industry, researchers, and lobbyists to closed-door meetings on clinical AI Federal health officials invited tech companies and lobbyists to closed-door meetings as they seek to boost adoption of clinical AI.",
+      "published_at": "2026-08-06T08:30:00+00:00",
+      "text": "Opinion: Stop asking if AI is good for medicine Overgeneralizations about AI can slow down the adoption of tools that work.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 53.085,
+      "score": 56.911,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.686,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -431,48 +392,47 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "42516bb950518fef",
+      "title": "Effective Context Engineering For Ai Agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "source": "Anthropic",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Effective Context Engineering For Ai Agents https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 53.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "safety",
+        "policy"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
-    {
-      "id": "f06a2fedf8b134ba",
-      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
-      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-05T18:00:03+00:00",
-      "text": "IEEE Course Teaches How to Use AI to Modernize Power Grids Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to the U.S. Department of Energy . Built decades ago for a more predictable world in which power came mostly from centralized coal or gas plants and electricity use grew at a steady pace, the grid faces unanticipated strain due in part to growing demand from data centers. The jobs of professionals managing the infrastructure have evolved from traditional engineering tasks to complex, fast-moving challenges. Industry reports show that millions of modern digital sensors, smart meters, and grid monitors are generating nonstop waves of information. The sheer volume of data requires instant, automated computer analysis because human operators cannot process it fast enough. Pressure on utilities stems from two sources: a spike in electricity demand and a shift in how power is generated. An example of the operational strain can be seen at the regional level. W",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "large language model",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 75.485,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.62",
-        "matched_terms=5",
-        "engineering_relevance=0.75",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.75,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.621,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
     {
       "id": "37508ebad403bb8e",
       "title": "Third-party cyber evaluations involving OpenAI models",
@@ -491,10 +451,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.305,
+      "score": 74.284,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -503,7 +463,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.9,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -516,22 +476,61 @@
       "source_priority": "high"
     },
     {
-      "id": "9c21f3501190f36e",
-      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
-      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
-      "source": "TechCrunch AI",
+      "id": "f06a2fedf8b134ba",
+      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+      "source": "IEEE Spectrum AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-05T15:05:00+00:00",
-      "text": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "published_at": "2026-08-05T18:00:03+00:00",
+      "text": "IEEE Course Teaches How to Use AI to Modernize Power Grids Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to the U.S. Department of Energy . Built decades ago for a more predictable world in which power came mostly from centralized coal or gas plants and electricity use grew at a steady pace, the grid faces unanticipated strain due in part to growing demand from data centers. The jobs of professionals managing the infrastructure have evolved from traditional engineering tasks to complex, fast-moving challenges. Industry reports show that millions of modern digital sensors, smart meters, and grid monitors are generating nonstop waves of information. The sheer volume of data requires instant, automated computer analysis because human operators cannot process it fast enough. Pressure on utilities stems from two sources: a spike in electricity demand and a shift in how power is generated. An example of the operational strain can be seen at the regional level. W",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "large language model",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 73.443,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.53",
+        "matched_terms=5",
+        "engineering_relevance=0.75",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.75,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.528,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "1a1e1086d82181fa",
+      "title": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine",
+      "url": "https://www.theguardian.com/games/2026/aug/06/metroid-at-40-samus-aran-nintendo-video-game-heroine",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-06T07:00:41+00:00",
+      "text": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine Being a woman who loves video games has often felt lonely, like being on a hostile planet – but Metroid’s female space hunter has been with me all the way It’s 1986, and you’re playing a brand-new game. (You’re in Japan in this scenario, by the way; the game in question, Metroid, won’t come to North America and Europe until later.) Anyway, this new game has you in its grip. You are a lone astronaut exploring a hostile alien planet full of ancient, mysterious structures. This astronaut looks human enough – but this distinctly alien place is full of objects that power up their spacesuit’s capabilities. Each new ability allows you to explore a new area, and as you do, you realise that the entirety of the planetary base you’re exploring is one, massive, interconnected maze. Whoa. Hours later, you finally defeat Mother Brain and set off a timed self-destruct sequence. Upon your escape, you’re treated to an endgame screen: the little astronaut faces you as text on screen implores you to “pray for peace in space”. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.382,
+      "score": 59.388,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -540,14 +539,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.934,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -586,42 +584,112 @@
       "source_priority": "high"
     },
     {
-      "id": "d81bcddc92bdb6a2",
-      "title": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion",
-      "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
-      "source": "The Guardian Technology",
+      "id": "9c21f3501190f36e",
+      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-05T14:13:33+00:00",
-      "text": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion 'Most people don’t want pervert glasses that can film us without our consent,' said a spokesperson from activist group Everyone Hates Elon. The group has launched a series of guerilla adverts deriding non-consensual filming by the glasses as well as an email campaign encouraging people to legally object to being filmed by Meta glasses under general data protection regulations, which over 20,000 people have signed. Rights groups have warned that the glasses threaten the right to privacy, while countries such as Germany are reportedly considering a ban. And while Meta’s safety guidelines say smart glasses should not be used for 'harassment, infringing on privacy rights, or capturing sensitive information', women have taken to social media to share their stories of being filmed by men without their consent. Watch as Guardian columnist and Opinion editor Kirsty Major dives into why fears of surveillance and 'creepy men' mean Meta can never convince her to love the glasses – and read more about the glasses via the link in the bio Continue reading...",
+      "published_at": "2026-08-05T15:05:00+00:00",
+      "text": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
       "matched_terms": [
-        "AI",
-        "RAG"
+        "AI"
       ],
       "engagement": {},
-      "score": 53.223,
+      "score": 56.701,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=2",
+        "novelty=0.81",
+        "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.503,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
   "top_5_medical_bio_ai": [
+    {
+      "id": "20f788a394aa0931",
+      "title": "Opinion: What my colleagues and I will look for as we assess U.S. measles elimination status",
+      "url": "https://www.statnews.com/2026/08/06/measles-elimination-status-2026-paho",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-06T08:30:00+00:00",
+      "text": "Opinion: What my colleagues and I will look for as we assess U.S. measles elimination status Noel T. Brewer and colleagues will soon decide whether the U.S. has maintained its elimination status. Here’s what they’re looking at.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.911,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "28c6efafbabfe918",
+      "title": "Opinion: Stop asking if AI is good for medicine",
+      "url": "https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-06T08:30:00+00:00",
+      "text": "Opinion: Stop asking if AI is good for medicine Overgeneralizations about AI can slow down the adoption of tools that work.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.911,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
     {
       "id": "4a194bbd4daf8d54",
       "title": "STAT+: Federal regulators invite industry, researchers, and lobbyists to closed-door meetings on clinical AI",
@@ -635,10 +703,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.085,
+      "score": 51.043,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.59",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -647,7 +715,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.686,
+      "novelty_score": 0.593,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -656,40 +724,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "0ae00a5d9ab0ce46",
-      "title": "Healthcare Answering Service",
-      "url": "https://elevenlabs.io/agents/healthcare-answering-service",
-      "source": "ElevenLabs",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Healthcare Answering Service https://elevenlabs.io/agents/healthcare-answering-service",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "audio_ai",
-        "voice"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
     },
     {
       "id": "a801804f43c1065c",
@@ -726,58 +760,22 @@
       "source_priority": "medium"
     },
     {
-      "id": "179274be1a62546c",
-      "title": "Artificial Intelligence,",
-      "url": "https://medcitynews.com/category/channel/artificial-intelligence",
-      "source": "MedCity News",
+      "id": "0cf55ef7e8966cb2",
+      "title": "Schrodinger Bms Ai Drug Discovery",
+      "url": "https://www.pharmaceutical-technology.com/news/schrodinger-bms-ai-drug-discovery",
+      "source": "Pharmaceutical Technology",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": null,
-      "text": "Artificial Intelligence, https://medcitynews.com/category/channel/artificial-intelligence/",
-      "matched_terms": [
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech",
-        "digital_health"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "aaab7517721a0776",
-      "title": "The Governance Gap in Clinical AI - The Regulatory Review",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWHJxc0wtdWFOVDRrb1VtVkFISTNqazcyNEowVExGanBQbDlqTGViY1N0WDRscWpvZ3J4ellhTGY1a3dBTURsMjlWejZqenNOUG1lSXgtMW1aM2xVblRub2E3Szc3UnpJUUtiLWpscUM4T2lydHc2WHIyZjNjYmI0V1VBRDFLM2tG?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-08-06T04:10:03+00:00",
-      "text": "The Governance Gap in Clinical AI - The Regulatory Review The Governance Gap in Clinical AI The Regulatory Review",
+      "published_at": "2026-08-06T09:01:51+00:00",
+      "text": "Schrodinger Bms Ai Drug Discovery https://www.pharmaceutical-technology.com/news/schrodinger-bms-ai-drug-discovery/",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 35.175,
+      "score": 46.076,
       "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.94",
+        "source_priority=0.65",
+        "novelty=1.00",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -786,56 +784,19 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.938,
-      "source_priority_score": 0.35,
+      "novelty_score": 0.997,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "discovery",
-        "news"
+        "bio_ai",
+        "pharma",
+        "drug_discovery",
+        "biotech"
       ],
       "registry_category": "general_ai",
-      "source_priority": "low"
+      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
-    {
-      "id": "f06a2fedf8b134ba",
-      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
-      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-05T18:00:03+00:00",
-      "text": "IEEE Course Teaches How to Use AI to Modernize Power Grids Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to the U.S. Department of Energy . Built decades ago for a more predictable world in which power came mostly from centralized coal or gas plants and electricity use grew at a steady pace, the grid faces unanticipated strain due in part to growing demand from data centers. The jobs of professionals managing the infrastructure have evolved from traditional engineering tasks to complex, fast-moving challenges. Industry reports show that millions of modern digital sensors, smart meters, and grid monitors are generating nonstop waves of information. The sheer volume of data requires instant, automated computer analysis because human operators cannot process it fast enough. Pressure on utilities stems from two sources: a spike in electricity demand and a shift in how power is generated. An example of the operational strain can be seen at the regional level. W",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "large language model",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 75.485,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.62",
-        "matched_terms=5",
-        "engineering_relevance=0.75",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.75,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.621,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
     {
       "id": "37508ebad403bb8e",
       "title": "Third-party cyber evaluations involving OpenAI models",
@@ -854,10 +815,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.305,
+      "score": 74.284,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -866,7 +827,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.9,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -879,22 +840,61 @@
       "source_priority": "high"
     },
     {
-      "id": "9c21f3501190f36e",
-      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
-      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
-      "source": "TechCrunch AI",
+      "id": "f06a2fedf8b134ba",
+      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+      "source": "IEEE Spectrum AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-05T15:05:00+00:00",
-      "text": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "published_at": "2026-08-05T18:00:03+00:00",
+      "text": "IEEE Course Teaches How to Use AI to Modernize Power Grids Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to the U.S. Department of Energy . Built decades ago for a more predictable world in which power came mostly from centralized coal or gas plants and electricity use grew at a steady pace, the grid faces unanticipated strain due in part to growing demand from data centers. The jobs of professionals managing the infrastructure have evolved from traditional engineering tasks to complex, fast-moving challenges. Industry reports show that millions of modern digital sensors, smart meters, and grid monitors are generating nonstop waves of information. The sheer volume of data requires instant, automated computer analysis because human operators cannot process it fast enough. Pressure on utilities stems from two sources: a spike in electricity demand and a shift in how power is generated. An example of the operational strain can be seen at the regional level. W",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "large language model",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 73.443,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.53",
+        "matched_terms=5",
+        "engineering_relevance=0.75",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.75,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.528,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "1a1e1086d82181fa",
+      "title": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine",
+      "url": "https://www.theguardian.com/games/2026/aug/06/metroid-at-40-samus-aran-nintendo-video-game-heroine",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-06T07:00:41+00:00",
+      "text": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine Being a woman who loves video games has often felt lonely, like being on a hostile planet – but Metroid’s female space hunter has been with me all the way It’s 1986, and you’re playing a brand-new game. (You’re in Japan in this scenario, by the way; the game in question, Metroid, won’t come to North America and Europe until later.) Anyway, this new game has you in its grip. You are a lone astronaut exploring a hostile alien planet full of ancient, mysterious structures. This astronaut looks human enough – but this distinctly alien place is full of objects that power up their spacesuit’s capabilities. Each new ability allows you to explore a new area, and as you do, you realise that the entirety of the planetary base you’re exploring is one, massive, interconnected maze. Whoa. Hours later, you finally defeat Mother Brain and set off a timed self-destruct sequence. Upon your escape, you’re treated to an endgame screen: the little astronaut faces you as text on screen implores you to “pray for peace in space”. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.382,
+      "score": 59.388,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -903,14 +903,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.934,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -949,38 +948,38 @@
       "source_priority": "high"
     },
     {
-      "id": "d81bcddc92bdb6a2",
-      "title": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion",
-      "url": "https://www.theguardian.com/technology/video/2026/aug/05/meta-pervert-glasses-opinion-video",
-      "source": "The Guardian Technology",
+      "id": "9c21f3501190f36e",
+      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-05T14:13:33+00:00",
-      "text": "Why I'll never be convinced by Meta's ‘pervert’ glasses | Opinion 'Most people don’t want pervert glasses that can film us without our consent,' said a spokesperson from activist group Everyone Hates Elon. The group has launched a series of guerilla adverts deriding non-consensual filming by the glasses as well as an email campaign encouraging people to legally object to being filmed by Meta glasses under general data protection regulations, which over 20,000 people have signed. Rights groups have warned that the glasses threaten the right to privacy, while countries such as Germany are reportedly considering a ban. And while Meta’s safety guidelines say smart glasses should not be used for 'harassment, infringing on privacy rights, or capturing sensitive information', women have taken to social media to share their stories of being filmed by men without their consent. Watch as Guardian columnist and Opinion editor Kirsty Major dives into why fears of surveillance and 'creepy men' mean Meta can never convince her to love the glasses – and read more about the glasses via the link in the bio Continue reading...",
+      "published_at": "2026-08-05T15:05:00+00:00",
+      "text": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
       "matched_terms": [
-        "AI",
-        "RAG"
+        "AI"
       ],
       "engagement": {},
-      "score": 53.223,
+      "score": 56.701,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=2",
+        "novelty=0.81",
+        "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.503,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
@@ -1759,7 +1758,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.192,
+      "score": 79.124,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1772,7 +1771,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.781,
+      "novelty_score": 0.778,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1780,45 +1779,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f06a2fedf8b134ba",
-      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
-      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-05T18:00:03+00:00",
-      "text": "IEEE Course Teaches How to Use AI to Modernize Power Grids Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to the U.S. Department of Energy . Built decades ago for a more predictable world in which power came mostly from centralized coal or gas plants and electricity use grew at a steady pace, the grid faces unanticipated strain due in part to growing demand from data centers. The jobs of professionals managing the infrastructure have evolved from traditional engineering tasks to complex, fast-moving challenges. Industry reports show that millions of modern digital sensors, smart meters, and grid monitors are generating nonstop waves of information. The sheer volume of data requires instant, automated computer analysis because human operators cannot process it fast enough. Pressure on utilities stems from two sources: a spike in electricity demand and a shift in how power is generated. An example of the operational strain can be seen at the regional level. W",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "generative AI",
-        "large language model",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 75.485,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.62",
-        "matched_terms=5",
-        "engineering_relevance=0.75",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.75,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.621,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1839,10 +1799,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 75.305,
+      "score": 74.284,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -1851,7 +1811,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.9,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1879,7 +1839,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 74.283,
+      "score": 74.215,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1891,7 +1851,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.68,
+      "novelty_score": 0.676,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1899,6 +1859,45 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f06a2fedf8b134ba",
+      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-05T18:00:03+00:00",
+      "text": "IEEE Course Teaches How to Use AI to Modernize Power Grids Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to the U.S. Department of Energy . Built decades ago for a more predictable world in which power came mostly from centralized coal or gas plants and electricity use grew at a steady pace, the grid faces unanticipated strain due in part to growing demand from data centers. The jobs of professionals managing the infrastructure have evolved from traditional engineering tasks to complex, fast-moving challenges. Industry reports show that millions of modern digital sensors, smart meters, and grid monitors are generating nonstop waves of information. The sheer volume of data requires instant, automated computer analysis because human operators cannot process it fast enough. Pressure on utilities stems from two sources: a spike in electricity demand and a shift in how power is generated. An example of the operational strain can be seen at the regional level. W",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "large language model",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 73.443,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.53",
+        "matched_terms=5",
+        "engineering_relevance=0.75",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.75,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.528,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1918,10 +1917,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.728,
+      "score": 72.707,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -1930,7 +1929,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.897,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1961,10 +1960,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.414,
+      "score": 69.393,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.79",
         "matched_terms=7",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1973,7 +1972,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.837,
+      "novelty_score": 0.791,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1983,6 +1982,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "88cce48c228ad936",
+      "title": "Enhancing pharmaceutical process design with simulation",
+      "url": "https://blogs.sw.siemens.com/simcenter/enhance-pharmaceutical-process-design",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-20T18:16:13+00:00",
+      "text": "Enhancing pharmaceutical process design with simulation How digitalization is transforming pharmaceutical scale-up from lab to production This blog explains how pharmaceutical companies use simulation and Executable Digital Twins (xDT) to accelerate…",
+      "matched_terms": [
+        "simulation",
+        "ROM",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 68.86,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.58",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.585,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2002,10 +2038,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 69.694,
+      "score": 67.651,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.34",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -2014,7 +2050,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.433,
+      "novelty_score": 0.34,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -2022,83 +2058,6 @@
         "ai"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "88cce48c228ad936",
-      "title": "Enhancing pharmaceutical process design with simulation",
-      "url": "https://blogs.sw.siemens.com/simcenter/enhance-pharmaceutical-process-design",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-20T18:16:13+00:00",
-      "text": "Enhancing pharmaceutical process design with simulation How digitalization is transforming pharmaceutical scale-up from lab to production This blog explains how pharmaceutical companies use simulation and Executable Digital Twins (xDT) to accelerate…",
-      "matched_terms": [
-        "simulation",
-        "ROM",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 68.928,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.59",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.588,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "3915e36219382874",
-      "title": "Introducing Muse Code and Muse Spark 1.2",
-      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T23:58:35+00:00",
-      "text": "Introducing Muse Code and Muse Spark 1.2 Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...] We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. [...] Muse Spark 1.2 was extensively trained on long-horizon coding tasks, including whole-repository generation, large end-to-end projects, and auto-research. Here's a pelican riding a bicycle",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "training compute"
-      ],
-      "engagement": {},
-      "score": 67.88,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.904,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2114,7 +2073,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 67.186,
+      "score": 67.118,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2126,7 +2085,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.808,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2207,6 +2166,46 @@
       "source_priority": "high"
     },
     {
+      "id": "3915e36219382874",
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-05T23:58:35+00:00",
+      "text": "Introducing Muse Code and Muse Spark 1.2 Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...] We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. [...] Muse Spark 1.2 was extensively trained on long-horizon coding tasks, including whole-repository generation, large end-to-end projects, and auto-research. Here's a pelican riding a bicycle",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "training compute"
+      ],
+      "engagement": {},
+      "score": 66.859,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.857,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "d968a40ec6425f60",
       "title": "Orchard: An open framework for scalable agentic AI",
       "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai",
@@ -2221,10 +2220,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 65.897,
+      "score": 65.605,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.71",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2233,7 +2232,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.723,
+      "novelty_score": 0.709,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2241,46 +2240,6 @@
         "ai"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "edff7c03fe4a0c42",
-      "title": "An AI model from Meta also hacked another company during testing",
-      "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-06T00:25:27+00:00",
-      "text": "An AI model from Meta also hacked another company during testing An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic. “A misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,” the Meta spokesperson said. Meta’s Muse Spark model “exploited a security vulnerability” in another company “in a manner similar to previously-reported instances with other companies.” The Information had the scoop , I'm linking to CNN's re-report of it since they don't have a paywall. So that's Anthropic, OpenAI, and Meta. Google Gemini really needs to catch up on accidentally cyberattacking other companies. Tags: security , ai , generative-ai , llms , meta , accidental-cyberattacks",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 65.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2298,7 +2257,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 64.92,
+      "score": 64.852,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -2310,7 +2269,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.284,
+      "novelty_score": 0.281,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2334,7 +2293,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 64.875,
+      "score": 64.807,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -2346,7 +2305,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.434,
+      "novelty_score": 0.431,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2356,42 +2315,78 @@
       "source_priority": "high"
     },
     {
-      "id": "6cc6646c30716f76",
-      "title": "Rogue AI agents created fake online identities in another hacking attempt",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-      "source": "The Verge AI",
+      "id": "edff7c03fe4a0c42",
+      "title": "An AI model from Meta also hacked another company during testing",
+      "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-05T15:14:57+00:00",
-      "text": "Rogue AI agents created fake online identities in another hacking attempt Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security […]",
+      "published_at": "2026-08-06T00:25:27+00:00",
+      "text": "An AI model from Meta also hacked another company during testing An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic. “A misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,” the Meta spokesperson said. Meta’s Muse Spark model “exploited a security vulnerability” in another company “in a manner similar to previously-reported instances with other companies.” The Information had the scoop , I'm linking to CNN's re-report of it since they don't have a paywall. So that's Anthropic, OpenAI, and Meta. Google Gemini really needs to catch up on accidentally cyberattacking other companies. Tags: security , ai , generative-ai , llms , meta , accidental-cyberattacks",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent",
+        "LLM",
         "OpenAI",
-        "Anthropic",
-        "AI safety"
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 63.76,
+      "score": 64.346,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=6",
+        "novelty=0.86",
+        "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
+      "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.535,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "c98636a5d381bfcc",
+      "title": "What’s new in Simcenter 3D 2606",
+      "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-3d-2606",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-22T13:26:31+00:00",
+      "text": "What’s new in Simcenter 3D 2606 Discover what’s new in the Simcenter Mechanical 2512 release, featuring faster NVH analysis, design exploration, and streamlined engineering workflows. Read this blog to see what’s new in Simcenter 3D, Simcenter Femap, Simcenter Nastran and more.",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 63.183,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.63",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.63,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2410,10 +2405,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 63.685,
+      "score": 63.004,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2422,7 +2417,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.834,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2430,41 +2425,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "c98636a5d381bfcc",
-      "title": "What’s new in Simcenter 3D 2606",
-      "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-3d-2606",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-22T13:26:31+00:00",
-      "text": "What’s new in Simcenter 3D 2606 Discover what’s new in the Simcenter Mechanical 2512 release, featuring faster NVH analysis, design exploration, and streamlined engineering workflows. Read this blog to see what’s new in Simcenter 3D, Simcenter Femap, Simcenter Nastran and more.",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 63.251,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.633,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2503,6 +2463,45 @@
       "source_priority": "high"
     },
     {
+      "id": "6cc6646c30716f76",
+      "title": "Rogue AI agents created fake online identities in another hacking attempt",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-05T15:14:57+00:00",
+      "text": "Rogue AI agents created fake online identities in another hacking attempt Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security […]",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI",
+        "Anthropic",
+        "AI safety"
+      ],
+      "engagement": {},
+      "score": 61.718,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.44",
+        "matched_terms=6",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.442,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "48c7edfbf2c071d6",
       "title": "Meta launches Muse Code, an AI agent for large code bases",
       "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
@@ -2517,10 +2516,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.987,
+      "score": 61.306,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.88",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2529,7 +2528,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2554,10 +2553,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.695,
+      "score": 61.014,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2566,7 +2565,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2591,10 +2590,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.252,
+      "score": 60.571,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2603,7 +2602,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2628,10 +2627,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.226,
+      "score": 60.546,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2640,7 +2639,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.843,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2665,10 +2664,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.221,
+      "score": 60.54,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2677,7 +2676,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.843,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2700,10 +2699,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.468,
+      "score": 60.4,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.50",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2712,7 +2711,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.506,
+      "novelty_score": 0.503,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3096,7 +3095,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.516,
+      "score": 59.448,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -3108,7 +3107,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.972,
+      "novelty_score": 0.969,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3119,81 +3118,37 @@
       "source_priority": "medium"
     },
     {
-      "id": "30e8185e86cb5876",
-      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress",
-      "source": "TechCrunch AI",
+      "id": "1a1e1086d82181fa",
+      "title": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine",
+      "url": "https://www.theguardian.com/games/2026/aug/06/metroid-at-40-samus-aran-nintendo-video-game-heroine",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-04T19:28:49+00:00",
-      "text": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "category": "engineering_ai",
+      "published_at": "2026-08-06T07:00:41+00:00",
+      "text": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine Being a woman who loves video games has often felt lonely, like being on a hostile planet – but Metroid’s female space hunter has been with me all the way It’s 1986, and you’re playing a brand-new game. (You’re in Japan in this scenario, by the way; the game in question, Metroid, won’t come to North America and Europe until later.) Anyway, this new game has you in its grip. You are a lone astronaut exploring a hostile alien planet full of ancient, mysterious structures. This astronaut looks human enough – but this distinctly alien place is full of objects that power up their spacesuit’s capabilities. Each new ability allows you to explore a new area, and as you do, you realise that the entirety of the planetary base you’re exploring is one, massive, interconnected maze. Whoa. Hours later, you finally defeat Mother Brain and set off a timed self-destruct sequence. Upon your escape, you’re treated to an endgame screen: the little astronaut faces you as text on screen implores you to “pray for peace in space”. Continue reading...",
       "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "Nvidia"
+        "AI"
       ],
       "engagement": {},
-      "score": 59.39,
+      "score": 59.388,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.64",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
+        "novelty=0.93",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.639,
+      "novelty_score": 0.934,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "677dd90131c7e904",
-      "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
-      "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-03T16:00:00+00:00",
-      "text": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "RAG",
-        "Nvidia",
-        "benchmark"
-      ],
-      "engagement": {},
-      "score": 59.092,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.353,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3209,7 +3164,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.852,
+      "score": 58.783,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -3221,7 +3176,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.433,
+      "novelty_score": 0.43,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -3246,7 +3201,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.818,
+      "score": 58.749,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -3258,7 +3213,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.431,
+      "novelty_score": 0.428,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3266,6 +3221,44 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "30e8185e86cb5876",
+      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-04T19:28:49+00:00",
+      "text": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 58.709,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.61",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.608,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3281,10 +3274,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.541,
+      "score": 58.473,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -3293,7 +3286,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.928,
+      "novelty_score": 0.925,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3304,37 +3297,41 @@
       "source_priority": "medium"
     },
     {
-      "id": "ac9760c974ba1616",
-      "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock",
-      "source": "Amazon AWS AI",
+      "id": "677dd90131c7e904",
+      "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage",
+      "source": "NVIDIA AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-05T18:50:02+00:00",
-      "text": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock Learn how LendingTree built a production multi-agent mortgage assistant on Amazon Bedrock. Three coordinated agents use LangGraph, the Model Context Protocol, and Amazon Nova models with built-in guardrails to deliver 24/7 personalized mortgage guidance while meeting strict financial-services compliance.",
+      "published_at": "2026-08-03T16:00:00+00:00",
+      "text": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
       "matched_terms": [
         "AI",
-        "agent"
+        "agent",
+        "RAG",
+        "Nvidia",
+        "benchmark"
       ],
       "engagement": {},
-      "score": 58.075,
+      "score": 58.411,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
+        "novelty=0.32",
+        "matched_terms=5",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.882,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.322,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -3450,90 +3447,20 @@
       "source_priority": "high"
     },
     {
-      "id": "1979ddc0566e380b",
-      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup",
-      "source": "TechCrunch AI",
+      "id": "ac9760c974ba1616",
+      "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-05T19:30:19+00:00",
-      "text": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.562,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.889,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "9c21f3501190f36e",
-      "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
-      "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-05T15:05:00+00:00",
-      "text": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.382,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "d088fab015ca81f1",
-      "title": "Hark previews its browser use agent for completing tasks",
-      "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T15:46:27+00:00",
-      "text": "Hark previews its browser use agent for completing tasks Hark claims that its browser use agent is faster and cheaper than competition.",
+      "published_at": "2026-08-05T18:50:02+00:00",
+      "text": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock Learn how LendingTree built a production multi-agent mortgage assistant on Amazon Bedrock. Three coordinated agents use LangGraph, the Model Context Protocol, and Amazon Nova models with built-in guardrails to deliver 24/7 personalized mortgage guidance while meeting strict financial-services compliance.",
       "matched_terms": [
         "AI",
         "agent"
       ],
       "engagement": {},
-      "score": 57.374,
+      "score": 57.394,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3545,45 +3472,42 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.851,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "startup",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
-      "id": "6a3d5199ab208fd0",
-      "title": "AI models shock UK testers by using fake identities to try to trick developers",
-      "url": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
+      "id": "65e09ea5bdbff9b6",
+      "title": "‘I’m not spying’: how Meta’s smartglasses have divided opinion",
+      "url": "https://www.theguardian.com/technology/2026/aug/06/meta-ai-smart-glasses-privacy",
       "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T15:15:05+00:00",
-      "text": "AI models shock UK testers by using fake identities to try to trick developers AI Security Institute says OpenAI and Anthropic models went rogue during a cybersecurity test and showed a new type of risk Explainer: Should we be alarmed at AI models going rogue in tests? Advanced artificial intelligence models have stunned the UK’s AI Security Institute (AISI) by carrying out a hacking campaign against real people during a cybersecurity test. The institute said the incident was unprecedented and involved sending targeted emails to software developers in an attempt to pass a cyber challenge. Continue reading...",
+      "category": "engineering_ai",
+      "published_at": "2026-08-06T04:00:37+00:00",
+      "text": "‘I’m not spying’: how Meta’s smartglasses have divided opinion While some users say the wearables have changed their lives, critics voice fears over safety and privacy With more than 7m pairs reportedly sold in 2025, Meta’s Ray-Ban smartglasses are fast becoming one of the world’s most popular gadgets. While supporters say they are transforming photography and accessibility, critics have raised concerns about nonconsensual filming, privacy and data collection. Continue reading...",
       "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.095,
+      "score": 57.325,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
+        "novelty=0.84",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.535,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -5410,6 +5334,74 @@
       "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
       "matched_terms": [
         "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "84173670abec4920",
+      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
+      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ca5f8805ed4cc18e",
+      "title": "Nasa Ai Agents Build Spaceship From Text",
+      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
       ],
       "engagement": {},
       "score": 57.033,
