@@ -3,57 +3,57 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16829
-- filtered_count: 2286
-- duplicate_count: 75
+- fetched_count: 16830
+- filtered_count: 2289
+- duplicate_count: 73
 - failures: 8
 
 ## Top 10 General AI News
 1. [Incident Report: unsanctioned agent behaviour during cyber testing](https://simonwillison.net/2026/Aug/5/incident-report)
    - source: Simon Willison
-   - score: 72.707
-   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.85; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 72.575
+   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.844; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 2. [One-shotting a Raccoon Heist game using Claude Fable 5](https://simonwillison.net/2026/Aug/5/raccoon-heist)
    - source: Simon Willison
-   - score: 69.393
-   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.791; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=7; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 69.261
+   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.785; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=7; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???](https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc)
    - source: Latent Space
-   - score: 55.771
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.929; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.639
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.923; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Anthropic is hiring an AI chip design team](https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team)
    - source: TechCrunch AI
-   - score: 63.004
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - score: 62.916
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.799; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Rogue AI agents created fake online identities in another hacking attempt](https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking)
    - source: The Verge AI
-   - score: 61.718
-   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.442; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.44; matched_terms=6; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.454
+   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.43; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.43; matched_terms=6; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Meta launches Muse Code, an AI agent for large code bases](https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases)
    - source: TechCrunch AI
-   - score: 61.306
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.878; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.218
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.874; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How Mobileye transformed support operations using Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 60.571
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.844; source_priority=1.0
+   - score: 60.483
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.84; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [How we built an MCP bridge to give our AgentCore-hosted AI agent access to local MCP tools](https://aws.amazon.com/blogs/machine-learning/how-we-built-an-mcp-bridge-to-give-our-agentcore-hosted-ai-agent-access-to-local-mcp-tools)
    - source: Amazon AWS AI
-   - score: 60.546
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.843; source_priority=1.0
+   - score: 60.457
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.839; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Opinion: Stop asking if AI is good for medicine](https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis)
    - source: STAT Health Tech
-   - score: 56.911
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.981; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.647
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.969; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Effective Context Engineering For Ai Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
    - source: Anthropic
    - score: 53.033
@@ -63,19 +63,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Third-party cyber evaluations involving OpenAI models](https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations)
    - source: Simon Willison
-   - score: 74.284
-   - score_breakdown: general=1.0; engineering=0.25; research=0.0; novelty=0.854; source_priority=1.0
+   - score: 74.152
+   - score_breakdown: general=1.0; engineering=0.25; research=0.0; novelty=0.848; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=6; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [IEEE Course Teaches How to Use AI to Modernize Power Grids](https://spectrum.ieee.org/ieee-course-ai-power-grids)
    - source: IEEE Spectrum AI
-   - score: 73.443
-   - score_breakdown: general=0.833; engineering=0.75; research=0.333; novelty=0.528; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=5; engineering_relevance=0.75; research_relevance=0.33; visible_engagement=unavailable
-3. [Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine](https://www.theguardian.com/games/2026/aug/06/metroid-at-40-samus-aran-nintendo-video-game-heroine)
+   - score: 73.179
+   - score_breakdown: general=0.833; engineering=0.75; research=0.333; novelty=0.516; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.52; matched_terms=5; engineering_relevance=0.75; research_relevance=0.33; visible_engagement=unavailable
+3. [Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears](https://www.theguardian.com/technology/2026/aug/06/restaurants-pubs-and-theatres-ban-metas-spy-glasses-over-privacy-fears)
    - source: The Guardian Technology
-   - score: 59.388
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.934; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.499
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.985; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Nafems France Conference Solutions De Simulation Pour Les Challenges De Demain](https://www.neuralconcept.com/post/nafems-france-conference-solutions-de-simulation-pour-les-challenges-de-demain)
    - source: Neural Concept
    - score: 57.033
@@ -83,26 +83,26 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals](https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals)
    - source: TechCrunch AI
-   - score: 56.701
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.812; source_priority=1.0
+   - score: 56.613
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.808; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: What my colleagues and I will look for as we assess U.S. measles elimination status](https://www.statnews.com/2026/08/06/measles-elimination-status-2026-paho)
    - source: STAT Health Tech
-   - score: 56.911
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.981; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.647
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.969; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Opinion: Stop asking if AI is good for medicine](https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis)
    - source: STAT Health Tech
-   - score: 56.911
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.981; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.647
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.969; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [STAT+: Federal regulators invite industry, researchers, and lobbyists to closed-door meetings on clinical AI](https://www.statnews.com/2026/08/05/federal-regulators-invite-industry-closed-door-meetings-clinical-ai)
    - source: STAT Health Tech
-   - score: 51.043
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.593; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 50.779
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.581; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.58; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
    - source: Databricks AI
    - score: 31.833
@@ -110,9 +110,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Schrodinger Bms Ai Drug Discovery](https://www.pharmaceutical-technology.com/news/schrodinger-bms-ai-drug-discovery)
    - source: Pharmaceutical Technology
-   - score: 46.076
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.997; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.812
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.985; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Intel Qwen3 Agent](https://huggingface.co/blog/intel-qwen3-agent)
