@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-06T09:58:23.481788+00:00",
+    "generated_at": "2026-08-06T10:17:09.077196+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16887,
-    "filtered_count": 2290,
-    "duplicate_count": 73,
+    "fetched_count": 16765,
+    "filtered_count": 2274,
+    "duplicate_count": 74,
     "failures": [
       {
         "source": "OpenAI Research RSS",
@@ -67,10 +67,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 72.412,
+      "score": 72.304,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -79,7 +79,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.837,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -110,10 +110,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.097,
+      "score": 68.99,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=7",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -122,7 +122,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.772,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -147,10 +147,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.476,
+      "score": 55.368,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -159,7 +159,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -186,7 +186,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.807,
+      "score": 62.735,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -198,7 +198,44 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.794,
+      "novelty_score": 0.791,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "48c7edfbf2c071d6",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-05T21:21:28+00:00",
+      "text": "Meta launches Muse Code, an AI agent for large code bases Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 61.037,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.865,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -226,7 +263,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 61.127,
+      "score": 60.912,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -238,50 +275,13 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.415,
+      "novelty_score": 0.405,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "product"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "48c7edfbf2c071d6",
-      "title": "Meta launches Muse Code, an AI agent for large code bases",
-      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T21:21:28+00:00",
-      "text": "Meta launches Muse Code, an AI agent for large code bases Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 61.109,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.869,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -299,10 +299,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.374,
+      "score": 60.302,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -311,7 +311,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -336,7 +336,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.349,
+      "score": 60.277,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -348,7 +348,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.834,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -371,10 +371,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.321,
+      "score": 56.106,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -383,7 +383,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
+      "novelty_score": 0.944,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -451,7 +451,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.989,
+      "score": 73.881,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -463,7 +463,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -492,10 +492,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 72.852,
+      "score": 72.637,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=5",
         "engineering_relevance=0.75",
         "research_relevance=0.33",
@@ -504,7 +504,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.501,
+      "novelty_score": 0.491,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -527,10 +527,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.173,
+      "score": 59.958,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -539,7 +539,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.97,
+      "novelty_score": 0.96,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -596,7 +596,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.504,
+      "score": 56.433,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -608,7 +608,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.803,
+      "novelty_score": 0.8,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -633,10 +633,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.321,
+      "score": 56.106,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -645,7 +645,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
+      "novelty_score": 0.944,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -668,10 +668,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.321,
+      "score": 56.106,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -680,7 +680,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
+      "novelty_score": 0.944,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -703,10 +703,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 50.452,
+      "score": 50.237,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.57",
+        "novelty=0.56",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -715,7 +715,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.566,
+      "novelty_score": 0.556,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -724,6 +724,42 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "40ddc8be27ebca12",
+      "title": "Eli Lilly Raises 2026 Outlook Again As Q2 Soars Past Estimates",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-raises-2026-outlook-again-as-q2-soars-past-estimates",
+      "source": "Pharmaceutical Technology",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": "2026-08-06T10:18:38+00:00",
+      "text": "Eli Lilly Raises 2026 Outlook Again As Q2 Soars Past Estimates https://www.pharmaceutical-technology.com/news/eli-lilly-raises-2026-outlook-again-as-q2-soars-past-estimates/",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 46.133,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "bio_ai",
+        "pharma",
+        "drug_discovery",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "9e9bbb49b0c651e4",
@@ -738,10 +774,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 45.887,
+      "score": 45.672,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -750,43 +786,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.989,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "bio_ai",
-        "pharma",
-        "drug_discovery",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "0cf55ef7e8966cb2",
-      "title": "Schrodinger Bms Ai Drug Discovery",
-      "url": "https://www.pharmaceutical-technology.com/news/schrodinger-bms-ai-drug-discovery",
-      "source": "Pharmaceutical Technology",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": "2026-08-06T09:36:12+00:00",
-      "text": "Schrodinger Bms Ai Drug Discovery https://www.pharmaceutical-technology.com/news/schrodinger-bms-ai-drug-discovery/",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 45.879,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.988,
+      "novelty_score": 0.979,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -817,7 +817,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.989,
+      "score": 73.881,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -829,7 +829,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -858,10 +858,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 72.852,
+      "score": 72.637,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=5",
         "engineering_relevance=0.75",
         "research_relevance=0.33",
@@ -870,7 +870,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.501,
+      "novelty_score": 0.491,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -893,10 +893,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.173,
+      "score": 59.958,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -905,7 +905,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.97,
+      "novelty_score": 0.96,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -962,7 +962,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.504,
+      "score": 56.433,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -974,7 +974,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.803,
+      "novelty_score": 0.8,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1194,6 +1194,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Snowflake AI",
+      "category": "vendor",
+      "query": "site:www.snowflake.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "data, enterprise_ai",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1311,6 +1321,16 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1476,6 +1496,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Snowflake AI",
+      "category": "vendor",
+      "query": "site:www.snowflake.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.snowflake.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "data, enterprise_ai",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Engineering.com Design News Weekly",
       "category": "engineering_ai",
       "query": "site:engineering.com/category/technology/design (AI OR \"artificial intelligence\" OR CAD OR CAE OR simulation OR manufacturing OR \"Solid Edge\" OR Designcenter OR Siemens OR Autodesk OR PLM)",
@@ -1593,6 +1623,16 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1740,7 +1780,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.104,
+      "score": 79.097,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1779,7 +1819,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 74.195,
+      "score": 74.188,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1791,7 +1831,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.676,
+      "novelty_score": 0.675,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1819,7 +1859,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 73.989,
+      "score": 73.881,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -1831,7 +1871,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1860,10 +1900,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 72.852,
+      "score": 72.637,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=5",
         "engineering_relevance=0.75",
         "research_relevance=0.33",
@@ -1872,7 +1912,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.501,
+      "novelty_score": 0.491,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -1899,10 +1939,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 72.412,
+      "score": 72.304,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -1911,7 +1951,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.837,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1942,10 +1982,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.097,
+      "score": 68.99,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=7",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1954,7 +1994,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.772,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1981,7 +2021,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 68.84,
+      "score": 68.833,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -1993,7 +2033,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.584,
+      "novelty_score": 0.583,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2016,7 +2056,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 67.098,
+      "score": 67.091,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2028,7 +2068,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.808,
+      "novelty_score": 0.807,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2036,45 +2076,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "77ce8aa94f719cac",
-      "title": "Should Researchers Write Papers for AI Instead of People?",
-      "url": "https://spectrum.ieee.org/ai-scientist-research-paper-format",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-05T12:00:03+00:00",
-      "text": "Should Researchers Write Papers for AI Instead of People? This May, 37 researchers from roughly two dozen top universities and tech companies published a paper on ArXiv, arguing that scientists should stop writing papers. Why? Because artificial intelligence needs a different format, and AI’s needs, they say, should be the priority. “AI agents are becoming first-class participants in research workflows, not tools that assist humans but autonomous contributors that read, reproduce, and extend scientific work. That transition demands infrastructure built around agents from the start,” the authors write in the provocative article, titled “The Last Human-Written Paper .” The paper proposes a replacement, called an “Agent-Native Research Artifact” (ARA), that presents work in a format AI agents can use efficiently. (As an example, the paper itself is online in ARA form.) Jiachen Liu cofounded the Agent Native Research Lab in May. Jiachen Liu The growth of AI tools in the research process is not without its critics, and scientists’ opinions about that shift are split. Some evidence shows AI-enabled research could boost individuals’ careers in a discipline but generate fewer new ideas and",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "large language model",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 67.061,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.31",
-        "matched_terms=5",
-        "engineering_relevance=0.25",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.313,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2148,6 +2149,45 @@
       "source_priority": "high"
     },
     {
+      "id": "77ce8aa94f719cac",
+      "title": "Should Researchers Write Papers for AI Instead of People?",
+      "url": "https://spectrum.ieee.org/ai-scientist-research-paper-format",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-05T12:00:03+00:00",
+      "text": "Should Researchers Write Papers for AI Instead of People? This May, 37 researchers from roughly two dozen top universities and tech companies published a paper on ArXiv, arguing that scientists should stop writing papers. Why? Because artificial intelligence needs a different format, and AI’s needs, they say, should be the priority. “AI agents are becoming first-class participants in research workflows, not tools that assist humans but autonomous contributors that read, reproduce, and extend scientific work. That transition demands infrastructure built around agents from the start,” the authors write in the provocative article, titled “The Last Human-Written Paper .” The paper proposes a replacement, called an “Agent-Native Research Artifact” (ARA), that presents work in a format AI agents can use efficiently. (As an example, the paper itself is online in ARA form.) Jiachen Liu cofounded the Agent Native Research Lab in May. Jiachen Liu The growth of AI tools in the research process is not without its critics, and scientists’ opinions about that shift are split. Some evidence shows AI-enabled research could boost individuals’ careers in a discipline but generate fewer new ideas and",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "large language model",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 66.846,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.30",
+        "matched_terms=5",
+        "engineering_relevance=0.25",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.304,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "3915e36219382874",
       "title": "Introducing Muse Code and Muse Spark 1.2",
       "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
@@ -2163,7 +2203,7 @@
         "training compute"
       ],
       "engagement": {},
-      "score": 66.564,
+      "score": 66.456,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2175,7 +2215,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.844,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2202,10 +2242,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 65.52,
+      "score": 65.49,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2214,7 +2254,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.705,
+      "novelty_score": 0.704,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2239,7 +2279,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 64.832,
+      "score": 64.825,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -2275,7 +2315,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 64.788,
+      "score": 64.78,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -2287,7 +2327,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.43,
+      "novelty_score": 0.429,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2312,7 +2352,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 64.051,
+      "score": 63.943,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2324,7 +2364,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.851,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2349,7 +2389,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 63.163,
+      "score": 63.156,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -2361,7 +2401,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.629,
+      "novelty_score": 0.628,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2387,7 +2427,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.807,
+      "score": 62.735,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -2399,7 +2439,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.794,
+      "novelty_score": 0.791,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2445,6 +2485,43 @@
       "source_priority": "high"
     },
     {
+      "id": "48c7edfbf2c071d6",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-05T21:21:28+00:00",
+      "text": "Meta launches Muse Code, an AI agent for large code bases Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 61.037,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.865,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "6cc6646c30716f76",
       "title": "Rogue AI agents created fake online identities in another hacking attempt",
       "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
@@ -2462,7 +2539,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 61.127,
+      "score": 60.912,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -2474,50 +2551,13 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.415,
+      "novelty_score": 0.405,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "product"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "48c7edfbf2c071d6",
-      "title": "Meta launches Muse Code, an AI agent for large code bases",
-      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T21:21:28+00:00",
-      "text": "Meta launches Muse Code, an AI agent for large code bases Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 61.109,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.869,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2535,10 +2575,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.817,
+      "score": 60.745,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2547,7 +2587,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2570,7 +2610,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.38,
+      "score": 60.373,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -2590,78 +2630,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cbf9137373ac8c12",
-      "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
-      "url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-06T09:33:11+00:00",
-      "text": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’ OpenAI has asked a federal judge to toss out Apple's landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegations as \"meritless.\" In a motion filed yesterday to dismiss the complaint, OpenAI says that Apple is mischaracterizing both the actions of the AI startup's employees as theft, and \"generic\" product development information […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.378,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.987,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "df04389faa85d1b7",
-      "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T18:09:03+00:00",
-      "text": "How Mobileye transformed support operations using Amazon Bedrock AgentCore In this post, we'll explore how Mobileye deployed an AI support agentic solution on Amazon Bedrock AgentCore - from the support bottleneck that sparked the idea, through the proof of concept that validated it, to the hybrid architecture that bridges on-premises systems with AWS cloud services. This approach is relevant for enterprises struggling to scale AI Agents while maintaining enterprise grade governance and security standards.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.374,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2991,6 +2959,43 @@
       "source_priority": "high"
     },
     {
+      "id": "df04389faa85d1b7",
+      "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-05T18:09:03+00:00",
+      "text": "How Mobileye transformed support operations using Amazon Bedrock AgentCore In this post, we'll explore how Mobileye deployed an AI support agentic solution on Amazon Bedrock AgentCore - from the support bottleneck that sparked the idea, through the proof of concept that validated it, to the hybrid architecture that bridges on-premises systems with AWS cloud services. This approach is relevant for enterprises struggling to scale AI Agents while maintaining enterprise grade governance and security standards.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.302,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.832,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "cfab1d3fb81fb4d0",
       "title": "How we built an MCP bridge to give our AgentCore-hosted AI agent access to local MCP tools",
       "url": "https://aws.amazon.com/blogs/machine-learning/how-we-built-an-mcp-bridge-to-give-our-agentcore-hosted-ai-agent-access-to-local-mcp-tools",
@@ -3005,7 +3010,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.349,
+      "score": 60.277,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -3017,7 +3022,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.834,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3042,7 +3047,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.343,
+      "score": 60.271,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -3054,7 +3059,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.834,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3077,10 +3082,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.173,
+      "score": 59.958,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -3089,7 +3094,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.97,
+      "novelty_score": 0.96,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3146,7 +3151,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.428,
+      "score": 59.421,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -3169,40 +3174,6 @@
       "source_priority": "medium"
     },
     {
-      "id": "1a1e1086d82181fa",
-      "title": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine",
-      "url": "https://www.theguardian.com/games/2026/aug/06/metroid-at-40-samus-aran-nintendo-video-game-heroine",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-06T07:00:41+00:00",
-      "text": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine Being a woman who loves video games has often felt lonely, like being on a hostile planet – but Metroid’s female space hunter has been with me all the way It’s 1986, and you’re playing a brand-new game. (You’re in Japan in this scenario, by the way; the game in question, Metroid, won’t come to North America and Europe until later.) Anyway, this new game has you in its grip. You are a lone astronaut exploring a hostile alien planet full of ancient, mysterious structures. This astronaut looks human enough – but this distinctly alien place is full of objects that power up their spacesuit’s capabilities. Each new ability allows you to explore a new area, and as you do, you realise that the entirety of the planetary base you’re exploring is one, massive, interconnected maze. Whoa. Hours later, you finally defeat Mother Brain and set off a timed self-destruct sequence. Upon your escape, you’re treated to an endgame screen: the little astronaut faces you as text on screen implores you to “pray for peace in space”. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.797,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "4693532790c5e944",
       "title": "Leveraging know-how with AI into efficient product design",
       "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
@@ -3215,7 +3186,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.764,
+      "score": 58.757,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -3227,7 +3198,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.429,
+      "novelty_score": 0.428,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -3252,7 +3223,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.73,
+      "score": 58.723,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -3275,41 +3246,37 @@
       "source_priority": "high"
     },
     {
-      "id": "30e8185e86cb5876",
-      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress",
-      "source": "TechCrunch AI",
+      "id": "1a1e1086d82181fa",
+      "title": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine",
+      "url": "https://www.theguardian.com/games/2026/aug/06/metroid-at-40-samus-aran-nintendo-video-game-heroine",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-04T19:28:49+00:00",
-      "text": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "category": "engineering_ai",
+      "published_at": "2026-08-06T07:00:41+00:00",
+      "text": "Metroid at 40: happy birthday to Samus Aran, gaming’s greatest badass and my personal heroine Being a woman who loves video games has often felt lonely, like being on a hostile planet – but Metroid’s female space hunter has been with me all the way It’s 1986, and you’re playing a brand-new game. (You’re in Japan in this scenario, by the way; the game in question, Metroid, won’t come to North America and Europe until later.) Anyway, this new game has you in its grip. You are a lone astronaut exploring a hostile alien planet full of ancient, mysterious structures. This astronaut looks human enough – but this distinctly alien place is full of objects that power up their spacesuit’s capabilities. Each new ability allows you to explore a new area, and as you do, you realise that the entirety of the planetary base you’re exploring is one, massive, interconnected maze. Whoa. Hours later, you finally defeat Mother Brain and set off a timed self-destruct sequence. Upon your escape, you’re treated to an endgame screen: the little astronaut faces you as text on screen implores you to “pray for peace in space”. Continue reading...",
       "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "Nvidia"
+        "AI"
       ],
       "engagement": {},
-      "score": 58.512,
+      "score": 58.582,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
+        "novelty=0.90",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.599,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3325,7 +3292,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.453,
+      "score": 58.446,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.92",
@@ -3337,7 +3304,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.923,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3346,6 +3313,44 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
+    },
+    {
+      "id": "30e8185e86cb5876",
+      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-04T19:28:49+00:00",
+      "text": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 58.44,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.60",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.596,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
     },
     {
       "id": "677dd90131c7e904",
@@ -3364,7 +3369,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 58.214,
+      "score": 58.143,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.31",
@@ -3376,7 +3381,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.313,
+      "novelty_score": 0.31,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3511,7 +3516,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.197,
+      "score": 57.126,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3523,7 +3528,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -5383,6 +5388,40 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ca5f8805ed4cc18e",
+      "title": "Nasa Ai Agents Build Spaceship From Text",
+      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
       "matched_terms": [
         "ROM"
       ],
