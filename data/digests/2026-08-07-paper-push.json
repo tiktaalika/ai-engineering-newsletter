@@ -1,0 +1,173 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-07-30 至 2026-08-07 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-07-30 to 2026-08-07.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "From Precision Medicine to Precision Education: A Vision for AI-Powered Student Digital Twins, Preventive Student Success, and Career-Aligned Academic Pathways",
+      "url": "https://arxiv.org/abs/2608.06322",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Kaushik Dutta"
+      ],
+      "summary_en": "Higher education remains largely reactive in its approach to student success. Institutions frequently identify academic problems only after students have failed courses, fallen behind in degree progression, accumulated excessive debt, or departed without a credential. Healthcare faced a similar challenge decades ago. It responded by shifting from reactive treatment to preventive care powered by predictive models, risk stratification, electronic health records, and artificial intelligence (AI). T",
+      "summary_zh": "英文摘要：Higher education remains largely reactive in its approach to student success. Institutions frequently identify academic problems only after students have failed courses, fallen behind in degree progression, accumulated excessive debt, or departed without a credential. Healthcare faced a similar challenge decades ago. It responded by shifting from reactive treatment to preventive care powered by predictive models, risk stratification, electronic health records, and artificial intelligence (AI). T",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring-Mass Models",
+      "url": "https://arxiv.org/abs/2608.06164",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Yixiong Jing",
+        "Qi Wang",
+        "Lin Chen",
+        "Junwei Jiang",
+        "Guangming Wang",
+        "Haibing Wu",
+        "Olaf Wysocki",
+        "Wanli Ma",
+        "Brian Sheil"
+      ],
+      "summary_en": "Reconstructing objects with mechanical properties from video observations enables physically consistent dynamic prediction, benefiting robotics planning and interaction. Existing spring--mass based physical driven reconstruction approaches offer efficient and differentiable physical reconstruction, but they typically rely on axial springs alone. Such formulations oversimplify the underlying structural mechanics and can become mechanically under-constrained when the physical graph is coarsened, l",
+      "summary_zh": "英文摘要：Reconstructing objects with mechanical properties from video observations enables physically consistent dynamic prediction, benefiting robotics planning and interaction. Existing spring--mass based physical driven reconstruction approaches offer efficient and differentiable physical reconstruction, but they typically rely on axial springs alone. Such formulations oversimplify the underlying structural mechanics and can become mechanically under-constrained when the physical graph is coarsened, l",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Kastor: An efficient fine-tuning strategy for generative emulation of PDE simulations",
+      "url": "https://arxiv.org/abs/2608.06107",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Guillaume Couairon",
+        "Alexis Jacq",
+        "Yu-Han Wu",
+        "Renu Singh",
+        "Yana Hasson",
+        "Quentin Berthet",
+        "Romuald Elie"
+      ],
+      "summary_en": "Machine learning offers a promising avenue to accelerate physical simulations by replacing computationally expensive traditional Partial Differential Equation (PDE) solvers with fast, differentiable surrogate models. However, standard auto-regressive ML emulators often suffer from error accumulation over long horizons and struggle to capture the stochasticity of complex physical systems. In this paper, we propose Kastor, a comprehensive methodology to adapt a deterministic physics foundation mod",
+      "summary_zh": "英文摘要：Machine learning offers a promising avenue to accelerate physical simulations by replacing computationally expensive traditional Partial Differential Equation (PDE) solvers with fast, differentiable surrogate models. However, standard auto-regressive ML emulators often suffer from error accumulation over long horizons and struggle to capture the stochasticity of complex physical systems. In this paper, we propose Kastor, a comprehensive methodology to adapt a deterministic physics foundation mod",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Domain-Grounded Candidate Selection for Agentic Image Editing: A Shadow Removal Case",
+      "url": "https://arxiv.org/abs/2608.06075",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Shilin Hu",
+        "Jingyi Xu",
+        "Dimitris Samaras",
+        "Hieu Le"
+      ],
+      "summary_en": "Commercial vision-language models are reshaping computer vision, with visual priors broad enough to rival task-specific systems. This raises a natural question: do they reduce the need for classic, physics-informed low-level vision? We study this through shadow removal, a problem shaped by scene geometry, illumination, materials, and occluders, where paired shadow and shadow-free data are hard to collect at scale. We find that a commercial generative editor, used directly, can produce clean shad",
+      "summary_zh": "英文摘要：Commercial vision-language models are reshaping computer vision, with visual priors broad enough to rival task-specific systems. This raises a natural question: do they reduce the need for classic, physics-informed low-level vision? We study this through shadow removal, a problem shaped by scene geometry, illumination, materials, and occluders, where paired shadow and shadow-free data are hard to collect at scale. We find that a commercial generative editor, used directly, can produce clean shad",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Hybrid-Adaptive Thread Tuning to Mitigate Simulation Execution Bottlenecks in High-Performance Reinforcement Learning Inference",
+      "url": "https://arxiv.org/abs/2608.06025",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Jiming Su",
+        "Hantao Hua",
+        "Lujia Yin",
+        "Yiping Yao",
+        "Feng Zhu"
+      ],
+      "summary_en": "In simulation-in-the-loop decision-making systems, reinforcement learning (RL) inference is often constrained by simulator-side execution overhead, where workloads are highly dynamic and sensitive to runtime thread configurations. Existing multithreaded strategies struggle to match thread resources before or during execution, causing resource contention, scheduling overhead, and reduced throughput. Through empirical analysis, we identify the ratio of task execution time to scheduling time as the",
+      "summary_zh": "英文摘要：In simulation-in-the-loop decision-making systems, reinforcement learning (RL) inference is often constrained by simulator-side execution overhead, where workloads are highly dynamic and sensitive to runtime thread configurations. Existing multithreaded strategies struggle to match thread resources before or during execution, causing resource contention, scheduling overhead, and reduced throughput. Through empirical analysis, we identify the ratio of task execution time to scheduling time as the",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "OPERA: Operator-residual feedback for reliable autonomous optical experiments with language-model agents",
+      "url": "https://arxiv.org/abs/2608.05990",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Ning Xu",
+        "Xiang Zheng",
+        "Fuqiang Zhong",
+        "Huadong Wang",
+        "Xiaolong Wu",
+        "Zhiyuan Liu",
+        "Hui Ning"
+      ],
+      "summary_en": "Autonomous agents choose actions using scores that may not reflect experimental success. We developed OPERA, an operator-residual framework for optical experiments. It represents experimental actions as optical operators and evaluates their outcomes using physically interpretable residuals. Operators specify executable changes to measurement, control or reconstruction, while residuals report departures from specified physical conditions. The agent uses both to select, combine or generate operato",
+      "summary_zh": "英文摘要：Autonomous agents choose actions using scores that may not reflect experimental success. We developed OPERA, an operator-residual framework for optical experiments. It represents experimental actions as optical operators and evaluates their outcomes using physically interpretable residuals. Operators specify executable changes to measurement, control or reconstruction, while residuals report departures from specified physical conditions. The agent uses both to select, combine or generate operato",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Polarization-Conditioned Fourier-enhanced DeepONet for Electric Field Reconstruction from EFISH Measurements",
+      "url": "https://arxiv.org/abs/2608.05937",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Zhijian Yang",
+        "Edwin Setiadi Sugeng",
+        "Yaqi Zhang",
+        "Anbang Sun",
+        "Tat Loon Chng"
+      ],
+      "summary_en": "Electric-field-induced second-harmonic generation (EFISH) is an established laser diagnostic for quantifying electric fields in plasmas, yet ensuring field accuracy remains challenging given the coherent, path-integrated nature of the signal. We address this via machine learning, developing a Polarization-Conditioned Fourier-enhanced Deep Operator Network (PC-FDON) -- a unified operator-learning model that reconstructs field profiles from EFISH measurements across both polarizations and various ",
+      "summary_zh": "英文摘要：Electric-field-induced second-harmonic generation (EFISH) is an established laser diagnostic for quantifying electric fields in plasmas, yet ensuring field accuracy remains challenging given the coherent, path-integrated nature of the signal. We address this via machine learning, developing a Polarization-Conditioned Fourier-enhanced Deep Operator Network (PC-FDON) -- a unified operator-learning model that reconstructs field profiles from EFISH measurements across both polarizations and various ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Alternating Levenberg-Marquardt Training of Physics-Informed Neural Networks with Fourier-Enhanced Features",
+      "url": "https://arxiv.org/abs/2608.05892",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Yulun Wu",
+        "Matthieu Barreau",
+        "Miguel Aguiar",
+        "Karl H. Johansson"
+      ],
+      "summary_en": "Physics-informed neural networks (PINNs) often fail to accurately resolve partial differential equations (PDEs) with high-frequency or multi-scale solutions, as well as strongly nonlinear problems. Two factors underlie this difficulty: spectral bias, the tendency of neural networks to underfit high-frequency features; and representation-coefficient coupling, the entanglement of representation learning and coefficient fitting within a single nonconvex optimization objective. In this work, we prop",
+      "summary_zh": "英文摘要：Physics-informed neural networks (PINNs) often fail to accurately resolve partial differential equations (PDEs) with high-frequency or multi-scale solutions, as well as strongly nonlinear problems. Two factors underlie this difficulty: spectral bias, the tendency of neural networks to underfit high-frequency features; and representation-coefficient coupling, the entanglement of representation learning and coefficient fitting within a single nonconvex optimization objective. In this work, we prop",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Beyond Feature Importance: A Comparative Analysis of Pattern Detection Methods in Cluster Interpretation",
+      "url": "https://arxiv.org/abs/2608.05880",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Benjamin Connor",
+        "Anna Jurek-Loughrey",
+        "Lu Bai",
+        "Muhammad Fahim"
+      ],
+      "summary_en": "Interpreting clustering outcomes remains a fundamental challenge in data analysis, particularly in domains such as healthcare where meaningful patterns must be extracted from high-dimensional data. While numerous explainability techniques exist, they are primarily designed to assess feature importance or provide local instance-level explanations rather than to identify structured patterns present within clusters. This work presents a comparative evaluation of commonly used post-hoc analysis meth",
+      "summary_zh": "英文摘要：Interpreting clustering outcomes remains a fundamental challenge in data analysis, particularly in domains such as healthcare where meaningful patterns must be extracted from high-dimensional data. While numerous explainability techniques exist, they are primarily designed to assess feature importance or provide local instance-level explanations rather than to identify structured patterns present within clusters. This work presents a comparative evaluation of commonly used post-hoc analysis meth",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A neural operator view on U-Nets for inverse imaging problems",
+      "url": "https://arxiv.org/abs/2608.05839",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Alexander Auras",
+        "Martin Burger",
+        "Samira Kabri",
+        "Michael Moeller",
+        "Michael Schopf-Kuester"
+      ],
+      "summary_en": "Deep neural networks have shown great empirical success in the solution of a wide variety of ill-posed inverse problems in imaging. Yet, very few works have studied their behavior in the limit that turns the discretized ill-conditioned problems into truly ill-posed ones, i.e., for an increasing resolution of the discretization. In this work, we review common approaches to neural operator learning in architectures that resemble a U-Net, one of the most common classical architectures for inverse i",
+      "summary_zh": "英文摘要：Deep neural networks have shown great empirical success in the solution of a wide variety of ill-posed inverse problems in imaging. Yet, very few works have studied their behavior in the limit that turns the discretized ill-conditioned problems into truly ill-posed ones, i.e., for an increasing resolution of the discretization. In this work, we review common approaches to neural operator learning in architectures that resemble a U-Net, one of the most common classical architectures for inverse i",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
