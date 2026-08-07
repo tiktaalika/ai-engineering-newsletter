@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-07T07:59:52.516106+00:00",
+    "generated_at": "2026-08-07T08:31:18.940457+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16410,
-    "filtered_count": 2283,
+    "fetched_count": 16357,
+    "filtered_count": 2265,
     "duplicate_count": 70,
     "failures": [
       {
@@ -14,6 +14,10 @@
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -63,7 +67,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.674,
+      "score": 63.623,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -75,7 +79,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.925,
+      "novelty_score": 0.922,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -99,10 +103,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 59.715,
+      "score": 59.535,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -111,7 +115,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.957,
+      "novelty_score": 0.949,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -138,10 +142,10 @@
         "training compute"
       ],
       "engagement": {},
-      "score": 58.993,
+      "score": 58.812,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -150,7 +154,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.5,
+      "novelty_score": 0.491,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -178,10 +182,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 56.48,
+      "score": 56.3,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.50",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -190,7 +194,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.507,
+      "novelty_score": 0.498,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -216,10 +220,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 54.709,
+      "score": 54.589,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -228,7 +232,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.729,
+      "novelty_score": 0.724,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -252,10 +256,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 46.334,
+      "score": 46.154,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -264,7 +268,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.5,
+      "novelty_score": 0.492,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -289,10 +293,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 53.334,
+      "score": 53.214,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.66",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -301,7 +305,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.667,
+      "novelty_score": 0.661,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -329,7 +333,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 69.698,
+      "score": 69.578,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -341,7 +345,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.835,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -366,7 +370,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.013,
+      "score": 60.893,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -378,7 +382,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -389,38 +393,37 @@
       "source_priority": "high"
     },
     {
-      "id": "700706e07d8d9b67",
-      "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
-      "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
-      "source": "TechCrunch AI",
+      "id": "17d18272120df01b",
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-06T13:00:00+00:00",
-      "text": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
+      "published_at": "2026-08-07T08:06:40+00:00",
+      "text": "Meta fined $567m in largest child safety ruling against social media giant The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 55.646,
+      "score": 57.051,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.802,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -447,10 +450,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 76.858,
+      "score": 76.498,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.59",
         "matched_terms=10",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -459,7 +462,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.607,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -482,7 +485,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 70.899,
+      "score": 70.887,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -520,10 +523,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 67.92,
+      "score": 67.559,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -532,7 +535,42 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.859,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c2c534e54d790790",
+      "title": "China’s Unitree Prices IPO in Bet Investors Are Ready for Humanoid Robots",
+      "url": "https://www.nytimes.com/2026/08/06/business/china-unitree-ipo-robot.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-07T08:10:00+00:00",
+      "text": "China’s Unitree Prices IPO in Bet Investors Are Ready for Humanoid Robots Unitree Robotics wants to raise about $900 million in an I.P.O. that tests market interest in humanoid robots, a technology that wows but has yet to prove its viability.",
+      "matched_terms": [
+        "AI",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 60.422,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -575,61 +613,26 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "c4ac702750d6ac9f",
-      "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
-      "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-06T12:30:00+00:00",
-      "text": "Google Maps adds agentic features, including food ordering and hotel bookings The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 56.365,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.80",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.797,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
     }
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "61ef92ed31bf68ee",
-      "title": "U.S. moves to shut a Kentucky organ donation group, citing safety failures",
-      "url": "https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns",
+      "id": "80851f48d21b70e6",
+      "title": "Opinion: AI won’t enhance physician autonomy. It will further diminish it",
+      "url": "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-06T13:47:31+00:00",
-      "text": "U.S. moves to shut a Kentucky organ donation group, citing safety failures The U.S. moves to shut a Kentucky organ donation group that's been accused of continuing plans for organ retrieval from some patients who unexpectedly showed signs of life.",
+      "published_at": "2026-08-07T08:30:00+00:00",
+      "text": "Opinion: AI won’t enhance physician autonomy. It will further diminish it “AI is not the villain here; it is a mirror,” reflecting the diminishment of physician judgment, writes former surgeon Frances Mei Hardin.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 44.817,
+      "score": 57.318,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=1.00",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -638,7 +641,42 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.431,
+      "novelty_score": 0.999,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a44c1875c75789d1",
+      "title": "Opinion: I was in my office when bullets hit the CDC. A year later, the agency remains under attack",
+      "url": "https://www.statnews.com/2026/08/07/cdc-shooting-anniversary-public-health-threats",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-07T08:30:00+00:00",
+      "text": "Opinion: I was in my office when bullets hit the CDC. A year later, the agency remains under attack “It was briefly more dangerous to sit at a desk in Atlanta than to chase a hemorrhagic fever in the field,” writes Daniel Jernigan.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.318,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.999,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -753,40 +791,6 @@
       ],
       "registry_category": "vendor",
       "source_priority": "medium"
-    },
-    {
-      "id": "9b6af8d7c074039b",
-      "title": "Healthcare",
-      "url": "https://elevenlabs.io/agents/healthcare",
-      "source": "ElevenLabs",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Healthcare https://elevenlabs.io/agents/healthcare",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "audio_ai",
-        "voice"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -812,10 +816,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 76.858,
+      "score": 76.498,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.59",
         "matched_terms=10",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -824,7 +828,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.607,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -847,7 +851,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 70.899,
+      "score": 70.887,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -885,10 +889,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 67.92,
+      "score": 67.559,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -897,7 +901,42 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.859,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c2c534e54d790790",
+      "title": "China’s Unitree Prices IPO in Bet Investors Are Ready for Humanoid Robots",
+      "url": "https://www.nytimes.com/2026/08/06/business/china-unitree-ipo-robot.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-07T08:10:00+00:00",
+      "text": "China’s Unitree Prices IPO in Bet Investors Are Ready for Humanoid Robots Unitree Robotics wants to raise about $900 million in an I.P.O. that tests market interest in humanoid robots, a technology that wows but has yet to prove its viability.",
+      "matched_terms": [
+        "AI",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 60.422,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -940,41 +979,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "c4ac702750d6ac9f",
-      "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
-      "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-06T12:30:00+00:00",
-      "text": "Google Maps adds agentic features, including food ordering and hotel bookings The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
-      "matched_terms": [
-        "agent"
-      ],
-      "engagement": {},
-      "score": 56.365,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.80",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.797,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
     }
   ],
   "research_radar": [
@@ -991,7 +995,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.674,
+      "score": 63.623,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -1003,7 +1007,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.925,
+      "novelty_score": 0.922,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1739,42 +1743,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "62d96c69dc2ef01f",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 78.599,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.755,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "31bf3a6b2ee34f40",
       "title": "AI Safety Regulations in the U.S. Could Give Hackers an Edge",
       "url": "https://spectrum.ieee.org/hugging-face-openai-cyberattack",
@@ -1796,10 +1764,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 76.858,
+      "score": 76.498,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.59",
         "matched_terms=10",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -1808,7 +1776,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.607,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -1816,44 +1784,6 @@
         "ai"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "58734c7c02d92a7e",
-      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
-      "url": "https://rescale.com/blog/ai-physics-automotive-crash-structural-fea-simulations",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-24T10:29:00+00:00",
-      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "FEA",
-        "structural simulation"
-      ],
-      "engagement": {},
-      "score": 73.69,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=4",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.653,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1869,7 +1799,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 70.899,
+      "score": 70.887,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1907,7 +1837,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 69.698,
+      "score": 69.578,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1919,7 +1849,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.835,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -1944,7 +1874,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 68.335,
+      "score": 68.323,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -1956,7 +1886,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.561,
+      "novelty_score": 0.56,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1983,10 +1913,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 67.92,
+      "score": 67.559,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1995,7 +1925,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2087,7 +2017,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 66.594,
+      "score": 66.582,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2099,49 +2029,12 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.785,
+      "novelty_score": 0.784,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
         "simulation",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "da9d0703229ae16b",
-      "title": "Open-source AI Datasets for AI Physics Model Training",
-      "url": "https://rescale.com/blog/open-source-ai-datasets-for-ai-physics-model-training",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-08T15:00:00+00:00",
-      "text": "Open-source AI Datasets for AI Physics Model Training Start training surrogate models faster with open-source AI Datasets now available in Rescale AI Physics. Engineers can now train models directly from the DrivAerML dataset, a subset of the high-fidelity open-source public dataset for automotive aerodynamics based on 500 parametrically morphed variants. Providing a great way to get started with AI Physics without having to first generate your own simulation dataset.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 64.327,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.26",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.257,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2160,7 +2053,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 64.283,
+      "score": 64.271,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -2172,7 +2065,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.407,
+      "novelty_score": 0.406,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2196,7 +2089,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.999,
+      "score": 63.879,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2208,7 +2101,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.841,
+      "novelty_score": 0.835,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2231,7 +2124,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.674,
+      "score": 63.623,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -2243,7 +2136,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.925,
+      "novelty_score": 0.922,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2268,10 +2161,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 63.357,
+      "score": 63.306,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.60",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2280,7 +2173,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.607,
+      "novelty_score": 0.605,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2303,7 +2196,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 62.658,
+      "score": 62.646,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -2315,7 +2208,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.606,
+      "novelty_score": 0.605,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2375,7 +2268,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.013,
+      "score": 60.893,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2387,7 +2280,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2398,76 +2291,38 @@
       "source_priority": "high"
     },
     {
-      "id": "75e0fe6a0af0a909",
-      "title": "Safety fears as scientists make first viruses designed by AI",
-      "url": "https://www.theguardian.com/science/2026/aug/06/safety-fears-as-scientists-make-first-viruses-designed-by-ai",
-      "source": "The Guardian Technology",
+      "id": "c2c534e54d790790",
+      "title": "China’s Unitree Prices IPO in Bet Investors Are Ready for Humanoid Robots",
+      "url": "https://www.nytimes.com/2026/08/06/business/china-unitree-ipo-robot.html",
+      "source": "New York Times Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-06T18:00:04+00:00",
-      "text": "Safety fears as scientists make first viruses designed by AI Researchers say breakthrough offers hope for new medicines but also raises urgent biosecurity questions Scientists have made the first viruses designed by artificial intelligence in a milestone that raises hopes for new medicines but also concerns over how to ensure the technology remains safe. The viruses are specific kinds known as bacteriophages, which only infect bacteria and are used around the world to treat patients with persistent infections. In lab tests, a cocktail of the AI-designed viruses killed E coli bugs that were resistant to natural bacteriophages. Continue reading...",
+      "published_at": "2026-08-07T08:10:00+00:00",
+      "text": "China’s Unitree Prices IPO in Bet Investors Are Ready for Humanoid Robots Unitree Robotics wants to raise about $900 million in an I.P.O. that tests market interest in humanoid robots, a technology that wows but has yet to prove its viability.",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "AI safety"
+        "robotics"
       ],
       "engagement": {},
-      "score": 60.544,
+      "score": 60.422,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.563,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "05ef9c83004d5ff6",
-      "title": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/enforcing-data-residency-with-single-region-claude-code-on-amazon-bedrock",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-06T16:21:54+00:00",
-      "text": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock A regulated customer needed all Claude Code inference processed in a single AWS Region (London), not just in-geography. This post shows two ways to pin Claude Code on Amazon Bedrock to one Region: an application inference profile or the Mantle endpoint, paired with an IAM Region condition, plus how to verify compliance in AWS CloudTrail.",
-      "matched_terms": [
-        "AI",
-        "inference",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 60.417,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.837,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2797,75 +2652,76 @@
       "source_priority": "high"
     },
     {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 59.875,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.479,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2fea13078482837a",
-      "title": "[AINews] AMD buys Taalas",
-      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-      "source": "Latent Space",
+      "id": "05ef9c83004d5ff6",
+      "title": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/enforcing-data-residency-with-single-region-claude-code-on-amazon-bedrock",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-07T05:13:46+00:00",
-      "text": "[AINews] AMD buys Taalas The Inference Inflection is HEATING up.",
+      "published_at": "2026-08-06T16:21:54+00:00",
+      "text": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock A regulated customer needed all Claude Code inference processed in a single AWS Region (London), not just in-geography. This post shows two ways to pin Claude Code on Amazon Bedrock to one Region: an application inference profile or the Mantle endpoint, paired with an IAM Region condition, plus how to verify compliance in AWS CloudTrail.",
       "matched_terms": [
         "AI",
-        "inference"
+        "inference",
+        "Claude"
       ],
       "engagement": {},
-      "score": 59.715,
+      "score": 60.297,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=2",
+        "novelty=0.83",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.957,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "community",
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "75e0fe6a0af0a909",
+      "title": "Safety fears as scientists make first viruses designed by AI",
+      "url": "https://www.theguardian.com/science/2026/aug/06/safety-fears-as-scientists-make-first-viruses-designed-by-ai",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-06T18:00:04+00:00",
+      "text": "Safety fears as scientists make first viruses designed by AI Researchers say breakthrough offers hope for new medicines but also raises urgent biosecurity questions Scientists have made the first viruses designed by artificial intelligence in a milestone that raises hopes for new medicines but also concerns over how to ensure the technology remains safe. The viruses are specific kinds known as bacteriophages, which only infect bacteria and are used around the world to treat patients with persistent infections. In lab tests, a cocktail of the AI-designed viruses killed E coli bugs that were resistant to natural bacteriophages. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "AI safety"
+      ],
+      "engagement": {},
+      "score": 60.184,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.546,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2904,6 +2760,43 @@
       "source_priority": "high"
     },
     {
+      "id": "2fea13078482837a",
+      "title": "[AINews] AMD buys Taalas",
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-07T05:13:46+00:00",
+      "text": "[AINews] AMD buys Taalas The Inference Inflection is HEATING up.",
+      "matched_terms": [
+        "AI",
+        "inference"
+      ],
+      "engagement": {},
+      "score": 59.535,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.949,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "3915e36219382874",
       "title": "Introducing Muse Code and Muse Spark 1.2",
       "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
@@ -2919,10 +2812,10 @@
         "training compute"
       ],
       "engagement": {},
-      "score": 58.993,
+      "score": 58.812,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.49",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2931,7 +2824,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.5,
+      "novelty_score": 0.491,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2957,7 +2850,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.543,
+      "score": 58.423,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2969,7 +2862,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2992,7 +2885,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 58.259,
+      "score": 58.247,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.41",
@@ -3004,7 +2897,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.406,
+      "novelty_score": 0.405,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -3012,41 +2905,6 @@
         "simulation",
         "industrial_ai",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 58.225,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.40",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.404,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -3085,44 +2943,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "6716d33c74e96fb5",
-      "title": "Anthropic is hiring an AI chip design team",
-      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-05T14:13:18+00:00",
-      "text": "Anthropic is hiring an AI chip design team Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "AI chip",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 57.76,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.565,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3200,6 +3020,114 @@
       "source_priority": "high"
     },
     {
+      "id": "6716d33c74e96fb5",
+      "title": "Anthropic is hiring an AI chip design team",
+      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-05T14:13:18+00:00",
+      "text": "Anthropic is hiring an AI chip design team Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "AI chip",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 57.64,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.56",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.559,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "80851f48d21b70e6",
+      "title": "Opinion: AI won’t enhance physician autonomy. It will further diminish it",
+      "url": "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-07T08:30:00+00:00",
+      "text": "Opinion: AI won’t enhance physician autonomy. It will further diminish it “AI is not the villain here; it is a mirror,” reflecting the diminishment of physician judgment, writes former surgeon Frances Mei Hardin.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.318,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.999,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a44c1875c75789d1",
+      "title": "Opinion: I was in my office when bullets hit the CDC. A year later, the agency remains under attack",
+      "url": "https://www.statnews.com/2026/08/07/cdc-shooting-anniversary-public-health-threats",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-07T08:30:00+00:00",
+      "text": "Opinion: I was in my office when bullets hit the CDC. A year later, the agency remains under attack “It was briefly more dangerous to sit at a desk in Atlanta than to chase a hemorrhagic fever in the field,” writes Daniel Jernigan.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.318,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.999,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "07ac22ae3b85e6af",
       "title": "Configure rate limits for AI traffic on AgentCore gateway",
       "url": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway",
@@ -3213,7 +3141,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.423,
+      "score": 57.303,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3225,7 +3153,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.847,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3249,43 +3177,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.362,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "07c73149a693521b",
-      "title": "Building an agentic app deployer with Amazon Bedrock and AWS Lambda",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-app-deployer-with-amazon-bedrock-and-aws-lambda",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-06T16:11:13+00:00",
-      "text": "Building an agentic app deployer with Amazon Bedrock and AWS Lambda PDI Technologies built PDI Brew, an agentic platform on AWS where non-technical employees describe a tool in plain English and receive a fully provisioned, multi-tenant web application in seconds. See how a pluggable planner and an AWS Lambda provisioning agent turn plain-English intent into governed, multi-tenant apps backed by Amazon Bedrock.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.043,
+      "score": 57.242,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3297,14 +3189,48 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "vendor",
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "17d18272120df01b",
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-07T08:06:40+00:00",
+      "text": "Meta fined $567m in largest child safety ruling against social media giant The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.051,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.987,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5363,6 +5289,74 @@
       "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
       "matched_terms": [
         "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f598d3dedb3f122",
+      "title": "Ai Agents In Engineering",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "674b5396927b0e3a",
+      "title": "Ai Agents In Engineering Ai Conference 2025",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "matched_terms": [
+        "engineering AI"
       ],
       "engagement": {},
       "score": 57.033,
