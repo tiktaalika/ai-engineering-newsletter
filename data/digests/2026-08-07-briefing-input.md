@@ -3,79 +3,79 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 15894
-- filtered_count: 2284
+- fetched_count: 16409
+- filtered_count: 2282
 - duplicate_count: 70
-- failures: 10
+- failures: 8
 
 ## Top 10 General AI News
 1. [WeatherNext: AI model achieves breakthrough in forecasting cyclones](https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones)
    - source: Google DeepMind
-   - score: 63.856
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.933; source_priority=1.0
+   - score: 63.703
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.926; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [[AINews] AMD buys Taalas](https://www.latent.space/p/ainews-amd-buys-taalas)
    - source: Latent Space
-   - score: 60.353
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.986; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.818
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.961; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Introducing Muse Code and Muse Spark 1.2](https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12)
    - source: Simon Willison
-   - score: 59.63
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.529; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 59.095
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.504; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.50; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [An AI model from Meta also hacked another company during testing](https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta)
    - source: Simon Willison
-   - score: 57.118
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.536; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.54; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.582
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.511; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.51; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Working with the American Psychological Association on youth mental health and AI](https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai)
    - source: OpenAI
-   - score: 55.134
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.777
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.732; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Baseten on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/baseten)
    - source: Hugging Face
-   - score: 46.972
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.529; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 46.437
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.505; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.50; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [From asking to doing: How the world is putting ChatGPT to work](https://openai.com/index/how-the-world-is-putting-chatgpt-to-work)
    - source: OpenAI
-   - score: 53.759
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.686; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.69; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.402
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.67; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.67; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [LLM optimization integration for Amazon SageMaker Python SDK](https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk)
    - source: Amazon AWS AI
-   - score: 70.124
-   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.854; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 69.767
+   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.838; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Securing AI agents with temporal policies in Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 61.438
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.884; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.082
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.867; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI](https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai)
    - source: TechCrunch AI
-   - score: 56.071
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.821; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 55.715
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.805; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [AI Safety Regulations in the U.S. Could Give Hackers an Edge](https://spectrum.ieee.org/hugging-face-openai-cyberattack)
    - source: IEEE Spectrum AI
-   - score: 78.133
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.665; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.67; matched_terms=10; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 77.063
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.616; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.62; matched_terms=10; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 2. [Predicting Blood Damage with Surrogate Modeling](https://www.comsol.com/blogs/predicting-blood-damage-with-surrogate-modeling)
    - source: COMSOL
-   - score: 70.942
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.982; source_priority=1.0
+   - score: 70.906
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.981; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [One of science fiction’s greatest writers warned us about a AI. Does he also hold the remedy? | Alan Finkel](https://www.theguardian.com/technology/commentisfree/2026/aug/07/science-fiction-warned-us-about-an-ai-powered-dystopian-future-does-it-also-hold-the-remedy)
    - source: The Guardian Technology
-   - score: 69.195
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.933; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 68.125
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.884; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Nafems Seminaire Ia Et Simulation](https://www.neuralconcept.com/post/nafems-seminaire-ia-et-simulation)
    - source: Neural Concept
    - score: 57.033
@@ -83,16 +83,16 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Google Maps adds agentic features, including food ordering and hotel bookings](https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings)
    - source: TechCrunch AI
-   - score: 56.79
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.816; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.433
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.8; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [U.S. moves to shut a Kentucky organ donation group, citing safety failures](https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns)
    - source: STAT Health Tech
-   - score: 46.092
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.489; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.49; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.022
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.44; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.44; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Improving Fable 5 S Biology Safeguards](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards)
    - source: Anthropic
    - score: 43.033
@@ -103,12 +103,12 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 35.167
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Schrodinger Bms Ai Drug Discovery](https://www.pharmaceutical-technology.com/news/schrodinger-bms-ai-drug-discovery)
-   - source: Pharmaceutical Technology
-   - score: 32.012
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.358; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.36; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Healthcare Answering Service](https://elevenlabs.io/agents/healthcare-answering-service)
+4. [Healthcare Answering Service](https://elevenlabs.io/agents/healthcare-answering-service)
+   - source: ElevenLabs
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Healthcare](https://elevenlabs.io/agents/healthcare)
    - source: ElevenLabs
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [WeatherNext: AI model achieves breakthrough in forecasting cyclones](https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones)
    - source: Google DeepMind
-   - score: 63.856
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.933; source_priority=1.0
+   - score: 63.703
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.926; source_priority=1.0
 2. [Lfm2 5 2 6B](https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b)
    - source: Hugging Face Papers
    - score: 51.033
@@ -174,12 +174,10 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - OpenAI Research RSS: HTTP Error 404: Not Found
-- GitHub Blog AI and ML: <urlopen error [Errno 104] Connection reset by peer>
 - Ansys: HTTP Error 404: Not Found
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
