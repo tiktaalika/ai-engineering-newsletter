@@ -3,83 +3,83 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16430
+- fetched_count: 16429
 - filtered_count: 2272
-- duplicate_count: 72
+- duplicate_count: 73
 - failures: 8
 
 ## Top 10 General AI News
 1. [Now we have a timeline of the OpenAI accidental attack against Hugging Face](https://simonwillison.net/2026/Aug/7/openai-timeline)
    - source: Simon Willison
-   - score: 74.143
-   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.885; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=6; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 74.034
+   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.88; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=6; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI](https://simonwillison.net/2026/Aug/7/pdfs-are-terrible)
    - source: Simon Willison
-   - score: 58.857
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.766; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.748
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.761; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [[AINews] Zawinski's Law of MultiAgents](https://www.latent.space/p/ainews-zawinskis-law-of-multiagents)
    - source: Latent Space
-   - score: 58.579
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.905; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.47
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.9; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [TutorMoments: Do AI tutors know when to help and when to hold back?](https://huggingface.co/blog/allenai/tutormoments)
    - source: Hugging Face
-   - score: 52.733
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.791; source_priority=1.0
+   - score: 52.624
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.786; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The Least Agentic People Alive](https://www.argmin.net/p/the-least-agentic-people-alive)
    - source: Argmin Gravitas
-   - score: 52.476
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.925; source_priority=0.65
+   - score: 52.444
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.923; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 6. [Responding to the next frontier of critical cyber capabilities](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities)
    - source: OpenAI
-   - score: 57.013
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.834; source_priority=1.0
+   - score: 56.941
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.831; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How HSP GRUPPE builds AI capabilities for tax advisory](https://openai.com/index/hsp-gruppe)
    - source: OpenAI
-   - score: 52.229
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.768; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.156
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.765; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Cloudflare launches Kitesurf, a browser built for AI agents](https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents)
    - source: TechCrunch AI
-   - score: 60.561
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.844; source_priority=1.0
+   - score: 60.489
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.84; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers](https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers)
    - source: TechCrunch AI
-   - score: 60.041
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.82; source_priority=1.0
+   - score: 59.969
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [How TReNDS automates root-cause analysis with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock)
    - source: Amazon AWS AI
-   - score: 59.92
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.845; source_priority=1.0
+   - score: 59.847
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.842; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Parametric Optimization via Local AI Inference](https://rescale.com/blog/parametric-optimization-local-ai-inference)
    - source: Rescale
-   - score: 70.873
+   - score: 70.865
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.979; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)](https://simonwillison.net/2026/Aug/7/moonlight-mayhem)
    - source: Simon Willison
-   - score: 70.051
-   - score_breakdown: general=0.833; engineering=0.25; research=0.0; novelty=0.813; source_priority=1.0
+   - score: 69.942
+   - score_breakdown: general=0.833; engineering=0.25; research=0.0; novelty=0.808; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=5; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [What’s new in Simcenter 3D 2606](https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-3d-2606)
    - source: Siemens Simcenter
-   - score: 62.125
+   - score: 62.117
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.581; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.58; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 58.665
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.598; source_priority=1.0
+   - score: 58.592
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.595; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.60; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [The 3 Ai Features In Designcenter Solid Edge](https://www.engineering.com/the-3-ai-features-in-designcenter-solid-edge)
    - source: Engineering.com
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 53.936
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.846; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.863
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: NIH plans to block international researchers on visas from accessing key funding avenue](https://www.statnews.com/2026/08/07/nih-k99-pathways-independence-awards-scientists-on-visas-barred)
    - source: STAT Health Tech
-   - score: 53.195
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.539; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.54; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 52.977
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.529; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.53; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [Healthcare](https://elevenlabs.io/agents/healthcare)
    - source: ElevenLabs
    - score: 31.833
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [The Least Agentic People Alive](https://www.argmin.net/p/the-least-agentic-people-alive)
    - source: Argmin Gravitas
-   - score: 52.476
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.925; source_priority=0.65
+   - score: 52.444
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.923; source_priority=0.65
 2. [Aisheets](https://huggingface.co/blog/aisheets)
    - source: Hugging Face Papers
    - score: 51.033
