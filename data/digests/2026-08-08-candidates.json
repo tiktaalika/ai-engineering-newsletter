@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-08T07:35:30.888941+00:00",
+    "generated_at": "2026-08-08T07:59:47.109384+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16429,
-    "filtered_count": 2272,
+    "fetched_count": 16420,
+    "filtered_count": 2264,
     "duplicate_count": 73,
     "failures": [
       {
@@ -14,6 +14,10 @@
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -68,10 +72,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 74.034,
+      "score": 73.895,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -80,7 +84,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.88,
+      "novelty_score": 0.874,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -107,10 +111,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.748,
+      "score": 58.609,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -119,7 +123,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.761,
+      "novelty_score": 0.755,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -145,10 +149,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.47,
+      "score": 58.331,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -157,7 +161,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.9,
+      "novelty_score": 0.894,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -181,10 +185,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.624,
+      "score": 52.485,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -193,7 +197,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.786,
+      "novelty_score": 0.78,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -217,7 +221,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 52.444,
+      "score": 52.405,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.92",
@@ -229,7 +233,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.923,
+      "novelty_score": 0.921,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -254,7 +258,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.941,
+      "score": 56.848,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -266,7 +270,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.831,
+      "novelty_score": 0.826,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -290,7 +294,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.156,
+      "score": 52.063,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -302,7 +306,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.765,
+      "novelty_score": 0.76,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -328,7 +332,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.489,
+      "score": 60.396,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -340,7 +344,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -365,10 +369,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 59.969,
+      "score": 59.876,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -377,7 +381,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.817,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -401,7 +405,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 59.847,
+      "score": 59.755,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -413,7 +417,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.842,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -425,41 +429,6 @@
     }
   ],
   "top_5_engineering_ai": [
-    {
-      "id": "ce34041ab220c35e",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 70.865,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
     {
       "id": "e5bfaf22ead27c21",
       "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
@@ -477,10 +446,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.942,
+      "score": 69.803,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -489,7 +458,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.808,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -514,7 +483,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 62.117,
+      "score": 62.108,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -551,10 +520,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.592,
+      "score": 58.5,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.59",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -563,7 +532,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.595,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -610,6 +579,41 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "0b3062ccd7eab0ed",
+      "title": "The Importance Of Uncertainty Quantification For Deep Learning Models In Cae",
+      "url": "https://www.neuralconcept.com/post/the-importance-of-uncertainty-quantification-for-deep-learning-models-in-cae",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "The Importance Of Uncertainty Quantification For Deep Learning Models In Cae https://www.neuralconcept.com/post/the-importance-of-uncertainty-quantification-for-deep-learning-models-in-cae",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
     }
   ],
   "top_5_medical_bio_ai": [
@@ -626,7 +630,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 53.863,
+      "score": 53.77,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -638,7 +642,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -662,10 +666,10 @@
         "Visa"
       ],
       "engagement": {},
-      "score": 52.977,
+      "score": 52.699,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.52",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -674,7 +678,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.529,
+      "novelty_score": 0.517,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -791,41 +795,6 @@
   ],
   "top_5_cae_ai_engineering": [
     {
-      "id": "ce34041ab220c35e",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 70.865,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "e5bfaf22ead27c21",
       "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
       "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem",
@@ -842,10 +811,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.942,
+      "score": 69.803,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -854,7 +823,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.808,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -879,7 +848,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 62.117,
+      "score": 62.108,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -916,10 +885,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.592,
+      "score": 58.5,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.59",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -928,7 +897,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.595,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -975,6 +944,41 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "0b3062ccd7eab0ed",
+      "title": "The Importance Of Uncertainty Quantification For Deep Learning Models In Cae",
+      "url": "https://www.neuralconcept.com/post/the-importance-of-uncertainty-quantification-for-deep-learning-models-in-cae",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "The Importance Of Uncertainty Quantification For Deep Learning Models In Cae https://www.neuralconcept.com/post/the-importance-of-uncertainty-quantification-for-deep-learning-models-in-cae",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
     }
   ],
   "research_radar": [
@@ -991,7 +995,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 52.444,
+      "score": 52.405,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.92",
@@ -1003,7 +1007,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.923,
+      "novelty_score": 0.921,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -1741,42 +1745,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "62d96c69dc2ef01f",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 78.059,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.73,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "38e08489b57daa1b",
       "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
       "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
@@ -1794,10 +1762,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 74.034,
+      "score": 73.895,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1806,7 +1774,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.88,
+      "novelty_score": 0.874,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1816,79 +1784,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "58734c7c02d92a7e",
-      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
-      "url": "https://rescale.com/blog/ai-physics-automotive-crash-structural-fea-simulations",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-24T10:29:00+00:00",
-      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "FEA",
-        "structural simulation"
-      ],
-      "engagement": {},
-      "score": 73.15,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=4",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.628,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ce34041ab220c35e",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 70.865,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1904,7 +1799,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 70.358,
+      "score": 70.349,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1916,7 +1811,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.956,
+      "novelty_score": 0.955,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1942,10 +1837,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.942,
+      "score": 69.803,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -1954,7 +1849,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.808,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1981,7 +1876,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 67.795,
+      "score": 67.785,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.54",
@@ -2086,7 +1981,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 66.053,
+      "score": 66.044,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -2125,10 +2020,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 64.292,
+      "score": 64.199,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.58",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2137,7 +2032,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.589,
+      "novelty_score": 0.585,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2161,7 +2056,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 63.742,
+      "score": 63.733,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -2230,7 +2125,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 62.117,
+      "score": 62.108,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2265,7 +2160,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.357,
+      "score": 61.317,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2277,7 +2172,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.819,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2302,7 +2197,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.04,
+      "score": 61.0,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -2314,7 +2209,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.502,
+      "novelty_score": 0.5,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2339,7 +2234,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.489,
+      "score": 60.396,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2351,7 +2246,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2702,10 +2597,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 59.969,
+      "score": 59.876,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2714,7 +2609,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.817,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2738,7 +2633,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 59.847,
+      "score": 59.755,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2750,7 +2645,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.842,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2796,41 +2691,6 @@
       "source_priority": "high"
     },
     {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 59.335,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.45",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.455,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "8c11d8954e9a0e24",
       "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
       "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible",
@@ -2845,10 +2705,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.748,
+      "score": 58.609,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2857,7 +2717,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.761,
+      "novelty_score": 0.755,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2883,10 +2743,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.653,
+      "score": 58.561,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2895,7 +2755,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2920,10 +2780,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.592,
+      "score": 58.5,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.59",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2932,7 +2792,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.595,
+      "novelty_score": 0.591,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2956,10 +2816,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.47,
+      "score": 58.331,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2968,7 +2828,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.9,
+      "novelty_score": 0.894,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -2993,7 +2853,7 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 58.118,
+      "score": 57.979,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -3005,7 +2865,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3015,44 +2875,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "655262c61265532c",
-      "title": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy",
-      "url": "https://www.theguardian.com/technology/2026/aug/07/white-house-ai",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-07T13:00:18+00:00",
-      "text": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy A Trump administration framework on AI testing leaves a lack of transparency – and plenty of open questions After months of talking with tech industry leaders, the Trump administration finalized a framework this week for how it will test new artificial intelligence models for safety and cybersecurity risks. So far, the White House is keeping details of the framework private, in a blow to transparency and potential boon for secretive AI companies. On Tuesday, staff from OpenAI, Anthropic, Meta, Google, Nvidia and Microsoft attended a private meeting with White House officials to review the AI framework. Multiple outlets have since reported that although the volunteer vetting process for new AI models has been settled, the White House does not plan to release its policy publicly and will only share testing criteria with a select few tech companies. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.888,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.42",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.419,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3104,7 +2926,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 57.718,
+      "score": 57.709,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -3203,38 +3025,41 @@
       "source_priority": "high"
     },
     {
-      "id": "f7a88fc37e79f3e4",
-      "title": "Agent-Driven Simulation Troubleshooting",
-      "url": "https://rescale.com/blog/agent-driven-simulation-troubleshooting",
-      "source": "Rescale",
+      "id": "655262c61265532c",
+      "title": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy",
+      "url": "https://www.theguardian.com/technology/2026/aug/07/white-house-ai",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-14T12:00:00+00:00",
-      "text": "Agent-Driven Simulation Troubleshooting Resolve simulation failures in minutes, not hours. Rescale's Job Troubleshooting Agent analyzes solver logs, pinpoints the failure, explains what went wrong in plain language, and recommends corrective actions, all within the Rescale Assistant. Engineers review and approve fixes before resubmission, keeping human judgment in the loop while eliminating the manual overhead of failure diagnosis.",
+      "category": "general_ai",
+      "published_at": "2026-08-07T13:00:18+00:00",
+      "text": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy A Trump administration framework on AI testing leaves a lack of transparency – and plenty of open questions After months of talking with tech industry leaders, the Trump administration finalized a framework this week for how it will test new artificial intelligence models for safety and cybersecurity risks. So far, the White House is keeping details of the framework private, in a blow to transparency and potential boon for secretive AI companies. On Tuesday, staff from OpenAI, Anthropic, Meta, Google, Nvidia and Microsoft attended a private meeting with White House officials to review the AI framework. Multiple outlets have since reported that although the volunteer vetting process for new AI models has been settled, the White House does not plan to release its policy publicly and will only share testing criteria with a select few tech companies. Continue reading...",
       "matched_terms": [
-        "simulation"
+        "AI",
+        "artificial intelligence",
+        "OpenAI",
+        "Anthropic",
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 57.684,
+      "score": 57.61,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.38",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
+        "novelty=0.41",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.38,
+      "novelty_score": 0.407,
       "source_priority_score": 1.0,
       "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "engineering_ai",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3251,7 +3076,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 57.174,
+      "score": 57.081,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3263,7 +3088,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.841,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -5363,6 +5188,176 @@
       "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
       "matched_terms": [
         "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "674b5396927b0e3a",
+      "title": "Ai Agents In Engineering Ai Conference 2025",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3cfd8b1d1cd4d509",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ea9ebd5a3b0bd743",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "51f9f00633997da4",
+      "title": "Automating Cae Reporting",
+      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a04eae22c7539e13",
+      "title": "Automatisierung Cae Berichterstattung",
+      "url": "https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
+      "matched_terms": [
+        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
