@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-08T07:59:47.109384+00:00",
+    "generated_at": "2026-08-08T08:20:56.934195+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16420,
-    "filtered_count": 2264,
+    "fetched_count": 16507,
+    "filtered_count": 2265,
     "duplicate_count": 73,
     "failures": [
       {
@@ -72,7 +72,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 73.895,
+      "score": 73.774,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -84,7 +84,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.874,
+      "novelty_score": 0.868,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -111,7 +111,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.609,
+      "score": 58.488,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -123,7 +123,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.755,
+      "novelty_score": 0.749,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -149,7 +149,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.331,
+      "score": 58.21,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -161,48 +161,12 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.894,
+      "novelty_score": 0.888,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
         "ai_engineering",
         "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "fd5b733b3580dcf8",
-      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "source": "Hugging Face",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-07T17:53:32+00:00",
-      "text": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 52.485,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "open_source",
-        "models",
-        "datasets",
         "guo_yichen_reference"
       ],
       "registry_category": "community",
@@ -221,7 +185,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 52.405,
+      "score": 52.37,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.92",
@@ -233,7 +197,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.921,
+      "novelty_score": 0.92,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -243,6 +207,42 @@
       ],
       "registry_category": "research",
       "source_priority": "medium"
+    },
+    {
+      "id": "fd5b733b3580dcf8",
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-07T17:53:32+00:00",
+      "text": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 52.364,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.774,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
     },
     {
       "id": "833934ee3b25f4a5",
@@ -258,10 +258,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.848,
+      "score": 56.767,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -270,7 +270,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.826,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -294,7 +294,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.063,
+      "score": 51.982,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -306,7 +306,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.76,
+      "novelty_score": 0.757,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -332,10 +332,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.396,
+      "score": 60.315,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -344,7 +344,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
+      "novelty_score": 0.833,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -369,7 +369,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 59.876,
+      "score": 59.795,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -381,7 +381,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.813,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -405,10 +405,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 59.755,
+      "score": 59.674,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -417,7 +417,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.837,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -446,7 +446,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.803,
+      "score": 69.682,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -458,7 +458,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.802,
+      "novelty_score": 0.796,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -483,7 +483,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 62.108,
+      "score": 62.1,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -495,7 +495,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.581,
+      "novelty_score": 0.58,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -520,7 +520,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.5,
+      "score": 58.419,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.59",
@@ -532,7 +532,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.591,
+      "novelty_score": 0.587,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -630,10 +630,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 53.77,
+      "score": 53.69,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -642,7 +642,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.838,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -666,10 +666,10 @@
         "Visa"
       ],
       "engagement": {},
-      "score": 52.699,
+      "score": 52.456,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.52",
+        "novelty=0.51",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -678,7 +678,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.517,
+      "novelty_score": 0.506,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -811,7 +811,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.803,
+      "score": 69.682,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -823,7 +823,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.802,
+      "novelty_score": 0.796,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -848,7 +848,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 62.108,
+      "score": 62.1,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -860,7 +860,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.581,
+      "novelty_score": 0.58,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -885,7 +885,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.5,
+      "score": 58.419,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.59",
@@ -897,7 +897,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.591,
+      "novelty_score": 0.587,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -995,7 +995,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 52.405,
+      "score": 52.37,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.92",
@@ -1007,7 +1007,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.921,
+      "novelty_score": 0.92,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -1311,16 +1311,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1603,16 +1593,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1762,7 +1742,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 73.895,
+      "score": 73.774,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -1774,7 +1754,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.874,
+      "novelty_score": 0.868,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1799,10 +1779,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 70.349,
+      "score": 70.341,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1837,7 +1817,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.803,
+      "score": 69.682,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1849,7 +1829,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.802,
+      "novelty_score": 0.796,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1876,7 +1856,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 67.785,
+      "score": 67.777,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.54",
@@ -1888,7 +1868,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.536,
+      "novelty_score": 0.535,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1981,7 +1961,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 66.044,
+      "score": 66.036,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -1993,7 +1973,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.76,
+      "novelty_score": 0.759,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2020,7 +2000,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 64.199,
+      "score": 64.118,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2032,7 +2012,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.585,
+      "novelty_score": 0.581,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2056,7 +2036,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 63.733,
+      "score": 63.725,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -2068,7 +2048,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.382,
+      "novelty_score": 0.381,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2125,7 +2105,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 62.108,
+      "score": 62.1,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2137,7 +2117,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.581,
+      "novelty_score": 0.58,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2160,7 +2140,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.317,
+      "score": 61.282,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2172,7 +2152,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.817,
+      "novelty_score": 0.816,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2197,7 +2177,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.0,
+      "score": 60.966,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -2209,7 +2189,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.5,
+      "novelty_score": 0.498,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2217,43 +2197,6 @@
         "ai"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "b0e67e927266a60b",
-      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
-      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-07T16:16:09+00:00",
-      "text": "Cloudflare launches Kitesurf, a browser built for AI agents Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.396,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2583,6 +2526,43 @@
       "source_priority": "high"
     },
     {
+      "id": "b0e67e927266a60b",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-07T16:16:09+00:00",
+      "text": "Cloudflare launches Kitesurf, a browser built for AI agents Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.315,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.833,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "68ac6cb57e2bfe56",
       "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
       "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers",
@@ -2597,7 +2577,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 59.876,
+      "score": 59.795,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2609,7 +2589,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.813,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2617,42 +2597,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "485d646f1c319579",
-      "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-07T16:22:50+00:00",
-      "text": "How TReNDS automates root-cause analysis with Amazon Bedrock TReNDS, a research center at Georgia State University, built an agentic AI pipeline on Amazon Bedrock and the open-source Strands Agents SDK that automatically investigates production errors in real time, reducing root-cause analysis from 15 to 30 minutes of manual work to under 60 seconds.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 59.755,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.837,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2691,6 +2635,42 @@
       "source_priority": "high"
     },
     {
+      "id": "485d646f1c319579",
+      "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-07T16:22:50+00:00",
+      "text": "How TReNDS automates root-cause analysis with Amazon Bedrock TReNDS, a research center at Georgia State University, built an agentic AI pipeline on Amazon Bedrock and the open-source Strands Agents SDK that automatically investigates production errors in real time, reducing root-cause analysis from 15 to 30 minutes of manual work to under 60 seconds.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 59.674,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.834,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "8c11d8954e9a0e24",
       "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
       "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible",
@@ -2705,7 +2685,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.609,
+      "score": 58.488,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -2717,7 +2697,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.755,
+      "novelty_score": 0.749,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2743,7 +2723,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.561,
+      "score": 58.48,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2755,7 +2735,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.901,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2780,7 +2760,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.5,
+      "score": 58.419,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.59",
@@ -2792,7 +2772,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.591,
+      "novelty_score": 0.587,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2816,7 +2796,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.331,
+      "score": 58.21,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -2828,50 +2808,12 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.894,
+      "novelty_score": 0.888,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
         "ai_engineering",
         "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "2d999cd1a7008d48",
-      "title": "Quoting John Gruber",
-      "url": "https://simonwillison.net/2026/Aug/8/john-gruber",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-08T00:10:40+00:00",
-      "text": "Quoting John Gruber Me, I try to get into the mindset of playing live music, not recording a studio album. Except when I’m writing a piece where I really want it to be an album. Those aren’t rare , per se, but they’re occasional . If I tried to make every post a hall-of-famer I’d never get anything out. I’m aiming for professionalism. I’m performing live in front of an audience — not just jamming in my garage or bedroom, fucking around. So I’m careful and concentrate. I want to hit every note, in time. But at my best I’m moving from song to song. — John Gruber , responding to my blogging tips Tags: john-gruber , blogging",
-      "matched_terms": [
-        "AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 57.979,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
         "guo_yichen_reference"
       ],
       "registry_category": "community",
@@ -2914,6 +2856,44 @@
       "source_priority": "high"
     },
     {
+      "id": "2d999cd1a7008d48",
+      "title": "Quoting John Gruber",
+      "url": "https://simonwillison.net/2026/Aug/8/john-gruber",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-08T00:10:40+00:00",
+      "text": "Quoting John Gruber Me, I try to get into the mindset of playing live music, not recording a studio album. Except when I’m writing a piece where I really want it to be an album. Those aren’t rare , per se, but they’re occasional . If I tried to make every post a hall-of-famer I’d never get anything out. I’m aiming for professionalism. I’m performing live in front of an audience — not just jamming in my garage or bedroom, fucking around. So I’m careful and concentrate. I want to hit every note, in time. But at my best I’m moving from song to song. — John Gruber , responding to my blogging tips Tags: john-gruber , blogging",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 57.858,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.872,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "4693532790c5e944",
       "title": "Leveraging know-how with AI into efficient product design",
       "url": "https://blogs.sw.siemens.com/art-of-the-possible/leveraging-know-how-with-ai-into-efficient-product-design",
@@ -2926,7 +2906,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 57.709,
+      "score": 57.701,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.38",
@@ -2938,7 +2918,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.381,
+      "novelty_score": 0.38,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -3041,10 +3021,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.61,
+      "score": 57.368,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.41",
+        "novelty=0.40",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3053,49 +3033,13 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.407,
+      "novelty_score": 0.395,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "00ec4857b4b36b61",
-      "title": "Determining playoff clinching scenarios in the NHL using constraint programming",
-      "url": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-07T16:21:00+00:00",
-      "text": "Determining playoff clinching scenarios in the NHL using constraint programming The AWS Generative AI Innovation Center built an automated system that uses constraint programming and custom tree search to determine, with mathematical certainty, when and how an NHL team clinches a playoff spot. The approach was validated against four full NHL seasons of officially published results.",
-      "matched_terms": [
-        "AI",
-        "generative AI"
-      ],
-      "engagement": {},
-      "score": 57.081,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.837,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -5358,6 +5302,40 @@
       "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
       "matched_terms": [
         "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0a951fddf5b3666d",
+      "title": "Automatisierung Fea Aufgaben",
+      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "matched_terms": [
+        "FEA"
       ],
       "engagement": {},
       "score": 57.033,
