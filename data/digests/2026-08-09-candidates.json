@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-09T06:08:28.120759+00:00",
+    "generated_at": "2026-08-09T07:16:55.901659+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16428,
-    "filtered_count": 2239,
+    "fetched_count": 16522,
+    "filtered_count": 2237,
     "duplicate_count": 74,
     "failures": [
       {
@@ -64,10 +64,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 50.367,
+      "score": 49.975,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.51",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -76,7 +76,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.532,
+      "novelty_score": 0.514,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -102,10 +102,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.271,
+      "score": 58.009,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -114,7 +114,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.879,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -175,10 +175,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 52.006,
+      "score": 51.745,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.59",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -187,7 +187,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.606,
+      "novelty_score": 0.594,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -234,38 +234,39 @@
       "source_priority": "high"
     },
     {
-      "id": "4c08905f6bd0b849",
-      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
-      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
+      "id": "5e0b8e7384530abd",
+      "title": "Vibe AI agent for long-horizon work.",
+      "url": "https://mistral.ai/products/vibe",
+      "source": "Mistral AI",
+      "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-08-07T21:30:11+00:00",
-      "text": "After Rippling blew millions on AI in months, it built an employee ROI tool After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "published_at": null,
+      "text": "Vibe AI agent for long-horizon work. https://mistral.ai/products/vibe/",
       "matched_terms": [
-        "AI"
+        "AI",
+        "agent",
+        "AI agent"
       ],
       "engagement": {},
-      "score": 49.854,
+      "score": 49.7,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
-        "matched_terms=1",
+        "novelty=0.35",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.66,
+      "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "frontier_model",
+        "open_model"
       ],
-      "registry_category": "startup",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -280,41 +281,6 @@
       "matched_terms": [
         "AI",
         "agent"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "25ee4c663561b7da",
-      "title": "Compute Frontier-scale infrastructure for training and inference.",
-      "url": "https://mistral.ai/products/compute",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Compute Frontier-scale infrastructure for training and inference. https://mistral.ai/products/compute/",
-      "matched_terms": [
-        "AI",
-        "inference"
       ],
       "engagement": {},
       "score": 46.367,
@@ -373,19 +339,54 @@
       "source_priority": "high"
     },
     {
-      "id": "e5e9f947f304e072",
-      "title": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock",
-      "source": "Amazon AWS AI",
+      "id": "700706e07d8d9b67",
+      "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+      "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-06T16:12:24+00:00",
-      "text": "Agent Skills for Automated Reasoning policies in Amazon Bedrock Learn how to run the full Amazon Bedrock Automated Reasoning policy lifecycle from your coding agent. A suite of open source Agent Skills builds, reviews, tests, debugs, deploys, and validates a custom policy end to end, turning a specialized console task into a repeatable engineering workflow.",
+      "published_at": "2026-08-06T13:00:00+00:00",
+      "text": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
       "matched_terms": [
-        "agent"
+        "AI"
       ],
       "engagement": {},
-      "score": 43.14,
+      "score": 44.81,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.31",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.31,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "2e5f44f4fca33d3e",
+      "title": "Challenging your brain helps keep it healthy. Here's how to do it",
+      "url": "https://apnews.com/article/brain-games-dementia-alzheimers-cognition-e4ceb3b4dda84977083d1fc9fbb25ba7",
+      "source": "Associated Press Technology",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Challenging your brain helps keep it healthy. Here's how to do it https://apnews.com/article/brain-games-dementia-alzheimers-cognition-e4ceb3b4dda84977083d1fc9fbb25ba7",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 43.033,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.35",
@@ -397,14 +398,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.355,
+      "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "technology",
+        "global_news"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -427,10 +427,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 77.575,
+      "score": 77.182,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -439,7 +439,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.882,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -464,10 +464,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 70.349,
+      "score": 70.322,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -476,7 +476,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
+      "novelty_score": 0.954,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -662,42 +662,6 @@
       "source_priority": "medium"
     },
     {
-      "id": "65a12f5364acdd80",
-      "title": "Top 7 Modern Ai Powered Eap Providers For Global Workforces In 2026",
-      "url": "https://medcitynews.com/2026/05/top-7-modern-ai-powered-eap-providers-for-global-workforces-in-2026",
-      "source": "MedCity News",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Top 7 Modern Ai Powered Eap Providers For Global Workforces In 2026 https://medcitynews.com/2026/05/top-7-modern-ai-powered-eap-providers-for-global-workforces-in-2026/",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech",
-        "digital_health"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
       "id": "8a650b2a624edd60",
       "title": "Debunked Episode 29 Cms Glp 1 Drug Pilot Program Rpm Strategy Raise Questions",
       "url": "https://medcitynews.com/2026/08/debunked-episode-29-cms-glp-1-drug-pilot-program-rpm-strategy-raise-questions",
@@ -734,37 +698,71 @@
       "source_priority": "medium"
     },
     {
-      "id": "53355a09f2fa13dd",
-      "title": "Generative AI Could 'Invent' Biological Discoveries That Don't Exist - ScienceAlert",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRU1qMkVBTXYyLVZ5bXFrWXFxUnMyTXVjRlk0VTFZR0pCakEybC1MYmhhcE4xeEpnb1huU2xkTGlyNmIxalpxV2k1Z1ROVmJRQ0dtVlZ2ak1HSmRGN2hfS0tXaDh0YkZDMEJyNENqZUdSQ3JRckkxanduM09UV2hLb0xleTJaLXhRY3c2clEzQkdPTEFRVkhkOUVn?oc=5",
-      "source": "Google News Bio and Genetics AI Discovery",
-      "source_kind": "google_news_rss",
+      "id": "179274be1a62546c",
+      "title": "Artificial Intelligence,",
+      "url": "https://medcitynews.com/category/channel/artificial-intelligence",
+      "source": "MedCity News",
+      "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-08-08T21:01:36+00:00",
-      "text": "Generative AI Could 'Invent' Biological Discoveries That Don't Exist - ScienceAlert Generative AI Could 'Invent' Biological Discoveries That Don't Exist ScienceAlert",
+      "published_at": null,
+      "text": "Artificial Intelligence, https://medcitynews.com/category/channel/artificial-intelligence/",
       "matched_terms": [
-        "AI",
-        "generative AI"
+        "artificial intelligence"
       ],
       "engagement": {},
-      "score": 33.6,
+      "score": 31.833,
       "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.72",
-        "matched_terms=2",
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.715,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech",
+        "digital_health"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
+    },
+    {
+      "id": "d4758313a564f51f",
+      "title": "Pfizer Stock Leads 3 AI Healthcare Picks Built For Smarter Care - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRGo3LU5WczJBN1NaZ0tZNXRlWG5EV0xESFhvWHJNZTF2RHhjaVpqblg1TVFhSGpFUWxkRjdLdHhOWkpqdlFOMTVvZlllUFJKbWNsenJzNldvSzlNZ0hwYXJ5Y1h1S3NyTFBfd291bk1YVXUwS2g1Y01UMUdWLURCdldZZGs5WGU3V0pqdHlBbmVsMFJNYTFmVmdlTEhkdncyOU1YNEc1a2d2dDNaWndkM2ZlMlY5QTFtRkpEWlh5aXFRVmpwcTZuTTFQaXE5b0QyWlpR0gHYAUFVX3lxTE50ZWw1cVc5WV9NR01ZelBGZlBHckJTRC1ZSXZBcWF4RmxaeDNNaDk0SkJGMC15Zzl0ZFg0eEh6TmVVRW9vWGZTUlprUHhndjZtVTgwMlBuSTk4VDUwbkEtb1B4MVFrUjhPRjJqa2JnbmxGTGhzb2VBWlpIMk5wY0owVDNjMnlkQ0I5bHRJQTVqLWJuR1RBZExMbTNBTDVfbEI2emZGa1diWWlzeVkxNWktaUM0WU9iU3F2ZEFNU25JZ1lOcWlZX3p1Y09aaTZZM3JBU1BPVDByRg?oc=5",
+      "source": "Google News Medical AI Discovery",
+      "source_kind": "google_news_rss",
+      "category": "general_ai",
+      "published_at": "2026-08-09T06:41:01+00:00",
+      "text": "Pfizer Stock Leads 3 AI Healthcare Picks Built For Smarter Care - simplywall.st Pfizer Stock Leads 3 AI Healthcare Picks Built For Smarter Care simplywall.st",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 36.122,
+      "score_reasons": [
+        "source_priority=0.35",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
       "source_priority_score": 0.35,
       "source_tags": [
-        "bio_ai",
-        "genomics_ai",
-        "genetics_ai",
+        "medical_ai",
+        "healthcare_ai",
         "discovery"
       ],
       "registry_category": "general_ai",
@@ -790,10 +788,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 77.575,
+      "score": 77.182,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -802,7 +800,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.882,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -827,10 +825,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 70.349,
+      "score": 70.322,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -839,7 +837,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
+      "novelty_score": 0.954,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1288,16 +1286,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1580,16 +1568,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1722,6 +1700,42 @@
   ],
   "top_100_news_candidates": [
     {
+      "id": "62d96c69dc2ef01f",
+      "title": "Agent-Accelerated Computational Chemistry",
+      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-28T12:20:00+00:00",
+      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 77.516,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.71",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.705,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "8da9711a4ca84578",
       "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
       "url": "https://simonwillison.net/2026/Aug/8/auto-mode",
@@ -1739,10 +1753,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 77.575,
+      "score": 77.182,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1751,7 +1765,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.882,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1761,42 +1775,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "62d96c69dc2ef01f",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 77.542,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.71",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.706,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1815,7 +1793,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 72.633,
+      "score": 72.607,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -1827,7 +1805,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.605,
+      "novelty_score": 0.603,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1850,10 +1828,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 70.349,
+      "score": 70.322,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1862,7 +1840,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
+      "novelty_score": 0.954,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1885,7 +1863,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 69.842,
+      "score": 69.816,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1897,7 +1875,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.932,
+      "novelty_score": 0.931,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1921,7 +1899,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 67.278,
+      "score": 67.252,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -1933,7 +1911,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.513,
+      "novelty_score": 0.511,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2031,10 +2009,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 66.283,
+      "score": 65.89,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.51",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2043,7 +2021,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.528,
+      "novelty_score": 0.51,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2068,7 +2046,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 65.536,
+      "score": 65.51,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -2080,7 +2058,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.736,
+      "novelty_score": 0.735,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2106,10 +2084,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.49,
+      "score": 64.098,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.73",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2118,7 +2096,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.75,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2144,7 +2122,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 63.225,
+      "score": 63.199,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -2156,7 +2134,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.359,
+      "novelty_score": 0.358,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2217,10 +2195,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.191,
+      "score": 61.799,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.46",
+        "novelty=0.44",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2229,7 +2207,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.456,
+      "novelty_score": 0.438,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2239,6 +2217,41 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "c98636a5d381bfcc",
+      "title": "What’s new in Simcenter 3D 2606",
+      "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-3d-2606",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-22T13:26:31+00:00",
+      "text": "What’s new in Simcenter 3D 2606 Discover what’s new in the Simcenter Mechanical 2512 release, featuring faster NVH analysis, design exploration, and streamlined engineering workflows. Read this blog to see what’s new in Simcenter 3D, Simcenter Femap, Simcenter Nastran and more.",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 61.574,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.56",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.556,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2258,10 +2271,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.64,
+      "score": 60.855,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.55",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2270,48 +2283,13 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.59,
+      "novelty_score": 0.554,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c98636a5d381bfcc",
-      "title": "What’s new in Simcenter 3D 2606",
-      "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-3d-2606",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-22T13:26:31+00:00",
-      "text": "What’s new in Simcenter 3D 2606 Discover what’s new in the Simcenter Mechanical 2512 release, featuring faster NVH analysis, design exploration, and streamlined engineering workflows. Read this blog to see what’s new in Simcenter 3D, Simcenter Femap, Simcenter Nastran and more.",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 61.601,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.558,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2688,10 +2666,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.142,
+      "score": 59.03,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.71",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2700,7 +2678,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.719,
+      "novelty_score": 0.713,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2727,10 +2705,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 59.124,
+      "score": 58.862,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.34",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2739,7 +2717,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.354,
+      "novelty_score": 0.342,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2747,6 +2725,41 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "a9313472d40e9aa4",
+      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
+      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-17T12:01:00+00:00",
+      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 58.792,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.43",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.43,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2764,7 +2777,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.825,
+      "score": 58.713,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -2776,7 +2789,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.401,
+      "novelty_score": 0.396,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2784,41 +2797,6 @@
         "ai"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 58.818,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.431,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2835,10 +2813,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.271,
+      "score": 58.009,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2847,7 +2825,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.879,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2980,7 +2958,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 57.202,
+      "score": 57.175,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -2992,7 +2970,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.358,
+      "novelty_score": 0.356,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -3017,10 +2995,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 57.168,
+      "score": 57.141,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.36",
+        "novelty=0.35",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -3029,7 +3007,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.356,
+      "novelty_score": 0.355,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",

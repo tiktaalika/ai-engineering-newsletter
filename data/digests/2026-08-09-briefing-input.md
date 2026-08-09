@@ -3,22 +3,22 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16428
-- filtered_count: 2239
+- fetched_count: 16522
+- filtered_count: 2237
 - duplicate_count: 74
 - failures: 8
 
 ## Top 10 General AI News
 1. [Quoting John Gruber](https://simonwillison.net/2026/Aug/8/john-gruber)
    - source: Simon Willison
-   - score: 50.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.532; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.975
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.514; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.51; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [OpenAI acquires presentation startup NextSlide](https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide)
    - source: TechCrunch AI
-   - score: 58.271
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.891; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.009
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.879; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
    - score: 52.367
@@ -26,51 +26,51 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Determining playoff clinching scenarios in the NHL using constraint programming](https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming)
    - source: Amazon AWS AI
-   - score: 52.006
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.606; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.61; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.745
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.594; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.59; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Claude On Mars](https://www.anthropic.com/features/claude-on-mars)
    - source: Anthropic
    - score: 49.867
    - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-6. [After Rippling blew millions on AI in months, it built an employee ROI tool](https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool)
-   - source: TechCrunch AI
-   - score: 49.854
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.66; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.66; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Vibe AI agent for long-horizon work.](https://mistral.ai/products/vibe)
+   - source: Mistral AI
+   - score: 49.7
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Vibe for code Coding agents in the terminal, IDE, and background.](https://mistral.ai/products/vibe/code)
    - source: Mistral AI
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Compute Frontier-scale infrastructure for training and inference.](https://mistral.ai/products/compute)
-   - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Anthropic Compute Partnership](https://x.ai/news/anthropic-compute-partnership)
+8. [Anthropic Compute Partnership](https://x.ai/news/anthropic-compute-partnership)
    - source: xAI
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Agent Skills for Automated Reasoning policies in Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock)
-   - source: Amazon AWS AI
-   - score: 43.14
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.355; source_priority=1.0
+9. [Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI](https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai)
+   - source: TechCrunch AI
+   - score: 44.81
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.31; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.31; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+10. [Challenging your brain helps keep it healthy. Here's how to do it](https://apnews.com/article/brain-games-dementia-alzheimers-cognition-e4ceb3b4dda84977083d1fc9fbb25ba7)
+   - source: Associated Press Technology
+   - score: 43.033
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Auto mode is now the default in Claude Code for Pro, Max, and Team plans](https://simonwillison.net/2026/Aug/8/auto-mode)
    - source: Simon Willison
-   - score: 77.575
-   - score_breakdown: general=1.0; engineering=0.25; research=0.333; novelty=0.882; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=6; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 77.182
+   - score_breakdown: general=1.0; engineering=0.25; research=0.333; novelty=0.864; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=6; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 2. [Parametric Optimization via Local AI Inference](https://rescale.com/blog/parametric-optimization-local-ai-inference)
    - source: Rescale
-   - score: 70.349
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.955; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 70.322
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.954; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation](https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation)
    - source: Synera
    - score: 67.033
@@ -98,21 +98,21 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Top 7 Modern Ai Powered Eap Providers For Global Workforces In 2026](https://medcitynews.com/2026/05/top-7-modern-ai-powered-eap-providers-for-global-workforces-in-2026)
+3. [Debunked Episode 29 Cms Glp 1 Drug Pilot Program Rpm Strategy Raise Questions](https://medcitynews.com/2026/08/debunked-episode-29-cms-glp-1-drug-pilot-program-rpm-strategy-raise-questions)
    - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Debunked Episode 29 Cms Glp 1 Drug Pilot Program Rpm Strategy Raise Questions](https://medcitynews.com/2026/08/debunked-episode-29-cms-glp-1-drug-pilot-program-rpm-strategy-raise-questions)
+4. [Artificial Intelligence,](https://medcitynews.com/category/channel/artificial-intelligence)
    - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Generative AI Could 'Invent' Biological Discoveries That Don't Exist - ScienceAlert](https://news.google.com/rss/articles/CBMimgFBVV95cUxQRU1qMkVBTXYyLVZ5bXFrWXFxUnMyTXVjRlk0VTFZR0pCakEybC1MYmhhcE4xeEpnb1huU2xkTGlyNmIxalpxV2k1Z1ROVmJRQ0dtVlZ2ak1HSmRGN2hfS0tXaDh0YkZDMEJyNENqZUdSQ3JRckkxanduM09UV2hLb0xleTJaLXhRY3c2clEzQkdPTEFRVkhkOUVn?oc=5)
-   - source: Google News Bio and Genetics AI Discovery
-   - score: 33.6
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.715; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.72; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Pfizer Stock Leads 3 AI Healthcare Picks Built For Smarter Care - simplywall.st](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRGo3LU5WczJBN1NaZ0tZNXRlWG5EV0xESFhvWHJNZTF2RHhjaVpqblg1TVFhSGpFUWxkRjdLdHhOWkpqdlFOMTVvZlllUFJKbWNsenJzNldvSzlNZ0hwYXJ5Y1h1S3NyTFBfd291bk1YVXUwS2g1Y01UMUdWLURCdldZZGs5WGU3V0pqdHlBbmVsMFJNYTFmVmdlTEhkdncyOU1YNEc1a2d2dDNaWndkM2ZlMlY5QTFtRkpEWlh5aXFRVmpwcTZuTTFQaXE5b0QyWlpR0gHYAUFVX3lxTE50ZWw1cVc5WV9NR01ZelBGZlBHckJTRC1ZSXZBcWF4RmxaeDNNaDk0SkJGMC15Zzl0ZFg0eEh6TmVVRW9vWGZTUlprUHhndjZtVTgwMlBuSTk4VDUwbkEtb1B4MVFrUjhPRjJqa2JnbmxGTGhzb2VBWlpIMk5wY0owVDNjMnlkQ0I5bHRJQTVqLWJuR1RBZExMbTNBTDVfbEI2emZGa1diWWlzeVkxNWktaUM0WU9iU3F2ZEFNU25JZ1lOcWlZX3p1Y09aaTZZM3JBU1BPVDByRg?oc=5)
+   - source: Google News Medical AI Discovery
+   - score: 36.122
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.981; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Nvidia Physical Ai](https://huggingface.co/blog/nvidia-physical-ai)
@@ -152,7 +152,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
-- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
