@@ -3,22 +3,22 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16428
+- fetched_count: 16427
 - filtered_count: 2235
-- duplicate_count: 75
+- duplicate_count: 73
 - failures: 8
 
 ## Top 10 General AI News
 1. [Quoting John Gruber](https://simonwillison.net/2026/Aug/8/john-gruber)
    - source: Simon Willison
-   - score: 49.841
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.508; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.51; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.72
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.502; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.50; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [OpenAI acquires presentation startup NextSlide](https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide)
    - source: TechCrunch AI
-   - score: 57.92
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.875; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.84
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
    - score: 52.367
@@ -26,8 +26,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Determining playoff clinching scenarios in the NHL using constraint programming](https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming)
    - source: Amazon AWS AI
-   - score: 51.656
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.59; source_priority=1.0
+   - score: 51.575
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.587; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.59; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Claude On Mars](https://www.anthropic.com/features/claude-on-mars)
    - source: Anthropic
@@ -51,9 +51,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI](https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai)
    - source: TechCrunch AI
-   - score: 44.721
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.306; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.31; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 44.641
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.302; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.30; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [Challenging your brain helps keep it healthy. Here's how to do it](https://apnews.com/article/brain-games-dementia-alzheimers-cognition-e4ceb3b4dda84977083d1fc9fbb25ba7)
    - source: Associated Press Technology
    - score: 43.033
@@ -63,13 +63,13 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Auto mode is now the default in Claude Code for Pro, Max, and Team plans](https://simonwillison.net/2026/Aug/8/auto-mode)
    - source: Simon Willison
-   - score: 77.049
-   - score_breakdown: general=1.0; engineering=0.25; research=0.333; novelty=0.858; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=6; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 76.928
+   - score_breakdown: general=1.0; engineering=0.25; research=0.333; novelty=0.853; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=6; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 2. [Parametric Optimization via Local AI Inference](https://rescale.com/blog/parametric-optimization-local-ai-inference)
    - source: Rescale
-   - score: 70.313
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.954; source_priority=1.0
+   - score: 70.305
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.953; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation](https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation)
    - source: Synera
@@ -110,9 +110,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Pfizer Stock Leads 3 AI Healthcare Picks Built For Smarter Care - simplywall.st](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRGo3LU5WczJBN1NaZ0tZNXRlWG5EV0xESFhvWHJNZTF2RHhjaVpqblg1TVFhSGpFUWxkRjdLdHhOWkpqdlFOMTVvZlllUFJKbWNsenJzNldvSzlNZ0hwYXJ5Y1h1S3NyTFBfd291bk1YVXUwS2g1Y01UMUdWLURCdldZZGs5WGU3V0pqdHlBbmVsMFJNYTFmVmdlTEhkdncyOU1YNEc1a2d2dDNaWndkM2ZlMlY5QTFtRkpEWlh5aXFRVmpwcTZuTTFQaXE5b0QyWlpR0gHYAUFVX3lxTE50ZWw1cVc5WV9NR01ZelBGZlBHckJTRC1ZSXZBcWF4RmxaeDNNaDk0SkJGMC15Zzl0ZFg0eEh6TmVVRW9vWGZTUlprUHhndjZtVTgwMlBuSTk4VDUwbkEtb1B4MVFrUjhPRjJqa2JnbmxGTGhzb2VBWlpIMk5wY0owVDNjMnlkQ0I5bHRJQTVqLWJuR1RBZExMbTNBTDVfbEI2emZGa1diWWlzeVkxNWktaUM0WU9iU3F2ZEFNU25JZ1lOcWlZX3p1Y09aaTZZM3JBU1BPVDByRg?oc=5)
    - source: Google News Medical AI Discovery
-   - score: 35.855
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.969; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 35.613
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.958; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Nvidia Physical Ai](https://huggingface.co/blog/nvidia-physical-ai)
