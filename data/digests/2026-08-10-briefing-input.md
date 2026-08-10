@@ -3,52 +3,52 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16399
-- filtered_count: 2219
+- fetched_count: 16401
+- filtered_count: 2218
 - duplicate_count: 78
 - failures: 8
 
 ## Top 10 General AI News
 1. [GitHub Models is now retired](https://simonwillison.net/2026/Aug/9/github-models-is-now-retired)
    - source: Simon Willison
-   - score: 66.743
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.852; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 66.547
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.843; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Claude Opus 5 system prompt](https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt)
    - source: Simon Willison
-   - score: 64.326
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.863; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 64.13
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.854; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [The AI safety test is becoming a safety risk](https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk)
    - source: TechCrunch AI
-   - score: 63.259
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
+   - score: 63.129
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Anthropic is turning Claude Code’s auto mode on by default](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default)
+4. [Opinion: How should states reach out to Medicaid enrollees affected by changes? Our research gives a hint](https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact)
+   - source: STAT Health Tech
+   - score: 62.429
+   - score_breakdown: general=0.167; engineering=0.0; research=0.667; novelty=0.989; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+5. [Anthropic is turning Claude Code’s auto mode on by default](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default)
    - source: TechCrunch AI
-   - score: 57.702
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.865; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Australia news live: SA premier announces royal commission into AI; Icac witness questioned on fake invoices says ‘every tradie in Sydney has wife as the director’](https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb)
+   - score: 57.572
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.859; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [SA premier announces royal commission into AI – as it happened](https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb)
    - source: The Guardian Technology
-   - score: 57.104
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.99; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [UK manufacturers face rising hacking risk as survey shows 30% were hit last year](https://www.theguardian.com/technology/2026/aug/10/uk-companies-cyber-attack-third-jlr)
+   - score: 56.714
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.972; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Samsung Galaxy Z Fold 8 review: your passport to a folding phone future](https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone)
    - source: The Guardian Technology
-   - score: 55.087
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Tech leaders say AI means less work - their staff say they work up to 90 hours a week](https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss)
+   - score: 55.384
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Tech leaders say AI means less work - their staff say they work up to 90 hours a week](https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 55.086
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Studio Build, test, and run AI agents and apps.](https://mistral.ai/products/studio)
-   - source: Mistral AI
-   - score: 49.7
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.696
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.88; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Investing In Energy To Secure America S Ai Future](https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future)
    - source: Anthropic
    - score: 46.367
@@ -88,31 +88,31 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Lerobotxnvidia Healthcare](https://huggingface.co/blog/lerobotxnvidia-healthcare)
+1. [Opinion: How should states reach out to Medicaid enrollees affected by changes? Our research gives a hint](https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact)
+   - source: STAT Health Tech
+   - score: 62.429
+   - score_breakdown: general=0.167; engineering=0.0; research=0.667; novelty=0.989; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+2. [Lerobotxnvidia Healthcare](https://huggingface.co/blog/lerobotxnvidia-healthcare)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-2. [Nvidia Isaac For Healthcare](https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare)
+3. [Nvidia Isaac For Healthcare](https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-3. [Agents In Biology](https://www.anthropic.com/research/agents-in-biology)
+4. [Agents In Biology](https://www.anthropic.com/research/agents-in-biology)
    - source: Anthropic
    - score: 49.033
    - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-4. [Building Ai Matters Powering Global Healthcare Virtue Foundation](https://www.databricks.com/dataaisummit/session/building-ai-matters-powering-global-healthcare-virtue-foundation)
-   - source: Databricks AI
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Customer Successes Industry Financial Services Healthcare Public Sector](https://www.databricks.com/dataaisummit/session/customer-successes-industry-financial-services-healthcare-public-sector)
-   - source: Databricks AI
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Energenesis Taiwan Tanabe Energi F703Dfu](https://www.pharmaceutical-technology.com/news/energenesis-taiwan-tanabe-energi-f703dfu)
+   - source: Pharmaceutical Technology
+   - score: 46.025
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.995; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Ai Q Top Ranking Open Portable Deep Research Agent](https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent)
@@ -127,11 +127,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-4. [Dell Ai Applications](https://huggingface.co/blog/dell-ai-applications)
+4. [xpeng-robotics](https://huggingface.co/xpeng-robotics)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-5. [Python Tiny Agents](https://huggingface.co/blog/python-tiny-agents)
+5. [Dell Ai Applications](https://huggingface.co/blog/dell-ai-applications)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
