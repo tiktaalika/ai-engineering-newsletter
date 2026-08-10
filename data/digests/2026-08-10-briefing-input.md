@@ -3,47 +3,47 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16389
-- filtered_count: 2221
-- duplicate_count: 71
-- failures: 8
+- fetched_count: 16385
+- filtered_count: 2217
+- duplicate_count: 74
+- failures: 9
 
 ## Top 10 General AI News
 1. [GitHub Models is now retired](https://simonwillison.net/2026/Aug/9/github-models-is-now-retired)
    - source: Simon Willison
-   - score: 67.476
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.885; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 66.811
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.855; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Claude Opus 5 system prompt](https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt)
    - source: Simon Willison
-   - score: 65.059
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.897; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 64.394
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.866; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [The AI safety test is becoming a safety risk](https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk)
    - source: TechCrunch AI
-   - score: 63.749
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.837; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.305
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Anthropic is turning Claude Code’s auto mode on by default](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default)
    - source: TechCrunch AI
-   - score: 58.192
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.887; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Australia news live: Two workers were temporarily stood down over airport near-miss; Albanese confirms Labor will amend gambling legislation](https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb)
+   - score: 57.748
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.867; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Australia news live: SA premier announces royal commission into AI; Icac witness questioned on fake invoices says ‘every tradie in Sydney has wife as the director’](https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb)
    - source: The Guardian Technology
-   - score: 57.11
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.99; source_priority=1.0
+   - score: 57.163
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.992; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [UK manufacturers face rising hacking risk as survey shows 30% were hit last year](https://www.theguardian.com/technology/2026/aug/10/uk-companies-cyber-attack-third-jlr)
-   - source: The Guardian Technology
-   - score: 56.555
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.965; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Tech leaders say AI means less work - their staff say they work up to 90 hours a week](https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss)
+6. [Tech leaders say AI means less work - their staff say they work up to 90 hours a week](https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 56.554
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.965; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.224
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [UK manufacturers face rising hacking risk as survey shows 30% were hit last year](https://www.theguardian.com/technology/2026/aug/10/uk-companies-cyber-attack-third-jlr)
+   - source: The Guardian Technology
+   - score: 55.224
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Studio Build, test, and run AI agents and apps.](https://mistral.ai/products/studio)
    - source: Mistral AI
    - score: 49.7
@@ -175,6 +175,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Source Failures
 - OpenAI Research RSS: HTTP Error 404: Not Found
 - Ansys: HTTP Error 404: Not Found
+- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
