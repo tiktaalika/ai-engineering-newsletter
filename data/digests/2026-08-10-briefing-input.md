@@ -3,52 +3,52 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16401
-- filtered_count: 2218
-- duplicate_count: 78
-- failures: 8
+- fetched_count: 16398
+- filtered_count: 2219
+- duplicate_count: 76
+- failures: 9
 
 ## Top 10 General AI News
 1. [GitHub Models is now retired](https://simonwillison.net/2026/Aug/9/github-models-is-now-retired)
    - source: Simon Willison
-   - score: 66.547
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.843; source_priority=1.0
+   - score: 66.487
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.84; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Claude Opus 5 system prompt](https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt)
    - source: Simon Willison
-   - score: 64.13
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.854; source_priority=1.0
+   - score: 64.07
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.852; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [The AI safety test is becoming a safety risk](https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk)
    - source: TechCrunch AI
-   - score: 63.129
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
+   - score: 63.089
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.807; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Opinion: How should states reach out to Medicaid enrollees affected by changes? Our research gives a hint](https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact)
    - source: STAT Health Tech
-   - score: 62.429
-   - score_breakdown: general=0.167; engineering=0.0; research=0.667; novelty=0.989; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 62.309
+   - score_breakdown: general=0.167; engineering=0.0; research=0.667; novelty=0.984; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 5. [Anthropic is turning Claude Code’s auto mode on by default](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default)
    - source: TechCrunch AI
-   - score: 57.572
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.859; source_priority=1.0
+   - score: 57.532
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.858; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [SA premier announces royal commission into AI – as it happened](https://www.theguardian.com/australia-news/live/2026/aug/10/australia-news-live-transport-minister-sydney-airport-air-traffic-control-catherine-king-aukus-public-inquiry-malcolm-turnbull-alan-jones-trial-ntwnfb)
    - source: The Guardian Technology
-   - score: 56.714
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.972; source_priority=1.0
+   - score: 56.594
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.966; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Samsung Galaxy Z Fold 8 review: your passport to a folding phone future](https://www.theguardian.com/technology/2026/aug/10/samsung-galaxy-z-fold-8-review-folding-phone)
    - source: The Guardian Technology
-   - score: 55.384
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - score: 55.264
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.906; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Tech leaders say AI means less work - their staff say they work up to 90 hours a week](https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 54.696
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.88; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.576
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.875; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Investing In Energy To Secure America S Ai Future](https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future)
    - source: Anthropic
    - score: 46.367
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: How should states reach out to Medicaid enrollees affected by changes? Our research gives a hint](https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact)
    - source: STAT Health Tech
-   - score: 62.429
-   - score_breakdown: general=0.167; engineering=0.0; research=0.667; novelty=0.989; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 62.309
+   - score_breakdown: general=0.167; engineering=0.0; research=0.667; novelty=0.984; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 2. [Lerobotxnvidia Healthcare](https://huggingface.co/blog/lerobotxnvidia-healthcare)
    - source: Hugging Face Papers
    - score: 51.033
@@ -110,9 +110,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 5. [Energenesis Taiwan Tanabe Energi F703Dfu](https://www.pharmaceutical-technology.com/news/energenesis-taiwan-tanabe-energi-f703dfu)
    - source: Pharmaceutical Technology
-   - score: 46.025
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.995; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.905
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.99; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Ai Q Top Ranking Open Portable Deep Research Agent](https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent)
@@ -178,6 +178,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
+- Paul Graham Essays: HTTP Error 503: Service Unavailable
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
