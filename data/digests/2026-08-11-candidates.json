@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-11T06:08:30.571006+00:00",
+    "generated_at": "2026-08-11T07:38:00.785813+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16381,
-    "filtered_count": 2254,
+    "fetched_count": 16392,
+    "filtered_count": 2251,
     "duplicate_count": 74,
     "failures": [
       {
@@ -36,10 +36,6 @@
         "error": "HTTP Error 403: Forbidden"
       },
       {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
-      },
-      {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
       }
@@ -68,10 +64,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.655,
+      "score": 57.313,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -80,7 +76,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -92,39 +88,40 @@
       "source_priority": "high"
     },
     {
-      "id": "8db30b5e91e1f45f",
-      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-      "source": "Latent Space",
+      "id": "61282b7420ed0675",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "source": "OpenAI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-11T05:16:41+00:00",
-      "text": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
+      "published_at": "2026-08-10T14:00:00+00:00",
+      "text": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
       "matched_terms": [
-        "AI"
+        "AI",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.036,
+      "score": 56.626,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
+        "novelty=0.82",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.987,
+      "novelty_score": 0.816,
       "source_priority_score": 1.0,
       "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
+        "frontier_model",
+        "product",
+        "api",
         "guo_yichen_reference"
       ],
-      "registry_category": "community",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -141,10 +138,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 55.952,
+      "score": 55.439,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.76",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -153,7 +150,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.786,
+      "novelty_score": 0.762,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -177,10 +174,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 54.895,
+      "score": 54.553,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -189,7 +186,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.889,
+      "novelty_score": 0.874,
       "source_priority_score": 1.0,
       "source_tags": [
         "developer_tools",
@@ -214,10 +211,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 53.69,
+      "score": 53.177,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.54",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -226,7 +223,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.562,
+      "novelty_score": 0.538,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -252,10 +249,10 @@
         "multimodal"
       ],
       "engagement": {},
-      "score": 50.305,
+      "score": 49.793,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.51",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -264,7 +261,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.529,
+      "novelty_score": 0.506,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -276,40 +273,39 @@
       "source_priority": "high"
     },
     {
-      "id": "61282b7420ed0675",
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "source": "OpenAI",
+      "id": "8db30b5e91e1f45f",
+      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+      "source": "Latent Space",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-10T14:00:00+00:00",
-      "text": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "published_at": "2026-08-11T05:16:41+00:00",
+      "text": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
       "matched_terms": [
-        "AI",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 56.967,
+      "score": 56.524,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=2",
+        "novelty=0.96",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.963,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
         "guo_yichen_reference"
       ],
-      "registry_category": "vendor",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -325,10 +321,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 48.98,
+      "score": 48.467,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.48",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -337,7 +333,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.499,
+      "novelty_score": 0.476,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -364,10 +360,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.693,
+      "score": 61.351,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -376,7 +372,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -401,10 +397,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.877,
+      "score": 60.535,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -413,7 +409,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -439,7 +435,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 74.295,
+      "score": 74.261,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -451,7 +447,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.982,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -477,10 +473,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 74.033,
+      "score": 73.52,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -489,7 +485,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.903,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -696,10 +692,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.536,
+      "score": 46.51,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.39",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -708,13 +704,49 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.433,
+      "novelty_score": 0.387,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3bea96d7e57730fc",
+      "title": "Claude For Life Sciences",
+      "url": "https://www.anthropic.com/news/claude-for-life-sciences",
+      "source": "Anthropic",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Claude For Life Sciences https://www.anthropic.com/news/claude-for-life-sciences",
+      "matched_terms": [
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 46.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "safety",
+        "policy"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -730,10 +762,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 46.923,
+      "score": 45.898,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.48",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -742,42 +774,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.527,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "65a24ca28a4bf6fc",
-      "title": "STAT+: FDA panel to weigh Grail’s Galleri test",
-      "url": "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-10T14:48:07+00:00",
-      "text": "STAT+: FDA panel to weigh Grail’s Galleri test China reins in its biotech innovation engine, radiopharma boom meets unexpected hurdles, and more news from The Readout",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 46.787,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.52",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.521,
+      "novelty_score": 0.48,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -803,7 +800,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 74.295,
+      "score": 74.261,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -815,7 +812,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.982,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -841,10 +838,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 74.033,
+      "score": 73.52,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -853,7 +850,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.903,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1754,10 +1751,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 76.442,
+      "score": 76.408,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.65",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1767,7 +1764,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.656,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1791,7 +1788,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 74.295,
+      "score": 74.261,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1803,7 +1800,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.982,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1829,10 +1826,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 74.033,
+      "score": 73.52,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -1841,7 +1838,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.903,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1869,7 +1866,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 71.533,
+      "score": 71.499,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -1881,7 +1878,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.555,
+      "novelty_score": 0.553,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1904,10 +1901,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 69.248,
+      "score": 69.214,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1916,7 +1913,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1939,7 +1936,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 68.742,
+      "score": 68.708,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1951,7 +1948,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.882,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2045,7 +2042,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 66.178,
+      "score": 66.144,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.46",
@@ -2057,7 +2054,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.463,
+      "novelty_score": 0.461,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2080,10 +2077,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 64.436,
+      "score": 64.402,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.68",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2092,7 +2089,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.686,
+      "novelty_score": 0.685,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2151,7 +2148,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 62.125,
+      "score": 62.091,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.31",
@@ -2163,7 +2160,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.309,
+      "novelty_score": 0.307,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2187,10 +2184,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.693,
+      "score": 61.351,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2199,7 +2196,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2224,10 +2221,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.877,
+      "score": 60.535,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2236,7 +2233,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2259,7 +2256,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 60.501,
+      "score": 60.466,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -2271,7 +2268,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.508,
+      "novelty_score": 0.506,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2622,10 +2619,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 60.176,
+      "score": 59.834,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2634,7 +2631,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.826,
+      "novelty_score": 0.811,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2694,10 +2691,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.272,
+      "score": 58.93,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2706,7 +2703,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.937,
+      "novelty_score": 0.921,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2730,10 +2727,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.245,
+      "score": 58.903,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2742,7 +2739,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.935,
+      "novelty_score": 0.92,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2768,10 +2765,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.227,
+      "score": 58.714,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.49",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2780,7 +2777,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.51,
+      "novelty_score": 0.487,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2806,10 +2803,10 @@
         "Meta AI"
       ],
       "engagement": {},
-      "score": 58.545,
+      "score": 58.203,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2818,7 +2815,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.888,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2844,10 +2841,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 58.249,
+      "score": 57.907,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.57",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2856,7 +2853,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.587,
+      "novelty_score": 0.572,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2900,41 +2897,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "a9313472d40e9aa4",
-      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
-      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-17T12:01:00+00:00",
-      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.718,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.38",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.381,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -3012,6 +2974,41 @@
       "source_priority": "high"
     },
     {
+      "id": "a9313472d40e9aa4",
+      "title": "Rescale Interlink: Open-Source Data Transfer and Job Management",
+      "url": "https://rescale.com/blog/rescale-interlink-open-source-data-transfer-job-management",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-17T12:01:00+00:00",
+      "text": "Rescale Interlink: Open-Source Data Transfer and Job Management Move simulation data between your desktop and the cloud faster with Rescale Interlink, an open-source hybrid CLI and GUI tool for managing files and jobs on Rescale. FIPS 140-3 compliant and available on Windows, Mac, and Linux, Interlink delivers multithreaded parallel transfers, a visual file browser, auto-download of completed job results, and full job submission, all in one lightweight, community-driven application.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.684,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.38",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.38,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "7a678e9a26d7e264",
       "title": "What building an AI-native finance function taught me",
       "url": "https://openai.com/index/building-an-ai-native-finance-function",
@@ -3025,10 +3022,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.655,
+      "score": 57.313,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3037,7 +3034,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3046,42 +3043,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "8db30b5e91e1f45f",
-      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-11T05:16:41+00:00",
-      "text": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.036,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.987,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -5344,6 +5305,40 @@
       "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
       "matched_terms": [
         "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0a951fddf5b3666d",
+      "title": "Automatisierung Fea Aufgaben",
+      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "matched_terms": [
+        "FEA"
       ],
       "engagement": {},
       "score": 57.033,

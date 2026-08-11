@@ -3,74 +3,74 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16381
-- filtered_count: 2254
+- fetched_count: 16392
+- filtered_count: 2251
 - duplicate_count: 74
-- failures: 9
+- failures: 8
 
 ## Top 10 General AI News
 1. [What building an AI-native finance function taught me](https://openai.com/index/building-an-ai-native-finance-function)
    - source: OpenAI
-   - score: 57.655
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.863; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise](https://www.latent.space/p/ainews-muse-glimmer-and-spark-open)
-   - source: Latent Space
-   - score: 57.036
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.987; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.313
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.848; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas](https://openai.com/index/responsible-ai-infrastructure-texas)
+   - source: OpenAI
+   - score: 56.626
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.816; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS](https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents)
    - source: Hugging Face
-   - score: 55.952
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.786; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.439
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.762; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Using the GitHub Copilot SDK for Java](https://github.blog/engineering/using-the-github-copilot-sdk-for-java)
    - source: GitHub Blog AI and ML
-   - score: 54.895
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.889; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.553
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.874; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Quoting OpenClaw](https://simonwillison.net/2026/Aug/10/openclaw)
    - source: Simon Willison
-   - score: 53.69
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.562; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.56; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 53.177
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.538; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.54; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 6. [Meta is back with Muse Glimmer: local, agentic, multimodal, and open source](https://huggingface.co/blog/muse-glimmer)
    - source: Hugging Face
-   - score: 50.305
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.529; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas](https://openai.com/index/responsible-ai-infrastructure-texas)
-   - source: OpenAI
-   - score: 56.967
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.832; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.793
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.506; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.51; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise](https://www.latent.space/p/ainews-muse-glimmer-and-spark-open)
+   - source: Latent Space
+   - score: 56.524
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.963; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [SQLite compressed text-history prototypes](https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype)
    - source: Simon Willison
-   - score: 48.98
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.499; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.50; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 48.467
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.476; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Tech industry is buzzing after a Claude agent hacked into a gym](https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym)
    - source: TechCrunch AI
-   - score: 61.693
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.895; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.351
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.88; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [How nOps shipped FinOps agents 75% faster with Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/how-nops-shipped-finops-agents-75-faster-with-amazon-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 60.877
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.858; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.535
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Building a sustainable future with simulation and AI](https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai)
    - source: Siemens Simcenter
-   - score: 74.295
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.983; source_priority=1.0
+   - score: 74.261
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.982; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Introducing Muse Glimmer](https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer)
    - source: Simon Willison
-   - score: 74.033
-   - score_breakdown: general=0.667; engineering=0.25; research=0.667; novelty=0.903; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=4; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+   - score: 73.52
+   - score_breakdown: general=0.667; engineering=0.25; research=0.667; novelty=0.88; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=4; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
 3. [From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet](https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet)
    - source: Neural Concept
    - score: 62.367
@@ -100,19 +100,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [What happens when medical students rely on AI – and never develop their own judgment? | Simar Bajaj and Joseph Sakran](https://www.theguardian.com/commentisfree/2026/aug/10/ai-medical-students-judgment)
    - source: The Guardian Technology
-   - score: 47.536
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.433; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.43; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-4. [FDA to require notice of additives in food supply for the first time](https://www.statnews.com/2026/08/10/rfk-jr-proposal-fda-gras-rule-generally-recognized-as-safe)
+   - score: 46.51
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.387; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.39; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+4. [Claude For Life Sciences](https://www.anthropic.com/news/claude-for-life-sciences)
+   - source: Anthropic
+   - score: 46.367
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [FDA to require notice of additives in food supply for the first time](https://www.statnews.com/2026/08/10/rfk-jr-proposal-fda-gras-rule-generally-recognized-as-safe)
    - source: STAT Health Tech
-   - score: 46.923
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.527; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [STAT+: FDA panel to weigh Grail’s Galleri test](https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test)
-   - source: STAT Health Tech
-   - score: 46.787
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.521; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.52; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.898
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.48; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Nemotron 3 Nano Omni Multimodal Intelligence](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence)
@@ -180,5 +180,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
