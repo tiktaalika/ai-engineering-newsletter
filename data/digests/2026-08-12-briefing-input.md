@@ -3,84 +3,84 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16399
-- filtered_count: 2276
+- fetched_count: 16398
+- filtered_count: 2277
 - duplicate_count: 73
 - failures: 8
 
 ## Top 10 General AI News
 1. [There are no lossless transformations of natural-language text](https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text)
    - source: Simon Willison
-   - score: 57.89
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.874; source_priority=1.0
+   - score: 57.828
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.871; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [[AINews] How to steal a Reasoning Trace](https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace)
    - source: Latent Space
-   - score: 57.092
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.989; source_priority=1.0
+   - score: 57.03
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.986; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt)
    - source: OpenAI
-   - score: 55.651
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.772; source_priority=1.0
+   - score: 55.609
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.77; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Daybreak models are now available on AWS](https://openai.com/index/daybreak-models-are-now-available-on-aws)
    - source: OpenAI
-   - score: 55.651
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.772; source_priority=1.0
+   - score: 55.609
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.77; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery](https://www.latent.space/p/chai-discovery)
    - source: Latent Space
-   - score: 53.612
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.831; source_priority=1.0
+   - score: 53.551
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.828; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Software engineering at a proprietary trading company: Optiver](https://newsletter.pragmaticengineer.com/p/optiver)
    - source: The Pragmatic Engineer
-   - score: 40.773
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.756; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 40.711
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.754; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC](https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic)
    - source: Amazon AWS AI
-   - score: 67.081
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.837; source_priority=1.0
+   - score: 67.04
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.835; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents](https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents)
    - source: NVIDIA AI
-   - score: 63.009
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - score: 62.968
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.802; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Route AI Agent Workloads Across Models with NVIDIA NeMo Switchyard](https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard)
    - source: NVIDIA AI
-   - score: 63.005
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - score: 62.964
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [OpenAI launches ChatGPT desktop app for Linux](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux)
    - source: TechCrunch AI
-   - score: 57.773
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.868; source_priority=1.0
+   - score: 57.731
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.867; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Innovative simulation and test solutions for trustworthy data-centric AI](https://blogs.sw.siemens.com/art-of-the-possible/innovative-simulation-and-test-solutions-for-trustworthy-data-centric-ai)
    - source: Siemens Art of the Possible
-   - score: 80.19
+   - score: 80.186
    - score_breakdown: general=0.5; engineering=1.0; research=0.333; novelty=0.978; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Stealing Reasoning Traces from Proprietary LLM APIs](https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces)
    - source: Simon Willison
-   - score: 73.668
-   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.856; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 73.606
+   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.853; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 3. [NVIDIA JetPack 7.2.1 Adds Agentic Video Skills and T3000 Emulation](https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation)
    - source: NVIDIA AI
-   - score: 61.046
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.866; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.005
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.864; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [How Pixieset achieved 35% AI feature adoption by solving the right problem with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock)
    - source: Amazon AWS AI
-   - score: 60.569
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.836; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.527
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.835; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [11.18.2024 Luminary Cloud Uses NVIDIA Omniverse Blueprint for Real-Time Computer-Aided Engineering Digital Twins Luminary Press](https://www.luminarycloud.com/resources/luminary-cloud-uses-nvidia-omniverse-blueprint-for-real-time-computer-aided-engineering-digital-twins)
    - source: Luminary Cloud
    - score: 60.367
@@ -90,13 +90,13 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery](https://www.latent.space/p/chai-discovery)
    - source: Latent Space
-   - score: 53.612
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.831; source_priority=1.0
+   - score: 53.551
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.828; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Medicaid will stop paying for some gender-affirming care for transgender minors](https://www.statnews.com/2026/08/11/medicaid-to-end-funding-gender-affirming-care-transgender-youth)
    - source: STAT Health Tech
-   - score: 50.752
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.701; source_priority=1.0
+   - score: 50.628
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.695; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.70; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Trump signs order calling for spacing out childhood vaccines, against medical groups' guidance](https://apnews.com/article/vaccine-research-autism-trump-kennedy-rfk-d10f81f221c4ae9f5b2f83dd0ee98b29)
    - source: Associated Press Technology
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement](https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement)
    - source: Microsoft Research
-   - score: 63.773
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.929; source_priority=1.0
+   - score: 63.755
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.928; source_priority=1.0
 2. [Multi Llm Nim](https://huggingface.co/blog/nvidia/multi-llm-nim)
    - source: Hugging Face Papers
    - score: 54.367
