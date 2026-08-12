@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-12T06:08:32.363090+00:00",
+    "generated_at": "2026-08-12T07:53:18.311444+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16389,
-    "filtered_count": 2278,
+    "fetched_count": 16399,
+    "filtered_count": 2276,
     "duplicate_count": 73,
     "failures": [
       {
@@ -36,10 +36,6 @@
         "error": "HTTP Error 403: Forbidden"
       },
       {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
-      },
-      {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
       }
@@ -68,10 +64,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 58.49,
+      "score": 57.89,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -80,13 +76,49 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.901,
+      "novelty_score": 0.874,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
         "llm",
         "agents",
         "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "27a641e4d1b93c14",
+      "title": "[AINews] How to steal a Reasoning Trace",
+      "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-12T07:11:08+00:00",
+      "text": "[AINews] How to steal a Reasoning Trace Speculative Decoding by any other name would distil as sweet",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.092,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
         "guo_yichen_reference"
       ],
       "registry_category": "community",
@@ -106,10 +138,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.051,
+      "score": 55.651,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.77",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -118,7 +150,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.772,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -143,10 +175,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.051,
+      "score": 55.651,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.77",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -155,7 +187,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.772,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -179,10 +211,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.213,
+      "score": 53.612,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -191,7 +223,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -215,10 +247,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 41.373,
+      "score": 40.773,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.78",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -227,7 +259,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.784,
+      "novelty_score": 0.756,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -254,10 +286,10 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 67.481,
+      "score": 67.081,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.84",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -266,7 +298,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -292,10 +324,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.409,
+      "score": 63.009,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -304,7 +336,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.822,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -331,10 +363,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.405,
+      "score": 63.005,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -343,7 +375,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -355,56 +387,20 @@
       "source_priority": "high"
     },
     {
-      "id": "e5765cf2abf7b79b",
-      "title": "Brad Lightcap, a Top OpenAI Executive, Steps Down",
-      "url": "https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-11T22:07:23+00:00",
-      "text": "Brad Lightcap, a Top OpenAI Executive, Steps Down Brad Lightcap, a longtime leader, said he was starting a new venture. His exit from the artificial intelligence company is the latest in a series there.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.487,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.749,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f66a8ff91a416f88",
-      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
-      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai",
+      "id": "2f7f031cc5150ee5",
+      "title": "OpenAI launches ChatGPT desktop app for Linux",
+      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-11T17:41:22+00:00",
-      "text": "General Catalyst leads $1.1B round into 2-month-old River AI River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
+      "published_at": "2026-08-11T19:15:35+00:00",
+      "text": "OpenAI launches ChatGPT desktop app for Linux OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
       "matched_terms": [
         "AI",
-        "agent"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.813,
+      "score": 57.773,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -416,7 +412,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.868,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -443,7 +439,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 80.23,
+      "score": 80.19,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -455,7 +451,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.98,
+      "novelty_score": 0.978,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -484,10 +480,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 74.268,
+      "score": 73.668,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -496,7 +492,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.883,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -523,10 +519,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 61.447,
+      "score": 61.046,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -535,7 +531,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -560,10 +556,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 60.969,
+      "score": 60.569,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -572,7 +568,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -633,10 +629,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.213,
+      "score": 53.612,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -645,7 +641,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -669,10 +665,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.952,
+      "score": 50.752,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -681,7 +677,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.755,
+      "novelty_score": 0.701,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -812,7 +808,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 80.23,
+      "score": 80.19,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -824,7 +820,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.98,
+      "novelty_score": 0.978,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -853,10 +849,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 74.268,
+      "score": 73.668,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -865,7 +861,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.883,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -892,10 +888,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 61.447,
+      "score": 61.046,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -904,7 +900,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -929,10 +925,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 60.969,
+      "score": 60.569,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -941,7 +937,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -1002,10 +998,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.944,
+      "score": 63.773,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1014,7 +1010,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.937,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1767,7 +1763,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 80.23,
+      "score": 80.19,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1779,7 +1775,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.98,
+      "novelty_score": 0.978,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1804,7 +1800,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.892,
+      "score": 75.852,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -1817,12 +1813,48 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.631,
+      "novelty_score": 0.63,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
         "simulation",
         "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "fadf95d27724d98e",
+      "title": "Building a sustainable future with simulation and AI",
+      "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-10T13:56:07+00:00",
+      "text": "Building a sustainable future with simulation and AI This article explores how simulation, AI and digital twins help organizations accelerate the energy transition by improving energy efficiency, reducing emissions and scaling sustainable innovation.",
+      "matched_terms": [
+        "simulation",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 73.705,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.956,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1844,10 +1876,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 74.268,
+      "score": 73.668,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1856,7 +1888,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.883,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1866,42 +1898,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "fadf95d27724d98e",
-      "title": "Building a sustainable future with simulation and AI",
-      "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-10T13:56:07+00:00",
-      "text": "Building a sustainable future with simulation and AI This article explores how simulation, AI and digital twins help organizations accelerate the energy transition by improving energy efficiency, reducing emissions and scaling sustainable innovation.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 73.745,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.958,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1920,7 +1916,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 70.983,
+      "score": 70.943,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -1932,7 +1928,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.53,
+      "novelty_score": 0.528,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1955,7 +1951,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 68.698,
+      "score": 68.658,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1967,7 +1963,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.88,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1990,7 +1986,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 68.192,
+      "score": 68.152,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2002,7 +1998,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.857,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2028,10 +2024,10 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 67.481,
+      "score": 67.081,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.84",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2040,7 +2036,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2121,6 +2117,43 @@
       "source_priority": "high"
     },
     {
+      "id": "88cce48c228ad936",
+      "title": "Enhancing pharmaceutical process design with simulation",
+      "url": "https://blogs.sw.siemens.com/simcenter/enhance-pharmaceutical-process-design",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-20T18:16:13+00:00",
+      "text": "Enhancing pharmaceutical process design with simulation How digitalization is transforming pharmaceutical scale-up from lab to production This blog explains how pharmaceutical companies use simulation and Executable Digital Twins (xDT) to accelerate…",
+      "matched_terms": [
+        "simulation",
+        "ROM",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 65.588,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.44",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.436,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "b12a69a8975424e6",
       "title": "Introducing Muse Glimmer",
       "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer",
@@ -2136,10 +2169,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 65.783,
+      "score": 65.182,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.50",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -2148,7 +2181,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.528,
+      "novelty_score": 0.501,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2161,33 +2194,31 @@
       "source_priority": "high"
     },
     {
-      "id": "88cce48c228ad936",
-      "title": "Enhancing pharmaceutical process design with simulation",
-      "url": "https://blogs.sw.siemens.com/simcenter/enhance-pharmaceutical-process-design",
+      "id": "2e8bb6dda48e822c",
+      "title": "What’s new in Simcenter PhysicsAI 2026.1?",
+      "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-physicsai-2026-1",
       "source": "Siemens Simcenter",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-07-20T18:16:13+00:00",
-      "text": "Enhancing pharmaceutical process design with simulation How digitalization is transforming pharmaceutical scale-up from lab to production This blog explains how pharmaceutical companies use simulation and Executable Digital Twins (xDT) to accelerate…",
+      "published_at": "2026-07-29T17:10:35+00:00",
+      "text": "What’s new in Simcenter PhysicsAI 2026.1? Explore what’s new in Simcenter PhysicsAI 2026.1: generative AI for engineering design, improved hotspot predictions, 5× faster training, SPH support, and more.",
       "matched_terms": [
-        "simulation",
-        "ROM",
-        "digital twin"
+        "AI for engineering"
       ],
       "engagement": {},
-      "score": 65.628,
+      "score": 63.846,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.44",
-        "matched_terms=3",
+        "novelty=0.66",
+        "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.438,
+      "novelty_score": 0.66,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2210,10 +2241,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.944,
+      "score": 63.773,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2222,7 +2253,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.937,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2230,41 +2261,6 @@
         "ai"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "2e8bb6dda48e822c",
-      "title": "What’s new in Simcenter PhysicsAI 2026.1?",
-      "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-physicsai-2026-1",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-29T17:10:35+00:00",
-      "text": "What’s new in Simcenter PhysicsAI 2026.1? Explore what’s new in Simcenter PhysicsAI 2026.1: generative AI for engineering design, improved hotspot predictions, 5× faster training, SPH support, and more.",
-      "matched_terms": [
-        "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 63.886,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.66",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.661,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2283,10 +2279,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.409,
+      "score": 63.009,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2295,7 +2291,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.822,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2322,10 +2318,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.405,
+      "score": 63.005,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2334,7 +2330,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2394,7 +2390,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 61.575,
+      "score": 61.535,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -2406,7 +2402,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.284,
+      "novelty_score": 0.282,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2430,10 +2426,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 61.447,
+      "score": 61.046,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2442,7 +2438,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.866,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2467,10 +2463,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 60.969,
+      "score": 60.569,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2479,7 +2475,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2828,7 +2824,7 @@
         "FEA"
       ],
       "engagement": {},
-      "score": 59.951,
+      "score": 59.911,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -2840,7 +2836,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.483,
+      "novelty_score": 0.481,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2899,10 +2895,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.717,
+      "score": 58.317,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2911,7 +2907,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2935,10 +2931,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 58.49,
+      "score": 57.89,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2947,7 +2943,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.901,
+      "novelty_score": 0.874,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2957,115 +2953,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "e5765cf2abf7b79b",
-      "title": "Brad Lightcap, a Top OpenAI Executive, Steps Down",
-      "url": "https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-11T22:07:23+00:00",
-      "text": "Brad Lightcap, a Top OpenAI Executive, Steps Down Brad Lightcap, a longtime leader, said he was starting a new venture. His exit from the artificial intelligence company is the latest in a series there.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.487,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.749,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "7ad7c2a59bc56993",
-      "title": "Meta faces expensive child safety reckoning",
-      "url": "https://www.theguardian.com/technology/2026/aug/10/meta-child-safety-google-executives-ai-techscape",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-11T12:04:51+00:00",
-      "text": "Meta faces expensive child safety reckoning Also: Google executives jump ship in race for AI dominance Hello, TechScape readers! Danielle Abril, editor of the Guardian’s Reworked series on AI and the future of work, filling in for Blake Montgomery this week. Major legal battles against Meta over child safety are playing out in courts across the US – and the tech giant is losing. Recent rulings raise big questions about social media companies’ responsibility to their youngest users. Meanwhile, more key executives have jumped ship from Google as it battles OpenAI and Anthropic in the race for AI dominance, and Meta’s smartglasses face a fearsome backlash. Let’s dig in! ‘I’ve definitely lost followers’: influencers face backlash over Meta ‘pervert glasses’ content This man was secretly snapped by someone with smartglasses. He’s not alone in calling that a violation of privacy Tell us: do you believe you have been filmed by Meta’s smartglasses without your consent? Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears ‘I’m not spying’: how Meta’s smartglasses have divided opinion Bernie Sanders calls on Silicon Valley to ‘pause AI development’ in interest of humani",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 58.416,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.44",
-        "matched_terms=4",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.436,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2f7f031cc5150ee5",
-      "title": "OpenAI launches ChatGPT desktop app for Linux",
-      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-11T19:15:35+00:00",
-      "text": "OpenAI launches ChatGPT desktop app for Linux OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.173,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.887,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3105,20 +2992,20 @@
       "source_priority": "high"
     },
     {
-      "id": "e476216d8f62ad0a",
-      "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
-      "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new",
+      "id": "2f7f031cc5150ee5",
+      "title": "OpenAI launches ChatGPT desktop app for Linux",
+      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-11T17:41:34+00:00",
-      "text": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’ One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance the mission from a different vantage point.\"",
+      "published_at": "2026-08-11T19:15:35+00:00",
+      "text": "OpenAI launches ChatGPT desktop app for Linux OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
       "matched_terms": [
         "AI",
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.814,
+      "score": 57.773,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -3130,43 +3017,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "f66a8ff91a416f88",
-      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
-      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-11T17:41:22+00:00",
-      "text": "General Catalyst leads $1.1B round into 2-month-old River AI River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.813,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.868,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3251,20 +3102,20 @@
       "source_priority": "high"
     },
     {
-      "id": "d0db30b8fad0e48e",
-      "title": "Deploying Anthropic Claude apps gateway for AWS for enterprise workloads",
-      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads",
-      "source": "Amazon AWS AI",
+      "id": "e476216d8f62ad0a",
+      "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
+      "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-11T15:59:22+00:00",
-      "text": "Deploying Anthropic Claude apps gateway for AWS for enterprise workloads Claude apps gateway is a self-hosted governance layer between Claude Code and Claude Desktop and Amazon Bedrock or Claude Platform on AWS. This post presents a production reference deployment covering end-to-end architecture, enterprise deployment patterns, cost, and implementation resources.",
+      "published_at": "2026-08-11T17:41:34+00:00",
+      "text": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’ One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance the mission from a different vantage point.\"",
       "matched_terms": [
-        "Anthropic",
-        "Claude"
+        "AI",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.423,
+      "score": 57.413,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3276,14 +3127,123 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "vendor",
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "f66a8ff91a416f88",
+      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-11T17:41:22+00:00",
+      "text": "General Catalyst leads $1.1B round into 2-month-old River AI River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.413,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.852,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "e5765cf2abf7b79b",
+      "title": "Brad Lightcap, a Top OpenAI Executive, Steps Down",
+      "url": "https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-11T22:07:23+00:00",
+      "text": "Brad Lightcap, a Top OpenAI Executive, Steps Down Brad Lightcap, a longtime leader, said he was starting a new venture. His exit from the artificial intelligence company is the latest in a series there.",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.286,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.69",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.695,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7ad7c2a59bc56993",
+      "title": "Meta faces expensive child safety reckoning",
+      "url": "https://www.theguardian.com/technology/2026/aug/10/meta-child-safety-google-executives-ai-techscape",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-11T12:04:51+00:00",
+      "text": "Meta faces expensive child safety reckoning Also: Google executives jump ship in race for AI dominance Hello, TechScape readers! Danielle Abril, editor of the Guardian’s Reworked series on AI and the future of work, filling in for Blake Montgomery this week. Major legal battles against Meta over child safety are playing out in courts across the US – and the tech giant is losing. Recent rulings raise big questions about social media companies’ responsibility to their youngest users. Meanwhile, more key executives have jumped ship from Google as it battles OpenAI and Anthropic in the race for AI dominance, and Meta’s smartglasses face a fearsome backlash. Let’s dig in! ‘I’ve definitely lost followers’: influencers face backlash over Meta ‘pervert glasses’ content This man was secretly snapped by someone with smartglasses. He’s not alone in calling that a violation of privacy Tell us: do you believe you have been filmed by Meta’s smartglasses without your consent? Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears ‘I’m not spying’: how Meta’s smartglasses have divided opinion Bernie Sanders calls on Silicon Valley to ‘pause AI development’ in interest of humani",
+      "matched_terms": [
+        "AI",
+        "RAG",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 57.216,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.38",
+        "matched_terms=4",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.381,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3299,10 +3259,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 57.168,
+      "score": 57.128,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.36",
+        "novelty=0.35",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -3311,7 +3271,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.356,
+      "novelty_score": 0.354,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3319,6 +3279,42 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "27a641e4d1b93c14",
+      "title": "[AINews] How to steal a Reasoning Trace",
+      "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-12T07:11:08+00:00",
+      "text": "[AINews] How to steal a Reasoning Trace Speculative Decoding by any other name would distil as sweet",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.092,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
