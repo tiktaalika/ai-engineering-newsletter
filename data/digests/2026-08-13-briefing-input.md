@@ -4,78 +4,78 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16409
-- filtered_count: 2285
+- filtered_count: 2282
 - duplicate_count: 76
 - failures: 8
 
 ## Top 10 General AI News
 1. [Empty shelves or lost keys? Recall is the bottleneck for parametric factuality](https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality)
    - source: Google Research
-   - score: 66.482
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.901; source_priority=1.0
+   - score: 66.42
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.898; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [DeepSeek V4 Pro 0813 (on OpenRouter)](https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813)
    - source: Simon Willison
-   - score: 63.883
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.873; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 63.665
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.864; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [From assistance to execution: How enterprises put AI to work](https://openai.com/index/how-enterprises-put-ai-to-work)
    - source: OpenAI
-   - score: 60.688
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.728; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 60.543
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.722; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [alchemy-utils 0.1a0](https://simonwillison.net/2026/Aug/12/alchemy-utils)
    - source: Simon Willison
-   - score: 59.129
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.809; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 58.911
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.799; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 5. [[AINews] SpaceXAI Grok 4.6 and Grok @Bot](https://www.latent.space/p/ainews-spacexai-grok-46-and-grok)
    - source: Latent Space
-   - score: 55.205
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.903; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.987
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.893; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis](https://huggingface.co/blog/allenai/olmoearth-embeddings)
    - source: Hugging Face
-   - score: 51.886
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.752; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.668
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.743; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How RingCentral builds AI-native work from engineering to ops](https://openai.com/index/ringcentral)
    - source: OpenAI
-   - score: 49.98
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.666; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.67; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.834
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.659; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.66; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Introducing Grok 4.6](https://cursor.com/blog/grok-4-6)
    - source: Cursor Blog RSS
-   - score: 49.98
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.666; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.67; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.834
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.659; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.66; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Stop being skeptical about AI for development with Charity Majors](https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for)
    - source: The Pragmatic Engineer
-   - score: 40.861
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.76; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 40.643
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.75; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS](https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws)
    - source: Amazon AWS AI
-   - score: 63.136
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.991
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Pakistani Judges Give Their Verdict on JudgeGPT](https://spectrum.ieee.org/judgegpt-experiment)
    - source: IEEE Spectrum AI
-   - score: 71.835
-   - score_breakdown: general=1.0; engineering=0.5; research=0.667; novelty=0.341; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.34; matched_terms=8; engineering_relevance=0.50; research_relevance=0.67; visible_engagement=unavailable
+   - score: 71.399
+   - score_breakdown: general=1.0; engineering=0.5; research=0.667; novelty=0.321; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.32; matched_terms=8; engineering_relevance=0.50; research_relevance=0.67; visible_engagement=unavailable
 2. [Putting sign language AI into users’ hands](https://deepmind.google/blog/putting-sign-language-ai-into-users-hands)
    - source: Google DeepMind
-   - score: 67.06
-   - score_breakdown: general=0.167; engineering=0.25; research=1.0; novelty=0.919; source_priority=1.0
+   - score: 66.998
+   - score_breakdown: general=0.167; engineering=0.25; research=1.0; novelty=0.917; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 3. [Quoting Florian Herrengt](https://simonwillison.net/2026/Aug/12/florian-herrengt)
    - source: Simon Willison
-   - score: 61.676
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.735; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.74; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.458
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.725; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Electric Motor Simulation Powerful Tool For Design Optimization](https://www.neuralconcept.com/post/electric-motor-simulation-powerful-tool-for-design-optimization)
    - source: Neural Concept
    - score: 60.367
@@ -88,41 +88,41 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Trump administration’s new ‘treatment first’ addiction toolkit emphasizes faith, abstinence](https://www.statnews.com/2026/08/12/addiction-homelessness-hhs-toolkit-harm-reduction)
+1. [STAT+: What Medicare incentives for AI-based devices mean for tech companies — and hospitals](https://www.statnews.com/2026/08/13/how-medicare-cms-pays-ntap-for-new-ai-medical-devices)
    - source: STAT Health Tech
-   - score: 48.835
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.614; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.61; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Scientists just created female clones of male mice](https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice)
+   - score: 59.847
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.993; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+2. [STAT+: What patients actually think about ‘minimally invasive’ brain implants](https://www.statnews.com/2026/08/13/patient-perspectives-on-brain-implants-for-depression)
+   - source: STAT Health Tech
+   - score: 57.18
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.993; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Scientists just created female clones of male mice](https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice)
    - source: MIT Technology Review AI
-   - score: 48.332
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.591; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Anthropic Partners With Allen Institute And Howard Hughes Medical Institute](https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute)
+   - score: 47.896
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.571; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Anthropic Partners With Allen Institute And Howard Hughes Medical Institute](https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute)
    - source: Anthropic
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Anthropic Signs Cms Health Tech Ecosystem Pledge To Advance Healthcare Interoperability](https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability)
-   - source: Anthropic
+5. [AI-engineered Vaccine Approach Could End Cycle of Variant Chasing](https://www.bio-itworld.com/news/2026/08/12/ai-engineered-vaccine-approach-could-end-cycle-of-variant-chasing)
+   - source: Bio-IT World
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Illumina Settles Shareholder Lawsuit Led by Billionaire Investor Carl Icahn Over Grail Acquisition](https://www.genomeweb.com/sequencing/illumina-settles-shareholder-lawsuit-led-billionaire-investor-carl-icahn-over-grail)
-   - source: GenomeWeb
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [MindTopo reveals VLMs’ spatial reasoning abilities](https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities)
    - source: Microsoft Research
-   - score: 67.086
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.928; source_priority=1.0
+   - score: 67.024
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.925; source_priority=1.0
 2. [Empty shelves or lost keys? Recall is the bottleneck for parametric factuality](https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality)
    - source: Google Research
-   - score: 66.482
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.901; source_priority=1.0
+   - score: 66.42
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.898; source_priority=1.0
 3. [Magpie Tts Multilingual Voice Agents](https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents)
    - source: Hugging Face Papers
    - score: 54.367
