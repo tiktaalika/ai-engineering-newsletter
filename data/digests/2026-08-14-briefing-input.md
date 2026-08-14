@@ -3,67 +3,67 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16405
-- filtered_count: 2281
+- fetched_count: 16367
+- filtered_count: 2270
 - duplicate_count: 78
 - failures: 8
 
 ## Top 10 General AI News
 1. [llm-gemini 0.33](https://simonwillison.net/2026/Aug/13/llm-gemini)
    - source: Simon Willison
-   - score: 59.534
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.797; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.474
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.794; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [The builder’s guide to GPT‑5.6](https://openai.com/index/builders-guide-to-gpt-5-6)
    - source: OpenAI
-   - score: 59.046
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.775; source_priority=1.0
+   - score: 59.006
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.773; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets](https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop)
    - source: Hugging Face
-   - score: 58.723
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.76; source_priority=1.0
+   - score: 58.663
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.757; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [[AINews] Gemini 3.7 Flash brings GDM back to the forefront](https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm)
    - source: Latent Space
-   - score: 56.265
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.951; source_priority=1.0
+   - score: 56.205
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.949; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Cursor earns AIUC-1 certification for agent security and reliability](https://cursor.com/blog/aiuc-1)
    - source: Cursor Blog RSS
-   - score: 55.941
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.785; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.901
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.783; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [sqlite-utils 4.2.1](https://simonwillison.net/2026/Aug/13/sqlite-utils-2)
    - source: Simon Willison
-   - score: 54.335
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.864; source_priority=1.0
+   - score: 54.275
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.861; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed](https://openai.com/index/previewing-ultrafast)
    - source: OpenAI
-   - score: 55.483
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.764; source_priority=1.0
+   - score: 55.443
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.763; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Cloud agents start 3x faster with builds](https://cursor.com/blog/builds)
    - source: Cursor Blog RSS
-   - score: 52.608
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.785; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.568
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.783; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [What We Learned by Reproducing 2,200 papers from ICML](https://huggingface.co/blog/icml-2026-open-reproductions)
    - source: Hugging Face
-   - score: 48.787
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.49; source_priority=1.0
+   - score: 48.727
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.488; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.49; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [Anthropic set AI agents loose on the same task. They started a turf war.](https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war)
    - source: TechCrunch AI
-   - score: 66.758
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.853; source_priority=1.0
+   - score: 66.718
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.851; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Virtual Integrated Aircraft: A Methodology for Early Aircraft Systems Integration with Simcenter Systems Simulation](https://blogs.sw.siemens.com/simcenter/virtual-integrated-aircraft-systems-integration)
    - source: Siemens Simcenter
-   - score: 70.878
+   - score: 70.874
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.979; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [08.13.2026 An Aerospace Company's Journey from Simulation to Physics AI: The Bottleneck Was Never the Solver Joe Warner Article Use Cases](https://www.luminarycloud.com/resources/aerospace-journey-from-simulation-to-physics-ai)
@@ -83,20 +83,20 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Agent 64: Spies Never Die review – licence to kill time like the 90s never ended](https://www.theguardian.com/games/2026/aug/13/agent-64-spies-never-die-review-pc-replicant-d6)
    - source: The Guardian Technology
-   - score: 53.345
-   - score_breakdown: general=0.333; engineering=0.25; research=0.333; novelty=0.387; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.39; matched_terms=2; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 53.225
+   - score_breakdown: general=0.333; engineering=0.25; research=0.333; novelty=0.381; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.38; matched_terms=2; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [How will legal challenges fare against CMS rule on gender-affirming care?](https://www.statnews.com/2026/08/14/cms-transgender-care-rule-how-will-legal-challenges-fare)
    - source: STAT Health Tech
-   - score: 57.251
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.996; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.132
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.991; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: Commure terminates payments under its customer referral programs tied to AI products](https://www.statnews.com/2026/08/13/commure-terminates-payments-under-customer-referral-programs)
    - source: STAT Health Tech
-   - score: 49.908
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.662; source_priority=1.0
+   - score: 49.788
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.657; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.66; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Anthropic Signs Cms Health Tech Ecosystem Pledge To Advance Healthcare Interoperability](https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability)
    - source: Anthropic
