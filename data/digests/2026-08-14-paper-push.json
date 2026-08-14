@@ -1,0 +1,156 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-08-06 至 2026-08-14 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-08-06 to 2026-08-14.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "DD-RNO: A Domain-Decomposed Routed Neural Operator for Airfoil Flow Prediction",
+      "url": "https://arxiv.org/abs/2608.13490",
+      "source": "arXiv",
+      "published": "2026-08-13",
+      "authors": [
+        "T. A. Mehta",
+        "P. S. Bhati",
+        "H. D. Akolekar"
+      ],
+      "summary_en": "Deep learning surrogates for RANS flow prediction around airfoils face two persistent bottlenecks. A single neural architecture cannot simultaneously resolve sharp near-wall boundary layers and smooth far-field potential flow. Additionally, force prediction is undermined by the numerical instability of computing wall-normal velocity gradients from continuous-field approximations. Both of these points are addressed with a DD-RNO (domain-decomposed routed neural operator), combining a spectral geo",
+      "summary_zh": "英文摘要：Deep learning surrogates for RANS flow prediction around airfoils face two persistent bottlenecks. A single neural architecture cannot simultaneously resolve sharp near-wall boundary layers and smooth far-field potential flow. Additionally, force prediction is undermined by the numerical instability of computing wall-normal velocity gradients from continuous-field approximations. Both of these points are addressed with a DD-RNO (domain-decomposed routed neural operator), combining a spectral geo",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Physics-informed distribution of relaxation times estimation and latent-space condition monitoring of solid oxide fuel and electrolysis cells from electrochemical impedance spectroscopy",
+      "url": "https://arxiv.org/abs/2608.13305",
+      "source": "arXiv",
+      "published": "2026-08-13",
+      "authors": [
+        "Žan Gorenc",
+        "Žiga Gradišar",
+        "Felix Mütter",
+        "Vanja Subotić",
+        "Pavle Boškoski"
+      ],
+      "summary_en": "Estimating the distribution of relaxation times (DRT) fromelectrochemical impedance spectroscopy (EIS) is an ill-posed inverse problem that is highly sensitive to regularisation choices. We propose a physics-informed convolutional autoencoder that estimates DRT directly from EIS data without spectrum-specific tuning. A discretised relation between impedance and the DRT is embedded in the training process, constraining the network to produce impedance-consistent distributions. The model resolves ",
+      "summary_zh": "英文摘要：Estimating the distribution of relaxation times (DRT) fromelectrochemical impedance spectroscopy (EIS) is an ill-posed inverse problem that is highly sensitive to regularisation choices. We propose a physics-informed convolutional autoencoder that estimates DRT directly from EIS data without spectrum-specific tuning. A discretised relation between impedance and the DRT is embedded in the training process, constraining the network to produce impedance-consistent distributions. The model resolves ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Virtual Temperature Sensors in Power Transformers Using Neural Ordinary Differential Equations",
+      "url": "https://arxiv.org/abs/2608.13260",
+      "source": "arXiv",
+      "published": "2026-08-13",
+      "authors": [
+        "Berk Hadzhamolla",
+        "Alexander Johannes Stasik",
+        "Signe Riemer-Sørensen"
+      ],
+      "summary_en": "Accurate modeling and forecasting of power transformer thermal behavior are critical for reliability, asset lifetime, and optimized power system operation. Numerical approaches such as finite element methods (FEM) and computational fluid dynamics (CFD) offer high fidelity but are computationally expensive, require complex mesh generation, and are often impractical for real-time or large-scale applications, particularly when transformer geometries are unknown. Lumped-parameter thermal models are ",
+      "summary_zh": "英文摘要：Accurate modeling and forecasting of power transformer thermal behavior are critical for reliability, asset lifetime, and optimized power system operation. Numerical approaches such as finite element methods (FEM) and computational fluid dynamics (CFD) offer high fidelity but are computationally expensive, require complex mesh generation, and are often impractical for real-time or large-scale applications, particularly when transformer geometries are unknown. Lumped-parameter thermal models are ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Digital Twin Satellite Networks: A Paradigm for Intelligent, Efficient, and Resilient Operations",
+      "url": "https://arxiv.org/abs/2608.12865",
+      "source": "arXiv",
+      "published": "2026-08-13",
+      "authors": [
+        "Mustafa Alhassan",
+        "Peng Hu"
+      ],
+      "summary_en": "Satellite mega-constellations in Low Earth Orbit (LEO) are becoming an important part of next-generation non-terrestrial networks, but their operation remains challenging because of fast network topology variation, intermittent inter-satellite links, hardware disturbances, and strict Size, Weight, and Power (SWaP) constraints. Existing approaches based on Digital Twin (DT), Digital Twin Network (DTN), Software-Defined Networking (SDN), and Open Radio Access Network (O-RAN) provide useful buildin",
+      "summary_zh": "英文摘要：Satellite mega-constellations in Low Earth Orbit (LEO) are becoming an important part of next-generation non-terrestrial networks, but their operation remains challenging because of fast network topology variation, intermittent inter-satellite links, hardware disturbances, and strict Size, Weight, and Power (SWaP) constraints. Existing approaches based on Digital Twin (DT), Digital Twin Network (DTN), Software-Defined Networking (SDN), and Open Radio Access Network (O-RAN) provide useful buildin",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "BTF-PINN: Enforcing Dirichlet Boundary Conditions Without Boundary Training",
+      "url": "https://arxiv.org/abs/2608.12823",
+      "source": "arXiv",
+      "published": "2026-08-13",
+      "authors": [
+        "Wenyu Dong",
+        "Shuo Zhang"
+      ],
+      "summary_en": "The homogeneous Dirichlet boundary value problem captures the core difficulty of solving Dirichlet problems with non-interpolatory methods. We propose BTF-PINN (Boundary-Training-Free Physics-Informed Neural Network), an interior-only strategy for solving homogeneous Dirichlet boundary value problems that requires no boundary training, boundary penalties, or boundary-conforming parametrizations. The key idea is to embed the essential boundary condition into a newly designed boundary-free loss fu",
+      "summary_zh": "英文摘要：The homogeneous Dirichlet boundary value problem captures the core difficulty of solving Dirichlet problems with non-interpolatory methods. We propose BTF-PINN (Boundary-Training-Free Physics-Informed Neural Network), an interior-only strategy for solving homogeneous Dirichlet boundary value problems that requires no boundary training, boundary penalties, or boundary-conforming parametrizations. The key idea is to embed the essential boundary condition into a newly designed boundary-free loss fu",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "PatternFormer: Learning Multiple Solution Patterns in Reaction--Diffusion Systems",
+      "url": "https://arxiv.org/abs/2608.12286",
+      "source": "arXiv",
+      "published": "2026-08-12",
+      "authors": [
+        "Zhipeng Chang",
+        "Wenpeng Yin",
+        "Wenrui Hao"
+      ],
+      "summary_en": "Many nonlinear models across physics, chemistry, and biology exhibit multiple solutions for the same parameters, and capturing this entire solution set is essential for understanding pattern-forming systems. Yet existing learned surrogates are fundamentally single-valued: neural operators map each parameter to a single output, and physics-informed neural networks converge to one branch. We develop \\textbf{PatternFormer} (PF), a large language model-based framework for learning the multiple solut",
+      "summary_zh": "英文摘要：Many nonlinear models across physics, chemistry, and biology exhibit multiple solutions for the same parameters, and capturing this entire solution set is essential for understanding pattern-forming systems. Yet existing learned surrogates are fundamentally single-valued: neural operators map each parameter to a single output, and physics-informed neural networks converge to one branch. We develop \\textbf{PatternFormer} (PF), a large language model-based framework for learning the multiple solut",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Kernel Methods for Learning Operators with Multiple Inputs and Outputs",
+      "url": "https://arxiv.org/abs/2608.11831",
+      "source": "arXiv",
+      "published": "2026-08-12",
+      "authors": [
+        "Adrien Weihs",
+        "Chunyang Liao",
+        "Jingmin Sun",
+        "Hayden Schaeffer"
+      ],
+      "summary_en": "Learning mappings between infinite-dimensional objects is a central challenge in scientific machine learning. We introduce a general kernel-based encoder-decoder framework for operator learning that separates observation, representation, learning, and reconstruction. We develop this framework for multi-input, multi-output operator learning, where operators map between products of potentially distinct function spaces. Our approximation theory shows that, although the number of inputs and outputs ",
+      "summary_zh": "英文摘要：Learning mappings between infinite-dimensional objects is a central challenge in scientific machine learning. We introduce a general kernel-based encoder-decoder framework for operator learning that separates observation, representation, learning, and reconstruction. We develop this framework for multi-input, multi-output operator learning, where operators map between products of potentially distinct function spaces. Our approximation theory shows that, although the number of inputs and outputs ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Learning with Bilevel-Minimax Optimization for Efficient and Reliable Transfer Attacks",
+      "url": "https://arxiv.org/abs/2608.11815",
+      "source": "arXiv",
+      "published": "2026-08-12",
+      "authors": [
+        "Yaohua Liu",
+        "Yifan Guo",
+        "Jiaxin Gao"
+      ],
+      "summary_en": "Transfer-based adversarial attacks craft adversarial examples using surrogate models to mislead black-box victim models. Beyond perturbation generation, transferability is fundamentally governed by the coupling of initialization, surrogate adaptation, and gradient dynamics. We revisit this challenge from a bilevel-minimax perspective and propose BMAT (Bilevel-Minimax Adversarial Transfer). The bilevel formulation captures the dependency between initialization and perturbation, while the inner mi",
+      "summary_zh": "英文摘要：Transfer-based adversarial attacks craft adversarial examples using surrogate models to mislead black-box victim models. Beyond perturbation generation, transferability is fundamentally governed by the coupling of initialization, surrogate adaptation, and gradient dynamics. We revisit this challenge from a bilevel-minimax perspective and propose BMAT (Bilevel-Minimax Adversarial Transfer). The bilevel formulation captures the dependency between initialization and perturbation, while the inner mi",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "AgenticTwin: An Agentic LLM Framework Integrated with Digital Twin for Anomaly Detection",
+      "url": "https://arxiv.org/abs/2608.11679",
+      "source": "arXiv",
+      "published": "2026-08-12",
+      "authors": [
+        "Touseef Hasan",
+        "Mounika Ghanta",
+        "Souvika Sarkar",
+        "Ujjwal Guin"
+      ],
+      "summary_en": "Digital twins are increasingly used to monitor and simulate the behavior of cyber-physical systems. Even with skilled operators, interpreting anomalies detected within digital twin pipelines is challenging, as the sheer complexity and volume of raw sensor data make thorough analysis difficult. Recent advances in large language models (LLMs) offer promising capabilities for reasoning and explanation, yet their integration into digital twin-driven anomaly analysis remains underexplored. In this wo",
+      "summary_zh": "英文摘要：Digital twins are increasingly used to monitor and simulate the behavior of cyber-physical systems. Even with skilled operators, interpreting anomalies detected within digital twin pipelines is challenging, as the sheer complexity and volume of raw sensor data make thorough analysis difficult. Recent advances in large language models (LLMs) offer promising capabilities for reasoning and explanation, yet their integration into digital twin-driven anomaly analysis remains underexplored. In this wo",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Reconstructive AI Spectroscopy of Charged Particle Beams",
+      "url": "https://arxiv.org/abs/2608.11628",
+      "source": "arXiv",
+      "published": "2026-08-12",
+      "authors": [
+        "Vasily Kozhevnikov",
+        "Andrey Kozyrev",
+        "Elena Klepalova",
+        "Victor Tarasenko",
+        "Evgenii Baksht"
+      ],
+      "summary_en": "This work introduces a physics-informed neural network (PINN) framework for reconstructing electron energy spectra from sparsely sampled attenuation-curve data. Leveraging the NVIDIA PhysicsNeMo platform, the proposed mesh-free methodology operates directly on raw experimental datasets while explicitly incorporating all experimental uncertainties. Validation on subnanosecond electron beam measurements demonstrates that the approach accurately resolves complex, multi-peaked spectral features of e",
+      "summary_zh": "英文摘要：This work introduces a physics-informed neural network (PINN) framework for reconstructing electron energy spectra from sparsely sampled attenuation-curve data. Leveraging the NVIDIA PhysicsNeMo platform, the proposed mesh-free methodology operates directly on raw experimental datasets while explicitly incorporating all experimental uncertainties. Validation on subnanosecond electron beam measurements demonstrates that the approach accurately resolves complex, multi-peaked spectral features of e",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
