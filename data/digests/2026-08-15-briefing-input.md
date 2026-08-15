@@ -3,36 +3,36 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16391
-- filtered_count: 2245
-- duplicate_count: 76
+- fetched_count: 16436
+- filtered_count: 2256
+- duplicate_count: 77
 - failures: 7
 
 ## Top 10 General AI News
 1. [Don't classify. Hallucinate!](https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate)
    - source: Simon Willison
-   - score: 63.955
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.846; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.868
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [OpenAI appoints Dali Rajic as Chief Revenue Officer](https://openai.com/index/dali-rajic-chief-revenue-officer)
    - source: OpenAI
-   - score: 49.956
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.513; source_priority=1.0
+   - score: 49.898
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.511; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.51; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [The Pulse: Meta’s self-inflicted resignation-wave](https://newsletter.pragmaticengineer.com/p/the-pulse-metas-self-inflicted-resignation)
    - source: The Pragmatic Engineer
-   - score: 47.711
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.769; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.77; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.624
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.765; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Building agentic workflows with SageMaker AI and Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 60.389
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.836; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.331
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.833; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Kog is going deeper to squeeze more inference out of GPUs](https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus)
    - source: TechCrunch AI
-   - score: 60.127
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.824; source_priority=1.0
+   - score: 60.069
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
    - source: Anthropic
@@ -41,19 +41,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 7. [Monitor on-premises and multi-cloud AI agents with AgentCore Observability](https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability)
    - source: Amazon AWS AI
-   - score: 54.902
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.586; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.844
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.584; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.58; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs](https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus)
    - source: TechCrunch AI
-   - score: 54.695
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.577; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.58; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.637
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.574; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Why tech bosses keep sharing their manifestos about AI](https://www.bbc.co.uk/news/articles/cz97ljy91zxo?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 51.401
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.73; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.226
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.722; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
    - source: Anthropic
    - score: 49.7
@@ -68,9 +68,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [How to bring your software delivery workflow into GitHub with agent apps](https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps)
    - source: GitHub Copilot
-   - score: 57.227
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.836; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.169
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.833; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Join Industrial Ai Discord](https://www.industrial-ai-network.com/help/join-industrial-ai-discord)
    - source: Industrial AI Network
    - score: 57.033
@@ -108,11 +108,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [AI-Based Histology Analysis Leads to Tissue-Specific Aging Clocks, Transcriptomic Profiles in Blood](https://www.genomeweb.com/genetic-research/ai-based-histology-analysis-leads-tissue-specific-aging-clocks-transcriptomic)
-   - source: GenomeWeb
-   - score: 34.5
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [AI Clinical Decision Support Is Outrunning Its Own Evidence Base: What Trial Operators Need to Know Now - The Clinical Trial Vanguard](https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd0JJejI2cjZQalpNNzBibmItbHNJVjNEbngzUVlLZl9TZnkxRkhWOW1VTndFbTRvZW1IZ3lnRmRCTjdVTGloNkdGWVRnNHNpSkY4eUpyYXg5bkVMbzdDR0hGMDdtQjQ4R1BCbmpwb2VrOExXLWlIN0FsX2lrWU0zQ0xHR1FuRXV6Uk5jYkp1Q0I2RVlGSm8tMGFSLUJlRVJEb1BNZWlJX19IMUE2MlZuQzJHc3ozYWVKVWtTdHRnZ2VzVmR0aDR0ZVBFTWF5LTM1dWpneDF3VHNmWHJWYVBiejhOXy16QmFQeXZaUnp4NC1rSjA?oc=5)
+   - source: Google News General AI Discovery
+   - score: 36.419
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.995; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Olmoearth Embeddings](https://huggingface.co/blog/allenai/olmoearth-embeddings)
