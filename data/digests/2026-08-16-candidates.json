@@ -1,9 +1,9 @@
 {
   "run_log": {
-    "generated_at": "2026-08-16T07:18:17.482692+00:00",
+    "generated_at": "2026-08-16T07:44:57.062692+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 15938,
+    "fetched_count": 16434,
     "filtered_count": 2230,
     "duplicate_count": 81,
     "failures": [
@@ -59,7 +59,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.428,
+      "score": 63.385,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -71,7 +71,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.913,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -98,7 +98,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 61.671,
+      "score": 61.518,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -110,7 +110,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.743,
+      "novelty_score": 0.736,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -135,10 +135,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 51.994,
+      "score": 51.841,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -147,7 +147,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.757,
+      "novelty_score": 0.75,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -173,7 +173,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.175,
+      "score": 61.073,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -185,7 +185,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.872,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -194,6 +194,43 @@
       ],
       "registry_category": "startup",
       "source_priority": "high"
+    },
+    {
+      "id": "20c74dcba215fb20",
+      "title": "AWS Introduces Native Vector Search for DynamoDB",
+      "url": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search",
+      "source": "InfoQ AI ML Data Engineering",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-16T07:21:00+00:00",
+      "text": "AWS Introduces Native Vector Search for DynamoDB Amazon DynamoDB recently introduced native vector search, allowing developers to store embeddings alongside application data and run approximate nearest-neighbor queries directly from DynamoDB without using a separate vector database. The feature supports filtered similarity searches and configurable vector indexes for semantic search workloads. By Renato Losio",
+      "matched_terms": [
+        "vector database",
+        "embedding",
+        "semantic search"
+      ],
+      "engagement": {},
+      "score": 56.026,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.988,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "software_engineering",
+        "mlops",
+        "data_engineering"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "d8cebe97b9a5af38",
@@ -208,10 +245,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.084,
+      "score": 54.982,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -220,7 +257,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -243,10 +280,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.148,
+      "score": 51.842,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -255,7 +292,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.764,
+      "novelty_score": 0.75,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -364,41 +401,6 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "8a1eddf7b92feb63",
-      "title": "Vibe for code Coding agents in the terminal, IDE, and background.",
-      "url": "https://mistral.ai/products/vibe/code",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Vibe for code Coding agents in the terminal, IDE, and background. https://mistral.ai/products/vibe/code/",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
       "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
@@ -568,10 +570,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 48.106,
+      "score": 47.801,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -580,7 +582,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
+      "novelty_score": 0.917,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -927,10 +929,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 48.106,
+      "score": 47.801,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -939,7 +941,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
+      "novelty_score": 0.917,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -964,7 +966,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.428,
+      "score": 63.385,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -976,7 +978,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.913,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1726,7 +1728,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 78.003,
+      "score": 77.993,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1738,7 +1740,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.879,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1763,7 +1765,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.665,
+      "score": 73.655,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -1800,7 +1802,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.519,
+      "score": 71.508,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -1812,7 +1814,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.857,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1835,7 +1837,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.808,
+      "score": 69.798,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1847,7 +1849,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
+      "novelty_score": 0.93,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1873,7 +1875,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 68.756,
+      "score": 68.746,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -1978,7 +1980,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 66.472,
+      "score": 66.462,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2013,7 +2015,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 65.965,
+      "score": 65.955,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -2047,7 +2049,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.428,
+      "score": 63.385,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2059,7 +2061,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.913,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2106,46 +2108,6 @@
       "source_priority": "high"
     },
     {
-      "id": "d79c81f1d5c4af18",
-      "title": "CORS Chat",
-      "url": "https://simonwillison.net/2026/Aug/15/cors-chat",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-15T14:49:54+00:00",
-      "text": "CORS Chat Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in. Tags: svg , ai , generative-ai , llms , cors , openrouter , lm-studio",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 61.671,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.74",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.743,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "2e8bb6dda48e822c",
       "title": "What’s new in Simcenter PhysicsAI 2026.1?",
       "url": "https://blogs.sw.siemens.com/simcenter/whats-new-in-simcenter-physicsai-2026-1",
@@ -2158,7 +2120,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 61.66,
+      "score": 61.649,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -2181,6 +2143,46 @@
       "source_priority": "high"
     },
     {
+      "id": "d79c81f1d5c4af18",
+      "title": "CORS Chat",
+      "url": "https://simonwillison.net/2026/Aug/15/cors-chat",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-15T14:49:54+00:00",
+      "text": "CORS Chat Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in. Tags: svg , ai , generative-ai , llms , cors , openrouter , lm-studio",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 61.518,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.74",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.736,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "7086513972fc7e6b",
       "title": "Anthropic shares more details about how Claude’s new watermarks will work",
       "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
@@ -2195,7 +2197,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.175,
+      "score": 61.073,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2207,7 +2209,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.872,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2593,7 +2595,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 60.092,
+      "score": 60.048,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -2605,7 +2607,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.61,
+      "novelty_score": 0.608,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2628,7 +2630,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.066,
+      "score": 60.022,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2640,7 +2642,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.601,
+      "novelty_score": 0.599,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2648,43 +2650,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "04cbda250d874239",
-      "title": "MLBB: Team Liquid PH eliminated from MSC after bowing to Entity7 - GMA Network",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVzh5VHBqVXZ4S0l5dmRsLTNzOHp0YlpIMlhMNXppN3RiVHlSR0NXcDF1WGZZMmJyNjFnaEprUDh6WHFsNTloNXlvOE5OeXRxU29PdW9YUlMzaUszOVVNaXgtRUxRY0JnNTVUYmFzYWJ6ZF9vYTZxSWRwZlVCRWV0RmlHekd5bkJGWmVqZjBIRTg0VVFfZEVoa1ZHV1F0XzFTUWpVYTYtSF9XU1ZpbXFmWm9SSGRGVFg0QS1BVHF1THhMQXlHREU00gHMAUFVX3lxTFBNc195LU9wdW9PMkh0ZkVEd0JjbjBXT1BQeGp6STRKNGZFS0J4dnJaT3ZsMDRVRGJ2QW1MbE9MdldRd1dLRG5JLUVoZXdzWlRkYWRKbkV3cHVNV2Fidkpfdm11LVhObFVDa1dOUmRXVHhncmd3TmVYMGNiYUhVeVcxZFBlSXNrenMzbDZ4dXh3LVlOSUZrRjVJLUVnai1vajByUU5XX0VNVDdHZjdYSVhlYml3LTB4cUlnc3pOUzdETnBwcVpSd3hZdnM4Ug?oc=5",
-      "source": "Trusted Engineering AI Vendor Discovery",
-      "source_kind": "google_news_rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-26T07:00:00+00:00",
-      "text": "MLBB: Team Liquid PH eliminated from MSC after bowing to Entity7 - GMA Network MLBB: Team Liquid PH eliminated from MSC after bowing to Entity7 GMA Network",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 59.776,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.47",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.475,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_ai",
-        "trusted_discovery",
-        "cae",
-        "simulation",
-        "industrial_ai"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2736,7 +2701,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 59.488,
+      "score": 59.444,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2748,7 +2713,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.583,
+      "novelty_score": 0.581,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -5300,6 +5265,41 @@
       "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
       "matched_terms": [
         "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "955ec8dc94a3f30b",
+      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
+      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "matched_terms": [
+        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
