@@ -3,42 +3,42 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16433
-- filtered_count: 2232
-- duplicate_count: 80
+- fetched_count: 15938
+- filtered_count: 2230
+- duplicate_count: 81
 - failures: 7
 
 ## Top 10 General AI News
 1. [Building an AI Text Detector From Scratch](https://magazine.sebastianraschka.com/p/ai-detector-from-scratch)
    - source: Ahead of AI
-   - score: 63.459
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.915; source_priority=1.0
+   - score: 63.428
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.913; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [CORS Chat](https://simonwillison.net/2026/Aug/15/cors-chat)
    - source: Simon Willison
-   - score: 61.778
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.747; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.75; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.671
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.743; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.74; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue](https://www.latent.space/p/flue-2)
    - source: Latent Space
-   - score: 52.101
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.762; source_priority=1.0
+   - score: 51.994
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.757; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Anthropic shares more details about how Claude’s new watermarks will work](https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work)
    - source: TechCrunch AI
-   - score: 61.246
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.875; source_priority=1.0
+   - score: 61.175
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Woman claims her stepfather used Grok to transform childhood photo into explicit imagery](https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery)
    - source: TechCrunch AI
-   - score: 55.155
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.901; source_priority=1.0
+   - score: 55.084
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [I survived two years as prime minister in a hit new game - then my cabinet deserted me](https://www.bbc.co.uk/news/articles/cq56pzqy6jvo?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 52.362
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.774; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.148
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.764; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Frontier Threats Red Teaming For Ai Safety](https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety)
    - source: Anthropic
    - score: 49.7
@@ -83,9 +83,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [How PGSimCity Turns PostgreSQL Complexity Into a Virtual City 3D Simulation](https://www.infoq.com/news/2026/08/pgsimcity)
    - source: InfoQ AI ML Data Engineering
-   - score: 48.32
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.94; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.94; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.106
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.931; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.93; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Doubling Medical Safety Fine Tuning Open Llms Womens Health Without](https://www.databricks.com/dataaisummit/session/doubling-medical-safety-fine-tuning-open-llms-womens-health-without)
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [Building an AI Text Detector From Scratch](https://magazine.sebastianraschka.com/p/ai-detector-from-scratch)
    - source: Ahead of AI
-   - score: 63.459
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.915; source_priority=1.0
+   - score: 63.428
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.913; source_priority=1.0
 2. [Resources & tools](https://ai.meta.com/resources)
    - source: Meta AI
    - score: 51.033
