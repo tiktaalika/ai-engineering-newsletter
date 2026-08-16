@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-08-16T07:44:57.062692+00:00",
+    "generated_at": "2026-08-16T07:59:25.521057+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16434,
-    "filtered_count": 2230,
+    "fetched_count": 16423,
+    "filtered_count": 2231,
     "duplicate_count": 81,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -59,7 +63,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.385,
+      "score": 63.361,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -71,7 +75,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.91,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -98,10 +102,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 61.518,
+      "score": 61.435,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -110,7 +114,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.736,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -135,7 +139,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 51.841,
+      "score": 51.759,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -147,7 +151,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.75,
+      "novelty_score": 0.747,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -173,10 +177,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.073,
+      "score": 61.018,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -185,7 +189,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -193,6 +197,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "75b4c7b09c407947",
+      "title": "‘We detected unusual activity’: the scam that uses AI to exploit your holiday photos",
+      "url": "https://www.theguardian.com/money/2026/aug/16/scam-ai-holiday-photos-instagram-facebook",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-16T06:00:17+00:00",
+      "text": "‘We detected unusual activity’: the scam that uses AI to exploit your holiday photos Fraudsters use pictures posted on Instagram or Facebook to create emails seeking bank account details You are on a short break in Porto and post some pictures of your family on Instagram or Facebook. With a small section of the Douro river in the background, you think it could have been taken anywhere. A few days later, you get a text saying that your card was compromised. “We detected unusual activity while you were travelling in Porto – please verify immediately,” says the message. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.968,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.938,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -210,10 +248,10 @@
         "semantic search"
       ],
       "engagement": {},
-      "score": 56.026,
+      "score": 55.86,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -222,7 +260,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.988,
+      "novelty_score": 0.98,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -245,7 +283,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.982,
+      "score": 54.927,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -257,7 +295,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.893,
+      "novelty_score": 0.891,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -265,40 +303,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "f3d1a61242d8754c",
-      "title": "I survived two years as prime minister in a hit new game - then my cabinet deserted me",
-      "url": "https://www.bbc.co.uk/news/articles/cq56pzqy6jvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-15T23:45:44+00:00",
-      "text": "I survived two years as prime minister in a hit new game - then my cabinet deserted me Mobile game No 10: Full Confidence recently ranked above Minecraft on the UK App Store paid games chart",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 51.842,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.75,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -413,6 +417,40 @@
   ],
   "top_5_engineering_ai": [
     {
+      "id": "fb1102f26db2b04c",
+      "title": "AI cheating, leaked papers and marking errors: how exam protests went global",
+      "url": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-16T07:00:19+00:00",
+      "text": "AI cheating, leaked papers and marking errors: how exam protests went global Student unrest sweeps India, Portugal and Mexico as grievances and pressure for good grades in tough job market collide Families with teenagers in education know the private, hidden pain of exam season. But this year, what might have been a summer of quiet family anxiety has erupted in several countries into public unrest. Exam-related turmoil has led to mass student protests in Mexico after nearly 60,000 university applicants were forced to resit tests amid suspected cheating , while Portugal’s disastrous attempt to digitise school exam marking sparked the country’s worst education crisis in decades. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 62.823,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.969,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "f9b2bf03651dff5b",
       "title": "Topology Optimization Vs Generative Design",
       "url": "https://www.neuralconcept.com/post/topology-optimization-vs-generative-design",
@@ -444,44 +482,6 @@
         "surrogate_model",
         "cae",
         "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b9a80163671f8315",
-      "title": "Monthly Industrial Ai Call 2026 05 Recap",
-      "url": "https://www.industrial-ai-network.com/news/monthly-industrial-ai-call-2026-05-recap",
-      "source": "Industrial AI Network",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Monthly Industrial Ai Call 2026 05 Recap https://www.industrial-ai-network.com/news/monthly-industrial-ai-call-2026-05-recap",
-      "matched_terms": [
-        "industrial AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "industrial_ai",
-        "manufacturing",
-        "plm",
-        "digital_thread",
-        "industrial_copilot",
-        "user_requested"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -570,10 +570,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.801,
+      "score": 47.635,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -582,7 +582,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.917,
+      "novelty_score": 0.909,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -772,6 +772,40 @@
   ],
   "top_5_cae_ai_engineering": [
     {
+      "id": "fb1102f26db2b04c",
+      "title": "AI cheating, leaked papers and marking errors: how exam protests went global",
+      "url": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-16T07:00:19+00:00",
+      "text": "AI cheating, leaked papers and marking errors: how exam protests went global Student unrest sweeps India, Portugal and Mexico as grievances and pressure for good grades in tough job market collide Families with teenagers in education know the private, hidden pain of exam season. But this year, what might have been a summer of quiet family anxiety has erupted in several countries into public unrest. Exam-related turmoil has led to mass student protests in Mexico after nearly 60,000 university applicants were forced to resit tests amid suspected cheating , while Portugal’s disastrous attempt to digitise school exam marking sparked the country’s worst education crisis in decades. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 62.823,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.969,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "f9b2bf03651dff5b",
       "title": "Topology Optimization Vs Generative Design",
       "url": "https://www.neuralconcept.com/post/topology-optimization-vs-generative-design",
@@ -803,44 +837,6 @@
         "surrogate_model",
         "cae",
         "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b9a80163671f8315",
-      "title": "Monthly Industrial Ai Call 2026 05 Recap",
-      "url": "https://www.industrial-ai-network.com/news/monthly-industrial-ai-call-2026-05-recap",
-      "source": "Industrial AI Network",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Monthly Industrial Ai Call 2026 05 Recap https://www.industrial-ai-network.com/news/monthly-industrial-ai-call-2026-05-recap",
-      "matched_terms": [
-        "industrial AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "industrial_ai",
-        "manufacturing",
-        "plm",
-        "digital_thread",
-        "industrial_copilot",
-        "user_requested"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -929,10 +925,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.801,
+      "score": 47.635,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -941,7 +937,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.917,
+      "novelty_score": 0.909,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -966,7 +962,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.385,
+      "score": 63.361,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -978,7 +974,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.91,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1728,7 +1724,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 77.993,
+      "score": 77.988,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1753,42 +1749,6 @@
       "source_priority": "high"
     },
     {
-      "id": "6c7d00101b602aa1",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/ic-agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 73.655,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.53,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "fadf95d27724d98e",
       "title": "Building a sustainable future with simulation and AI",
       "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
@@ -1802,7 +1762,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.508,
+      "score": 71.503,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -1837,7 +1797,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.798,
+      "score": 69.792,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1855,44 +1815,6 @@
         "cae",
         "simulation",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "15a12739b3fa6e86",
-      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
-      "url": "https://rescale.com/blog/ic-ai-physics-automotive-crash-structural-fea-simulations",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-24T10:29:00+00:00",
-      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "FEA",
-        "structural simulation"
-      ],
-      "engagement": {},
-      "score": 68.746,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=4",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.428,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1968,41 +1890,6 @@
       "source_priority": "high"
     },
     {
-      "id": "4a5a1c6308573982",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 66.462,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.779,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "ea2c1b588148cfb1",
       "title": "Predicting Blood Damage with Surrogate Modeling",
       "url": "https://www.comsol.com/blogs/predicting-blood-damage-with-surrogate-modeling",
@@ -2015,7 +1902,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 65.955,
+      "score": 65.949,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -2027,7 +1914,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.756,
+      "novelty_score": 0.755,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2049,7 +1936,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.385,
+      "score": 63.361,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2061,7 +1948,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.91,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2070,6 +1957,40 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "fb1102f26db2b04c",
+      "title": "AI cheating, leaked papers and marking errors: how exam protests went global",
+      "url": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-16T07:00:19+00:00",
+      "text": "AI cheating, leaked papers and marking errors: how exam protests went global Student unrest sweeps India, Portugal and Mexico as grievances and pressure for good grades in tough job market collide Families with teenagers in education know the private, hidden pain of exam season. But this year, what might have been a summer of quiet family anxiety has erupted in several countries into public unrest. Exam-related turmoil has led to mass student protests in Mexico after nearly 60,000 university applicants were forced to resit tests amid suspected cheating , while Portugal’s disastrous attempt to digitise school exam marking sparked the country’s worst education crisis in decades. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 62.823,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.969,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2120,7 +2041,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 61.649,
+      "score": 61.644,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -2158,10 +2079,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 61.518,
+      "score": 61.435,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2170,7 +2091,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.736,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2197,10 +2118,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.073,
+      "score": 61.018,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2209,7 +2130,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2595,7 +2516,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 60.048,
+      "score": 60.025,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -2607,7 +2528,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.608,
+      "novelty_score": 0.607,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2630,7 +2551,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.022,
+      "score": 59.998,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2642,7 +2563,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.599,
+      "novelty_score": 0.598,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2701,7 +2622,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 59.444,
+      "score": 59.421,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2713,7 +2634,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.581,
+      "novelty_score": 0.58,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -5298,6 +5219,76 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6b83445bacefae79",
+      "title": "Cae Tools Used In Automotive Industry",
+      "url": "https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Tools Used In Automotive Industry https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba2eeead7c00722a",
+      "title": "Deep Neural Network In Simulations",
+      "url": "https://www.neuralconcept.com/post/deep-neural-network-in-simulations",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Deep Neural Network In Simulations https://www.neuralconcept.com/post/deep-neural-network-in-simulations",
       "matched_terms": [
         "simulation"
       ],
