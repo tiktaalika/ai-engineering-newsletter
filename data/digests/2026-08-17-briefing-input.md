@@ -3,58 +3,58 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16394
-- filtered_count: 2220
-- duplicate_count: 77
-- failures: 8
+- fetched_count: 16410
+- filtered_count: 2230
+- duplicate_count: 78
+- failures: 7
 
 ## Top 10 General AI News
 1. [The CPU Comeback Is Upon Us](https://spectrum.ieee.org/ai-cpu-comeback)
    - source: IEEE Spectrum AI
-   - score: 67.55
-   - score_breakdown: general=1.0; engineering=0.0; research=0.667; novelty=0.464; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.46; matched_terms=12; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
-2. [Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’](https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust)
+   - score: 66.766
+   - score_breakdown: general=1.0; engineering=0.0; research=0.667; novelty=0.429; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.43; matched_terms=12; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+2. [Are Microsoft’s AI plans being held back by a shortage of chips?](https://www.theguardian.com/technology/2026/aug/17/are-microsofts-ai-plans-being-held-back-by-a-shortage-of-chips)
+   - source: The Guardian Technology
+   - score: 64.421
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.898; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+3. [Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’](https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust)
    - source: TechCrunch AI
-   - score: 60.965
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.862; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Rogue AI aren’t science fiction anymore](https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai)
+   - score: 60.704
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.85; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Rogue AI aren’t science fiction anymore](https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai)
    - source: The Verge AI
-   - score: 58.196
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.433; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.43; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b)
+   - score: 57.412
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.398; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.40; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b)
    - source: TechCrunch AI
-   - score: 55.228
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [OpenAI reportedly disbanded its preparedness team](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team)
+   - score: 54.966
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.892; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [OpenAI reportedly disbanded its preparedness team](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team)
    - source: The Verge AI
-   - score: 54.76
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.732; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
+   - score: 53.977
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.696; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.70; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
    - score: 52.367
    - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-7. [‘The kids were right’: 30 years of Pokémon, from school-wide bans to multimillion-dollar trading cards](https://www.theguardian.com/games/2026/aug/17/pokemon-30th-anniversary-japan-australia)
-   - source: The Guardian Technology
-   - score: 50.264
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.527; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+8. [Studio Build, test, and run AI agents and apps.](https://mistral.ai/products/studio)
+   - source: Mistral AI
+   - score: 49.7
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
    - source: Anthropic
    - score: 49.033
    - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-9. [Vibe for code Coding agents in the terminal, IDE, and background.](https://mistral.ai/products/vibe/code)
-   - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [In-region inference, open models, and new European infrastructure for sovereign AI.](https://mistral.ai/news/regional-inference-open-models-new-compute)
+10. [Vibe for code Coding agents in the terminal, IDE, and background.](https://mistral.ai/products/vibe/code)
    - source: Mistral AI
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
@@ -63,9 +63,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things](https://simonwillison.net/2026/Aug/16/qwen-38-27b)
    - source: Simon Willison
-   - score: 82.706
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.873; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=7; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 82.314
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.855; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=7; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 2. [Understanding The Importance Of The Cfl Condition In Cfd Simulations](https://www.neuralconcept.com/post/understanding-the-importance-of-the-cfl-condition-in-cfd-simulations)
    - source: Neural Concept
    - score: 60.367
@@ -73,9 +73,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Report supporting Australia’s teen social media ban appears to contain AI hallucinations, Senate hears](https://www.theguardian.com/australia-news/2026/aug/17/australia-social-media-ban-report-ai-hallucinations-ntwnfb)
    - source: The Guardian Technology
-   - score: 58.653
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.901; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.869
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.865; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Monthly Industrial Ai Call 2026 05 Recap](https://www.industrial-ai-network.com/news/monthly-industrial-ai-call-2026-05-recap)
    - source: Industrial AI Network
    - score: 57.033
@@ -83,9 +83,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [ChatGPT’s Computer History tracks your clicks and keystrokes](https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes)
    - source: The Verge AI
-   - score: 50.387
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.525; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.603
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.49; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.49; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Better Models Wont Fix Pharmas Ai Problem Better Terminology Will](https://medcitynews.com/2026/08/better-models-wont-fix-pharmas-ai-problem-better-terminology-will)
@@ -174,7 +174,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: HTTP Error 404: Not Found
-- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
