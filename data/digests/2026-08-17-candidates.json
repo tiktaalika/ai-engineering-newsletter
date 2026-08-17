@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-17T08:00:21.658894+00:00",
+    "generated_at": "2026-08-17T08:24:07.606469+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16420,
-    "filtered_count": 2249,
+    "fetched_count": 16421,
+    "filtered_count": 2228,
     "duplicate_count": 77,
     "failures": [
       {
@@ -70,10 +70,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.267,
+      "score": 65.995,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.41",
+        "novelty=0.39",
         "matched_terms=12",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -82,7 +82,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.406,
+      "novelty_score": 0.394,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -107,10 +107,10 @@
         "AI chip"
       ],
       "engagement": {},
-      "score": 63.921,
+      "score": 63.649,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -119,7 +119,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.875,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -143,7 +143,7 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 60.538,
+      "score": 60.447,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -155,7 +155,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -182,10 +182,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 56.913,
+      "score": 56.64,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.36",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -194,7 +194,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.375,
+      "novelty_score": 0.362,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -216,7 +216,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.8,
+      "score": 54.709,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -228,7 +228,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -239,38 +239,41 @@
       "source_priority": "high"
     },
     {
-      "id": "639f236e7d0f62ec",
-      "title": "OpenAI reportedly disbanded its preparedness team",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-      "source": "The Verge AI",
-      "source_kind": "rss",
+      "id": "414ce4b52e368291",
+      "title": "Demystifying Evals For Ai Agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "source": "Anthropic",
+      "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-08-16T21:32:56+00:00",
-      "text": "OpenAI reportedly disbanded its preparedness team According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]",
+      "published_at": null,
+      "text": "Demystifying Evals For Ai Agents https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
       "matched_terms": [
         "AI",
-        "OpenAI"
+        "agent",
+        "AI agent",
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 53.477,
+      "score": 53.033,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
-        "matched_terms=2",
+        "novelty=0.35",
+        "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.673,
+      "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "frontier_model",
+        "safety",
+        "policy"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -347,42 +350,6 @@
       "source_priority": "high"
     },
     {
-      "id": "b3af42e15cc93e21",
-      "title": "Ai Assistance Coding Skills",
-      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Ai Assistance Coding Skills https://www.anthropic.com/research/AI-assistance-coding-skills",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 49.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
       "id": "8a1eddf7b92feb63",
       "title": "Vibe for code Coding agents in the terminal, IDE, and background.",
       "url": "https://mistral.ai/products/vibe/code",
@@ -416,6 +383,41 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
+    },
+    {
+      "id": "923639699d73def4",
+      "title": "Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants",
+      "url": "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
+      "source": "Windsurf",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
+      "matched_terms": [
+        "AI",
+        "coding assistant"
+      ],
+      "engagement": {},
+      "score": 46.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "coding_assistant",
+        "developer_tools"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
@@ -438,7 +440,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 82.064,
+      "score": 81.928,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -450,7 +452,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.844,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -511,10 +513,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.37,
+      "score": 57.097,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -523,7 +525,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -609,40 +611,6 @@
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "1a1d7ce54f3de283",
-      "title": "When the Deal Closes, the Data Work Begins: How Snowflake Accelerates M&A and Divestitures in Life Sciences",
-      "url": "https://www.snowflake.com/en/blog/ma-data-integration?mkt_tok=aw.ds&gclid=deleted",
-      "source": "Snowflake AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "When the Deal Closes, the Data Work Begins: How Snowflake Accelerates M&A and Divestitures in Life Sciences https://www.snowflake.com/en/blog/ma-data-integration/?utm_cta=051126-pros-text-wb-promo-ai-pulse-may&mkt_tok=aw.ds&gclid=deleted",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "data",
-        "enterprise_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
-    },
-    {
       "id": "46a4e391652b9b7a",
       "title": "Better Models Wont Fix Pharmas Ai Problem Better Terminology Will",
       "url": "https://medcitynews.com/2026/08/better-models-wont-fix-pharmas-ai-problem-better-terminology-will",
@@ -689,6 +657,42 @@
       "text": "Founders Should Stop Worrying If Theyre Ai Enough https://medcitynews.com/2026/08/founders-should-stop-worrying-if-theyre-ai-enough/",
       "matched_terms": [
         "AI"
+      ],
+      "engagement": {},
+      "score": 31.833,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech",
+        "digital_health"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
+    },
+    {
+      "id": "179274be1a62546c",
+      "title": "Artificial Intelligence,",
+      "url": "https://medcitynews.com/category/channel/artificial-intelligence",
+      "source": "MedCity News",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Artificial Intelligence, https://medcitynews.com/category/channel/artificial-intelligence/",
+      "matched_terms": [
+        "artificial intelligence"
       ],
       "engagement": {},
       "score": 31.833,
@@ -806,7 +810,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 82.064,
+      "score": 81.928,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -818,7 +822,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.844,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -879,10 +883,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.37,
+      "score": 57.097,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -891,7 +895,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1754,7 +1758,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 82.064,
+      "score": 81.928,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -1766,7 +1770,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.844,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1793,7 +1797,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 77.437,
+      "score": 77.428,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1830,7 +1834,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.099,
+      "score": 73.09,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -1843,7 +1847,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.505,
+      "novelty_score": 0.504,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1867,7 +1871,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 70.953,
+      "score": 70.943,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1902,7 +1906,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.242,
+      "score": 69.233,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1940,7 +1944,7 @@
         "structural simulation"
       ],
       "engagement": {},
-      "score": 68.19,
+      "score": 68.181,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -1952,7 +1956,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.403,
+      "novelty_score": 0.402,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2056,10 +2060,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.267,
+      "score": 65.995,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.41",
+        "novelty=0.39",
         "matched_terms=12",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -2068,7 +2072,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.406,
+      "novelty_score": 0.394,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -2091,7 +2095,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 65.906,
+      "score": 65.897,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -2126,7 +2130,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 65.399,
+      "score": 65.39,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2162,10 +2166,10 @@
         "AI chip"
       ],
       "engagement": {},
-      "score": 63.921,
+      "score": 63.649,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2174,7 +2178,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.875,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2233,10 +2237,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 61.686,
+      "score": 61.55,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2245,7 +2249,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.736,
+      "novelty_score": 0.73,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2270,7 +2274,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 61.093,
+      "score": 61.084,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2282,7 +2286,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.535,
+      "novelty_score": 0.534,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2305,7 +2309,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.002,
+      "score": 60.963,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2317,7 +2321,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.803,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2343,7 +2347,7 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 60.538,
+      "score": 60.447,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2355,7 +2359,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2775,7 +2779,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.079,
+      "score": 57.943,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2787,7 +2791,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.869,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2923,7 +2927,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 57.666,
+      "score": 57.627,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -2935,7 +2939,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.5,
+      "novelty_score": 0.498,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2958,7 +2962,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.64,
+      "score": 57.601,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.49",
@@ -2970,7 +2974,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.491,
+      "novelty_score": 0.489,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2993,10 +2997,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.37,
+      "score": 57.097,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -3005,50 +3009,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "067c31e6e8fda190",
-      "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
-      "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality",
-      "source": "Google Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-12T09:51:00+00:00",
-      "text": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality Generative AI",
-      "matched_terms": [
-        "AI",
-        "generative AI"
-      ],
-      "engagement": {},
-      "score": 57.062,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.47",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.473,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -5345,6 +5312,40 @@
       "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
       "matched_terms": [
         "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d8f5a4edfd9ee155",
+      "title": "Cae Automation Design Smarter Develop Faster",
+      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
+      "matched_terms": [
+        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
