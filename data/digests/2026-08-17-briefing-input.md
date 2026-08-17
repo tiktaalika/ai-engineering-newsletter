@@ -3,42 +3,42 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16410
-- filtered_count: 2231
+- fetched_count: 16420
+- filtered_count: 2249
 - duplicate_count: 77
 - failures: 7
 
 ## Top 10 General AI News
 1. [The CPU Comeback Is Upon Us](https://spectrum.ieee.org/ai-cpu-comeback)
    - source: IEEE Spectrum AI
-   - score: 66.514
-   - score_breakdown: general=1.0; engineering=0.0; research=0.667; novelty=0.417; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.42; matched_terms=12; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 66.267
+   - score_breakdown: general=1.0; engineering=0.0; research=0.667; novelty=0.406; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.41; matched_terms=12; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 2. [Are Microsoft’s AI plans being held back by a shortage of chips?](https://www.theguardian.com/technology/2026/aug/17/are-microsofts-ai-plans-being-held-back-by-a-shortage-of-chips)
    - source: The Guardian Technology
-   - score: 64.168
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.886; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 63.921
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.875; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’](https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust)
    - source: TechCrunch AI
-   - score: 60.62
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.846; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.538
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.843; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Rogue AI aren’t science fiction anymore](https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai)
    - source: The Verge AI
-   - score: 57.16
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.386; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.39; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.913
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.375; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.37; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b)
    - source: TechCrunch AI
-   - score: 54.882
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.889; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.8
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.885; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [OpenAI reportedly disbanded its preparedness team](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team)
    - source: The Verge AI
-   - score: 53.724
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.684; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.68; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.477
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.673; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.67; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
    - score: 52.367
@@ -63,9 +63,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things](https://simonwillison.net/2026/Aug/16/qwen-38-27b)
    - source: Simon Willison
-   - score: 82.188
-   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.849; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=7; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 82.064
+   - score_breakdown: general=1.0; engineering=0.25; research=1.0; novelty=0.844; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=7; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 2. [Understanding The Importance Of The Cfl Condition In Cfd Simulations](https://www.neuralconcept.com/post/understanding-the-importance-of-the-cfl-condition-in-cfd-simulations)
    - source: Neural Concept
    - score: 60.367
@@ -73,32 +73,32 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Report supporting Australia’s teen social media ban appears to contain AI hallucinations, Senate hears](https://www.theguardian.com/australia-news/2026/aug/17/australia-social-media-ban-report-ai-hallucinations-ntwnfb)
    - source: The Guardian Technology
-   - score: 57.617
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.854; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.37
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.843; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Monthly Industrial Ai Call 2026 05 Recap](https://www.industrial-ai-network.com/news/monthly-industrial-ai-call-2026-05-recap)
    - source: Industrial AI Network
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [ChatGPT’s Computer History tracks your clicks and keystrokes](https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes)
-   - source: The Verge AI
-   - score: 49.351
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.478; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+5. [Ntop Live Streamline Cfd Simulations With Ntop Platform And Ansys](https://www.ntop.com/resources/videos/ntop-live-streamline-cfd-simulations-with-ntop-platform-and-ansys)
+   - source: nTop
+   - score: 49.167
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Better Models Wont Fix Pharmas Ai Problem Better Terminology Will](https://medcitynews.com/2026/08/better-models-wont-fix-pharmas-ai-problem-better-terminology-will)
+1. [When the Deal Closes, the Data Work Begins: How Snowflake Accelerates M&A and Divestitures in Life Sciences](https://www.snowflake.com/en/blog/ma-data-integration?mkt_tok=aw.ds&gclid=deleted)
+   - source: Snowflake AI
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Better Models Wont Fix Pharmas Ai Problem Better Terminology Will](https://medcitynews.com/2026/08/better-models-wont-fix-pharmas-ai-problem-better-terminology-will)
    - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Founders Should Stop Worrying If Theyre Ai Enough](https://medcitynews.com/2026/08/founders-should-stop-worrying-if-theyre-ai-enough)
-   - source: MedCity News
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Artificial Intelligence,](https://medcitynews.com/category/channel/artificial-intelligence)
+3. [Founders Should Stop Worrying If Theyre Ai Enough](https://medcitynews.com/2026/08/founders-should-stop-worrying-if-theyre-ai-enough)
    - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
