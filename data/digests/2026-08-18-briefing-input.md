@@ -4,61 +4,61 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16475
-- filtered_count: 2287
+- filtered_count: 2286
 - duplicate_count: 73
 - failures: 7
 
 ## Top 10 General AI News
 1. [[AINews] Stripe buys OpenRouter for $7B](https://www.latent.space/p/ainews-stripe-buys-openrouter-for)
    - source: Latent Space
-   - score: 61.019
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.865; source_priority=1.0
+   - score: 60.947
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.861; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility](https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra)
    - source: Simon Willison
-   - score: 58.314
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.742; source_priority=1.0
+   - score: 58.242
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.738; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.74; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index](https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52)
    - source: Simon Willison
-   - score: 57.941
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.876; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.869
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [New policy ideas for the Intelligence Age](https://openai.com/index/new-policy-ideas-for-the-intelligence-age)
    - source: OpenAI
-   - score: 54.101
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.702; source_priority=1.0
+   - score: 54.053
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.699; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.70; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The Defender’s Window](https://openai.com/index/the-defenders-window)
    - source: OpenAI
-   - score: 54.617
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.725; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.569
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.723; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [From AI Copilots to Agent Swarms](https://spectrum.ieee.org/amd-agent-swarms)
    - source: IEEE Spectrum AI
-   - score: 61.694
-   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.441; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.44; matched_terms=7; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.55
+   - score_breakdown: general=1.0; engineering=0.0; research=0.0; novelty=0.434; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.43; matched_terms=7; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart](https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart)
    - source: Amazon AWS AI
-   - score: 60.84
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.856; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.792
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.854; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments](https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments)
    - source: Amazon AWS AI
-   - score: 57.099
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.838; source_priority=1.0
+   - score: 57.051
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.836; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [AI automation startup Relay shuts down, staff joins Google’s Chrome team](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team)
+9. [US states take on Meta in pivotal trial over child social media addiction claims](https://www.theguardian.com/technology/2026/aug/18/meta-child-safety-addiction-lawsuit-states)
+   - source: The Guardian Technology
+   - score: 56.574
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.965; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [AI automation startup Relay shuts down, staff joins Google’s Chrome team](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team)
    - source: TechCrunch AI
-   - score: 54.939
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.891; source_priority=1.0
+   - score: 54.891
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.889; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [How canvases make agentic workflows visible, steerable, and cost-efficient](https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient)
-   - source: GitHub Copilot
-   - score: 53.69
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.834; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [What Is Engineering Simulation And How Does It Work](https://www.neuralconcept.com/post/what-is-engineering-simulation-and-how-does-it-work)
@@ -78,29 +78,29 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [AI Used to Verify Toughest Mathematics Proof Yet](https://spectrum.ieee.org/axiom-math-246-theorem-formalization)
    - source: IEEE Spectrum AI
-   - score: 53.84
-   - score_breakdown: general=0.333; engineering=0.25; research=0.333; novelty=0.409; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.41; matched_terms=2; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 53.696
+   - score_breakdown: general=0.333; engineering=0.25; research=0.333; novelty=0.403; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.40; matched_terms=2; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 5. [Quoting Dario Amodei](https://simonwillison.net/2026/Aug/16/dario-amodei)
    - source: Simon Willison
-   - score: 53.473
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.362; source_priority=1.0
+   - score: 53.401
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.359; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.36; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [The Sinking City 2 review – Ukrainian cosmic horror, come hell or high water](https://www.theguardian.com/games/2026/aug/17/the-sinking-city-2-review-ukrainian-playstation-5-xbox-series-pc-frogwares)
    - source: The Guardian Technology
-   - score: 48.382
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.472; source_priority=1.0
+   - score: 48.238
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.465; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.47; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [STAT+: Eyepoint study results for vision treatment disappoint, but company still sees promise](https://www.statnews.com/2026/08/17/eyepoint-duravyu-wet-amd-study)
    - source: STAT Health Tech
-   - score: 48.301
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.589; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.59; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.157
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.583; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.58; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Moving At The Speed Of Pharma Digitalisation Driving Roi From Ai And Digital Tools](https://www.pharmaceutical-technology.com/news/moving-at-the-speed-of-pharma-digitalisation-driving-roi-from-ai-and-digital-tools)
    - source: Pharmaceutical Technology
-   - score: 45.702
+   - score: 45.697
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.98; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [How Pfizer And Redcap Cloud Modernized Clinical Data Sharing](https://www.databricks.com/dataaisummit/session/how-pfizer-and-redcap-cloud-modernized-clinical-data-sharing)
