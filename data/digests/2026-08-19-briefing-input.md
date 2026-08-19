@@ -3,86 +3,86 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 15912
-- filtered_count: 2301
-- duplicate_count: 78
+- fetched_count: 15944
+- filtered_count: 2322
+- duplicate_count: 79
 - failures: 8
 
 ## Top 10 General AI News
 1. [Mojo🔥 is now open source](https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source)
    - source: Simon Willison
-   - score: 61.084
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.867; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.754
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.852; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Strengthening democratic oversight in national security](https://openai.com/index/strengthening-democratic-oversight-in-national-security)
    - source: OpenAI
-   - score: 58.114
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.884; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.894
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.874; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Partnering with CodeAI to prepare the first AI generation](https://openai.com/index/partnering-with-codeai)
    - source: OpenAI
-   - score: 56.281
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.061
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.791; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing](https://www.latent.space/p/glean-model-routing)
    - source: Latent Space
-   - score: 54.427
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.868; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.098
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.853; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [How Much Memory Does Your Agent Actually Need?](https://huggingface.co/blog/ibm-research/altk-evolve-hmm)
    - source: Hugging Face
-   - score: 53.216
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.813; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.886
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.798; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Headed for the Exit: the Great Engineering Leader Career Break](https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break)
    - source: The Pragmatic Engineer
-   - score: 41.394
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.785; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 41.065
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.77; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers](https://huggingface.co/blog/multi-vector-encoder)
    - source: Hugging Face
-   - score: 46.973
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.529; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 46.644
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.514; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.51; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Implement vector-prompt document classification using Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock)
    - source: Amazon AWS AI
-   - score: 67.696
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.865; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 67.477
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.855; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [OpenAI announces slowing pace of development after hack by rogue agent](https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack)
    - source: The Guardian Technology
-   - score: 66.904
-   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.708; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.71; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 66.246
+   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.678; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.68; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [How Axonius built secure multi-tenant AI agents on Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 60.863
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.857; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.644
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.847; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning](https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning)
-   - source: Rescale
-   - score: 74.234
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.98; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-2. [How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit](https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit)
+1. [How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit](https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit)
    - source: NVIDIA AI
-   - score: 64.718
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.874; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-3. [Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking](https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking)
+   - score: 64.499
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.864; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+2. [Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking](https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking)
    - source: Neural Concept
    - score: 59.7
    - score_breakdown: general=0.167; engineering=1.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
-4. [Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear](https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear)
+3. [Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear](https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear)
    - source: TechCrunch AI
-   - score: 57.666
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.856; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-5. [Industrial Ai Terminology Guide Pdf Version 2](https://www.industrial-ai-network.com/publications/industrial-ai-terminology-guide-pdf-version-2)
+   - score: 57.447
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.846; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+4. [Industrial Ai Terminology Guide Pdf Version 2](https://www.industrial-ai-network.com/publications/industrial-ai-terminology-guide-pdf-version-2)
    - source: Industrial AI Network
+   - score: 57.033
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Algorithmus Basierte Fea](https://www.synera.ai/de/workflows/algorithmus-basierte-fea)
+   - source: Synera
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
@@ -90,19 +90,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Physician group sues Trump administration over dietary guidelines process](https://www.statnews.com/2026/08/19/physician-group-sues-trump-administration-over-dietary-guidelines-food-pyramid-hhs-usda)
    - source: STAT Health Tech
-   - score: 56.55
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.964; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.892
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.934; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Trump administration sued over visa time limit that would affect grad students, postdocs](https://www.statnews.com/2026/08/18/dhs-sued-over-visa-time-limit-for-foreign-students)
    - source: STAT Health Tech
-   - score: 53.628
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.68; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.68; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.969
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.65; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.65; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Fauci adviser David Morens pleads guilty to avoiding records requests, conspiracy to defraud government](https://www.statnews.com/2026/08/18/david-morens-guilty-plea-niaid-fauci-adviser)
    - source: STAT Health Tech
-   - score: 51.338
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.727; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.68
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.698; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.70; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Quality Leaders Warn Against Digitizing Broken Processes](https://www.bio-itworld.com/news/2026/08/18/quality-leaders-warn-against-digitizing-broken-processes)
    - source: Bio-IT World
    - score: 43.033
@@ -144,7 +144,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
-- [Dassault Systemes](https://www.google.com/search?q=site%3Ablog.3ds.com%20AI): site:blog.3ds.com AI (website, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
@@ -175,10 +174,10 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: HTTP Error 404: Not Found
+- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
