@@ -1,19 +1,15 @@
 {
   "run_log": {
-    "generated_at": "2026-08-20T07:27:31.007848+00:00",
+    "generated_at": "2026-08-20T07:56:22.443160+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16431,
-    "filtered_count": 2303,
+    "fetched_count": 16441,
+    "filtered_count": 2306,
     "duplicate_count": 76,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
-      },
-      {
-        "source": "Rescale",
-        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -66,10 +62,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.184,
+      "score": 67.019,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -78,7 +74,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.872,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -105,7 +101,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 61.145,
+      "score": 61.035,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -117,7 +113,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.865,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -142,10 +138,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 57.739,
+      "score": 57.574,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -154,7 +150,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -179,10 +175,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.587,
+      "score": 56.421,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -191,7 +187,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.966,
+      "novelty_score": 0.959,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -217,10 +213,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 47.795,
+      "score": 47.63,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -229,7 +225,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.773,
+      "novelty_score": 0.765,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -252,10 +248,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.526,
+      "score": 49.361,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.65",
+        "novelty=0.64",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -264,7 +260,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.645,
+      "novelty_score": 0.638,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -291,10 +287,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.791,
+      "score": 63.681,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -303,7 +299,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -315,39 +311,40 @@
       "source_priority": "high"
     },
     {
-      "id": "2a12b72016c54220",
-      "title": "UC Berkeley professor admits to using AI to edit op-ed on students’ math skills",
-      "url": "https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai",
-      "source": "The Guardian Technology",
+      "id": "801a3672f2c6a152",
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-20T00:35:11+00:00",
-      "text": "UC Berkeley professor admits to using AI to edit op-ed on students’ math skills Zvezdelina Stankova says she used AI to ‘help edit’ an article about some of her students being ‘five to eight years’ behind A math professor at the University of California, Berkeley, criticizing a “severe” math deficiency among students in an op-ed for the San Francisco Standard , admitted to using artificial intelligence to help edit the piece. The Standard published a 2,000-word piece by Zvezdelina Stankova last week, in which the professor said some of her math students were “five to eight years” behind and lacked a “middle school” education on fractions and basic algebra. Stankova said the UC system’s test-blind admissions were to blame, suggesting that students who weren’t sufficiently prepared for the rigor of Berkeley’s mathematics program were admitted because a longstanding benchmark like the SAT had disappeared. Continue reading...",
+      "published_at": "2026-08-19T22:10:46+00:00",
+      "text": "OpenAI seeks to one-up Anthropic with new customer privacy protections A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "benchmark"
+        "OpenAI",
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 61.942,
+      "score": 61.763,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.785,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -365,7 +362,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.856,
+      "score": 61.746,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -377,7 +374,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -402,10 +399,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.799,
+      "score": 61.689,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -414,7 +411,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.9,
+      "novelty_score": 0.895,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -426,6 +423,42 @@
     }
   ],
   "top_5_engineering_ai": [
+    {
+      "id": "92bf9577e1c6a8ab",
+      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
+      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-18T11:16:00+00:00",
+      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
+      "matched_terms": [
+        "simulation",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 73.643,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
     {
       "id": "af9870dab0ae4073",
       "title": "Conceptual integrity and counting lines of code",
@@ -442,7 +475,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.846,
+      "score": 67.681,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -454,7 +487,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -482,10 +515,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 65.252,
+      "score": 65.142,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -494,7 +527,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -519,7 +552,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.312,
+      "score": 61.201,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -531,7 +564,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.865,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -539,44 +572,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "59a8efebaf770ea2",
-      "title": "From Llm To Agentic Ai",
-      "url": "https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
-      "source": "Industrial AI Network",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "From Llm To Agentic Ai https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "industrial_ai",
-        "manufacturing",
-        "plm",
-        "digital_thread",
-        "industrial_copilot",
-        "user_requested"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -628,7 +623,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.204,
+      "score": 55.093,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -640,7 +635,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -798,6 +793,42 @@
   ],
   "top_5_cae_ai_engineering": [
     {
+      "id": "92bf9577e1c6a8ab",
+      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
+      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-18T11:16:00+00:00",
+      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
+      "matched_terms": [
+        "simulation",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 73.643,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "af9870dab0ae4073",
       "title": "Conceptual integrity and counting lines of code",
       "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code",
@@ -813,7 +844,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.846,
+      "score": 67.681,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -825,7 +856,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -853,10 +884,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 65.252,
+      "score": 65.142,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -865,7 +896,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -890,7 +921,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.312,
+      "score": 61.201,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -902,7 +933,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.865,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -910,44 +941,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "59a8efebaf770ea2",
-      "title": "From Llm To Agentic Ai",
-      "url": "https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
-      "source": "Industrial AI Network",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "From Llm To Agentic Ai https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "industrial_ai",
-        "manufacturing",
-        "plm",
-        "digital_thread",
-        "industrial_copilot",
-        "user_requested"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1762,7 +1755,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 75.8,
+      "score": 75.789,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1774,7 +1767,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.779,
+      "novelty_score": 0.778,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1782,6 +1775,78 @@
         "simulation",
         "industrial_ai",
         "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "92bf9577e1c6a8ab",
+      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
+      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-18T11:16:00+00:00",
+      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
+      "matched_terms": [
+        "simulation",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 73.643,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.953,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6c7d00101b602aa1",
+      "title": "Agent-Accelerated Computational Chemistry",
+      "url": "https://rescale.com/blog/ic-agent-accelerated-computational-chemistry",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-28T12:20:00+00:00",
+      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 71.451,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.43",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.43,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1800,7 +1865,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 69.315,
+      "score": 69.304,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -1812,7 +1877,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.757,
+      "novelty_score": 0.756,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1838,7 +1903,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.846,
+      "score": 67.681,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -1850,7 +1915,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1875,7 +1940,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.604,
+      "score": 67.593,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1887,7 +1952,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.831,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1895,46 +1960,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "9b2987ea472adcf7",
-      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
-      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-19T23:16:00+00:00",
-      "text": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files Goal is to be able to use this to execute user-provided tasks for things like data transformations It quickly ran into a problem: the Claude Code for web environment can't run smol machines . Quoting the notes it wrote : This Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. No /dev/kvm, no vmx/svm CPU flags → no nested virt. smolvm machine run fails as expected: \"kvm not available\". Plan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit. And Plan B is what it did , installin",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 67.184,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.872,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2008,6 +2033,84 @@
       "source_priority": "high"
     },
     {
+      "id": "9b2987ea472adcf7",
+      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-19T23:16:00+00:00",
+      "text": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files Goal is to be able to use this to execute user-provided tasks for things like data transformations It quickly ran into a problem: the Claude Code for web environment can't run smol machines . Quoting the notes it wrote : This Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. No /dev/kvm, no vmx/svm CPU flags → no nested virt. smolvm machine run fails as expected: \"kvm not available\". Plan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit. And Plan B is what it did , installin",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 67.019,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.864,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "15a12739b3fa6e86",
+      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
+      "url": "https://rescale.com/blog/ic-ai-physics-automotive-crash-structural-fea-simulations",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-07-24T10:29:00+00:00",
+      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
+      "matched_terms": [
+        "simulation",
+        "surrogate model",
+        "FEA",
+        "structural simulation"
+      ],
+      "engagement": {},
+      "score": 66.542,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.33",
+        "matched_terms=4",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.328,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "7fff47c16730c975",
       "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
       "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents",
@@ -2023,10 +2126,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 65.252,
+      "score": 65.142,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2035,7 +2138,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2044,6 +2147,75 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "4a5a1c6308573982",
+      "title": "Parametric Optimization via Local AI Inference",
+      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-07T11:10:00+00:00",
+      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
+      "matched_terms": [
+        "surrogate model"
+      ],
+      "engagement": {},
+      "score": 64.257,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.68",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.678,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ea2c1b588148cfb1",
+      "title": "Predicting Blood Damage with Surrogate Modeling",
+      "url": "https://www.comsol.com/blogs/predicting-blood-damage-with-surrogate-modeling",
+      "source": "COMSOL",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-06T13:03:08+00:00",
+      "text": "Predicting Blood Damage with Surrogate Modeling Veryst developed a surrogate model to better understand the relationship between a nozzle and blood damage. Learn more in this blog post.",
+      "matched_terms": [
+        "surrogate model"
+      ],
+      "engagement": {},
+      "score": 63.75,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.66",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.655,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "multiphysics",
+        "simulation"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2062,10 +2234,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.791,
+      "score": 63.681,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2074,7 +2246,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2083,40 +2255,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "ea2c1b588148cfb1",
-      "title": "Predicting Blood Damage with Surrogate Modeling",
-      "url": "https://www.comsol.com/blogs/predicting-blood-damage-with-surrogate-modeling",
-      "source": "COMSOL",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-06T13:03:08+00:00",
-      "text": "Predicting Blood Damage with Surrogate Modeling Veryst developed a surrogate model to better understand the relationship between a nozzle and blood damage. Learn more in this blog post.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 63.762,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.66",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.656,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "multiphysics",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2155,42 +2293,6 @@
       "source_priority": "high"
     },
     {
-      "id": "2a12b72016c54220",
-      "title": "UC Berkeley professor admits to using AI to edit op-ed on students’ math skills",
-      "url": "https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-20T00:35:11+00:00",
-      "text": "UC Berkeley professor admits to using AI to edit op-ed on students’ math skills Zvezdelina Stankova says she used AI to ‘help edit’ an article about some of her students being ‘five to eight years’ behind A math professor at the University of California, Berkeley, criticizing a “severe” math deficiency among students in an op-ed for the San Francisco Standard , admitted to using artificial intelligence to help edit the piece. The Standard published a 2,000-word piece by Zvezdelina Stankova last week, in which the professor said some of her math students were “five to eight years” behind and lacked a “middle school” education on fractions and basic algebra. Stankova said the UC system’s test-blind admissions were to blame, suggesting that students who weren’t sufficiently prepared for the rigor of Berkeley’s mathematics program were admitted because a longstanding benchmark like the SAT had disappeared. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "benchmark"
-      ],
-      "engagement": {},
-      "score": 61.942,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.79",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.785,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "398b72e9b1975e3e",
       "title": "Implement vector-prompt document classification using Amazon Bedrock",
       "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock",
@@ -2207,7 +2309,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.894,
+      "score": 61.784,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2219,7 +2321,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.601,
+      "novelty_score": 0.596,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2244,7 +2346,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.874,
+      "score": 61.763,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2256,7 +2358,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2281,7 +2383,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.856,
+      "score": 61.746,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2293,7 +2395,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2318,10 +2420,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.799,
+      "score": 61.689,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2330,7 +2432,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.9,
+      "novelty_score": 0.895,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2338,6 +2440,42 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "2a12b72016c54220",
+      "title": "UC Berkeley professor admits to using AI to edit op-ed on students’ math skills",
+      "url": "https://www.theguardian.com/us-news/2026/aug/19/uc-berkeley-professor-ai",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-20T00:35:11+00:00",
+      "text": "UC Berkeley professor admits to using AI to edit op-ed on students’ math skills Zvezdelina Stankova says she used AI to ‘help edit’ an article about some of her students being ‘five to eight years’ behind A math professor at the University of California, Berkeley, criticizing a “severe” math deficiency among students in an op-ed for the San Francisco Standard , admitted to using artificial intelligence to help edit the piece. The Standard published a 2,000-word piece by Zvezdelina Stankova last week, in which the professor said some of her math students were “five to eight years” behind and lacked a “middle school” education on fractions and basic algebra. Stankova said the UC system’s test-blind admissions were to blame, suggesting that students who weren’t sufficiently prepared for the rigor of Berkeley’s mathematics program were admitted because a longstanding benchmark like the SAT had disappeared. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 61.611,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.77,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2354,7 +2492,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.312,
+      "score": 61.201,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2366,7 +2504,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.865,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2391,7 +2529,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 61.145,
+      "score": 61.035,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2403,7 +2541,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.865,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2429,10 +2567,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 60.881,
+      "score": 60.77,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2441,7 +2579,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2450,42 +2588,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "a5d719298de17140",
-      "title": "Researchers say OpenAI revoked their access to limited cyber program",
-      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-19T18:46:14+00:00",
-      "text": "Researchers say OpenAI revoked their access to limited cyber program The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.426,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.868,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2851,6 +2953,42 @@
       "source_priority": "high"
     },
     {
+      "id": "a5d719298de17140",
+      "title": "Researchers say OpenAI revoked their access to limited cyber program",
+      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-19T18:46:14+00:00",
+      "text": "Researchers say OpenAI revoked their access to limited cyber program The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.315,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.863,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "d0a7f3d2c70a8110",
       "title": "Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking",
       "url": "https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking",
@@ -2898,7 +3036,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 59.456,
+      "score": 59.445,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.46",
@@ -2935,10 +3073,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 58.916,
+      "score": 58.806,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.60",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2947,7 +3085,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.61,
+      "novelty_score": 0.605,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2972,7 +3110,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.55,
+      "score": 58.44,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2984,7 +3122,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.899,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3028,44 +3166,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "015d2db39c7d3994",
-      "title": "Quoting Jeremy Morrell",
-      "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-19T22:56:31+00:00",
-      "text": "Quoting Jeremy Morrell My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our users super powers. — Jeremy Morrell , Extensible Software in the age of LLMs Tags: sandboxing , llms , ai , generative-ai",
-      "matched_terms": [
-        "AI",
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 57.739,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.867,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -3143,6 +3243,44 @@
       "source_priority": "high"
     },
     {
+      "id": "015d2db39c7d3994",
+      "title": "Quoting Jeremy Morrell",
+      "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-19T22:56:31+00:00",
+      "text": "Quoting Jeremy Morrell My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our users super powers. — Jeremy Morrell , Extensible Software in the age of LLMs Tags: sandboxing , llms , ai , generative-ai",
+      "matched_terms": [
+        "AI",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 57.574,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.859,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "5bccb51355d50068",
       "title": "Meet the startup helping Wall Street put a price on AI compute",
       "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute",
@@ -3156,7 +3294,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 57.456,
+      "score": 57.345,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3168,7 +3306,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3176,43 +3314,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "790a2787445587e6",
-      "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-19T16:00:00+00:00",
-      "text": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.124,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -5271,108 +5372,6 @@
       "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
       "matched_terms": [
         "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "5f598d3dedb3f122",
-      "title": "Ai Agents In Engineering",
-      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
-      "matched_terms": [
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "674b5396927b0e3a",
-      "title": "Ai Agents In Engineering Ai Conference 2025",
-      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "matched_terms": [
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "3cfd8b1d1cd4d509",
-      "title": "Altair Learning Synera Basics Intro Fea Automation",
-      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "matched_terms": [
-        "FEA"
       ],
       "engagement": {},
       "score": 57.033,
