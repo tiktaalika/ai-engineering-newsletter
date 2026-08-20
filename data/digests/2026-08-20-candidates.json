@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-08-20T07:06:54.821355+00:00",
+    "generated_at": "2026-08-20T07:27:31.007848+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16441,
-    "filtered_count": 2304,
+    "fetched_count": 16431,
+    "filtered_count": 2303,
     "duplicate_count": 76,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -62,10 +66,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.302,
+      "score": 67.184,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -74,7 +78,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.877,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -101,7 +105,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 61.224,
+      "score": 61.145,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -113,7 +117,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -138,7 +142,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 57.857,
+      "score": 57.739,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -150,7 +154,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.872,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -175,7 +179,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.705,
+      "score": 56.587,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -187,7 +191,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.971,
+      "novelty_score": 0.966,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -213,10 +217,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 47.913,
+      "score": 47.795,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -225,7 +229,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.778,
+      "novelty_score": 0.773,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -248,7 +252,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.645,
+      "score": 49.526,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -260,7 +264,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.651,
+      "novelty_score": 0.645,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -287,7 +291,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.869,
+      "score": 63.791,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -299,7 +303,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -325,10 +329,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 62.178,
+      "score": 61.942,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -337,7 +341,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.796,
+      "novelty_score": 0.785,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -361,10 +365,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.935,
+      "score": 61.856,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -373,7 +377,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.906,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -398,7 +402,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.878,
+      "score": 61.799,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -410,7 +414,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -422,42 +426,6 @@
     }
   ],
   "top_5_engineering_ai": [
-    {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 73.662,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
     {
       "id": "af9870dab0ae4073",
       "title": "Conceptual integrity and counting lines of code",
@@ -474,10 +442,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.964,
+      "score": 67.846,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -486,7 +454,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -514,7 +482,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 65.331,
+      "score": 65.252,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -526,7 +494,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -551,7 +519,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.39,
+      "score": 61.312,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -563,7 +531,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -571,6 +539,44 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "59a8efebaf770ea2",
+      "title": "From Llm To Agentic Ai",
+      "url": "https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Llm To Agentic Ai https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -622,10 +628,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.282,
+      "score": 55.204,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -634,7 +640,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -792,42 +798,6 @@
   ],
   "top_5_cae_ai_engineering": [
     {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 73.662,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "af9870dab0ae4073",
       "title": "Conceptual integrity and counting lines of code",
       "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code",
@@ -843,10 +813,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.964,
+      "score": 67.846,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -855,7 +825,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -883,7 +853,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 65.331,
+      "score": 65.252,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -895,7 +865,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -920,7 +890,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.39,
+      "score": 61.312,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -932,7 +902,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -940,6 +910,44 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "59a8efebaf770ea2",
+      "title": "From Llm To Agentic Ai",
+      "url": "https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Llm To Agentic Ai https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1754,7 +1762,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 75.808,
+      "score": 75.8,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1779,78 +1787,6 @@
       "source_priority": "high"
     },
     {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 73.662,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6c7d00101b602aa1",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/ic-agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 71.47,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.43,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "fadf95d27724d98e",
       "title": "Building a sustainable future with simulation and AI",
       "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
@@ -1864,7 +1800,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 69.323,
+      "score": 69.315,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -1902,10 +1838,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.964,
+      "score": 67.846,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -1914,7 +1850,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
+      "novelty_score": 0.864,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1939,7 +1875,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.612,
+      "score": 67.604,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1977,10 +1913,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 67.302,
+      "score": 67.184,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1989,7 +1925,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.877,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2072,44 +2008,6 @@
       "source_priority": "high"
     },
     {
-      "id": "15a12739b3fa6e86",
-      "title": "AI Physics for Automotive Crash and Structural FEA Simulations",
-      "url": "https://rescale.com/blog/ic-ai-physics-automotive-crash-structural-fea-simulations",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-24T10:29:00+00:00",
-      "text": "AI Physics for Automotive Crash and Structural FEA Simulations Build surrogate models for crash and structural simulation with Rescale's integrated AI Physics workflow for transient FEA data. The updated crash use case brings GeoTransolver support for transient behavior, solver-specific metadata extraction, and training-ready formatting into one reusable pipeline—helping engineers move toward faster crash insight with less manual setup.",
-      "matched_terms": [
-        "simulation",
-        "surrogate model",
-        "FEA",
-        "structural simulation"
-      ],
-      "engagement": {},
-      "score": 66.561,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.33",
-        "matched_terms=4",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.329,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "7fff47c16730c975",
       "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
       "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents",
@@ -2125,7 +2023,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 65.331,
+      "score": 65.252,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2137,7 +2035,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2146,41 +2044,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "4a5a1c6308573982",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 64.276,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.679,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2199,7 +2062,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.869,
+      "score": 63.791,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2211,7 +2074,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2235,7 +2098,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 63.769,
+      "score": 63.762,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -2306,10 +2169,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 62.178,
+      "score": 61.942,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2318,7 +2181,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.796,
+      "novelty_score": 0.785,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2344,7 +2207,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.972,
+      "score": 61.894,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2356,7 +2219,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.605,
+      "novelty_score": 0.601,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2381,10 +2244,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.952,
+      "score": 61.874,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2393,7 +2256,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2418,10 +2281,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.935,
+      "score": 61.856,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2430,7 +2293,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.906,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2455,7 +2318,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.878,
+      "score": 61.799,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2467,7 +2330,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2491,7 +2354,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.39,
+      "score": 61.312,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2503,7 +2366,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2528,7 +2391,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 61.224,
+      "score": 61.145,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2540,7 +2403,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2566,7 +2429,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 60.959,
+      "score": 60.881,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2578,7 +2441,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.862,
+      "novelty_score": 0.858,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2603,7 +2466,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.504,
+      "score": 60.426,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2615,7 +2478,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.871,
+      "novelty_score": 0.868,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3035,7 +2898,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 59.464,
+      "score": 59.456,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.46",
@@ -3072,7 +2935,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 58.994,
+      "score": 58.916,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -3084,7 +2947,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.613,
+      "novelty_score": 0.61,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3109,10 +2972,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.629,
+      "score": 58.55,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3121,7 +2984,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3181,7 +3044,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 57.857,
+      "score": 57.739,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -3193,7 +3056,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.872,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3293,10 +3156,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 57.534,
+      "score": 57.456,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3305,7 +3168,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3329,7 +3192,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.203,
+      "score": 57.124,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3341,7 +3204,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -5372,6 +5235,142 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b59a1ade7d5b68bc",
+      "title": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows",
+      "url": "https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f598d3dedb3f122",
+      "title": "Ai Agents In Engineering",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "674b5396927b0e3a",
+      "title": "Ai Agents In Engineering Ai Conference 2025",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3cfd8b1d1cd4d509",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
       "matched_terms": [
         "FEA"
       ],
