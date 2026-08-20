@@ -3,84 +3,84 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16441
-- filtered_count: 2306
+- fetched_count: 16444
+- filtered_count: 2307
 - duplicate_count: 76
 - failures: 7
 
 ## Top 10 General AI News
 1. [smolmachines / smolvm as a sandbox for untrusted Python & JavaScript](https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox)
    - source: Simon Willison
-   - score: 67.019
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.864; source_priority=1.0
+   - score: 66.897
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.859; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Offering Zero Data Retention for frontier models](https://openai.com/index/offering-zero-data-retention-for-frontier-models)
    - source: OpenAI
-   - score: 61.035
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.865; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.953
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.862; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Quoting Jeremy Morrell](https://simonwillison.net/2026/Aug/19/jeremy-morrell)
    - source: Simon Willison
-   - score: 57.574
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.859; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.452
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.854; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law](https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie)
    - source: Latent Space
-   - score: 56.421
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.959; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.3
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.953; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [From Chrome DevTools to AI Engineering, with Addy Osmani](https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering)
    - source: The Pragmatic Engineer
-   - score: 47.63
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.765; source_priority=0.65
+   - score: 47.508
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.759; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [[AINews] Memory prices up 500% in 12 months](https://www.latent.space/p/ainews-memory-prices-up-500-in-12)
    - source: Latent Space
-   - score: 49.361
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.638; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.64; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.239
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.632; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.63; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Evaluating AI Agent Skill Performance with NVIDIA SkillEvaluator](https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator)
    - source: NVIDIA AI
-   - score: 63.681
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.834; source_priority=1.0
+   - score: 63.599
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.83; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [OpenAI seeks to one-up Anthropic with new customer privacy protections](https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections)
    - source: TechCrunch AI
-   - score: 61.763
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.682
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.895; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Asynchronous patterns for calling Amazon Bedrock AgentCore agents in serverless pipelines](https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines)
    - source: Amazon AWS AI
-   - score: 61.746
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.664
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.894; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Cognition CEO denies report that SpaceX tried to acquire the startup](https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup)
    - source: TechCrunch AI
-   - score: 61.689
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.895; source_priority=1.0
+   - score: 61.608
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.891; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning](https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning)
    - source: Rescale
-   - score: 73.643
+   - score: 73.635
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.953; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.95; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Conceptual integrity and counting lines of code](https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code)
    - source: Simon Willison
-   - score: 67.681
-   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.857; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 67.559
+   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.851; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents](https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents)
    - source: NVIDIA AI
-   - score: 65.142
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.9; source_priority=1.0
+   - score: 65.061
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.897; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Google packs Search and Gemini with new AI study tools](https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini)
    - source: TechCrunch AI
-   - score: 61.201
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.865; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.12
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.862; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [Fea Automation](https://www.synera.ai/workflows/fea-automation)
    - source: Synera
    - score: 57.033
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Automate Document Processing with Quick Automate and the IDP Accelerator](https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-quick-automate-and-the-idp-accelerator)
    - source: Amazon AWS AI
-   - score: 55.093
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.012
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.894; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [[email protected]](https://www.bio-itworld.com/cdn-cgi/l/email-protection)
    - source: Bio-IT World
    - score: 43.033
