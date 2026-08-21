@@ -3,84 +3,84 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16868
-- filtered_count: 2317
+- fetched_count: 16820
+- filtered_count: 2305
 - duplicate_count: 75
 - failures: 7
 
 ## Top 10 General AI News
 1. [ChatGPT search now uses the site:operator at scale](https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale)
    - source: Simon Willison
-   - score: 64.864
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.888; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 64.747
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.882; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud](https://www.latent.space/p/ainews-poolside-gets-12b-reverse)
    - source: Latent Space
-   - score: 60.19
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.978; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.073
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.973; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Introducing AI Futures](https://openai.com/index/introducing-ai-futures)
    - source: OpenAI
-   - score: 55.134
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.056
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.745; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.74; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Up to 3.2x Faster Inference with LFM2.5-DSpark](https://huggingface.co/blog/LiquidAI/lfm25-dspark)
    - source: Hugging Face
-   - score: 52.432
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.777; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.315
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.772; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The Pulse: We need to talk about migrations with AI](https://newsletter.pragmaticengineer.com/p/the-pulse-we-need-to-talk-about-migrations)
    - source: The Pragmatic Engineer
-   - score: 41.576
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.793; source_priority=0.65
+   - score: 41.459
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.788; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [AWS vector solutions: Build agentic AI where your data lives](https://aws.amazon.com/blogs/machine-learning/aws-vector-solutions-build-agentic-ai-where-your-data-lives)
    - source: Amazon AWS AI
-   - score: 63.887
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.843; source_priority=1.0
+   - score: 63.809
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.84; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Binance now lets AI agents trade, but keeping them in check is largely up to users](https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users)
    - source: TechCrunch AI
-   - score: 62.374
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.775; source_priority=1.0
+   - score: 62.296
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.771; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 60.65
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.848; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.572
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.844; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Debates over AI consciousness are a trap](https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap)
    - source: MIT Technology Review AI
-   - score: 56.725
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.518; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.52; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.49
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.507; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.51; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [AI data startup Micro1 reaches $500M gross run rate amid AI training boom](https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom)
    - source: TechCrunch AI
-   - score: 55.749
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.928; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.671
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.924; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView](https://simonwillison.net/2026/Aug/20/bun-webview-json-api)
    - source: Simon Willison
-   - score: 68.163
-   - score_breakdown: general=0.667; engineering=0.25; research=0.333; novelty=0.757; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=4; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 68.046
+   - score_breakdown: general=0.667; engineering=0.25; research=0.333; novelty=0.752; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=4; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 2. [Meta AI’s new Mac app wants you to talk to your apps](https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps)
    - source: TechCrunch AI
-   - score: 59.826
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.803; source_priority=1.0
+   - score: 59.748
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.799; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions](https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions)
    - source: Synopsys
-   - score: 59.658
+   - score: 59.65
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.978; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Stupid Never Dies – a zombie fights for the love of a frozen corpse](https://www.theguardian.com/games/2026/aug/21/stupid-never-dies-zombie-game)
    - source: The Guardian Technology
-   - score: 59.366
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.933; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.132
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.923; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [From Llm To Agentic Ai](https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai)
    - source: Industrial AI Network
    - score: 57.033
@@ -90,24 +90,24 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 1: Setting up your Snowflake environment](https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment)
    - source: Amazon AWS AI
-   - score: 55.099
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.021
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.895; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: Pharmalittle: We’re reading about a Regeneron rare disease drug, an Ultragenyx gene therapy, and more](https://www.statnews.com/pharmalot/2026/08/20/regeneron-rare-disease-drug-utragenyx-gene-therapy)
    - source: STAT Health Tech
-   - score: 48.373
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.434; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.43; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.139
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.423; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.42; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [STAT+: FDA approves Ultragenyx gene therapy](https://www.statnews.com/2026/08/20/biotech-news-fda-approves-utlragenyx-gene-therapy)
    - source: STAT Health Tech
-   - score: 47.964
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.453; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.45; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 47.73
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.442; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.44; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Contrasting legal decisions on gender-affirming care](https://www.statnews.com/2026/08/20/health-news-contrasting-legal-decisions-on-gender-affirming-care)
    - source: STAT Health Tech
-   - score: 45.195
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.448; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.45; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 44.961
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.438; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.44; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Qureight expands with addition of second site, to accommodate rapid growth and ongoing development of chest Foundation Model](https://www.bio-itworld.com/news/2026/08/20/qureight-expands-with-addition-of-second-site-to-accommodate-rapid-growth-and-ongoing-development-of-chest-foundation-model)
    - source: Bio-IT World
    - score: 43.033
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [Broadening access to Skala creates a faster path to predictive DFT](https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft)
    - source: Microsoft Research
-   - score: 63.846
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.932; source_priority=1.0
+   - score: 63.813
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.931; source_priority=1.0
 2. [Zerogpu Aoti](https://huggingface.co/blog/zerogpu-aoti)
    - source: Hugging Face Papers
    - score: 51.033
