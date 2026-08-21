@@ -1,0 +1,162 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-08-13 至 2026-08-21 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-08-13 to 2026-08-21.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "Energy-Mamba: A Physics-Constrained State-Space Model for Medical Image Classification",
+      "url": "https://arxiv.org/abs/2608.19813",
+      "source": "arXiv",
+      "published": "2026-08-20",
+      "authors": [
+        "Mohamed Mabrok",
+        "Yalda Zafari",
+        "Essam A. Rashed"
+      ],
+      "summary_en": "State-Space Models (SSMs), particularly Mamba, offer linear-time complexity for long-range dependencies, making them attractive for medical imaging with limited annotated data. However, adapting these sequential models to 2D images through unconstrained state evolution causes representational drift, the dynamic hidden state progressively loses fidelity to local image features. We introduce Energy-Mamba, integrating SSM dynamics with physics-informed constraints via a learnable potential energy f",
+      "summary_zh": "英文摘要：State-Space Models (SSMs), particularly Mamba, offer linear-time complexity for long-range dependencies, making them attractive for medical imaging with limited annotated data. However, adapting these sequential models to 2D images through unconstrained state evolution causes representational drift, the dynamic hidden state progressively loses fidelity to local image features. We introduce Energy-Mamba, integrating SSM dynamics with physics-informed constraints via a learnable potential energy f",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "LLMs as Acquisition Policies for Finite-Pool Materials Optimization: A Controlled Study",
+      "url": "https://arxiv.org/abs/2608.19790",
+      "source": "arXiv",
+      "published": "2026-08-20",
+      "authors": [
+        "Dino-Rober Demir",
+        "Florian Le Bronnec",
+        "Rio Yokota"
+      ],
+      "summary_en": "Discovering materials with desirable properties often requires searching large candidate spaces while experimental or computational evaluations remain costly. Active learning addresses this challenge by using previous observations to select which candidate to evaluate next, typically through probabilistic surrogate models. We investigate whether open-weight large language models (LLMs) can serve as standalone acquisition policies in this setting. We evaluate five LLMs across four retrospective f",
+      "summary_zh": "英文摘要：Discovering materials with desirable properties often requires searching large candidate spaces while experimental or computational evaluations remain costly. Active learning addresses this challenge by using previous observations to select which candidate to evaluate next, typically through probabilistic surrogate models. We investigate whether open-weight large language models (LLMs) can serve as standalone acquisition policies in this setting. We evaluate five LLMs across four retrospective f",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Kerr Quasinormal Modes without Variable Separation: A Two-Dimensional Hyperboloidal Teukolsky Solver with Physics-Informed Neural Networks",
+      "url": "https://arxiv.org/abs/2608.19774",
+      "source": "arXiv",
+      "published": "2026-08-20",
+      "authors": [
+        "Antonio Ferrer-Sánchez",
+        "Daniela D. Doneva",
+        "José D. Martín-Guerrero",
+        "Stoytcho S. Yazadjiev",
+        "Roberto Ruiz de Austri-Bazan",
+        "Yolanda Vives-Gilabert",
+        "José A. Font"
+      ],
+      "summary_en": "We use physics-informed neural networks (PINNs) to solve the gravitational quasinormal-mode (QNM) eigenvalue problem for Kerr spacetime directly in the two-dimensional hyperboloidal formulation of the Teukolsky equation. This formulation does not require separation of variables and thus retains the coupled radial--angular structure. Such a scheme provides a prototype for calculating the QNMs of beyond-Kerr black holes for which the perturbation equations are non-separable. Sequences with increas",
+      "summary_zh": "英文摘要：We use physics-informed neural networks (PINNs) to solve the gravitational quasinormal-mode (QNM) eigenvalue problem for Kerr spacetime directly in the two-dimensional hyperboloidal formulation of the Teukolsky equation. This formulation does not require separation of variables and thus retains the coupled radial--angular structure. Such a scheme provides a prototype for calculating the QNMs of beyond-Kerr black holes for which the perturbation equations are non-separable. Sequences with increas",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Rationally Enriched Chebyshev Trunk Bases for DeepONet Surrogates of High Péclet Entrance Transport",
+      "url": "https://arxiv.org/abs/2608.19658",
+      "source": "arXiv",
+      "published": "2026-08-20",
+      "authors": [
+        "Mingeun Choi",
+        "Satish Kumar"
+      ],
+      "summary_en": "This study demonstrates a rationally enriched Chebyshev (REC) trunk for deep operator network (DeepONet) surrogate models of singularly perturbed and high-Péclet transport problems whose solution profiles are characterized by thin localized boundary or wall layers. The REC trunk combines Chebyshev polynomial dictionary elements with rational dictionary elements constructed using the adaptive Antoulas-Anderson (AAA) algorithm. Over five independent training runs, the resulting REC-trunk DeepONet ",
+      "summary_zh": "英文摘要：This study demonstrates a rationally enriched Chebyshev (REC) trunk for deep operator network (DeepONet) surrogate models of singularly perturbed and high-Péclet transport problems whose solution profiles are characterized by thin localized boundary or wall layers. The REC trunk combines Chebyshev polynomial dictionary elements with rational dictionary elements constructed using the adaptive Antoulas-Anderson (AAA) algorithm. Over five independent training runs, the resulting REC-trunk DeepONet ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "S$^2$GS: Structured Sparse Gaussian Streaming for Efficient Free-Viewpoint Video Reconstruction on Edge-IoT Devices",
+      "url": "https://arxiv.org/abs/2608.19639",
+      "source": "arXiv",
+      "published": "2026-08-20",
+      "authors": [
+        "Yiwei Li",
+        "Jiannong Cao",
+        "Weixun Gao",
+        "Rui Cao",
+        "Songye Zhu",
+        "Yinfeng Cao",
+        "Mingjin Zhang"
+      ],
+      "summary_en": "Streaming reconstruction of Free-Viewpoint Videos (FVVs) supports immersive Internet of Things (IoT) services, such as telepresence and digital twin visualization. Existing methods suffer from high per-frame optimization time and large storage footprints, limiting deployment on resource-constrained Edge-IoT devices. To address these challenges, we propose Structured Sparse Gaussian Streaming (S$^2$GS), an FVV reconstruction framework that exploits structure-aware temporal sparsity to selectively",
+      "summary_zh": "英文摘要：Streaming reconstruction of Free-Viewpoint Videos (FVVs) supports immersive Internet of Things (IoT) services, such as telepresence and digital twin visualization. Existing methods suffer from high per-frame optimization time and large storage footprints, limiting deployment on resource-constrained Edge-IoT devices. To address these challenges, we propose Structured Sparse Gaussian Streaming (S$^2$GS), an FVV reconstruction framework that exploits structure-aware temporal sparsity to selectively",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Complementary, Not Cumulative: Interaction Effects in Physics-Informed Neural Networks for Navier-Stokes Vortex Shedding",
+      "url": "https://arxiv.org/abs/2608.19632",
+      "source": "arXiv",
+      "published": "2026-08-20",
+      "authors": [
+        "Devesh Shah"
+      ],
+      "summary_en": "Physics-informed neural networks (PINNs) embed governing partial differential equations directly into the training loss, offering a promising alternative to costly CFD solvers for unsteady flows. Yet the growing list of techniques proposed to improve PINN training is typically validated one at a time, leaving open whether these techniques actually compose. We study this question in depth on the DFG/Schafer-Turek unsteady cylinder wake benchmark. In isolation, nearly every technique performs no b",
+      "summary_zh": "英文摘要：Physics-informed neural networks (PINNs) embed governing partial differential equations directly into the training loss, offering a promising alternative to costly CFD solvers for unsteady flows. Yet the growing list of techniques proposed to improve PINN training is typically validated one at a time, leaving open whether these techniques actually compose. We study this question in depth on the DFG/Schafer-Turek unsteady cylinder wake benchmark. In isolation, nearly every technique performs no b",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Microlensify: a Transformer Based Machine Learning Classifier for Microlensing Events Trained on TESS Light Curves",
+      "url": "https://arxiv.org/abs/2608.19419",
+      "source": "arXiv",
+      "published": "2026-08-19",
+      "authors": [
+        "Atousa Kalantari",
+        "Somayeh Khakpash",
+        "Sedighe Sajadian",
+        "Hosein Haghi",
+        "Willow Fox Fortino",
+        "Rosanne Di Stefano"
+      ],
+      "summary_en": "Microlensing can reveal populations of faint compact objects that are otherwise difficult to detect. Depending on their design, all-sky surveys have the potential to search for these objects across the sky. The Transiting Exoplanet Survey Satellite (TESS), primarily designed to detect transiting exoplanets, also provides near all-sky coverage with high cadence. In this work, we use TESS data to search for microlensing candidates using both traditional and machine-learning methods and to identify",
+      "summary_zh": "英文摘要：Microlensing can reveal populations of faint compact objects that are otherwise difficult to detect. Depending on their design, all-sky surveys have the potential to search for these objects across the sky. The Transiting Exoplanet Survey Satellite (TESS), primarily designed to detect transiting exoplanets, also provides near all-sky coverage with high cadence. In this work, we use TESS data to search for microlensing candidates using both traditional and machine-learning methods and to identify",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Heteroscedastic Neural Surrogate Modeling for Robust and Rapid Bayesian Inference in Fusion Plasma Diagnostics",
+      "url": "https://arxiv.org/abs/2608.19377",
+      "source": "arXiv",
+      "published": "2026-08-19",
+      "authors": [
+        "Liyun Zhang",
+        "Naoya Mamada",
+        "Kentaro Sakai",
+        "Takeo Hoshi",
+        "Toru Aonishi"
+      ],
+      "summary_en": "Bayesian inference via Markov Chain Monte Carlo (MCMC) provides effective parameter estimation, but its real-time application in complex physical systems is hindered by heavy computational bottlenecks and extreme sensitivity to statistical noise. We address this by proposing a neural-network-based probabilistic surrogate framework for rapid and robust MCMC inference. Using fusion plasma Thomson scattering diagnostics as a challenging, noise-dominated testbed, our approach employs a dual-head arc",
+      "summary_zh": "英文摘要：Bayesian inference via Markov Chain Monte Carlo (MCMC) provides effective parameter estimation, but its real-time application in complex physical systems is hindered by heavy computational bottlenecks and extreme sensitivity to statistical noise. We address this by proposing a neural-network-based probabilistic surrogate framework for rapid and robust MCMC inference. Using fusion plasma Thomson scattering diagnostics as a challenging, noise-dominated testbed, our approach employs a dual-head arc",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Untangling Dense Crowds with mmWave Radar: From Crowd Semantics to Individual Spatial Behaviors",
+      "url": "https://arxiv.org/abs/2608.19357",
+      "source": "arXiv",
+      "published": "2026-08-19",
+      "authors": [
+        "Aaditya Prakash Kattekola",
+        "Anurag Pallaprolu",
+        "Yasamin Mostofi"
+      ],
+      "summary_en": "In this paper, we present a novel framework for recovering individual footprints and pedestrian spatial behaviors in dense crowds. This is a highly challenging problem, as pedestrians can merge or block one another often and for prolonged periods in crowded areas, leading to strongly entangled observations. Our approach jointly leverages learned crowd semantics and principled reasoning over persistent radar observability loss to systematically infer individual spatial footprints. At the macrosco",
+      "summary_zh": "英文摘要：In this paper, we present a novel framework for recovering individual footprints and pedestrian spatial behaviors in dense crowds. This is a highly challenging problem, as pedestrians can merge or block one another often and for prolonged periods in crowded areas, leading to strongly entangled observations. Our approach jointly leverages learned crowd semantics and principled reasoning over persistent radar observability loss to systematically infer individual spatial footprints. At the macrosco",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Function-On-Function Regression Through Separable Neural Operators",
+      "url": "https://arxiv.org/abs/2608.19070",
+      "source": "arXiv",
+      "published": "2026-08-19",
+      "authors": [
+        "Tailen Hsing",
+        "Su-Yun Huang",
+        "Toshinari Morimoto"
+      ],
+      "summary_en": "This paper investigates the estimation of the regression operator in function-on-function regression models. While traditional research has predominantly focused on linear models or their immediate nonlinear extensions, we propose a neural operator approach to accommodate general regression operators under mild smoothness assumptions. Operator learning has emerged as an active area of machine learning, particularly for solving physical models governed by partial differential equations. Using thi",
+      "summary_zh": "英文摘要：This paper investigates the estimation of the regression operator in function-on-function regression models. While traditional research has predominantly focused on linear models or their immediate nonlinear extensions, we propose a neural operator approach to accommodate general regression operators under mild smoothness assumptions. Operator learning has emerged as an active area of machine learning, particularly for solving physical models governed by partial differential equations. Using thi",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
