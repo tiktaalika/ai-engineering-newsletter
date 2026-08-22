@@ -3,73 +3,73 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16495
-- filtered_count: 2584
+- fetched_count: 16759
+- filtered_count: 2659
 - duplicate_count: 76
 - failures: 7
 
 ## Top 10 General AI News
 1. [An AI tool for prioritizing candidate biomarkers from wearable sensor data](https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data)
    - source: Google Research
-   - score: 67.221
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.934; source_priority=1.0
+   - score: 67.197
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.933; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [From Atari to EVE Online: Building on 15 Years of AI Research in Games](https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games)
    - source: Google DeepMind
-   - score: 66.726
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.912; source_priority=1.0
+   - score: 66.702
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.911; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 3. [Stop Making TUIs](https://simonwillison.net/2026/Aug/21/stop-making-tuis)
    - source: Simon Willison
-   - score: 61.96
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.756; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.876
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.752; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [llm 0.32.1](https://simonwillison.net/2026/Aug/21/llm)
    - source: Simon Willison
-   - score: 59.02
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.774; source_priority=1.0
+   - score: 58.937
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.77; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The Evolution of the Agent Harness](https://www.latent.space/p/attention-interface)
    - source: Latent Space
-   - score: 57.25
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.996; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.166
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.992; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Measuring benchmark optimization in speech recognition](https://huggingface.co/blog/asr-benchmark-optimization)
    - source: Hugging Face
-   - score: 49.084
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.504; source_priority=1.0
+   - score: 49.0
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.5; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.50; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 7. [Nvidia just showed that the harness, not the AI model, is now the real hero](https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero)
    - source: TechCrunch AI
-   - score: 67.243
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.875; source_priority=1.0
+   - score: 67.188
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.872; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents](https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents)
    - source: NVIDIA AI
-   - score: 63.035
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.805; source_priority=1.0
+   - score: 62.979
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.802; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Agentic Data Operations Platform (ADOP): Data engineering into hours](https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours)
    - source: Amazon AWS AI
-   - score: 60.642
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.847; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.586
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.845; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Govern AI agent tool access with Amazon Bedrock AgentCore Gateway](https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway)
    - source: Amazon AWS AI
-   - score: 60.628
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.847; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.572
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.844; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [This IEEE Senior Member Develops AI Tools for E-Commerce Sites](https://spectrum.ieee.org/ieee-senior-member-ai-ecommerce)
    - source: IEEE Spectrum AI
-   - score: 70.042
-   - score_breakdown: general=0.833; engineering=0.25; research=0.667; novelty=0.57; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.57; matched_terms=5; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+   - score: 69.875
+   - score_breakdown: general=0.833; engineering=0.25; research=0.667; novelty=0.563; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.56; matched_terms=5; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
 2. [Simulation: the new Scaling Law — Joon Sung Park, Simile AI](https://www.latent.space/p/simile)
    - source: Latent Space
-   - score: 64.872
-   - score_breakdown: general=0.333; engineering=0.5; research=0.0; novelty=0.873; source_priority=1.0
+   - score: 64.788
+   - score_breakdown: general=0.333; engineering=0.5; research=0.0; novelty=0.869; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
 3. [From Llm To Agentic Ai](https://www.industrial-ai-network.com/articles/from-llm-to-agentic-ai)
    - source: Industrial AI Network
@@ -90,19 +90,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Quoting Matt Webb](https://simonwillison.net/2026/Aug/21/matt-webb)
    - source: Simon Willison
-   - score: 54.943
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.74; source_priority=1.0
+   - score: 54.86
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.736; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.74; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [When AI designs a drug, who gets the credit?](https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit)
    - source: MIT Technology Review AI
-   - score: 45.021
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.289; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.29; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 44.854
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.281; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.28; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [STAT+: Are cancer patients getting too much drug?](https://www.statnews.com/2026/08/21/biotech-news-are-cancer-patients-us-getting-too-much-drug)
    - source: STAT Health Tech
-   - score: 44.711
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.426; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.43; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 44.544
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.419; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.42; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Anthropic's Claude AI Platform Designs Effective Binders in Test of Protein Design Capability](https://www.genomeweb.com/informatics/anthropics-claude-ai-platform-designs-effective-binders-test-protein-design-capability)
    - source: GenomeWeb
    - score: 38.5
@@ -117,12 +117,12 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [An AI tool for prioritizing candidate biomarkers from wearable sensor data](https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data)
    - source: Google Research
-   - score: 67.221
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.934; source_priority=1.0
+   - score: 67.197
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.933; source_priority=1.0
 2. [From Atari to EVE Online: Building on 15 Years of AI Research in Games](https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games)
    - source: Google DeepMind
-   - score: 66.726
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.912; source_priority=1.0
+   - score: 66.702
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.911; source_priority=1.0
 3. [Genesis Mission Lawrence Berkeley National Laboratory Segment Anything Dino](https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino)
    - source: Meta AI
    - score: 51.033
