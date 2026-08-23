@@ -3,41 +3,41 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16697
-- filtered_count: 2620
-- duplicate_count: 73
+- fetched_count: 16762
+- filtered_count: 2634
+- duplicate_count: 72
 - failures: 7
 
 ## Top 10 General AI News
 1. [How Claude Watermarks AI-Generated Text](https://magazine.sebastianraschka.com/p/claude-watermarking)
    - source: Ahead of AI
-   - score: 66.644
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.908; source_priority=1.0
+   - score: 66.622
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.907; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [llm 0.33](https://simonwillison.net/2026/Aug/22/llm)
    - source: Simon Willison
-   - score: 62.258
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.769; source_priority=1.0
+   - score: 62.181
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.766; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Quoting Linus Torvalds](https://simonwillison.net/2026/Aug/22/linus-torvalds)
    - source: Simon Willison
-   - score: 60.317
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.833; source_priority=1.0
+   - score: 60.24
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.829; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research)
    - source: TechCrunch AI
-   - score: 73.07
-   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.867; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 73.018
+   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.864; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 5. [OpenAI says California should strengthen its AI safety bill](https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill)
    - source: TechCrunch AI
-   - score: 60.499
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.841; source_priority=1.0
+   - score: 60.448
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.839; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [More than just code review](https://simonwillison.net/2026/Aug/22/more-than-just-code-review)
    - source: Simon Willison
-   - score: 58.555
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.753; source_priority=1.0
+   - score: 58.478
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
    - source: Anthropic
@@ -46,19 +46,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [Accelerating aircraft IFEC diagnostics with agentic AI on AWS](https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws)
    - source: Amazon AWS AI
-   - score: 55.1
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.595; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.60; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.](https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html)
-   - source: New York Times Technology
-   - score: 54.743
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.882; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS](https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps)
+   - score: 55.049
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.593; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.59; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS](https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps)
    - source: NVIDIA AI
-   - score: 54.653
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.575; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.58; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.602
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.573; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.](https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html)
+   - source: New York Times Technology
+   - score: 54.589
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.875; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Industrial Ai Solutions Market Reality](https://www.industrial-ai-network.com/articles/industrial-ai-solutions-market-reality)
@@ -78,8 +78,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over](https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x)
    - source: Latent Space
-   - score: 52.519
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.622; source_priority=1.0
+   - score: 52.442
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.619; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.62; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [The Ai Shift In Engineering Moving From Individual Effort To Organizational Adoption](https://www.colabsoftware.com/research/the-ai-shift-in-engineering-moving-from-individual-effort-to-organizational-adoption)
    - source: CoLab Software
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [How Claude Watermarks AI-Generated Text](https://magazine.sebastianraschka.com/p/claude-watermarking)
    - source: Ahead of AI
-   - score: 66.644
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.908; source_priority=1.0
+   - score: 66.622
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.907; source_priority=1.0
 2. [Asr Benchmark Optimization](https://huggingface.co/blog/asr-benchmark-optimization)
    - source: Hugging Face Papers
    - score: 51.033
@@ -141,7 +141,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [VentureBeat AI](https://www.google.com/search?q=site%3Aventurebeat.com%20AI): site:venturebeat.com AI (website, medium)
 - [Microsoft AI](https://www.google.com/search?q=site%3Ablogs.microsoft.com%20AI): site:blogs.microsoft.com AI (website, high)
 - [Perplexity](https://www.google.com/search?q=site%3Awww.perplexity.ai%20AI): site:www.perplexity.ai AI (website, medium)
-- [Snowflake AI](https://www.google.com/search?q=site%3Awww.snowflake.com%20AI): site:www.snowflake.com AI (website, medium)
 - [Engineering.com Design News Weekly](https://www.google.com/search?q=site%3Aengineering.com/category/technology/design%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20CAD%20OR%20CAE%20OR%20simulation%20OR%20manufacturing%20OR%20%22Solid%20Edge%22%20OR%20Designcenter%20OR%20Siemens%20OR%20Autodesk%20OR%20PLM%29): site:engineering.com/category/technology/design (AI OR "artificial intelligence" OR CAD OR CAE OR simulation OR manufacturing OR "Solid Edge" OR Designcenter OR Siemens OR Autodesk OR PLM) (newsletter, high)
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
