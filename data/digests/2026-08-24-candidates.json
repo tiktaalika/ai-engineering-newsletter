@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-08-24T08:03:44.765909+00:00",
+    "generated_at": "2026-08-24T08:25:22.933525+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16678,
-    "filtered_count": 2616,
-    "duplicate_count": 73,
+    "fetched_count": 17205,
+    "filtered_count": 2618,
+    "duplicate_count": 71,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -63,10 +67,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.663,
+      "score": 66.539,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -75,7 +79,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.818,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -103,10 +107,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 65.828,
+      "score": 65.704,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -115,7 +119,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.81,
+      "novelty_score": 0.805,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -140,10 +144,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.228,
+      "score": 54.98,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -152,7 +156,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -175,7 +179,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.575,
+      "score": 54.492,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -187,7 +191,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "novelty_score": 0.871,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -320,7 +324,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.477,
+      "score": 49.395,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.64",
@@ -332,7 +336,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.643,
+      "novelty_score": 0.639,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -426,10 +430,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.894,
+      "score": 57.811,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -438,7 +442,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.866,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -568,10 +572,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.61,
+      "score": 52.362,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.47",
+        "novelty=0.46",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -580,7 +584,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.467,
+      "novelty_score": 0.456,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -604,10 +608,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.228,
+      "score": 54.98,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -616,7 +620,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.893,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -783,10 +787,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.894,
+      "score": 57.811,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -795,7 +799,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.866,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -925,10 +929,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.61,
+      "score": 52.362,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.47",
+        "novelty=0.46",
         "matched_terms=1",
         "engineering_relevance=0.50",
         "research_relevance=0.00",
@@ -937,7 +941,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.467,
+      "novelty_score": 0.456,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1193,16 +1197,6 @@
       "source_type": "manual",
       "priority": "medium",
       "tags": "engineering_media, user_requested, url_pending_verification",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
-      "source": "Dassault Systemes",
-      "category": "engineering_ai",
-      "query": "site:blog.3ds.com AI",
-      "url": "https://www.google.com/search?q=site%3Ablog.3ds.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "cad, plm, simulation",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1498,16 +1492,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Dassault Systemes",
-      "category": "engineering_ai",
-      "query": "site:blog.3ds.com AI",
-      "url": "https://www.google.com/search?q=site%3Ablog.3ds.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "cad, plm, simulation",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Autodesk",
       "category": "engineering_ai",
       "query": "site:www.autodesk.com AI",
@@ -1744,7 +1728,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 73.586,
+      "score": 73.578,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1769,42 +1753,6 @@
       "source_priority": "high"
     },
     {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 71.44,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "22f82cd96b728a66",
       "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
       "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
@@ -1817,10 +1765,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.686,
+      "score": 69.677,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1835,42 +1783,6 @@
         "cae",
         "simulation",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6c7d00101b602aa1",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/ic-agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 69.248,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.33",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.329,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1892,7 +1804,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 67.507,
+      "score": 67.424,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -1904,7 +1816,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.614,
+      "novelty_score": 0.61,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -1928,7 +1840,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 67.101,
+      "score": 67.093,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -2037,10 +1949,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.663,
+      "score": 66.539,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2049,7 +1961,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.818,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2077,10 +1989,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 65.828,
+      "score": 65.704,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2089,7 +2001,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.81,
+      "novelty_score": 0.805,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2114,7 +2026,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.391,
+      "score": 65.382,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2150,7 +2062,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.26,
+      "score": 64.225,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2162,7 +2074,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.8,
+      "novelty_score": 0.798,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2187,7 +2099,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 62.477,
+      "score": 62.442,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.72",
@@ -2199,7 +2111,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.719,
+      "novelty_score": 0.717,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2246,41 +2158,6 @@
       "source_priority": "high"
     },
     {
-      "id": "4a5a1c6308573982",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 62.054,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.58",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.578,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "e42b7af4138c252f",
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
@@ -2294,10 +2171,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 61.982,
+      "score": 61.946,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2306,7 +2183,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.696,
+      "novelty_score": 0.695,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2329,10 +2206,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 61.548,
+      "score": 61.539,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2725,7 +2602,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.941,
+      "score": 59.933,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2783,41 +2660,6 @@
       "source_priority": "high"
     },
     {
-      "id": "5781c024565a9e9e",
-      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-23T19:14:08+00:00",
-      "text": "Linkdaze’s smart calendar is built to run a household, not just track a schedule Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.894,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.866,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
       "id": "3e25372b9239ef76",
       "title": "Nvidia Physical Ai",
       "url": "https://huggingface.co/blog/nvidia-physical-ai",
@@ -2851,6 +2693,41 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "5781c024565a9e9e",
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-23T19:14:08+00:00",
+      "text": "Linkdaze’s smart calendar is built to run a household, not just track a schedule Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.811,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.863,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -5343,6 +5220,111 @@
         "cloud_cae",
         "simulation",
         "physics_ai"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "68416d20bf0d7089",
+      "title": "Ai In Cae",
+      "url": "https://www.neuralconcept.com/post/ai-in-cae",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "955ec8dc94a3f30b",
+      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
+      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6b83445bacefae79",
+      "title": "Cae Tools Used In Automotive Industry",
+      "url": "https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Tools Used In Automotive Industry https://www.neuralconcept.com/post/cae-tools-used-in-automotive-industry",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"

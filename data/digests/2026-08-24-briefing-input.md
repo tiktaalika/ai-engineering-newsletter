@@ -3,31 +3,31 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16678
-- filtered_count: 2616
-- duplicate_count: 73
-- failures: 7
+- fetched_count: 17205
+- filtered_count: 2618
+- duplicate_count: 71
+- failures: 8
 
 ## Top 10 General AI News
 1. [Anthropic’s best AI model struggles to attract users as cheaper tools thrive](https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t)
    - source: Simon Willison
-   - score: 66.663
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.818; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 66.539
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.812; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Quoting Drew Breunig](https://simonwillison.net/2026/Aug/23/drew-breunig)
    - source: Simon Willison
-   - score: 65.828
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.81; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 65.704
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.805; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [Americans bought 12% less soda under new SNAP restrictions, study says](https://www.statnews.com/2026/08/24/snap-restrictions-12-percent-drop-soda-purchases)
    - source: STAT Health Tech
-   - score: 55.228
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.98
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.893; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Who’s behind the new ‘stealth model’ Ox Alpha?](https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha)
    - source: TechCrunch AI
-   - score: 54.575
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.875; source_priority=1.0
+   - score: 54.492
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.871; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)
    - source: Anthropic
@@ -46,8 +46,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Harvard’s $699 startup bootcamp offers AI avatars of its instructors](https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors)
    - source: TechCrunch AI
-   - score: 49.477
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.643; source_priority=1.0
+   - score: 49.395
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.639; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.64; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Mistral Ai And Nvidia Partner To Accelerate Open Frontier Models](https://mistral.ai/fr/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models)
    - source: Mistral AI
@@ -63,9 +63,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Linkdaze’s smart calendar is built to run a household, not just track a schedule](https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule)
    - source: TechCrunch AI
-   - score: 57.894
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.866; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.811
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.863; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [What Is Industrial Ai](https://www.industrial-ai-network.com/articles/what-is-industrial-ai)
    - source: Industrial AI Network
    - score: 57.033
@@ -83,16 +83,16 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The new Halloween video game has been banned in Australia – and not because of the violence](https://www.theguardian.com/games/2026/aug/24/michael-myers-halloween-video-game-banned-in-australia-drugs)
    - source: The Guardian Technology
-   - score: 52.61
-   - score_breakdown: general=0.167; engineering=0.5; research=0.0; novelty=0.467; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.47; matched_terms=1; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.362
+   - score_breakdown: general=0.167; engineering=0.5; research=0.0; novelty=0.456; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.46; matched_terms=1; engineering_relevance=0.50; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Americans bought 12% less soda under new SNAP restrictions, study says](https://www.statnews.com/2026/08/24/snap-restrictions-12-percent-drop-soda-purchases)
    - source: STAT Health Tech
-   - score: 55.228
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.98
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.893; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Cleveland Clinic Ai Healthcare Ambient Scribes](https://medcitynews.com/2026/08/cleveland-clinic-ai-healthcare-ambient-scribes)
    - source: MedCity News
    - score: 31.833
@@ -144,7 +144,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
-- [Dassault Systemes](https://www.google.com/search?q=site%3Ablog.3ds.com%20AI): site:blog.3ds.com AI (website, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
@@ -175,6 +174,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: HTTP Error 404: Not Found
+- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
