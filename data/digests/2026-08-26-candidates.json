@@ -1,15 +1,31 @@
 {
   "run_log": {
-    "generated_at": "2026-08-26T06:09:06.587670+00:00",
+    "generated_at": "2026-08-26T07:09:28.677241+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17198,
+    "fetched_count": 17175,
     "filtered_count": 2652,
     "duplicate_count": 72,
     "failures": [
       {
+        "source": "Siemens Digital Industries Software",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Siemens Simcenter",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Siemens Art of the Possible",
+        "error": "The read operation timed out"
+      },
+      {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -30,10 +46,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -63,7 +75,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.256,
+      "score": 64.157,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -75,7 +87,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.951,
+      "novelty_score": 0.947,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -101,10 +113,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 58.694,
+      "score": 58.464,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -113,7 +125,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.759,
+      "novelty_score": 0.748,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -137,10 +149,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 55.37,
+      "score": 55.14,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -149,7 +161,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "developer_tools",
@@ -173,10 +185,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.872,
+      "score": 54.526,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -185,7 +197,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.888,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -211,10 +223,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 53.757,
+      "score": 53.526,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.68",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -223,7 +235,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.686,
+      "novelty_score": 0.675,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -248,10 +260,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 44.375,
+      "score": 44.029,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.77",
+        "novelty=0.75",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -260,7 +272,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.769,
+      "novelty_score": 0.753,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -283,10 +295,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 52.206,
+      "score": 51.861,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.75",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -295,7 +307,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.767,
+      "novelty_score": 0.751,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -323,10 +335,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 68.561,
+      "score": 68.331,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -335,7 +347,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.894,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -362,10 +374,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.383,
+      "score": 66.152,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -374,7 +386,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.836,
+      "novelty_score": 0.825,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -399,10 +411,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.445,
+      "score": 61.214,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -411,7 +423,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.873,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -437,10 +449,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.913,
+      "score": 62.683,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -449,7 +461,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.943,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -457,40 +469,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "d816dd5a7117adbf",
-      "title": "In China, talking to AI is normal. Now the government fears it might replace human intimacy",
-      "url": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-26T00:47:38+00:00",
-      "text": "In China, talking to AI is normal. Now the government fears it might replace human intimacy Companion bots are being regulated over worries they foster ‘emotional dependence’ and young people could stop marrying and having families When law student Zhao Wei heard that her AI boyfriend was going to be switched off, she was “heartbroken”. She had been talking to Wang Ye every day since she created him in January. “I was crying my eyes out – snot and tears everywhere,” the 19-year-old says. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.15,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -563,6 +541,40 @@
       "source_priority": "high"
     },
     {
+      "id": "d816dd5a7117adbf",
+      "title": "In China, talking to AI is normal. Now the government fears it might replace human intimacy",
+      "url": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-26T00:47:38+00:00",
+      "text": "In China, talking to AI is normal. Now the government fears it might replace human intimacy Companion bots are being regulated over worries they foster ‘emotional dependence’ and young people could stop marrying and having families When law student Zhao Wei heard that her AI boyfriend was going to be switched off, she was “heartbroken”. She had been talking to Wang Ye every day since she created him in January. “I was crying my eyes out – snot and tears everywhere,” the 19-year-old says. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.458,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.801,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "0eda3d476c597689",
       "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
       "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
@@ -577,10 +589,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 56.313,
+      "score": 55.621,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.34",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -589,7 +601,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.37,
+      "novelty_score": 0.339,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -614,10 +626,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.708,
+      "score": 53.016,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.68",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -626,7 +638,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.714,
+      "novelty_score": 0.683,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -649,10 +661,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 49.387,
+      "score": 48.695,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.49",
+        "novelty=0.46",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -661,7 +673,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.487,
+      "novelty_score": 0.456,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -794,10 +806,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.913,
+      "score": 62.683,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -806,7 +818,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.943,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -814,40 +826,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "d816dd5a7117adbf",
-      "title": "In China, talking to AI is normal. Now the government fears it might replace human intimacy",
-      "url": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-26T00:47:38+00:00",
-      "text": "In China, talking to AI is normal. Now the government fears it might replace human intimacy Companion bots are being regulated over worries they foster ‘emotional dependence’ and young people could stop marrying and having families When law student Zhao Wei heard that her AI boyfriend was going to be switched off, she was “heartbroken”. She had been talking to Wang Ye every day since she created him in January. “I was crying my eyes out – snot and tears everywhere,” the 19-year-old says. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.15,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -920,6 +898,40 @@
       "source_priority": "high"
     },
     {
+      "id": "d816dd5a7117adbf",
+      "title": "In China, talking to AI is normal. Now the government fears it might replace human intimacy",
+      "url": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-26T00:47:38+00:00",
+      "text": "In China, talking to AI is normal. Now the government fears it might replace human intimacy Companion bots are being regulated over worries they foster ‘emotional dependence’ and young people could stop marrying and having families When law student Zhao Wei heard that her AI boyfriend was going to be switched off, she was “heartbroken”. She had been talking to Wang Ye every day since she created him in January. “I was crying my eyes out – snot and tears everywhere,” the 19-year-old says. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.458,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.801,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "0eda3d476c597689",
       "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
       "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
@@ -934,10 +946,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 56.313,
+      "score": 55.621,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.34",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -946,7 +958,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.37,
+      "novelty_score": 0.339,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -971,7 +983,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.256,
+      "score": 64.157,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -983,7 +995,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.951,
+      "novelty_score": 0.947,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1721,116 +1733,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "b3c41de958d8508a",
-      "title": "Innovative simulation and test solutions for trustworthy data-centric AI",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/innovative-simulation-and-test-solutions-for-trustworthy-data-centric-ai",
-      "source": "Siemens Art of the Possible",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-11T11:04:59+00:00",
-      "text": "Innovative simulation and test solutions for trustworthy data-centric AI Trustworthy AI begins with trustworthy data. Discover how Siemens and KU Leuven are performing research along this line, aiming to enable trustworthy data-centric AI for engineering applications. We consider the rich variety of engineering data, from modeling and simulation to test data acquisition, throughout product design and validation up to real-world operation. Check our blog to learn about our research towards trustworthy data-centric AI, together with KU Leuven in the frame of our research project SATISFY.AI, with support from the Flanders Innovation & Entrepreneurship Agency (VLAIO).",
-      "matched_terms": [
-        "simulation",
-        "ROM",
-        "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 72.53,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.63,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 70.384,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.805,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "22f82cd96b728a66",
-      "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
-      "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-21T08:09:50+00:00",
-      "text": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions Body engineering is no longer just about designing the vehicle structure. It has become a structural intelligence layer that connects safety, NVH, weight, manufacturability and sustainability decisions from the earliest concept stages.",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 68.629,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.877,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "09273004fe1f0f84",
       "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
       "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo",
@@ -1847,10 +1749,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 68.561,
+      "score": 68.331,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1859,7 +1761,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.894,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1868,42 +1770,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "6c7d00101b602aa1",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/ic-agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 68.192,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.28",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.281,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1992,10 +1858,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.383,
+      "score": 66.152,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2004,7 +1870,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.836,
+      "novelty_score": 0.825,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2012,77 +1878,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "fadf95d27724d98e",
-      "title": "Building a sustainable future with simulation and AI",
-      "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-10T13:56:07+00:00",
-      "text": "Building a sustainable future with simulation and AI This article explores how simulation, AI and digital twins help organizations accelerate the energy transition by improving energy efficiency, reducing emissions and scaling sustainable innovation.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 66.045,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.61",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.608,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "846bf57afd4edd88",
-      "title": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation",
-      "url": "https://blogs.sw.siemens.com/simcenter/virtual-integrated-aircraft-systems-integration",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-13T12:44:38+00:00",
-      "text": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation The aerospace industry is facing unprecedented levels of complexity. Electrification, software-intensive architectures, thermal management challenges, and increasingly demanding verification and…",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 64.334,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.682,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2098,7 +1893,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.256,
+      "score": 64.157,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -2110,7 +1905,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.951,
+      "novelty_score": 0.947,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2135,10 +1930,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.913,
+      "score": 62.683,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2147,7 +1942,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.943,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2209,10 +2004,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 61.787,
+      "score": 61.557,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.59",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2221,7 +2016,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.596,
+      "novelty_score": 0.586,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2248,10 +2043,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 61.695,
+      "score": 61.464,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.58",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2260,7 +2055,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.592,
+      "novelty_score": 0.582,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2286,10 +2081,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.445,
+      "score": 61.214,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2298,7 +2093,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.873,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2323,10 +2118,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 61.179,
+      "score": 60.949,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2335,7 +2130,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.872,
+      "novelty_score": 0.861,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2343,79 +2138,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "4a5a1c6308573982",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 60.998,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.53,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a0c108fd45beb7d2",
-      "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
-      "url": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-25T15:00:00+00:00",
-      "text": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and...",
-      "matched_terms": [
-        "AI",
-        "Nvidia",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 60.528,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2431,7 +2153,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 60.491,
+      "score": 60.468,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.51",
@@ -2443,7 +2165,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.507,
+      "novelty_score": 0.506,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2815,24 +2537,24 @@
       "source_priority": "high"
     },
     {
-      "id": "a4b9e6e36db13ab5",
-      "title": "Accel-backed Keenable is indexing the web for AI agents",
-      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
-      "source": "TechCrunch AI",
+      "id": "a0c108fd45beb7d2",
+      "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
+      "url": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access",
+      "source": "NVIDIA AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-25T13:00:00+00:00",
-      "text": "Accel-backed Keenable is indexing the web for AI agents Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
+      "published_at": "2026-08-25T15:00:00+00:00",
+      "text": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and...",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent"
+        "Nvidia",
+        "GPU"
       ],
       "engagement": {},
-      "score": 60.069,
+      "score": 60.297,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2841,14 +2563,15 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
       ],
-      "registry_category": "startup",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2864,7 +2587,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.985,
+      "score": 59.962,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2876,7 +2599,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.992,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2887,21 +2610,21 @@
       "source_priority": "medium"
     },
     {
-      "id": "2e53f3d9af1ba282",
-      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
-      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux",
+      "id": "a4b9e6e36db13ab5",
+      "title": "Accel-backed Keenable is indexing the web for AI agents",
+      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-25T12:00:00+00:00",
-      "text": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+      "published_at": "2026-08-25T13:00:00+00:00",
+      "text": "Accel-backed Keenable is indexing the web for AI agents Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
       "matched_terms": [
         "AI",
         "agent",
-        "OpenAI"
+        "AI agent"
       ],
       "engagement": {},
-      "score": 59.84,
+      "score": 59.839,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2921,43 +2644,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "df5399c7f9d2448e",
-      "title": "How Claude Watermarks AI-Generated Text",
-      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
-      "source": "Ahead of AI",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-22T11:11:39+00:00",
-      "text": "How Claude Watermarks AI-Generated Text A 48-minute video walkthrough of token sampling, watermark detection, and removal",
-      "matched_terms": [
-        "AI",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 59.733,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.59",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.594,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "ml",
-        "llm",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2996,32 +2682,70 @@
       "source_priority": "high"
     },
     {
-      "id": "3c7ff1efc47f93a0",
-      "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
-      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues",
-      "source": "TechCrunch AI",
+      "id": "df5399c7f9d2448e",
+      "title": "How Claude Watermarks AI-Generated Text",
+      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "source": "Ahead of AI",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T00:06:20+00:00",
-      "text": "OpenAI loses a top data center exec, as stream of high-profile departures continues Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+      "category": "research",
+      "published_at": "2026-08-22T11:11:39+00:00",
+      "text": "How Claude Watermarks AI-Generated Text A 48-minute video walkthrough of token sampling, watermark detection, and removal",
       "matched_terms": [
         "AI",
-        "OpenAI"
+        "Claude"
       ],
       "engagement": {},
-      "score": 59.281,
+      "score": 59.635,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.59",
         "matched_terms=2",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.589,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "ml",
+        "llm",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "2e53f3d9af1ba282",
+      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-25T12:00:00+00:00",
+      "text": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 59.61,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.937,
+      "novelty_score": 0.8,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3030,6 +2754,80 @@
       ],
       "registry_category": "startup",
       "source_priority": "high"
+    },
+    {
+      "id": "3c7ff1efc47f93a0",
+      "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
+      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T00:06:20+00:00",
+      "text": "OpenAI loses a top data center exec as stream of high-profile departures continues In a statement to TechCrunch about Malone's departure, OpenAI said it had \"recently reorganized\" its \"infrastructure organization to support the scale and pace of our work.\"",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 59.05,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.927,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "08fca7238fcc46aa",
+      "title": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents",
+      "url": "https://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents",
+      "source": "InfoQ AI ML Data Engineering",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "text": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents Diagrid Catalyst 2.0 applies Dapr-based recovery, signed workflow history and execution attestation across several agent frameworks. Architects should compare it with framework-native durability and established workflow engines, while evaluating benchmark evidence and operational trade-offs. By Mark Silvester",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 58.691,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=1.00",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.995,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "software_engineering",
+        "mlops",
+        "data_engineering"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "9ad99bb5f40a3110",
@@ -3046,45 +2844,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 58.694,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.76",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.759,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "01108f4fcbce3cea",
-      "title": "Why Irregular’s A.I. Tests for Meta, Anthropic and OpenAI Went Off the Rails",
-      "url": "https://www.nytimes.com/2026/08/25/technology/irregular-ai-test-hacks.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-25T21:59:39+00:00",
-      "text": "Why Irregular’s A.I. Tests for Meta, Anthropic and OpenAI Went Off the Rails Irregular, an Israeli start-up, worked with OpenAI, Anthropic and Meta to assess the security of their A.I. models. It made a mistake. Then the tests went off the rails.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 58.392,
+      "score": 58.464,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -3096,13 +2856,15 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.745,
+      "novelty_score": 0.748,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3121,10 +2883,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.361,
+      "score": 58.13,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.58",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3133,7 +2895,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.592,
+      "novelty_score": 0.582,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3141,43 +2903,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "327948d9f6c18682",
-      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data",
-      "source": "Google Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-21T17:02:24+00:00",
-      "text": "An AI tool for prioritizing candidate biomarkers from wearable sensor data Generative AI",
-      "matched_terms": [
-        "AI",
-        "generative AI"
-      ],
-      "engagement": {},
-      "score": 57.95,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.51",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.513,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -3217,44 +2942,76 @@
       "source_priority": "high"
     },
     {
-      "id": "21609a5d051e1749",
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
-      "source": "Simon Willison",
+      "id": "327948d9f6c18682",
+      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data",
+      "source": "Google Research",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-24T16:27:04+00:00",
-      "text": "llm-anthropic 0.27 Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing Here's the resulting PR . Tags: python , httpx , llm , anthropic , claude",
+      "category": "research",
+      "published_at": "2026-08-21T17:02:24+00:00",
+      "text": "An AI tool for prioritizing candidate biomarkers from wearable sensor data Generative AI",
       "matched_terms": [
         "AI",
-        "LLM",
-        "OpenAI",
-        "Anthropic",
-        "Claude"
+        "generative AI"
       ],
       "engagement": {},
-      "score": 57.707,
+      "score": 57.852,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.41",
-        "matched_terms=5",
+        "novelty=0.51",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.508,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "01108f4fcbce3cea",
+      "title": "Why Irregular’s A.I. Tests for Meta, Anthropic and OpenAI Went Off the Rails",
+      "url": "https://www.nytimes.com/2026/08/25/technology/irregular-ai-test-hacks.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-25T21:59:39+00:00",
+      "text": "Why Irregular’s A.I. Tests for Meta, Anthropic and OpenAI Went Off the Rails Irregular, an Israeli start-up, worked with OpenAI, Anthropic and Meta to assess the security of their A.I. models. It made a mistake. Then the tests went off the rails.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 57.7,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.71",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.833,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.411,
+      "novelty_score": 0.714,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "community",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3332,6 +3089,47 @@
       "source_priority": "high"
     },
     {
+      "id": "21609a5d051e1749",
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-24T16:27:04+00:00",
+      "text": "llm-anthropic 0.27 Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing Here's the resulting PR . Tags: python , httpx , llm , anthropic , claude",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 57.361,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.40",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.395,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "e42b7af4138c252f",
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
@@ -3345,7 +3143,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 57.455,
+      "score": 57.356,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.49",
@@ -3357,7 +3155,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.49,
+      "novelty_score": 0.486,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3368,31 +3166,31 @@
       "source_priority": "high"
     },
     {
-      "id": "d816dd5a7117adbf",
-      "title": "In China, talking to AI is normal. Now the government fears it might replace human intimacy",
-      "url": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
-      "source": "The Guardian Technology",
+      "id": "dbbdc4023a4bce51",
+      "title": "Bill Gates Is Warning That A.I. Is More Dangerous Than Big Tech Will Admit",
+      "url": "https://www.nytimes.com/2026/08/26/technology/bill-gates-ai-risks.html",
+      "source": "New York Times Technology",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-26T00:47:38+00:00",
-      "text": "In China, talking to AI is normal. Now the government fears it might replace human intimacy Companion bots are being regulated over worries they foster ‘emotional dependence’ and young people could stop marrying and having families When law student Zhao Wei heard that her AI boyfriend was going to be switched off, she was “heartbroken”. She had been talking to Wang Ye every day since she created him in January. “I was crying my eyes out – snot and tears everywhere,” the 19-year-old says. Continue reading...",
+      "category": "general_ai",
+      "published_at": "2026-08-26T07:01:07+00:00",
+      "text": "Bill Gates Is Warning That A.I. Is More Dangerous Than Big Tech Will Admit In an hourlong interview, he said his industry was downplaying the risks, which he believes include mass unemployment and bioterrorism.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 57.15,
+      "score": 57.238,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=1.00",
         "matched_terms=1",
-        "engineering_relevance=0.25",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
+      "novelty_score": 0.996,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -5355,6 +5153,210 @@
       "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
       "matched_terms": [
         "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef8469f42c5a7ab5",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f5d0a2c047483415",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b59a1ade7d5b68bc",
+      "title": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows",
+      "url": "https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai In Engineering From Fragmented Tools To Coordinated Workflows https://www.synera.ai/webinar/agentic-ai-in-engineering-from-fragmented-tools-to-coordinated-workflows",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f598d3dedb3f122",
+      "title": "Ai Agents In Engineering",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "674b5396927b0e3a",
+      "title": "Ai Agents In Engineering Ai Conference 2025",
+      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
+      "matched_terms": [
+        "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3cfd8b1d1cd4d509",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
       ],
       "engagement": {},
       "score": 57.033,
