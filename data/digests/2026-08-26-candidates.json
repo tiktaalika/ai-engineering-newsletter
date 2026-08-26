@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-26T07:59:22.615190+00:00",
+    "generated_at": "2026-08-26T08:23:34.560364+00:00",
     "window_hours": 24,
     "source_count": 138,
     "fetched_count": 17202,
-    "filtered_count": 2657,
+    "filtered_count": 2655,
     "duplicate_count": 72,
     "failures": [
       {
@@ -59,7 +59,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.076,
+      "score": 64.036,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.94",
@@ -71,7 +71,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.943,
+      "novelty_score": 0.941,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -83,24 +83,24 @@
       "source_priority": "high"
     },
     {
-      "id": "9ad99bb5f40a3110",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "source": "OpenAI",
+      "id": "de10c5d4908629a8",
+      "title": "Quoting Paul Dix",
+      "url": "https://simonwillison.net/2026/Aug/26/paul-dix",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-25T07:00:00+00:00",
-      "text": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "published_at": "2026-08-26T08:07:55+00:00",
+      "text": "Quoting Paul Dix The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works. — Paul Dix , The end of programming Tags: coding-agents , ai-assisted-programming , generative-ai , bun , ai , llms",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "inference"
+        "LLM",
+        "agent"
       ],
       "engagement": {},
-      "score": 58.273,
+      "score": 63.91,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=1.00",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -109,15 +109,16 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.74,
+      "novelty_score": 0.996,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
         "guo_yichen_reference"
       ],
-      "registry_category": "vendor",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -133,7 +134,7 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 54.949,
+      "score": 54.857,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -145,7 +146,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.887,
       "source_priority_score": 1.0,
       "source_tags": [
         "developer_tools",
@@ -169,10 +170,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.24,
+      "score": 54.102,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -181,7 +182,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.859,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -207,10 +208,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 53.336,
+      "score": 53.243,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.66",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -219,7 +220,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.667,
+      "novelty_score": 0.663,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -244,10 +245,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 43.743,
+      "score": 43.605,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -256,7 +257,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.74,
+      "novelty_score": 0.734,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -265,6 +266,44 @@
       ],
       "registry_category": "community",
       "source_priority": "medium"
+    },
+    {
+      "id": "9ad99bb5f40a3110",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-25T07:00:00+00:00",
+      "text": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "inference"
+      ],
+      "engagement": {},
+      "score": 58.181,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.74",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.735,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
     },
     {
       "id": "74043a2c13e42e05",
@@ -279,10 +318,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 51.575,
+      "score": 51.436,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.73",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -291,7 +330,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.738,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -319,10 +358,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 68.14,
+      "score": 68.048,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -331,7 +370,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -358,10 +397,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 65.962,
+      "score": 65.869,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -370,7 +409,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.816,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -378,43 +417,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "ee1892e3283821d5",
-      "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-25T19:00:09+00:00",
-      "text": "Agentic observability with Amazon OpenSearch Service MCP Apps Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally run MCP server lets your agent move from alert to trace to logs to root cause in one conversation, and how you can verify every step inline without leaving your IDE.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 61.024,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.865,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     }
   ],
@@ -433,7 +435,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.492,
+      "score": 62.4,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -445,7 +447,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.92,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -537,10 +539,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.886,
+      "score": 55.609,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -549,7 +551,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.775,
+      "novelty_score": 0.763,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -573,10 +575,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 55.049,
+      "score": 54.772,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.30",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -585,7 +587,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.313,
+      "novelty_score": 0.3,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -610,10 +612,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.445,
+      "score": 52.167,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.64",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -622,7 +624,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.657,
+      "novelty_score": 0.644,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -645,10 +647,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 48.124,
+      "score": 47.846,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.42",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -657,7 +659,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.43,
+      "novelty_score": 0.417,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -790,7 +792,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.492,
+      "score": 62.4,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -802,7 +804,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.92,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -894,10 +896,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.886,
+      "score": 55.609,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -906,7 +908,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.775,
+      "novelty_score": 0.763,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -930,10 +932,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 55.049,
+      "score": 54.772,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.30",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -942,7 +944,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.313,
+      "novelty_score": 0.3,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -967,7 +969,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.076,
+      "score": 64.036,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.94",
@@ -979,7 +981,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.943,
+      "novelty_score": 0.941,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1731,7 +1733,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 72.488,
+      "score": 72.478,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -1769,7 +1771,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 70.342,
+      "score": 70.333,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1804,10 +1806,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 68.587,
+      "score": 68.578,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1839,7 +1841,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.15,
+      "score": 68.14,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.28",
@@ -1852,7 +1854,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.28,
+      "novelty_score": 0.279,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1879,10 +1881,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 68.14,
+      "score": 68.048,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -1891,7 +1893,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1986,7 +1988,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 66.003,
+      "score": 65.994,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -2024,10 +2026,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 65.962,
+      "score": 65.869,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2036,7 +2038,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.816,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2059,7 +2061,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 64.292,
+      "score": 64.283,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -2094,7 +2096,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.076,
+      "score": 64.036,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.94",
@@ -2106,7 +2108,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.943,
+      "novelty_score": 0.941,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2115,6 +2117,45 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "de10c5d4908629a8",
+      "title": "Quoting Paul Dix",
+      "url": "https://simonwillison.net/2026/Aug/26/paul-dix",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T08:07:55+00:00",
+      "text": "Quoting Paul Dix The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works. — Paul Dix , The end of programming Tags: coding-agents , ai-assisted-programming , generative-ai , bun , ai , llms",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 63.91,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.996,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2131,7 +2172,7 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 62.492,
+      "score": 62.4,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -2143,7 +2184,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.92,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2205,10 +2246,10 @@
         "robotics"
       ],
       "engagement": {},
-      "score": 61.366,
+      "score": 61.274,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
+        "novelty=0.57",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2217,7 +2258,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.577,
+      "novelty_score": 0.573,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2244,7 +2285,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 61.274,
+      "score": 61.181,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.57",
@@ -2256,50 +2297,13 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.573,
+      "novelty_score": 0.569,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
         "infrastructure",
         "simulation",
         "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "ee1892e3283821d5",
-      "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-25T19:00:09+00:00",
-      "text": "Agentic observability with Amazon OpenSearch Service MCP Apps Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally run MCP server lets your agent move from alert to trace to logs to root cause in one conversation, and how you can verify every step inline without leaving your IDE.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 61.024,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.865,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -2317,7 +2321,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 60.956,
+      "score": 60.947,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2340,6 +2344,43 @@
       "source_priority": "high"
     },
     {
+      "id": "ee1892e3283821d5",
+      "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-25T19:00:09+00:00",
+      "text": "Agentic observability with Amazon OpenSearch Service MCP Apps Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally run MCP server lets your agent move from alert to trace to logs to root cause in one conversation, and how you can verify every step inline without leaving your IDE.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.931,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.861,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "4b53c711439f45df",
       "title": "Claude Cowork finally remembers what you told the app in chat",
       "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
@@ -2354,7 +2395,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 60.758,
+      "score": 60.666,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2366,7 +2407,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2389,10 +2430,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 60.449,
+      "score": 60.44,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.50",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2787,7 +2828,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 60.107,
+      "score": 60.014,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2799,7 +2840,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.823,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2823,7 +2864,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.943,
+      "score": 59.934,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2895,7 +2936,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 59.648,
+      "score": 59.556,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2907,7 +2948,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.802,
+      "novelty_score": 0.798,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2931,10 +2972,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 59.553,
+      "score": 59.513,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.58",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2943,7 +2984,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.586,
+      "novelty_score": 0.584,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2969,7 +3010,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.419,
+      "score": 59.327,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -2981,7 +3022,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.792,
+      "novelty_score": 0.788,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3005,10 +3046,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.86,
+      "score": 58.767,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3017,7 +3058,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.918,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3042,7 +3083,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 58.273,
+      "score": 58.181,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -3054,7 +3095,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.74,
+      "novelty_score": 0.735,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3063,82 +3104,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "08fca7238fcc46aa",
-      "title": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents",
-      "url": "https://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents",
-      "source": "InfoQ AI ML Data Engineering",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T07:00:00+00:00",
-      "text": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents Diagrid Catalyst 2.0 applies Dapr-based recovery, signed workflow history and execution attestation across several agent frameworks. Architects should compare it with framework-native durability and established workflow engines, while evaluating benchmark evidence and operational trade-offs. By Mark Silvester",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "benchmark"
-      ],
-      "engagement": {},
-      "score": 58.12,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.97",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.969,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "software_engineering",
-        "mlops",
-        "data_engineering"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "b0c3b7c6480ea483",
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-24T15:00:00+00:00",
-      "text": "OpenAI is building AI agents for everything. Will everyone use them? Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.94,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.57",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.573,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3178,6 +3143,82 @@
       "source_priority": "high"
     },
     {
+      "id": "b0c3b7c6480ea483",
+      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-24T15:00:00+00:00",
+      "text": "OpenAI is building AI agents for everything. Will everyone use them? Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.847,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.57",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.569,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "08fca7238fcc46aa",
+      "title": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents",
+      "url": "https://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents",
+      "source": "InfoQ AI ML Data Engineering",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "text": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents Diagrid Catalyst 2.0 applies Dapr-based recovery, signed workflow history and execution attestation across several agent frameworks. Architects should compare it with framework-native durability and established workflow engines, while evaluating benchmark evidence and operational trade-offs. By Mark Silvester",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 57.842,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.96",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.956,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "software_engineering",
+        "mlops",
+        "data_engineering"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
+    },
+    {
       "id": "327948d9f6c18682",
       "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
       "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data",
@@ -3191,7 +3232,7 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 57.77,
+      "score": 57.73,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -3203,7 +3244,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.505,
+      "novelty_score": 0.503,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3302,7 +3343,7 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 57.275,
+      "score": 57.235,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -3314,7 +3355,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.482,
+      "novelty_score": 0.48,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3322,83 +3363,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "01108f4fcbce3cea",
-      "title": "Why Irregular’s A.I. Tests for Meta, Anthropic and OpenAI Went Off the Rails",
-      "url": "https://www.nytimes.com/2026/08/25/technology/irregular-ai-test-hacks.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-25T21:59:39+00:00",
-      "text": "Why Irregular’s A.I. Tests for Meta, Anthropic and OpenAI Went Off the Rails Irregular, an Israeli start-up, worked with OpenAI, Anthropic and Meta to assess the security of their A.I. models. It made a mistake. Then the tests went off the rails.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 57.128,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.688,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "21609a5d051e1749",
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-24T16:27:04+00:00",
-      "text": "llm-anthropic 0.27 Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing Here's the resulting PR . Tags: python , httpx , llm , anthropic , claude",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 57.075,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.38",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.382,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -5355,6 +5319,40 @@
       "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
       "matched_terms": [
         "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef8469f42c5a7ab5",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
       ],
       "engagement": {},
       "score": 57.033,
