@@ -3,74 +3,74 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16787
-- filtered_count: 2684
-- duplicate_count: 78
+- fetched_count: 17266
+- filtered_count: 2686
+- duplicate_count: 77
 - failures: 7
 
 ## Top 10 General AI News
-1. [Piloting the world's first double-blind AI evaluations](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations)
-   - source: Google DeepMind
-   - score: 64.876
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.979; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-2. [GlucoFM: Foundation model for continuous glucose monitoring](https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring)
+1. [Planetary prediction engine: Automating global models via Earth AI](https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai)
    - source: Google Research
-   - score: 63.081
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.898; source_priority=1.0
+   - score: 65.305
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.999; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+2. [Piloting the world's first double-blind AI evaluations](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations)
+   - source: Google DeepMind
+   - score: 64.85
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.978; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+3. [GlucoFM: Foundation model for continuous glucose monitoring](https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring)
+   - source: Google Research
+   - score: 63.055
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.896; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-3. [Qwen3.8-Flash-Next](https://simonwillison.net/2026/Aug/26/qwen38-flash-next)
+4. [Qwen3.8-Flash-Next](https://simonwillison.net/2026/Aug/26/qwen38-flash-next)
    - source: Simon Willison
-   - score: 61.227
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.722; source_priority=1.0
+   - score: 61.138
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.718; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.72; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro](https://www.latent.space/p/ainews-nvidia-buys-huggingface-for)
+5. [[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro](https://www.latent.space/p/ainews-nvidia-buys-huggingface-for)
    - source: Latent Space
-   - score: 58.569
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.753; source_priority=1.0
+   - score: 58.48
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Expanding OpenAI’s presence in Brazil](https://openai.com/index/expanding-our-presence-in-brazil)
+6. [Expanding OpenAI’s presence in Brazil](https://openai.com/index/expanding-our-presence-in-brazil)
    - source: OpenAI
-   - score: 57.31
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.847; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training](https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training)
+   - score: 57.251
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.845; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training](https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training)
    - source: OpenAI
-   - score: 55.352
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.91; source_priority=1.0
+   - score: 55.292
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.907; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Lovable CTO: The Future of SaaS Is Apps That Agents Can Use](https://www.latent.space/p/lovable-future-of-saas)
+8. [Lovable CTO: The Future of SaaS Is Apps That Agents Can Use](https://www.latent.space/p/lovable-future-of-saas)
    - source: Latent Space
-   - score: 51.944
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.604; source_priority=1.0
+   - score: 51.855
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.599; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.60; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers](https://huggingface.co/blog/train-multi-vector-encoder)
-   - source: Hugging Face
-   - score: 46.35
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.349; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Why performant code matters (but gets widely ignored), with Casey Muratori](https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets)
    - source: The Pragmatic Engineer
-   - score: 37.317
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.599; source_priority=0.65
+   - score: 37.228
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.595; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.60; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Here’s all the times AI has gone rogue and hacked other companies](https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies)
-   - source: TechCrunch AI
-   - score: 66.504
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.962; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers](https://huggingface.co/blog/train-multi-vector-encoder)
+   - source: Hugging Face
+   - score: 46.261
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.345; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [An $18bn settlement is a drop in the ocean for Meta – but the tide will still come for it | Chris Stokel-Walker](https://www.theguardian.com/commentisfree/2026/aug/27/meta-social-media-settlement-18bn-us-child-safety-big-tech-lawsuits)
    - source: The Guardian Technology
-   - score: 61.101
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.861; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.922
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.853; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [Hugging Face’s new robot is an adorable rollerskating duck](https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot)
    - source: The Verge AI
-   - score: 57.976
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.878; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.798
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.87; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Einfuehrung Intact Simulation Add In](https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in)
    - source: Synera
    - score: 57.033
@@ -90,48 +90,48 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Former Stanford president releases emails to rebut fraud and cover-up allegations in new book](https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech)
    - source: STAT Health Tech
-   - score: 59.874
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.994; source_priority=1.0
+   - score: 59.695
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.986; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [STAT+: CMS plans launch event for ACCESS, the Medicare chronic care pilot](https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech)
    - source: STAT Health Tech
-   - score: 57.132
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.991; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.953
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.983; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [What’s in Merck and Moderna’s cancer vaccine algorithm?](https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm)
    - source: STAT Health Tech
-   - score: 55.391
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.912; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.213
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [London neurosurgeons perform first successful AI-assisted operation to remove brain tumour](https://www.theguardian.com/technology/2026/aug/27/london-neurosurgeons-ai-assisted-operation-brain-tumour)
    - source: The Guardian Technology
-   - score: 44.53
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.418; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.42; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Bristol Myers, NVIDIA join forces to build life science’s ‘most powerful’ AI factory](https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma)
+   - score: 44.351
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.41; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.41; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Robotics](https://www.pharmaceutical-technology.com/sector/theme/technology/robotics)
    - source: Pharmaceutical Technology
-   - score: 35.167
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
-1. [Piloting the world's first double-blind AI evaluations](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations)
-   - source: Google DeepMind
-   - score: 64.876
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.979; source_priority=1.0
-2. [GlucoFM: Foundation model for continuous glucose monitoring](https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring)
+1. [Planetary prediction engine: Automating global models via Earth AI](https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai)
    - source: Google Research
-   - score: 63.081
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.898; source_priority=1.0
-3. [Is It Agentic Enough](https://huggingface.co/blog/is-it-agentic-enough)
+   - score: 65.305
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.999; source_priority=1.0
+2. [Piloting the world's first double-blind AI evaluations](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations)
+   - source: Google DeepMind
+   - score: 64.85
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.978; source_priority=1.0
+3. [GlucoFM: Foundation model for continuous glucose monitoring](https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring)
+   - source: Google Research
+   - score: 63.055
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.896; source_priority=1.0
+4. [Is It Agentic Enough](https://huggingface.co/blog/is-it-agentic-enough)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-4. [Hugging Face Pollen Robotics Acquisition](https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition)
-   - source: Hugging Face Papers
-   - score: 51.033
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-5. [Llm Course](https://huggingface.co/blog/llm-course)
+5. [Hugging Face Pollen Robotics Acquisition](https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
