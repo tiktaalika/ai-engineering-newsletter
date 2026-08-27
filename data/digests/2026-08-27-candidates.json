@@ -1,20 +1,12 @@
 {
   "run_log": {
-    "generated_at": "2026-08-27T06:08:25.113988+00:00",
+    "generated_at": "2026-08-27T17:38:50.193493+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17217,
-    "filtered_count": 2678,
-    "duplicate_count": 79,
+    "fetched_count": 16787,
+    "filtered_count": 2684,
+    "duplicate_count": 78,
     "failures": [
-      {
-        "source": "Siemens Digital Industries Software",
-        "error": "The read operation timed out"
-      },
-      {
-        "source": "Siemens Art of the Possible",
-        "error": "The read operation timed out"
-      },
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
@@ -40,10 +32,6 @@
         "error": "HTTP Error 403: Forbidden"
       },
       {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
-      },
-      {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
       }
@@ -58,6 +46,77 @@
     "history_deduplication": "General AI excludes similar selected items from the previous 7 days. Engineering AI, Biomedical AI, and Research Radar exclude similar selected items from the previous 30 days so long discovery windows do not cause repeated daily publication."
   },
   "top_10_general_ai": [
+    {
+      "id": "213e95424861a758",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-08-27T12:59:16+00:00",
+      "text": "Piloting the world's first double-blind AI evaluations Piloting the world's first double-blind AI evaluations",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 64.876,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.979,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "730ac67f8d3d8659",
+      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
+      "source": "Google Research",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-08-26T18:42:43+00:00",
+      "text": "GlucoFM: Foundation model for continuous glucose monitoring Health & Bioscience",
+      "matched_terms": [
+        "foundation model"
+      ],
+      "engagement": {},
+      "score": 63.081,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.90",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.898,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
     {
       "id": "7905bb7334d9e318",
       "title": "Qwen3.8-Flash-Next",
@@ -74,10 +133,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 65.182,
+      "score": 61.227,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.72",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -86,7 +145,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.902,
+      "novelty_score": 0.722,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -96,42 +155,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "730ac67f8d3d8659",
-      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
-      "source": "Google Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-26T18:42:43+00:00",
-      "text": "GlucoFM: Foundation model for continuous glucose monitoring Health & Bioscience",
-      "matched_terms": [
-        "foundation model"
-      ],
-      "engagement": {},
-      "score": 64.211,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.949,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -149,10 +172,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 62.525,
+      "score": 58.569,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.75",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -161,7 +184,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.933,
+      "novelty_score": 0.753,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -173,23 +196,23 @@
       "source_priority": "high"
     },
     {
-      "id": "cdfc10030b4b066d",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
+      "id": "57e276283c193e59",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
       "source": "OpenAI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T10:00:00+00:00",
-      "text": "Learning never stops: How AI makes learning continuous OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "published_at": "2026-08-27T03:00:00+00:00",
+      "text": "Expanding OpenAI’s presence in Brazil OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
       "matched_terms": [
         "AI",
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.051,
+      "score": 57.31,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -198,7 +221,43 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.847,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "3062d8cdad5fdcd9",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T09:00:00+00:00",
+      "text": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.352,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.91,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -223,10 +282,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 55.9,
+      "score": 51.944,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.60",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -235,7 +294,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.783,
+      "novelty_score": 0.604,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -245,78 +304,6 @@
       ],
       "registry_category": "community",
       "source_priority": "high"
-    },
-    {
-      "id": "504dd1ec950803b8",
-      "title": "The Hugging Face incident and the road ahead",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "OpenAI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "text": "The Hugging Face incident and the road ahead OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 53.76,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.686,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "8bbcf3582d63bffa",
-      "title": "Why performant code matters (but gets widely ignored), with Casey Muratori",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets",
-      "source": "The Pragmatic Engineer",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T15:59:59+00:00",
-      "text": "Why performant code matters (but gets widely ignored), with Casey Muratori Casey Muratori explains why software performance matters, how developers can write faster code, and why he challenges conventional engineering practices.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 41.273,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.78",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.779,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "software_engineering",
-        "ai_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "medium"
     },
     {
       "id": "5309d96554639301",
@@ -332,10 +319,10 @@
         "embedding"
       ],
       "engagement": {},
-      "score": 50.306,
+      "score": 46.35,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.35",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -344,7 +331,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.529,
+      "novelty_score": 0.349,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -356,64 +343,60 @@
       "source_priority": "high"
     },
     {
-      "id": "ba33e650960024d1",
-      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations",
-      "source": "Amazon AWS AI",
+      "id": "8bbcf3582d63bffa",
+      "title": "Why performant code matters (but gets widely ignored), with Casey Muratori",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets",
+      "source": "The Pragmatic Engineer",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T19:13:35+00:00",
-      "text": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works.",
+      "published_at": "2026-08-26T15:59:59+00:00",
+      "text": "Why performant code matters (but gets widely ignored), with Casey Muratori Casey Muratori explains why software performance matters, how developers can write faster code, and why he challenges conventional engineering practices.",
       "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI",
-        "Claude"
+        "AI"
       ],
       "engagement": {},
-      "score": 68.166,
+      "score": 37.317,
       "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=5",
+        "source_priority=0.65",
+        "novelty=0.60",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.833,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.886,
-      "source_priority_score": 1.0,
+      "novelty_score": 0.599,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "software_engineering",
+        "ai_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "vendor",
-      "source_priority": "high"
+      "registry_category": "community",
+      "source_priority": "medium"
     },
     {
-      "id": "97c8351320f4b507",
-      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
-      "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "id": "153b1e2532da6516",
+      "title": "Here’s all the times AI has gone rogue and hacked other companies",
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T22:03:45+00:00",
-      "text": "Unexpected chat between OpenAI agents led to Hugging Face hack OpenAI's cyber agents banded together to perform a hack during a security test.",
+      "published_at": "2026-08-27T14:01:42+00:00",
+      "text": "Here’s all the times AI has gone rogue and hacked other companies A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
+        "LLM",
+        "OpenAI",
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 61.78,
+      "score": 66.504,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.96",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -422,7 +405,45 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.748,
+      "novelty_score": 0.962,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    }
+  ],
+  "top_5_engineering_ai": [
+    {
+      "id": "50f7e4df737b3425",
+      "title": "An $18bn settlement is a drop in the ocean for Meta – but the tide will still come for it | Chris Stokel-Walker",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/27/meta-social-media-settlement-18bn-us-child-safety-big-tech-lawsuits",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-27T13:11:16+00:00",
+      "text": "An $18bn settlement is a drop in the ocean for Meta – but the tide will still come for it | Chris Stokel-Walker This week’s settlement without liability was pragmatic, but it doesn’t change the inevitability of further lawsuits around the world Not many people would count paying $18bn they didn’t expect to when they woke up that morning as a victory. Yet for Meta, the owners of Facebook and Instagram, the agreement with 52 US attorneys general to settle claims that it designed its products to be addictive to children, and misled people about their safety, could be described as a win of sorts. Meta denies wrongdoing, and the amount it plans to pay will be spread over a decade. Some of it is contingent on other big tech firms not named in its case coughing up too. The cash is chump change for Meta, which made around $60bn in profit last year. More damaging to the tech giant in the long run could be the agreement to unwind some of the mechanics it has spent two decades perfecting to keep us on its platforms. Chris Stokel-Walker is the author of TikTok Boom: The Inside Story of the World’s Favourite App Do you have an opinion on the issues raised in this article? If you would like to s",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 61.101,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.861,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -430,48 +451,38 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    }
-  ],
-  "top_5_engineering_ai": [
+    },
     {
-      "id": "8fe1b32baedf2e79",
-      "title": "New Platform Peers Inside AI’s Black Box",
-      "url": "https://spectrum.ieee.org/silico-ai-interpretability",
-      "source": "IEEE Spectrum AI",
+      "id": "c5408a4b67979e86",
+      "title": "Hugging Face’s new robot is an adorable rollerskating duck",
+      "url": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+      "source": "The Verge AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-26T12:00:01+00:00",
-      "text": "New Platform Peers Inside AI’s Black Box Prompt Claude, ChatGPT, Gemini, or any other popular large language model with a question like “What is the best film ever made?” and the response will vary. And you (and most worryingly, the people who built the LLM) have little idea exactly how it came up with that specific answer. This mysterious behavior can be useful in some situations. But—as highlighted by a recent incident where OpenAI could not explain why its advanced prerelease model hacked AI company Hugging Face—it can have negative and alarming consequences too. And when frontier AI models are writing code, generating results humans could not achieve alone, and performing other important tasks across society, the need to interpret AI “thinking” and outputs has never been greater. Goodfire , an AI lab focused solely on this very problem, recently made its cutting-edge Silico platform, filled with tools to interpret the behavior of AI, generally available to the public. As part of this, the company recently announced a new grant program offering US $1 million in free Silico usage for academic and nonprofit interpretability researchers. These efforts aim to democratize AI interpre",
+      "published_at": "2026-08-27T13:44:00+00:00",
+      "text": "Hugging Face’s new robot is an adorable rollerskating duck Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot \"before Christmas 2026.\" Video demos of the […]",
       "matched_terms": [
         "AI",
-        "LLM",
-        "large language model",
-        "foundation model",
-        "agent",
-        "AI agent",
-        "RAG",
-        "OpenAI",
-        "Claude"
+        "robotics"
       ],
       "engagement": {},
-      "score": 67.695,
+      "score": 57.976,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=9",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "novelty=0.88",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.433,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
+        "ai",
+        "product"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -543,40 +554,6 @@
         "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cee0495ac71f96e7",
-      "title": "Meta’s settlement will compel others to bend the knee and set up teen guardrails",
-      "url": "https://www.theguardian.com/technology/2026/aug/26/meta-trial-settlement-social-media-impact",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-26T22:20:21+00:00",
-      "text": "Meta’s settlement will compel others to bend the knee and set up teen guardrails Instagram and Facebook’s parent company agreed to sweeping alterations and a payment of upto $18bn to settle a landmark trial Meta’s agreement to change how teenagers use its social networks marks a major turning point for the US tech giant, setting a precedent that could significantly reshape how other social media operates in the coming years. Meta agreed to substantial alterations to Instagram and Facebook on Wednesday as part of a settlement to end a landmark lawsuit. Dozens of US states had accused it of addicting and harming children with dangerous products. The company also agreed to pay up to a combined $18bn over a decade to several US states and territories involved in the suit. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 55.47,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.76",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.756,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -616,6 +593,111 @@
   ],
   "top_5_medical_bio_ai": [
     {
+      "id": "7b59d7aa30e28c55",
+      "title": "STAT+: Former Stanford president releases emails to rebut fraud and cover-up allegations in new book",
+      "url": "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T17:27:49+00:00",
+      "text": "STAT+: Former Stanford president releases emails to rebut fraud and cover-up allegations in new book Marc Tessier-Lavigne released new details from his research and travel in an attempt to refute allegations in a new book that he published fraudulent results.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.874,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.994,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba102a988a1d3761",
+      "title": "STAT+: CMS plans launch event for ACCESS, the Medicare chronic care pilot",
+      "url": "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T17:21:14+00:00",
+      "text": "STAT+: CMS plans launch event for ACCESS, the Medicare chronic care pilot In this edition of STAT Health Tech: CMS plans a launch event for Medicare chronic care pilot, and what the Meta settlement means for health AI.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.132,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.991,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2d1b38b54b16eb3a",
+      "title": "What’s in Merck and Moderna’s cancer vaccine algorithm?",
+      "url": "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T14:49:21+00:00",
+      "text": "What’s in Merck and Moderna’s cancer vaccine algorithm? A heart drug failure, RevMed's pancreatic cancer drug approved, and more biotech news from The Readout",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.391,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.912,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "3784577a2317f341",
       "title": "London neurosurgeons perform first successful AI-assisted operation to remove brain tumour",
       "url": "https://www.theguardian.com/technology/2026/aug/27/london-neurosurgeons-ai-assisted-operation-brain-tumour",
@@ -628,10 +710,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.441,
+      "score": 44.53,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.42",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -640,7 +722,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.778,
+      "novelty_score": 0.418,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -650,133 +732,29 @@
       "source_priority": "high"
     },
     {
-      "id": "e39ca10289e561e6",
-      "title": "STAT+: AI biotech Insitro’s Daphne Koller on how to speed up clinical trials",
-      "url": "https://www.statnews.com/2026/08/26/biotech-insitro-ceo-daphne-koller-speeding-up-clinical-trials-ai-prognosis",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
+      "id": "669bcc118e6eb9e2",
+      "title": "Bristol Myers, NVIDIA join forces to build life science’s ‘most powerful’ AI factory",
+      "url": "https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma",
+      "source": "Pharmaceutical Technology",
+      "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-08-26T13:46:40+00:00",
-      "text": "STAT+: AI biotech Insitro’s Daphne Koller on how to speed up clinical trials In this edition of STAT's AI Prognosis: A conversation with Insitro CEO Daphne Koller on artificial intelligence in drug discovery, and other health AI news.",
+      "published_at": null,
+      "text": "Bristol Myers, NVIDIA join forces to build life science’s ‘most powerful’ AI factory https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma/",
       "matched_terms": [
         "AI",
-        "artificial intelligence"
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 49.417,
+      "score": 35.167,
       "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.49",
+        "source_priority=0.65",
+        "novelty=0.35",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.489,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "fee850f093a1f459",
-      "title": "Empowering Non Technical Users Pharma Dashboards And Chatbots Working",
-      "url": "https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working",
-      "source": "Databricks AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Empowering Non Technical Users Pharma Dashboards And Chatbots Working https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "data",
-        "enterprise_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "medium"
-    },
-    {
-      "id": "6b8dcd86d7ffc216",
-      "title": "Ai",
-      "url": "https://www.drugtargetreview.com/ai",
-      "source": "Drug Target Review",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Ai https://www.drugtargetreview.com/ai",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "bio_ai",
-        "drug_discovery",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "68a3ba97855761de",
-      "title": "Robotics",
-      "url": "https://www.pharmaceutical-technology.com/sector/theme/technology/robotics",
-      "source": "Pharmaceutical Technology",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Robotics https://www.pharmaceutical-technology.com/sector/theme/technology/robotics/",
-      "matched_terms": [
-        "robotics"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
       "novelty_score": 0.35,
@@ -793,44 +771,71 @@
   ],
   "top_5_cae_ai_engineering": [
     {
-      "id": "8fe1b32baedf2e79",
-      "title": "New Platform Peers Inside AI’s Black Box",
-      "url": "https://spectrum.ieee.org/silico-ai-interpretability",
-      "source": "IEEE Spectrum AI",
+      "id": "50f7e4df737b3425",
+      "title": "An $18bn settlement is a drop in the ocean for Meta – but the tide will still come for it | Chris Stokel-Walker",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/27/meta-social-media-settlement-18bn-us-child-safety-big-tech-lawsuits",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-26T12:00:01+00:00",
-      "text": "New Platform Peers Inside AI’s Black Box Prompt Claude, ChatGPT, Gemini, or any other popular large language model with a question like “What is the best film ever made?” and the response will vary. And you (and most worryingly, the people who built the LLM) have little idea exactly how it came up with that specific answer. This mysterious behavior can be useful in some situations. But—as highlighted by a recent incident where OpenAI could not explain why its advanced prerelease model hacked AI company Hugging Face—it can have negative and alarming consequences too. And when frontier AI models are writing code, generating results humans could not achieve alone, and performing other important tasks across society, the need to interpret AI “thinking” and outputs has never been greater. Goodfire , an AI lab focused solely on this very problem, recently made its cutting-edge Silico platform, filled with tools to interpret the behavior of AI, generally available to the public. As part of this, the company recently announced a new grant program offering US $1 million in free Silico usage for academic and nonprofit interpretability researchers. These efforts aim to democratize AI interpre",
+      "published_at": "2026-08-27T13:11:16+00:00",
+      "text": "An $18bn settlement is a drop in the ocean for Meta – but the tide will still come for it | Chris Stokel-Walker This week’s settlement without liability was pragmatic, but it doesn’t change the inevitability of further lawsuits around the world Not many people would count paying $18bn they didn’t expect to when they woke up that morning as a victory. Yet for Meta, the owners of Facebook and Instagram, the agreement with 52 US attorneys general to settle claims that it designed its products to be addictive to children, and misled people about their safety, could be described as a win of sorts. Meta denies wrongdoing, and the amount it plans to pay will be spread over a decade. Some of it is contingent on other big tech firms not named in its case coughing up too. The cash is chump change for Meta, which made around $60bn in profit last year. More damaging to the tech giant in the long run could be the agreement to unwind some of the mechanics it has spent two decades perfecting to keep us on its platforms. Chris Stokel-Walker is the author of TikTok Boom: The Inside Story of the World’s Favourite App Do you have an opinion on the issues raised in this article? If you would like to s",
       "matched_terms": [
         "AI",
-        "LLM",
-        "large language model",
-        "foundation model",
-        "agent",
-        "AI agent",
-        "RAG",
-        "OpenAI",
-        "Claude"
+        "RAG"
       ],
       "engagement": {},
-      "score": 67.695,
+      "score": 61.101,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=9",
+        "novelty=0.86",
+        "matched_terms=2",
         "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.433,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.861,
       "source_priority_score": 1.0,
       "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c5408a4b67979e86",
+      "title": "Hugging Face’s new robot is an adorable rollerskating duck",
+      "url": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-27T13:44:00+00:00",
+      "text": "Hugging Face’s new robot is an adorable rollerskating duck Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot \"before Christmas 2026.\" Video demos of the […]",
+      "matched_terms": [
+        "AI",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 57.976,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.878,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -905,40 +910,6 @@
       "source_priority": "high"
     },
     {
-      "id": "cee0495ac71f96e7",
-      "title": "Meta’s settlement will compel others to bend the knee and set up teen guardrails",
-      "url": "https://www.theguardian.com/technology/2026/aug/26/meta-trial-settlement-social-media-impact",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-26T22:20:21+00:00",
-      "text": "Meta’s settlement will compel others to bend the knee and set up teen guardrails Instagram and Facebook’s parent company agreed to sweeping alterations and a payment of upto $18bn to settle a landmark trial Meta’s agreement to change how teenagers use its social networks marks a major turning point for the US tech giant, setting a precedent that could significantly reshape how other social media operates in the coming years. Meta agreed to substantial alterations to Instagram and Facebook on Wednesday as part of a settlement to end a landmark lawsuit. Dozens of US states had accused it of addicting and harming children with dangerous products. The company also agreed to pay up to a combined $18bn over a decade to several US states and territories involved in the suit. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 55.47,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.76",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.756,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "08e9aa519f832863",
       "title": "FEATURED",
       "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api",
@@ -975,6 +946,41 @@
   ],
   "research_radar": [
     {
+      "id": "213e95424861a758",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+      "source": "Google DeepMind",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-08-27T12:59:16+00:00",
+      "text": "Piloting the world's first double-blind AI evaluations Piloting the world's first double-blind AI evaluations",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 64.876,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.979,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
       "id": "730ac67f8d3d8659",
       "title": "GlucoFM: Foundation model for continuous glucose monitoring",
       "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
@@ -987,10 +993,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 64.211,
+      "score": 63.081,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -999,7 +1005,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.949,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1021,41 +1027,6 @@
       "text": "Is It Agentic Enough https://huggingface.co/blog/is-it-agentic-enough",
       "matched_terms": [
         "agent"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "64d6b4cbeaac616a",
-      "title": "Glm 52 Blog",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Glm 52 Blog https://huggingface.co/blog/zai-org/glm-52-blog",
-      "matched_terms": [
-        "AI"
       ],
       "engagement": {},
       "score": 51.033,
@@ -1737,6 +1708,45 @@
   ],
   "top_100_news_candidates": [
     {
+      "id": "b3c41de958d8508a",
+      "title": "Innovative simulation and test solutions for trustworthy data-centric AI",
+      "url": "https://blogs.sw.siemens.com/art-of-the-possible/innovative-simulation-and-test-solutions-for-trustworthy-data-centric-ai",
+      "source": "Siemens Art of the Possible",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-11T11:04:59+00:00",
+      "text": "Innovative simulation and test solutions for trustworthy data-centric AI Trustworthy AI begins with trustworthy data. Discover how Siemens and KU Leuven are performing research along this line, aiming to enable trustworthy data-centric AI for engineering applications. We consider the rich variety of engineering data, from modeling and simulation to test data acquisition, throughout product design and validation up to real-world operation. Check our blog to learn about our research towards trustworthy data-centric AI, together with KU Leuven in the frame of our research project SATISFY.AI, with support from the Flanders Innovation & Entrepreneurship Agency (VLAIO).",
+      "matched_terms": [
+        "simulation",
+        "ROM",
+        "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 71.716,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.59",
+        "matched_terms=3",
+        "engineering_relevance=1.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.593,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "agentic_ai",
+        "cae",
+        "simulation",
+        "industrial_ai",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "92bf9577e1c6a8ab",
       "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
       "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
@@ -1750,10 +1760,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 69.834,
+      "score": 69.57,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1762,7 +1772,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.768,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1770,45 +1780,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba33e650960024d1",
-      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T19:13:35+00:00",
-      "text": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 68.166,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.886,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -1824,10 +1795,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 68.08,
+      "score": 67.816,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1836,91 +1807,12 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.852,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
         "simulation",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "8fe1b32baedf2e79",
-      "title": "New Platform Peers Inside AI’s Black Box",
-      "url": "https://spectrum.ieee.org/silico-ai-interpretability",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-26T12:00:01+00:00",
-      "text": "New Platform Peers Inside AI’s Black Box Prompt Claude, ChatGPT, Gemini, or any other popular large language model with a question like “What is the best film ever made?” and the response will vary. And you (and most worryingly, the people who built the LLM) have little idea exactly how it came up with that specific answer. This mysterious behavior can be useful in some situations. But—as highlighted by a recent incident where OpenAI could not explain why its advanced prerelease model hacked AI company Hugging Face—it can have negative and alarming consequences too. And when frontier AI models are writing code, generating results humans could not achieve alone, and performing other important tasks across society, the need to interpret AI “thinking” and outputs has never been greater. Goodfire , an AI lab focused solely on this very problem, recently made its cutting-edge Silico platform, filled with tools to interpret the behavior of AI, generally available to the public. As part of this, the company recently announced a new grant program offering US $1 million in free Silico usage for academic and nonprofit interpretability researchers. These efforts aim to democratize AI interpre",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "large language model",
-        "foundation model",
-        "agent",
-        "AI agent",
-        "RAG",
-        "OpenAI",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 67.695,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=9",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.433,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6c7d00101b602aa1",
-      "title": "Agent-Accelerated Computational Chemistry",
-      "url": "https://rescale.com/blog/ic-agent-accelerated-computational-chemistry",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-07-28T12:20:00+00:00",
-      "text": "Agent-Accelerated Computational Chemistry Accelerate computational chemistry workflows with agentic support for molecular dynamics simulation on Rescale. Agents help researchers analyze results, propose next steps, configure new simulations, and critique outcomes with scientific context preserved, connecting HPC execution, scientific analysis, historical knowledge, and job setup into one guided workflow that keeps the researcher in control.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 67.642,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.26",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.256,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1996,6 +1888,83 @@
       "source_priority": "high"
     },
     {
+      "id": "153b1e2532da6516",
+      "title": "Here’s all the times AI has gone rogue and hacked other companies",
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T14:01:42+00:00",
+      "text": "Here’s all the times AI has gone rogue and hacked other companies A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 66.504,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.962,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba33e650960024d1",
+      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T19:13:35+00:00",
+      "text": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 65.529,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.766,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "fadf95d27724d98e",
       "title": "Building a sustainable future with simulation and AI",
       "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
@@ -2009,10 +1978,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 65.495,
+      "score": 65.232,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
+        "novelty=0.57",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2021,7 +1990,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.583,
+      "novelty_score": 0.571,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2032,62 +2001,22 @@
       "source_priority": "high"
     },
     {
-      "id": "7905bb7334d9e318",
-      "title": "Qwen3.8-Flash-Next",
-      "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T23:52:58+00:00",
-      "text": "Qwen3.8-Flash-Next Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing these pelicans ) and the 78.9GB UD-Q2_K_XL (producing these ). My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL: Via Hacker News Tags: ai , generative-ai , llms , qwen , pelican-riding-a-bicycle , ai-in-china , nvidia-spark",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "multimodal",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 65.182,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.902,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "730ac67f8d3d8659",
-      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
-      "source": "Google Research",
+      "id": "213e95424861a758",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+      "source": "Google DeepMind",
       "source_kind": "rss",
       "category": "research",
-      "published_at": "2026-08-26T18:42:43+00:00",
-      "text": "GlucoFM: Foundation model for continuous glucose monitoring Health & Bioscience",
+      "published_at": "2026-08-27T12:59:16+00:00",
+      "text": "Piloting the world's first double-blind AI evaluations Piloting the world's first double-blind AI evaluations",
       "matched_terms": [
-        "foundation model"
+        "AI"
       ],
       "engagement": {},
-      "score": 64.211,
+      "score": 64.876,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2096,15 +2025,124 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.949,
+      "novelty_score": 0.979,
       "source_priority_score": 1.0,
       "source_tags": [
+        "frontier_model",
         "research",
-        "computer_science",
-        "ai",
         "guo_yichen_reference"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "6d20957d7159915c",
+      "title": "OpenAI and 100 Others Warn That Window to Defend Against A.I. Attacks Is Narrowing",
+      "url": "https://www.nytimes.com/2026/08/27/technology/openai-letter-ai-attacks.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T17:11:16+00:00",
+      "text": "OpenAI and 100 Others Warn That Window to Defend Against A.I. Attacks Is Narrowing In an open letter, OpenAI, Anthropic, Google and others said a wave of A.I.-enabled cyberattacks was coming and organizations and governments needed to prepare themselves.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 63.684,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.986,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5761186be92f944d",
+      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T16:05:10+00:00",
+      "text": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2 Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU.",
+      "matched_terms": [
+        "Nvidia",
+        "inference",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 63.642,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.984,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "5bb3deccca13abc5",
+      "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
+      "url": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T12:10:00+00:00",
+      "text": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with…",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 63.565,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.829,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2120,10 +2158,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.785,
+      "score": 63.521,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.64",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2132,7 +2170,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.657,
+      "novelty_score": 0.645,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2143,64 +2181,60 @@
       "source_priority": "high"
     },
     {
-      "id": "09273004fe1f0f84",
-      "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
-      "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo",
-      "source": "NVIDIA AI",
+      "id": "730ac67f8d3d8659",
+      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
+      "source": "Google Research",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-25T20:57:54+00:00",
-      "text": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
+      "category": "research",
+      "published_at": "2026-08-26T18:42:43+00:00",
+      "text": "GlucoFM: Foundation model for continuous glucose monitoring Health & Bioscience",
       "matched_terms": [
-        "AI",
-        "LLM",
-        "RAG",
-        "Nvidia",
-        "inference"
+        "foundation model"
       ],
       "engagement": {},
-      "score": 63.064,
+      "score": 63.081,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=5",
+        "novelty=0.90",
+        "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.833,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.654,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
+        "research",
+        "computer_science",
+        "ai",
+        "guo_yichen_reference"
       ],
-      "registry_category": "vendor",
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
-      "id": "a31466f4f2ac70fb",
-      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-      "source": "Latent Space",
+      "id": "89278112f5445740",
+      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-27T01:50:54+00:00",
-      "text": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro Open Source wins!",
+      "published_at": "2026-08-27T13:00:00+00:00",
+      "text": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents Plaud's new 'agentic' earbuds are priced at $249.",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Nvidia"
+        "agent",
+        "AI agent"
       ],
       "engagement": {},
-      "score": 62.525,
+      "score": 62.935,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.95",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2209,15 +2243,14 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.933,
+      "novelty_score": 0.952,
       "source_priority_score": 1.0,
       "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "community",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2256,6 +2289,81 @@
       "source_priority": "high"
     },
     {
+      "id": "7905bb7334d9e318",
+      "title": "Qwen3.8-Flash-Next",
+      "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T23:52:58+00:00",
+      "text": "Qwen3.8-Flash-Next Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing these pelicans ) and the 78.9GB UD-Q2_K_XL (producing these ). My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL: Via Hacker News Tags: ai , generative-ai , llms , qwen , pelican-riding-a-bicycle , ai-in-china , nvidia-spark",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "multimodal",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 61.227,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.72",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.722,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "50f7e4df737b3425",
+      "title": "An $18bn settlement is a drop in the ocean for Meta – but the tide will still come for it | Chris Stokel-Walker",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/27/meta-social-media-settlement-18bn-us-child-safety-big-tech-lawsuits",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-27T13:11:16+00:00",
+      "text": "An $18bn settlement is a drop in the ocean for Meta – but the tide will still come for it | Chris Stokel-Walker This week’s settlement without liability was pragmatic, but it doesn’t change the inevitability of further lawsuits around the world Not many people would count paying $18bn they didn’t expect to when they woke up that morning as a victory. Yet for Meta, the owners of Facebook and Instagram, the agreement with 52 US attorneys general to settle claims that it designed its products to be addictive to children, and misled people about their safety, could be described as a win of sorts. Meta denies wrongdoing, and the amount it plans to pay will be spread over a decade. Some of it is contingent on other big tech firms not named in its case coughing up too. The cash is chump change for Meta, which made around $60bn in profit last year. More damaging to the tech giant in the long run could be the agreement to unwind some of the mechanics it has spent two decades perfecting to keep us on its platforms. Chris Stokel-Walker is the author of TikTok Boom: The Inside Story of the World’s Favourite App Do you have an opinion on the issues raised in this article? If you would like to s",
+      "matched_terms": [
+        "AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 61.101,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.861,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d77e515deef82e75",
       "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
       "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
@@ -2268,10 +2376,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 61.9,
+      "score": 60.77,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.79",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2280,7 +2388,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.844,
+      "novelty_score": 0.793,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2292,70 +2400,35 @@
       "source_priority": "high"
     },
     {
-      "id": "97c8351320f4b507",
-      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
-      "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T22:03:45+00:00",
-      "text": "Unexpected chat between OpenAI agents led to Hugging Face hack OpenAI's cyber agents banded together to perform a hack during a security test.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.78,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.748,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "40736a81551717c9",
-      "title": "How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents",
-      "url": "https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents",
+      "id": "09273004fe1f0f84",
+      "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
+      "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo",
       "source": "NVIDIA AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T20:05:06+00:00",
-      "text": "How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents Navigation enables a robot to turn perception and motion into purposeful autonomy. Unlike locomotion, which produces stable movement, navigation must be used to...",
+      "published_at": "2026-08-25T20:57:54+00:00",
+      "text": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent"
+        "LLM",
+        "RAG",
+        "Nvidia",
+        "inference"
       ],
       "engagement": {},
-      "score": 61.696,
+      "score": 60.427,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=3",
+        "novelty=0.53",
+        "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.535,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2364,115 +2437,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "3f42b441a741af9f",
-      "title": "OpenAI’s rogue AI model incident was worse than we thought",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T21:36:06+00:00",
-      "text": "OpenAI’s rogue AI model incident was worse than we thought In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to […]",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.463,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.733,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a2f909ccb59a48f2",
-      "title": "Radar makes podcasts searchable — and usable by AI agents",
-      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T15:47:28+00:00",
-      "text": "Radar makes podcasts searchable — and usable by AI agents Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.712,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.851,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "4a5a1c6308573982",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 60.449,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.51",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.505,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2838,33 +2802,68 @@
       "source_priority": "high"
     },
     {
-      "id": "038853b2471eeae6",
-      "title": "Arga Labs is building a better way to train enterprise AI agents",
-      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents",
-      "source": "TechCrunch AI",
+      "id": "bb343fb73e5e2a40",
+      "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T12:55:28+00:00",
-      "text": "Arga Labs is building a better way to train enterprise AI agents Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "published_at": "2026-08-27T16:11:27+00:00",
+      "text": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics Self-hosted speech AI carries an observability trade-off: the numbers that drive capacity planning and cost management stay locked inside the vendor container. Deepgram closes that gap on Amazon SageMaker AI with two capabilities that land billing, usage, and per-GPU metrics directly in your own Amazon CloudWatch account.",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent"
+        "GPU"
       ],
       "engagement": {},
-      "score": 60.055,
+      "score": 60.333,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
+        "novelty=0.98",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.985,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "0593354f8da2f9cd",
+      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T16:00:00+00:00",
+      "text": "Google’s AI Mode can now track flight prices, help book hotels, and more The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 60.289,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.983,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2872,6 +2871,111 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "1f719ef8059ba5b0",
+      "title": "Google, Microsoft and OpenAI among 100 firms calling for better cyber defences",
+      "url": "https://www.bbc.co.uk/news/articles/cwyz11475l1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T17:01:27+00:00",
+      "text": "Google, Microsoft and OpenAI among 100 firms calling for better cyber defences The letter warns cyber-attacks which use AI will become more sophisticated in a matter of months.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.238,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.981,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4a5a1c6308573982",
+      "title": "Parametric Optimization via Local AI Inference",
+      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-07T11:10:00+00:00",
+      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
+      "matched_terms": [
+        "surrogate model"
+      ],
+      "engagement": {},
+      "score": 60.185,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.49",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.493,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7b59d7aa30e28c55",
+      "title": "STAT+: Former Stanford president releases emails to rebut fraud and cover-up allegations in new book",
+      "url": "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T17:27:49+00:00",
+      "text": "STAT+: Former Stanford president releases emails to rebut fraud and cover-up allegations in new book Marc Tessier-Lavigne released new details from his research and travel in an attempt to refute allegations in a new book that he published fraudulent results.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.874,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.994,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2887,10 +2991,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.054,
+      "score": 59.791,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2899,7 +3003,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.984,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2910,73 +3014,38 @@
       "source_priority": "medium"
     },
     {
-      "id": "ea2c1b588148cfb1",
-      "title": "Predicting Blood Damage with Surrogate Modeling",
-      "url": "https://www.comsol.com/blogs/predicting-blood-damage-with-surrogate-modeling",
-      "source": "COMSOL",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-06T13:03:08+00:00",
-      "text": "Predicting Blood Damage with Surrogate Modeling Veryst developed a surrogate model to better understand the relationship between a nozzle and blood damage. Learn more in this blog post.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 59.942,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.482,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "multiphysics",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "4ab83e410a8e9047",
-      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
-      "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model",
-      "source": "TechCrunch AI",
+      "id": "7529af836f99159a",
+      "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+      "source": "The Verge AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T14:19:29+00:00",
-      "text": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
+      "published_at": "2026-08-27T16:15:52+00:00",
+      "text": "Jensen Huang says Nvidia achieved AGI, again — not that it matters On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the supposed finish line of the AI race, there is no consensus […]",
       "matched_terms": [
         "AI",
-        "benchmark"
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 59.709,
+      "score": 59.716,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.96",
         "matched_terms=2",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.835,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.957,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
-        "startup",
-        "funding"
+        "product"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3015,98 +3084,94 @@
       "source_priority": "high"
     },
     {
-      "id": "0fe2fe037fcb4198",
-      "title": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm",
-      "url": "https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm",
-      "source": "The Guardian Technology",
+      "id": "ea2c1b588148cfb1",
+      "title": "Predicting Blood Damage with Surrogate Modeling",
+      "url": "https://www.comsol.com/blogs/predicting-blood-damage-with-surrogate-modeling",
+      "source": "COMSOL",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T19:00:20+00:00",
-      "text": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm Firm says ‘early signals … could have triggered an earlier response’ as it releases report into Hugging Face hack OpenAI staff observed signs of rogue behaviour among its leading-edge AI agents weeks before they escaped their training environment to launch an unprecedented hacking crusade that spread global alarm. The San Francisco AI company conceded on Wednesday that “early signals … could have triggered an earlier response”, as it released a report into the days-long July hack of a major software repository, Hugging Face , considered the first autonomous agent cyber-attack. Continue reading...",
+      "category": "engineering_ai",
+      "published_at": "2026-08-06T13:03:08+00:00",
+      "text": "Predicting Blood Damage with Surrogate Modeling Veryst developed a surrogate model to better understand the relationship between a nozzle and blood damage. Learn more in this blog post.",
       "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
+        "surrogate model"
       ],
       "engagement": {},
       "score": 59.678,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
+        "novelty=0.47",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.652,
+      "novelty_score": 0.47,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "multiphysics",
+        "simulation"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
-      "id": "459326d2aabb51bc",
-      "title": "The inside story on why OpenAI agents hacked Hugging Face",
-      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face",
-      "source": "MIT Technology Review AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T19:00:00+00:00",
-      "text": "The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’…",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 59.674,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.652,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "eef70e8be9a93157",
-      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
-      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them",
+      "id": "32ef27a0c539ebec",
+      "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+      "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T11:00:00+00:00",
-      "text": "Runable hits $21M to bet AI agents can go from building businesses to growing them Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
+      "published_at": "2026-08-27T11:35:59+00:00",
+      "text": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 59.281,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.937,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "40736a81551717c9",
+      "title": "How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents",
+      "url": "https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T20:05:06+00:00",
+      "text": "How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents Navigation enables a robot to turn perception and motion into purposeful autonomy. Unlike locomotion, which produces stable movement, navigation must be used to...",
       "matched_terms": [
         "AI",
         "agent",
         "AI agent"
       ],
       "engagement": {},
-      "score": 59.614,
+      "score": 59.059,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.78",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3115,116 +3180,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.801,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "da4c8580500b98b2",
-      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T23:47:18+00:00",
-      "text": "Amazon just tripled its order of Nvidia chips over ‘surging demand’ Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
-      "matched_terms": [
-        "Nvidia",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 59.211,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.934,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "1ea8eebd3701c752",
-      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T01:31:22+00:00",
-      "text": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6 The conference with hot chips and even hotter companies",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 59.079,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.928,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "2ec0699572aaad39",
-      "title": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure",
-      "url": "https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T21:06:58+00:00",
-      "text": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure AI factories must support increasingly large models and more complex reasoning workloads. To keep up with the insatiable compute demands of AI workloads,...",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 58.599,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.906,
+      "novelty_score": 0.775,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3236,20 +3192,58 @@
       "source_priority": "high"
     },
     {
-      "id": "1f93b53fdb0d7058",
-      "title": "How do we explain OpenAI’s executive exodus?",
-      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus",
-      "source": "TechCrunch AI",
+      "id": "a31466f4f2ac70fb",
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "source": "Latent Space",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T19:34:04+00:00",
-      "text": "How do we explain OpenAI’s executive exodus? Was Greg Brockman the right executive all along?",
+      "published_at": "2026-08-27T01:50:54+00:00",
+      "text": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro Open Source wins!",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 58.569,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.75",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.753,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "d9738fe90b0db3ca",
+      "title": "OpenAI’s executive exodus has one big winner",
+      "url": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T14:00:00+00:00",
+      "text": "OpenAI’s executive exodus has one big winner Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s most public face, Brockman has amassed […]",
       "matched_terms": [
         "AI",
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.244,
+      "score": 58.159,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -3261,31 +3255,30 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.89,
+      "novelty_score": 0.886,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
-        "startup",
-        "funding"
+        "product"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "0ba8959ea928626c",
-      "title": "OpenAI releases its official report on the Hugging Face breach",
-      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach",
+      "id": "81247968d5a9fa76",
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T19:05:22+00:00",
-      "text": "OpenAI releases its official report on the Hugging Face breach The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "published_at": "2026-08-27T06:32:51+00:00",
+      "text": "Nvidia closes in on Hugging Face acquisition Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
       "matched_terms": [
         "AI",
-        "OpenAI"
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 58.134,
+      "score": 58.123,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -3297,7 +3290,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3305,6 +3298,78 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "a2f909ccb59a48f2",
+      "title": "Radar makes podcasts searchable — and usable by AI agents",
+      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T15:47:28+00:00",
+      "text": "Radar makes podcasts searchable — and usable by AI agents Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 58.075,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.73",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.731,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "c5408a4b67979e86",
+      "title": "Hugging Face’s new robot is an adorable rollerskating duck",
+      "url": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-27T13:44:00+00:00",
+      "text": "Hugging Face’s new robot is an adorable rollerskating duck Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot \"before Christmas 2026.\" Video demos of the […]",
+      "matched_terms": [
+        "AI",
+        "robotics"
+      ],
+      "engagement": {},
+      "score": 57.976,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.878,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3418,105 +3483,67 @@
       "source_priority": "high"
     },
     {
-      "id": "e2f898591359cc60",
-      "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding",
-      "url": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-on-nvidia-gb300-nvl72-for-agentic-coding",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T17:07:12+00:00",
-      "text": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s...",
-      "matched_terms": [
-        "agent",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 57.683,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "2f198ea0294972c6",
-      "title": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
-      "url": "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T16:31:32+00:00",
-      "text": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3 The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end examples, a scikit-learn Random Forest and a multi-GPU Stable Diffusion 3.5 LoRA fine-tune, showing how SourceCode syncs your local code into any container at runtime so you can iterate without rebuilding Docker images.",
-      "matched_terms": [
-        "AI",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 57.547,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "cd9e55a321574520",
-      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
-      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say",
-      "source": "TechCrunch AI",
+      "id": "d02f5ca62fcac309",
+      "title": "Adobe is adding more AI to Photoshop",
+      "url": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup",
+      "source": "The Verge AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-26T00:40:59+00:00",
-      "text": "Robotics startup Generalist reaches $3B valuation, sources say The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+      "published_at": "2026-08-27T13:00:00+00:00",
+      "text": "Adobe is adding more AI to Photoshop Adobe is rolling out an AI-heavy update for Photoshop that includes a new \"optional\" interface dedicated to its AI tools. Launching in beta, the \"AI Assisted Editor\" view will show all of Photoshop's AI features in a single toolbar, including its prompt-based image editor, background remover, an AI image extender, and more. There are also […]",
       "matched_terms": [
-        "AI",
-        "robotics"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.416,
+      "score": 57.638,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=2",
+        "novelty=0.85",
+        "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.693,
+      "novelty_score": 0.855,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "038853b2471eeae6",
+      "title": "Arga Labs is building a better way to train enterprise AI agents",
+      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T12:55:28+00:00",
+      "text": "Arga Labs is building a better way to train enterprise AI agents Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 57.418,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.701,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3527,20 +3554,20 @@
       "source_priority": "high"
     },
     {
-      "id": "57d27241cbf7af2c",
-      "title": "Connect Amazon Bedrock AgentCore to cross-account knowledge bases",
-      "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases",
-      "source": "Amazon AWS AI",
+      "id": "57e276283c193e59",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "source": "OpenAI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T15:48:10+00:00",
-      "text": "Connect Amazon Bedrock AgentCore to cross-account knowledge bases Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshift Serverless in another account, without copying source data. This post covers the architecture, security boundary, and two orchestration models: a code-based Strands agent and a declarative AgentCore harness.",
+      "published_at": "2026-08-27T03:00:00+00:00",
+      "text": "Expanding OpenAI’s presence in Brazil OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
       "matched_terms": [
-        "agent",
-        "knowledge base"
+        "AI",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.381,
+      "score": 57.31,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3552,86 +3579,86 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.851,
+      "novelty_score": 0.847,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
     },
     {
-      "id": "df5399c7f9d2448e",
-      "title": "How Claude Watermarks AI-Generated Text",
-      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
-      "source": "Ahead of AI",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-22T11:11:39+00:00",
-      "text": "How Claude Watermarks AI-Generated Text A 48-minute video walkthrough of token sampling, watermark detection, and removal",
-      "matched_terms": [
-        "AI",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 57.377,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.49",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.487,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "ml",
-        "llm",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "83e47e0dd60880ea",
-      "title": "Nvidia’s Profit Doubles to $59.69 Billion Thanks to A.I. Spending",
-      "url": "https://www.nytimes.com/2026/08/26/technology/nvidia-profit-ai-doubles-earnings.html",
-      "source": "New York Times Technology",
+      "id": "ba102a988a1d3761",
+      "title": "STAT+: CMS plans launch event for ACCESS, the Medicare chronic care pilot",
+      "url": "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-27T01:05:58+00:00",
-      "text": "Nvidia’s Profit Doubles to $59.69 Billion Thanks to A.I. Spending Quarterly revenue also more than doubled, to $96.22 billion, the company said, topping expectations on Wall Street.",
+      "published_at": "2026-08-27T17:21:14+00:00",
+      "text": "STAT+: CMS plans launch event for ACCESS, the Medicare chronic care pilot In this edition of STAT Health Tech: CMS plans a launch event for Medicare chronic care pilot, and what the Meta settlement means for health AI.",
       "matched_terms": [
-        "AI",
-        "Nvidia"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.201,
+      "score": 57.132,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
+        "novelty=0.99",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.991,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
       "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4ab83e410a8e9047",
+      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
+      "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T14:19:29+00:00",
+      "text": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
+      "matched_terms": [
+        "AI",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 57.072,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.72",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.715,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -4965,6 +4992,44 @@
       "source_priority": "high"
     },
     {
+      "id": "8f193726cd6f51e9",
+      "title": "Monthly Industrial Ai Call 2026 08",
+      "url": "https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-08",
+      "source": "Industrial AI Network",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Monthly Industrial Ai Call 2026 08 https://www.industrial-ai-network.com/events/monthly-industrial-ai-call-2026-08",
+      "matched_terms": [
+        "industrial AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "industrial_ai",
+        "manufacturing",
+        "plm",
+        "digital_thread",
+        "industrial_copilot",
+        "user_requested"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "01835d1a2a5376ef",
       "title": "Algorithm Based Fea",
       "url": "https://www.synera.ai/workflows/algorithm-based-fea",
@@ -5281,108 +5346,6 @@
       "text": "Agentic Ai For Engineering In Aerospace And Defense https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
       "matched_terms": [
         "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "aa7e190c8e57b532",
-      "title": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025",
-      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025 https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
-      "matched_terms": [
-        "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "40315e9e530db9ba",
-      "title": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems",
-      "url": "https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "7faa8c6159a05886",
-      "title": "Einfuehrung Intact Simulation Add In",
-      "url": "https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Einfuehrung Intact Simulation Add In https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
-      "matched_terms": [
-        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
