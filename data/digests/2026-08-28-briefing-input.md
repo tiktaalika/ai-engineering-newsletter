@@ -3,72 +3,72 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16791
-- filtered_count: 2681
+- fetched_count: 16793
+- filtered_count: 2683
 - duplicate_count: 73
 - failures: 7
 
 ## Top 10 General AI News
 1. [Breaking Claude Code Opus 5 Auto Mode](https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode)
    - source: Simon Willison
-   - score: 66.399
-   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.685; source_priority=1.0
+   - score: 66.252
+   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.678; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.68; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Supporting Thailand’s next generation of AI startups](https://openai.com/index/supporting-next-generation-ai-startups-thailand)
    - source: OpenAI
-   - score: 56.768
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.823; source_priority=1.0
+   - score: 56.67
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.818; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [[AINews] OpenAI to reach AGI bar by end-2026](https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by)
    - source: Latent Space
-   - score: 56.607
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.46
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6](https://www.latent.space/p/ainews-hot-chips-openais-jalapeno)
    - source: Latent Space
-   - score: 46.404
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.352; source_priority=1.0
+   - score: 46.257
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.345; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect](https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect)
    - source: NVIDIA AI
-   - score: 63.563
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.98; source_priority=1.0
+   - score: 63.465
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.976; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Here’s all the times AI has gone rogue and hacked other companies](https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies)
    - source: TechCrunch AI
-   - score: 60.691
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.698; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.70; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.593
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.694; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [How Decathlon runs demand forecasting at scale with Chronos-2](https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2)
    - source: Amazon AWS AI
-   - score: 60.062
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.973; source_priority=1.0
+   - score: 59.964
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.968; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components](https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components)
    - source: Amazon AWS AI
-   - score: 60.055
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.972; source_priority=1.0
+   - score: 59.957
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.968; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Anthropic gets its first court win over the Pentagon’s supply-chain risk label](https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label)
    - source: TechCrunch AI
-   - score: 59.236
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.935; source_priority=1.0
+   - score: 59.138
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.931; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Trump’s EPA wants to let data centers hide their air pollution](https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit)
    - source: The Verge AI
-   - score: 55.59
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.921; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.297
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.907; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow](https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow)
    - source: Rescale
-   - score: 81.133
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.991; source_priority=1.0
+   - score: 81.123
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.99; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
 2. [Agentic AI Within the Simulation Engineering Space](https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space)
    - source: COMSOL
-   - score: 80.704
+   - score: 80.694
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.971; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
 3. [From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai](https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai)
@@ -83,21 +83,21 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The Witcher 3: Songs of the Past – Geralt of Rivia returns after a decade in the sun](https://www.theguardian.com/games/2026/aug/28/the-witcher-3-songs-of-the-past-geralt-of-rivia-returns-after-a-decade-in-the-sun)
    - source: The Guardian Technology
-   - score: 56.699
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.812; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.406
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.799; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: AstraZeneca and Ionis detail surprise failure of heart disease drug, with Alnylam closely watching](https://www.statnews.com/2026/08/28/biotech-news-astrazeneca-ionis-detail-surprise-failure-of-heart-disease-drug)
    - source: STAT Health Tech
-   - score: 53.647
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.832; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.353
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.819; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: Pharmalittle: We’re reading about an AstraZeneca trial failure, a ‘monstrous’ conflict of interest, and more](https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest)
    - source: STAT Health Tech
-   - score: 53.245
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.814; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.952
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Conversational Ai Healthcare](https://elevenlabs.io/agents/conversational-ai-healthcare)
    - source: ElevenLabs
    - score: 35.167
