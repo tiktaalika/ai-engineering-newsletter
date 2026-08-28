@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-28T06:08:22.980588+00:00",
+    "generated_at": "2026-08-28T18:43:47.768529+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17244,
-    "filtered_count": 2701,
-    "duplicate_count": 74,
+    "fetched_count": 16792,
+    "filtered_count": 2681,
+    "duplicate_count": 73,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -67,10 +63,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 70.824,
+      "score": 66.496,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.69",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -79,13 +75,87 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.886,
+      "novelty_score": 0.689,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
         "llm",
         "agents",
         "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "0b00c80d502cc3ab",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T02:00:00+00:00",
+      "text": "Supporting Thailand’s next generation of AI startups OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 56.833,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.826,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "1d5fd45befcaea1b",
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T07:12:10+00:00",
+      "text": "[AINews] OpenAI to reach AGI bar by end-2026 It’s Time. We’re in the Endgame now.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 56.704,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.82,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
         "guo_yichen_reference"
       ],
       "registry_category": "community",
@@ -105,10 +175,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 50.83,
+      "score": 46.502,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.55",
+        "novelty=0.36",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -117,7 +187,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.553,
+      "novelty_score": 0.356,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -129,37 +199,39 @@
       "source_priority": "high"
     },
     {
-      "id": "d6bb1031e66bcecd",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "OpenAI",
+      "id": "503090151ea568b4",
+      "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+      "url": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect",
+      "source": "NVIDIA AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T10:00:00+00:00",
-      "text": "Bringing ChatGPT for Teachers to more U.S. school districts ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "published_at": "2026-08-28T17:06:28+00:00",
+      "text": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,...",
       "matched_terms": [
-        "AI"
+        "AI",
+        "Nvidia",
+        "inference"
       ],
       "engagement": {},
-      "score": 47.218,
+      "score": 63.628,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.54",
-        "matched_terms=1",
+        "novelty=0.98",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.54,
+      "novelty_score": 0.983,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -180,10 +252,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.641,
+      "score": 60.756,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.70",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -192,7 +264,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.701,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -203,35 +275,32 @@
       "source_priority": "high"
     },
     {
-      "id": "ba33e650960024d1",
-      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations",
+      "id": "9a8c31ff0e05583f",
+      "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2",
       "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T19:13:35+00:00",
-      "text": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works.",
+      "published_at": "2026-08-28T16:22:30+00:00",
+      "text": "How Decathlon runs demand forecasting at scale with Chronos-2 Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents. Learn how they deployed Chronos-2 on AWS to improve forecast accuracy by 11-15 points while cutting operational complexity and running weekly inference for about $0.03 on CPU-only instances.",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent",
-        "OpenAI",
-        "Claude"
+        "inference"
       ],
       "engagement": {},
-      "score": 62.666,
+      "score": 60.127,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.64",
-        "matched_terms=5",
+        "novelty=0.98",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.833,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.636,
+      "novelty_score": 0.975,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -242,33 +311,32 @@
       "source_priority": "high"
     },
     {
-      "id": "5761186be92f944d",
-      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2",
+      "id": "e9800e79c07e3764",
+      "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+      "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components",
       "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-27T16:05:10+00:00",
-      "text": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2 Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU.",
+      "published_at": "2026-08-28T16:20:40+00:00",
+      "text": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.",
       "matched_terms": [
-        "Nvidia",
-        "inference",
-        "GPU"
+        "AI",
+        "inference"
       ],
       "engagement": {},
-      "score": 60.779,
+      "score": 60.12,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
+        "novelty=0.98",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.975,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -279,60 +347,23 @@
       "source_priority": "high"
     },
     {
-      "id": "89278112f5445740",
-      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
-      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents",
+      "id": "d62db5e9a1ea4a6d",
+      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-27T13:00:00+00:00",
-      "text": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.072,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "9ec4728e0bc5ea7a",
-      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-28T03:14:06+00:00",
-      "text": "Anthropic was illegally blacklisted by the Trump administration, court rules On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red […]",
+      "published_at": "2026-08-28T12:46:12+00:00",
+      "text": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
       "matched_terms": [
         "AI",
         "Anthropic"
       ],
       "engagement": {},
-      "score": 58.67,
+      "score": 59.301,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.94",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -341,69 +372,33 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.938,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
-        "product"
+        "startup",
+        "funding"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
-      "id": "2ec0699572aaad39",
-      "title": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure",
-      "url": "https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure",
-      "source": "NVIDIA AI",
+      "id": "2c0deb26fc847391",
+      "title": "Trump’s EPA wants to let data centers hide their air pollution",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+      "source": "The Verge AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-26T21:06:58+00:00",
-      "text": "NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure AI factories must support increasingly large models and more complex reasoning workloads. To keep up with the insatiable compute demands of AI workloads,...",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 53.099,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.66",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.656,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "9a44972cbb45d6bb",
-      "title": "Overcooked? Why robotic pizza makers are failing",
-      "url": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T23:16:02+00:00",
-      "text": "Overcooked? Why robotic pizza makers are failing A string of failures has sapped confidence that robots will take over production at pizza restaurants.",
+      "published_at": "2026-08-28T16:28:40+00:00",
+      "text": "Trump’s EPA wants to let data centers hide their air pollution Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites […]",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 52.608,
+      "score": 55.785,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -412,17 +407,53 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.785,
+      "novelty_score": 0.93,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "ai",
+        "product"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
+    {
+      "id": "fb40e0c18bb1e3f1",
+      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
+      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-28T10:15:00+00:00",
+      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 81.139,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.991,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
     {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
@@ -436,10 +467,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.999,
+      "score": 80.71,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -449,7 +480,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.972,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -528,56 +559,22 @@
       "source_priority": "high"
     },
     {
-      "id": "01f0ee112f1e7424",
-      "title": "Google’s AI note-taking app now allows you to interact with books",
-      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-27T19:30:00+00:00",
-      "text": "Google’s AI note-taking app now allows you to interact with books Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions about the material, as well as generate plans, infographics, AI podcasts, and more based on their […]",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 53.519,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.67",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.668,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "3da5b68e544a257e",
-      "title": "AI-proof? Younger workers desert the digital world for traditional crafts",
-      "url": "https://www.theguardian.com/money/2026/aug/27/ai-proof-jobs-traditional-crafts",
+      "id": "9ba0db537dc29301",
+      "title": "The Witcher 3: Songs of the Past – Geralt of Rivia returns after a decade in the sun",
+      "url": "https://www.theguardian.com/games/2026/aug/28/the-witcher-3-songs-of-the-past-geralt-of-rivia-returns-after-a-decade-in-the-sun",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-27T13:38:30+00:00",
-      "text": "AI-proof? Younger workers desert the digital world for traditional crafts In a disrupted job market people are turning to heritage crafts such as bookbinding, metalwork and boatbuilding It’s a bleak moment for young people entering the workforce for the first time . For decades, a university degree seemed to promise a stable career – but entry-level white-collar jobs across almost all sectors are being disrupted by AI . Budding accountants, software engineers and junior lawyers increasingly find themselves displaced by cheap automation. Even creative fields are struggling against AI tech that can produce artwork, lengthy prose or complex design briefs in seconds. Continue reading...",
+      "published_at": "2026-08-28T13:00:00+00:00",
+      "text": "The Witcher 3: Songs of the Past – Geralt of Rivia returns after a decade in the sun Before The Witcher 4 arrives in 2028, CD Projekt Red is returning us to the world of The Witcher 3 for one last foray. Looks like wind’s still howlin’ The game that graced us with Bathtub Geralt , The Witcher 3: Wild Hunt, arrived more than a decade ago. So it was a touch surprising this summer when developers CD Projekt Red announced a new expansion to the venerable adventure, titled Songs of the Past, for next year. It will release alongside a full remaster of the original game, which will be free for anyone who bought it back in 2015. (The studio is also working on a sequel, The Witcher 4, but that’s not due until 2028.) As it turns out, this is all possible thanks to a partnership with Fool’s Theory, a studio founded by CD Projekt Red veterans, which took on the brunt of the development work. “We’ve had this story in a drawer for many years,” explains Marcin Blacha, VP story director at CD Projekt Red. “Of course, we moved on to Cyberpunk 2077 and now The Witcher 4, as well as our other projects. But because we knew The Witcher 4 would take time, we saw a gap in our release calendar where Songs",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 49.491,
+      "score": 56.894,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -586,7 +583,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.484,
+      "novelty_score": 0.821,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -598,22 +595,22 @@
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "b170e56a26bcfea7",
-      "title": "What Scientists Actually Need From AI",
-      "url": "https://www.bio-itworld.com/news/2026/08/28/what-scientists-actually-need-from-ai",
-      "source": "Bio-IT World",
-      "source_kind": "sitemap_or_search",
+      "id": "efe76073922baa4a",
+      "title": "STAT+: AstraZeneca and Ionis detail surprise failure of heart disease drug, with Alnylam closely watching",
+      "url": "https://www.statnews.com/2026/08/28/biotech-news-astrazeneca-ionis-detail-surprise-failure-of-heart-disease-drug",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": null,
-      "text": "What Scientists Actually Need From AI https://www.bio-itworld.com/news/2026/08/28/what-scientists-actually-need-from-ai",
+      "published_at": "2026-08-28T13:39:04+00:00",
+      "text": "STAT+: AstraZeneca and Ionis detail surprise failure of heart disease drug, with Alnylam closely watching Roivant's autoimmune drug approval, Cytokinetics reports full data for heart condition treatment, and more biotech news",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 43.033,
+      "score": 53.842,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.84",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -622,14 +619,47 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
-        "bio_ai",
-        "biotech",
-        "genomics_ai",
-        "drug_discovery",
-        "research"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "1caa5a72af9204db",
+      "title": "STAT+: Pharmalittle: We’re reading about an AstraZeneca trial failure, a ‘monstrous’ conflict of interest, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T13:04:02+00:00",
+      "text": "STAT+: Pharmalittle: We’re reading about an AstraZeneca trial failure, a ‘monstrous’ conflict of interest, and more Pharma news from the Pharmalot campus, brought to you by the Pharmalittle newsletter",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 53.44,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.823,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -670,31 +700,32 @@
       "source_priority": "medium"
     },
     {
-      "id": "b13cc3222df0b26e",
-      "title": "Esc 2026 True Impact Of Poor Medicine Adherence Laid Bare In Hypertensive Patients",
-      "url": "https://www.pharmaceutical-technology.com/news/esc-2026-true-impact-of-poor-medicine-adherence-laid-bare-in-hypertensive-patients",
+      "id": "669bcc118e6eb9e2",
+      "title": "Bristol Myers, NVIDIA join forces to build life science’s ‘most powerful’ AI factory",
+      "url": "https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma",
       "source": "Pharmaceutical Technology",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-08-27T10:27:04+00:00",
-      "text": "Esc 2026 True Impact Of Poor Medicine Adherence Laid Bare In Hypertensive Patients https://www.pharmaceutical-technology.com/news/esc-2026-true-impact-of-poor-medicine-adherence-laid-bare-in-hypertensive-patients/",
+      "published_at": null,
+      "text": "Bristol Myers, NVIDIA join forces to build life science’s ‘most powerful’ AI factory https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma/",
       "matched_terms": [
-        "AI"
+        "AI",
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 32.597,
+      "score": 35.167,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.38",
-        "matched_terms=1",
+        "novelty=0.35",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.385,
+      "novelty_score": 0.35,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -706,77 +737,80 @@
       "source_priority": "medium"
     },
     {
-      "id": "6b8dcd86d7ffc216",
-      "title": "Ai",
-      "url": "https://www.drugtargetreview.com/ai",
-      "source": "Drug Target Review",
+      "id": "8a8596fe2ca51952",
+      "title": "Keeping pace with generative AI in pharmaceutical and healthcare organisations",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/keeping-pace-with-generative-ai-in-pharmaceutical-and-healthcare-organisations",
+      "source": "Pharmaceutical Technology",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
       "published_at": null,
-      "text": "Ai https://www.drugtargetreview.com/ai",
+      "text": "Keeping pace with generative AI in pharmaceutical and healthcare organisations https://www.pharmaceutical-technology.com/sponsored/keeping-pace-with-generative-ai-in-pharmaceutical-and-healthcare-organisations/",
       "matched_terms": [
-        "AI"
+        "AI",
+        "generative AI"
       ],
       "engagement": {},
-      "score": 31.833,
+      "score": 35.167,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.35",
-        "matched_terms=1",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
       "novelty_score": 0.35,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
+        "pharma",
         "drug_discovery",
         "biotech"
       ],
       "registry_category": "general_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "3dfe013c550c482a",
-      "title": "New MRI machine uses AI to reduce time, make clearer images at Intermountain Medical Center - KSL News",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRGgzU21qZjNIX0UwT2FfekRZX1MwUWZmNTJMRDZiQTVfV0ZLd28yUll5aXgxcEZHVTVYUkRYd0xKS3MzVDh6a3ZHdDdJNDVoS3docnp0NjFBLTdqUWQ2blNmYUZOUzRlcDBmUUJSb2NYZDJYY3c2T3R3UzZqb1JEZTBYeDVwd21oemZuQ2M5VmxhRFFhSW1LT2t3aXQ5ODNURUZ3TXJfXzFyeWVzUFlYb2lZVEdLY0UxaERKTjhtZGV2VC10SUE?oc=5",
-      "source": "Google News Medical AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-08-28T03:33:26+00:00",
-      "text": "New MRI machine uses AI to reduce time, make clearer images at Intermountain Medical Center - KSL News New MRI machine uses AI to reduce time, make clearer images at Intermountain Medical Center KSL News",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 34.758,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.92",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.919,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "discovery"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
     }
   ],
   "top_5_cae_ai_engineering": [
+    {
+      "id": "fb40e0c18bb1e3f1",
+      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
+      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-28T10:15:00+00:00",
+      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 81.139,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.991,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
     {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
@@ -790,10 +824,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.999,
+      "score": 80.71,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -803,7 +837,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.972,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -882,56 +916,22 @@
       "source_priority": "high"
     },
     {
-      "id": "01f0ee112f1e7424",
-      "title": "Google’s AI note-taking app now allows you to interact with books",
-      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-27T19:30:00+00:00",
-      "text": "Google’s AI note-taking app now allows you to interact with books Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions about the material, as well as generate plans, infographics, AI podcasts, and more based on their […]",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 53.519,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.67",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.668,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "3da5b68e544a257e",
-      "title": "AI-proof? Younger workers desert the digital world for traditional crafts",
-      "url": "https://www.theguardian.com/money/2026/aug/27/ai-proof-jobs-traditional-crafts",
+      "id": "9ba0db537dc29301",
+      "title": "The Witcher 3: Songs of the Past – Geralt of Rivia returns after a decade in the sun",
+      "url": "https://www.theguardian.com/games/2026/aug/28/the-witcher-3-songs-of-the-past-geralt-of-rivia-returns-after-a-decade-in-the-sun",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-08-27T13:38:30+00:00",
-      "text": "AI-proof? Younger workers desert the digital world for traditional crafts In a disrupted job market people are turning to heritage crafts such as bookbinding, metalwork and boatbuilding It’s a bleak moment for young people entering the workforce for the first time . For decades, a university degree seemed to promise a stable career – but entry-level white-collar jobs across almost all sectors are being disrupted by AI . Budding accountants, software engineers and junior lawyers increasingly find themselves displaced by cheap automation. Even creative fields are struggling against AI tech that can produce artwork, lengthy prose or complex design briefs in seconds. Continue reading...",
+      "published_at": "2026-08-28T13:00:00+00:00",
+      "text": "The Witcher 3: Songs of the Past – Geralt of Rivia returns after a decade in the sun Before The Witcher 4 arrives in 2028, CD Projekt Red is returning us to the world of The Witcher 3 for one last foray. Looks like wind’s still howlin’ The game that graced us with Bathtub Geralt , The Witcher 3: Wild Hunt, arrived more than a decade ago. So it was a touch surprising this summer when developers CD Projekt Red announced a new expansion to the venerable adventure, titled Songs of the Past, for next year. It will release alongside a full remaster of the original game, which will be free for anyone who bought it back in 2015. (The studio is also working on a sequel, The Witcher 4, but that’s not due until 2028.) As it turns out, this is all possible thanks to a partnership with Fool’s Theory, a studio founded by CD Projekt Red veterans, which took on the brunt of the development work. “We’ve had this story in a drawer for many years,” explains Marcin Blacha, VP story director at CD Projekt Red. “Of course, we moved on to Cyberpunk 2077 and now The Witcher 4, as well as our other projects. But because we knew The Witcher 4 would take time, we saw a gap in our release calendar where Songs",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 49.491,
+      "score": 56.894,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -940,7 +940,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.484,
+      "novelty_score": 0.821,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1713,6 +1713,42 @@
   ],
   "top_100_news_candidates": [
     {
+      "id": "fb40e0c18bb1e3f1",
+      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
+      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-28T10:15:00+00:00",
+      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 81.139,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.991,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
       "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
@@ -1725,10 +1761,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.999,
+      "score": 80.71,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1738,7 +1774,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.972,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1762,10 +1798,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 71.43,
+      "score": 71.141,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
+        "novelty=0.57",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1774,7 +1810,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.58,
+      "novelty_score": 0.567,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1784,47 +1820,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a2788bb11ad160af",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T22:50:25+00:00",
-      "text": "Breaking Claude Code Opus 5 Auto Mode Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from the archive. In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute! In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command. Claude detects the compromise, but Auto Mode blocks its cleanup command The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it! I agree with Johann's ",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 70.824,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.886,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -1841,10 +1836,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 69.284,
+      "score": 68.996,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.74",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1853,7 +1848,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.755,
+      "novelty_score": 0.742,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1876,10 +1871,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.53,
+      "score": 67.241,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1888,7 +1883,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.827,
+      "novelty_score": 0.814,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1969,6 +1964,47 @@
       "source_priority": "high"
     },
     {
+      "id": "a2788bb11ad160af",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T22:50:25+00:00",
+      "text": "Breaking Claude Code Opus 5 Auto Mode Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from the archive. In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute! In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command. Claude detects the compromise, but Auto Mode blocks its cleanup command The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it! I agree with Johann's ",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 66.496,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.69",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.689,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "fadf95d27724d98e",
       "title": "Building a sustainable future with simulation and AI",
       "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
@@ -1982,10 +2018,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 64.945,
+      "score": 64.657,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1994,7 +2030,80 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.558,
+      "novelty_score": 0.545,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "503090151ea568b4",
+      "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+      "url": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T17:06:28+00:00",
+      "text": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,...",
+      "matched_terms": [
+        "AI",
+        "Nvidia",
+        "inference"
+      ],
+      "engagement": {},
+      "score": 63.628,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.983,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "846bf57afd4edd88",
+      "title": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation",
+      "url": "https://blogs.sw.siemens.com/simcenter/virtual-integrated-aircraft-systems-integration",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-13T12:44:38+00:00",
+      "text": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation The aerospace industry is facing unprecedented levels of complexity. Electrification, software-intensive architectures, thermal management challenges, and increasingly demanding verification and…",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 62.946,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.62",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.619,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2017,10 +2126,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 64.104,
+      "score": 62.867,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2029,7 +2138,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.944,
+      "novelty_score": 0.888,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2053,10 +2162,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.649,
+      "score": 62.412,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2065,7 +2174,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.923,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2073,155 +2182,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "153b1e2532da6516",
-      "title": "Here’s all the times AI has gone rogue and hacked other companies",
-      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T14:01:42+00:00",
-      "text": "Here’s all the times AI has gone rogue and hacked other companies A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 63.641,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "846bf57afd4edd88",
-      "title": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation",
-      "url": "https://blogs.sw.siemens.com/simcenter/virtual-integrated-aircraft-systems-integration",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-13T12:44:38+00:00",
-      "text": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation The aerospace industry is facing unprecedented levels of complexity. Electrification, software-intensive architectures, thermal management challenges, and increasingly demanding verification and…",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 63.235,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.632,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba33e650960024d1",
-      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T19:13:35+00:00",
-      "text": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 62.666,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.64",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.636,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "7bf2f42fadc5c678",
-      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T23:16:45+00:00",
-      "text": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026 At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 62.428,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.929,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2260,6 +2220,44 @@
       "source_priority": "high"
     },
     {
+      "id": "153b1e2532da6516",
+      "title": "Here’s all the times AI has gone rogue and hacked other companies",
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T14:01:42+00:00",
+      "text": "Here’s all the times AI has gone rogue and hacked other companies A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 60.756,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.701,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "730ac67f8d3d8659",
       "title": "GlucoFM: Foundation model for continuous glucose monitoring",
       "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
@@ -2272,10 +2270,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 61.854,
+      "score": 60.617,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.79",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2284,7 +2282,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.786,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2293,117 +2291,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "bc430a1e2ae9ff02",
-      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T18:36:08+00:00",
-      "text": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have local data processing requirements, you can now use these models at scale while Amazon Bedrock keeps inference requests and data within India.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 61.356,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.88,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "d75be4dbd95d5a20",
-      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T17:43:24+00:00",
-      "text": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 61.155,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.871,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "5761186be92f944d",
-      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T16:05:10+00:00",
-      "text": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2 Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU.",
-      "matched_terms": [
-        "Nvidia",
-        "inference",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 60.779,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2769,40 +2656,114 @@
       "source_priority": "high"
     },
     {
-      "id": "89278112f5445740",
-      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
-      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents",
-      "source": "TechCrunch AI",
+      "id": "9a8c31ff0e05583f",
+      "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-27T13:00:00+00:00",
-      "text": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "published_at": "2026-08-28T16:22:30+00:00",
+      "text": "How Decathlon runs demand forecasting at scale with Chronos-2 Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents. Learn how they deployed Chronos-2 on AWS to improve forecast accuracy by 11-15 points while cutting operational complexity and running weekly inference for about $0.03 on CPU-only instances.",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent"
+        "inference"
       ],
       "engagement": {},
-      "score": 60.072,
+      "score": 60.127,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
+        "novelty=0.98",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.975,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "startup",
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "e9800e79c07e3764",
+      "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+      "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T16:20:40+00:00",
+      "text": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.",
+      "matched_terms": [
+        "AI",
+        "inference"
+      ],
+      "engagement": {},
+      "score": 60.12,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.975,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba33e650960024d1",
+      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T19:13:35+00:00",
+      "text": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 59.78,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.51",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.505,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2818,10 +2779,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.054,
+      "score": 59.766,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2830,7 +2791,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.983,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2839,41 +2800,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "4a5a1c6308573982",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 59.899,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.48,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -2911,39 +2837,147 @@
       "source_priority": "high"
     },
     {
-      "id": "d77e515deef82e75",
-      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
-      "source": "Google Research",
+      "id": "4a5a1c6308573982",
+      "title": "Parametric Optimization via Local AI Inference",
+      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
+      "source": "Rescale",
       "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-25T19:10:59+00:00",
-      "text": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR Human-Computer Interaction and Visualization",
+      "category": "engineering_ai",
+      "published_at": "2026-08-07T11:10:00+00:00",
+      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
       "matched_terms": [
-        "agent"
+        "surrogate model"
+      ],
+      "engagement": {},
+      "score": 59.61,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.47",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.467,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7bf2f42fadc5c678",
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T23:16:45+00:00",
+      "text": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026 At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
       ],
       "engagement": {},
       "score": 59.543,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
-        "matched_terms=1",
+        "novelty=0.80",
+        "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=1.00",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.737,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.797,
       "source_priority_score": 1.0,
       "source_tags": [
-        "research",
-        "computer_science",
         "ai",
-        "guo_yichen_reference"
+        "startup",
+        "funding"
       ],
-      "registry_category": "research",
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "d62db5e9a1ea4a6d",
+      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T12:46:12+00:00",
+      "text": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+      "matched_terms": [
+        "AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 59.301,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.938,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "b8d3f0cb5de26b4c",
+      "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+      "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T12:21:06+00:00",
+      "text": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 59.205,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.934,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2959,10 +2993,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 59.392,
+      "score": 59.103,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.46",
+        "novelty=0.44",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2971,7 +3005,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.457,
+      "novelty_score": 0.444,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2981,32 +3015,33 @@
       "source_priority": "high"
     },
     {
-      "id": "b115f2cadc275e43",
-      "title": "Build agentic creative workflows with Amazon Quick and fal",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal",
+      "id": "bc430a1e2ae9ff02",
+      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india",
       "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-27T23:04:22+00:00",
-      "text": "Build agentic creative workflows with Amazon Quick and fal Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent harness with Amazon Quick and fal, connected through the Model Context Protocol (MCP), using two hands-on workflows: an eight-panel storyboard and a music-video concept prototype.",
+      "published_at": "2026-08-27T18:36:08+00:00",
+      "text": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have local data processing requirements, you can now use these models at scale while Amazon Bedrock keeps inference requests and data within India.",
       "matched_terms": [
-        "agent",
-        "RAG"
+        "AI",
+        "OpenAI",
+        "inference"
       ],
       "engagement": {},
-      "score": 59.047,
+      "score": 58.471,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=2",
+        "novelty=0.75",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.926,
+      "novelty_score": 0.749,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3017,67 +3052,69 @@
       "source_priority": "high"
     },
     {
-      "id": "9ec4728e0bc5ea7a",
-      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "source": "The Verge AI",
+      "id": "d77e515deef82e75",
+      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
+      "source": "Google Research",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-28T03:14:06+00:00",
-      "text": "Anthropic was illegally blacklisted by the Trump administration, court rules On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red […]",
+      "category": "research",
+      "published_at": "2026-08-25T19:10:59+00:00",
+      "text": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR Human-Computer Interaction and Visualization",
       "matched_terms": [
-        "AI",
-        "Anthropic"
+        "agent"
       ],
       "engagement": {},
-      "score": 58.67,
+      "score": 58.306,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=2",
+        "novelty=0.68",
+        "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.681,
       "source_priority_score": 1.0,
       "source_tags": [
+        "research",
+        "computer_science",
         "ai",
-        "product"
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
-      "id": "c156e18e95343a1f",
-      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google",
+      "id": "d75be4dbd95d5a20",
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-27T19:52:52+00:00",
-      "text": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "published_at": "2026-08-27T17:43:24+00:00",
+      "text": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
       "matched_terms": [
         "AI",
-        "OpenAI"
+        "OpenAI",
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 58.316,
+      "score": 58.269,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=2",
+        "novelty=0.74",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.893,
+      "novelty_score": 0.74,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3088,38 +3125,40 @@
       "source_priority": "high"
     },
     {
-      "id": "3ceeb5bddfd63214",
-      "title": "Trump Administration’s Blacklisting of Anthropic Was Illegal, Judge Rules",
-      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "source": "New York Times Technology",
+      "id": "5761186be92f944d",
+      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-28T02:28:13+00:00",
-      "text": "Trump Administration’s Blacklisting of Anthropic Was Illegal, Judge Rules The government retaliated against the A.I. start-up “for constitutionally protected expressive activities,” a federal judge in California wrote.",
+      "published_at": "2026-08-27T16:05:10+00:00",
+      "text": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2 Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU.",
       "matched_terms": [
-        "AI",
-        "Anthropic"
+        "Nvidia",
+        "inference",
+        "GPU"
       ],
       "engagement": {},
-      "score": 58.144,
+      "score": 57.894,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=2",
+        "novelty=0.72",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.722,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3233,108 +3272,68 @@
       "source_priority": "high"
     },
     {
-      "id": "09273004fe1f0f84",
-      "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
-      "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-25T20:57:54+00:00",
-      "text": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "RAG",
-        "Nvidia",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 57.564,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.40",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.404,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "bb343fb73e5e2a40",
-      "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics",
-      "url": "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T16:11:27+00:00",
-      "text": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics Self-hosted speech AI carries an observability trade-off: the numbers that drive capacity planning and cost management stay locked inside the vendor container. Deepgram closes that gap on Amazon SageMaker AI with two capabilities that land billing, usage, and per-GPU metrics directly in your own Amazon CloudWatch account.",
-      "matched_terms": [
-        "AI",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 57.47,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "0593354f8da2f9cd",
-      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
-      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more",
+      "id": "565a1470c5850423",
+      "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-27T16:00:00+00:00",
-      "text": "Google’s AI Mode can now track flight prices, help book hotels, and more The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+      "published_at": "2026-08-28T18:19:40+00:00",
+      "text": "Open-weight AI companies are the Valley’s hottest acquisition targets There's a lot of capital pouring into the business of giving models away.",
       "matched_terms": [
-        "AI",
-        "agent"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.426,
+      "score": 57.241,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
+        "novelty=1.00",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.996,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "89278112f5445740",
+      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T13:00:00+00:00",
+      "text": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 57.187,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.69",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.69,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",

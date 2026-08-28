@@ -3,116 +3,116 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17244
-- filtered_count: 2701
-- duplicate_count: 74
-- failures: 8
+- fetched_count: 16792
+- filtered_count: 2681
+- duplicate_count: 73
+- failures: 7
 
 ## Top 10 General AI News
 1. [Breaking Claude Code Opus 5 Auto Mode](https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode)
    - source: Simon Willison
-   - score: 70.824
-   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.886; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-2. [[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6](https://www.latent.space/p/ainews-hot-chips-openais-jalapeno)
-   - source: Latent Space
-   - score: 50.83
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.553; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.55; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Bringing ChatGPT for Teachers to more U.S. school districts](https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts)
+   - score: 66.496
+   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.689; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+2. [Supporting Thailand’s next generation of AI startups](https://openai.com/index/supporting-next-generation-ai-startups-thailand)
    - source: OpenAI
-   - score: 47.218
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.54; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.54; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Here’s all the times AI has gone rogue and hacked other companies](https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies)
-   - source: TechCrunch AI
-   - score: 63.641
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.832; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations](https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations)
-   - source: Amazon AWS AI
-   - score: 62.666
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.636; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.64; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2](https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2)
-   - source: Amazon AWS AI
-   - score: 60.779
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.854; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents](https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents)
-   - source: TechCrunch AI
-   - score: 60.072
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Anthropic was illegally blacklisted by the Trump administration, court rules](https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling)
-   - source: The Verge AI
-   - score: 58.67
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.909; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [NVIDIA NVLink Fusion Brings NVHBM to Next-Generation AI Infrastructure](https://developer.nvidia.com/blog/nvidia-nvlink-fusion-brings-nvhbm-to-next-generation-ai-infrastructure)
+   - score: 56.833
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.826; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [[AINews] OpenAI to reach AGI bar by end-2026](https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by)
+   - source: Latent Space
+   - score: 56.704
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.82; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6](https://www.latent.space/p/ainews-hot-chips-openais-jalapeno)
+   - source: Latent Space
+   - score: 46.502
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.356; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.36; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect](https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect)
    - source: NVIDIA AI
-   - score: 53.099
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.656; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.66; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Overcooked? Why robotic pizza makers are failing](https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss)
-   - source: BBC Technology
-   - score: 52.608
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.785; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.628
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.983; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Here’s all the times AI has gone rogue and hacked other companies](https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies)
+   - source: TechCrunch AI
+   - score: 60.756
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.701; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.70; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [How Decathlon runs demand forecasting at scale with Chronos-2](https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2)
+   - source: Amazon AWS AI
+   - score: 60.127
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components](https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components)
+   - source: Amazon AWS AI
+   - score: 60.12
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Anthropic gets its first court win over the Pentagon’s supply-chain risk label](https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label)
+   - source: TechCrunch AI
+   - score: 59.301
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.938; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Trump’s EPA wants to let data centers hide their air pollution](https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit)
+   - source: The Verge AI
+   - score: 55.785
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.93; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Agentic AI Within the Simulation Engineering Space](https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space)
+1. [Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow](https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow)
+   - source: Rescale
+   - score: 81.139
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.991; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
+2. [Agentic AI Within the Simulation Engineering Space](https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space)
    - source: COMSOL
-   - score: 80.999
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.985; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
-2. [From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai](https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai)
+   - score: 80.71
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.972; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
+3. [From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai](https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai)
    - source: Synera
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Dynamic Simulation In Engineering Techniques And Applications](https://www.neuralconcept.com/post/dynamic-simulation-in-engineering-techniques-and-applications)
+4. [Dynamic Simulation In Engineering Techniques And Applications](https://www.neuralconcept.com/post/dynamic-simulation-in-engineering-techniques-and-applications)
    - source: Neural Concept
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Google’s AI note-taking app now allows you to interact with books](https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books)
-   - source: The Verge AI
-   - score: 53.519
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.668; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.67; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-5. [AI-proof? Younger workers desert the digital world for traditional crafts](https://www.theguardian.com/money/2026/aug/27/ai-proof-jobs-traditional-crafts)
+5. [The Witcher 3: Songs of the Past – Geralt of Rivia returns after a decade in the sun](https://www.theguardian.com/games/2026/aug/28/the-witcher-3-songs-of-the-past-geralt-of-rivia-returns-after-a-decade-in-the-sun)
    - source: The Guardian Technology
-   - score: 49.491
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.484; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.894
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.821; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [What Scientists Actually Need From AI](https://www.bio-itworld.com/news/2026/08/28/what-scientists-actually-need-from-ai)
-   - source: Bio-IT World
-   - score: 43.033
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Conversational Ai Healthcare](https://elevenlabs.io/agents/conversational-ai-healthcare)
+1. [STAT+: AstraZeneca and Ionis detail surprise failure of heart disease drug, with Alnylam closely watching](https://www.statnews.com/2026/08/28/biotech-news-astrazeneca-ionis-detail-surprise-failure-of-heart-disease-drug)
+   - source: STAT Health Tech
+   - score: 53.842
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.841; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [STAT+: Pharmalittle: We’re reading about an AstraZeneca trial failure, a ‘monstrous’ conflict of interest, and more](https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest)
+   - source: STAT Health Tech
+   - score: 53.44
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.823; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Conversational Ai Healthcare](https://elevenlabs.io/agents/conversational-ai-healthcare)
    - source: ElevenLabs
    - score: 35.167
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Esc 2026 True Impact Of Poor Medicine Adherence Laid Bare In Hypertensive Patients](https://www.pharmaceutical-technology.com/news/esc-2026-true-impact-of-poor-medicine-adherence-laid-bare-in-hypertensive-patients)
+4. [Bristol Myers, NVIDIA join forces to build life science’s ‘most powerful’ AI factory](https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma)
    - source: Pharmaceutical Technology
-   - score: 32.597
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.385; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.38; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Ai](https://www.drugtargetreview.com/ai)
-   - source: Drug Target Review
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [New MRI machine uses AI to reduce time, make clearer images at Intermountain Medical Center - KSL News](https://news.google.com/rss/articles/CBMixgFBVV95cUxPRGgzU21qZjNIX0UwT2FfekRZX1MwUWZmNTJMRDZiQTVfV0ZLd28yUll5aXgxcEZHVTVYUkRYd0xKS3MzVDh6a3ZHdDdJNDVoS3docnp0NjFBLTdqUWQ2blNmYUZOUzRlcDBmUUJSb2NYZDJYY3c2T3R3UzZqb1JEZTBYeDVwd21oemZuQ2M5VmxhRFFhSW1LT2t3aXQ5ODNURUZ3TXJfXzFyeWVzUFlYb2lZVEdLY0UxaERKTjhtZGV2VC10SUE?oc=5)
-   - source: Google News Medical AI Discovery
-   - score: 34.758
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.919; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 35.167
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Keeping pace with generative AI in pharmaceutical and healthcare organisations](https://www.pharmaceutical-technology.com/sponsored/keeping-pace-with-generative-ai-in-pharmaceutical-and-healthcare-organisations)
+   - source: Pharmaceutical Technology
+   - score: 35.167
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Train Multi Vector Encoder](https://huggingface.co/blog/train-multi-vector-encoder)
@@ -179,5 +179,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
