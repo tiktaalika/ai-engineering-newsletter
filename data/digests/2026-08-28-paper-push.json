@@ -1,0 +1,156 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-08-20 至 2026-08-28 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-08-20 to 2026-08-28.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "Nonparametric multiscale modeling of boundary lubrication: hexadecane in highly pressurized gold asperity contacts",
+      "url": "https://arxiv.org/abs/2608.27352",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Hannes Holey",
+        "Michael Moseler",
+        "Peter Gumbsch",
+        "Lars Pastewka"
+      ],
+      "summary_en": "Boundary lubrication is governed by molecular processes at the sliding interface that are inaccessible to classical continuum descriptions. While molecular dynamics (MD) simulations can resolve these processes in atomistic detail, incorporating their output into engineering-scale models through semi-empirical constitutive laws becomes increasingly difficult as confinement approaches the molecular scale. Here, we apply a nonparametric multiscale framework based on Gaussian process (GP) regression",
+      "summary_zh": "英文摘要：Boundary lubrication is governed by molecular processes at the sliding interface that are inaccessible to classical continuum descriptions. While molecular dynamics (MD) simulations can resolve these processes in atomistic detail, incorporating their output into engineering-scale models through semi-empirical constitutive laws becomes increasingly difficult as confinement approaches the molecular scale. Here, we apply a nonparametric multiscale framework based on Gaussian process (GP) regression",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Enforcing Dirichlet Boundary Conditions in Operator Learning",
+      "url": "https://arxiv.org/abs/2608.27256",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Andrew M. Stuart",
+        "Margaret Trautner"
+      ],
+      "summary_en": "Operator learning in scientific machine learning is concerned with approximation of maps between infinite-dimensional function spaces; such maps frequently arise as the solution operators of partial differential equations (PDEs). Neural operators have demonstrated broad empirical success at approximating such maps from data. However, most existing neural operator architectures enforce boundary conditions indirectly through training from data even though the boundary condition is often known exac",
+      "summary_zh": "英文摘要：Operator learning in scientific machine learning is concerned with approximation of maps between infinite-dimensional function spaces; such maps frequently arise as the solution operators of partial differential equations (PDEs). Neural operators have demonstrated broad empirical success at approximating such maps from data. However, most existing neural operator architectures enforce boundary conditions indirectly through training from data even though the boundary condition is often known exac",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A Trans-Domain Digital Twin for Bio-Aware Control of Climate and Energy in Cattle Fattening Barns Using Single-Episode Optimizer Learning",
+      "url": "https://arxiv.org/abs/2608.27185",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Mansoorali Amiri"
+      ],
+      "summary_en": "In closed cattle-fattening barns, the indoor climate and herd growth are mutually interdependent. Temperature, relative humidity, airflow, and ventilation affect thermal comfort, feed intake, metabolic heat production, daily growth, feed efficiency, and energy consumption, while body-weight gain alters the future heat and moisture loads of the barn and, consequently, its ventilation, heating, and energy requirements. This article proposes a trans-domain digital twin framework with single-episode",
+      "summary_zh": "英文摘要：In closed cattle-fattening barns, the indoor climate and herd growth are mutually interdependent. Temperature, relative humidity, airflow, and ventilation affect thermal comfort, feed intake, metabolic heat production, daily growth, feed efficiency, and energy consumption, while body-weight gain alters the future heat and moisture loads of the barn and, consequently, its ventilation, heating, and energy requirements. This article proposes a trans-domain digital twin framework with single-episode",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Planning a Shared Modular Fixture Layout Across Robotic Disassembly Stages",
+      "url": "https://arxiv.org/abs/2608.27151",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Haohui Pan",
+        "Takuya Kiyokawa",
+        "Kensuke Harada"
+      ],
+      "summary_en": "Stable support remains challenging in robotic disassembly of irregularly shaped products. As components are progressively removed, the available support surfaces, mass distribution, and task loads change throughout the process. A fixture layout designed for one workpiece state may therefore become infeasible at later stages, motivating unified support planning over the complete disassembly sequence. This paper presents a modular vacuum-based fixturing system that plans one shared support configu",
+      "summary_zh": "英文摘要：Stable support remains challenging in robotic disassembly of irregularly shaped products. As components are progressively removed, the available support surfaces, mass distribution, and task loads change throughout the process. A fixture layout designed for one workpiece state may therefore become infeasible at later stages, motivating unified support planning over the complete disassembly sequence. This paper presents a modular vacuum-based fixturing system that plans one shared support configu",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Linear and Nonlinear Latent-Space Reduced-Order Models for the Rayleigh--Taylor Instability",
+      "url": "https://arxiv.org/abs/2608.26783",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Téo Granger",
+        "Balu Nadiga",
+        "Benoît-Joseph Gréa",
+        "Antoine Briard",
+        "Paul Creusy"
+      ],
+      "summary_en": "We use a large database of direct numerical simulations to investigate the transition of the Rayleigh--Taylor instability to turbulence and its evolution toward a late-time self-similar regime. In addition to tracking the growth of the mixing layer through the mean heavy-fluid concentration profile, we analyze one-dimensional profiles of turbulent kinetic energy and dissipation, two key quantities in classical turbulent-mixing models. We consider two reduced-order modeling strategies that differ",
+      "summary_zh": "英文摘要：We use a large database of direct numerical simulations to investigate the transition of the Rayleigh--Taylor instability to turbulence and its evolution toward a late-time self-similar regime. In addition to tracking the growth of the mixing layer through the mean heavy-fluid concentration profile, we analyze one-dimensional profiles of turbulent kinetic energy and dissipation, two key quantities in classical turbulent-mixing models. We consider two reduced-order modeling strategies that differ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Self-Augmented Diffusion Guidance for Physics-Informed Generation",
+      "url": "https://arxiv.org/abs/2608.26748",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Akira Osaka",
+        "Naoya Takeishi",
+        "Takehisa Yairi"
+      ],
+      "summary_en": "Diffusion models can be used to generate spatiotemporal signals of physical phenomena, such as time-series images of fluid dynamics. However, a major limitation of standard diffusion models is that they do not incorporate constraints derived from the underlying physical laws. Consequently, generated samples may appear visually plausible while deviating substantially from the true dynamics. In this study, we propose a simple yet effective physics-informed approach based on diffusion guidance with",
+      "summary_zh": "英文摘要：Diffusion models can be used to generate spatiotemporal signals of physical phenomena, such as time-series images of fluid dynamics. However, a major limitation of standard diffusion models is that they do not incorporate constraints derived from the underlying physical laws. Consequently, generated samples may appear visually plausible while deviating substantially from the true dynamics. In this study, we propose a simple yet effective physics-informed approach based on diffusion guidance with",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "SnapPINN: Pressure and Energy Dissipation Reconstruction from a Sparse and Noisy Velocity Snapshot",
+      "url": "https://arxiv.org/abs/2608.26711",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Robin Barta",
+        "Christian Bauer",
+        "Gholamhossein Bagheri"
+      ],
+      "summary_en": "Reconstructing pressure and turbulence quantities from experimental velocity measurements is challenging, especially without time-resolved data. Furthermore, limitations such as low seeding density, finite resolution, and measurement noise severely hinder the reconstruction of accurate flow fields. We introduce SnapPINN, a two-stage physics-informed neural network (PINN) that successfully reconstructs 3D velocity, their spatial gradients, pressure fields and estimates turbulent kinetic energy di",
+      "summary_zh": "英文摘要：Reconstructing pressure and turbulence quantities from experimental velocity measurements is challenging, especially without time-resolved data. Furthermore, limitations such as low seeding density, finite resolution, and measurement noise severely hinder the reconstruction of accurate flow fields. We introduce SnapPINN, a two-stage physics-informed neural network (PINN) that successfully reconstructs 3D velocity, their spatial gradients, pressure fields and estimates turbulent kinetic energy di",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Relaxation-Aware Multimodal Sensing of Soft Gripper Driven by Structure-Perception-Learning",
+      "url": "https://arxiv.org/abs/2608.26622",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Yanzhe Wang",
+        "Hao Wu",
+        "Ziyi Zheng",
+        "Huixu Dong"
+      ],
+      "summary_en": "Achieving stable, sustained grasping with soft robotic hands remains a fundamental challenge. Compliance enables safe and adaptive contact, yet the intrinsic viscoelasticity of soft polymers leads to stress relaxation and a continuous decay of grasping force during holding. Inspired by human grasping, which combines phase-dependent stiffness regulation with continuous sensing and feedback, this paper presents an integrated structure--perception--learning framework. We develop a variable-stiffnes",
+      "summary_zh": "英文摘要：Achieving stable, sustained grasping with soft robotic hands remains a fundamental challenge. Compliance enables safe and adaptive contact, yet the intrinsic viscoelasticity of soft polymers leads to stress relaxation and a continuous decay of grasping force during holding. Inspired by human grasping, which combines phase-dependent stiffness regulation with continuous sensing and feedback, this paper presents an integrated structure--perception--learning framework. We develop a variable-stiffnes",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Technical Comparative Benchmarking Study: Advanced AI Hybrid Methods for Renewable Energy Farm Optimization and Forecasting",
+      "url": "https://arxiv.org/abs/2608.26613",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Majid Masoumi",
+        "Asghar Dashtiy",
+        "Mohammad Dehghan",
+        "Mina Rajabi"
+      ],
+      "summary_en": "This study provides a comprehensive benchmarking of conventional machine learning (ML), ensemble learning, deep neural networks, recurrent architectures, Transformers, graph based models, and hybrid ensemble deep learning approaches under complementary renewable energy scenarios. Three datasets are considered: a large scale WEC dataset, a 16 WEC dataset, and operational 10 min SCADA measurements at the Penmanshiel wind farm. For structured WEC layout data, tree ensembles exhibited a clear advant",
+      "summary_zh": "英文摘要：This study provides a comprehensive benchmarking of conventional machine learning (ML), ensemble learning, deep neural networks, recurrent architectures, Transformers, graph based models, and hybrid ensemble deep learning approaches under complementary renewable energy scenarios. Three datasets are considered: a large scale WEC dataset, a 16 WEC dataset, and operational 10 min SCADA measurements at the Penmanshiel wind farm. For structured WEC layout data, tree ensembles exhibited a clear advant",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Physics-Informed Stochastic Configuration Machine: A Backpropagation-Free Neural Network with Fast Training for Nonlinear Differential Equations",
+      "url": "https://arxiv.org/abs/2608.26549",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Yuehao Song",
+        "Zhong Chen",
+        "Lihui Cen",
+        "Liang Wu",
+        "Kai Zhang"
+      ],
+      "summary_en": "While Physics-Informed Neural Networks (PINNs) have emerged as a transformative paradigm for solving complex differential equations, their reliance on backpropagation-based gradient descent and automatic differentiation (AD) imposes significant computational bottlenecks and severe non-convex optimization challenges. To overcome these fundamental limitations, we propose the Physics-Informed Stochastic Configuration Machine (PI-SCM), a novel backpropagation-free framework for both forward and inve",
+      "summary_zh": "英文摘要：While Physics-Informed Neural Networks (PINNs) have emerged as a transformative paradigm for solving complex differential equations, their reliance on backpropagation-based gradient descent and automatic differentiation (AD) imposes significant computational bottlenecks and severe non-convex optimization challenges. To overcome these fundamental limitations, we propose the Physics-Informed Stochastic Configuration Machine (PI-SCM), a novel backpropagation-free framework for both forward and inve",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
