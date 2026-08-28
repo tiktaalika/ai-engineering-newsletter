@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-28T19:26:25.354734+00:00",
+    "generated_at": "2026-08-28T19:35:21.336868+00:00",
     "window_hours": 24,
     "source_count": 138,
     "fetched_count": 16793,
-    "filtered_count": 2683,
+    "filtered_count": 2682,
     "duplicate_count": 73,
     "failures": [
       {
@@ -63,7 +63,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.252,
+      "score": 66.201,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -75,7 +75,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.678,
+      "novelty_score": 0.676,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -101,7 +101,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.67,
+      "score": 56.636,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -113,7 +113,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.818,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -138,7 +138,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.46,
+      "score": 56.409,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -150,7 +150,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.809,
+      "novelty_score": 0.806,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -175,10 +175,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 46.257,
+      "score": 46.206,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.34",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -187,7 +187,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.345,
+      "novelty_score": 0.343,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -196,6 +196,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "c3673eed547430a8",
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T19:30:38+00:00",
+      "text": "An Anthropic researcher just gave us a peek at self-improving AI Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 69.315,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.999,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -213,10 +250,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 63.465,
+      "score": 63.431,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -225,7 +262,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.976,
+      "novelty_score": 0.974,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -252,7 +289,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.593,
+      "score": 60.559,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -264,7 +301,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.694,
+      "novelty_score": 0.692,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -288,7 +325,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 59.964,
+      "score": 59.93,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -300,7 +337,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.968,
+      "novelty_score": 0.967,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -311,32 +348,33 @@
       "source_priority": "high"
     },
     {
-      "id": "e9800e79c07e3764",
-      "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
-      "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components",
+      "id": "5761186be92f944d",
+      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2",
       "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-28T16:20:40+00:00",
-      "text": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.",
+      "published_at": "2026-08-27T16:05:10+00:00",
+      "text": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2 Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU.",
       "matched_terms": [
-        "AI",
-        "inference"
+        "Nvidia",
+        "inference",
+        "GPU"
       ],
       "engagement": {},
-      "score": 59.957,
+      "score": 57.697,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
-        "matched_terms=2",
+        "novelty=0.71",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.968,
+      "novelty_score": 0.714,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -347,58 +385,22 @@
       "source_priority": "high"
     },
     {
-      "id": "d62db5e9a1ea4a6d",
-      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
-      "source": "TechCrunch AI",
+      "id": "0c8434db52ba8526",
+      "title": "What Meta’s $17 Billion Settlement Means",
+      "url": "https://www.nytimes.com/video/technology/100000011114831/explaining-metas-17-billion-dollar-settlement.html",
+      "source": "New York Times Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-28T12:46:12+00:00",
-      "text": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 59.138,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "2c0deb26fc847391",
-      "title": "Trump’s EPA wants to let data centers hide their air pollution",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-28T16:28:40+00:00",
-      "text": "Trump’s EPA wants to let data centers hide their air pollution Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites […]",
+      "published_at": "2026-08-28T16:06:48+00:00",
+      "text": "What Meta’s $17 Billion Settlement Means Our reporter Cecilia Kang explains Meta’s settlement of a lawsuit claiming that the company’s social media platforms had harmed teenage users.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 55.297,
+      "score": 54.944,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -407,11 +409,11 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.891,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "mainstream_news",
+        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -431,7 +433,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 81.123,
+      "score": 81.119,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -467,7 +469,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.694,
+      "score": 80.691,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -571,10 +573,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.406,
+      "score": 56.303,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -583,7 +585,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.799,
+      "novelty_score": 0.794,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -607,10 +609,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.353,
+      "score": 53.251,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -619,7 +621,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.819,
+      "novelty_score": 0.814,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -642,7 +644,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.952,
+      "score": 52.849,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -654,7 +656,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.801,
+      "novelty_score": 0.796,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -788,7 +790,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 81.123,
+      "score": 81.119,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -824,7 +826,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.694,
+      "score": 80.691,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -928,10 +930,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.406,
+      "score": 56.303,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -940,7 +942,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.799,
+      "novelty_score": 0.794,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1725,7 +1727,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 81.123,
+      "score": 81.119,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -1761,7 +1763,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.694,
+      "score": 80.691,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -1798,7 +1800,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 71.125,
+      "score": 71.122,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.57",
@@ -1823,6 +1825,43 @@
       "source_priority": "high"
     },
     {
+      "id": "c3673eed547430a8",
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-28T19:30:38+00:00",
+      "text": "An Anthropic researcher just gave us a peek at self-improving AI Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 69.315,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.999,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "92bf9577e1c6a8ab",
       "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
       "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
@@ -1836,7 +1875,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 68.979,
+      "score": 68.976,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -1871,7 +1910,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.225,
+      "score": 67.222,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -1980,7 +2019,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 66.252,
+      "score": 66.201,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1992,7 +2031,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.678,
+      "novelty_score": 0.676,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2018,7 +2057,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 64.641,
+      "score": 64.637,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.54",
@@ -2055,10 +2094,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 63.465,
+      "score": 63.431,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2067,7 +2106,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.976,
+      "novelty_score": 0.974,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2091,7 +2130,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.93,
+      "score": 62.926,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.62",
@@ -2126,7 +2165,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 62.798,
+      "score": 62.783,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -2138,7 +2177,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2197,7 +2236,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 62.342,
+      "score": 62.328,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2209,7 +2248,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2235,7 +2274,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.593,
+      "score": 60.559,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -2247,7 +2286,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.694,
+      "novelty_score": 0.692,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2270,7 +2309,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 60.548,
+      "score": 60.533,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2669,7 +2708,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 59.964,
+      "score": 59.93,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -2681,7 +2720,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.968,
+      "novelty_score": 0.967,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2705,7 +2744,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 59.957,
+      "score": 59.923,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.97",
@@ -2717,7 +2756,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.968,
+      "novelty_score": 0.966,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2740,7 +2779,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.749,
+      "score": 59.746,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.98",
@@ -2752,7 +2791,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.982,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2798,45 +2837,6 @@
       "source_priority": "high"
     },
     {
-      "id": "ba33e650960024d1",
-      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-26T19:13:35+00:00",
-      "text": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 59.618,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.498,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
       "id": "4a5a1c6308573982",
       "title": "Parametric Optimization via Local AI Inference",
       "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
@@ -2849,7 +2849,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 59.594,
+      "score": 59.59,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.47",
@@ -2872,6 +2872,45 @@
       "source_priority": "high"
     },
     {
+      "id": "ba33e650960024d1",
+      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-26T19:13:35+00:00",
+      "text": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 59.584,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.50",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.496,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "7bf2f42fadc5c678",
       "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
       "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026",
@@ -2886,7 +2925,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 59.38,
+      "score": 59.346,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -2898,7 +2937,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.788,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2922,7 +2961,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 59.138,
+      "score": 59.104,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -2934,7 +2973,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.931,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2957,7 +2996,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 59.087,
+      "score": 59.084,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.44",
@@ -2992,10 +3031,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.042,
+      "score": 59.008,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3004,7 +3043,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.926,
+      "novelty_score": 0.925,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3029,7 +3068,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 58.308,
+      "score": 58.274,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -3041,7 +3080,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.741,
+      "novelty_score": 0.74,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3064,7 +3103,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.237,
+      "score": 58.222,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -3102,7 +3141,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 58.107,
+      "score": 58.072,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -3114,7 +3153,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.732,
+      "novelty_score": 0.731,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3158,43 +3197,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "5761186be92f944d",
-      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-27T16:05:10+00:00",
-      "text": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2 Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU.",
-      "matched_terms": [
-        "Nvidia",
-        "inference",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 57.731,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.715,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3272,6 +3274,43 @@
       "source_priority": "high"
     },
     {
+      "id": "5761186be92f944d",
+      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-27T16:05:10+00:00",
+      "text": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2 Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU.",
+      "matched_terms": [
+        "Nvidia",
+        "inference",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 57.697,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.71",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.714,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "565a1470c5850423",
       "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
       "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
@@ -3284,7 +3323,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.078,
+      "score": 57.044,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -3296,7 +3335,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.988,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5295,40 +5334,6 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f5d0a2c047483415",
-      "title": "Update Hxgn Emendates New Casting Design Feature",
-      "url": "https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/de/news/update-hxgn-emendates-new-casting-design-feature",
       "matched_terms": [
         "FEA"
       ],
