@@ -3,62 +3,62 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16790
-- filtered_count: 2664
-- duplicate_count: 76
-- failures: 8
+- fetched_count: 16789
+- filtered_count: 2644
+- duplicate_count: 77
+- failures: 7
 
 ## Top 10 General AI News
 1. [Just a rumour of a bug is enough to find a security exploit these days](https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug)
    - source: Simon Willison
-   - score: 67.271
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.876; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 65.017
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.774; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [[AINews] OpenAI shuts off Cursor](https://www.latent.space/p/ainews-openai-shuts-off-cursor)
    - source: Latent Space
-   - score: 60.343
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.985; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.089
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.883; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex)
    - source: OpenAI
-   - score: 55.135
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.632
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.68; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.68; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Neocloud Lambda secures $1B in debt to buy more chips](https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips)
    - source: TechCrunch AI
-   - score: 61.769
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.899; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components](https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components)
+   - score: 60.266
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.83; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Musicians-turned-detectives are hunting for AI grifters](https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai)
+   - source: The Verge AI
+   - score: 56.855
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.978; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components](https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components)
    - source: Amazon AWS AI
-   - score: 57.505
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.856; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Anthropic gets its first court win over the Pentagon’s supply-chain risk label](https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label)
+   - score: 56.003
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.788; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Anthropic gets its first court win over the Pentagon’s supply-chain risk label](https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label)
    - source: TechCrunch AI
-   - score: 56.686
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.819; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Prediction Markets Should Be Regulated as Gambling, Appeals Court Says](https://www.nytimes.com/2026/08/28/technology/kalshi-prediction-markets-federal-courts.html)
+   - score: 55.184
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.751; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Political Campaigns Are Quietly Paying Influencers to Support Candidates](https://www.nytimes.com/2026/08/29/us/politics/campaigns-paid-influencers.html)
    - source: New York Times Technology
-   - score: 52.605
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.785; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
+   - score: 54.796
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.885; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
    - score: 52.367
    - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-9. [Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics](https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics)
+10. [Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics](https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics)
    - source: Amazon AWS AI
-   - score: 51.97
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.605; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.60; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Juul gets OK to sell updated vaping device with age-gating technology](https://www.statnews.com/2026/08/28/juul-fda-clearance-updated-ecigarette-age-gating-technology)
-   - source: STAT Health Tech
-   - score: 50.27
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.679; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.68; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.468
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.536; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.54; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Nasa Ai Agents Build Spaceship From Text](https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text)
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Juul gets OK to sell updated vaping device with age-gating technology](https://www.statnews.com/2026/08/28/juul-fda-clearance-updated-ecigarette-age-gating-technology)
    - source: STAT Health Tech
-   - score: 50.27
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.679; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.68; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 45.763
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.474; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.47; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [What Scientists Actually Need From AI](https://www.bio-itworld.com/news/2026/08/28/what-scientists-actually-need-from-ai)
    - source: Bio-IT World
    - score: 43.033
@@ -179,5 +179,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
