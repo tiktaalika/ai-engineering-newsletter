@@ -3,7 +3,7 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16789
+- fetched_count: 16790
 - filtered_count: 2644
 - duplicate_count: 77
 - failures: 7
@@ -11,43 +11,43 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 10 General AI News
 1. [Just a rumour of a bug is enough to find a security exploit these days](https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug)
    - source: Simon Willison
-   - score: 65.017
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.774; source_priority=1.0
+   - score: 64.97
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.771; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.77; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [[AINews] OpenAI shuts off Cursor](https://www.latent.space/p/ainews-openai-shuts-off-cursor)
    - source: Latent Space
-   - score: 58.089
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.883; source_priority=1.0
+   - score: 58.042
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.881; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex)
    - source: OpenAI
-   - score: 53.632
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.68; source_priority=1.0
+   - score: 53.601
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.679; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.68; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Neocloud Lambda secures $1B in debt to buy more chips](https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips)
    - source: TechCrunch AI
-   - score: 60.266
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.83; source_priority=1.0
+   - score: 60.235
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.829; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Musicians-turned-detectives are hunting for AI grifters](https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai)
    - source: The Verge AI
-   - score: 56.855
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.978; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.76
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.974; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components](https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components)
    - source: Amazon AWS AI
-   - score: 56.003
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.788; source_priority=1.0
+   - score: 55.971
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.787; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Anthropic gets its first court win over the Pentagon’s supply-chain risk label](https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label)
    - source: TechCrunch AI
-   - score: 55.184
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.751; source_priority=1.0
+   - score: 55.152
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Political Campaigns Are Quietly Paying Influencers to Support Candidates](https://www.nytimes.com/2026/08/29/us/politics/campaigns-paid-influencers.html)
    - source: New York Times Technology
-   - score: 54.796
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.885; source_priority=1.0
+   - score: 54.701
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.88; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
@@ -56,9 +56,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics](https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics)
    - source: Amazon AWS AI
-   - score: 50.468
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.536; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.54; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.436
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.535; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.53; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Nasa Ai Agents Build Spaceship From Text](https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text)
@@ -90,8 +90,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Juul gets OK to sell updated vaping device with age-gating technology](https://www.statnews.com/2026/08/28/juul-fda-clearance-updated-ecigarette-age-gating-technology)
    - source: STAT Health Tech
-   - score: 45.763
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.474; source_priority=1.0
+   - score: 45.668
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.47; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.47; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [What Scientists Actually Need From AI](https://www.bio-itworld.com/news/2026/08/28/what-scientists-actually-need-from-ai)
    - source: Bio-IT World
