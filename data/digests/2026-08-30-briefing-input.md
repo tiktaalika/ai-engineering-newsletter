@@ -3,7 +3,7 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16784
+- fetched_count: 16799
 - filtered_count: 2619
 - duplicate_count: 74
 - failures: 7
@@ -11,23 +11,23 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 10 General AI News
 1. [Introducing Hy4 Preview](https://simonwillison.net/2026/Aug/29/hy4)
    - source: Simon Willison
-   - score: 56.196
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.797; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.059
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.791; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [ProCook outdoor pizza oven review: a budget-friendly model that brings the pizzeria home](https://www.theguardian.com/thefilter/2026/aug/30/procook-outdoor-pizza-oven-review)
    - source: The Guardian Technology
-   - score: 60.063
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.973; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.79
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.96; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu)
    - source: TechCrunch AI
-   - score: 58.524
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.751; source_priority=1.0
+   - score: 58.433
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.747; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft)
    - source: TechCrunch AI
-   - score: 56.497
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.81; source_priority=1.0
+   - score: 56.406
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.806; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
    - source: Anthropic
@@ -36,9 +36,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [AWS Open Sources Kiro Crew for Asynchronous Coding Agents](https://www.infoq.com/news/2026/08/kiro-crew-coding-agents)
    - source: InfoQ AI ML Data Engineering
-   - score: 49.699
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.859; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.426
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.847; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
    - source: Anthropic
    - score: 49.033
@@ -90,8 +90,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
    - source: TechCrunch AI
-   - score: 55.582
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.799; source_priority=1.0
+   - score: 55.491
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.795; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Empowering Non Technical Users Pharma Dashboards And Chatbots Working](https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working)
    - source: Databricks AI
@@ -110,9 +110,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Pharma stocks soar as investors seek AI alternatives - Financial Times](https://news.google.com/rss/articles/CBMihAFBVV95cUxPRTBkZmJvaW4wUHdYQk4wZjhCWVpoVU13WThlYlpTWFo5dnczWDhGMmk0aUR0akVtZkdnY01manJtSzBIQUlRbXlsWnpXQk82WGpnc0tHZkE3dFNqZEtTTWJYWFJ0Q3p3UmN0OU9JankwdU9PeUVEMGpDbGtCZDVVcjBaZmI?oc=5)
    - source: Google News Medical AI Discovery
-   - score: 34.544
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.91; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 34.271
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.897; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Spaces Agents Md](https://huggingface.co/blog/mishig/spaces-agents-md)
@@ -152,7 +152,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
-- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
@@ -161,8 +160,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [MobiHealthNews](https://www.google.com/search?q=site%3Awww.mobihealthnews.com%20AI): site:www.mobihealthnews.com AI (website, high)
 - [NEJM AI](https://www.google.com/search?q=site%3Aai.nejm.org%20AI): site:ai.nejm.org AI (website, high)
 - [The Lancet Digital Health](https://www.google.com/search?q=site%3Awww.thelancet.com%20AI): site:www.thelancet.com AI (website, high)
-- [Nature Medicine](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, high)
-- [Nature Biotechnology](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, high)
 - [Cell Patterns](https://www.google.com/search?q=site%3Awww.cell.com%20AI): site:www.cell.com AI (website, medium)
 - [LinkedIn Engineering AI Public Posts](https://www.google.com/search?q=%28CAE%20OR%20simulation%20OR%20CFD%20OR%20FEA%20OR%20digital%20twin%20OR%20surrogate%20model%20OR%20SPDM%20OR%20PLM%29%20%28AI%20OR%20machine%20learning%29): (CAE OR simulation OR CFD OR FEA OR digital twin OR surrogate model OR SPDM OR PLM) (AI OR machine learning) (linkedin_manual, medium)
 - [Generative AI Newsletter](https://www.google.com/search?q=site%3Agenai.works%20%28OpenAI%20OR%20Anthropic%20OR%20Claude%20OR%20ChatGPT%20OR%20%22AI%20agent%22%20OR%20%22generative%20AI%22%20OR%20%22AI%20newsletter%22%29): site:genai.works (OpenAI OR Anthropic OR Claude OR ChatGPT OR "AI agent" OR "generative AI" OR "AI newsletter") (newsletter, high)
