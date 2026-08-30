@@ -4,58 +4,58 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16784
-- filtered_count: 2618
+- filtered_count: 2619
 - duplicate_count: 74
 - failures: 7
 
 ## Top 10 General AI News
 1. [Introducing Hy4 Preview](https://simonwillison.net/2026/Aug/29/hy4)
    - source: Simon Willison
-   - score: 56.418
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.807; source_priority=1.0
+   - score: 56.196
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.797; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [ProCook outdoor pizza oven review: a budget-friendly model that brings the pizzeria home](https://www.theguardian.com/thefilter/2026/aug/30/procook-outdoor-pizza-oven-review)
+   - source: The Guardian Technology
+   - score: 60.063
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.973; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu)
+   - source: TechCrunch AI
+   - score: 58.524
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.751; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft)
+   - source: TechCrunch AI
+   - score: 56.497
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.81; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu)
-   - source: TechCrunch AI
-   - score: 58.673
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.758; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft)
-   - source: TechCrunch AI
-   - score: 56.645
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
-   - source: Anthropic
-   - score: 53.033
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [AWS Open Sources Kiro Crew for Asynchronous Coding Agents](https://www.infoq.com/news/2026/08/kiro-crew-coding-agents)
-   - source: InfoQ AI ML Data Engineering
-   - score: 50.144
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.879; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
+5. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
    - source: Anthropic
    - score: 49.7
    - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [AP Entertainment Wire AP’s entertainment, media, fashion and culture coverage, personalized to your interests.](https://apnews.com/newsletters?id=AP+Entertainment+Wire)
+6. [AWS Open Sources Kiro Crew for Asynchronous Coding Agents](https://www.infoq.com/news/2026/08/kiro-crew-coding-agents)
+   - source: InfoQ AI ML Data Engineering
+   - score: 49.699
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.859; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+   - source: Anthropic
+   - score: 49.033
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+8. [AP Entertainment Wire AP’s entertainment, media, fashion and culture coverage, personalized to your interests.](https://apnews.com/newsletters?id=AP+Entertainment+Wire)
    - source: Associated Press Technology
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Agentic Search](https://mistral.ai/fr/news/agentic-search)
+9. [Agentic Search](https://mistral.ai/fr/news/agentic-search)
    - source: Mistral AI
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Rails Testing On Autopilot Building An Agent That Writes What Developers Wont](https://mistral.ai/fr/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont)
+10. [Regional Inference Open Models New Compute](https://mistral.ai/fr/news/regional-inference-open-models-new-compute)
    - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Anthropic Compute Partnership](https://x.ai/news/anthropic-compute-partnership)
-   - source: xAI
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
    - source: TechCrunch AI
-   - score: 55.73
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.806; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 55.582
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.799; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Empowering Non Technical Users Pharma Dashboards And Chatbots Working](https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working)
    - source: Databricks AI
    - score: 31.833
@@ -108,11 +108,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Reading The Bodys Signals Ais Ultimate Healthcare Opportunity](https://medcitynews.com/2026/08/reading-the-bodys-signals-ais-ultimate-healthcare-opportunity)
-   - source: MedCity News
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Pharma stocks soar as investors seek AI alternatives - Financial Times](https://news.google.com/rss/articles/CBMihAFBVV95cUxPRTBkZmJvaW4wUHdYQk4wZjhCWVpoVU13WThlYlpTWFo5dnczWDhGMmk0aUR0akVtZkdnY01manJtSzBIQUlRbXlsWnpXQk82WGpnc0tHZkE3dFNqZEtTTWJYWFJ0Q3p3UmN0OU9JankwdU9PeUVEMGpDbGtCZDVVcjBaZmI?oc=5)
+   - source: Google News Medical AI Discovery
+   - score: 34.544
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.91; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Spaces Agents Md](https://huggingface.co/blog/mishig/spaces-agents-md)
