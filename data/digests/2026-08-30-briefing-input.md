@@ -3,26 +3,26 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16251
+- fetched_count: 16784
 - filtered_count: 2618
-- duplicate_count: 75
+- duplicate_count: 74
 - failures: 7
 
 ## Top 10 General AI News
 1. [Introducing Hy4 Preview](https://simonwillison.net/2026/Aug/29/hy4)
    - source: Simon Willison
-   - score: 56.525
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.812; source_priority=1.0
+   - score: 56.418
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.807; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu)
    - source: TechCrunch AI
-   - score: 58.744
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.761; source_priority=1.0
+   - score: 58.673
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.758; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft)
    - source: TechCrunch AI
-   - score: 56.717
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.82; source_priority=1.0
+   - score: 56.645
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
    - source: Anthropic
@@ -31,9 +31,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [AWS Open Sources Kiro Crew for Asynchronous Coding Agents](https://www.infoq.com/news/2026/08/kiro-crew-coding-agents)
    - source: InfoQ AI ML Data Engineering
-   - score: 50.358
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.889; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.144
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.879; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
    - source: Anthropic
    - score: 49.7
@@ -90,8 +90,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
    - source: TechCrunch AI
-   - score: 55.801
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.809; source_priority=1.0
+   - score: 55.73
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.806; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Empowering Non Technical Users Pharma Dashboards And Chatbots Working](https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working)
    - source: Databricks AI
@@ -146,7 +146,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
-- [Hexagon / MSC](https://www.google.com/search?q=site%3Ahexagon.com%20AI): site:hexagon.com AI (website, medium)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
 - [Navasto](https://www.google.com/search?q=site%3Awww.navasto.de%20AI): site:www.navasto.de AI (website, medium)
 - [PhysicsX](https://www.google.com/search?q=site%3Awww.physicsx.ai%20AI): site:www.physicsx.ai AI (website, high)
