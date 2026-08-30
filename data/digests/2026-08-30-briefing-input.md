@@ -3,59 +3,59 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16870
-- filtered_count: 2624
-- duplicate_count: 74
-- failures: 9
+- fetched_count: 16251
+- filtered_count: 2618
+- duplicate_count: 75
+- failures: 7
 
 ## Top 10 General AI News
 1. [Introducing Hy4 Preview](https://simonwillison.net/2026/Aug/29/hy4)
    - source: Simon Willison
-   - score: 58.517
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.902; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.525
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.812; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu)
    - source: TechCrunch AI
-   - score: 60.072
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.744
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.761; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft)
    - source: TechCrunch AI
-   - score: 58.045
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.881; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.717
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.82; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
    - source: Anthropic
    - score: 53.033
    - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
+5. [AWS Open Sources Kiro Crew for Asynchronous Coding Agents](https://www.infoq.com/news/2026/08/kiro-crew-coding-agents)
+   - source: InfoQ AI ML Data Engineering
+   - score: 50.358
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.889; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Uk Ai Safety Summit](https://www.anthropic.com/news/uk-ai-safety-summit)
    - source: Anthropic
    - score: 49.7
    - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [AP Entertainment Wire AP’s entertainment, media, fashion and culture coverage, personalized to your interests.](https://apnews.com/newsletters?id=AP+Entertainment+Wire)
+7. [AP Entertainment Wire AP’s entertainment, media, fashion and culture coverage, personalized to your interests.](https://apnews.com/newsletters?id=AP+Entertainment+Wire)
    - source: Associated Press Technology
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Agentic Search](https://mistral.ai/fr/news/agentic-search)
+8. [Agentic Search](https://mistral.ai/fr/news/agentic-search)
    - source: Mistral AI
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Rails Testing On Autopilot Building An Agent That Writes What Developers Wont](https://mistral.ai/fr/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont)
+9. [Rails Testing On Autopilot Building An Agent That Writes What Developers Wont](https://mistral.ai/fr/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont)
    - source: Mistral AI
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Anthropic Compute Partnership](https://x.ai/news/anthropic-compute-partnership)
+10. [Anthropic Compute Partnership](https://x.ai/news/anthropic-compute-partnership)
    - source: xAI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants](https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants)
-   - source: Windsurf
    - score: 46.367
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
    - source: TechCrunch AI
-   - score: 57.129
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.87; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 55.801
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.809; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Empowering Non Technical Users Pharma Dashboards And Chatbots Working](https://www.databricks.com/dataaisummit/session/empowering-non-technical-users-pharma-dashboards-and-chatbots-working)
    - source: Databricks AI
    - score: 31.833
@@ -108,11 +108,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Multidimensional trust perceptions of AI medical conversational agents: framework development and scale validation - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xOXVEMjFxVVRzRzRJTmY0aDV4NExuUGhmVnVvWDg0VVNrRDhvY0M1V2Jfa3hnNFQ0OTFuM0tmMElxUEtRaG10T0NLdmM0NlJrYzQ4czRmMjZNUTF6Q1ZF?oc=5)
-   - source: Google News Medical AI Discovery
-   - score: 33.81
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.603; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.60; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [Reading The Bodys Signals Ais Ultimate Healthcare Opportunity](https://medcitynews.com/2026/08/reading-the-bodys-signals-ais-ultimate-healthcare-opportunity)
+   - source: MedCity News
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Spaces Agents Md](https://huggingface.co/blog/mishig/spaces-agents-md)
@@ -146,12 +146,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
+- [Hexagon / MSC](https://www.google.com/search?q=site%3Ahexagon.com%20AI): site:hexagon.com AI (website, medium)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
 - [Navasto](https://www.google.com/search?q=site%3Awww.navasto.de%20AI): site:www.navasto.de AI (website, medium)
 - [PhysicsX](https://www.google.com/search?q=site%3Awww.physicsx.ai%20AI): site:www.physicsx.ai AI (website, high)
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
+- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
@@ -172,12 +174,10 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Similar-title and canonical-URL duplicate detection is applied before final selection.
 
 ## Source Failures
-- Siemens Digital Industries Software: The read operation timed out
 - Ansys: HTTP Error 404: Not Found
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden

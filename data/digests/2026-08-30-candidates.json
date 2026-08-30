@@ -1,16 +1,12 @@
 {
   "run_log": {
-    "generated_at": "2026-08-30T06:08:23.460787+00:00",
+    "generated_at": "2026-08-30T11:56:06.820136+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16870,
-    "filtered_count": 2624,
-    "duplicate_count": 74,
+    "fetched_count": 16251,
+    "filtered_count": 2618,
+    "duplicate_count": 75,
     "failures": [
-      {
-        "source": "Siemens Digital Industries Software",
-        "error": "The read operation timed out"
-      },
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
@@ -34,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -68,10 +60,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 58.517,
+      "score": 56.525,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.81",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -80,7 +72,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.902,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -107,10 +99,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 60.072,
+      "score": 58.744,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -119,7 +111,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.761,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -143,10 +135,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 58.045,
+      "score": 56.717,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.82",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -155,7 +147,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -202,6 +194,43 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
+    },
+    {
+      "id": "aaf53fc90934ecf1",
+      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+      "url": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents",
+      "source": "InfoQ AI ML Data Engineering",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-30T08:23:00+00:00",
+      "text": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allowing work such as incident investigation, ticket triage, migrations, and PR monitoring to continue without active supervision. By Renato Losio",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 50.358,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.89",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.889,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "software_engineering",
+        "mlops",
+        "data_engineering"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "f9665a80c94082e3",
@@ -377,41 +406,6 @@
         "frontier_model"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "923639699d73def4",
-      "title": "Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants",
-      "url": "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
-      "source": "Windsurf",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
-      "matched_terms": [
-        "AI",
-        "coding assistant"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "coding_assistant",
-        "developer_tools"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
@@ -606,10 +600,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.129,
+      "score": 55.801,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -618,7 +612,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.87,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -732,40 +726,40 @@
       "source_priority": "medium"
     },
     {
-      "id": "a953a6d6f103ce57",
-      "title": "Multidimensional trust perceptions of AI medical conversational agents: framework development and scale validation - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xOXVEMjFxVVRzRzRJTmY0aDV4NExuUGhmVnVvWDg0VVNrRDhvY0M1V2Jfa3hnNFQ0OTFuM0tmMElxUEtRaG10T0NLdmM0NlJrYzQ4czRmMjZNUTF6Q1ZF?oc=5",
-      "source": "Google News Medical AI Discovery",
-      "source_kind": "google_news_rss",
+      "id": "6df4c997c0f9fec2",
+      "title": "Reading The Bodys Signals Ais Ultimate Healthcare Opportunity",
+      "url": "https://medcitynews.com/2026/08/reading-the-bodys-signals-ais-ultimate-healthcare-opportunity",
+      "source": "MedCity News",
+      "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-08-29T17:27:06+00:00",
-      "text": "Multidimensional trust perceptions of AI medical conversational agents: framework development and scale validation - Nature Multidimensional trust perceptions of AI medical conversational agents: framework development and scale validation Nature",
+      "published_at": null,
+      "text": "Reading The Bodys Signals Ais Ultimate Healthcare Opportunity https://medcitynews.com/2026/08/reading-the-bodys-signals-ais-ultimate-healthcare-opportunity/",
       "matched_terms": [
-        "AI",
-        "agent"
+        "AI"
       ],
       "engagement": {},
-      "score": 33.81,
+      "score": 31.833,
       "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.60",
-        "matched_terms=2",
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.603,
-      "source_priority_score": 0.35,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
       "source_tags": [
         "medical_ai",
         "healthcare_ai",
-        "discovery"
+        "biotech",
+        "digital_health"
       ],
       "registry_category": "general_ai",
-      "source_priority": "low"
+      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -1214,6 +1208,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Hexagon / MSC",
+      "category": "engineering_ai",
+      "query": "site:hexagon.com AI",
+      "url": "https://www.google.com/search?q=site%3Ahexagon.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "msc, cae, manufacturing",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Cadence",
       "category": "engineering_ai",
       "query": "site:community.cadence.com AI",
@@ -1271,6 +1275,16 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1496,6 +1510,16 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Hexagon / MSC",
+      "category": "engineering_ai",
+      "query": "site:hexagon.com AI",
+      "url": "https://www.google.com/search?q=site%3Ahexagon.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "msc, cae, manufacturing",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Cadence",
       "category": "engineering_ai",
       "query": "site:community.cadence.com AI",
@@ -1553,6 +1577,16 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1700,7 +1734,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 80.328,
+      "score": 80.195,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -1713,7 +1747,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
+      "novelty_score": 0.948,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1736,7 +1770,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.899,
+      "score": 79.766,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1749,7 +1783,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.935,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1773,10 +1807,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 70.33,
+      "score": 70.197,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.52",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1785,7 +1819,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.53,
+      "novelty_score": 0.524,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1811,10 +1845,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 68.184,
+      "score": 68.051,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1823,7 +1857,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.705,
+      "novelty_score": 0.699,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1916,10 +1950,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 66.43,
+      "score": 66.297,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1928,7 +1962,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.771,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1952,10 +1986,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 63.845,
+      "score": 63.713,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.50",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1964,7 +1998,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.508,
+      "novelty_score": 0.502,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2022,7 +2056,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 62.135,
+      "score": 62.002,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -2034,7 +2068,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.582,
+      "novelty_score": 0.576,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2042,43 +2076,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c3673eed547430a8",
-      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-28T19:30:38+00:00",
-      "text": "An Anthropic researcher just gave us a peek at self-improving AI Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "benchmark"
-      ],
-      "engagement": {},
-      "score": 61.397,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.64",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.639,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2444,33 +2441,33 @@
       "source_priority": "high"
     },
     {
-      "id": "9764c79bea7cd185",
-      "title": "Nvidia’s AI advantage is moving beyond the GPU",
-      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "id": "c3673eed547430a8",
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-29T13:00:00+00:00",
-      "text": "Nvidia’s AI advantage is moving beyond the GPU The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "published_at": "2026-08-28T19:30:38+00:00",
+      "text": "An Anthropic researcher just gave us a peek at self-improving AI Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
       "matched_terms": [
         "AI",
-        "Nvidia",
-        "GPU"
+        "Anthropic",
+        "benchmark"
       ],
       "engagement": {},
-      "score": 60.072,
+      "score": 60.069,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.58",
         "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.67",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.579,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2516,82 +2513,6 @@
       "source_priority": "high"
     },
     {
-      "id": "6ece7d97166e5779",
-      "title": "Planetary prediction engine: Automating global models via Earth AI",
-      "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai",
-      "source": "Google Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-27T17:37:20+00:00",
-      "text": "Planetary prediction engine: Automating global models via Earth AI Earth AI",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 59.39,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.73,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "85513ce0a3bfe1f4",
-      "title": "Just a rumour of a bug is enough to find a security exploit these days",
-      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-28T22:12:02+00:00",
-      "text": "Just a rumour of a bug is enough to find a security exploit these days Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories. Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task. Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our commun",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 59.021,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.501,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2604,10 +2525,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.954,
+      "score": 58.821,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2616,7 +2537,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
+      "novelty_score": 0.94,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2627,22 +2548,22 @@
       "source_priority": "medium"
     },
     {
-      "id": "213e95424861a758",
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
-      "source": "Google DeepMind",
+      "id": "6ece7d97166e5779",
+      "title": "Planetary prediction engine: Automating global models via Earth AI",
+      "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai",
+      "source": "Google Research",
       "source_kind": "rss",
       "category": "research",
-      "published_at": "2026-08-27T12:59:16+00:00",
-      "text": "Piloting the world's first double-blind AI evaluations Piloting the world's first double-blind AI evaluations",
+      "published_at": "2026-08-27T17:37:20+00:00",
+      "text": "Planetary prediction engine: Automating global models via Earth AI Earth AI",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 58.934,
+      "score": 58.82,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2651,14 +2572,52 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.709,
+      "novelty_score": 0.704,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
         "research",
+        "computer_science",
+        "ai",
         "guo_yichen_reference"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "9764c79bea7cd185",
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-29T13:00:00+00:00",
+      "text": "Nvidia’s AI advantage is moving beyond the GPU The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "matched_terms": [
+        "AI",
+        "Nvidia",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 58.744,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.76",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.761,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2674,10 +2633,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 58.799,
+      "score": 58.666,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.42",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2686,7 +2645,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.43,
+      "novelty_score": 0.424,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2697,41 +2656,38 @@
       "source_priority": "high"
     },
     {
-      "id": "260b60ba33166baf",
-      "title": "Introducing Hy4 Preview",
-      "url": "https://simonwillison.net/2026/Aug/29/hy4",
-      "source": "Simon Willison",
+      "id": "213e95424861a758",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+      "source": "Google DeepMind",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-29T23:53:13+00:00",
-      "text": "Introducing Hy4 Preview Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities. Here's Hy4's chat_template.jinja on Hugging Face, which includes this section: {% - if not reasoning_effort is defined %} {% - set reasoning_effort = 'high' %} {% - elif reasoning_effort not in [ 'high' , 'no_think' ] %} {% - if reasoning_effort is none %} {{- raise_exception('reasoning_effort error : None, should be no_think/high') }} {% - else %} {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }} {% - endif %} {% - endif %} So it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled). I tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning via OpenRouter and got this : Quoting the reasoning trace: [...] Let's maybe add",
+      "category": "research",
+      "published_at": "2026-08-27T12:59:16+00:00",
+      "text": "Piloting the world's first double-blind AI evaluations Piloting the world's first double-blind AI evaluations",
       "matched_terms": [
-        "AI",
-        "LLM"
+        "AI"
       ],
       "engagement": {},
-      "score": 58.517,
+      "score": 58.365,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=2",
+        "novelty=0.68",
+        "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.902,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.683,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
+        "frontier_model",
+        "research",
         "guo_yichen_reference"
       ],
-      "registry_category": "community",
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2747,10 +2703,10 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 58.292,
+      "score": 58.159,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.41",
+        "novelty=0.40",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2759,49 +2715,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.407,
+      "novelty_score": 0.401,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "4d9cf7893a2e0f3b",
-      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
-      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-29T18:41:59+00:00",
-      "text": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 58.045,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.881,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2912,77 +2832,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "730ac67f8d3d8659",
-      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
-      "source": "Google Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-26T18:42:43+00:00",
-      "text": "GlucoFM: Foundation model for continuous glucose monitoring Health & Bioscience",
-      "matched_terms": [
-        "foundation model"
-      ],
-      "engagement": {},
-      "score": 57.14,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.63",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.628,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "2555789944ab224d",
-      "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
-      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-29T17:36:47+00:00",
-      "text": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-off ones) are what will actually let AI transform medicine.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.129,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.87,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -5301,6 +5150,179 @@
       "source_tags": [
         "engineering_agents",
         "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d8f5a4edfd9ee155",
+      "title": "Cae Automation Design Smarter Develop Faster",
+      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba6a4cbdb5dbf1b3",
+      "title": "Cae Automation Design Smarter Develop Faster",
+      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c47f51de21ac3351",
+      "title": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
+      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
+      "source": "Luminary Cloud",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud_cae",
+        "simulation",
+        "physics_ai"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "68416d20bf0d7089",
+      "title": "Ai In Cae",
+      "url": "https://www.neuralconcept.com/post/ai-in-cae",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "955ec8dc94a3f30b",
+      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
+      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "source": "Neural Concept",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "surrogate_model",
+        "cae",
+        "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
