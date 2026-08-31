@@ -3,52 +3,52 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16759
-- filtered_count: 2621
-- duplicate_count: 75
+- fetched_count: 16274
+- filtered_count: 2628
+- duplicate_count: 78
 - failures: 8
 
 ## Top 10 General AI News
-1. [Advanced AI threatens global financial stability, says Bank of England boss](https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20)
+1. [Anthropic sued over alleged theft of ‘tens of thousands’ of songs](https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude)
    - source: The Guardian Technology
-   - score: 60.574
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.996; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Doctors’ AI scribes get names of drugs and diagnoses wrong, NHS watchdog warns](https://www.theguardian.com/society/2026/aug/31/doctors-ai-scribes-get-names-of-drugs-and-diagnoses-wrong-nhs-watchdog-warns)
+   - score: 63.185
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.963; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [ChatGPT to face tougher regulation in the EU](https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa)
+   - source: The Verge AI
+   - score: 60.373
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.987; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [AI could cause global economic downturn, Bank of England governor tells G20](https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20)
    - source: The Guardian Technology
-   - score: 57.241
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.996; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
-   - source: Anthropic
-   - score: 55.7
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-4. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+   - score: 57.316
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.848; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking](https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history)
+   - source: STAT Health Tech
+   - score: 53.63
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.832; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
    - source: Anthropic
    - score: 53.033
    - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
-   - source: TechCrunch AI
-   - score: 51.629
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.62; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.62; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-6. [Cloudflare Extends AI Search to Make it Easier for Agents and Developers to Search Custom Data](https://www.infoq.com/news/2026/08/cloudflare-ai-search)
+6. [Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser](https://www.infoq.com/presentations/local-ai-browser-inference-privacy)
    - source: InfoQ AI ML Data Engineering
-   - score: 48.475
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.652; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.65; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Texas Governor Abbott blocks funding for more Flock cameras](https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras)
-   - source: The Verge AI
-   - score: 47.328
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.545; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.55; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Judge says Pentagon's measures against Anthropic were 'illegal and baseless'](https://apnews.com/article/anthropic-pentagon-lawsuit-supply-chain-risk-f15e3c30186385e73e72bee82d85b05c)
-   - source: Associated Press Technology
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.815
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.91; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.91; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
+   - source: TechCrunch AI
+   - score: 49.854
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.539; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.54; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+8. [Coding Agents Social Sciences](https://www.anthropic.com/research/coding-agents-social-sciences)
+   - source: Anthropic
+   - score: 49.033
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Agentic Workflows From Meetings To Dev Tickets](https://mistral.ai/fr/news/agentic-workflows-from-meetings-to-dev-tickets)
    - source: Mistral AI
    - score: 46.367
@@ -63,63 +63,63 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Understanding ChatGPT Work](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work)
    - source: Simon Willison
-   - score: 74.722
-   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.904; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
-2. [Caterpillar is bringing to AI deployment what it learned from automating mining](https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining)
-   - source: TechCrunch AI
-   - score: 57.364
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.842; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-3. [Update Hxgn Emendates New Casting Design Feature](https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature)
+   - score: 72.058
+   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.783; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+2. [Instagram cracks down on AI accounts pretending to be human](https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop)
+   - source: The Verge AI
+   - score: 60.223
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.972; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+3. [Rise of Chicken Shop Date highlights how YouTube turned the tables on TV](https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv)
+   - source: The Guardian Technology
+   - score: 59.541
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.941; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+4. [Industrial Ai Maturity Model](https://www.industrial-ai-network.com/publications/industrial-ai-maturity-model)
+   - source: Industrial AI Network
+   - score: 57.033
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Update Hxgn Emendates New Casting Design Feature](https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature)
    - source: Synera
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-4. [From Concept To Reality The Development Of An Ai Designed Car](https://www.neuralconcept.com/post/from-concept-to-reality-the-development-of-an-ai-designed-car)
-   - source: Neural Concept
-   - score: 57.033
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [The datacenter backlash is bringing the entire political spectrum together – against big tech billionaires](https://www.theguardian.com/us-news/ng-interactive/2026/aug/30/data-center-politics-democrats-republicans)
-   - source: The Guardian Technology
-   - score: 51.207
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.562; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
+1. [Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking](https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history)
+   - source: STAT Health Tech
+   - score: 53.63
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.832; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
    - source: Scale AI
    - score: 34.5
    - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-2. [Upmc Ai Testing Hospital Tech](https://medcitynews.com/2026/08/upmc-ai-testing-hospital-tech)
+3. [Ai Wont Transform Health Systems Ceos Will Six Principles To Drive The Transformation](https://medcitynews.com/2026/08/ai-wont-transform-health-systems-ceos-will-six-principles-to-drive-the-transformation)
    - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [AACR 2026 part two: integrating AI, spatial biology and next-gen therapeutics](https://www.drugtargetreview.com/aacr-2026-part-two-integrating-ai-spatial-biology-and-next-gen-therapeutics/2135691.article)
+4. [AACR 2026 part two: integrating AI, spatial biology and next-gen therapeutics](https://www.drugtargetreview.com/aacr-2026-part-two-integrating-ai-spatial-biology-and-next-gen-therapeutics/2135691.article)
    - source: Drug Target Review
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [2136278.Article](https://www.drugtargetreview.com/home/how-ai-driven-systems-biology-will-reset-the-starting-line-for-drug-development/2136278.article)
-   - source: Drug Target Review
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [AI is helping doctors - Healthcare Today](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qSFZSVFhnSkpGR0dCeDF5aWhtQmUxNGFXOFZKbTRPNlF5T2RMYlNIbnNWaVZjZmZkQUwxYU84R0lxemlVNUlyOVZ2MnRkdmtlWWIxVTVvNHBRS01ReG03MG9UNXRSZ2g0?oc=5)
+5. [Docs say medical misinformation is on the rise, but AI isn't behind it - TechTarget](https://news.google.com/rss/articles/CBMiygFBVV95cUxPWGUwNFJnUnlTWmRYdFcxcEh2OHZPZ2NlUnRrbTNDOVZBcExONGNJNWd0TThwTU1COWtNcEo0SmRJLWtYNXVXSXVBTFRvdkhMYXl0SmVvSWp3S2k1U0NZTDA5OE5JdG9YY3dueU5iQUU0aVZIR2dhX2QwbUUtekQxY1k0a0NxLUlUUjNKM3RSal9Xa25VMGxEYV9fSWtHN1ltYjNXYUVTaVREUjJWcURhMVVaTzdjMnpfNm9uZ3pRSFdtLThLOXNkVm5B?oc=5)
    - source: Google News Medical AI Discovery
-   - score: 35.816
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.967; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 36.505
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.999; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
-1. [Direct Preference Optimization Beyond Chatbots](https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots)
+1. [Mohamed Bin Zayed University of Artificial Intelligence](https://huggingface.co/MBZUAI)
    - source: Hugging Face Papers
-   - score: 51.033
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-2. [Mellum2 Launch](https://huggingface.co/blog/JetBrains/mellum2-launch)
+   - score: 54.367
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
+2. [Direct Preference Optimization Beyond Chatbots](https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
@@ -127,11 +127,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - source: Papers with Code
    - score: 39.833
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=0.65
-4. [Finetuning Olmocr To Be A Faithful Ocr Engine](https://huggingface.co/blog/tngtech/finetuning-olmocr-to-be-a-faithful-ocr-engine)
+4. [Mellum2 Launch](https://huggingface.co/blog/JetBrains/mellum2-launch)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-5. [Inference Providers Cohere](https://huggingface.co/blog/inference-providers-cohere)
+5. [Finetuning Olmocr To Be A Faithful Ocr Engine](https://huggingface.co/blog/tngtech/finetuning-olmocr-to-be-a-faithful-ocr-engine)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
@@ -144,6 +144,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
+- [Dassault Systemes](https://www.google.com/search?q=site%3Ablog.3ds.com%20AI): site:blog.3ds.com AI (website, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
@@ -179,5 +180,5 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 500: Internal Server Error
+- Fred Wilson AVC: HTTP Error 503: Service Unavailable
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
