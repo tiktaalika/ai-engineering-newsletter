@@ -3,8 +3,8 @@ from tomllib import TOMLDecodeError
 from tomllib import load as load_toml
 
 from attrs import field, frozen
-from cattr import structure
-from cattr.errors import ClassValidationError
+from cattrs import structure
+from cattrs.errors import ClassValidationError
 
 from .models import Source  # re-exported for convenience
 

@@ -191,7 +191,6 @@ class Candidate:
     matched_terms: list[str] = field(factory=list)
     engagement: Engagement = field(factory=Engagement)
     score_breakdown: ScoreBreakdown = field(factory=lambda: ScoreBreakdown(score=0.0))
-    source_tags: list[str] = field(factory=list)
     registry_category: Category | None = None
     source_priority: Priority | None = None
 

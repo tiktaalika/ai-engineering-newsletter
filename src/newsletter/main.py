@@ -7,6 +7,7 @@ import logging.config
 import sys
 from pathlib import Path
 from tomllib import load as load_toml
+from uuid import uuid4
 
 import httpx
 
@@ -34,7 +35,7 @@ def raw_record_to_candidate(source: Source, record: RawRecord) -> Candidate:
     in Goals 6.2–6.3. For now every record gets a zero score.
     """
     return Candidate(
-        id="",  # assigned by entry_id() in scoring module (Goal 6.1)
+        id=str(uuid4()),
         title=record.title,
         url=record.url,
         source=source,
@@ -44,7 +45,6 @@ def raw_record_to_candidate(source: Source, record: RawRecord) -> Candidate:
         description=record.description,
         engagement=record.engagement,
         score_breakdown=ScoreBreakdown(score=0.0),
-        source_tags=list(source.tags),
         registry_category=source.category,
         source_priority=source.priority,
     )
@@ -93,7 +93,7 @@ def fetch_sources(
             all_candidates.extend(
                 raw_record_to_candidate(src, record) for record in records
             )
-        except Exception:
+        except (httpx.HTTPError, ValueError):
             logger.exception("Failed to fetch source: %s", src.name)
 
     return all_candidates
@@ -105,13 +105,22 @@ def fetch_sources(
 
 
 def main() -> int:
-    config_directory = Path(__file__).resolve().parent.parent.parent / "config"
+    project_root = Path(__file__).resolve().parent.parent.parent
+    config_directory = project_root / "config"
+    logs_directory = project_root / "logs"
 
-    if not Path("./logs").exists():
-        Path("./logs").mkdir()
+    logs_directory.mkdir(exist_ok=True)
 
     with (config_directory / "logging.toml").open("rb") as f:
-        logging.config.dictConfig(load_toml(f))
+        log_config = load_toml(f)
+
+    # Resolve relative log file paths to absolute paths under project root.
+    for handler in log_config.get("handlers", {}).values():
+        filename = handler.get("filename")
+        if filename and not Path(filename).is_absolute():
+            handler["filename"] = str(project_root / filename)
+
+    logging.config.dictConfig(log_config)
 
     config = Configuration.load(config_directory / "config.toml")
 
@@ -125,14 +134,13 @@ def main() -> int:
         config.user_agent,
     )
 
-    request_client = httpx.Client(
+    with httpx.Client(
         headers={"User-Agent": config.user_agent},
-        timeout=12.0,
+        timeout=3.0,
         follow_redirects=True,
-    )
-
-    candidates = fetch_sources(request_client, config)
-    logger.info("Collected %d total candidates", len(candidates))
+    ) as request_client:
+        candidates = fetch_sources(request_client, config)
+        logger.info("Collected %d total candidates", len(candidates))
 
     return 0
 
