@@ -6,17 +6,7 @@ from attrs import field, frozen
 from cattr import structure
 from cattr.errors import ClassValidationError
 
-
-@frozen
-class Source:
-    """Represents an individual scraping source target."""
-
-    name: str
-    scrape_url: str
-    priority: str
-    fetch_type: str
-    category: str
-    tags: list[str] = field(factory=list)
+from .models import Source  # re-exported for convenience
 
 
 class ConfigurationError(Exception):

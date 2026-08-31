@@ -1,0 +1,46 @@
+"""AI Engineering Newsletter v2 — public API."""
+
+from .configuration import Configuration, ConfigurationError
+from .models import (
+    Candidate,
+    Category,
+    DigestIssue,
+    Engagement,
+    FetchFailure,
+    FetchResult,
+    FetchSuccess,
+    FetchType,
+    Paper,
+    PaperPush,
+    Period,
+    Priority,
+    RawRecord,
+    RepoRecord,
+    RunLog,
+    ScoreBreakdown,
+    Source,
+    SourceType,
+)
+
+__all__ = [
+    "Candidate",
+    "Category",
+    "Configuration",
+    "ConfigurationError",
+    "DigestIssue",
+    "Engagement",
+    "FetchFailure",
+    "FetchResult",
+    "FetchSuccess",
+    "FetchType",
+    "Paper",
+    "PaperPush",
+    "Period",
+    "Priority",
+    "RawRecord",
+    "RepoRecord",
+    "RunLog",
+    "ScoreBreakdown",
+    "Source",
+    "SourceType",
+]

@@ -1,6 +1,7 @@
 # GOALS.md — AI Engineering Newsletter V2 Rewrite
 
 > Structured roadmap for migrating the monolithic v1 codebase into a modern, modular, async-first v2 architecture.
+> v1 codebase in main branch, v2 in dev branch
 > Reference: [PROJECT.md](./PROJECT.md) for full v1 functional specification.
 
 ---
@@ -21,31 +22,34 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
 - [x] Switch to `pyproject.toml` with Hatch build backend
 - [x] Adopt `uv` for dependency management and lockfile
 - [x] Use `src/` layout (`src/newsletter/`)
-- [ ] Define stable package exports via `__init__.py`
+- [x] Define stable package exports via `__init__.py`
 - [ ] Add `[project.optional-dependencies]` for LLM features (`openai`, `python-dotenv`)
-- [ ] Add `py.typed` marker for PEP 561 compliance
+- [x] Add `py.typed` marker for PEP 561 compliance
 
 ### 1.2 Tooling & Quality Gates
 - [x] Ruff for linting and formatting
 - [x] `ty` for static type checking
 - [x] pytest + pytest-asyncio for testing
 - [x] CI pipeline (GitHub Actions: lint → type-check → test)
-- [ ] Add coverage reporting (pytest-cov) with a minimum threshold (e.g. 80%)
+- [~] Add coverage reporting (pytest-cov) with a minimum threshold (e.g. 80%) — **pytest-cov in dev deps; `--cov` flags and threshold not yet configured**
 - [ ] Add `ruff check --select I` for import sorting
 - [ ] Add pre-commit hooks or `uv run` task aliases for local dev
 
 ### 1.3 Type System & Data Models
 - [x] `attrs`/`cattrs` for structured configuration models
-- [ ] Define all domain models as `attrs` frozen classes with full type annotations
-  - [ ] `Source` (config registry entry) — **[~]** basic version exists
-  - [ ] `RawRecord` (fetched item before scoring)
-  - [ ] `Candidate` (scored, filtered item) — **[~]** basic version exists
-  - [ ] `Engagement` (points, comments, upvotes)
-  - [ ] `ScoreBreakdown` (individual sub-scores + composite)
-  - [ ] `DigestIssue` (final selection output)
-  - [ ] `RepoRecord` (GitHub trend data)
-  - [ ] `Period` (weekly/monthly anchor)
-  - [ ] `PaperPush` (Friday arXiv results)
+- [x] Define all domain models as `attrs` frozen classes with full type annotations (all in `src/newsletter/models.py`)
+  - [x] `Source` (config registry entry)
+  - [x] `RawRecord` (fetched item before scoring)
+  - [x] `Candidate` (scored, filtered item)
+  - [x] `Engagement` (points, comments, upvotes)
+  - [x] `ScoreBreakdown` (individual sub-scores + composite)
+  - [x] `DigestIssue` (final selection output)
+  - [x] `RepoRecord` (GitHub trend data)
+  - [x] `Period` (weekly/monthly anchor)
+  - [x] `PaperPush` (Friday arXiv results)
+  - [x] `Paper` (single arXiv paper entry)
+  - [x] `RunLog` (pipeline execution metadata)
+  - [x] `FetchSuccess` / `FetchFailure` / `FetchResult` (fetch outcome union)
 - [ ] Replace all `dict[str, Any]` patterns in old code with typed models
 - [ ] Use `typing.Protocol` for interfaces (fetchers, scorers, renderers)
 
@@ -61,12 +65,13 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
 ### 1.5 Logging & Observability
 - [x] Structured logging via `logging.toml` config
 - [x] Separate audit log (file) and error log (rotating file)
-- [ ] Replace all `print()` calls in `main.py` with proper logger usage
-- [ ] Add structured run-log model (replaces `run_log` dict in candidates JSON)
+- [x] Replace all `print()` calls in `main.py` with proper logger usage
+- [x] Add structured run-log model (replaces `run_log` dict in candidates JSON) — `RunLog` attrs class defined
 - [ ] Add per-source fetch timing and error tracking
 
 ### 1.6 CLI & Entry Points
-- [x] Typer for CLI (`[project.scripts]`)
+- [x] Typer for CLI (`[project.scripts]`) — `newsletter` entry point wired to `main()`
+- [~] Implement `main()` entry point — **basic version exists**: loads config, sets up logging, runs sync RSS fetch, returns 0/1
 - [ ] Implement subcommands:
   - [ ] `newsletter collect` — fetch, score, deduplicate, select (replaces `build_digest_candidates.py`)
   - [ ] `newsletter report` — generate daily Markdown (replaces `generate_daily_report.py`)
@@ -89,6 +94,7 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 ### 2.1 Test Infrastructure
 - [x] pytest + pytest-asyncio configured
 - [x] pytest-mock available
+- [x] pytest-cov in dev dependencies (not yet wired into CLI/CI flags)
 - [ ] Create shared fixtures module (`tests/conftest.py`)
   - [ ] Fixture: sample `Configuration`
   - [ ] Fixture: sample `Source` objects (each fetch type)
@@ -199,22 +205,10 @@ Extract the monolithic fetch logic into a pluggable fetcher system where each so
       def fetch_type(self) -> str: ...
       async def fetch(self, source: Source, client: httpx.AsyncClient, *, cutoff: datetime) -> list[RawRecord]: ...
   ```
-- [ ] Create `FetchResult` model:
-  ```python
-  @frozen
-  class FetchSuccess:
-      source: Source
-      records: list[RawRecord]
-      elapsed_ms: float
-
-  @frozen
-  class FetchFailure:
-      source: Source
-      error: str
-      elapsed_ms: float
-
-  type FetchResult = FetchSuccess | FetchFailure
-  ```
+- [x] Create `FetchResult` model (defined in `src/newsletter/models.py`):
+  - [x] `FetchSuccess` — source, records, elapsed_ms
+  - [x] `FetchFailure` — source, error, elapsed_ms
+  - [x] `type FetchResult = FetchSuccess | FetchFailure`
 - [ ] Implement fetcher registry in `newsletter/fetchers/__init__.py`:
   - [ ] `FETCHER_REGISTRY: dict[str, Fetcher]` — maps `fetch_type` string → implementation
   - [ ] `get_fetcher(source: Source) -> Fetcher` — resolves fetcher using v1's `fetch_kind` logic
@@ -225,12 +219,13 @@ Extract the monolithic fetch logic into a pluggable fetcher system where each so
 Each fetcher lives in its own module under `newsletter/fetchers/`:
 
 #### `newsletter/fetchers/rss.py` — RSS / Atom Feeds
-- [ ] Port `parse_rss` logic from v1 `build_digest_candidates.py`
-- [ ] Handle RSS 2.0 `<item>` and Atom `<entry>` elements
+- [~] Port `parse_rss` logic from v1 `build_digest_candidates.py` — **sync version in `main.py`: `fetch_rss_records()` using `rss_parser`**
+- [~] Handle RSS 2.0 `<item>` and Atom `<entry>` elements — **basic parsing works via `rss_parser`; title/link/description/pub_date extraction implemented**
 - [ ] XML entity cleanup regex
-- [ ] `pubDate` parsing with multi-format fallback
-- [ ] Support `fetch_type`: `rss`, `atom`, `rdf`
-- [ ] **[~]** Basic sync version exists in `main.py` — needs async migration
+- [x] `pubDate` parsing with multi-format fallback — `_parse_pub_date()` with RFC 2822 + ISO 8601 fallback
+- [~] Support `fetch_type`: `rss`, `atom`, `rdf` — **dispatch works in `fetch_sources()` but all go through same RSS parser**
+- [ ] Extract to standalone `newsletter/fetchers/rss.py` module
+- [ ] Async migration
 
 #### `newsletter/fetchers/google_news.py` — Google News RSS
 - [ ] Construct search URL: `https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en`
@@ -454,11 +449,36 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 
 ## Phasing
 
-| Phase | Goals | Focus |
-|---|---|---|
-| **Phase 1** (Current) | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end |
-| **Phase 2** | 3.1–3.2, 4.2 (all fetchers) | Async migration + all fetcher implementations |
-| **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests |
-| **Phase 4** | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests |
-| **Phase 5** | 5.1–5.4, 8.1–8.4 | Language support, CI/CD modernization |
-| **Phase 6** (Backburner) | 5.5 | Additional languages, translation |
+| Phase | Goals | Focus | Status |
+|---|---|---|---|
+| **Phase 1** (Current) | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end | **~75% complete** — models ✅, config ✅, RSS sync fetch ✅, package exports ✅; remaining: optional deps, coverage config, import sorting, fetcher extraction into own module |
+| **Phase 2** | 3.1–3.2, 4.2 (all fetchers) | Async migration + all fetcher implementations | Not started |
+| **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests | Not started |
+| **Phase 4** | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | Not started (basic `main()` entry point exists) |
+| **Phase 5** | 5.1–5.4, 8.1–8.4 | Language support, CI/CD modernization | Not started |
+| **Phase 6** (Backburner) | 5.5 | Additional languages, translation | Not started |
+
+---
+
+## Current State Summary
+
+> **Last updated:** 2025-08-31
+
+### What works today
+- **Package structure**: `src/newsletter/` with `pyproject.toml` (Hatch), `uv` lockfile, `py.typed`, full `__init__.py` exports
+- **Domain models**: All 14 attrs frozen classes defined in `models.py` — `Source`, `RawRecord`, `Candidate`, `Engagement`, `ScoreBreakdown`, `DigestIssue`, `RunLog`, `FetchSuccess`, `FetchFailure`, `FetchResult`, `Paper`, `PaperPush`, `Period`, `RepoRecord`
+- **Configuration**: TOML-based config with `Configuration.load()` using cattrs structuring; 100+ sources defined in `config/config.toml`
+- **Logging**: Structured logging via `config/logging.toml` with audit log + rotating error log + stderr
+- **Sync RSS fetching**: `fetch_rss_records()` in `main.py` parses RSS/Atom/RDF via `rss_parser`, extracts title/link/description/pub_date
+- **Source orchestration**: `fetch_sources()` iterates enabled sources, dispatches RSS-family fetch types, logs/skips non-RSS types
+- **CLI entry point**: `newsletter` command → `main()` loads config, sets up logging, runs sync fetch, returns exit code
+- **CI pipeline**: GitHub Actions on dev/main — ruff format check, ruff lint, ty type check, pytest
+- **Test**: 1 passing test (`test_configuration_load`)
+
+### Immediate next steps (complete Phase 1)
+1. Fix `ruff format` issue in `main.py`
+2. Extract RSS fetcher into `newsletter/fetchers/rss.py`
+3. Configure `pytest-cov` flags and minimum threshold
+4. Add `ruff check --select I` for import sorting
+5. Add `[project.optional-dependencies]` for LLM features
+6. Expand config error-handling tests (missing file, invalid TOML, missing fields)
