@@ -1,6 +1,13 @@
 """AI Engineering Newsletter v2 — public API."""
 
 from .configuration import Configuration, ConfigurationError
+from .fetchers import (
+    FETCHER_REGISTRY,
+    Fetcher,
+    RSSFetcher,
+    UnknownFetcherError,
+    get_fetcher,
+)
 from .models import (
     Candidate,
     Category,
@@ -23,6 +30,7 @@ from .models import (
 )
 
 __all__ = [
+    "FETCHER_REGISTRY",
     "Candidate",
     "Category",
     "Configuration",
@@ -33,14 +41,18 @@ __all__ = [
     "FetchResult",
     "FetchSuccess",
     "FetchType",
+    "Fetcher",
     "Paper",
     "PaperPush",
     "Period",
     "Priority",
+    "RSSFetcher",
     "RawRecord",
     "RepoRecord",
     "RunLog",
     "ScoreBreakdown",
     "Source",
     "SourceType",
+    "UnknownFetcherError",
+    "get_fetcher",
 ]

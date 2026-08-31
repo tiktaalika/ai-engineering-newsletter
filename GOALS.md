@@ -113,7 +113,7 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 - [ ] Test keyword config loading and term matching
 
 ### 2.3 Unit Tests — Source Fetchers (one per fetcher type)
-- [ ] `test_rss_fetcher.py` — RSS 2.0 parsing, Atom parsing, malformed XML handling
+- [x] `test_rss_fetcher.py` — RSS 2.0 parsing, Atom parsing, malformed XML handling, XML entity cleanup, date parsing, registry dispatch
 - [ ] `test_google_news_fetcher.py` — query URL construction, result parsing
 - [ ] `test_hn_fetcher.py` — Algolia API response parsing, cutoff filtering
 - [ ] `test_reddit_fetcher.py` — JSON API response parsing, rate limit handling
@@ -198,7 +198,7 @@ Replace all synchronous HTTP with async I/O for concurrent, rate-limited, fault-
 Extract the monolithic fetch logic into a pluggable fetcher system where each source type has its own isolated implementation.
 
 ### 4.1 Fetcher Protocol & Registry
-- [ ] Define `Fetcher` protocol in `newsletter/fetchers/base.py`:
+- [x] Define `Fetcher` protocol in `newsletter/fetchers/base.py`:
   ```python
   class Fetcher(Protocol):
       @property
@@ -209,22 +209,22 @@ Extract the monolithic fetch logic into a pluggable fetcher system where each so
   - [x] `FetchSuccess` — source, records, elapsed_ms
   - [x] `FetchFailure` — source, error, elapsed_ms
   - [x] `type FetchResult = FetchSuccess | FetchFailure`
-- [ ] Implement fetcher registry in `newsletter/fetchers/__init__.py`:
-  - [ ] `FETCHER_REGISTRY: dict[str, Fetcher]` — maps `fetch_type` string → implementation
-  - [ ] `get_fetcher(source: Source) -> Fetcher` — resolves fetcher using v1's `fetch_kind` logic
-  - [ ] Auto-discovery via module imports or explicit registration
+- [x] Implement fetcher registry in `newsletter/fetchers/__init__.py`:
+  - [x] `FETCHER_REGISTRY: dict[str, Fetcher]` — maps `fetch_type` string → implementation
+  - [x] `get_fetcher(source: Source) -> Fetcher` — resolves fetcher using v1's `fetch_kind` logic
+  - [x] Auto-discovery via module imports or explicit registration
 
 ### 4.2 Individual Fetcher Implementations
 
 Each fetcher lives in its own module under `newsletter/fetchers/`:
 
 #### `newsletter/fetchers/rss.py` — RSS / Atom Feeds
-- [~] Port `parse_rss` logic from v1 `build_digest_candidates.py` — **sync version in `main.py`: `fetch_rss_records()` using `rss_parser`**
-- [~] Handle RSS 2.0 `<item>` and Atom `<entry>` elements — **basic parsing works via `rss_parser`; title/link/description/pub_date extraction implemented**
-- [ ] XML entity cleanup regex
-- [x] `pubDate` parsing with multi-format fallback — `_parse_pub_date()` with RFC 2822 + ISO 8601 fallback
-- [~] Support `fetch_type`: `rss`, `atom`, `rdf` — **dispatch works in `fetch_sources()` but all go through same RSS parser**
-- [ ] Extract to standalone `newsletter/fetchers/rss.py` module
+- [x] Port `parse_rss` logic from v1 `build_digest_candidates.py` — **extracted into `RSSFetcher.fetch()` in `fetchers/rss.py`**
+- [x] Handle RSS 2.0 `<item>` and Atom `<entry>` elements — **both paths handled via `_extract_items()` dispatching to correct model path**
+- [x] XML entity cleanup regex — **`_clean_xml_entities()` with bare `&` fix**
+- [x] `pubDate` parsing with multi-format fallback — `parse_pub_date()` with RFC 2822 + ISO 8601 + Atom `published`/`updated`
+- [x] Support `fetch_type`: `rss`, `atom`, `rdf` — **all dispatched via registry to `RSSFetcher`**
+- [x] Extract to standalone `newsletter/fetchers/rss.py` module
 - [ ] Async migration
 
 #### `newsletter/fetchers/google_news.py` — Google News RSS
@@ -451,7 +451,7 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 
 | Phase | Goals | Focus | Status |
 |---|---|---|---|
-| **Phase 1** (Current) | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end | **~75% complete** — models ✅, config ✅, RSS sync fetch ✅, package exports ✅; remaining: optional deps, coverage config, import sorting, fetcher extraction into own module |
+| **Phase 1** (Current) | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end | **~85% complete** — models ✅, config ✅, fetcher protocol ✅, registry ✅, RSS fetcher extracted ✅, Atom support ✅, 28 tests passing ✅; remaining: optional deps, coverage config, import sorting |
 | **Phase 2** | 3.1–3.2, 4.2 (all fetchers) | Async migration + all fetcher implementations | Not started |
 | **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests | Not started |
 | **Phase 4** | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | Not started (basic `main()` entry point exists) |
@@ -462,23 +462,23 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 
 ## Current State Summary
 
-> **Last updated:** 2025-08-31
+> **Last updated:** 2025-09-10
 
 ### What works today
 - **Package structure**: `src/newsletter/` with `pyproject.toml` (Hatch), `uv` lockfile, `py.typed`, full `__init__.py` exports
 - **Domain models**: All 14 attrs frozen classes defined in `models.py` — `Source`, `RawRecord`, `Candidate`, `Engagement`, `ScoreBreakdown`, `DigestIssue`, `RunLog`, `FetchSuccess`, `FetchFailure`, `FetchResult`, `Paper`, `PaperPush`, `Period`, `RepoRecord`
 - **Configuration**: TOML-based config with `Configuration.load()` using cattrs structuring; 100+ sources defined in `config/config.toml`
 - **Logging**: Structured logging via `config/logging.toml` with audit log + rotating error log + stderr
-- **Sync RSS fetching**: `fetch_rss_records()` in `main.py` parses RSS/Atom/RDF via `rss_parser`, extracts title/link/description/pub_date
-- **Source orchestration**: `fetch_sources()` iterates enabled sources, dispatches RSS-family fetch types, logs/skips non-RSS types
+- **Fetcher protocol & registry**: `Fetcher` protocol in `fetchers/base.py`, `FETCHER_REGISTRY` dict + `get_fetcher()` dispatch + `fetch_kind()` resolution in `fetchers/__init__.py`
+- **RSS/Atom/RDF fetcher**: `RSSFetcher` class in `fetchers/rss.py` — parses all feed types via `rss_parser`, handles RSS 2.0 `<item>` and Atom `<entry>` elements, XML entity cleanup, multi-format date parsing
+- **Source orchestration**: `fetch_sources()` in `main.py` resolves fetcher per source via registry, logs/skips unregistered types
 - **CLI entry point**: `newsletter` command → `main()` loads config, sets up logging, runs sync fetch, returns exit code
 - **CI pipeline**: GitHub Actions on dev/main — ruff format check, ruff lint, ty type check, pytest
-- **Test**: 1 passing test (`test_configuration_load`)
+- **Tests**: 28 passing tests — config loading (1), RSS fetcher (5), XML entities (4), date parsing (9), registry/dispatch (8), fetch_kind resolution (3)
 
 ### Immediate next steps (complete Phase 1)
-1. Fix `ruff format` issue in `main.py`
-2. Extract RSS fetcher into `newsletter/fetchers/rss.py`
-3. Configure `pytest-cov` flags and minimum threshold
-4. Add `ruff check --select I` for import sorting
-5. Add `[project.optional-dependencies]` for LLM features
-6. Expand config error-handling tests (missing file, invalid TOML, missing fields)
+1. Configure `pytest-cov` flags and minimum threshold
+2. Add `ruff check --select I` for import sorting
+3. Add `[project.optional-dependencies]` for LLM features
+4. Expand config error-handling tests (missing file, invalid TOML, missing fields)
+5. Add pre-commit hooks or `uv run` task aliases for local dev
