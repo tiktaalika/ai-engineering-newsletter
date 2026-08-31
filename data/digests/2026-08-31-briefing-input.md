@@ -3,37 +3,37 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16768
-- filtered_count: 2628
+- fetched_count: 16825
+- filtered_count: 2638
 - duplicate_count: 77
-- failures: 7
+- failures: 8
 
 ## Top 10 General AI News
 1. [A milestone in expanding access to AI](https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads)
    - source: OpenAI
-   - score: 54.943
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.891; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.791
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.884; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Who is the public?](https://www.argmin.net/p/who-is-the-public)
    - source: Argmin Gravitas
-   - score: 54.097
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.998; source_priority=0.65
+   - score: 54.032
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.995; source_priority=0.65
    - reasons: source_priority=0.65; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 3. [Anthropic sued over alleged theft of ‘tens of thousands’ of songs](https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude)
    - source: The Guardian Technology
-   - score: 62.812
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.946; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.355
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.925; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [ChatGPT to face tougher regulation in the EU](https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa)
    - source: The Verge AI
-   - score: 60.0
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.97; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.543
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.949; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference](https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades)
    - source: The Guardian Technology
-   - score: 57.215
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.995; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.758
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.974; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
    - source: Anthropic
    - score: 53.033
@@ -41,13 +41,13 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser](https://www.infoq.com/presentations/local-ai-browser-inference-privacy)
    - source: InfoQ AI ML Data Engineering
-   - score: 50.442
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.893; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.985
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.872; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
    - source: TechCrunch AI
-   - score: 49.729
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.533; source_priority=1.0
+   - score: 49.577
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.526; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.53; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Coding Agents Social Sciences](https://www.anthropic.com/research/coding-agents-social-sciences)
    - source: Anthropic
@@ -63,19 +63,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Understanding ChatGPT Work](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work)
    - source: Simon Willison
-   - score: 71.872
-   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.774; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 71.643
+   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.764; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 2. [Instagram cracks down on AI accounts pretending to be human](https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop)
    - source: The Verge AI
-   - score: 59.85
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.955; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.393
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.935; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Rise of Chicken Shop Date highlights how YouTube turned the tables on TV](https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv)
    - source: The Guardian Technology
-   - score: 59.168
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.924; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.711
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.904; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Industrial Ai Maturity Model](https://www.industrial-ai-network.com/publications/industrial-ai-maturity-model)
    - source: Industrial AI Network
    - score: 57.033
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking](https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history)
    - source: STAT Health Tech
-   - score: 53.257
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.8
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.794; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
    - source: Scale AI
    - score: 34.5
@@ -108,11 +108,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Edge AI enables motion measurement at scale - Healthcare Finance News](https://news.google.com/rss/articles/CBMijAFBVV95cUxOdDhaZ19mUGJnSk0tc0t5cE1lYkl3c1RmTlFwcTdfM0RwLVRwZlZwajJuSE5aMHNkZGUySldFbV9DYWk3OFFHY2IzU0NZTDFidzEwQUlVZllmbEgyaVZQaURTZXRKYWxnZ3gtekdrWFJZemFZcHdpcks3RlNCWW5zWmRMd0h2cUtVTDZ1NA?oc=5)
+5. [Elsevier Launches AI Assistant for Healthcare E-books - Publishers Weekly](https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSWp0RG1fdXBoWkEybElicFJidTdVOTRNTUlYNXg2T3VNU0QxdnZUWnkxTWZUWVFicFhnSWlYYWZnNlV4eE01blVxMFNMSHllOHI0S2RLTldYemRoRVYwUVVGNHFfZmdMbEF3NUZTZXFTSFZ3bEpOYWhNcF84VDY2NnJZVUhzN2w4LUNDN05XVVRrY0ZaVW5WTnFZa19qRUJWMXN1Ymo4MURXZ2RCQWJjWHF2TDNwbHZKdzBNVDVtVEVOQTlaS192UjEzVUNfeUljWFB3blVtUGc4RWRVcnRXdw?oc=5)
    - source: Google News Medical AI Discovery
-   - score: 36.344
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.991; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 36.473
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.997; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Mohamed Bin Zayed University of Artificial Intelligence](https://huggingface.co/MBZUAI)
@@ -121,8 +121,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
 2. [Who is the public?](https://www.argmin.net/p/who-is-the-public)
    - source: Argmin Gravitas
-   - score: 54.097
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.998; source_priority=0.65
+   - score: 54.032
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.995; source_priority=0.65
 3. [Inference Providers](https://paperswithcode.com/inference/models)
    - source: Papers with Code
    - score: 39.833
@@ -152,7 +152,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
-- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
@@ -161,8 +160,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [MobiHealthNews](https://www.google.com/search?q=site%3Awww.mobihealthnews.com%20AI): site:www.mobihealthnews.com AI (website, high)
 - [NEJM AI](https://www.google.com/search?q=site%3Aai.nejm.org%20AI): site:ai.nejm.org AI (website, high)
 - [The Lancet Digital Health](https://www.google.com/search?q=site%3Awww.thelancet.com%20AI): site:www.thelancet.com AI (website, high)
-- [Nature Medicine](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, high)
-- [Nature Biotechnology](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, high)
 - [Cell Patterns](https://www.google.com/search?q=site%3Awww.cell.com%20AI): site:www.cell.com AI (website, medium)
 - [LinkedIn Engineering AI Public Posts](https://www.google.com/search?q=%28CAE%20OR%20simulation%20OR%20CFD%20OR%20FEA%20OR%20digital%20twin%20OR%20surrogate%20model%20OR%20SPDM%20OR%20PLM%29%20%28AI%20OR%20machine%20learning%29): (CAE OR simulation OR CFD OR FEA OR digital twin OR surrogate model OR SPDM OR PLM) (AI OR machine learning) (linkedin_manual, medium)
 - [Generative AI Newsletter](https://www.google.com/search?q=site%3Agenai.works%20%28OpenAI%20OR%20Anthropic%20OR%20Claude%20OR%20ChatGPT%20OR%20%22AI%20agent%22%20OR%20%22generative%20AI%22%20OR%20%22AI%20newsletter%22%29): site:genai.works (OpenAI OR Anthropic OR Claude OR ChatGPT OR "AI agent" OR "generative AI" OR "AI newsletter") (newsletter, high)
@@ -179,4 +176,5 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
+- Fred Wilson AVC: HTTP Error 503: Service Unavailable
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden

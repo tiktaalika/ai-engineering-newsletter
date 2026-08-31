@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-08-31T14:25:47.536912+00:00",
+    "generated_at": "2026-08-31T15:05:39.541621+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16768,
-    "filtered_count": 2628,
+    "fetched_count": 16825,
+    "filtered_count": 2638,
     "duplicate_count": 77,
     "failures": [
       {
@@ -30,6 +30,10 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Fred Wilson AVC",
+        "error": "HTTP Error 503: Service Unavailable"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -59,10 +63,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.943,
+      "score": 54.791,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -71,7 +75,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.891,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -95,7 +99,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.097,
+      "score": 54.032,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=1.00",
@@ -107,7 +111,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.998,
+      "novelty_score": 0.995,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -133,10 +137,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.812,
+      "score": 62.355,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.93",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -145,7 +149,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
+      "novelty_score": 0.925,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -168,10 +172,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.0,
+      "score": 59.543,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.95",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -180,7 +184,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.97,
+      "novelty_score": 0.949,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -202,10 +206,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.215,
+      "score": 56.758,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.97",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -214,7 +218,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.995,
+      "novelty_score": 0.974,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -276,10 +280,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 50.442,
+      "score": 49.985,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -288,7 +292,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.893,
+      "novelty_score": 0.872,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -311,7 +315,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.729,
+      "score": 49.577,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -323,7 +327,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.533,
+      "novelty_score": 0.526,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -423,10 +427,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 71.872,
+      "score": 71.643,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -435,7 +439,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.774,
+      "novelty_score": 0.764,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -460,10 +464,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.85,
+      "score": 59.393,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -472,7 +476,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
+      "novelty_score": 0.935,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -494,10 +498,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.168,
+      "score": 58.711,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -506,7 +510,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -602,10 +606,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.257,
+      "score": 52.8,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.79",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -614,7 +618,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.794,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -731,22 +735,22 @@
       "source_priority": "medium"
     },
     {
-      "id": "bd1a597009882302",
-      "title": "Edge AI enables motion measurement at scale - Healthcare Finance News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdDhaZ19mUGJnSk0tc0t5cE1lYkl3c1RmTlFwcTdfM0RwLVRwZlZwajJuSE5aMHNkZGUySldFbV9DYWk3OFFHY2IzU0NZTDFidzEwQUlVZllmbEgyaVZQaURTZXRKYWxnZ3gtekdrWFJZemFZcHdpcks3RlNCWW5zWmRMd0h2cUtVTDZ1NA?oc=5",
+      "id": "982274ac1bee777f",
+      "title": "Elsevier Launches AI Assistant for Healthcare E-books - Publishers Weekly",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSWp0RG1fdXBoWkEybElicFJidTdVOTRNTUlYNXg2T3VNU0QxdnZUWnkxTWZUWVFicFhnSWlYYWZnNlV4eE01blVxMFNMSHllOHI0S2RLTldYemRoRVYwUVVGNHFfZmdMbEF3NUZTZXFTSFZ3bEpOYWhNcF84VDY2NnJZVUhzN2w4LUNDN05XVVRrY0ZaVW5WTnFZa19qRUJWMXN1Ymo4MURXZ2RCQWJjWHF2TDNwbHZKdzBNVDVtVEVOQTlaS192UjEzVUNfeUljWFB3blVtUGc4RWRVcnRXdw?oc=5",
       "source": "Google News Medical AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-08-31T14:09:15+00:00",
-      "text": "Edge AI enables motion measurement at scale - Healthcare Finance News Edge AI enables motion measurement at scale Healthcare Finance News",
+      "published_at": "2026-08-31T15:00:21+00:00",
+      "text": "Elsevier Launches AI Assistant for Healthcare E-books - Publishers Weekly Elsevier Launches AI Assistant for Healthcare E-books Publishers Weekly",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 36.344,
+      "score": 36.473,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.99",
+        "novelty=1.00",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -755,7 +759,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.991,
+      "novelty_score": 0.997,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -784,10 +788,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 71.872,
+      "score": 71.643,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -796,7 +800,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.774,
+      "novelty_score": 0.764,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -821,10 +825,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.85,
+      "score": 59.393,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -833,7 +837,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
+      "novelty_score": 0.935,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -855,10 +859,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.168,
+      "score": 58.711,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -867,7 +871,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -999,7 +1003,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.097,
+      "score": 54.032,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=1.00",
@@ -1011,7 +1015,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.998,
+      "novelty_score": 0.995,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -1279,16 +1283,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1366,26 +1360,6 @@
       "source_type": "website",
       "priority": "high",
       "tags": "medical_ai, digital_health, clinical_ai, research",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
-      "source": "Nature Medicine",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "high",
-      "tags": "medical_ai, clinical_ai, bio_ai, research",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
-      "source": "Nature Biotechnology",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "high",
-      "tags": "bio_ai, biotech, drug_discovery, genomics_ai, research",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1571,16 +1545,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Machine Intelligence",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "research, journal",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Science Robotics",
       "category": "research",
       "query": "site:www.science.org AI",
@@ -1661,26 +1625,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Nature Medicine",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "high",
-      "tags": "medical_ai, clinical_ai, bio_ai, research",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
-      "source": "Nature Biotechnology",
-      "category": "research",
-      "query": "site:www.nature.com AI",
-      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
-      "source_type": "website",
-      "priority": "high",
-      "tags": "bio_ai, biotech, drug_discovery, genomics_ai, research",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Cell Patterns",
       "category": "research",
       "query": "site:www.cell.com AI",
@@ -1725,7 +1669,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.588,
+      "score": 79.572,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -1738,7 +1682,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.921,
+      "novelty_score": 0.92,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1761,7 +1705,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.159,
+      "score": 79.144,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1774,7 +1718,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.901,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1800,10 +1744,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 71.872,
+      "score": 71.643,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1812,7 +1756,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.774,
+      "novelty_score": 0.764,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1839,7 +1783,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.59,
+      "score": 69.575,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -1851,7 +1795,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.497,
+      "novelty_score": 0.496,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1877,7 +1821,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 67.444,
+      "score": 67.429,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.67",
@@ -1889,7 +1833,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.672,
+      "novelty_score": 0.671,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1982,7 +1926,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 65.69,
+      "score": 65.675,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -2018,7 +1962,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 63.105,
+      "score": 63.09,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.47",
@@ -2038,42 +1982,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "bbcf16ef22a9529c",
-      "title": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
-      "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T12:42:05+00:00",
-      "text": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot. Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 62.812,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2112,6 +2020,42 @@
       "source_priority": "high"
     },
     {
+      "id": "bbcf16ef22a9529c",
+      "title": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
+      "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T12:42:05+00:00",
+      "text": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot. Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 62.355,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.925,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "846bf57afd4edd88",
       "title": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation",
       "url": "https://blogs.sw.siemens.com/simcenter/virtual-integrated-aircraft-systems-integration",
@@ -2124,7 +2068,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.395,
+      "score": 61.379,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2509,75 +2453,6 @@
       "source_priority": "high"
     },
     {
-      "id": "8b9768eab1b143c4",
-      "title": "ChatGPT to face tougher regulation in the EU",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T13:27:36+00:00",
-      "text": "ChatGPT to face tougher regulation in the EU OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.0,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.97",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.97,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "8051bcd07a89c5fd",
-      "title": "Instagram cracks down on AI accounts pretending to be human",
-      "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-31T13:00:00+00:00",
-      "text": "Instagram cracks down on AI accounts pretending to be human Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it clear when a profile features an AI-generated person that's not a real human being. \"We've heard that people don't like seeing a profile […]",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 59.85,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2590,7 +2465,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.796,
+      "score": 59.78,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.98",
@@ -2602,7 +2477,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.984,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2648,6 +2523,75 @@
       "source_priority": "high"
     },
     {
+      "id": "8b9768eab1b143c4",
+      "title": "ChatGPT to face tougher regulation in the EU",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T13:27:36+00:00",
+      "text": "ChatGPT to face tougher regulation in the EU OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 59.543,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.949,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8051bcd07a89c5fd",
+      "title": "Instagram cracks down on AI accounts pretending to be human",
+      "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-31T13:00:00+00:00",
+      "text": "Instagram cracks down on AI accounts pretending to be human Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it clear when a profile features an AI-generated person that's not a real human being. \"We've heard that people don't like seeing a profile […]",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.393,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.935,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "59c7e395155a7885",
       "title": "Rise of Chicken Shop Date highlights how YouTube turned the tables on TV",
       "url": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv",
@@ -2660,10 +2604,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.168,
+      "score": 58.711,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2672,7 +2616,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2694,7 +2638,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 58.059,
+      "score": 58.043,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -2706,7 +2650,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.397,
+      "novelty_score": 0.396,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2839,7 +2783,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 57.552,
+      "score": 57.537,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -2851,81 +2795,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.374,
+      "novelty_score": 0.373,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a46c96a713c6f4bd",
-      "title": "I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference",
-      "url": "https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T14:15:27+00:00",
-      "text": "I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference Build a home office you’ll actually enjoying working from with tried-and-true upgrades – from inexpensive speakers to a stand that can turn an iPad into a second monitor The best wireless earbuds in the US – tested Sign up for the Filter US newsletter, your weekly guide to buying fewer, better things If you work from home , even just a few days a week, you need more than a laptop perched on a sticky kitchen table. A dedicated desk setup allows you to step away from distractions, plop in your office chair and get to work. It also creates a vital separation between your personal and professional life. After spending my initial work-from-home days on a living room couch, I quickly realized the importance of creating a separate space, and I have spent seven years refining it. As a tech writer, I have tested dozens of products for my desk setup, and have found some to be totally invaluable. Here are the tried-and-true upgrades that will make working from home easier, more comfortable and even more productive. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.215,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.995,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2c0ffcd676ea57cf",
-      "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
-      "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T14:00:00+00:00",
-      "text": "New York Governor Kathy Hochul thinks AI should be ‘less evil’ Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Meta just reached […]",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.038,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.987,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5316,6 +5192,75 @@
       "source_tags": [
         "engineering_agents",
         "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba6a4cbdb5dbf1b3",
+      "title": "Cae Automation Design Smarter Develop Faster",
+      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c47f51de21ac3351",
+      "title": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
+      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
+      "source": "Luminary Cloud",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud_cae",
+        "simulation",
+        "physics_ai"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
