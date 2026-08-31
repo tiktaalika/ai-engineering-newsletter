@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-31T13:53:14.335710+00:00",
+    "generated_at": "2026-08-31T14:25:47.536912+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16274,
+    "fetched_count": 16768,
     "filtered_count": 2628,
-    "duplicate_count": 78,
+    "duplicate_count": 77,
     "failures": [
       {
         "source": "Ansys",
@@ -32,10 +32,6 @@
         "error": "HTTP Error 403: Forbidden"
       },
       {
-        "source": "Fred Wilson AVC",
-        "error": "HTTP Error 503: Service Unavailable"
-      },
-      {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
       }
@@ -51,6 +47,78 @@
   },
   "top_10_general_ai": [
     {
+      "id": "44f61163770f758b",
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "text": "A milestone in expanding access to AI ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 54.943,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.89",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.891,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "b69bbd50b7285a68",
+      "title": "Who is the public?",
+      "url": "https://www.argmin.net/p/who-is-the-public",
+      "source": "Argmin Gravitas",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-08-31T14:03:46+00:00",
+      "text": "Who is the public? Open problems and fundamental limitations of public feedback for AI (evals)",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 54.097,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.998,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "ml",
+        "research",
+        "expert_blog",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "medium"
+    },
+    {
       "id": "bbcf16ef22a9529c",
       "title": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
       "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude",
@@ -58,17 +126,17 @@
       "source_kind": "rss",
       "category": "general_ai",
       "published_at": "2026-08-31T12:42:05+00:00",
-      "text": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion dollar lawsuit against the startup behind the Claude chatbot. Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic. Continue reading...",
+      "text": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot. Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic. Continue reading...",
       "matched_terms": [
         "AI",
         "Anthropic",
         "Claude"
       ],
       "engagement": {},
-      "score": 63.185,
+      "score": 62.812,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -77,7 +145,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.946,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -100,10 +168,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.373,
+      "score": 60.0,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.97",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -112,7 +180,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.987,
+      "novelty_score": 0.97,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -122,57 +190,22 @@
       "source_priority": "high"
     },
     {
-      "id": "4f39423ca509e996",
-      "title": "AI could cause global economic downturn, Bank of England governor tells G20",
-      "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
+      "id": "a46c96a713c6f4bd",
+      "title": "I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference",
+      "url": "https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-31T09:00:47+00:00",
-      "text": "AI could cause global economic downturn, Bank of England governor tells G20 Andrew Bailey, in role as financial stability watchdog chief, warns advanced models risk destabilising system The Bank of England’s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most advanced artificial intelligence technology. In a two-page letter sent to international finance ministers and central bank governors as part of his role as chair of the international Financial Stability Board (FSB), Bailey said “frontier” AI models were “showing increasingly sophisticated autonomy and problem-solving abilities, as well as threat capabilities”. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 57.316,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "16264b6c7d955c00",
-      "title": "Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking",
-      "url": "https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T08:30:00+00:00",
-      "text": "Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking The latest study on CTE in football players “quantifies but does not reveal a problem,” writes Emily Harrison, a historian who studies brain injury in football.",
+      "published_at": "2026-08-31T14:15:27+00:00",
+      "text": "I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference Build a home office you’ll actually enjoying working from with tried-and-true upgrades – from inexpensive speakers to a stand that can turn an iPad into a second monitor The best wireless earbuds in the US – tested Sign up for the Filter US newsletter, your weekly guide to buying fewer, better things If you work from home , even just a few days a week, you need more than a laptop perched on a sticky kitchen table. A dedicated desk setup allows you to step away from distractions, plop in your office chair and get to work. It also creates a vital separation between your personal and professional life. After spending my initial work-from-home days on a living room couch, I quickly realized the importance of creating a separate space, and I have spent seven years refining it. As a tech writer, I have tested dozens of products for my desk setup, and have found some to be totally invaluable. Here are the tried-and-true upgrades that will make working from home easier, more comfortable and even more productive. Continue reading...",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 53.63,
+      "score": 57.215,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -181,12 +214,11 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.995,
       "source_priority_score": 1.0,
       "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
+        "mainstream_news",
+        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -244,10 +276,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 50.815,
+      "score": 50.442,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -256,7 +288,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.91,
+      "novelty_score": 0.893,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -279,10 +311,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.854,
+      "score": 49.729,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.54",
+        "novelty=0.53",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -291,7 +323,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.539,
+      "novelty_score": 0.533,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -333,41 +365,6 @@
         "frontier_model",
         "safety",
         "policy"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "0185f1cb80665918",
-      "title": "Agentic Workflows From Meetings To Dev Tickets",
-      "url": "https://mistral.ai/fr/news/agentic-workflows-from-meetings-to-dev-tickets",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Agentic Workflows From Meetings To Dev Tickets https://mistral.ai/fr/news/agentic-workflows-from-meetings-to-dev-tickets/",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -417,7 +414,7 @@
       "source_kind": "rss",
       "category": "engineering_ai",
       "published_at": "2026-08-30T23:59:47+00:00",
-      "text": "Understanding ChatGPT Work OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The interface for accessing Work is a tab selector, which presents it as an alternative to Chat: The obvious question i",
+      "text": "Understanding ChatGPT Work OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. ( Update : Work Cloud is also available from the ChatGPT desktop app, via a Where should this chat run? dropdown.) For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The ",
       "matched_terms": [
         "AI",
         "LLM",
@@ -426,10 +423,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 72.058,
+      "score": 71.872,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -438,7 +435,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.783,
+      "novelty_score": 0.774,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -463,10 +460,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.223,
+      "score": 59.85,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -475,7 +472,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.972,
+      "novelty_score": 0.955,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -497,10 +494,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.541,
+      "score": 59.168,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -509,7 +506,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.924,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -605,10 +602,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.63,
+      "score": 53.257,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -617,7 +614,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.815,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -734,22 +731,22 @@
       "source_priority": "medium"
     },
     {
-      "id": "b77dab1beb1e8ad1",
-      "title": "Docs say medical misinformation is on the rise, but AI isn't behind it - TechTarget",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWGUwNFJnUnlTWmRYdFcxcEh2OHZPZ2NlUnRrbTNDOVZBcExONGNJNWd0TThwTU1COWtNcEo0SmRJLWtYNXVXSXVBTFRvdkhMYXl0SmVvSWp3S2k1U0NZTDA5OE5JdG9YY3dueU5iQUU0aVZIR2dhX2QwbUUtekQxY1k0a0NxLUlUUjNKM3RSal9Xa25VMGxEYV9fSWtHN1ltYjNXYUVTaVREUjJWcURhMVVaTzdjMnpfNm9uZ3pRSFdtLThLOXNkVm5B?oc=5",
+      "id": "bd1a597009882302",
+      "title": "Edge AI enables motion measurement at scale - Healthcare Finance News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdDhaZ19mUGJnSk0tc0t5cE1lYkl3c1RmTlFwcTdfM0RwLVRwZlZwajJuSE5aMHNkZGUySldFbV9DYWk3OFFHY2IzU0NZTDFidzEwQUlVZllmbEgyaVZQaURTZXRKYWxnZ3gtekdrWFJZemFZcHdpcks3RlNCWW5zWmRMd0h2cUtVTDZ1NA?oc=5",
       "source": "Google News Medical AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-08-31T13:50:46+00:00",
-      "text": "Docs say medical misinformation is on the rise, but AI isn't behind it - TechTarget Docs say medical misinformation is on the rise, but AI isn't behind it TechTarget",
+      "published_at": "2026-08-31T14:09:15+00:00",
+      "text": "Edge AI enables motion measurement at scale - Healthcare Finance News Edge AI enables motion measurement at scale Healthcare Finance News",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 36.505,
+      "score": 36.344,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -758,7 +755,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.999,
+      "novelty_score": 0.991,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -778,7 +775,7 @@
       "source_kind": "rss",
       "category": "engineering_ai",
       "published_at": "2026-08-30T23:59:47+00:00",
-      "text": "Understanding ChatGPT Work OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The interface for accessing Work is a tab selector, which presents it as an alternative to Chat: The obvious question i",
+      "text": "Understanding ChatGPT Work OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. ( Update : Work Cloud is also available from the ChatGPT desktop app, via a Where should this chat run? dropdown.) For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The ",
       "matched_terms": [
         "AI",
         "LLM",
@@ -787,10 +784,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 72.058,
+      "score": 71.872,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -799,7 +796,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.783,
+      "novelty_score": 0.774,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -824,10 +821,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.223,
+      "score": 59.85,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -836,7 +833,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.972,
+      "novelty_score": 0.955,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -858,10 +855,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.541,
+      "score": 59.168,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -870,7 +867,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.924,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -990,22 +987,22 @@
       "source_priority": "high"
     },
     {
-      "id": "efb37e358a0f95fa",
-      "title": "Direct Preference Optimization Beyond Chatbots",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
+      "id": "b69bbd50b7285a68",
+      "title": "Who is the public?",
+      "url": "https://www.argmin.net/p/who-is-the-public",
+      "source": "Argmin Gravitas",
+      "source_kind": "rss",
       "category": "research",
-      "published_at": null,
-      "text": "Direct Preference Optimization Beyond Chatbots https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "published_at": "2026-08-31T14:03:46+00:00",
+      "text": "Who is the public? Open problems and fundamental limitations of public feedback for AI (evals)",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 51.033,
+      "score": 54.097,
       "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
+        "source_priority=0.65",
+        "novelty=1.00",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1014,15 +1011,16 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
+      "novelty_score": 0.998,
+      "source_priority_score": 0.65,
       "source_tags": [
+        "ml",
         "research",
-        "community",
-        "papers"
+        "expert_blog",
+        "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
+      "source_priority": "medium"
     },
     {
       "id": "aa369dabec1f00e3",
@@ -1059,14 +1057,14 @@
       "source_priority": "medium"
     },
     {
-      "id": "544d69f25a6e975d",
-      "title": "Mellum2 Launch",
-      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "id": "efb37e358a0f95fa",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
       "source": "Hugging Face Papers",
       "source_kind": "sitemap_or_search",
       "category": "research",
       "published_at": null,
-      "text": "Mellum2 Launch https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "text": "Direct Preference Optimization Beyond Chatbots https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
       "matched_terms": [
         "AI"
       ],
@@ -1094,14 +1092,14 @@
       "source_priority": "high"
     },
     {
-      "id": "364b2c571a0fe195",
-      "title": "Finetuning Olmocr To Be A Faithful Ocr Engine",
-      "url": "https://huggingface.co/blog/tngtech/finetuning-olmocr-to-be-a-faithful-ocr-engine",
+      "id": "544d69f25a6e975d",
+      "title": "Mellum2 Launch",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
       "source": "Hugging Face Papers",
       "source_kind": "sitemap_or_search",
       "category": "research",
       "published_at": null,
-      "text": "Finetuning Olmocr To Be A Faithful Ocr Engine https://huggingface.co/blog/tngtech/finetuning-olmocr-to-be-a-faithful-ocr-engine",
+      "text": "Mellum2 Launch https://huggingface.co/blog/JetBrains/mellum2-launch",
       "matched_terms": [
         "AI"
       ],
@@ -1198,16 +1196,6 @@
       "source_type": "manual",
       "priority": "medium",
       "tags": "engineering_media, user_requested, url_pending_verification",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
-      "source": "Dassault Systemes",
-      "category": "engineering_ai",
-      "query": "site:blog.3ds.com AI",
-      "url": "https://www.google.com/search?q=site%3Ablog.3ds.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "cad, plm, simulation",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1503,16 +1491,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Dassault Systemes",
-      "category": "engineering_ai",
-      "query": "site:blog.3ds.com AI",
-      "url": "https://www.google.com/search?q=site%3Ablog.3ds.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "cad, plm, simulation",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Autodesk",
       "category": "engineering_ai",
       "query": "site:www.autodesk.com AI",
@@ -1747,7 +1725,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.6,
+      "score": 79.588,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -1783,7 +1761,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.171,
+      "score": 79.159,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1796,7 +1774,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.902,
+      "novelty_score": 0.901,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1813,7 +1791,7 @@
       "source_kind": "rss",
       "category": "engineering_ai",
       "published_at": "2026-08-30T23:59:47+00:00",
-      "text": "Understanding ChatGPT Work OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The interface for accessing Work is a tab selector, which presents it as an alternative to Chat: The obvious question i",
+      "text": "Understanding ChatGPT Work OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. ( Update : Work Cloud is also available from the ChatGPT desktop app, via a Where should this chat run? dropdown.) For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The ",
       "matched_terms": [
         "AI",
         "LLM",
@@ -1822,10 +1800,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 72.058,
+      "score": 71.872,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -1834,7 +1812,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.783,
+      "novelty_score": 0.774,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1861,7 +1839,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.602,
+      "score": 69.59,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -1899,7 +1877,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 67.457,
+      "score": 67.444,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.67",
@@ -2004,7 +1982,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 65.702,
+      "score": 65.69,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -2016,7 +1994,43 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.744,
+      "novelty_score": 0.743,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "fadf95d27724d98e",
+      "title": "Building a sustainable future with simulation and AI",
+      "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-10T13:56:07+00:00",
+      "text": "Building a sustainable future with simulation and AI This article explores how simulation, AI and digital twins help organizations accelerate the energy transition by improving energy efficiency, reducing emissions and scaling sustainable innovation.",
+      "matched_terms": [
+        "simulation",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 63.105,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.47",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.474,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2034,17 +2048,17 @@
       "source_kind": "rss",
       "category": "general_ai",
       "published_at": "2026-08-31T12:42:05+00:00",
-      "text": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion dollar lawsuit against the startup behind the Claude chatbot. Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic. Continue reading...",
+      "text": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot. Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic. Continue reading...",
       "matched_terms": [
         "AI",
         "Anthropic",
         "Claude"
       ],
       "engagement": {},
-      "score": 63.185,
+      "score": 62.812,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2053,49 +2067,13 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.946,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "fadf95d27724d98e",
-      "title": "Building a sustainable future with simulation and AI",
-      "url": "https://blogs.sw.siemens.com/simcenter/building-a-sustainable-future-with-simulation-and-ai",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-10T13:56:07+00:00",
-      "text": "Building a sustainable future with simulation and AI This article explores how simulation, AI and digital twins help organizations accelerate the energy transition by improving energy efficiency, reducing emissions and scaling sustainable innovation.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 63.118,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.475,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2146,7 +2124,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.407,
+      "score": 61.395,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2158,7 +2136,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.549,
+      "novelty_score": 0.548,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2166,41 +2144,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "8b9768eab1b143c4",
-      "title": "ChatGPT to face tougher regulation in the EU",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T13:27:36+00:00",
-      "text": "ChatGPT to face tougher regulation in the EU OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.373,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.987,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2566,6 +2509,41 @@
       "source_priority": "high"
     },
     {
+      "id": "8b9768eab1b143c4",
+      "title": "ChatGPT to face tougher regulation in the EU",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T13:27:36+00:00",
+      "text": "ChatGPT to face tougher regulation in the EU OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.0,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.97",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.97,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "8051bcd07a89c5fd",
       "title": "Instagram cracks down on AI accounts pretending to be human",
       "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
@@ -2578,10 +2556,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.223,
+      "score": 59.85,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2590,7 +2568,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.972,
+      "novelty_score": 0.955,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2612,10 +2590,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.808,
+      "score": 59.796,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2682,10 +2660,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.541,
+      "score": 59.168,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2694,7 +2672,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.924,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2716,7 +2694,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 58.071,
+      "score": 58.059,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -2861,7 +2839,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 57.564,
+      "score": 57.552,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -2883,36 +2861,69 @@
       "source_priority": "high"
     },
     {
-      "id": "4f39423ca509e996",
-      "title": "AI could cause global economic downturn, Bank of England governor tells G20",
-      "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
+      "id": "a46c96a713c6f4bd",
+      "title": "I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference",
+      "url": "https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-31T09:00:47+00:00",
-      "text": "AI could cause global economic downturn, Bank of England governor tells G20 Andrew Bailey, in role as financial stability watchdog chief, warns advanced models risk destabilising system The Bank of England’s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most advanced artificial intelligence technology. In a two-page letter sent to international finance ministers and central bank governors as part of his role as chair of the international Financial Stability Board (FSB), Bailey said “frontier” AI models were “showing increasingly sophisticated autonomy and problem-solving abilities, as well as threat capabilities”. Continue reading...",
+      "published_at": "2026-08-31T14:15:27+00:00",
+      "text": "I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference Build a home office you’ll actually enjoying working from with tried-and-true upgrades – from inexpensive speakers to a stand that can turn an iPad into a second monitor The best wireless earbuds in the US – tested Sign up for the Filter US newsletter, your weekly guide to buying fewer, better things If you work from home , even just a few days a week, you need more than a laptop perched on a sticky kitchen table. A dedicated desk setup allows you to step away from distractions, plop in your office chair and get to work. It also creates a vital separation between your personal and professional life. After spending my initial work-from-home days on a living room couch, I quickly realized the importance of creating a separate space, and I have spent seven years refining it. As a tech writer, I have tested dozens of products for my desk setup, and have found some to be totally invaluable. Here are the tried-and-true upgrades that will make working from home easier, more comfortable and even more productive. Continue reading...",
       "matched_terms": [
-        "AI",
-        "artificial intelligence"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.316,
+      "score": 57.215,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
+        "novelty=0.99",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.995,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2c0ffcd676ea57cf",
+      "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+      "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T14:00:00+00:00",
+      "text": "New York Governor Kathy Hochul thinks AI should be ‘less evil’ Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Meta just reached […]",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.038,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.987,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -5284,40 +5295,6 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba6a4cbdb5dbf1b3",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
       "matched_terms": [
         "CAE"
       ],

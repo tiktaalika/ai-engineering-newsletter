@@ -3,57 +3,57 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16274
+- fetched_count: 16768
 - filtered_count: 2628
-- duplicate_count: 78
-- failures: 8
+- duplicate_count: 77
+- failures: 7
 
 ## Top 10 General AI News
-1. [Anthropic sued over alleged theft of ‘tens of thousands’ of songs](https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude)
+1. [A milestone in expanding access to AI](https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads)
+   - source: OpenAI
+   - score: 54.943
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.891; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Who is the public?](https://www.argmin.net/p/who-is-the-public)
+   - source: Argmin Gravitas
+   - score: 54.097
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.998; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+3. [Anthropic sued over alleged theft of ‘tens of thousands’ of songs](https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude)
    - source: The Guardian Technology
-   - score: 63.185
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.963; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [ChatGPT to face tougher regulation in the EU](https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa)
+   - score: 62.812
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.946; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [ChatGPT to face tougher regulation in the EU](https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa)
    - source: The Verge AI
-   - score: 60.373
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.987; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [AI could cause global economic downturn, Bank of England governor tells G20](https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20)
+   - score: 60.0
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.97; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [I've tested dozens of items to perfect my work-from-home setup. These 13 make all the difference](https://www.theguardian.com/thefilter-us/2026/aug/31/best-work-from-home-office-setup-upgrades)
    - source: The Guardian Technology
-   - score: 57.316
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.848; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking](https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history)
-   - source: STAT Health Tech
-   - score: 53.63
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.832; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+   - score: 57.215
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.995; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Demystifying Evals For Ai Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
    - source: Anthropic
    - score: 53.033
    - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser](https://www.infoq.com/presentations/local-ai-browser-inference-privacy)
+7. [Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser](https://www.infoq.com/presentations/local-ai-browser-inference-privacy)
    - source: InfoQ AI ML Data Engineering
-   - score: 50.815
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.91; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.91; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
+   - score: 50.442
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.893; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z)
    - source: TechCrunch AI
-   - score: 49.854
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.539; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.54; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-8. [Coding Agents Social Sciences](https://www.anthropic.com/research/coding-agents-social-sciences)
+   - score: 49.729
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.533; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.53; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+9. [Coding Agents Social Sciences](https://www.anthropic.com/research/coding-agents-social-sciences)
    - source: Anthropic
    - score: 49.033
    - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-9. [Agentic Workflows From Meetings To Dev Tickets](https://mistral.ai/fr/news/agentic-workflows-from-meetings-to-dev-tickets)
-   - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Rails Testing On Autopilot Building An Agent That Writes What Developers Wont](https://mistral.ai/fr/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont)
    - source: Mistral AI
    - score: 46.367
@@ -63,19 +63,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Engineering AI News
 1. [Understanding ChatGPT Work](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work)
    - source: Simon Willison
-   - score: 72.058
-   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.783; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 71.872
+   - score_breakdown: general=0.833; engineering=0.25; research=0.333; novelty=0.774; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=5; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 2. [Instagram cracks down on AI accounts pretending to be human](https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop)
    - source: The Verge AI
-   - score: 60.223
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.972; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.85
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.955; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Rise of Chicken Shop Date highlights how YouTube turned the tables on TV](https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv)
    - source: The Guardian Technology
-   - score: 59.541
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.941; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.168
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.924; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Industrial Ai Maturity Model](https://www.industrial-ai-network.com/publications/industrial-ai-maturity-model)
    - source: Industrial AI Network
    - score: 57.033
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking](https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history)
    - source: STAT Health Tech
-   - score: 53.63
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.832; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.257
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Healthcare Benchmarks](https://scale.com/blog/healthcare-benchmarks)
    - source: Scale AI
    - score: 34.5
@@ -108,30 +108,30 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Docs say medical misinformation is on the rise, but AI isn't behind it - TechTarget](https://news.google.com/rss/articles/CBMiygFBVV95cUxPWGUwNFJnUnlTWmRYdFcxcEh2OHZPZ2NlUnRrbTNDOVZBcExONGNJNWd0TThwTU1COWtNcEo0SmRJLWtYNXVXSXVBTFRvdkhMYXl0SmVvSWp3S2k1U0NZTDA5OE5JdG9YY3dueU5iQUU0aVZIR2dhX2QwbUUtekQxY1k0a0NxLUlUUjNKM3RSal9Xa25VMGxEYV9fSWtHN1ltYjNXYUVTaVREUjJWcURhMVVaTzdjMnpfNm9uZ3pRSFdtLThLOXNkVm5B?oc=5)
+5. [Edge AI enables motion measurement at scale - Healthcare Finance News](https://news.google.com/rss/articles/CBMijAFBVV95cUxOdDhaZ19mUGJnSk0tc0t5cE1lYkl3c1RmTlFwcTdfM0RwLVRwZlZwajJuSE5aMHNkZGUySldFbV9DYWk3OFFHY2IzU0NZTDFidzEwQUlVZllmbEgyaVZQaURTZXRKYWxnZ3gtekdrWFJZemFZcHdpcks3RlNCWW5zWmRMd0h2cUtVTDZ1NA?oc=5)
    - source: Google News Medical AI Discovery
-   - score: 36.505
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.999; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 36.344
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.991; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Mohamed Bin Zayed University of Artificial Intelligence](https://huggingface.co/MBZUAI)
    - source: Hugging Face Papers
    - score: 54.367
    - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-2. [Direct Preference Optimization Beyond Chatbots](https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots)
-   - source: Hugging Face Papers
-   - score: 51.033
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
+2. [Who is the public?](https://www.argmin.net/p/who-is-the-public)
+   - source: Argmin Gravitas
+   - score: 54.097
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.998; source_priority=0.65
 3. [Inference Providers](https://paperswithcode.com/inference/models)
    - source: Papers with Code
    - score: 39.833
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=0.65
-4. [Mellum2 Launch](https://huggingface.co/blog/JetBrains/mellum2-launch)
+4. [Direct Preference Optimization Beyond Chatbots](https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-5. [Finetuning Olmocr To Be A Faithful Ocr Engine](https://huggingface.co/blog/tngtech/finetuning-olmocr-to-be-a-faithful-ocr-engine)
+5. [Mellum2 Launch](https://huggingface.co/blog/JetBrains/mellum2-launch)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
@@ -144,7 +144,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
-- [Dassault Systemes](https://www.google.com/search?q=site%3Ablog.3ds.com%20AI): site:blog.3ds.com AI (website, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
@@ -180,5 +179,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Fred Wilson AVC: HTTP Error 503: Service Unavailable
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
