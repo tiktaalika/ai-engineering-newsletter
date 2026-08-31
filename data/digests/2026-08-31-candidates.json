@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-08-31T15:05:39.541621+00:00",
+    "generated_at": "2026-08-31T15:27:54.311725+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16825,
-    "filtered_count": 2638,
-    "duplicate_count": 77,
+    "fetched_count": 16546,
+    "filtered_count": 2563,
+    "duplicate_count": 76,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Fred Wilson AVC",
-        "error": "HTTP Error 503: Service Unavailable"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -63,7 +59,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.791,
+      "score": 54.706,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -75,7 +71,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -99,10 +95,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.032,
+      "score": 53.996,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -111,7 +107,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.995,
+      "novelty_score": 0.994,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -121,6 +117,43 @@
       ],
       "registry_category": "research",
       "source_priority": "medium"
+    },
+    {
+      "id": "fb0f0626949d6ff5",
+      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T15:15:25+00:00",
+      "text": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+      "matched_terms": [
+        "AI",
+        "Nvidia",
+        "AI chip"
+      ],
+      "engagement": {},
+      "score": 63.952,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.998,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
     },
     {
       "id": "bbcf16ef22a9529c",
@@ -137,10 +170,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.355,
+      "score": 62.1,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -149,7 +182,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.925,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -159,36 +192,36 @@
       "source_priority": "high"
     },
     {
-      "id": "8b9768eab1b143c4",
-      "title": "ChatGPT to face tougher regulation in the EU",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-      "source": "The Verge AI",
+      "id": "0f3280cd25299ad7",
+      "title": "STAT+: GLP-1 drugs are almost single-handedly forcing employers to reconsider workers’ health care",
+      "url": "https://www.statnews.com/2026/08/31/health-care-inc-glp-1s-are-breaking-employers-and-340-battles",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-08-31T13:27:36+00:00",
-      "text": "ChatGPT to face tougher regulation in the EU OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
+      "published_at": "2026-08-31T15:27:30+00:00",
+      "text": "STAT+: GLP-1 drugs are almost single-handedly forcing employers to reconsider workers’ health care Another hospital system sues CVS Health, how Medicaid cuts will change everything, and more",
       "matched_terms": [
-        "AI",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 59.543,
+      "score": 57.329,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=2",
+        "novelty=1.00",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.949,
+      "novelty_score": 1.0,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -206,10 +239,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.758,
+      "score": 56.503,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -218,13 +251,51 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.974,
+      "novelty_score": 0.962,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2dc73751ee8338b4",
+      "title": "Sleeper Agents Training Deceptive Llms That Persist Through Safety Training",
+      "url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+      "source": "Anthropic",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Sleeper Agents Training Deceptive Llms That Persist Through Safety Training https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 55.7,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "safety",
+        "policy"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -280,10 +351,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 49.985,
+      "score": 49.73,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -292,7 +363,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.872,
+      "novelty_score": 0.86,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -315,10 +386,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.577,
+      "score": 49.492,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.52",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -327,7 +398,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.526,
+      "novelty_score": 0.522,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -335,77 +406,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "274d5e0ca502ee24",
-      "title": "Coding Agents Social Sciences",
-      "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Coding Agents Social Sciences https://www.anthropic.com/research/coding-agents-social-sciences",
-      "matched_terms": [
-        "agent",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 49.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "4708223c624de9b9",
-      "title": "Rails Testing On Autopilot Building An Agent That Writes What Developers Wont",
-      "url": "https://mistral.ai/fr/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Rails Testing On Autopilot Building An Agent That Writes What Developers Wont https://mistral.ai/fr/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont/",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     }
   ],
@@ -427,7 +427,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 71.643,
+      "score": 71.516,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -439,7 +439,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.764,
+      "novelty_score": 0.758,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -449,6 +449,42 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "2c8d862711b6d387",
+      "title": "‘Scary’: how misinformation and AI hallucinations are infiltrating Australia’s parliament",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/01/how-misinformation-ai-hallucinations-infiltrating-australian-parliament",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-31T15:00:29+00:00",
+      "text": "‘Scary’: how misinformation and AI hallucinations are infiltrating Australia’s parliament Exclusive : Guardian analysis reveals that dozens of policy submissions from across the political spectrum incorrectly summarise real research and invent or wrongly cite sources Get our breaking news email , free app or daily news podcast Australia’s government inquiry process is supposed to help parliament make better decisions, hearing from experts and constituents alike. But Guardian Australia can reveal that the system is being flooded with AI-generated material, which is inventing studies and attributing nonexistent research to real academics and authors. In some cases, committee reports have cited submissions in which the majority of sources appear to be AI-generated “hallucinations”, when large language models (LLMs) invent content that looks real but doesn’t actually exist. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "large language model"
+      ],
+      "engagement": {},
+      "score": 69.852,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.986,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -464,10 +500,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.393,
+      "score": 59.139,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -476,45 +512,11 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.935,
+      "novelty_score": 0.923,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "59c7e395155a7885",
-      "title": "Rise of Chicken Shop Date highlights how YouTube turned the tables on TV",
-      "url": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-31T12:00:25+00:00",
-      "text": "Rise of Chicken Shop Date highlights how YouTube turned the tables on TV Amelia Dimoldenberg says publicists ignored her interview show for years but she can now be picky over A-list guests Just a decade ago, Amelia Dimoldenberg found it impossible to drum up any mainstream celebrities to come on her mock date YouTube show, in which she chats awkwardly with guests over chicken and chips. Even persuading a local actor connected with her London youth club to come on took years of prodding. Managers of A-listers with movies or albums to push instead battled to claim a spot on the hallowed cushions of the primetime TV chatshow sofa. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.711,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -594,6 +596,41 @@
   ],
   "top_5_medical_bio_ai": [
     {
+      "id": "0f3280cd25299ad7",
+      "title": "STAT+: GLP-1 drugs are almost single-handedly forcing employers to reconsider workers’ health care",
+      "url": "https://www.statnews.com/2026/08/31/health-care-inc-glp-1s-are-breaking-employers-and-340-battles",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T15:27:30+00:00",
+      "text": "STAT+: GLP-1 drugs are almost single-handedly forcing employers to reconsider workers’ health care Another hospital system sues CVS Health, how Medicaid cuts will change everything, and more",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.329,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "16264b6c7d955c00",
       "title": "Opinion: The most shocking thing about the latest statistics on CTE in football is that we find them so shocking",
       "url": "https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history",
@@ -606,10 +643,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.8,
+      "score": 52.545,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -618,7 +655,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.794,
+      "novelty_score": 0.782,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -661,42 +698,6 @@
         "enterprise_ai"
       ],
       "registry_category": "startup",
-      "source_priority": "medium"
-    },
-    {
-      "id": "05e42e4d91fe9eac",
-      "title": "Ai Wont Transform Health Systems Ceos Will Six Principles To Drive The Transformation",
-      "url": "https://medcitynews.com/2026/08/ai-wont-transform-health-systems-ceos-will-six-principles-to-drive-the-transformation",
-      "source": "MedCity News",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Ai Wont Transform Health Systems Ceos Will Six Principles To Drive The Transformation https://medcitynews.com/2026/08/ai-wont-transform-health-systems-ceos-will-six-principles-to-drive-the-transformation/",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech",
-        "digital_health"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "medium"
     },
     {
@@ -747,10 +748,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 36.473,
+      "score": 36.218,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -759,7 +760,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.997,
+      "novelty_score": 0.986,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -788,7 +789,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 71.643,
+      "score": 71.516,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -800,7 +801,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.764,
+      "novelty_score": 0.758,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -810,6 +811,42 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "2c8d862711b6d387",
+      "title": "‘Scary’: how misinformation and AI hallucinations are infiltrating Australia’s parliament",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/01/how-misinformation-ai-hallucinations-infiltrating-australian-parliament",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-31T15:00:29+00:00",
+      "text": "‘Scary’: how misinformation and AI hallucinations are infiltrating Australia’s parliament Exclusive : Guardian analysis reveals that dozens of policy submissions from across the political spectrum incorrectly summarise real research and invent or wrongly cite sources Get our breaking news email , free app or daily news podcast Australia’s government inquiry process is supposed to help parliament make better decisions, hearing from experts and constituents alike. But Guardian Australia can reveal that the system is being flooded with AI-generated material, which is inventing studies and attributing nonexistent research to real academics and authors. In some cases, committee reports have cited submissions in which the majority of sources appear to be AI-generated “hallucinations”, when large language models (LLMs) invent content that looks real but doesn’t actually exist. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "large language model"
+      ],
+      "engagement": {},
+      "score": 69.852,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.986,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -825,10 +862,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.393,
+      "score": 59.139,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -837,45 +874,11 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.935,
+      "novelty_score": 0.923,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "59c7e395155a7885",
-      "title": "Rise of Chicken Shop Date highlights how YouTube turned the tables on TV",
-      "url": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-31T12:00:25+00:00",
-      "text": "Rise of Chicken Shop Date highlights how YouTube turned the tables on TV Amelia Dimoldenberg says publicists ignored her interview show for years but she can now be picky over A-list guests Just a decade ago, Amelia Dimoldenberg found it impossible to drum up any mainstream celebrities to come on her mock date YouTube show, in which she chats awkwardly with guests over chicken and chips. Even persuading a local actor connected with her London youth club to come on took years of prodding. Managers of A-listers with movies or albums to push instead battled to claim a spot on the hallowed cushions of the primetime TV chatshow sofa. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.711,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -1003,10 +1006,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.032,
+      "score": 53.996,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1015,7 +1018,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.995,
+      "novelty_score": 0.994,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -1363,6 +1366,26 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Nature Medicine",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "medical_ai, clinical_ai, bio_ai, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Biotechnology",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "bio_ai, biotech, drug_discovery, genomics_ai, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Cell Patterns",
       "category": "research",
       "query": "site:www.cell.com AI",
@@ -1625,6 +1648,26 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
+      "source": "Nature Medicine",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "medical_ai, clinical_ai, bio_ai, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Biotechnology",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "high",
+      "tags": "bio_ai, biotech, drug_discovery, genomics_ai, research",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
       "source": "Cell Patterns",
       "category": "research",
       "query": "site:www.cell.com AI",
@@ -1669,7 +1712,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.572,
+      "score": 79.564,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -1705,7 +1748,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 79.144,
+      "score": 79.135,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1744,7 +1787,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 71.643,
+      "score": 71.516,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -1756,7 +1799,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.764,
+      "novelty_score": 0.758,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1766,6 +1809,42 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "2c8d862711b6d387",
+      "title": "‘Scary’: how misinformation and AI hallucinations are infiltrating Australia’s parliament",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/01/how-misinformation-ai-hallucinations-infiltrating-australian-parliament",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-31T15:00:29+00:00",
+      "text": "‘Scary’: how misinformation and AI hallucinations are infiltrating Australia’s parliament Exclusive : Guardian analysis reveals that dozens of policy submissions from across the political spectrum incorrectly summarise real research and invent or wrongly cite sources Get our breaking news email , free app or daily news podcast Australia’s government inquiry process is supposed to help parliament make better decisions, hearing from experts and constituents alike. But Guardian Australia can reveal that the system is being flooded with AI-generated material, which is inventing studies and attributing nonexistent research to real academics and authors. In some cases, committee reports have cited submissions in which the majority of sources appear to be AI-generated “hallucinations”, when large language models (LLMs) invent content that looks real but doesn’t actually exist. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "large language model"
+      ],
+      "engagement": {},
+      "score": 69.852,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.986,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1783,7 +1862,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.575,
+      "score": 69.566,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -1795,7 +1874,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.496,
+      "novelty_score": 0.495,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -1821,7 +1900,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 67.429,
+      "score": 67.42,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.67",
@@ -1926,7 +2005,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 65.675,
+      "score": 65.666,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.74",
@@ -1938,7 +2017,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.743,
+      "novelty_score": 0.742,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1946,6 +2025,43 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "fb0f0626949d6ff5",
+      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T15:15:25+00:00",
+      "text": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+      "matched_terms": [
+        "AI",
+        "Nvidia",
+        "AI chip"
+      ],
+      "engagement": {},
+      "score": 63.952,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.998,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -1962,7 +2078,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 63.09,
+      "score": 63.082,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.47",
@@ -1974,7 +2090,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.474,
+      "novelty_score": 0.473,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2034,10 +2150,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 62.355,
+      "score": 62.1,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2046,7 +2162,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.925,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2068,7 +2184,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 61.379,
+      "score": 61.371,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2080,7 +2196,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.548,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2465,7 +2581,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.78,
+      "score": 59.772,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.98",
@@ -2523,41 +2639,6 @@
       "source_priority": "high"
     },
     {
-      "id": "8b9768eab1b143c4",
-      "title": "ChatGPT to face tougher regulation in the EU",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T13:27:36+00:00",
-      "text": "ChatGPT to face tougher regulation in the EU OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 59.543,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.949,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "8051bcd07a89c5fd",
       "title": "Instagram cracks down on AI accounts pretending to be human",
       "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
@@ -2570,10 +2651,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.393,
+      "score": 59.139,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2582,7 +2663,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.935,
+      "novelty_score": 0.923,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2604,10 +2685,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.711,
+      "score": 58.456,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2616,7 +2697,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.892,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2638,7 +2719,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 58.043,
+      "score": 58.035,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -2783,7 +2864,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 57.537,
+      "score": 57.528,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -2795,13 +2876,48 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.373,
+      "novelty_score": 0.372,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0f3280cd25299ad7",
+      "title": "STAT+: GLP-1 drugs are almost single-handedly forcing employers to reconsider workers’ health care",
+      "url": "https://www.statnews.com/2026/08/31/health-care-inc-glp-1s-are-breaking-employers-and-340-battles",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T15:27:30+00:00",
+      "text": "STAT+: GLP-1 drugs are almost single-handedly forcing employers to reconsider workers’ health care Another hospital system sues CVS Health, how Medicaid cuts will change everything, and more",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.329,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 1.0,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5192,75 +5308,6 @@
       "source_tags": [
         "engineering_agents",
         "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba6a4cbdb5dbf1b3",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c47f51de21ac3351",
-      "title": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
-      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
-      "source": "Luminary Cloud",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud_cae",
-        "simulation",
-        "physics_ai"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
