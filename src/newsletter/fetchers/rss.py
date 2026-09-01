@@ -1,7 +1,16 @@
 """RSS / Atom / RDF feed fetcher.
 
-Handles all feed-based sources by parsing XML via the ``rss_parser`` library.
-Supports ``fetch_type`` values: ``rss``, ``atom``, ``rdf``.
+Parses all XML feed dialects with the stdlib ``xml.etree.ElementTree``
+API wrapped by ``defusedxml``, which blocks entity-expansion bombs,
+external entity (XXE) resolution, and DTD abuse.
+
+Lenient by design: real-world feeds routinely omit optional fields, so
+missing fields degrade to defaults instead of failing the whole source.
+Field resolution mirrors v1 ``parse_rss`` (1:1 replication spec):
+
+- link:      ``<link>`` text → Atom ``<link href="...">`` attribute → ``""``
+- summary:   ``description`` → ``summary`` → ``content`` → ``content:encoded``
+- published: ``pubDate`` → ``dc:date`` → ``published`` → ``updated``
 """
 
 from __future__ import annotations
@@ -11,22 +20,61 @@ import logging
 import re
 from datetime import UTC, datetime
 from typing import Any
+from xml.etree import ElementTree as ET
 
 import httpx
-from rss_parser import parse as parse_rss
+from defusedxml.common import DefusedXmlException
+from defusedxml.ElementTree import fromstring as parse_xml_safe
 
-from newsletter.http import fetch_text
+from newsletter.http import fetch_bytes
 from newsletter.models import RawRecord, Source
 
 logger = logging.getLogger(__name__)
 
+# --------------------------------------------------------------------------- #
+# Constants
+# --------------------------------------------------------------------------- #
+
+#: Per-source record cap when ``Source.max_entries`` is not set (v1 parity).
+DEFAULT_MAX_ENTRIES: int = 25
+
+#: Guard against absurdly large feed bodies (memory safety).
+MAX_FEED_BYTES: int = 10 * 1024 * 1024
+
+#: Local element names that mark a feed entry in any dialect.
+_ITEM_LOCAL_NAMES: frozenset[str] = frozenset({"item", "entry"})
+
 # XML entity cleanup — fix bare ``&`` that isn't already a valid entity ref.
+# NOTE: the str and bytes patterns must stay in sync.
 _ENTITY_RE = re.compile(r"&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)")
+_ENTITY_RE_BYTES = re.compile(rb"&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)")
+
+
+class FeedParseError(Exception):
+    """Raised when a feed body cannot be parsed as XML.
+
+    Also raised for XML rejected by ``defusedxml`` (entity bombs, XXE,
+    hostile DTDs) so hostile feeds surface as ordinary fetch failures.
+    """
+
+
+# --------------------------------------------------------------------------- #
+# XML cleanup
+# --------------------------------------------------------------------------- #
 
 
 def _clean_xml_entities(raw: str) -> str:
     """Replace bare ``&`` characters that would break XML parsing."""
     return _ENTITY_RE.sub("&amp;", raw)
+
+
+def _clean_xml_bytes(raw: bytes) -> bytes:
+    """Byte-level twin of :func:`_clean_xml_entities`.
+
+    Operates on bytes so the XML parser can honour the encoding declared
+    in the XML prolog (feeds are frequently not UTF-8).
+    """
+    return _ENTITY_RE_BYTES.sub(b"&amp;", raw)
 
 
 # --------------------------------------------------------------------------- #
@@ -74,84 +122,101 @@ def parse_pub_date(raw_date: Any) -> datetime | None:
 
 
 # --------------------------------------------------------------------------- #
-# RSS item field extraction helpers
+# Element helpers (namespace-tolerant via local-name matching)
 # --------------------------------------------------------------------------- #
 
 
-def _extract_title(item: Any) -> str:
-    if not (hasattr(item, "title") and item.title is not None):
-        return ""
-    title_val = item.title.content if hasattr(item.title, "content") else item.title
-    return str(title_val).strip() if title_val is not None else ""
+def _local_name(tag: str) -> str:
+    """Strip any ``{namespace}`` prefix from an element tag."""
+    return tag.rsplit("}", 1)[-1]
 
 
-def _extract_link(item: Any, fallback_url: str) -> str:
-    links = getattr(item, "links", []) or []
-    for link in links:
-        l_content = getattr(link, "content", None)
-        l_attrs = getattr(link, "attributes", {}) or {}
-        if l_content:
-            href = str(l_content).strip()
-            if href:
-                return href
-        if l_attrs.get("href"):
-            href = str(l_attrs["href"]).strip()
-            if href:
-                return href
-    if hasattr(item, "link") and item.link is not None:
-        link_val = item.link.content if hasattr(item.link, "content") else item.link
-        if link_val is not None:
-            href = str(link_val).strip()
-            if href:
-                return href
-    return fallback_url
+def _find_items(root: ET.Element) -> list[ET.Element]:
+    """Find all ``<item>`` / ``<entry>`` elements in any namespace.
+
+    Local-name matching handles RSS 2.0 (``item``), RDF/RSS 1.0
+    (``{http://purl.org/rss/1.0/}item``), and Atom (``{...Atom}entry``)
+    with a single mechanism, and tolerates unusual namespace prefixes.
+    """
+    return [
+        el
+        for el in root.iter()
+        if isinstance(el.tag, str) and _local_name(el.tag) in _ITEM_LOCAL_NAMES
+    ]
 
 
-def _extract_description(item: Any) -> str:
-    # RSS uses ``description``; Atom uses ``summary`` (or ``content``).
-    for attr in ("description", "summary"):
-        val = getattr(item, attr, None)
-        if val is not None:
-            inner = val.content if hasattr(val, "content") else val
-            text = str(inner).strip() if inner is not None else ""
-            if text:
-                return text
-    return ""
-
-
-def _extract_pub_date(item: Any) -> datetime | None:
-    # RSS uses ``pub_date``; Atom uses ``published`` (or ``updated``).
-    for attr in ("pub_date", "published", "updated"):
-        val = getattr(item, attr, None)
-        if val is not None:
-            raw = val.content if hasattr(val, "content") else val
-            dt = parse_pub_date(raw)
-            if dt is not None:
-                return dt
+def _first_child(item: ET.Element, name: str) -> ET.Element | None:
+    """First direct child of *item* whose local name equals *name*."""
+    for child in item:
+        if isinstance(child.tag, str) and _local_name(child.tag) == name:
+            return child
     return None
 
 
-def _extract_items(feed: Any) -> list[Any]:
-    """Extract item/entry list from a parsed RSS or Atom feed.
+def _children_named(item: ET.Element, name: str) -> list[ET.Element]:
+    """All direct children of *item* whose local name equals *name*."""
+    return [
+        child
+        for child in item
+        if isinstance(child.tag, str) and _local_name(child.tag) == name
+    ]
 
-    RSS feeds expose items via ``feed.channel.items``.
-    Atom feeds expose entries via ``feed.feed.content.entries``.
+
+def _text_of(el: ET.Element | None) -> str:
+    """Concatenated, stripped text content of *el* (CDATA-transparent)."""
+    if el is None:
+        return ""
+    return "".join(el.itertext()).strip()
+
+
+# --------------------------------------------------------------------------- #
+# Item field extraction
+# --------------------------------------------------------------------------- #
+
+
+def _extract_link(item: ET.Element) -> str:
+    """Resolve the article URL.
+
+    Order: ``<link>`` element text (RSS/RDF) → Atom ``<link href>``
+    attribute (preferring ``rel="alternate"`` or absent ``rel``) → ``""``.
+    An empty string lets downstream ``entry_id()`` fall back to the title
+    (v1 semantics) instead of collapsing items onto the feed URL.
     """
-    # RSS path
-    channel = getattr(feed, "channel", None)
-    if channel is not None:
-        items = getattr(channel, "items", []) or []
-        return list(items)
+    for el in _children_named(item, "link"):
+        text = _text_of(el)
+        if text:
+            return text
 
-    # Atom path
-    atom_feed = getattr(feed, "feed", None)
-    if atom_feed is not None:
-        feed_content = getattr(atom_feed, "content", None)
-        if feed_content is not None:
-            entries = getattr(feed_content, "entries", []) or []
-            return list(entries)
+    # Atom-style links: href attribute on one or more <link> elements.
+    fallback: str = ""
+    for el in _children_named(item, "link"):
+        href = str(el.attrib.get("href", "")).strip()
+        if not href:
+            continue
+        rel = el.attrib.get("rel", "alternate")
+        if rel == "alternate":
+            return href
+        if not fallback:
+            fallback = href
+    return fallback
 
-    return []
+
+def _extract_description(item: ET.Element) -> str:
+    """First non-empty of description / summary / content / encoded."""
+    for name in ("description", "summary", "content", "encoded"):
+        text = _text_of(_first_child(item, name))
+        if text:
+            return text
+    return ""
+
+
+def _extract_pub_date(item: ET.Element) -> datetime | None:
+    """First parseable of pubDate / dc:date / published / updated."""
+    for name in ("pubDate", "date", "published", "updated"):
+        dt = parse_pub_date(_text_of(_first_child(item, name)))
+        if dt is not None:
+            return dt
+    return None
 
 
 # --------------------------------------------------------------------------- #
@@ -176,21 +241,37 @@ class RSSFetcher:
         cutoff: datetime | None = None,
     ) -> list[RawRecord]:
         """Fetch an RSS/Atom/RDF feed and parse it into raw records."""
-        raw_text = await fetch_text(client, source.scrape_url)
+        raw_bytes = await fetch_bytes(client, source.scrape_url)
+
+        if len(raw_bytes) > MAX_FEED_BYTES:
+            raise FeedParseError(
+                f"Feed body too large ({len(raw_bytes)} bytes > {MAX_FEED_BYTES}) "
+                f"from source {source.name!r}"
+            )
 
         # Clean bare ``&`` entities that break XML parsers.
-        raw_text = _clean_xml_entities(raw_text)
-        feed = parse_rss(raw_text)
+        raw_bytes = _clean_xml_bytes(raw_bytes)
 
-        items = _extract_items(feed)
+        try:
+            root = parse_xml_safe(raw_bytes)
+        except (ET.ParseError, DefusedXmlException) as exc:
+            raise FeedParseError(
+                f"Unparseable XML from source {source.name!r}: {type(exc).__name__}"
+            ) from exc
+
+        limit = (
+            source.max_entries
+            if source.max_entries is not None
+            else DEFAULT_MAX_ENTRIES
+        )
 
         records: list[RawRecord] = []
-        for item in items:
+        for item in _find_items(root)[:limit]:
             records.append(
                 RawRecord(
                     source=source,
-                    title=_extract_title(item),
-                    url=_extract_link(item, source.scrape_url),
+                    title=_text_of(_first_child(item, "title")),
+                    url=_extract_link(item),
                     description=_extract_description(item),
                     pub_date=_extract_pub_date(item),
                 )

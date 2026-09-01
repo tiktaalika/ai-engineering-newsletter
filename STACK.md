@@ -1,4 +1,4 @@
 - Configuration in: tomllib
-- Fetching in: httpx & selectolax & trafilatura & rss-parser
+- Fetching in: httpx & selectolax & trafilatura & xml.etree.ElementTree (hardened with defusedxml)
 - Templating: Jinja2
 - arxiv python wrapper
