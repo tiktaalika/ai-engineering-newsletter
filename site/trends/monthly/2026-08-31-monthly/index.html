@@ -1,0 +1,3834 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Monthly Trend Report</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #191815;
+      --muted: #6f6a60;
+      --line: #d7d0c2;
+      --paper: #f8f5ee;
+      --panel: #fffdf8;
+      --accent: #0b6b5a;
+      --accent-2: #c1492e;
+      --shadow: 0 22px 70px rgba(47, 38, 24, .11);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Charter, "Iowan Old Style", Georgia, serif;
+      background:
+        linear-gradient(90deg, rgba(25,24,21,.035) 1px, transparent 1px) 0 0/38px 38px,
+        linear-gradient(#fbf8f1, #eee7d8);
+      color: var(--ink);
+    }
+    .shell { max-width: 1180px; margin: 0 auto; padding: 34px 22px 80px; }
+    .hero { position: sticky; top: 0; z-index: 5; padding: 22px 0 20px; backdrop-filter: blur(18px); background: color-mix(in srgb, var(--paper) 78%, transparent); border-bottom: 1px solid rgba(25,24,21,.1); }
+    .hero-inner { max-width: 1180px; margin: 0 auto; padding: 0 22px; display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: end; }
+    h1 { margin: 0; font-size: clamp(30px, 4vw, 56px); line-height: 1; letter-spacing: 0; font-weight: 700; }
+    .subtitle { margin: 12px 0 0; color: var(--muted); font-size: 17px; max-width: 760px; }
+    .stamp { text-align: right; font-size: 14px; color: var(--muted); }
+    .nav, .language-switch, .pager { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 28px; }
+    .nav { margin-bottom: 16px; }
+    .nav a, .nav span, .language-switch a, .pager a, .pager span { color: var(--ink); border: 1px solid var(--line); padding: 7px 10px; text-decoration: none; background: rgba(255,255,255,.55); }
+    .nav span, .pager span { color: var(--muted); }
+    .language-switch a.active { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+    .day { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); margin: 28px 0; padding: 24px; }
+    .day.missing { border-style: dashed; }
+    .day-head { display: flex; justify-content: space-between; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 16px; margin-bottom: 22px; }
+    .eyebrow { margin: 0 0 5px; color: var(--accent-2); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; font-family: "Avenir Next", Verdana, sans-serif; }
+    h2 { margin: 0; font-size: 38px; }
+    h3 { margin: 0 0 14px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .audit { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: start; }
+    .audit span { border: 1px solid var(--line); padding: 7px 10px; color: var(--muted); font-family: "Avenir Next", Verdana, sans-serif; font-size: 13px; }
+    .columns { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); gap: 24px; }
+    .medical-section { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .subsection { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--ink); }
+    .item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
+    .paper-push { margin-top: 26px; padding-top: 20px; border-top: 2px solid var(--ink); }
+    .paper-intro { margin: 0 0 8px; color: var(--muted); line-height: 1.5; max-width: 820px; }
+    .paper-item { display: grid; grid-template-columns: 42px 1fr; gap: 12px; padding: 15px 0; border-top: 1px solid var(--line); }
+    .rank { font-family: "Avenir Next", Verdana, sans-serif; color: var(--accent); font-weight: 700; }
+    h4 { margin: 0; font-size: 18px; line-height: 1.25; }
+    .zh-summary { margin: 0 0 7px; font-size: 18px; line-height: 1.38; font-weight: 700; color: var(--ink); }
+    .en-summary { margin: 8px 0 0; font-size: 15px; line-height: 1.46; color: var(--muted); }
+    a { color: var(--ink); text-decoration-color: color-mix(in srgb, var(--accent), transparent 40%); text-underline-offset: 3px; }
+    .meta { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; color: var(--muted); }
+    .meta span { border: 1px solid var(--line); padding: 4px 7px; }
+    .reason { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+    .empty-note { margin: 0; border: 1px dashed var(--line); padding: 14px; color: var(--muted); line-height: 1.45; background: rgba(255,255,255,.42); }
+    .missing-note h3 { margin: 0 0 10px; font-size: 21px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .missing-note p { margin: 0; color: var(--muted); line-height: 1.5; max-width: 760px; }
+    .landing { min-height: 100vh; display: grid; align-items: center; }
+    .landing-panel { max-width: 980px; margin: 0 auto; padding: 44px 22px; }
+    .landing h1 { font-size: clamp(38px, 7vw, 86px); }
+    .landing-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 34px; }
+    .edition { display: block; border: 1px solid var(--line); background: var(--panel); padding: 24px; text-decoration: none; box-shadow: var(--shadow); }
+    .edition strong { display: block; font-size: 28px; margin-bottom: 8px; }
+    .edition span { color: var(--muted); line-height: 1.45; }
+    .trend-panel { background: var(--ink); color: var(--panel); margin: 0 0 28px; padding: 24px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 24px; align-items: end; }
+    .trend-panel .eyebrow { color: #f0b45f; }
+    .trend-panel h2 { font-size: 32px; }
+    .trend-panel p { margin: 10px 0 0; color: rgba(255,253,248,.76); line-height: 1.5; max-width: 720px; }
+    .trend-actions { display: grid; gap: 10px; }
+    .trend-actions a { border: 1px solid rgba(255,253,248,.28); color: var(--panel); padding: 14px; text-decoration: none; background: rgba(255,253,248,.08); }
+    .trend-actions strong { display: block; font-family: "Avenir Next", Verdana, sans-serif; font-size: 14px; margin-bottom: 4px; }
+    .trend-actions span { display: block; color: rgba(255,253,248,.72); font-size: 14px; }
+    .report-document { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); padding: 24px; }
+    .report-document h1 { font-size: 40px; margin-bottom: 14px; }
+    .report-document h2 { border-top: 2px solid var(--ink); margin-top: 30px; padding-top: 18px; font-size: 28px; }
+    .report-document h3 { margin-top: 24px; }
+    .report-document h4 { margin-top: 18px; font-family: "Avenir Next", Verdana, sans-serif; }
+    .report-document p, .report-document li { line-height: 1.5; color: var(--muted); }
+    .report-table-wrap { overflow-x: auto; border: 1px solid var(--line); margin: 14px 0 22px; }
+    .report-table { width: 100%; border-collapse: collapse; min-width: 980px; font-family: "Avenir Next", Verdana, sans-serif; font-size: 12px; }
+    .report-table th, .report-table td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    .report-table th { background: #eee7d8; color: var(--ink); position: sticky; top: 0; }
+    code { background: rgba(11,107,90,.08); padding: 1px 4px; }
+    @media (max-width: 860px) {
+      .hero-inner, .day-head, .columns, .landing-links, .trend-panel { grid-template-columns: 1fr; }
+      .stamp { text-align: left; }
+      .day { padding: 18px; }
+      h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>GitHub Monthly Trend Report</h1>
+        <p class="subtitle">GitHub repository trend monitoring report.</p>
+        <div class="language-switch"><a href="../../../en/index.html#github-trends">Back to Newsletter</a><a href="../../../zh/index.html#github-trends">返回中文页</a></div>
+      </div>
+      <div class="stamp">Trend Monitor<br><strong>Monthly</strong></div>
+    </div>
+  </header>
+  <main class="shell">
+    <article class="report-document">
+      <h1 id="github-monthly-trend-report">GitHub Monthly Trend Report</h1>
+<p>Period: 2026-08-01 to 2026-08-31</p>
+<p>Scoring formula:</p>
+<p><code>trend_score = 0.55 * normalized_star_growth + 0.25 * normalized_total_stars + 0.1 * normalized_recent_activity + 0.1 * normalized_fork_growth</code></p>
+<p>If live collection was unavailable, fallback rows are marked with <code>dummy</code> as the source.</p>
+<h2 id="overall-ranking">Overall Ranking</h2>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/mattpocock/skills">mattpocock/skills</a></td>
+<td>Skills for Real Engineers. Straight from my .agents directory.</td>
+<td>Shell</td>
+<td>241799</td>
+<td>43559</td>
+<td>20564</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>mattpocock</td>
+<td>0.8295</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
+<td>The agent that grows with you</td>
+<td>Python</td>
+<td>238480</td>
+<td>14889</td>
+<td>48562</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>NousResearch</td>
+<td>0.5021</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/obra/superpowers">obra/superpowers</a></td>
+<td>An agentic skills framework &amp; software development methodology that works.</td>
+<td>Shell</td>
+<td>279665</td>
+<td>15085</td>
+<td>25069</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>obra</td>
+<td>0.4508</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></td>
+<td>The open source coding agent.</td>
+<td>TypeScript</td>
+<td>202583</td>
+<td>12682</td>
+<td>26345</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>anomalyco</td>
+<td>0.3984</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first ...</td>
+<td>JavaScript</td>
+<td>244679</td>
+<td>7966</td>
+<td>36982</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>affaan-m</td>
+<td>0.3358</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
+<td>Master programming by recreating your favorite technologies from scratch.</td>
+<td>Markdown</td>
+<td>522544</td>
+<td>0</td>
+<td>49431</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>codecrafters-io</td>
+<td>0.2900</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
+<td>😎 Awesome lists about all kinds of interesting topics</td>
+<td>-</td>
+<td>481643</td>
+<td>0</td>
+<td>35687</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>sindresorhus</td>
+<td>0.2704</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/TauricResearch/TradingAgents">TauricResearch/TradingAgents</a></td>
+<td>TradingAgents: Multi-Agents LLM Financial Trading Framework</td>
+<td>Python</td>
+<td>101869</td>
+<td>6663</td>
+<td>19591</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>TauricResearch</td>
+<td>0.2546</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/public-apis/public-apis">public-apis/public-apis</a></td>
+<td>A collective list of free APIs</td>
+<td>Python</td>
+<td>446717</td>
+<td>0</td>
+<td>49051</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>public-apis</td>
+<td>0.2537</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo/awesome-llm-apps</a></td>
+<td>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</td>
+<td>Python</td>
+<td>135289</td>
+<td>5841</td>
+<td>19881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Shubhamsaboo</td>
+<td>0.2529</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://github.com/ggml-org/llama.cpp">ggml-org/llama.cpp</a></td>
+<td>LLM inference in C/C++</td>
+<td>C++</td>
+<td>126392</td>
+<td>4119</td>
+<td>22499</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>ggml-org</td>
+<td>0.2363</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://github.com/openclaw/openclaw">openclaw/openclaw</a></td>
+<td>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</td>
+<td>TypeScript</td>
+<td>381795</td>
+<td>0</td>
+<td>80050</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>openclaw</td>
+<td>0.2227</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td>Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace....</td>
+<td>TypeScript</td>
+<td>153912</td>
+<td>2950</td>
+<td>24314</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langgenius</td>
+<td>0.2202</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://github.com/rohitg00/ai-engineering-from-scratch">rohitg00/ai-engineering-from-scratch</a></td>
+<td>Learn it. Build it. Ship it for others.</td>
+<td>Python</td>
+<td>51254</td>
+<td>5891</td>
+<td>8881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>rohitg00</td>
+<td>0.2195</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://github.com/nilbuild/developer-roadmap">nilbuild/developer-roadmap</a></td>
+<td>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</td>
+<td>TypeScript</td>
+<td>359336</td>
+<td>0</td>
+<td>44374</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>nilbuild</td>
+<td>0.2119</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
+<td>A high-throughput and memory-efficient inference and serving engine for LLMs</td>
+<td>Python</td>
+<td>90509</td>
+<td>2675</td>
+<td>21438</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>vllm-project</td>
+<td>0.2009</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></td>
+<td>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding a...</td>
+<td>Python</td>
+<td>68110</td>
+<td>4432</td>
+<td>5279</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>headroomlabs-ai</td>
+<td>0.1967</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://github.com/punkpeye/awesome-mcp-servers">punkpeye/awesome-mcp-servers</a></td>
+<td>A collection of MCP servers.</td>
+<td>-</td>
+<td>93284</td>
+<td>1613</td>
+<td>15307</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>punkpeye</td>
+<td>0.1919</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG wi...</td>
+<td>Go</td>
+<td>89669</td>
+<td>3121</td>
+<td>10572</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>infiniflow</td>
+<td>0.1897</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://github.com/vinta/awesome-python">vinta/awesome-python</a></td>
+<td>An opinionated list of Python frameworks, libraries, tools, and resources</td>
+<td>Python</td>
+<td>306401</td>
+<td>0</td>
+<td>28219</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>vinta</td>
+<td>0.1866</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted">awesome-selfhosted/awesome-selfhosted</a></td>
+<td>A list of Free Software network services and web applications which can be hosted on your own servers</td>
+<td>-</td>
+<td>302937</td>
+<td>0</td>
+<td>14126</td>
+<td>2026-07-05</td>
+<td>LLM Infrastructure</td>
+<td>awesome-selfhosted</td>
+<td>0.1849</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp</a></td>
+<td>High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — averag...</td>
+<td>C</td>
+<td>41293</td>
+<td>4399</td>
+<td>3364</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>DeusData</td>
+<td>0.1837</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo</a></td>
+<td>🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows,...</td>
+<td>TypeScript</td>
+<td>69830</td>
+<td>3104</td>
+<td>8348</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>ruvnet</td>
+<td>0.1797</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://github.com/t8y2/dbx">t8y2/dbx</a></td>
+<td>20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Re...</td>
+<td>Rust</td>
+<td>17477</td>
+<td>4599</td>
+<td>1711</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>t8y2</td>
+<td>0.1751</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></td>
+<td>The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format ...</td>
+<td>Python</td>
+<td>57611</td>
+<td>2380</td>
+<td>11027</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>BerriAI</td>
+<td>0.1721</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://github.com/modelcontextprotocol/servers">modelcontextprotocol/servers</a></td>
+<td>Model Context Protocol Servers</td>
+<td>TypeScript</td>
+<td>89973</td>
+<td>863</td>
+<td>11539</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>modelcontextprotocol</td>
+<td>0.1575</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="https://github.com/sgl-project/sglang">sgl-project/sglang</a></td>
+<td>SGLang is a high-performance serving framework for large language models and multimodal models.</td>
+<td>Python</td>
+<td>32935</td>
+<td>1898</td>
+<td>8372</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>sgl-project</td>
+<td>0.1545</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="https://github.com/CherryHQ/cherry-studio">CherryHQ/cherry-studio</a></td>
+<td>AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier ...</td>
+<td>TypeScript</td>
+<td>51265</td>
+<td>2030</td>
+<td>4896</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>CherryHQ</td>
+<td>0.1540</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="https://github.com/langchain-ai/langgraph">langchain-ai/langgraph</a></td>
+<td>Build resilient agents.</td>
+<td>Python</td>
+<td>40723</td>
+<td>2119</td>
+<td>6869</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langchain-ai</td>
+<td>0.1528</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="https://github.com/crewAIInc/crewAI">crewAIInc/crewAI</a></td>
+<td>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Cr...</td>
+<td>Python</td>
+<td>57834</td>
+<td>1384</td>
+<td>8284</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>crewAIInc</td>
+<td>0.1499</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h2 id="core-metrics">Core Metrics</h2>
+<h3 id="fastest-growing-repositories">Fastest-Growing Repositories</h3>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/mattpocock/skills">mattpocock/skills</a></td>
+<td>Skills for Real Engineers. Straight from my .agents directory.</td>
+<td>Shell</td>
+<td>241799</td>
+<td>43559</td>
+<td>20564</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>mattpocock</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/obra/superpowers">obra/superpowers</a></td>
+<td>An agentic skills framework &amp; software development methodology that works.</td>
+<td>Shell</td>
+<td>279665</td>
+<td>15085</td>
+<td>25069</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>obra</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
+<td>The agent that grows with you</td>
+<td>Python</td>
+<td>238480</td>
+<td>14889</td>
+<td>48562</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>NousResearch</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></td>
+<td>The open source coding agent.</td>
+<td>TypeScript</td>
+<td>202583</td>
+<td>12682</td>
+<td>26345</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>anomalyco</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first ...</td>
+<td>JavaScript</td>
+<td>244679</td>
+<td>7966</td>
+<td>36982</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>affaan-m</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/TauricResearch/TradingAgents">TauricResearch/TradingAgents</a></td>
+<td>TradingAgents: Multi-Agents LLM Financial Trading Framework</td>
+<td>Python</td>
+<td>101869</td>
+<td>6663</td>
+<td>19591</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>TauricResearch</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/rohitg00/ai-engineering-from-scratch">rohitg00/ai-engineering-from-scratch</a></td>
+<td>Learn it. Build it. Ship it for others.</td>
+<td>Python</td>
+<td>51254</td>
+<td>5891</td>
+<td>8881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>rohitg00</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo/awesome-llm-apps</a></td>
+<td>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</td>
+<td>Python</td>
+<td>135289</td>
+<td>5841</td>
+<td>19881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Shubhamsaboo</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/t8y2/dbx">t8y2/dbx</a></td>
+<td>20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Re...</td>
+<td>Rust</td>
+<td>17477</td>
+<td>4599</td>
+<td>1711</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>t8y2</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></td>
+<td>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding a...</td>
+<td>Python</td>
+<td>68110</td>
+<td>4432</td>
+<td>5279</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>headroomlabs-ai</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp</a></td>
+<td>High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — averag...</td>
+<td>C</td>
+<td>41293</td>
+<td>4399</td>
+<td>3364</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>DeusData</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://github.com/ggml-org/llama.cpp">ggml-org/llama.cpp</a></td>
+<td>LLM inference in C/C++</td>
+<td>C++</td>
+<td>126392</td>
+<td>4119</td>
+<td>22499</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>ggml-org</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG wi...</td>
+<td>Go</td>
+<td>89669</td>
+<td>3121</td>
+<td>10572</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>infiniflow</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo</a></td>
+<td>🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows,...</td>
+<td>TypeScript</td>
+<td>69830</td>
+<td>3104</td>
+<td>8348</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>ruvnet</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td>Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace....</td>
+<td>TypeScript</td>
+<td>153912</td>
+<td>2950</td>
+<td>24314</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langgenius</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://github.com/jundot/omlx">jundot/omlx</a></td>
+<td>LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu...</td>
+<td>Python</td>
+<td>21048</td>
+<td>2688</td>
+<td>1786</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>jundot</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
+<td>A high-throughput and memory-efficient inference and serving engine for LLMs</td>
+<td>Python</td>
+<td>90509</td>
+<td>2675</td>
+<td>21438</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>vllm-project</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></td>
+<td>The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format ...</td>
+<td>Python</td>
+<td>57611</td>
+<td>2380</td>
+<td>11027</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>BerriAI</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://github.com/langchain-ai/langgraph">langchain-ai/langgraph</a></td>
+<td>Build resilient agents.</td>
+<td>Python</td>
+<td>40723</td>
+<td>2119</td>
+<td>6869</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langchain-ai</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://github.com/CherryHQ/cherry-studio">CherryHQ/cherry-studio</a></td>
+<td>AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier ...</td>
+<td>TypeScript</td>
+<td>51265</td>
+<td>2030</td>
+<td>4896</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>CherryHQ</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://github.com/sgl-project/sglang">sgl-project/sglang</a></td>
+<td>SGLang is a high-performance serving framework for large language models and multimodal models.</td>
+<td>Python</td>
+<td>32935</td>
+<td>1898</td>
+<td>8372</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>sgl-project</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://github.com/earthtojake/text-to-cad">earthtojake/text-to-cad</a></td>
+<td>A library of agent skills for CAD, CAE and CAM</td>
+<td>Python</td>
+<td>14048</td>
+<td>1746</td>
+<td>1494</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>earthtojake</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://github.com/langfuse/langfuse">langfuse/langfuse</a></td>
+<td>🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, da...</td>
+<td>TypeScript</td>
+<td>33938</td>
+<td>1670</td>
+<td>3666</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>langfuse</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://github.com/punkpeye/awesome-mcp-servers">punkpeye/awesome-mcp-servers</a></td>
+<td>A collection of MCP servers.</td>
+<td>-</td>
+<td>93284</td>
+<td>1613</td>
+<td>15307</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>punkpeye</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://github.com/liyupi/ai-guide">liyupi/ai-guide</a></td>
+<td>程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯...</td>
+<td>JavaScript</td>
+<td>19311</td>
+<td>1402</td>
+<td>2184</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>liyupi</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://github.com/crewAIInc/crewAI">crewAIInc/crewAI</a></td>
+<td>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Cr...</td>
+<td>Python</td>
+<td>57834</td>
+<td>1384</td>
+<td>8284</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>crewAIInc</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="https://github.com/adongwanai/AgentGuide">adongwanai/AgentGuide</a></td>
+<td>https://adongwanai.github.io/AgentGuide / AI Agent开发指南 / LangGraph实战 / 高级RAG / 转行大模型 / 大模型面试 / 算法工程师 / 面试题库...</td>
+<td>HTML</td>
+<td>8970</td>
+<td>1327</td>
+<td>877</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>adongwanai</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="https://github.com/danny-avila/LibreChat">danny-avila/LibreChat</a></td>
+<td>Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azur...</td>
+<td>TypeScript</td>
+<td>42627</td>
+<td>1117</td>
+<td>8822</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>danny-avila</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI">RVC-Project/Retrieval-based-Voice-Conversion-WebUI</a></td>
+<td>Easily train a good VC model with voice data &lt;= 10 mins!</td>
+<td>Python</td>
+<td>37946</td>
+<td>1087</td>
+<td>5250</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>RVC-Project</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></td>
+<td>Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory...</td>
+<td>Python</td>
+<td>47539</td>
+<td>1054</td>
+<td>8387</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>HKUDS</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h3 id="highest-total-stars">Highest Total Stars</h3>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
+<td>Master programming by recreating your favorite technologies from scratch.</td>
+<td>Markdown</td>
+<td>522544</td>
+<td>0</td>
+<td>49431</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>codecrafters-io</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
+<td>😎 Awesome lists about all kinds of interesting topics</td>
+<td>-</td>
+<td>481643</td>
+<td>0</td>
+<td>35687</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>sindresorhus</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/public-apis/public-apis">public-apis/public-apis</a></td>
+<td>A collective list of free APIs</td>
+<td>Python</td>
+<td>446717</td>
+<td>0</td>
+<td>49051</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>public-apis</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/openclaw/openclaw">openclaw/openclaw</a></td>
+<td>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</td>
+<td>TypeScript</td>
+<td>381795</td>
+<td>0</td>
+<td>80050</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>openclaw</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/nilbuild/developer-roadmap">nilbuild/developer-roadmap</a></td>
+<td>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</td>
+<td>TypeScript</td>
+<td>359336</td>
+<td>0</td>
+<td>44374</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>nilbuild</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/vinta/awesome-python">vinta/awesome-python</a></td>
+<td>An opinionated list of Python frameworks, libraries, tools, and resources</td>
+<td>Python</td>
+<td>306401</td>
+<td>0</td>
+<td>28219</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>vinta</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted">awesome-selfhosted/awesome-selfhosted</a></td>
+<td>A list of Free Software network services and web applications which can be hosted on your own servers</td>
+<td>-</td>
+<td>302937</td>
+<td>0</td>
+<td>14126</td>
+<td>2026-07-05</td>
+<td>LLM Infrastructure</td>
+<td>awesome-selfhosted</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/obra/superpowers">obra/superpowers</a></td>
+<td>An agentic skills framework &amp; software development methodology that works.</td>
+<td>Shell</td>
+<td>279665</td>
+<td>15085</td>
+<td>25069</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>obra</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first ...</td>
+<td>JavaScript</td>
+<td>244679</td>
+<td>7966</td>
+<td>36982</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>affaan-m</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/mattpocock/skills">mattpocock/skills</a></td>
+<td>Skills for Real Engineers. Straight from my .agents directory.</td>
+<td>Shell</td>
+<td>241799</td>
+<td>43559</td>
+<td>20564</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>mattpocock</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
+<td>The agent that grows with you</td>
+<td>Python</td>
+<td>238480</td>
+<td>14889</td>
+<td>48562</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>NousResearch</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></td>
+<td>The open source coding agent.</td>
+<td>TypeScript</td>
+<td>202583</td>
+<td>12682</td>
+<td>26345</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>anomalyco</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://github.com/ultraworkers/claw-code">ultraworkers/claw-code</a></td>
+<td>An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with ...</td>
+<td>Rust</td>
+<td>194954</td>
+<td>0</td>
+<td>109354</td>
+<td>2026-08-02</td>
+<td>AI Agent</td>
+<td>ultraworkers</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://github.com/flutter/flutter">flutter/flutter</a></td>
+<td>Flutter makes it easy and fast to build beautiful apps for mobile and beyond</td>
+<td>Dart</td>
+<td>177628</td>
+<td>0</td>
+<td>30595</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>flutter</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://github.com/avelino/awesome-go">avelino/awesome-go</a></td>
+<td>A curated list of awesome Go frameworks, libraries and software</td>
+<td>Go</td>
+<td>177205</td>
+<td>0</td>
+<td>13388</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>avelino</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
+<td>Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</td>
+<td>Go</td>
+<td>175495</td>
+<td>0</td>
+<td>16842</td>
+<td>2026-07-05</td>
+<td>LLM Infrastructure</td>
+<td>ollama</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td>Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace....</td>
+<td>TypeScript</td>
+<td>153912</td>
+<td>2950</td>
+<td>24314</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langgenius</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://github.com/langflow-ai/langflow">langflow-ai/langflow</a></td>
+<td>Langflow is a powerful tool for building and deploying AI-powered agents and workflows.</td>
+<td>Python</td>
+<td>151164</td>
+<td>0</td>
+<td>9434</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>langflow-ai</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
+<td>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</td>
+<td>Python</td>
+<td>144250</td>
+<td>0</td>
+<td>20841</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>open-webui</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
+<td>The agent engineering platform.</td>
+<td>Python</td>
+<td>140962</td>
+<td>0</td>
+<td>23411</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>langchain-ai</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo/awesome-llm-apps</a></td>
+<td>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</td>
+<td>Python</td>
+<td>135289</td>
+<td>5841</td>
+<td>19881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Shubhamsaboo</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://github.com/ggml-org/llama.cpp">ggml-org/llama.cpp</a></td>
+<td>LLM inference in C/C++</td>
+<td>C++</td>
+<td>126392</td>
+<td>4119</td>
+<td>22499</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>ggml-org</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://github.com/farion1231/cc-switch">farion1231/cc-switch</a></td>
+<td>A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI &amp; Herm...</td>
+<td>Rust</td>
+<td>113346</td>
+<td>0</td>
+<td>7544</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>farion1231</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://github.com/microsoft/generative-ai-for-beginners">microsoft/generative-ai-for-beginners</a></td>
+<td>21 Lessons, Get Started Building with Generative AI</td>
+<td>Jupyter Notebook</td>
+<td>112661</td>
+<td>0</td>
+<td>60502</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>microsoft</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></td>
+<td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
+<td>TypeScript</td>
+<td>105749</td>
+<td>0</td>
+<td>14204</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>google-gemini</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://github.com/TauricResearch/TradingAgents">TauricResearch/TradingAgents</a></td>
+<td>TradingAgents: Multi-Agents LLM Financial Trading Framework</td>
+<td>Python</td>
+<td>101869</td>
+<td>6663</td>
+<td>19591</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>TauricResearch</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="https://github.com/punkpeye/awesome-mcp-servers">punkpeye/awesome-mcp-servers</a></td>
+<td>A collection of MCP servers.</td>
+<td>-</td>
+<td>93284</td>
+<td>1613</td>
+<td>15307</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>punkpeye</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="https://github.com/microsoft/playwright">microsoft/playwright</a></td>
+<td>Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit wi...</td>
+<td>TypeScript</td>
+<td>92228</td>
+<td>0</td>
+<td>6037</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>microsoft</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
+<td>A high-throughput and memory-efficient inference and serving engine for LLMs</td>
+<td>Python</td>
+<td>90509</td>
+<td>2675</td>
+<td>21438</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>vllm-project</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="https://github.com/modelcontextprotocol/servers">modelcontextprotocol/servers</a></td>
+<td>Model Context Protocol Servers</td>
+<td>TypeScript</td>
+<td>89973</td>
+<td>863</td>
+<td>11539</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>modelcontextprotocol</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h2 id="category-rankings">Category Rankings</h2>
+<h3 id="ai-agent">AI Agent</h3>
+<h4 id="top-by-star-growth">Top by Star Growth</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/mattpocock/skills">mattpocock/skills</a></td>
+<td>Skills for Real Engineers. Straight from my .agents directory.</td>
+<td>Shell</td>
+<td>241799</td>
+<td>43559</td>
+<td>20564</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>mattpocock</td>
+<td>0.8295</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/obra/superpowers">obra/superpowers</a></td>
+<td>An agentic skills framework &amp; software development methodology that works.</td>
+<td>Shell</td>
+<td>279665</td>
+<td>15085</td>
+<td>25069</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>obra</td>
+<td>0.4508</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
+<td>The agent that grows with you</td>
+<td>Python</td>
+<td>238480</td>
+<td>14889</td>
+<td>48562</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>NousResearch</td>
+<td>0.5021</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></td>
+<td>The open source coding agent.</td>
+<td>TypeScript</td>
+<td>202583</td>
+<td>12682</td>
+<td>26345</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>anomalyco</td>
+<td>0.3984</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first ...</td>
+<td>JavaScript</td>
+<td>244679</td>
+<td>7966</td>
+<td>36982</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>affaan-m</td>
+<td>0.3358</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/TauricResearch/TradingAgents">TauricResearch/TradingAgents</a></td>
+<td>TradingAgents: Multi-Agents LLM Financial Trading Framework</td>
+<td>Python</td>
+<td>101869</td>
+<td>6663</td>
+<td>19591</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>TauricResearch</td>
+<td>0.2546</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/rohitg00/ai-engineering-from-scratch">rohitg00/ai-engineering-from-scratch</a></td>
+<td>Learn it. Build it. Ship it for others.</td>
+<td>Python</td>
+<td>51254</td>
+<td>5891</td>
+<td>8881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>rohitg00</td>
+<td>0.2195</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo/awesome-llm-apps</a></td>
+<td>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</td>
+<td>Python</td>
+<td>135289</td>
+<td>5841</td>
+<td>19881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Shubhamsaboo</td>
+<td>0.2529</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></td>
+<td>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding a...</td>
+<td>Python</td>
+<td>68110</td>
+<td>4432</td>
+<td>5279</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>headroomlabs-ai</td>
+<td>0.1967</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG wi...</td>
+<td>Go</td>
+<td>89669</td>
+<td>3121</td>
+<td>10572</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>infiniflow</td>
+<td>0.1897</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="top-by-total-stars">Top by Total Stars</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/nilbuild/developer-roadmap">nilbuild/developer-roadmap</a></td>
+<td>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</td>
+<td>TypeScript</td>
+<td>359336</td>
+<td>0</td>
+<td>44374</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>nilbuild</td>
+<td>0.2119</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/obra/superpowers">obra/superpowers</a></td>
+<td>An agentic skills framework &amp; software development methodology that works.</td>
+<td>Shell</td>
+<td>279665</td>
+<td>15085</td>
+<td>25069</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>obra</td>
+<td>0.4508</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first ...</td>
+<td>JavaScript</td>
+<td>244679</td>
+<td>7966</td>
+<td>36982</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>affaan-m</td>
+<td>0.3358</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/mattpocock/skills">mattpocock/skills</a></td>
+<td>Skills for Real Engineers. Straight from my .agents directory.</td>
+<td>Shell</td>
+<td>241799</td>
+<td>43559</td>
+<td>20564</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>mattpocock</td>
+<td>0.8295</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
+<td>The agent that grows with you</td>
+<td>Python</td>
+<td>238480</td>
+<td>14889</td>
+<td>48562</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>NousResearch</td>
+<td>0.5021</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></td>
+<td>The open source coding agent.</td>
+<td>TypeScript</td>
+<td>202583</td>
+<td>12682</td>
+<td>26345</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>anomalyco</td>
+<td>0.3984</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/ultraworkers/claw-code">ultraworkers/claw-code</a></td>
+<td>An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with ...</td>
+<td>Rust</td>
+<td>194954</td>
+<td>0</td>
+<td>109354</td>
+<td>2026-08-02</td>
+<td>AI Agent</td>
+<td>ultraworkers</td>
+<td>0.1333</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td>Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace....</td>
+<td>TypeScript</td>
+<td>153912</td>
+<td>2950</td>
+<td>24314</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langgenius</td>
+<td>0.2202</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/langflow-ai/langflow">langflow-ai/langflow</a></td>
+<td>Langflow is a powerful tool for building and deploying AI-powered agents and workflows.</td>
+<td>Python</td>
+<td>151164</td>
+<td>0</td>
+<td>9434</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>langflow-ai</td>
+<td>0.1123</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
+<td>The agent engineering platform.</td>
+<td>Python</td>
+<td>140962</td>
+<td>0</td>
+<td>23411</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>langchain-ai</td>
+<td>0.1074</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="newly-emerging">Newly Emerging</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/Cai-aa/CAE-Agent-Hub">Cai-aa/CAE-Agent-Hub</a></td>
+<td>-</td>
+<td>Python</td>
+<td>803</td>
+<td>168</td>
+<td>104</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Cai-aa</td>
+<td>0.1029</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/chirpz-ai/pandaprobe">chirpz-ai/pandaprobe</a></td>
+<td>open source agent engineering platform: traces, evals, and metrics to debug and improve your AI agents. Int...</td>
+<td>Python</td>
+<td>783</td>
+<td>67</td>
+<td>117</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>chirpz-ai</td>
+<td>0.1015</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/CoWork-OS/CoWork-OS">CoWork-OS/CoWork-OS</a></td>
+<td>Local-first personal agentic OS and everything app for coding, knowledge work, web design, automations, and...</td>
+<td>TypeScript</td>
+<td>440</td>
+<td>28</td>
+<td>72</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>CoWork-OS</td>
+<td>0.1007</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/Cesarjoquin/Marketing-Skills">Cesarjoquin/Marketing-Skills</a></td>
+<td>AI agent Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, ai agent, and gr...</td>
+<td>TypeScript</td>
+<td>171</td>
+<td>16</td>
+<td>1235</td>
+<td>2026-08-14</td>
+<td>AI Agent</td>
+<td>Cesarjoquin</td>
+<td>0.0403</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/strnad/CrewAI-Studio">strnad/CrewAI-Studio</a></td>
+<td>A user-friendly, multi-platform GUI for managing and running CrewAI agents and tasks. Supports Conda and vi...</td>
+<td>Python</td>
+<td>1347</td>
+<td>15</td>
+<td>321</td>
+<td>2026-08-28</td>
+<td>AI Agent</td>
+<td>strnad</td>
+<td>0.0709</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/StoneSteel27/AutomatiQ">StoneSteel27/AutomatiQ</a></td>
+<td>Reverse-engineering AI assistant for the Web</td>
+<td>Python</td>
+<td>166</td>
+<td>13</td>
+<td>13</td>
+<td>2026-08-28</td>
+<td>AI Agent</td>
+<td>StoneSteel27</td>
+<td>0.1003</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h3 id="mcp">MCP</h3>
+<h4 id="top-by-star-growth">Top by Star Growth</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first ...</td>
+<td>JavaScript</td>
+<td>244679</td>
+<td>7966</td>
+<td>36982</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>affaan-m</td>
+<td>0.3358</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/rohitg00/ai-engineering-from-scratch">rohitg00/ai-engineering-from-scratch</a></td>
+<td>Learn it. Build it. Ship it for others.</td>
+<td>Python</td>
+<td>51254</td>
+<td>5891</td>
+<td>8881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>rohitg00</td>
+<td>0.2195</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/t8y2/dbx">t8y2/dbx</a></td>
+<td>20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Re...</td>
+<td>Rust</td>
+<td>17477</td>
+<td>4599</td>
+<td>1711</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>t8y2</td>
+<td>0.1751</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></td>
+<td>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding a...</td>
+<td>Python</td>
+<td>68110</td>
+<td>4432</td>
+<td>5279</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>headroomlabs-ai</td>
+<td>0.1967</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp</a></td>
+<td>High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — averag...</td>
+<td>C</td>
+<td>41293</td>
+<td>4399</td>
+<td>3364</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>DeusData</td>
+<td>0.1837</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo</a></td>
+<td>🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows,...</td>
+<td>TypeScript</td>
+<td>69830</td>
+<td>3104</td>
+<td>8348</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>ruvnet</td>
+<td>0.1797</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td>Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace....</td>
+<td>TypeScript</td>
+<td>153912</td>
+<td>2950</td>
+<td>24314</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langgenius</td>
+<td>0.2202</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></td>
+<td>The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format ...</td>
+<td>Python</td>
+<td>57611</td>
+<td>2380</td>
+<td>11027</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>BerriAI</td>
+<td>0.1721</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/punkpeye/awesome-mcp-servers">punkpeye/awesome-mcp-servers</a></td>
+<td>A collection of MCP servers.</td>
+<td>-</td>
+<td>93284</td>
+<td>1613</td>
+<td>15307</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>punkpeye</td>
+<td>0.1919</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/liyupi/ai-guide">liyupi/ai-guide</a></td>
+<td>程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯...</td>
+<td>JavaScript</td>
+<td>19311</td>
+<td>1402</td>
+<td>2184</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>liyupi</td>
+<td>0.0998</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="top-by-total-stars">Top by Total Stars</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/openclaw/openclaw">openclaw/openclaw</a></td>
+<td>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</td>
+<td>TypeScript</td>
+<td>381795</td>
+<td>0</td>
+<td>80050</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>openclaw</td>
+<td>0.2227</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first ...</td>
+<td>JavaScript</td>
+<td>244679</td>
+<td>7966</td>
+<td>36982</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>affaan-m</td>
+<td>0.3358</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td>Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace....</td>
+<td>TypeScript</td>
+<td>153912</td>
+<td>2950</td>
+<td>24314</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langgenius</td>
+<td>0.2202</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
+<td>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</td>
+<td>Python</td>
+<td>144250</td>
+<td>0</td>
+<td>20841</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>open-webui</td>
+<td>0.1090</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/farion1231/cc-switch">farion1231/cc-switch</a></td>
+<td>A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI &amp; Herm...</td>
+<td>Rust</td>
+<td>113346</td>
+<td>0</td>
+<td>7544</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>farion1231</td>
+<td>0.0942</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></td>
+<td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td>
+<td>TypeScript</td>
+<td>105749</td>
+<td>0</td>
+<td>14204</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>google-gemini</td>
+<td>0.0906</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/punkpeye/awesome-mcp-servers">punkpeye/awesome-mcp-servers</a></td>
+<td>A collection of MCP servers.</td>
+<td>-</td>
+<td>93284</td>
+<td>1613</td>
+<td>15307</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>punkpeye</td>
+<td>0.1919</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/microsoft/playwright">microsoft/playwright</a></td>
+<td>Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit wi...</td>
+<td>TypeScript</td>
+<td>92228</td>
+<td>0</td>
+<td>6037</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>microsoft</td>
+<td>0.0841</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/modelcontextprotocol/servers">modelcontextprotocol/servers</a></td>
+<td>Model Context Protocol Servers</td>
+<td>TypeScript</td>
+<td>89973</td>
+<td>863</td>
+<td>11539</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>modelcontextprotocol</td>
+<td>0.1575</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo</a></td>
+<td>🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows,...</td>
+<td>TypeScript</td>
+<td>69830</td>
+<td>3104</td>
+<td>8348</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>ruvnet</td>
+<td>0.1797</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="newly-emerging">Newly Emerging</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/wjc9011/COMSOL_Multiphysics_MCP">wjc9011/COMSOL_Multiphysics_MCP</a></td>
+<td>-</td>
+<td>Python</td>
+<td>674</td>
+<td>71</td>
+<td>66</td>
+<td>2026-08-29</td>
+<td>Simulation</td>
+<td>wjc9011</td>
+<td>0.0713</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/CoWork-OS/CoWork-OS">CoWork-OS/CoWork-OS</a></td>
+<td>Local-first personal agentic OS and everything app for coding, knowledge work, web design, automations, and...</td>
+<td>TypeScript</td>
+<td>440</td>
+<td>28</td>
+<td>72</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>CoWork-OS</td>
+<td>0.1007</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h3 id="rag">RAG</h3>
+<h4 id="top-by-star-growth">Top by Star Growth</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo/awesome-llm-apps</a></td>
+<td>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</td>
+<td>Python</td>
+<td>135289</td>
+<td>5841</td>
+<td>19881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Shubhamsaboo</td>
+<td>0.2529</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></td>
+<td>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding a...</td>
+<td>Python</td>
+<td>68110</td>
+<td>4432</td>
+<td>5279</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>headroomlabs-ai</td>
+<td>0.1967</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp</a></td>
+<td>High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — averag...</td>
+<td>C</td>
+<td>41293</td>
+<td>4399</td>
+<td>3364</td>
+<td>2026-08-30</td>
+<td>MCP</td>
+<td>DeusData</td>
+<td>0.1837</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG wi...</td>
+<td>Go</td>
+<td>89669</td>
+<td>3121</td>
+<td>10572</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>infiniflow</td>
+<td>0.1897</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo</a></td>
+<td>🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows,...</td>
+<td>TypeScript</td>
+<td>69830</td>
+<td>3104</td>
+<td>8348</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>ruvnet</td>
+<td>0.1797</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td>Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace....</td>
+<td>TypeScript</td>
+<td>153912</td>
+<td>2950</td>
+<td>24314</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langgenius</td>
+<td>0.2202</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/langchain-ai/langgraph">langchain-ai/langgraph</a></td>
+<td>Build resilient agents.</td>
+<td>Python</td>
+<td>40723</td>
+<td>2119</td>
+<td>6869</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langchain-ai</td>
+<td>0.1528</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/liyupi/ai-guide">liyupi/ai-guide</a></td>
+<td>程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯...</td>
+<td>JavaScript</td>
+<td>19311</td>
+<td>1402</td>
+<td>2184</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>liyupi</td>
+<td>0.0998</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/adongwanai/AgentGuide">adongwanai/AgentGuide</a></td>
+<td>https://adongwanai.github.io/AgentGuide / AI Agent开发指南 / LangGraph实战 / 高级RAG / 转行大模型 / 大模型面试 / 算法工程师 / 面试题库...</td>
+<td>HTML</td>
+<td>8970</td>
+<td>1327</td>
+<td>877</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>adongwanai</td>
+<td>0.1232</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI">RVC-Project/Retrieval-based-Voice-Conversion-WebUI</a></td>
+<td>Easily train a good VC model with voice data &lt;= 10 mins!</td>
+<td>Python</td>
+<td>37946</td>
+<td>1087</td>
+<td>5250</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>RVC-Project</td>
+<td>0.1034</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="top-by-total-stars">Top by Total Stars</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/codecrafters-io/build-your-own-x">codecrafters-io/build-your-own-x</a></td>
+<td>Master programming by recreating your favorite technologies from scratch.</td>
+<td>Markdown</td>
+<td>522544</td>
+<td>0</td>
+<td>49431</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>codecrafters-io</td>
+<td>0.2900</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a></td>
+<td>😎 Awesome lists about all kinds of interesting topics</td>
+<td>-</td>
+<td>481643</td>
+<td>0</td>
+<td>35687</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>sindresorhus</td>
+<td>0.2704</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/public-apis/public-apis">public-apis/public-apis</a></td>
+<td>A collective list of free APIs</td>
+<td>Python</td>
+<td>446717</td>
+<td>0</td>
+<td>49051</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>public-apis</td>
+<td>0.2537</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/vinta/awesome-python">vinta/awesome-python</a></td>
+<td>An opinionated list of Python frameworks, libraries, tools, and resources</td>
+<td>Python</td>
+<td>306401</td>
+<td>0</td>
+<td>28219</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>vinta</td>
+<td>0.1866</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/flutter/flutter">flutter/flutter</a></td>
+<td>Flutter makes it easy and fast to build beautiful apps for mobile and beyond</td>
+<td>Dart</td>
+<td>177628</td>
+<td>0</td>
+<td>30595</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>flutter</td>
+<td>0.1250</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/avelino/awesome-go">avelino/awesome-go</a></td>
+<td>A curated list of awesome Go frameworks, libraries and software</td>
+<td>Go</td>
+<td>177205</td>
+<td>0</td>
+<td>13388</td>
+<td>2026-07-05</td>
+<td>RAG</td>
+<td>avelino</td>
+<td>0.1248</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td>Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace....</td>
+<td>TypeScript</td>
+<td>153912</td>
+<td>2950</td>
+<td>24314</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>langgenius</td>
+<td>0.2202</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
+<td>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</td>
+<td>Python</td>
+<td>144250</td>
+<td>0</td>
+<td>20841</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>open-webui</td>
+<td>0.1090</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
+<td>The agent engineering platform.</td>
+<td>Python</td>
+<td>140962</td>
+<td>0</td>
+<td>23411</td>
+<td>2026-07-05</td>
+<td>AI Agent</td>
+<td>langchain-ai</td>
+<td>0.1074</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Shubhamsaboo/awesome-llm-apps</a></td>
+<td>100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.</td>
+<td>Python</td>
+<td>135289</td>
+<td>5841</td>
+<td>19881</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Shubhamsaboo</td>
+<td>0.2529</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="newly-emerging">Newly Emerging</h4>
+<p>No emerging low-star/high-growth repositories found.</p>
+<h3 id="llm-infrastructure">LLM Infrastructure</h3>
+<h4 id="top-by-star-growth">Top by Star Growth</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/ggml-org/llama.cpp">ggml-org/llama.cpp</a></td>
+<td>LLM inference in C/C++</td>
+<td>C++</td>
+<td>126392</td>
+<td>4119</td>
+<td>22499</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>ggml-org</td>
+<td>0.2363</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG wi...</td>
+<td>Go</td>
+<td>89669</td>
+<td>3121</td>
+<td>10572</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>infiniflow</td>
+<td>0.1897</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/jundot/omlx">jundot/omlx</a></td>
+<td>LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu...</td>
+<td>Python</td>
+<td>21048</td>
+<td>2688</td>
+<td>1786</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>jundot</td>
+<td>0.1479</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
+<td>A high-throughput and memory-efficient inference and serving engine for LLMs</td>
+<td>Python</td>
+<td>90509</td>
+<td>2675</td>
+<td>21438</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>vllm-project</td>
+<td>0.2009</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></td>
+<td>The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format ...</td>
+<td>Python</td>
+<td>57611</td>
+<td>2380</td>
+<td>11027</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>BerriAI</td>
+<td>0.1721</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/sgl-project/sglang">sgl-project/sglang</a></td>
+<td>SGLang is a high-performance serving framework for large language models and multimodal models.</td>
+<td>Python</td>
+<td>32935</td>
+<td>1898</td>
+<td>8372</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>sgl-project</td>
+<td>0.1545</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/langfuse/langfuse">langfuse/langfuse</a></td>
+<td>🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, da...</td>
+<td>TypeScript</td>
+<td>33938</td>
+<td>1670</td>
+<td>3666</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>langfuse</td>
+<td>0.1410</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI">RVC-Project/Retrieval-based-Voice-Conversion-WebUI</a></td>
+<td>Easily train a good VC model with voice data &lt;= 10 mins!</td>
+<td>Python</td>
+<td>37946</td>
+<td>1087</td>
+<td>5250</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>RVC-Project</td>
+<td>0.1034</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/HKUDS/LightRAG">HKUDS/LightRAG</a></td>
+<td>[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation</td>
+<td>Python</td>
+<td>39275</td>
+<td>870</td>
+<td>5523</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>HKUDS</td>
+<td>0.1320</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/vllm-project/vllm-omni">vllm-project/vllm-omni</a></td>
+<td>A framework for efficient model inference with omni-modality models</td>
+<td>Python</td>
+<td>6487</td>
+<td>712</td>
+<td>1577</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>vllm-project</td>
+<td>0.1158</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="top-by-total-stars">Top by Total Stars</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted">awesome-selfhosted/awesome-selfhosted</a></td>
+<td>A list of Free Software network services and web applications which can be hosted on your own servers</td>
+<td>-</td>
+<td>302937</td>
+<td>0</td>
+<td>14126</td>
+<td>2026-07-05</td>
+<td>LLM Infrastructure</td>
+<td>awesome-selfhosted</td>
+<td>0.1849</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
+<td>Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</td>
+<td>Go</td>
+<td>175495</td>
+<td>0</td>
+<td>16842</td>
+<td>2026-07-05</td>
+<td>LLM Infrastructure</td>
+<td>ollama</td>
+<td>0.1240</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
+<td>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</td>
+<td>Python</td>
+<td>144250</td>
+<td>0</td>
+<td>20841</td>
+<td>2026-07-05</td>
+<td>MCP</td>
+<td>open-webui</td>
+<td>0.1090</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/ggml-org/llama.cpp">ggml-org/llama.cpp</a></td>
+<td>LLM inference in C/C++</td>
+<td>C++</td>
+<td>126392</td>
+<td>4119</td>
+<td>22499</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>ggml-org</td>
+<td>0.2363</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
+<td>A high-throughput and memory-efficient inference and serving engine for LLMs</td>
+<td>Python</td>
+<td>90509</td>
+<td>2675</td>
+<td>21438</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>vllm-project</td>
+<td>0.2009</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG wi...</td>
+<td>Go</td>
+<td>89669</td>
+<td>3121</td>
+<td>10572</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>infiniflow</td>
+<td>0.1897</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/ruvnet/RuView">ruvnet/RuView</a></td>
+<td>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and prese...</td>
+<td>Rust</td>
+<td>76497</td>
+<td>0</td>
+<td>10259</td>
+<td>2026-07-05</td>
+<td>LLM Infrastructure</td>
+<td>ruvnet</td>
+<td>0.0766</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/pathwaycom/llm-app">pathwaycom/llm-app</a></td>
+<td>Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly....</td>
+<td>Jupyter Notebook</td>
+<td>59057</td>
+<td>0</td>
+<td>1432</td>
+<td>2026-07-12</td>
+<td>RAG</td>
+<td>pathwaycom</td>
+<td>0.0683</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/diegosouzapw/OmniRoute">diegosouzapw/OmniRoute</a></td>
+<td>Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, ...</td>
+<td>TypeScript</td>
+<td>58625</td>
+<td>0</td>
+<td>8126</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>diegosouzapw</td>
+<td>0.1280</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/rust-unofficial/awesome-rust">rust-unofficial/awesome-rust</a></td>
+<td>A curated list of Rust code and resources.</td>
+<td>Rust</td>
+<td>58167</td>
+<td>0</td>
+<td>3460</td>
+<td>2026-07-05</td>
+<td>LLM Infrastructure</td>
+<td>rust-unofficial</td>
+<td>0.0678</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="newly-emerging">Newly Emerging</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/chirpz-ai/pandaprobe">chirpz-ai/pandaprobe</a></td>
+<td>open source agent engineering platform: traces, evals, and metrics to debug and improve your AI agents. Int...</td>
+<td>Python</td>
+<td>783</td>
+<td>67</td>
+<td>117</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>chirpz-ai</td>
+<td>0.1015</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h3 id="simulation">Simulation</h3>
+<h4 id="top-by-star-growth">Top by Star Growth</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/earthtojake/text-to-cad">earthtojake/text-to-cad</a></td>
+<td>A library of agent skills for CAD, CAE and CAM</td>
+<td>Python</td>
+<td>14048</td>
+<td>1746</td>
+<td>1494</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>earthtojake</td>
+<td>0.1321</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/FreeCAD/FreeCAD">FreeCAD/FreeCAD</a></td>
+<td>Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.</td>
+<td>C++</td>
+<td>33153</td>
+<td>631</td>
+<td>5969</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>FreeCAD</td>
+<td>0.1264</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/wangzhe3224/awesome-systematic-trading">wangzhe3224/awesome-systematic-trading</a></td>
+<td>A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock,...</td>
+<td>HTML</td>
+<td>5048</td>
+<td>452</td>
+<td>661</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>wangzhe3224</td>
+<td>0.1092</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/caelestia-dots/caelestia">caelestia-dots/caelestia</a></td>
+<td>A fluid, morphing interface to your Linux desktop</td>
+<td>TypeScript</td>
+<td>4192</td>
+<td>374</td>
+<td>360</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>caelestia-dots</td>
+<td>0.1070</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/wealthfolio/wealthfolio">wealthfolio/wealthfolio</a></td>
+<td>A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.</td>
+<td>Rust</td>
+<td>8764</td>
+<td>328</td>
+<td>669</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>wealthfolio</td>
+<td>0.1095</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/openfoam/openfoam-dev">openfoam/openfoam-dev</a></td>
+<td>Open source computational fluid dynamics simulation toolbox.</td>
+<td>C++</td>
+<td>8900</td>
+<td>231</td>
+<td>2300</td>
+<td>2026-07-05</td>
+<td>Simulation</td>
+<td>openfoam</td>
+<td>0.0477</td>
+<td>dummy</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/Cai-aa/CAE-Agent-Hub">Cai-aa/CAE-Agent-Hub</a></td>
+<td>-</td>
+<td>Python</td>
+<td>803</td>
+<td>168</td>
+<td>104</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Cai-aa</td>
+<td>0.1029</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/Genesis-Embodied-AI/genesis-world">Genesis-Embodied-AI/genesis-world</a></td>
+<td>Simulation platform for general-purpose robotics &amp; embodied AI learning.</td>
+<td>Python</td>
+<td>29834</td>
+<td>160</td>
+<td>2842</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>Genesis-Embodied-AI</td>
+<td>0.1167</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/liyue-aigc/female-portrait-director">liyue-aigc/female-portrait-director</a></td>
+<td>A modular Codex Skill for directing and expanding detailed AI female portrait prompts.</td>
+<td>-</td>
+<td>1387</td>
+<td>145</td>
+<td>170</td>
+<td>2026-08-23</td>
+<td>Simulation</td>
+<td>liyue-aigc</td>
+<td>0.0428</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/Open-Cascade-SAS/OCCT">Open-Cascade-SAS/OCCT</a></td>
+<td>Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.</td>
+<td>C++</td>
+<td>2812</td>
+<td>110</td>
+<td>666</td>
+<td>2026-08-30</td>
+<td>Engineering AI</td>
+<td>Open-Cascade-SAS</td>
+<td>0.1030</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="top-by-total-stars">Top by Total Stars</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/FreeCAD/FreeCAD">FreeCAD/FreeCAD</a></td>
+<td>Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.</td>
+<td>C++</td>
+<td>33153</td>
+<td>631</td>
+<td>5969</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>FreeCAD</td>
+<td>0.1264</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/Genesis-Embodied-AI/genesis-world">Genesis-Embodied-AI/genesis-world</a></td>
+<td>Simulation platform for general-purpose robotics &amp; embodied AI learning.</td>
+<td>Python</td>
+<td>29834</td>
+<td>160</td>
+<td>2842</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>Genesis-Embodied-AI</td>
+<td>0.1167</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/Dujltqzv/Some-Many-Books">Dujltqzv/Some-Many-Books</a></td>
+<td>个人收藏书籍列表　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　...</td>
+<td>-</td>
+<td>21867</td>
+<td>54</td>
+<td>2154</td>
+<td>2026-08-02</td>
+<td>Simulation</td>
+<td>Dujltqzv</td>
+<td>0.0513</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/Unity-Technologies/ml-agents">Unity-Technologies/ml-agents</a></td>
+<td>The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simu...</td>
+<td>C#</td>
+<td>19653</td>
+<td>56</td>
+<td>4484</td>
+<td>2026-08-29</td>
+<td>AI Agent</td>
+<td>Unity-Technologies</td>
+<td>0.1102</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/earthtojake/text-to-cad">earthtojake/text-to-cad</a></td>
+<td>A library of agent skills for CAD, CAE and CAM</td>
+<td>Python</td>
+<td>14048</td>
+<td>1746</td>
+<td>1494</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>earthtojake</td>
+<td>0.1321</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/o3de/o3de">o3de/o3de</a></td>
+<td>Open 3D Engine (O3DE) is an Apache 2.0-licensed multi-platform 3D engine that enables developers and conten...</td>
+<td>C++</td>
+<td>9644</td>
+<td>92</td>
+<td>2522</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>o3de</td>
+<td>0.1058</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/openfoam/openfoam-dev">openfoam/openfoam-dev</a></td>
+<td>Open source computational fluid dynamics simulation toolbox.</td>
+<td>C++</td>
+<td>8900</td>
+<td>231</td>
+<td>2300</td>
+<td>2026-07-05</td>
+<td>Simulation</td>
+<td>openfoam</td>
+<td>0.0477</td>
+<td>dummy</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/wealthfolio/wealthfolio">wealthfolio/wealthfolio</a></td>
+<td>A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.</td>
+<td>Rust</td>
+<td>8764</td>
+<td>328</td>
+<td>669</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>wealthfolio</td>
+<td>0.1095</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/OpenTTD/OpenTTD">OpenTTD/OpenTTD</a></td>
+<td>OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe</td>
+<td>C++</td>
+<td>8221</td>
+<td>94</td>
+<td>1254</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>OpenTTD</td>
+<td>0.1054</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/ProjectPhysX/FluidX3D">ProjectPhysX/FluidX3D</a></td>
+<td>The fastest and most memory efficient lattice Boltzmann CFD software, running on all GPUs and CPUs via Open...</td>
+<td>C++</td>
+<td>5256</td>
+<td>52</td>
+<td>470</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>ProjectPhysX</td>
+<td>0.1032</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="newly-emerging">Newly Emerging</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/Cai-aa/CAE-Agent-Hub">Cai-aa/CAE-Agent-Hub</a></td>
+<td>-</td>
+<td>Python</td>
+<td>803</td>
+<td>168</td>
+<td>104</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Cai-aa</td>
+<td>0.1029</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/liyue-aigc/female-portrait-director">liyue-aigc/female-portrait-director</a></td>
+<td>A modular Codex Skill for directing and expanding detailed AI female portrait prompts.</td>
+<td>-</td>
+<td>1387</td>
+<td>145</td>
+<td>170</td>
+<td>2026-08-23</td>
+<td>Simulation</td>
+<td>liyue-aigc</td>
+<td>0.0428</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/wjc9011/COMSOL_Multiphysics_MCP">wjc9011/COMSOL_Multiphysics_MCP</a></td>
+<td>-</td>
+<td>Python</td>
+<td>674</td>
+<td>71</td>
+<td>66</td>
+<td>2026-08-29</td>
+<td>Simulation</td>
+<td>wjc9011</td>
+<td>0.0713</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/Leo4815162342/dukascopy-node">Leo4815162342/dukascopy-node</a></td>
+<td>✨ Download historical and real-time price tick data for Crypto, Stocks, ETFs, CFDs, Forex via CLI and Node....</td>
+<td>TypeScript</td>
+<td>895</td>
+<td>57</td>
+<td>132</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>Leo4815162342</td>
+<td>0.0413</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/KratosMultiphysics/Kratos">KratosMultiphysics/Kratos</a></td>
+<td>Kratos Multiphysics (A.K.A Kratos) is a framework for building parallel multi-disciplinary simulation softw...</td>
+<td>C++</td>
+<td>1355</td>
+<td>47</td>
+<td>302</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>KratosMultiphysics</td>
+<td>0.1014</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/ElmerCSC/elmerfem">ElmerCSC/elmerfem</a></td>
+<td>Official git repository of Elmer FEM software</td>
+<td>Fortran</td>
+<td>1683</td>
+<td>37</td>
+<td>394</td>
+<td>2026-08-29</td>
+<td>Simulation</td>
+<td>ElmerCSC</td>
+<td>0.1013</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/idaholab/moose">idaholab/moose</a></td>
+<td>Multiphysics Object Oriented Simulation Environment</td>
+<td>C++</td>
+<td>2338</td>
+<td>26</td>
+<td>1255</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>idaholab</td>
+<td>0.1016</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/mfem/mfem">mfem/mfem</a></td>
+<td>Lightweight, general, scalable C++ library for finite element methods</td>
+<td>C++</td>
+<td>2228</td>
+<td>24</td>
+<td>646</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>mfem</td>
+<td>0.1015</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/dealii/dealii">dealii/dealii</a></td>
+<td>The development repository for the deal.II finite element library</td>
+<td>C++</td>
+<td>1720</td>
+<td>21</td>
+<td>865</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>dealii</td>
+<td>0.1011</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/su2code/SU2">su2code/SU2</a></td>
+<td>SU2: An Open-Source Suite for Multiphysics Simulation and Design</td>
+<td>C++</td>
+<td>1787</td>
+<td>21</td>
+<td>998</td>
+<td>2026-08-28</td>
+<td>Simulation</td>
+<td>su2code</td>
+<td>0.1013</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h3 id="engineering-ai">Engineering AI</h3>
+<h4 id="top-by-star-growth">Top by Star Growth</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG wi...</td>
+<td>Go</td>
+<td>89669</td>
+<td>3121</td>
+<td>10572</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>infiniflow</td>
+<td>0.1897</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/earthtojake/text-to-cad">earthtojake/text-to-cad</a></td>
+<td>A library of agent skills for CAD, CAE and CAM</td>
+<td>Python</td>
+<td>14048</td>
+<td>1746</td>
+<td>1494</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>earthtojake</td>
+<td>0.1321</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/langfuse/langfuse">langfuse/langfuse</a></td>
+<td>🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, da...</td>
+<td>TypeScript</td>
+<td>33938</td>
+<td>1670</td>
+<td>3666</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>langfuse</td>
+<td>0.1410</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/caddyserver/caddy">caddyserver/caddy</a></td>
+<td>Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS</td>
+<td>Go</td>
+<td>75346</td>
+<td>806</td>
+<td>4929</td>
+<td>2026-08-30</td>
+<td>Engineering AI</td>
+<td>caddyserver</td>
+<td>0.1476</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/FreeCAD/FreeCAD">FreeCAD/FreeCAD</a></td>
+<td>Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.</td>
+<td>C++</td>
+<td>33153</td>
+<td>631</td>
+<td>5969</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>FreeCAD</td>
+<td>0.1264</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/mlflow/mlflow">mlflow/mlflow</a></td>
+<td>The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes ...</td>
+<td>Python</td>
+<td>27739</td>
+<td>426</td>
+<td>6234</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>mlflow</td>
+<td>0.1211</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/caelestia-dots/caelestia">caelestia-dots/caelestia</a></td>
+<td>A fluid, morphing interface to your Linux desktop</td>
+<td>TypeScript</td>
+<td>4192</td>
+<td>374</td>
+<td>360</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>caelestia-dots</td>
+<td>0.1070</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/openscad/openscad">openscad/openscad</a></td>
+<td>OpenSCAD - The Programmers Solid 3D CAD Modeller</td>
+<td>C++</td>
+<td>10058</td>
+<td>289</td>
+<td>1784</td>
+<td>2026-08-30</td>
+<td>Engineering AI</td>
+<td>openscad</td>
+<td>0.1113</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/Cai-aa/CAE-Agent-Hub">Cai-aa/CAE-Agent-Hub</a></td>
+<td>-</td>
+<td>Python</td>
+<td>803</td>
+<td>168</td>
+<td>104</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Cai-aa</td>
+<td>0.1029</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/Open-Cascade-SAS/OCCT">Open-Cascade-SAS/OCCT</a></td>
+<td>Open CASCADE Technology (OCCT) is an open-source software development platform for 3D CAD, CAM, CAE.</td>
+<td>C++</td>
+<td>2812</td>
+<td>110</td>
+<td>666</td>
+<td>2026-08-30</td>
+<td>Engineering AI</td>
+<td>Open-Cascade-SAS</td>
+<td>0.1030</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="top-by-total-stars">Top by Total Stars</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG wi...</td>
+<td>Go</td>
+<td>89669</td>
+<td>3121</td>
+<td>10572</td>
+<td>2026-08-30</td>
+<td>RAG</td>
+<td>infiniflow</td>
+<td>0.1897</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/caddyserver/caddy">caddyserver/caddy</a></td>
+<td>Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS</td>
+<td>Go</td>
+<td>75346</td>
+<td>806</td>
+<td>4929</td>
+<td>2026-08-30</td>
+<td>Engineering AI</td>
+<td>caddyserver</td>
+<td>0.1476</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/langfuse/langfuse">langfuse/langfuse</a></td>
+<td>🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, da...</td>
+<td>TypeScript</td>
+<td>33938</td>
+<td>1670</td>
+<td>3666</td>
+<td>2026-08-30</td>
+<td>LLM Infrastructure</td>
+<td>langfuse</td>
+<td>0.1410</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/FreeCAD/FreeCAD">FreeCAD/FreeCAD</a></td>
+<td>Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.</td>
+<td>C++</td>
+<td>33153</td>
+<td>631</td>
+<td>5969</td>
+<td>2026-08-30</td>
+<td>Simulation</td>
+<td>FreeCAD</td>
+<td>0.1264</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/systemdesign42/system-design-academy">systemdesign42/system-design-academy</a></td>
+<td>If you want to become good at AI engineering &amp; system design, join this newsletter 👇</td>
+<td>-</td>
+<td>27989</td>
+<td>0</td>
+<td>3629</td>
+<td>2026-08-30</td>
+<td>Engineering AI</td>
+<td>systemdesign42</td>
+<td>0.1134</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/mlflow/mlflow">mlflow/mlflow</a></td>
+<td>The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes ...</td>
+<td>Python</td>
+<td>27739</td>
+<td>426</td>
+<td>6234</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>mlflow</td>
+<td>0.1211</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/Dujltqzv/Some-Many-Books">Dujltqzv/Some-Many-Books</a></td>
+<td>个人收藏书籍列表　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　...</td>
+<td>-</td>
+<td>21867</td>
+<td>54</td>
+<td>2154</td>
+<td>2026-08-02</td>
+<td>Simulation</td>
+<td>Dujltqzv</td>
+<td>0.0513</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/google/cadvisor">google/cadvisor</a></td>
+<td>Analyzes resource usage and performance characteristics of running containers.</td>
+<td>Go</td>
+<td>19387</td>
+<td>65</td>
+<td>2488</td>
+<td>2026-08-30</td>
+<td>Engineering AI</td>
+<td>google</td>
+<td>0.0502</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/chiphuyen/aie-book">chiphuyen/aie-book</a></td>
+<td>[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huye...</td>
+<td>Jupyter Notebook</td>
+<td>16836</td>
+<td>18</td>
+<td>2451</td>
+<td>2026-08-02</td>
+<td>Engineering AI</td>
+<td>chiphuyen</td>
+<td>0.0484</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/earthtojake/text-to-cad">earthtojake/text-to-cad</a></td>
+<td>A library of agent skills for CAD, CAE and CAM</td>
+<td>Python</td>
+<td>14048</td>
+<td>1746</td>
+<td>1494</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>earthtojake</td>
+<td>0.1321</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h4 id="newly-emerging">Newly Emerging</h4>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Description</th>
+<th>Language</th>
+<th>Stars</th>
+<th>Stars Gained</th>
+<th>Forks</th>
+<th>Last Update</th>
+<th>Category</th>
+<th>Author/Org</th>
+<th>Trend Score</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/Cai-aa/CAE-Agent-Hub">Cai-aa/CAE-Agent-Hub</a></td>
+<td>-</td>
+<td>Python</td>
+<td>803</td>
+<td>168</td>
+<td>104</td>
+<td>2026-08-30</td>
+<td>AI Agent</td>
+<td>Cai-aa</td>
+<td>0.1029</td>
+<td>github_search</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/ansys/pyansys">ansys/pyansys</a></td>
+<td>Pythonic engineering simulation automation across Ansys products.</td>
+<td>Python</td>
+<td>1800</td>
+<td>18</td>
+<td>420</td>
+<td>2026-07-05</td>
+<td>Engineering AI</td>
+<td>ansys</td>
+<td>0.0411</td>
+<td>dummy</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/StoneSteel27/AutomatiQ">StoneSteel27/AutomatiQ</a></td>
+<td>Reverse-engineering AI assistant for the Web</td>
+<td>Python</td>
+<td>166</td>
+<td>13</td>
+<td>13</td>
+<td>2026-08-28</td>
+<td>AI Agent</td>
+<td>StoneSteel27</td>
+<td>0.1003</td>
+<td>github_search</td>
+</tr>
+</tbody></table></div>
+<h2 id="author-organization-ranking">Author / Organization Ranking</h2>
+<div class="report-table-wrap"><table class="report-table"><thead><tr>
+<th>Rank</th>
+<th>Author/Org</th>
+<th>Relevant Repos</th>
+<th>Total Stars</th>
+<th>Star Growth</th>
+<th>Ranking Appearances</th>
+<th>Notes</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>mattpocock</td>
+<td>1</td>
+<td>241799</td>
+<td>43559</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>obra</td>
+<td>1</td>
+<td>279665</td>
+<td>15085</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>NousResearch</td>
+<td>1</td>
+<td>238480</td>
+<td>14889</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>anomalyco</td>
+<td>1</td>
+<td>202583</td>
+<td>12682</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>affaan-m</td>
+<td>1</td>
+<td>244679</td>
+<td>7966</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>TauricResearch</td>
+<td>1</td>
+<td>101869</td>
+<td>6663</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>rohitg00</td>
+<td>1</td>
+<td>51254</td>
+<td>5891</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Shubhamsaboo</td>
+<td>1</td>
+<td>135289</td>
+<td>5841</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>t8y2</td>
+<td>1</td>
+<td>17477</td>
+<td>4599</td>
+<td>1</td>
+<td>Relevant across MCP.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>headroomlabs-ai</td>
+<td>1</td>
+<td>68110</td>
+<td>4432</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>DeusData</td>
+<td>1</td>
+<td>41293</td>
+<td>4399</td>
+<td>1</td>
+<td>Relevant across MCP.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>ggml-org</td>
+<td>1</td>
+<td>126392</td>
+<td>4119</td>
+<td>1</td>
+<td>Relevant across LLM Infrastructure.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>vllm-project</td>
+<td>2</td>
+<td>96996</td>
+<td>3387</td>
+<td>2</td>
+<td>Relevant across LLM Infrastructure.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>infiniflow</td>
+<td>1</td>
+<td>89669</td>
+<td>3121</td>
+<td>1</td>
+<td>Relevant across RAG.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>ruvnet</td>
+<td>2</td>
+<td>146327</td>
+<td>3104</td>
+<td>2</td>
+<td>Relevant across AI Agent, LLM Infrastructure.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>langgenius</td>
+<td>1</td>
+<td>153912</td>
+<td>2950</td>
+<td>1</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>jundot</td>
+<td>1</td>
+<td>21048</td>
+<td>2688</td>
+<td>1</td>
+<td>Relevant across LLM Infrastructure.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>microsoft</td>
+<td>6</td>
+<td>343584</td>
+<td>2662</td>
+<td>6</td>
+<td>Relevant across AI Agent, MCP, RAG.</td>
+</tr>
+<tr>
+<td>19</td>
+<td>BerriAI</td>
+<td>1</td>
+<td>57611</td>
+<td>2380</td>
+<td>1</td>
+<td>Relevant across LLM Infrastructure.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>langchain-ai</td>
+<td>4</td>
+<td>195030</td>
+<td>2119</td>
+<td>4</td>
+<td>Relevant across AI Agent.</td>
+</tr>
+</tbody></table></div>
+<h2 id="collection-notes">Collection Notes</h2>
+<ul>
+<li>Raw snapshots are stored in <code>data/snapshots/</code>.</li>
+<li>Normalized records are appended to <code>data/repos.jsonl</code>.</li>
+<li>Errors are logged to <code>data/logs/trend_report.log</code>.</li>
+</ul>
+    </article>
+  </main>
+</body>
+</html>
