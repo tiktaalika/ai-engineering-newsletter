@@ -23,7 +23,7 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
 - [x] Adopt `uv` for dependency management and lockfile
 - [x] Use `src/` layout (`src/newsletter/`)
 - [x] Define stable package exports via `__init__.py`
-- [ ] Add `[project.optional-dependencies]` for LLM features (`openai`, `python-dotenv`)
+- [x] Add `[project.optional-dependencies]` for LLM features (`openai`, `python-dotenv`) — **`llm` extra defined**
 - [x] Add `py.typed` marker for PEP 561 compliance
 
 ### 1.2 Tooling & Quality Gates
@@ -31,8 +31,8 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
 - [x] `ty` for static type checking
 - [x] pytest + pytest-asyncio for testing
 - [x] CI pipeline (GitHub Actions: lint → type-check → test)
-- [~] Add coverage reporting (pytest-cov) with a minimum threshold (e.g. 80%) — **pytest-cov in dev deps; `--cov` flags and threshold not yet configured**
-- [ ] Add `ruff check --select I` for import sorting
+- [x] Add coverage reporting (pytest-cov) — **branch coverage enabled via `--cov-branch` in `addopts`; no fail-under threshold enforced**
+- [x] Add `ruff check --select I` for import sorting — **configured via `[tool.ruff.lint] select`**
 - [ ] Add pre-commit hooks or `uv run` task aliases for local dev
 
 ### 1.3 Type System & Data Models
@@ -477,8 +477,8 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 - **Tests**: 28 passing tests — config loading (1), RSS fetcher (5), XML entities (4), date parsing (9), registry/dispatch (8), fetch_kind resolution (3)
 
 ### Immediate next steps (complete Phase 1)
-1. Configure `pytest-cov` flags and minimum threshold
-2. Add `ruff check --select I` for import sorting
-3. Add `[project.optional-dependencies]` for LLM features
+1. ~~Configure `pytest-cov` flags and minimum threshold~~ ✅ done (flags configured, no threshold enforced)
+2. ~~Add `ruff check --select I` for import sorting~~ ✅ done
+3. ~~Add LLM dependencies (`openai`, `python-dotenv`)~~ ✅ done (core dependencies)
 4. Expand config error-handling tests (missing file, invalid TOML, missing fields)
 5. Add pre-commit hooks or `uv run` task aliases for local dev
