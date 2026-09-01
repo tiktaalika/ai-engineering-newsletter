@@ -365,11 +365,12 @@ class TestSignalHandling:
 
         async def run_and_cancel() -> int:
             task = asyncio.current_task()
+            assert task is not None  # always set inside a running coroutine
 
             # Schedule cancellation after a short delay.
             async def cancel_soon() -> None:
                 await asyncio.sleep(0.05)
-                task.cancel()  # type: ignore[union-attr]
+                task.cancel()
 
             asyncio.ensure_future(cancel_soon())
 

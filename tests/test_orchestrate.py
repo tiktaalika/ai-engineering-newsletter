@@ -12,6 +12,7 @@ import respx
 from newsletter.models import (
     FetchFailure,
     FetchSuccess,
+    FetchType,
     RawRecord,
     Source,
 )
@@ -42,14 +43,14 @@ def _make_source(
     name: str = "S",
     url: str = "https://example.com/feed",
     *,
-    fetch_type: str = "rss",
+    fetch_type: FetchType = "rss",
     enabled: bool = True,
 ) -> Source:
     return Source(
         name=name,
         scrape_url=url,
         priority="high",
-        fetch_type=fetch_type,  # type: ignore[arg-type]
+        fetch_type=fetch_type,
         category="general_ai",
         enabled=enabled,
     )
