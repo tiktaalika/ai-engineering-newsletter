@@ -3,126 +3,126 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16784
-- filtered_count: 2654
+- fetched_count: 16738
+- filtered_count: 2646
 - duplicate_count: 79
 - failures: 7
 
 ## Top 10 General AI News
 1. [TimesFM-3: A zero-shot foundation model for multivariate forecasting](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting)
    - source: Google Research
-   - score: 63.496
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.916; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 63.443
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.914; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [OpenAI supports California’s bill to advance youth AI safety](https://openai.com/index/supporting-california-bill-advance-ai-youth-safety)
    - source: OpenAI
-   - score: 57.346
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.698; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.70; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.223
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.692; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Introducing wrapture](https://simonwillison.net/2026/Aug/31/introducing-wrapture)
    - source: Simon Willison
-   - score: 56.527
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.812; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.342
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier](https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the)
    - source: Latent Space
-   - score: 54.782
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.884; source_priority=1.0
+   - score: 54.597
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.876; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Polimill builds Japan's next-generation public AI infrastructure](https://openai.com/index/polimill)
    - source: OpenAI
-   - score: 54.013
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.698; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.70; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.889
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.692; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Quoting Andrew Digby](https://simonwillison.net/2026/Aug/31/andrew-digby)
    - source: Simon Willison
-   - score: 52.652
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.787; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.467
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.779; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science](https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science)
    - source: NVIDIA AI
-   - score: 68.19
-   - score_breakdown: general=0.667; engineering=0.0; research=0.667; novelty=0.796; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 68.066
+   - score_breakdown: general=0.667; engineering=0.0; research=0.667; novelty=0.791; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=4; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 8. [‘If you build something vastly smarter than you, it better be on your side’: can we stop AI from deceiving us?](https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us)
    - source: The Guardian Technology
-   - score: 64.483
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.749; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.75; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 64.114
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.732; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation](https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation)
    - source: Amazon AWS AI
-   - score: 60.129
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.824; source_priority=1.0
+   - score: 60.006
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.818; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI](https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai)
    - source: TechCrunch AI
-   - score: 57.958
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.877; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.835
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.871; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Ai Agents In Engineering Ai Conference 2025](https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025)
+1. [Conservatives split from Silicon Valley allies as datacenter backlash grows](https://www.theguardian.com/technology/2026/sep/01/datacenter-backlash-conservatives-silicon-valley)
+   - source: The Guardian Technology
+   - score: 60.66
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.992; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+2. [Ai Agents In Engineering Ai Conference 2025](https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025)
    - source: Synera
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-2. [From Concept To Reality The Development Of An Ai Designed Car](https://www.neuralconcept.com/post/from-concept-to-reality-the-development-of-an-ai-designed-car)
+3. [From Concept To Reality The Development Of An Ai Designed Car](https://www.neuralconcept.com/post/from-concept-to-reality-the-development-of-an-ai-designed-car)
    - source: Neural Concept
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [FEATURED](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl)
+4. [FEATURED](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl)
    - source: Meta AI
    - score: 54.533
    - score_breakdown: general=0.167; engineering=0.25; research=1.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
-4. [Bringing Robotics Ai To Embedded Platforms](https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms)
+5. [Bringing Robotics Ai To Embedded Platforms](https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms)
    - source: Hugging Face Papers
    - score: 54.367
    - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-5. [Cfd Based Generative Optimisation Of A Turbocharged Intake Plenum For Formula Student Applications](https://www.diabatix.com/papers-and-publications/cfd-based-generative-optimisation-of-a-turbocharged-intake-plenum-for-formula-student-applications)
-   - source: Diabatix
-   - score: 48.5
-   - score_breakdown: general=0.167; engineering=1.0; research=0.333; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [As MAHA champions nutrition, it’s ignoring the experts, dietitians say](https://www.statnews.com/2026/09/01/maha-nutrition-makeover-hampered-dietitian-workforce-crisis)
    - source: STAT Health Tech
-   - score: 54.902
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.889; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.533
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [New guidelines on migraine prevention reflect increasing options for patients](https://www.statnews.com/2026/08/31/migraine-prevention-medication-guidelines)
    - source: STAT Health Tech
-   - score: 46.308
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.499; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.50; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Ai Wont Transform Health Systems Ceos Will Six Principles To Drive The Transformation](https://medcitynews.com/2026/08/ai-wont-transform-health-systems-ceos-will-six-principles-to-drive-the-transformation)
+   - score: 45.939
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.482; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [ESC26: AstraZeneca's heart failure drug shows promise in ph. 2 trial - Fierce Biotech](https://news.google.com/rss/articles/CBMiogFBVV95cUxNaVRxUFc4ejl4b0Q3Wl9ubkF6S0JINE5weVR2RU4temd5Z1FkWEJSUzlHaHFRU3NQVXFlLXpnY2pUUTVRT2FJaGg0bE1Td3k3WjhkLU1aN1NZZU1JOTVhalQwT1duQ0xsR0ZoRENBbENkTHZKMnVYSE9mUlJhME81dU9JcVNiTkFyZDRndHdHemVGMmJHMGZkSGVhRHQ0RXg1WlE?oc=5)
+   - source: Trusted Biomedical AI Source Discovery
+   - score: 42.651
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.333; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.33; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Ai Wont Transform Health Systems Ceos Will Six Principles To Drive The Transformation](https://medcitynews.com/2026/08/ai-wont-transform-health-systems-ceos-will-six-principles-to-drive-the-transformation)
    - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [1865962.Article](https://www.drugtargetreview.com/ai-in-drug-discovery-predictions-for-2026/1865962.article)
-   - source: Drug Target Review
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [AI-informed AdaptiveFlow redefines large-scale cloud computing for drug discovery - St. Jude Children's Research Hospital](https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZEJWck1iY1ZkT1VyRkhRNktiVkF2V1Z6TU4xY2o2Yl80MkphZnE5U1NjQ2FvOFdnWHBLcWd1NUtjaHNiTGF2V1laNDVFRDNGMnJMRjNRTlVxNWVKNzBRblNkemxMRjZjbURUeHRGS25GZDkwUHFZYkFBdExzV2FUU09aV3hpd2lYcXhEZU0ySFBlYU10MVc1aUo2MDY4WGpMUXBOOVNGNVpzalFmS0hTalZZaW9zUGppX3RoMXFncWFXalFMYnpGalVQWUxxeURuU2hTU0ZyWUZnWDliNWhCemJFNEVqMHdvNHNKMXlVRnNsR2VnRFpWdkp3?oc=5)
-   - source: Google News Medical AI Discovery
-   - score: 37.15
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.907; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [Benchmarks Don’t Fail Silently. Agentic AI Does. - The Clinical Trial Vanguard](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGRVajRLTGxXd19FYjU2MFdfOGxxUjlUeEFIMjRldzhod0xzNXJtTXlFR2tkQmNqbGVvRjRRWUgtMmNTZzJTV200SWJ4M3g4NGZlTlM2WTJtTEt3Tm9XZDliLWQxdjgyYWs0WmNTdC1YbmlhYnE2dC1LVWFWR1lqQ0pqUWlPZ0ZGTTB6cDg5OTgxVGhUSE5wVjBjQnpOekpmdFVKRTBrZw?oc=5)
+   - source: Google News General AI Discovery
+   - score: 45.544
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.985; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.99; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Research Radar
 1. [GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models](https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models)
    - source: Microsoft Research
-   - score: 66.699
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.911; source_priority=1.0
+   - score: 66.646
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.908; source_priority=1.0
 2. [TimesFM-3: A zero-shot foundation model for multivariate forecasting](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting)
    - source: Google Research
-   - score: 63.496
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.916; source_priority=1.0
+   - score: 63.443
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.914; source_priority=1.0
 3. [Learning Hub](https://ai.meta.com/learn)
    - source: Meta AI
    - score: 51.033
