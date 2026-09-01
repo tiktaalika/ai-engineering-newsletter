@@ -11,7 +11,6 @@ import respx
 
 from newsletter.http import (
     DomainRateLimiter,
-    FetchError,
     HTTPStatusFetchError,
     MaxRetriesExceeded,
     backoff_delay,
@@ -19,7 +18,6 @@ from newsletter.http import (
     fetch_json,
     fetch_text,
 )
-
 
 # --------------------------------------------------------------------------- #
 # backoff_delay
@@ -118,9 +116,7 @@ class TestFetchJson:
     @respx.mock
     async def test_success(self) -> None:
         respx.get("https://api.example.com/items").mock(
-            return_value=httpx.Response(
-                200, json={"items": [1, 2, 3], "total": 3}
-            )
+            return_value=httpx.Response(200, json={"items": [1, 2, 3], "total": 3})
         )
 
         async with httpx.AsyncClient() as client:
@@ -333,7 +329,6 @@ class TestDomainRateLimiter:
             await limiter.acquire("https://example.com/resource")
             call_times.append(time.monotonic())
 
-        start = time.monotonic()
         await asyncio.gather(worker(), worker(), worker())
 
         # Each subsequent call waited ~0.1s after the previous one.
@@ -341,6 +336,3 @@ class TestDomainRateLimiter:
         gaps = [call_times[i + 1] - call_times[i] for i in range(2)]
         for gap in gaps:
             assert gap >= 0.08  # allow small scheduling tolerance
-
-
-

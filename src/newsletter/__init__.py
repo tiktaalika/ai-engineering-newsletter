@@ -28,6 +28,7 @@ from .models import (
     Source,
     SourceType,
 )
+from .orchestrate import fetch_all_sources
 
 __all__ = [
     "FETCHER_REGISTRY",
@@ -54,5 +55,6 @@ __all__ = [
     "Source",
     "SourceType",
     "UnknownFetcherError",
+    "fetch_all_sources",
     "get_fetcher",
 ]

@@ -23,10 +23,10 @@ class Fetcher(Protocol):
         """Return the set of ``fetch_type`` values this fetcher handles."""
         ...
 
-    def fetch(
+    async def fetch(
         self,
         source: Source,
-        client: httpx.Client,
+        client: httpx.AsyncClient,
         *,
         cutoff: datetime | None = None,
     ) -> list[RawRecord]:
@@ -37,7 +37,7 @@ class Fetcher(Protocol):
         source:
             The configured source to fetch from.
         client:
-            A shared ``httpx.Client`` with appropriate headers/timeouts.
+            A shared ``httpx.AsyncClient`` with appropriate headers/timeouts.
         cutoff:
             Optional cutoff datetime — records older than this may be
             discarded by fetchers that support it (e.g. HN Algolia).

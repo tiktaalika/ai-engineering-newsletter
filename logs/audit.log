@@ -1,0 +1,416 @@
+[ERROR|main|L274] 2026-09-01T02:22:27+0000: Configuration file not found: /tmp/pytest-of-unknown/pytest-0/test_missing_config_exits_10/nonexistent.toml
+[ERROR|main|L195] 2026-09-01T02:22:27+0000: No sources defined in configuration
+[ERROR|main|L195] 2026-09-01T02:22:27+0000: No sources defined in configuration
+[ERROR|main|L195] 2026-09-01T02:22:27+0000: No sources defined in configuration
+[ERROR|main|L195] 2026-09-01T02:22:27+0000: No sources defined in configuration
+[ERROR|main|L277] 2026-09-01T02:22:27+0000: Failed to load configuration: Configuration validation failed: While structuring Configuration (1 sub-exception)
+[ERROR|main|L274] 2026-09-01T02:25:06+0000: Configuration file not found: /tmp/pytest-of-unknown/pytest-1/test_missing_config_exits_10/nonexistent.toml
+[INFO|main|L198] 2026-09-01T02:25:06+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=24h, dry_run=False)
+[INFO|main|L216] 2026-09-01T02:25:06+0000: Collected 0 total candidates
+[INFO|main|L198] 2026-09-01T02:25:06+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=24h, dry_run=True)
+[INFO|main|L216] 2026-09-01T02:25:06+0000: Collected 0 total candidates
+[INFO|main|L219] 2026-09-01T02:25:06+0000: Dry run — skipping output
+[INFO|main|L198] 2026-09-01T02:25:06+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=48h, dry_run=False)
+[INFO|main|L216] 2026-09-01T02:25:06+0000: Collected 0 total candidates
+[INFO|main|L198] 2026-09-01T02:25:06+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2025-09-15, window=24h, dry_run=False)
+[INFO|main|L216] 2026-09-01T02:25:06+0000: Collected 0 total candidates
+[ERROR|main|L195] 2026-09-01T02:25:06+0000: No sources defined in configuration
+[ERROR|main|L274] 2026-09-01T02:25:23+0000: Configuration file not found: /tmp/pytest-of-unknown/pytest-2/test_missing_config_exits_10/nonexistent.toml
+[INFO|main|L198] 2026-09-01T02:25:23+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=24h, dry_run=False)
+[INFO|main|L216] 2026-09-01T02:25:23+0000: Collected 0 total candidates
+[INFO|main|L198] 2026-09-01T02:25:23+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=24h, dry_run=True)
+[INFO|main|L216] 2026-09-01T02:25:23+0000: Collected 0 total candidates
+[INFO|main|L219] 2026-09-01T02:25:23+0000: Dry run — skipping output
+[INFO|main|L198] 2026-09-01T02:25:23+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=48h, dry_run=False)
+[INFO|main|L216] 2026-09-01T02:25:24+0000: Collected 0 total candidates
+[INFO|main|L198] 2026-09-01T02:25:24+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2025-09-15, window=24h, dry_run=False)
+[INFO|main|L216] 2026-09-01T02:25:24+0000: Collected 0 total candidates
+[ERROR|main|L195] 2026-09-01T02:25:24+0000: No sources defined in configuration
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://a.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from S in 6 ms
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 1/1 succeeded, 0 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://host0.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from S0 in 3 ms
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://host1.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from S1 in 2 ms
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://host2.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from S2 in 1 ms
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://host3.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from S3 in 1 ms
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://host4.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from S4 in 1 ms
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 5/5 succeeded, 0 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://host0.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from Source0 in 2 ms
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://host1.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from Source1 in 2 ms
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://host2.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from Source2 in 1 ms
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 3/3 succeeded, 0 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://ok.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from OK in 6 ms
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://fail.com/feed "HTTP/1.1 404 Not Found"
+[WARNING|orchestrate|L92] 2026-09-01T02:25:24+0000: Source FAIL failed (1 ms): HTTPStatusFetchError: HTTP 404 for https://fail.com/feed
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 1/2 succeeded, 1 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://fail0.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:25:24+0000: Source Fail0 failed (2 ms): HTTPStatusFetchError: HTTP 500 for https://fail0.com/feed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://fail1.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:25:24+0000: Source Fail1 failed (2 ms): HTTPStatusFetchError: HTTP 500 for https://fail1.com/feed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://fail2.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:25:24+0000: Source Fail2 failed (1 ms): HTTPStatusFetchError: HTTP 500 for https://fail2.com/feed
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 0/3 succeeded, 3 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://fail.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:25:24+0000: Source S failed (2 ms): HTTPStatusFetchError: HTTP 500 for https://fail.com/feed
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 0/1 succeeded, 1 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://fail.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:25:24+0000: Source S failed (2 ms): HTTPStatusFetchError: HTTP 500 for https://fail.com/feed
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 0/1 succeeded, 1 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://example.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from Enabled in 3 ms
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 1/1 succeeded, 0 failed
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 0/1 succeeded, 1 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://ok.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 1 records from Known in 3 ms
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 1/2 succeeded, 1 failed
+[WARNING|orchestrate|L87] 2026-09-01T02:25:24+0000: Source S: Timed out after 0.05s
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 0/1 succeeded, 1 failed
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S0 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S1 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S2 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S3 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S4 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S5 in 51 ms
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 6/6 succeeded, 0 failed
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S0 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S1 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S2 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S3 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S4 in 51 ms
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 5/5 succeeded, 0 failed
+[INFO|orchestrate|L77] 2026-09-01T02:25:24+0000: Fetched 0 records from S in 0 ms
+[INFO|orchestrate|L153] 2026-09-01T02:25:24+0000: Fetch complete: 1/1 succeeded, 0 failed
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://blog.example.com/feed.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://blog.example.com/atom.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://blog.example.com/feed.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://blog.example.com/feed.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:25:24+0000: HTTP Request: GET https://blog.example.com/feed.xml "HTTP/1.1 404 Not Found"
+[ERROR|main|L273] 2026-09-01T02:26:04+0000: Configuration file not found: /tmp/pytest-of-unknown/pytest-3/test_missing_config_exits_10/nonexistent.toml
+[INFO|main|L197] 2026-09-01T02:26:04+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=24h, dry_run=False)
+[INFO|main|L215] 2026-09-01T02:26:04+0000: Collected 0 total candidates
+[INFO|main|L197] 2026-09-01T02:26:04+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=24h, dry_run=True)
+[INFO|main|L215] 2026-09-01T02:26:04+0000: Collected 0 total candidates
+[INFO|main|L218] 2026-09-01T02:26:04+0000: Dry run — skipping output
+[INFO|main|L197] 2026-09-01T02:26:04+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2026-09-01, window=48h, dry_run=False)
+[INFO|main|L215] 2026-09-01T02:26:04+0000: Collected 0 total candidates
+[INFO|main|L197] 2026-09-01T02:26:04+0000: Loaded 1 sources (user_agent=test-agent/1.0, date=2025-09-15, window=24h, dry_run=False)
+[INFO|main|L215] 2026-09-01T02:26:04+0000: Collected 0 total candidates
+[ERROR|main|L194] 2026-09-01T02:26:04+0000: No sources defined in configuration
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://a.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from S in 6 ms
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 1/1 succeeded, 0 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://host0.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from S0 in 3 ms
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://host1.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from S1 in 2 ms
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://host2.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from S2 in 2 ms
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://host3.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from S3 in 1 ms
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://host4.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from S4 in 1 ms
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 5/5 succeeded, 0 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://host0.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from Source0 in 2 ms
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://host1.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from Source1 in 2 ms
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://host2.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from Source2 in 1 ms
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 3/3 succeeded, 0 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://ok.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from OK in 2 ms
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://fail.com/feed "HTTP/1.1 404 Not Found"
+[WARNING|orchestrate|L92] 2026-09-01T02:26:04+0000: Source FAIL failed (1 ms): HTTPStatusFetchError: HTTP 404 for https://fail.com/feed
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 1/2 succeeded, 1 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://fail0.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:26:04+0000: Source Fail0 failed (2 ms): HTTPStatusFetchError: HTTP 500 for https://fail0.com/feed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://fail1.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:26:04+0000: Source Fail1 failed (1 ms): HTTPStatusFetchError: HTTP 500 for https://fail1.com/feed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://fail2.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:26:04+0000: Source Fail2 failed (1 ms): HTTPStatusFetchError: HTTP 500 for https://fail2.com/feed
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 0/3 succeeded, 3 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://fail.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:26:04+0000: Source S failed (2 ms): HTTPStatusFetchError: HTTP 500 for https://fail.com/feed
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 0/1 succeeded, 1 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://fail.com/feed "HTTP/1.1 500 Internal Server Error"
+[WARNING|orchestrate|L92] 2026-09-01T02:26:04+0000: Source S failed (2 ms): HTTPStatusFetchError: HTTP 500 for https://fail.com/feed
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 0/1 succeeded, 1 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://example.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from Enabled in 4 ms
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 1/1 succeeded, 0 failed
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 0/1 succeeded, 1 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://ok.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 1 records from Known in 2 ms
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 1/2 succeeded, 1 failed
+[WARNING|orchestrate|L87] 2026-09-01T02:26:04+0000: Source S: Timed out after 0.05s
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 0/1 succeeded, 1 failed
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S0 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S1 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S2 in 50 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S3 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S4 in 50 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S5 in 51 ms
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 6/6 succeeded, 0 failed
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S0 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S1 in 51 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S2 in 52 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S3 in 52 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S4 in 52 ms
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 5/5 succeeded, 0 failed
+[INFO|orchestrate|L77] 2026-09-01T02:26:04+0000: Fetched 0 records from S in 0 ms
+[INFO|orchestrate|L153] 2026-09-01T02:26:04+0000: Fetch complete: 1/1 succeeded, 0 failed
+[INFO|_client|L1740] 2026-09-01T02:26:04+0000: HTTP Request: GET https://blog.example.com/feed.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:05+0000: HTTP Request: GET https://blog.example.com/atom.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:05+0000: HTTP Request: GET https://blog.example.com/feed.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:05+0000: HTTP Request: GET https://blog.example.com/feed.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:05+0000: HTTP Request: GET https://blog.example.com/feed.xml "HTTP/1.1 404 Not Found"
+[INFO|main|L197] 2026-09-01T02:26:21+0000: Loaded 125 sources (user_agent=ai-engineering-newsletter/2.0 (https://github.com/tiktaalika/ai-engineering-newsletter/), date=2026-09-01, window=24h, dry_run=True)
+[INFO|_client|L1740] 2026-09-01T02:26:26+0000: HTTP Request: GET https://techcrunch.com/category/artificial-intelligence/feed/ "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:26+0000: HTTP Request: GET https://www.technologyreview.com/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:26+0000: Fetched 19 records from TechCrunch AI in 5197 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:26+0000: Fetched 10 records from MIT Technology Review AI in 5242 ms
+[INFO|_client|L1740] 2026-09-01T02:26:26+0000: HTTP Request: GET https://feeds.arstechnica.com/arstechnica/technology-lab "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:26+0000: Fetched 20 records from Ars Technica AI in 5315 ms
+[INFO|_client|L1740] 2026-09-01T02:26:26+0000: HTTP Request: GET https://www.theverge.com/rss/ai-artificial-intelligence/index.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:26+0000: Fetched 10 records from The Verge AI in 5350 ms
+[WARNING|http|L228] 2026-09-01T02:26:26+0000: Network error for https://www.theguardian.com/technology/rss:  (attempt 1/3)
+[WARNING|http|L228] 2026-09-01T02:26:26+0000: Network error for https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml:  (attempt 1/3)
+[INFO|_client|L1740] 2026-09-01T02:26:28+0000: HTTP Request: GET https://quesma.com/rss.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:28+0000: Fetched 71 records from Quesma Blog in 7146 ms
+[WARNING|http|L228] 2026-09-01T02:26:31+0000: Network error for https://feeds.bbci.co.uk/news/technology/rss.xml:  (attempt 1/3)
+[INFO|_client|L1740] 2026-09-01T02:26:31+0000: HTTP Request: GET https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:31+0000: HTTP Request: GET https://www.nature.com/natmachintell.rss "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:31+0000: HTTP Request: GET https://www.cnbc.com/id/19854910/device/rss/rss.html "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:31+0000: Fetched 30 records from CNBC Technology in 10587 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:31+0000: Fetched 1 records from Nature Machine Intelligence in 5279 ms
+[INFO|_client|L1740] 2026-09-01T02:26:32+0000: HTTP Request: GET https://www.wired.com/feed/tag/ai/latest/rss "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:32+0000: Fetched 10 records from Wired AI in 5705 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:32+0000: Fetched 30 records from IEEE Spectrum AI in 5742 ms
+[INFO|_client|L1740] 2026-09-01T02:26:32+0000: HTTP Request: GET https://rss.acm.org/technews/TechNews.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:32+0000: Fetched 12 records from ACM TechNews in 6106 ms
+[WARNING|http|L228] 2026-09-01T02:26:32+0000: Network error for https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml:  (attempt 2/3)
+[WARNING|http|L228] 2026-09-01T02:26:33+0000: Network error for https://www.theguardian.com/technology/rss:  (attempt 2/3)
+[INFO|_client|L1740] 2026-09-01T02:26:33+0000: HTTP Request: GET https://www.quantamagazine.org/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:33+0000: Fetched 5 records from Quanta Magazine Computer Science in 5591 ms
+[WARNING|orchestrate|L87] 2026-09-01T02:26:36+0000: Source BBC Technology: Timed out after 15.0s
+[WARNING|orchestrate|L87] 2026-09-01T02:26:36+0000: Source The Guardian Technology: Timed out after 15.0s
+[WARNING|orchestrate|L87] 2026-09-01T02:26:36+0000: Source New York Times Technology: Timed out after 15.0s
+[WARNING|orchestrate|L87] 2026-09-01T02:26:36+0000: Source Forbes Tech: Timed out after 15.0s
+[INFO|_client|L1740] 2026-09-01T02:26:37+0000: HTTP Request: GET https://openai.com/news/rss.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:37+0000: Fetched 1158 records from OpenAI Blog in 5495 ms
+[WARNING|http|L228] 2026-09-01T02:26:37+0000: Network error for https://blogs.nvidia.com/feed/:  (attempt 1/3)
+[INFO|_client|L1740] 2026-09-01T02:26:37+0000: HTTP Request: GET https://deepmind.google/blog/rss.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:37+0000: HTTP Request: GET https://aws.amazon.com/blogs/machine-learning/feed/ "HTTP/1.1 200 "
+[INFO|orchestrate|L77] 2026-09-01T02:26:37+0000: Fetched 100 records from Google DeepMind Blog in 6183 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:38+0000: Fetched 20 records from AWS AI Blog in 5629 ms
+[INFO|_client|L1740] 2026-09-01T02:26:38+0000: HTTP Request: GET https://www.microsoft.com/en-us/research/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:38+0000: Fetched 10 records from Microsoft Research AI in 6795 ms
+[WARNING|http|L228] 2026-09-01T02:26:39+0000: Network error for https://huggingface.co/blog/feed.xml:  (attempt 1/3)
+[INFO|_client|L1740] 2026-09-01T02:26:41+0000: HTTP Request: GET https://www.oneusefulthing.org/feed "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:41+0000: HTTP Request: GET https://www.langchain.com/blog/rss.xml "HTTP/1.1 200 OK"
+[WARNING|orchestrate|L92] 2026-09-01T02:26:42+0000: Source LangChain Blog failed (5812 ms): ValidationError: 1 validation error for RSS
+channel.content.item.80.content
+  Value error, either <title> or <description> must be present in an <item> [type=value_error, input_value={'title': None, 'link': '...nday-com-sidekick.png'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[INFO|_client|L1740] 2026-09-01T02:26:42+0000: HTTP Request: GET https://magazine.sebastianraschka.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:42+0000: Fetched 20 records from One Useful Thing by Ethan Mollick in 6186 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:42+0000: Fetched 20 records from Ahead of AI by Sebastian Raschka in 6793 ms
+[INFO|_client|L1740] 2026-09-01T02:26:43+0000: HTTP Request: GET https://semianalysis.com/feed "HTTP/1.1 301 Moved Permanently"
+[INFO|_client|L1740] 2026-09-01T02:26:43+0000: HTTP Request: GET https://semianalysis.com/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:43+0000: Fetched 10 records from SemiAnalysis by Dylan Patel in 5380 ms
+[WARNING|http|L228] 2026-09-01T02:26:43+0000: Network error for https://blogs.nvidia.com/feed/:  (attempt 2/3)
+[INFO|_client|L1740] 2026-09-01T02:26:43+0000: HTTP Request: GET https://www.interconnects.ai/feed "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:44+0000: HTTP Request: GET https://stratechery.com/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:44+0000: Fetched 10 records from Stratechery by Ben Thompson in 5381 ms
+[INFO|_client|L1740] 2026-09-01T02:26:44+0000: HTTP Request: GET https://www.fabricatedknowledge.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:45+0000: Fetched 20 records from Interconnects by Nathan Lambert in 7732 ms
+[INFO|orchestrate|L77] 2026-09-01T02:26:45+0000: Fetched 20 records from Fabricated Knowledge by Doug O'Laughlin in 6828 ms
+[WARNING|http|L228] 2026-09-01T02:26:45+0000: Network error for https://huggingface.co/blog/feed.xml:  (attempt 2/3)
+[WARNING|orchestrate|L87] 2026-09-01T02:26:47+0000: Source NVIDIA Blog AI: Timed out after 15.0s
+[INFO|_client|L1740] 2026-09-01T02:26:47+0000: HTTP Request: GET https://www.notboring.co/feed "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:26:48+0000: HTTP Request: GET https://www.latent.space/feed "HTTP/1.1 200 OK"
+[WARNING|http|L228] 2026-09-01T02:26:48+0000: Network error for https://rss.arxiv.org/rss/cs.CV:  (attempt 1/3)
+[WARNING|http|L228] 2026-09-01T02:26:48+0000: Network error for https://rss.arxiv.org/rss/cs.CL:  (attempt 1/3)
+[INFO|orchestrate|L77] 2026-09-01T02:26:48+0000: Fetched 20 records from Latent Space Podcast in 6402 ms
+[WARNING|orchestrate|L87] 2026-09-01T02:26:48+0000: Source Hugging Face Blog: Timed out after 15.0s
+[INFO|orchestrate|L77] 2026-09-01T02:26:49+0000: Fetched 20 records from Not Boring by Packy McCormick in 7340 ms
+[WARNING|http|L228] 2026-09-01T02:26:49+0000: Network error for https://rss.arxiv.org/rss/cs.LG:  (attempt 1/3)
+[WARNING|http|L228] 2026-09-01T02:26:50+0000: Network error for https://rss.arxiv.org/rss/cs.AI:  (attempt 1/3)
+[WARNING|http|L228] 2026-09-01T02:26:50+0000: Network error for https://rss.arxiv.org/rss/cs.RO:  (attempt 1/3)
+[WARNING|orchestrate|L87] 2026-09-01T02:26:51+0000: Source Import AI Newsletter: Timed out after 15.0s
+[INFO|_client|L1740] 2026-09-01T02:26:54+0000: HTTP Request: GET https://qdrant.tech/blog/index.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:54+0000: Fetched 180 records from Qdrant Blog in 5806 ms
+[INFO|_client|L1740] 2026-09-01T02:26:54+0000: HTTP Request: GET https://www.braintrust.dev/blog/atom "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:26:54+0000: Fetched 20 records from Braintrust Blog in 5699 ms
+[WARNING|http|L228] 2026-09-01T02:26:55+0000: Network error for https://rss.arxiv.org/rss/cs.CL:  (attempt 2/3)
+[INFO|_client|L1740] 2026-09-01T02:26:55+0000: HTTP Request: GET https://www.comet.com/site/blog/feed/ "HTTP/1.1 200 OK"
+[WARNING|http|L228] 2026-09-01T02:26:55+0000: Network error for https://rss.arxiv.org/rss/cs.CV:  (attempt 2/3)
+[INFO|orchestrate|L77] 2026-09-01T02:26:55+0000: Fetched 11 records from Comet ML Blog in 6097 ms
+[WARNING|http|L228] 2026-09-01T02:26:56+0000: Network error for https://rss.arxiv.org/rss/cs.LG:  (attempt 2/3)
+[WARNING|http|L228] 2026-09-01T02:26:56+0000: Network error for https://rss.arxiv.org/rss/cs.AI:  (attempt 2/3)
+[WARNING|http|L228] 2026-09-01T02:26:56+0000: Network error for https://rss.arxiv.org/rss/cs.RO:  (attempt 2/3)
+[INFO|_client|L1740] 2026-09-01T02:26:57+0000: HTTP Request: GET https://snorkel.ai/feed/ "HTTP/1.1 200 OK"
+[WARNING|orchestrate|L87] 2026-09-01T02:26:57+0000: Source arXiv Computer Vision (cs.CV): Timed out after 15.0s
+[WARNING|orchestrate|L87] 2026-09-01T02:26:58+0000: Source arXiv Computation and Language (cs.CL): Timed out after 15.0s
+[WARNING|orchestrate|L87] 2026-09-01T02:26:59+0000: Source arXiv Machine Learning (cs.LG): Timed out after 15.0s
+[WARNING|orchestrate|L87] 2026-09-01T02:27:00+0000: Source arXiv Artificial Intelligence (cs.AI): Timed out after 15.0s
+[WARNING|orchestrate|L87] 2026-09-01T02:27:00+0000: Source arXiv Robotics (cs.RO): Timed out after 15.0s
+[INFO|_client|L1740] 2026-09-01T02:27:00+0000: HTTP Request: GET https://www.together.ai/blog/rss.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:27:00+0000: HTTP Request: GET https://sambanova.ai/blog/rss.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:00+0000: Fetched 10 records from SambaNova Blog in 5748 ms
+[INFO|orchestrate|L77] 2026-09-01T02:27:00+0000: Fetched 100 records from Together AI Blog in 6012 ms
+[INFO|_client|L1740] 2026-09-01T02:27:01+0000: HTTP Request: GET https://www.graphcore.ai/posts/rss.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:01+0000: Fetched 5 records from Graphcore Blog in 6293 ms
+[WARNING|orchestrate|L87] 2026-09-01T02:27:02+0000: Source Weaviate Blog: Timed out after 15.0s
+[INFO|_client|L1740] 2026-09-01T02:27:03+0000: HTTP Request: GET https://mythic.ai/feed/ "HTTP/1.1 301 Moved Permanently"
+[INFO|_client|L1740] 2026-09-01T02:27:04+0000: HTTP Request: GET https://www.d-matrix.ai/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:04+0000: Fetched 10 records from d-Matrix Blog in 6178 ms
+[INFO|_client|L1740] 2026-09-01T02:27:05+0000: HTTP Request: GET https://rain.ai/blog/rss.xml "HTTP/1.1 301 Moved Permanently"
+[INFO|_client|L1740] 2026-09-01T02:27:05+0000: HTTP Request: GET https://blogs.sw.siemens.com/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:05+0000: Fetched 0 records from Siemens Digital Industries Software Blog in 5773 ms
+[INFO|_client|L1740] 2026-09-01T02:27:05+0000: HTTP Request: GET https://rain.ai/blog?format=rss "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:05+0000: Fetched 8 records from Rain AI Blog in 6624 ms
+[WARNING|orchestrate|L87] 2026-09-01T02:27:06+0000: Source Snorkel AI Blog: Timed out after 15.0s
+[INFO|_client|L1740] 2026-09-01T02:27:06+0000: HTTP Request: GET https://adsknews.autodesk.com/feed "HTTP/1.1 301 Moved Permanently"
+[INFO|_client|L1740] 2026-09-01T02:27:07+0000: HTTP Request: GET https://adsknews.autodesk.com/feed/ "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:27:07+0000: HTTP Request: GET https://www.comsol.com/blogs/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:07+0000: Fetched 0 records from Autodesk News in 6918 ms
+[INFO|_client|L1740] 2026-09-01T02:27:08+0000: HTTP Request: GET https://rescale.com/blog/feed/ "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:27:08+0000: HTTP Request: GET https://www.robust.ai/blog?format=rss "HTTP/1.1 404 Not Found"
+[INFO|orchestrate|L77] 2026-09-01T02:27:08+0000: Fetched 11 records from COMSOL Blog in 7997 ms
+[INFO|orchestrate|L77] 2026-09-01T02:27:08+0000: Fetched 10 records from Rescale Blog in 7764 ms
+[WARNING|orchestrate|L92] 2026-09-01T02:27:08+0000: Source Robust AI Blog failed (6232 ms): HTTPStatusFetchError: HTTP 404 for https://www.robust.ai/blog?format=rss
+[INFO|_client|L1740] 2026-09-01T02:27:08+0000: HTTP Request: GET https://bostondynamics.com/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:08+0000: Fetched 0 records from Boston Dynamics Blog in 7049 ms
+[INFO|_client|L1740] 2026-09-01T02:27:09+0000: HTTP Request: GET https://www.mythic.ai/feed/ "HTTP/1.1 404 Not Found"
+[WARNING|orchestrate|L92] 2026-09-01T02:27:09+0000: Source Mythic AI Blog failed (11755 ms): HTTPStatusFetchError: HTTP 404 for https://mythic.ai/feed/
+[INFO|_client|L1740] 2026-09-01T02:27:12+0000: HTTP Request: GET https://mlg.eng.cam.ac.uk/blog/feed.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:12+0000: Fetched 7 records from Cambridge Machine Learning Group in 6158 ms
+[INFO|_client|L1740] 2026-09-01T02:27:12+0000: HTTP Request: GET https://ai.stanford.edu/blog/feed.xml "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:27:12+0000: HTTP Request: GET https://aip.riken.jp/feed/ "HTTP/1.1 200 OK"
+[WARNING|orchestrate|L92] 2026-09-01T02:27:12+0000: Source RIKEN Center for AIP News failed (5621 ms): ValidationError: 1 validation error for RSS
+channel.content.item.3.content
+  Value error, either <title> or <description> must be present in an <item> [type=value_error, input_value={'title': None, 'link': '...'}, 'description': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[INFO|_client|L1740] 2026-09-01T02:27:13+0000: HTTP Request: GET https://www.ri.cmu.edu/feed/ "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:27:13+0000: HTTP Request: GET https://www.kdnuggets.com/feed "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:13+0000: Fetched 10 records from KDnuggets AI in 5305 ms
+[INFO|_client|L1740] 2026-09-01T02:27:13+0000: HTTP Request: GET https://towardsdatascience.com/feed "HTTP/1.1 301 Moved Permanently"
+[INFO|_client|L1740] 2026-09-01T02:27:14+0000: HTTP Request: GET https://towardsdatascience.com/feed/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:14+0000: Fetched 20 records from Towards Data Science in 5290 ms
+[INFO|_client|L1740] 2026-09-01T02:27:14+0000: HTTP Request: GET https://www.analyticsvidhya.com/feed/ "HTTP/1.1 403 Forbidden"
+[WARNING|orchestrate|L92] 2026-09-01T02:27:14+0000: Source Analytics Vidhya AI failed (5942 ms): HTTPStatusFetchError: HTTP 403 for https://www.analyticsvidhya.com/feed/
+[INFO|_client|L1740] 2026-09-01T02:27:14+0000: HTTP Request: GET https://vectorinstitute.ai/feed/ "HTTP/1.1 200 OK"
+[INFO|_client|L1740] 2026-09-01T02:27:15+0000: HTTP Request: GET https://lilianweng.github.io/index.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:15+0000: Fetched 53 records from Lilian Weng Blog (Lil'Log) in 5360 ms
+[INFO|orchestrate|L77] 2026-09-01T02:27:16+0000: Fetched 276 records from Vector Institute News in 8215 ms
+[INFO|orchestrate|L77] 2026-09-01T02:27:17+0000: Fetched 100 records from CMU Robotics Institute News in 12076 ms
+[INFO|_client|L1740] 2026-09-01T02:27:18+0000: HTTP Request: GET https://eugeneyan.com/rss/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:18+0000: Fetched 212 records from Eugene Yan Blog in 6288 ms
+[INFO|_client|L1740] 2026-09-01T02:27:18+0000: HTTP Request: GET https://huyenchip.com/feed.xml "HTTP/1.1 200 OK"
+[WARNING|orchestrate|L87] 2026-09-01T02:27:19+0000: Source Berkeley AI Research (BAIR) Blog: Timed out after 15.0s
+[INFO|orchestrate|L77] 2026-09-01T02:27:19+0000: Fetched 10 records from Chip Huyen Blog in 7368 ms
+[INFO|_client|L1740] 2026-09-01T02:27:20+0000: HTTP Request: GET https://simonwillison.net/atom/everything/ "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:20+0000: Fetched 30 records from Simon Willison Blog in 6380 ms
+[INFO|_client|L1740] 2026-09-01T02:27:20+0000: HTTP Request: GET https://www.swyx.io/rss.xml "HTTP/1.1 301 Moved Permanently"
+[INFO|_client|L1740] 2026-09-01T02:27:20+0000: HTTP Request: GET https://timdettmers.com/feed/ "HTTP/1.1 200 OK"
+[WARNING|orchestrate|L87] 2026-09-01T02:27:20+0000: Source Stanford AI Lab (SAIL) Blog: Timed out after 15.0s
+[INFO|orchestrate|L77] 2026-09-01T02:27:21+0000: Fetched 10 records from Tim Dettmers Blog in 7259 ms
+[INFO|_client|L1740] 2026-09-01T02:27:26+0000: HTTP Request: GET https://swyx.io/rss.xml "HTTP/1.1 200 OK"
+[INFO|orchestrate|L77] 2026-09-01T02:27:26+0000: Fetched 432 records from Swyx (Shawn Wang) Blog in 12125 ms
+[INFO|orchestrate|L153] 2026-09-01T02:27:26+0000: Fetch complete: 47/125 succeeded, 78 failed
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Reuters Technology' failed (0 ms): No fetcher registered for fetch_type='website' (source='Reuters Technology')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Associated Press Technology' failed (0 ms): No fetcher registered for fetch_type='website' (source='Associated Press Technology')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'VentureBeat AI' failed (0 ms): No fetcher registered for fetch_type='website' (source='VentureBeat AI')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'BBC Technology' failed (15003 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'The Guardian Technology' failed (15003 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'New York Times Technology' failed (15004 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Forbes Tech' failed (15004 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Bloomberg Technology' failed (0 ms): No fetcher registered for fetch_type='website' (source='Bloomberg Technology')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Wall Street Journal Tech' failed (0 ms): No fetcher registered for fetch_type='website' (source='Wall Street Journal Tech')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Financial Times Tech' failed (0 ms): No fetcher registered for fetch_type='website' (source='Financial Times Tech')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Anthropic News' failed (0 ms): No fetcher registered for fetch_type='website' (source='Anthropic News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Meta AI Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Meta AI Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'NVIDIA Blog AI' failed (15002 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Hugging Face Blog' failed (15002 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'LangChain Blog' failed (5812 ms): ValidationError: 1 validation error for RSS
+channel.content.item.80.content
+  Value error, either <title> or <description> must be present in an <item> [type=value_error, input_value={'title': None, 'link': '...nday-com-sidekick.png'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'LlamaIndex Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='LlamaIndex Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Scale AI Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Scale AI Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Mistral AI Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Mistral AI Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Cohere Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Cohere Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Stability AI Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Stability AI Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Alignment Newsletter Archive' failed (0 ms): No fetcher registered for fetch_type='website' (source='Alignment Newsletter Archive')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Import AI Newsletter' failed (15003 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'The Batch by DeepLearning.AI' failed (0 ms): No fetcher registered for fetch_type='website' (source='The Batch by DeepLearning.AI')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Machine Learning Street Talk' failed (0 ms): No fetcher registered for fetch_type='youtube' (source='Machine Learning Street Talk')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'No Priors Podcast' failed (0 ms): No fetcher registered for fetch_type='website' (source='No Priors Podcast')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Hacker News Frontpage' failed (0 ms): No fetcher registered for fetch_type='api' (source='Hacker News Frontpage')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Reddit MachineLearning' failed (0 ms): No fetcher registered for fetch_type='json' (source='Reddit MachineLearning')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Reddit LocalLLaMA' failed (0 ms): No fetcher registered for fetch_type='json' (source='Reddit LocalLLaMA')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Hugging Face Papers' failed (0 ms): No fetcher registered for fetch_type='website' (source='Hugging Face Papers')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'arXiv Computer Vision (cs.CV)' failed (15002 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'arXiv Computation and Language (cs.CL)' failed (15002 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'arXiv Machine Learning (cs.LG)' failed (15001 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'arXiv Artificial Intelligence (cs.AI)' failed (15003 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'arXiv Robotics (cs.RO)' failed (15002 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'AlphaSignal AI' failed (0 ms): No fetcher registered for fetch_type='website' (source='AlphaSignal AI')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'TLDR AI' failed (0 ms): No fetcher registered for fetch_type='website' (source='TLDR AI')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Deepgram Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Deepgram Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'AssemblyAI Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='AssemblyAI Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Pinecone Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Pinecone Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Weaviate Blog' failed (15002 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Anyscale Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Anyscale Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Modal Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Modal Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Weights & Biases Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Weights & Biases Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Labelbox Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Labelbox Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Snorkel AI Blog' failed (15003 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Lightning AI Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Lightning AI Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Fireworks AI Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Fireworks AI Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Groq News' failed (0 ms): No fetcher registered for fetch_type='website' (source='Groq News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Cerebras Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Cerebras Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Tenstorrent Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Tenstorrent Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Mythic AI Blog' failed (11755 ms): HTTPStatusFetchError: HTTP 404 for https://mythic.ai/feed/
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Extropic Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Extropic Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Ansys Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Ansys Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Dassault Systèmes Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Dassault Systèmes Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'PTC Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='PTC Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Cadence Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Cadence Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Siemens Simcenter' failed (0 ms): No fetcher registered for fetch_type='website' (source='Siemens Simcenter')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Physical Intelligence (pi.co)' failed (0 ms): No fetcher registered for fetch_type='website' (source='Physical Intelligence (pi.co)')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Figure AI News' failed (0 ms): No fetcher registered for fetch_type='website' (source='Figure AI News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Sanctuary AI News' failed (0 ms): No fetcher registered for fetch_type='website' (source='Sanctuary AI News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Skild AI' failed (0 ms): No fetcher registered for fetch_type='website' (source='Skild AI')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Robust AI Blog' failed (6232 ms): HTTPStatusFetchError: HTTP 404 for https://www.robust.ai/blog?format=rss
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source '1X Technologies News' failed (0 ms): No fetcher registered for fetch_type='website' (source='1X Technologies News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Agility Robotics Blog' failed (0 ms): No fetcher registered for fetch_type='website' (source='Agility Robotics Blog')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Apptronik News' failed (0 ms): No fetcher registered for fetch_type='website' (source='Apptronik News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Deepmind Robotics Research' failed (0 ms): No fetcher registered for fetch_type='website' (source='Deepmind Robotics Research')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Berkeley AI Research (BAIR) Blog' failed (15003 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Stanford AI Lab (SAIL) Blog' failed (15002 ms): Timed out after 15.0s
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'MIT CSAIL News' failed (0 ms): No fetcher registered for fetch_type='website' (source='MIT CSAIL News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'ETH Zurich AI Center News' failed (0 ms): No fetcher registered for fetch_type='website' (source='ETH Zurich AI Center News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Max Planck Institute for Intelligent Systems' failed (0 ms): No fetcher registered for fetch_type='website' (source='Max Planck Institute for Intelligent Systems')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'RIKEN Center for AIP News' failed (5621 ms): ValidationError: 1 validation error for RSS
+channel.content.item.3.content
+  Value error, either <title> or <description> must be present in an <item> [type=value_error, input_value={'title': None, 'link': '...'}, 'description': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Mila AI Institute News' failed (0 ms): No fetcher registered for fetch_type='website' (source='Mila AI Institute News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Alan Turing Institute News' failed (0 ms): No fetcher registered for fetch_type='website' (source='Alan Turing Institute News')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Analytics Vidhya AI' failed (5942 ms): HTTPStatusFetchError: HTTP 403 for https://www.analyticsvidhya.com/feed/
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Andrej Karpathy Blog / Channel' failed (0 ms): No fetcher registered for fetch_type='website' (source='Andrej Karpathy Blog / Channel')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Greg Kamradt (Data Independent)' failed (0 ms): No fetcher registered for fetch_type='youtube' (source='Greg Kamradt (Data Independent)')
+[WARNING|main|L96] 2026-09-01T02:27:26+0000: Source 'Stratechery Articles' failed (0 ms): No fetcher registered for fetch_type='website' (source='Stratechery Articles')
+[INFO|main|L215] 2026-09-01T02:27:26+0000: Collected 3171 total candidates
+[INFO|main|L218] 2026-09-01T02:27:26+0000: Dry run — skipping output

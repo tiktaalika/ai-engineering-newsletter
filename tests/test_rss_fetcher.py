@@ -3,10 +3,10 @@
 from __future__ import annotations
 
 from datetime import UTC, datetime
-from unittest.mock import MagicMock
 
 import httpx
 import pytest
+import respx
 
 from newsletter.fetchers import (
     FETCHER_REGISTRY,
@@ -19,6 +19,7 @@ from newsletter.fetchers.rss import (
     _clean_xml_entities,
     parse_pub_date,
 )
+from newsletter.http import HTTPStatusFetchError
 from newsletter.models import Source
 
 from .conftest import SAMPLE_ATOM, SAMPLE_RSS_20, SAMPLE_RSS_BARE_AMPERSAND
@@ -33,19 +34,15 @@ class TestRSSFetcher:
         fetcher = RSSFetcher()
         assert fetcher.fetch_types == frozenset({"rss", "atom", "rdf"})
 
-    def test_fetch_rss_20(
-        self, rss_source: Source, monkeypatch: pytest.MonkeyPatch
-    ) -> None:
+    @respx.mock
+    async def test_fetch_rss_20(self, rss_source: Source) -> None:
         """Parse a standard RSS 2.0 feed with two items."""
-        mock_response = MagicMock(spec=httpx.Response)
-        mock_response.content = SAMPLE_RSS_20.encode("utf-8")
-        mock_response.raise_for_status = MagicMock()
+        respx.get(rss_source.scrape_url).mock(
+            return_value=httpx.Response(200, content=SAMPLE_RSS_20.encode("utf-8"))
+        )
 
-        mock_client = MagicMock(spec=httpx.Client)
-        mock_client.get = MagicMock(return_value=mock_response)
-
-        fetcher = RSSFetcher()
-        records = fetcher.fetch(rss_source, mock_client)
+        async with httpx.AsyncClient() as client:
+            records = await RSSFetcher().fetch(rss_source, client)
 
         assert len(records) == 2
 
@@ -61,45 +58,38 @@ class TestRSSFetcher:
         assert records[1].title == "Second Post"
         assert records[1].url == "https://blog.example.com/second-post"
 
-    def test_fetch_atom(
-        self, atom_source: Source, monkeypatch: pytest.MonkeyPatch
-    ) -> None:
+    @respx.mock
+    async def test_fetch_atom(self, atom_source: Source) -> None:
         """Parse an Atom feed with one entry."""
-        mock_response = MagicMock(spec=httpx.Response)
-        mock_response.content = SAMPLE_ATOM.encode("utf-8")
-        mock_response.raise_for_status = MagicMock()
+        respx.get(atom_source.scrape_url).mock(
+            return_value=httpx.Response(200, content=SAMPLE_ATOM.encode("utf-8"))
+        )
 
-        mock_client = MagicMock(spec=httpx.Client)
-        mock_client.get = MagicMock(return_value=mock_response)
-
-        fetcher = RSSFetcher()
-        records = fetcher.fetch(atom_source, mock_client)
+        async with httpx.AsyncClient() as client:
+            records = await RSSFetcher().fetch(atom_source, client)
 
         assert len(records) == 1
         assert records[0].title == "Atom Entry"
         assert records[0].url == "https://blog.example.com/atom-entry"
         assert "atom summary" in records[0].description
 
-    def test_fetch_bare_ampersand(
-        self, rss_source: Source, monkeypatch: pytest.MonkeyPatch
-    ) -> None:
+    @respx.mock
+    async def test_fetch_bare_ampersand(self, rss_source: Source) -> None:
         """Bare ``&`` in XML is cleaned before parsing."""
-        mock_response = MagicMock(spec=httpx.Response)
-        mock_response.content = SAMPLE_RSS_BARE_AMPERSAND.encode("utf-8")
-        mock_response.raise_for_status = MagicMock()
+        respx.get(rss_source.scrape_url).mock(
+            return_value=httpx.Response(
+                200, content=SAMPLE_RSS_BARE_AMPERSAND.encode("utf-8")
+            )
+        )
 
-        mock_client = MagicMock(spec=httpx.Client)
-        mock_client.get = MagicMock(return_value=mock_response)
-
-        fetcher = RSSFetcher()
-        records = fetcher.fetch(rss_source, mock_client)
+        async with httpx.AsyncClient() as client:
+            records = await RSSFetcher().fetch(rss_source, client)
 
         assert len(records) == 1
         assert "AT&T" in records[0].title
 
-    def test_fetch_empty_feed(
-        self, rss_source: Source, monkeypatch: pytest.MonkeyPatch
-    ) -> None:
+    @respx.mock
+    async def test_fetch_empty_feed(self, rss_source: Source) -> None:
         """An empty feed returns zero records."""
         empty_rss = b"""\
 <?xml version="1.0" encoding="UTF-8"?>
@@ -111,32 +101,28 @@ class TestRSSFetcher:
   </channel>
 </rss>
 """
-        mock_response = MagicMock(spec=httpx.Response)
-        mock_response.content = empty_rss
-        mock_response.raise_for_status = MagicMock()
-
-        mock_client = MagicMock(spec=httpx.Client)
-        mock_client.get = MagicMock(return_value=mock_response)
-
-        fetcher = RSSFetcher()
-        records = fetcher.fetch(rss_source, mock_client)
-        assert records == []
-
-    def test_fetch_http_error(self, rss_source: Source) -> None:
-        """HTTP errors propagate via raise_for_status."""
-        mock_response = MagicMock(spec=httpx.Response)
-        mock_response.raise_for_status = MagicMock(
-            side_effect=httpx.HTTPStatusError(
-                "404", request=MagicMock(), response=MagicMock()
-            )
+        respx.get(rss_source.scrape_url).mock(
+            return_value=httpx.Response(200, content=empty_rss)
         )
 
-        mock_client = MagicMock(spec=httpx.Client)
-        mock_client.get = MagicMock(return_value=mock_response)
+        async with httpx.AsyncClient() as client:
+            records = await RSSFetcher().fetch(rss_source, client)
 
-        fetcher = RSSFetcher()
-        with pytest.raises(httpx.HTTPStatusError):
-            fetcher.fetch(rss_source, mock_client)
+        assert records == []
+
+    @respx.mock
+    async def test_fetch_http_error(self, rss_source: Source) -> None:
+        """Non-retryable HTTP errors raise HTTPStatusFetchError."""
+        respx.get(rss_source.scrape_url).mock(
+            return_value=httpx.Response(404, text="not found")
+        )
+
+        async with httpx.AsyncClient() as client:
+            with pytest.raises(HTTPStatusFetchError) as exc_info:
+                await RSSFetcher().fetch(rss_source, client)
+
+        assert exc_info.value.status_code == 404
+        assert exc_info.value.url == rss_source.scrape_url
 
 
 # --------------------------------------------------------------------------- #

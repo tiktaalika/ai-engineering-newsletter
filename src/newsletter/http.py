@@ -15,7 +15,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import random
-from typing import Any
+from typing import Any, cast
 from urllib.parse import urlsplit
 
 import httpx
@@ -81,7 +81,7 @@ def backoff_delay(
     Returns ``min(base * 2^attempt, max_delay) + jitter``.
     Jitter is uniformly distributed in ``[0, base)``.
     """
-    delay = min(base * (2 ** attempt), max_delay)
+    delay = min(base * (2**attempt), max_delay)
     jitter = random.uniform(0, base)  # noqa: S311
     return delay + jitter
 
@@ -266,7 +266,7 @@ async def fetch_text(
         max_backoff=max_backoff,
         rate_limiter=rate_limiter,
     )
-    return result  # type: ignore[return-value]
+    return cast(str, result)
 
 
 async def fetch_json(
@@ -288,7 +288,7 @@ async def fetch_json(
         max_backoff=max_backoff,
         rate_limiter=rate_limiter,
     )
-    return result  # type: ignore[return-value]
+    return cast(dict[str, Any], result)
 
 
 async def fetch_bytes(
@@ -310,4 +310,4 @@ async def fetch_bytes(
         max_backoff=max_backoff,
         rate_limiter=rate_limiter,
     )
-    return result  # type: ignore[return-value]
+    return cast(bytes, result)

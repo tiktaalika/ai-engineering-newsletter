@@ -15,6 +15,7 @@ from typing import Any
 import httpx
 from rss_parser import parse as parse_rss
 
+from newsletter.http import fetch_text
 from newsletter.models import RawRecord, Source
 
 logger = logging.getLogger(__name__)
@@ -167,22 +168,17 @@ class RSSFetcher:
     def fetch_types(self) -> frozenset[str]:
         return self._SUPPORTED_TYPES
 
-    def fetch(
+    async def fetch(
         self,
         source: Source,
-        client: httpx.Client,
+        client: httpx.AsyncClient,
         *,
         cutoff: datetime | None = None,
     ) -> list[RawRecord]:
         """Fetch an RSS/Atom/RDF feed and parse it into raw records."""
-        response = client.get(source.scrape_url)
-        response.raise_for_status()
+        raw_text = await fetch_text(client, source.scrape_url)
 
-        raw_bytes = response.content
-
-        # Pre-process XML to fix bare ``&`` entities that break parsers.
-        raw_text = raw_bytes.decode("utf-8", errors="replace")
-
+        # Clean bare ``&`` entities that break XML parsers.
         raw_text = _clean_xml_entities(raw_text)
         feed = parse_rss(raw_text)
 
