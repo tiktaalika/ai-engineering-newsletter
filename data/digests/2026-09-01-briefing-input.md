@@ -3,68 +3,68 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16738
-- filtered_count: 2646
-- duplicate_count: 79
-- failures: 7
+- fetched_count: 16636
+- filtered_count: 2577
+- duplicate_count: 76
+- failures: 19
 
 ## Top 10 General AI News
 1. [TimesFM-3: A zero-shot foundation model for multivariate forecasting](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting)
    - source: Google Research
-   - score: 63.443
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.914; source_priority=1.0
+   - score: 63.427
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.913; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [OpenAI supports California’s bill to advance youth AI safety](https://openai.com/index/supporting-california-bill-advance-ai-youth-safety)
    - source: OpenAI
-   - score: 57.223
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.692; source_priority=1.0
+   - score: 57.184
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.69; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.69; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Introducing wrapture](https://simonwillison.net/2026/Aug/31/introducing-wrapture)
    - source: Simon Willison
-   - score: 56.342
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - score: 56.285
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier](https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the)
    - source: Latent Space
-   - score: 54.597
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.876; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.54
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Polimill builds Japan's next-generation public AI infrastructure](https://openai.com/index/polimill)
    - source: OpenAI
-   - score: 53.889
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.692; source_priority=1.0
+   - score: 53.851
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.69; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.69; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Quoting Andrew Digby](https://simonwillison.net/2026/Aug/31/andrew-digby)
    - source: Simon Willison
-   - score: 52.467
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.779; source_priority=1.0
+   - score: 52.409
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.776; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science](https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science)
    - source: NVIDIA AI
-   - score: 68.066
-   - score_breakdown: general=0.667; engineering=0.0; research=0.667; novelty=0.791; source_priority=1.0
+   - score: 68.028
+   - score_breakdown: general=0.667; engineering=0.0; research=0.667; novelty=0.789; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.79; matched_terms=4; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 8. [‘If you build something vastly smarter than you, it better be on your side’: can we stop AI from deceiving us?](https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us)
    - source: The Guardian Technology
-   - score: 64.114
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.732; source_priority=1.0
+   - score: 63.999
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.727; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.73; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-9. [Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation](https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation)
+9. [The Download: engineered microbes for crops, and OpenAI’s culture problem](https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture)
+   - source: MIT Technology Review AI
+   - score: 60.272
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.982; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation](https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation)
    - source: Amazon AWS AI
-   - score: 60.006
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.818; source_priority=1.0
+   - score: 59.968
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI](https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai)
-   - source: TechCrunch AI
-   - score: 57.835
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.871; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Conservatives split from Silicon Valley allies as datacenter backlash grows](https://www.theguardian.com/technology/2026/sep/01/datacenter-backlash-conservatives-silicon-valley)
    - source: The Guardian Technology
-   - score: 60.66
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.992; source_priority=1.0
+   - score: 60.545
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.987; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [Ai Agents In Engineering Ai Conference 2025](https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025)
    - source: Synera
@@ -90,39 +90,39 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [As MAHA champions nutrition, it’s ignoring the experts, dietitians say](https://www.statnews.com/2026/09/01/maha-nutrition-makeover-hampered-dietitian-workforce-crisis)
    - source: STAT Health Tech
-   - score: 54.533
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
+   - score: 54.418
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.867; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [New guidelines on migraine prevention reflect increasing options for patients](https://www.statnews.com/2026/08/31/migraine-prevention-medication-guidelines)
    - source: STAT Health Tech
-   - score: 45.939
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.482; source_priority=1.0
+   - score: 45.824
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.477; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [ESC26: AstraZeneca's heart failure drug shows promise in ph. 2 trial - Fierce Biotech](https://news.google.com/rss/articles/CBMiogFBVV95cUxNaVRxUFc4ejl4b0Q3Wl9ubkF6S0JINE5weVR2RU4temd5Z1FkWEJSUzlHaHFRU3NQVXFlLXpnY2pUUTVRT2FJaGg0bE1Td3k3WjhkLU1aN1NZZU1JOTVhalQwT1duQ0xsR0ZoRENBbENkTHZKMnVYSE9mUlJhME81dU9JcVNiTkFyZDRndHdHemVGMmJHMGZkSGVhRHQ0RXg1WlE?oc=5)
-   - source: Trusted Biomedical AI Source Discovery
-   - score: 42.651
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.333; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.33; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Ai Wont Transform Health Systems Ceos Will Six Principles To Drive The Transformation](https://medcitynews.com/2026/08/ai-wont-transform-health-systems-ceos-will-six-principles-to-drive-the-transformation)
+3. [Ai Wont Transform Health Systems Ceos Will Six Principles To Drive The Transformation](https://medcitynews.com/2026/08/ai-wont-transform-health-systems-ceos-will-six-principles-to-drive-the-transformation)
    - source: MedCity News
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Benchmarks Don’t Fail Silently. Agentic AI Does. - The Clinical Trial Vanguard](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGRVajRLTGxXd19FYjU2MFdfOGxxUjlUeEFIMjRldzhod0xzNXJtTXlFR2tkQmNqbGVvRjRRWUgtMmNTZzJTV200SWJ4M3g4NGZlTlM2WTJtTEt3Tm9XZDliLWQxdjgyYWs0WmNTdC1YbmlhYnE2dC1LVWFWR1lqQ0pqUWlPZ0ZGTTB6cDg5OTgxVGhUSE5wVjBjQnpOekpmdFVKRTBrZw?oc=5)
-   - source: Google News General AI Discovery
-   - score: 45.544
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.985; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.99; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+4. [1865962.Article](https://www.drugtargetreview.com/ai-in-drug-discovery-predictions-for-2026/1865962.article)
+   - source: Drug Target Review
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Upmc Ai Testing Hospital Tech](https://medcitynews.com/2026/08/upmc-ai-testing-hospital-tech)
+   - source: MedCity News
+   - score: 31.833
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models](https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models)
    - source: Microsoft Research
-   - score: 66.646
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.908; source_priority=1.0
+   - score: 66.63
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.907; source_priority=1.0
 2. [TimesFM-3: A zero-shot foundation model for multivariate forecasting](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting)
    - source: Google Research
-   - score: 63.443
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.914; source_priority=1.0
+   - score: 63.427
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.913; source_priority=1.0
 3. [Learning Hub](https://ai.meta.com/learn)
    - source: Meta AI
    - score: 51.033
@@ -174,9 +174,21 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: HTTP Error 404: Not Found
+- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
+- Google News General AI Discovery: HTTP Error 503: Service Unavailable
+- Google News AI Payments and Agent Commerce: HTTP Error 503: Service Unavailable
+- Google News Frontier AI Policy and Access: HTTP Error 503: Service Unavailable
+- Google News Engineering AI Discovery: HTTP Error 503: Service Unavailable
+- Trusted Engineering AI Vendor Discovery: HTTP Error 503: Service Unavailable
+- Trusted Engineering Media Discovery: HTTP Error 503: Service Unavailable
+- Google News Medical AI Discovery: HTTP Error 503: Service Unavailable
+- Google News Bio and Genetics AI Discovery: HTTP Error 503: Service Unavailable
+- Trusted Biomedical AI Source Discovery: HTTP Error 503: Service Unavailable
+- Curated AI Newsletter Discovery: HTTP Error 503: Service Unavailable
+- Generative AI Newsletter Discovery: HTTP Error 503: Service Unavailable

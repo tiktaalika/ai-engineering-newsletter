@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-09-01T12:34:26.175372+00:00",
+    "generated_at": "2026-09-01T12:44:28.221241+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16738,
-    "filtered_count": 2646,
-    "duplicate_count": 79,
+    "fetched_count": 16636,
+    "filtered_count": 2577,
+    "duplicate_count": 76,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -34,6 +38,50 @@
       {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Google News General AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News AI Payments and Agent Commerce",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Frontier AI Policy and Access",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Engineering AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering AI Vendor Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering Media Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Medical AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Bio and Genetics AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Biomedical AI Source Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Curated AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Generative AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
       }
     ]
   },
@@ -59,7 +107,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 63.443,
+      "score": 63.427,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -71,7 +119,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.914,
+      "novelty_score": 0.913,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -97,7 +145,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 57.223,
+      "score": 57.184,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -109,7 +157,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.692,
+      "novelty_score": 0.69,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -134,7 +182,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 56.342,
+      "score": 56.285,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -146,7 +194,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.803,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -171,10 +219,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.597,
+      "score": 54.54,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -183,7 +231,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.876,
+      "novelty_score": 0.873,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -208,7 +256,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 53.889,
+      "score": 53.851,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -220,7 +268,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.692,
+      "novelty_score": 0.69,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -244,7 +292,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.467,
+      "score": 52.409,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -256,7 +304,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.779,
+      "novelty_score": 0.776,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -284,7 +332,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 68.066,
+      "score": 68.028,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -296,7 +344,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.791,
+      "novelty_score": 0.789,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -323,7 +371,7 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 64.114,
+      "score": 63.999,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -335,11 +383,46 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.732,
+      "novelty_score": 0.727,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e614408f57dde3fb",
+      "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
+      "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-01T12:10:00+00:00",
+      "text": "The Download: engineered microbes for crops, and OpenAI’s culture problem This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How engineered microbes could help feed the world’s crops Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions.…",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.272,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.982,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -359,7 +442,7 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 60.006,
+      "score": 59.968,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -371,7 +454,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.818,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -379,42 +462,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "6a3db8bac480b841",
-      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-01T00:13:00+00:00",
-      "text": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.835,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.871,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
@@ -432,7 +479,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.66,
+      "score": 60.545,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -444,7 +491,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -607,7 +654,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.533,
+      "score": 54.418,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -619,7 +666,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.873,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -642,7 +689,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 45.939,
+      "score": 45.824,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -654,49 +701,12 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.482,
+      "novelty_score": 0.477,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
         "healthcare_ai",
         "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "afa4cb6d001e339d",
-      "title": "ESC26: AstraZeneca's heart failure drug shows promise in ph. 2 trial - Fierce Biotech",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaVRxUFc4ejl4b0Q3Wl9ubkF6S0JINE5weVR2RU4temd5Z1FkWEJSUzlHaHFRU3NQVXFlLXpnY2pUUTVRT2FJaGg0bE1Td3k3WjhkLU1aN1NZZU1JOTVhalQwT1duQ0xsR0ZoRENBbENkTHZKMnVYSE9mUlJhME81dU9JcVNiTkFyZDRndHdHemVGMmJHMGZkSGVhRHQ0RXg1WlE?oc=5",
-      "source": "Trusted Biomedical AI Source Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T15:13:05+00:00",
-      "text": "ESC26: AstraZeneca's heart failure drug shows promise in ph. 2 trial - Fierce Biotech ESC26: AstraZeneca's heart failure drug shows promise in ph. 2 trial Fierce Biotech",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 42.651,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.33",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.333,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "bio_ai",
-        "trusted_discovery",
-        "healthcare_ai",
-        "genomics_ai"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -738,40 +748,75 @@
       "source_priority": "medium"
     },
     {
-      "id": "89c4e5f8a2bf3539",
-      "title": "Benchmarks Don’t Fail Silently. Agentic AI Does. - The Clinical Trial Vanguard",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGRVajRLTGxXd19FYjU2MFdfOGxxUjlUeEFIMjRldzhod0xzNXJtTXlFR2tkQmNqbGVvRjRRWUgtMmNTZzJTV200SWJ4M3g4NGZlTlM2WTJtTEt3Tm9XZDliLWQxdjgyYWs0WmNTdC1YbmlhYnE2dC1LVWFWR1lqQ0pqUWlPZ0ZGTTB6cDg5OTgxVGhUSE5wVjBjQnpOekpmdFVKRTBrZw?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
+      "id": "9c62e9ceb3310452",
+      "title": "1865962.Article",
+      "url": "https://www.drugtargetreview.com/ai-in-drug-discovery-predictions-for-2026/1865962.article",
+      "source": "Drug Target Review",
+      "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-09-01T12:06:18+00:00",
-      "text": "Benchmarks Don’t Fail Silently. Agentic AI Does. - The Clinical Trial Vanguard Benchmarks Don’t Fail Silently. Agentic AI Does. The Clinical Trial Vanguard",
+      "published_at": null,
+      "text": "1865962.Article https://www.drugtargetreview.com/ai-in-drug-discovery-predictions-for-2026/1865962.article",
       "matched_terms": [
-        "AI",
-        "agent",
-        "benchmark"
+        "AI"
       ],
       "engagement": {},
-      "score": 45.544,
+      "score": 31.833,
       "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.99",
-        "matched_terms=3",
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.985,
-      "source_priority_score": 0.35,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "discovery",
-        "news"
+        "bio_ai",
+        "drug_discovery",
+        "biotech"
       ],
       "registry_category": "general_ai",
-      "source_priority": "low"
+      "source_priority": "medium"
+    },
+    {
+      "id": "18d737a56bde8926",
+      "title": "Upmc Ai Testing Hospital Tech",
+      "url": "https://medcitynews.com/2026/08/upmc-ai-testing-hospital-tech",
+      "source": "MedCity News",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Upmc Ai Testing Hospital Tech https://medcitynews.com/2026/08/upmc-ai-testing-hospital-tech/",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 31.833,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech",
+        "digital_health"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -788,7 +833,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.66,
+      "score": 60.545,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -800,7 +845,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -964,7 +1009,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 66.646,
+      "score": 66.63,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -976,7 +1021,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -999,7 +1044,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 63.443,
+      "score": 63.427,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1011,7 +1056,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.914,
+      "novelty_score": 0.913,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -1712,42 +1757,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "fb40e0c18bb1e3f1",
-      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
-      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-28T10:15:00+00:00",
-      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 79.08,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
       "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
@@ -1760,7 +1769,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 78.651,
+      "score": 78.647,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1797,7 +1806,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 69.083,
+      "score": 69.079,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.47",
@@ -1837,7 +1846,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 68.066,
+      "score": 68.028,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -1849,7 +1858,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.791,
+      "novelty_score": 0.789,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -1931,42 +1940,6 @@
       "source_priority": "high"
     },
     {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 66.937,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.649,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "1e90334d4d649bed",
       "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
       "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
@@ -1980,7 +1953,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 66.646,
+      "score": 66.63,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -1992,7 +1965,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.908,
+      "novelty_score": 0.907,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2015,7 +1988,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 65.182,
+      "score": 65.178,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.72",
@@ -2054,7 +2027,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.26,
+      "score": 64.202,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.43",
@@ -2066,7 +2039,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.428,
+      "novelty_score": 0.426,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2094,7 +2067,7 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 64.114,
+      "score": 63.999,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2106,7 +2079,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.732,
+      "novelty_score": 0.727,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2128,7 +2101,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 63.443,
+      "score": 63.427,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2140,7 +2113,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.914,
+      "novelty_score": 0.913,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2165,7 +2138,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 62.598,
+      "score": 62.594,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.45",
@@ -2235,7 +2208,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 60.887,
+      "score": 60.883,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -2270,7 +2243,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.66,
+      "score": 60.545,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -2282,7 +2255,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2654,6 +2627,41 @@
       "source_priority": "high"
     },
     {
+      "id": "e614408f57dde3fb",
+      "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
+      "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-01T12:10:00+00:00",
+      "text": "The Download: engineered microbes for crops, and OpenAI’s culture problem This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How engineered microbes could help feed the world’s crops Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions.…",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.272,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.982,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "19423a39b0e789b5",
       "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
       "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation",
@@ -2668,7 +2676,7 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 60.006,
+      "score": 59.968,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2680,7 +2688,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.818,
+      "novelty_score": 0.817,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2703,7 +2711,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.893,
+      "score": 59.889,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2775,7 +2783,7 @@
         "AI chip"
       ],
       "engagement": {},
-      "score": 59.115,
+      "score": 59.077,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2787,7 +2795,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.778,
+      "novelty_score": 0.776,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2847,7 +2855,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.835,
+      "score": 57.796,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -2859,7 +2867,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.871,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2944,41 +2952,6 @@
       "source_priority": "high"
     },
     {
-      "id": "4a5a1c6308573982",
-      "title": "Parametric Optimization via Local AI Inference",
-      "url": "https://rescale.com/blog/ic-parametric-optimization-local-ai-inference",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-07T11:10:00+00:00",
-      "text": "Parametric Optimization via Local AI Inference Explore more design options faster with local AI Physics inference. Rescale’s inference tooling lets engineers connect geometry, surrogate models, and outputs in a lightweight design workflow so they can run parametric studies and optimization loops directly on their own device (e.g. local workstation) without needing inference servers or HPC clusters.",
-      "matched_terms": [
-        "surrogate model"
-      ],
-      "engagement": {},
-      "score": 57.551,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.37",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.374,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "53e6d43955c85137",
       "title": "Connect an AgentCore Runtime hosted MCP server to Amazon Quick",
       "url": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick",
@@ -2992,10 +2965,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.51,
+      "score": 57.471,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3004,7 +2977,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.857,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3029,7 +3002,7 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 57.223,
+      "score": 57.184,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -3041,7 +3014,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.692,
+      "novelty_score": 0.69,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3065,7 +3038,7 @@
         "surrogate model"
       ],
       "engagement": {},
-      "score": 57.044,
+      "score": 57.04,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.35",
@@ -5319,6 +5292,74 @@
       "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
       "matched_terms": [
         "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "51f9f00633997da4",
+      "title": "Automating Cae Reporting",
+      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a04eae22c7539e13",
+      "title": "Automatisierung Cae Berichterstattung",
+      "url": "https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
+      "matched_terms": [
+        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
