@@ -12,6 +12,7 @@ from newsletter.fetchers import (
     FETCHER_REGISTRY,
     RSSFetcher,
     UnknownFetcherError,
+    auto_query,
     fetch_kind,
     get_fetcher,
 )
@@ -23,7 +24,7 @@ from newsletter.fetchers.rss import (
     parse_pub_date,
 )
 from newsletter.http import HTTPStatusFetchError
-from newsletter.models import Source
+from newsletter.models import Source, SourceType
 
 from .conftest import (
     BILLION_LAUGHS_XML,
@@ -236,36 +237,92 @@ class TestRegistry:
         assert isinstance(fetcher, RSSFetcher)
 
     def test_get_fetcher_unknown(self, website_source: Source) -> None:
-        with pytest.raises(UnknownFetcherError, match="website"):
+        # fetch_type="website" resolves to the sitemap_or_search kind,
+        # for which no fetcher is registered yet.
+        with pytest.raises(UnknownFetcherError, match="sitemap_or_search"):
             get_fetcher(website_source)
 
 
 class TestFetchKind:
-    def test_explicit_fetch_type(self, rss_source: Source) -> None:
+    def test_explicit_fetch_type_wins(self, rss_source: Source) -> None:
         assert fetch_kind(rss_source) == "rss"
 
-    def test_fallback_rss_source_type(self) -> None:
+    def test_explicit_fetch_type_beats_source_type(self) -> None:
+        src = Source(
+            name="S",
+            scrape_url="https://example.com/",
+            priority="low",
+            category="general_ai",
+            fetch_type="web_search_query",
+            source_type="website",
+        )
+        assert fetch_kind(src) == "web_search_query"
+
+    def test_website_fetch_type_resolves_to_sitemap_or_search(self) -> None:
+        """The config-level shorthand ``website`` maps to the v1 kind."""
+        src = Source(
+            name="S",
+            scrape_url="https://example.com/",
+            priority="low",
+            category="general_ai",
+            fetch_type="website",
+        )
+        assert fetch_kind(src) == "sitemap_or_search"
+
+    def test_rss_source_type_fallback(self) -> None:
         src = Source(
             name="S",
             scrape_url="https://example.com/feed",
             priority="low",
-            fetch_type="rss",
             category="general_ai",
             source_type="rss",
         )
         assert fetch_kind(src) == "rss"
 
-    def test_fallback_website_source_type(self) -> None:
+    def test_website_source_type_fallback(self) -> None:
         src = Source(
             name="S",
             scrape_url="https://example.com/",
             priority="low",
-            fetch_type="web_search_query",
             category="general_ai",
             source_type="website",
         )
-        # fetch_type is explicitly set, so it wins
+        assert fetch_kind(src) == "sitemap_or_search"
+
+    @pytest.mark.parametrize(
+        "source_type",
+        ["manual", "newsletter", "linkedin_manual", "x_api", "github", "arxiv"],
+    )
+    def test_manual_like_source_types_fallback(self, source_type: SourceType) -> None:
+        src = Source(
+            name="S",
+            scrape_url="https://example.com/",
+            priority="low",
+            category="general_ai",
+            source_type=source_type,
+        )
         assert fetch_kind(src) == "web_search_query"
+
+    def test_no_fetch_type_no_source_type_defaults_to_web_search(self) -> None:
+        src = Source(
+            name="S",
+            scrape_url="https://example.com/",
+            priority="low",
+            category="general_ai",
+        )
+        assert fetch_kind(src) == "web_search_query"
+
+
+class TestAutoQuery:
+    def test_generates_site_query_from_netloc(self) -> None:
+        """v1 formula: ``site:{netloc} AI`` (path components ignored)."""
+        src = Source(
+            name="S",
+            scrape_url="https://news.example.com/hub/technology",
+            priority="low",
+            category="general_ai",
+        )
+        assert auto_query(src) == "site:news.example.com AI"
 
 
 # --------------------------------------------------------------------------- #

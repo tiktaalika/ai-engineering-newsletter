@@ -80,8 +80,8 @@ class Source:
     name: str
     scrape_url: str
     priority: Priority
-    fetch_type: FetchType
     category: Category
+    fetch_type: FetchType | None = None
     tags: list[str] = field(factory=list)
     notes: str | None = None
     enabled: bool = True

@@ -35,6 +35,8 @@ FETCHER_REGISTRY: dict[str, Fetcher] = {
 #   from .hn import HNFetcher
 #   _hn = HNFetcher()
 #   FETCHER_REGISTRY.update({ft: _hn for ft in _hn.fetch_types})
+# NOTE: register under *runtime kinds* as resolved by fetch_kind()
+# (e.g. a website fetcher goes under "sitemap_or_search", not "website").
 
 
 # --------------------------------------------------------------------------- #
@@ -47,12 +49,17 @@ def fetch_kind(source: Source) -> str:
 
     Mirrors the v1 ``fetch_kind`` logic:
 
-    1. If ``fetch_type`` is explicitly set, use it.
+    1. If ``fetch_type`` is explicitly set, use it — except the
+       config-level shorthand ``"website"``, which resolves to the
+       runtime kind ``"sitemap_or_search"`` (v1 parity).
     2. Else infer from ``source_type`` (``rss`` → ``"rss"``,
-       ``website`` → ``"sitemap_or_search"``, etc.).
+       ``website`` → ``"sitemap_or_search"``,
+       manual/newsletter/x_api/github/arxiv → ``"web_search_query"``).
     3. Fall back to ``"web_search_query"``.
     """
     if source.fetch_type:
+        if source.fetch_type == "website":
+            return "sitemap_or_search"
         return source.fetch_type
 
     st = source.source_type
