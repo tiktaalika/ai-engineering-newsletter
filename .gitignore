@@ -1,8 +1,17 @@
 .idea/
 .venv/
-__pycache__
+__pycache__/
 
-# Detailed debugging logs
+# Test & tooling caches
+.coverage*
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets — never commit real env files
+.env
+
+# Detailed debugging logs (audit.log is intentionally committed)
 logs/error.log
 
 .pi
