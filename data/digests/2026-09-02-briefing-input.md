@@ -3,84 +3,84 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16750
-- filtered_count: 2673
-- duplicate_count: 87
+- fetched_count: 16757
+- filtered_count: 2704
+- duplicate_count: 81
 - failures: 7
 
 ## Top 10 General AI News
 1. [Quoting Rick Brewster](https://simonwillison.net/2026/Sep/2/rick-brewster)
    - source: Simon Willison
-   - score: 67.233
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.995; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 65.449
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.914; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Mapping global methane emissions from space with deep learning](https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning)
    - source: Google Research
-   - score: 64.206
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.949; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 63.697
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.926; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 3. [Introducing agentic video understanding with Gemini](https://deepmind.google/blog/introducing-agentic-video-in-gemini)
    - source: Google DeepMind
-   - score: 64.057
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.942; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 63.547
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.919; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 4. [How AI-native companies turn workflows into operating capability](https://openai.com/index/ai-native-company-workflows)
    - source: OpenAI
-   - score: 60.988
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.863; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [BenchMIRT: What are LLM benchmarks actually measuring?](https://huggingface.co/blog/allenai/benchmirt)
-   - source: Hugging Face
-   - score: 60.415
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.867; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 59.799
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens](https://www.latent.space/p/ainews-claude-fablemythos-51-new)
+   - source: Latent Space
+   - score: 59.442
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.944; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [GeoJSON Map Viewer](https://simonwillison.net/2026/Sep/1/geojson)
    - source: Simon Willison
-   - score: 53.193
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.812; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.409
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.731; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI](https://huggingface.co/blog/webgpu-kernels)
    - source: Hugging Face
-   - score: 50.305
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.529; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 48.522
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.448; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.45; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [The Pragmatic Engineer: Five years](https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-five-years)
    - source: The Pragmatic Engineer
-   - score: 41.699
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.798; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Path to Astra: critical capabilities and frontier safeguards](https://openai.com/index/path-to-astra)
+   - score: 39.916
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.717; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.72; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [BenchMIRT: What are LLM benchmarks actually measuring?](https://huggingface.co/blog/allenai/benchmirt)
+   - source: Hugging Face
+   - score: 58.631
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.786; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+10. [Path to Astra: critical capabilities and frontier safeguards](https://openai.com/index/path-to-astra)
    - source: OpenAI
-   - score: 56.738
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [OpenAI’s Astra model is on the way — and very good at breaking into computer systems](https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems)
-   - source: TechCrunch AI
-   - score: 61.929
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.906; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.549
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.767; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Claude Fable 5.1 made me a really nice animated pelican](https://simonwillison.net/2026/Sep/1/claude-fable-5-1)
    - source: Simon Willison
-   - score: 80.041
-   - score_breakdown: general=0.833; engineering=0.25; research=1.0; novelty=0.903; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=5; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
+   - score: 78.257
+   - score_breakdown: general=0.833; engineering=0.25; research=1.0; novelty=0.822; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=5; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 2. [Powering data centers with gas turbines – Why System Simulation matters](https://blogs.sw.siemens.com/simcenter/powering-data-centers-with-gas-turbines-why-system-simulation-matters)
    - source: Siemens Simcenter
-   - score: 74.334
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.985; source_priority=1.0
+   - score: 74.216
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.979; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition](https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition)
    - source: COMSOL
-   - score: 71.056
-   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.987; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 70.937
+   - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.982; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors](https://www.latent.space/p/pr-not-welcome)
    - source: Latent Space
-   - score: 59.404
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.784; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.62
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.702; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.70; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [Automating Cae Reporting](https://www.synera.ai/webinar/automating-cae-reporting)
    - source: Synera
    - score: 57.033
@@ -90,39 +90,39 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [ChatGPT Health adds Epic integration for clinicians to import patient data](https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data)
    - source: TechCrunch AI
-   - score: 57.655
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.863; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [How ZS democratized secure ad-hoc analytics with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/how-zs-democratized-secure-ad-hoc-analytics-with-amazon-sagemaker)
-   - source: Amazon AWS AI
-   - score: 54.043
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.85; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Opinion: I’m a reproductive psychiatrist. The Lindsay Clancy trial will cause terrible damage to my field](https://www.statnews.com/2026/09/01/lindsay-clancy-trial-verdict-postpartum-psychosis-psychiatry)
+   - score: 56.466
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [STAT+: How Trump’s latest pharma deals may undermine efforts to rein in drug costs](https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical)
    - source: STAT Health Tech
-   - score: 48.626
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.604; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.60; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.387
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.912; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [How ZS democratized secure ad-hoc analytics with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/how-zs-democratized-secure-ad-hoc-analytics-with-amazon-sagemaker)
+   - source: Amazon AWS AI
+   - score: 52.854
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.796; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Spotlight](https://medcitynews.com/tag/spotlight-applications-of-agentic-ai)
    - source: MedCity News
    - score: 35.167
    - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [ARPA-H Awards up to $98.5M for AI-Enabled Rare Disease Diagnosis, Discovery, Treatment](https://www.genomeweb.com/research-funding/arpa-h-awards-985m-ai-enabled-rare-disease-diagnosis-discovery-treatment)
-   - source: GenomeWeb
-   - score: 34.5
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [Breaking The Amendment Cycle How Agentic Ai Enables Smarter Clinical Trial Design And Operations](https://medcitynews.com/2026/09/breaking-the-amendment-cycle-how-agentic-ai-enables-smarter-clinical-trial-design-and-operations)
+   - source: MedCity News
+   - score: 35.167
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Mapping global methane emissions from space with deep learning](https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning)
    - source: Google Research
-   - score: 64.206
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.949; source_priority=1.0
+   - score: 63.697
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.926; source_priority=1.0
 2. [Introducing agentic video understanding with Gemini](https://deepmind.google/blog/introducing-agentic-video-in-gemini)
    - source: Google DeepMind
-   - score: 64.057
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.942; source_priority=1.0
+   - score: 63.547
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.919; source_priority=1.0
 3. [Gpu Management Pt2](https://huggingface.co/blog/Dharma-AI/gpu-management-pt2)
    - source: Hugging Face Papers
    - score: 54.367
