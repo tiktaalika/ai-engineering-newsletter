@@ -1,12 +1,20 @@
 {
   "run_log": {
-    "generated_at": "2026-09-03T12:06:05.183002+00:00",
+    "generated_at": "2026-09-03T12:15:12.008334+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 17255,
-    "filtered_count": 2676,
-    "duplicate_count": 81,
+    "fetched_count": 17075,
+    "filtered_count": 2612,
+    "duplicate_count": 76,
     "failures": [
+      {
+        "source": "Siemens Simcenter",
+        "error": "The read operation timed out"
+      },
+      {
+        "source": "Siemens Art of the Possible",
+        "error": "The read operation timed out"
+      },
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
@@ -61,10 +69,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.317,
+      "score": 57.265,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -73,7 +81,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.696,
+      "novelty_score": 0.694,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -98,7 +106,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.769,
+      "score": 54.717,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -110,7 +118,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.883,
+      "novelty_score": 0.881,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -134,7 +142,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.873,
+      "score": 53.838,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -146,7 +154,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
         "developer_tools",
@@ -170,7 +178,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.81,
+      "score": 51.775,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -182,7 +190,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.749,
+      "novelty_score": 0.747,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -206,7 +214,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 51.81,
+      "score": 51.775,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -218,7 +226,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.749,
+      "novelty_score": 0.747,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -244,7 +252,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 49.889,
+      "score": 49.836,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.36",
@@ -256,7 +264,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.359,
+      "novelty_score": 0.356,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -281,7 +289,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 53.173,
+      "score": 53.121,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -293,7 +301,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -317,7 +325,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.173,
+      "score": 53.121,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -329,7 +337,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
         "open_source",
@@ -356,10 +364,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 63.717,
+      "score": 63.682,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -368,7 +376,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -394,7 +402,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.991,
+      "score": 62.956,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -406,7 +414,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.803,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -436,7 +444,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.998,
+      "score": 69.946,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -448,7 +456,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.659,
+      "novelty_score": 0.657,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -475,7 +483,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.184,
+      "score": 63.149,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -487,7 +495,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.804,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -512,10 +520,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 61.691,
+      "score": 61.586,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -524,7 +532,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.887,
+      "novelty_score": 0.883,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -549,10 +557,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 60.452,
+      "score": 60.347,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.28",
+        "novelty=0.27",
         "matched_terms=3",
         "engineering_relevance=0.50",
         "research_relevance=0.67",
@@ -561,7 +569,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.278,
+      "novelty_score": 0.273,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -609,43 +617,6 @@
     }
   ],
   "top_5_medical_bio_ai": [
-    {
-      "id": "3153d1f070c02d49",
-      "title": "Anxious or outgoing? Huge study links ‘Big Five’ personality traits to genetic variants - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iUHIwTU1Kd3ZXdEdMUmVHX0Z5ZHVoT2s0YnoyWmx5VmJJUzNER2pIUkx6S09kYkNxTTNPaThUU3k4UmJDTTZReUQtN3ljU2pjV3JWczlEa0NzUEF2LWU4?oc=5",
-      "source": "Trusted Biomedical AI Source Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T19:20:27+00:00",
-      "text": "Anxious or outgoing? Huge study links ‘Big Five’ personality traits to genetic variants - Nature Anxious or outgoing? Huge study links ‘Big Five’ personality traits to genetic variants Nature",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 48.477,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.476,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "bio_ai",
-        "trusted_discovery",
-        "healthcare_ai",
-        "genomics_ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
     {
       "id": "160896fa23ad0ea5",
       "title": "Researchers Gain Faster Access to Complex DNA as Integrated DNA Technologies and Ansa Biotechnologies Expand Ordering Platform",
@@ -716,6 +687,42 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "a27f5115de146b8b",
+      "title": "ARPA-H Awards up to $98.5M for AI-Enabled Rare Disease Diagnosis, Discovery, Treatment",
+      "url": "https://www.genomeweb.com/research-funding/arpa-h-awards-985m-ai-enabled-rare-disease-diagnosis-discovery-treatment",
+      "source": "GenomeWeb",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "ARPA-H Awards up to $98.5M for AI-Enabled Rare Disease Diagnosis, Discovery, Treatment https://www.genomeweb.com/research-funding/arpa-h-awards-985m-ai-enabled-rare-disease-diagnosis-discovery-treatment",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 34.5,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "bio_ai",
+        "genomics_ai",
+        "genetics_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "6347abc361ef74d9",
@@ -806,7 +813,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.998,
+      "score": 69.946,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -818,7 +825,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.659,
+      "novelty_score": 0.657,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -845,7 +852,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.184,
+      "score": 63.149,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -857,7 +864,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.804,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -882,10 +889,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 61.691,
+      "score": 61.586,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -894,7 +901,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.887,
+      "novelty_score": 0.883,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -919,10 +926,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 60.452,
+      "score": 60.347,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.28",
+        "novelty=0.27",
         "matched_terms=3",
         "engineering_relevance=0.50",
         "research_relevance=0.67",
@@ -931,7 +938,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.278,
+      "novelty_score": 0.273,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -1753,7 +1760,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 77.991,
+      "score": 77.987,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1789,7 +1796,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 77.562,
+      "score": 77.559,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1802,47 +1809,11 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.829,
+      "novelty_score": 0.828,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "11d4b4b0c169e2b2",
-      "title": "Powering data centers with gas turbines – Why System Simulation matters",
-      "url": "https://blogs.sw.siemens.com/simcenter/powering-data-centers-with-gas-turbines-why-system-simulation-matters",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-01T15:38:45+00:00",
-      "text": "Powering data centers with gas turbines – Why System Simulation matters This blog highlight how System Simulation with Simcenter Amesim can help designing the appropriate gas turbines for the power generation of AI Data Centers. It’s based on a Siemens Energy SGT-800 gas turbine, while it could be adapted to any other type of gas turbines, also from other manufacturers worldwide.",
-      "matched_terms": [
-        "simulation",
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 73.648,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.954,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1860,7 +1831,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.37,
+      "score": 70.366,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -1899,7 +1870,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.998,
+      "score": 69.946,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -1911,7 +1882,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.659,
+      "novelty_score": 0.657,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1940,10 +1911,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.742,
+      "score": 69.69,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.44",
+        "novelty=0.43",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -1952,7 +1923,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.435,
+      "novelty_score": 0.433,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1962,45 +1933,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "b3c41de958d8508a",
-      "title": "Innovative simulation and test solutions for trustworthy data-centric AI",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/innovative-simulation-and-test-solutions-for-trustworthy-data-centric-ai",
-      "source": "Siemens Art of the Possible",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-11T11:04:59+00:00",
-      "text": "Innovative simulation and test solutions for trustworthy data-centric AI Trustworthy AI begins with trustworthy data. Discover how Siemens and KU Leuven are performing research along this line, aiming to enable trustworthy data-centric AI for engineering applications. We consider the rich variety of engineering data, from modeling and simulation to test data acquisition, throughout product design and validation up to real-world operation. Check our blog to learn about our research towards trustworthy data-centric AI, together with KU Leuven in the frame of our research project SATISFY.AI, with support from the Flanders Innovation & Entrepreneurship Agency (VLAIO).",
-      "matched_terms": [
-        "simulation",
-        "ROM",
-        "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 67.993,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.42",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.424,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2087,7 +2019,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 65.848,
+      "score": 65.844,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2110,41 +2042,6 @@
       "source_priority": "high"
     },
     {
-      "id": "22f82cd96b728a66",
-      "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
-      "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-21T08:09:50+00:00",
-      "text": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions Body engineering is no longer just about designing the vehicle structure. It has become a structural intelligence layer that connects safety, NVH, weight, manufacturability and sustainability decisions from the earliest concept stages.",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 64.093,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.67",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.671,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "13c4ef2164623689",
       "title": "OpenAI’s new reasoning technique alarms AI safety experts",
       "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
@@ -2160,10 +2057,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 63.717,
+      "score": 63.682,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2172,7 +2069,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.836,
+      "novelty_score": 0.834,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2197,7 +2094,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 63.184,
+      "score": 63.149,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2209,7 +2106,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.804,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2236,7 +2133,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.991,
+      "score": 62.956,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2248,7 +2145,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.803,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2307,7 +2204,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 61.978,
+      "score": 61.963,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -2319,7 +2216,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.696,
+      "novelty_score": 0.695,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2344,7 +2241,7 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 61.877,
+      "score": 61.773,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -2356,7 +2253,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.904,
+      "novelty_score": 0.899,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2379,10 +2276,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 61.691,
+      "score": 61.586,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2391,7 +2288,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.887,
+      "novelty_score": 0.883,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -2414,10 +2311,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.264,
+      "score": 61.249,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2426,7 +2323,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.814,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2450,7 +2347,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 61.115,
+      "score": 61.1,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2486,7 +2383,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 61.027,
+      "score": 60.993,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2498,7 +2395,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.857,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2523,10 +2420,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 60.624,
+      "score": 60.589,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2535,7 +2432,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.847,
+      "novelty_score": 0.845,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2543,43 +2440,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "99ce2b43767a1e82",
-      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
-      "url": "https://spectrum.ieee.org/ai-engineer-skills",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-02T13:00:04+00:00",
-      "text": "AI Efficiency Could Cost Us the Next Generation of Experts A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The mental model of what the plant is actually doing gets fuzzy. Then comes the day the automation hands control back. It’s always the worst day, because automation only quits when it’s confused or in trouble. But by then, you have a person in the chair who hasn’t truly operated the thing in years. The manual steps were there to keep the human current. It was inefficient by design, on purpose. That plant, as it happened, was never built. It was shelved amid the politics and economics that surround nuclear power in this country, for reasons th",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 60.452,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.28",
-        "matched_terms=3",
-        "engineering_relevance=0.50",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.278,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2945,6 +2805,43 @@
       "source_priority": "high"
     },
     {
+      "id": "99ce2b43767a1e82",
+      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
+      "url": "https://spectrum.ieee.org/ai-engineer-skills",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-02T13:00:04+00:00",
+      "text": "AI Efficiency Could Cost Us the Next Generation of Experts A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The mental model of what the plant is actually doing gets fuzzy. Then comes the day the automation hands control back. It’s always the worst day, because automation only quits when it’s confused or in trouble. But by then, you have a person in the chair who hasn’t truly operated the thing in years. The manual steps were there to keep the human current. It was inefficient by design, on purpose. That plant, as it happened, was never built. It was shelved amid the politics and economics that surround nuclear power in this country, for reasons th",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 60.347,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.27",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.273,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "2f291912ca94ecd9",
       "title": "Modernizing and scaling support operations with generative AI on AWS",
       "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws",
@@ -2959,44 +2856,7 @@
         "retrieval-augmented generation"
       ],
       "engagement": {},
-      "score": 59.953,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.816,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "8af878e3ddc21440",
-      "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T18:18:47+00:00",
-      "text": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagrams, and maintains searchable documentation through Amazon Bedrock Knowledge Bases and AWS CodePipeline.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "knowledge base"
-      ],
-      "engagement": {},
-      "score": 59.923,
+      "score": 59.918,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -3008,7 +2868,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.814,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3031,7 +2891,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.918,
+      "score": 59.914,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -3054,38 +2914,40 @@
       "source_priority": "medium"
     },
     {
-      "id": "846bf57afd4edd88",
-      "title": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation",
-      "url": "https://blogs.sw.siemens.com/simcenter/virtual-integrated-aircraft-systems-integration",
-      "source": "Siemens Simcenter",
+      "id": "8af878e3ddc21440",
+      "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-13T12:44:38+00:00",
-      "text": "Virtual Integrated Aircraft: A methodology for early aircraft systems integration with Simcenter systems simulation The aerospace industry is facing unprecedented levels of complexity. Electrification, software-intensive architectures, thermal management challenges, and increasingly demanding verification and…",
+      "category": "general_ai",
+      "published_at": "2026-09-02T18:18:47+00:00",
+      "text": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagrams, and maintains searchable documentation through Amazon Bedrock Knowledge Bases and AWS CodePipeline.",
       "matched_terms": [
-        "simulation"
+        "AI",
+        "agent",
+        "knowledge base"
       ],
       "engagement": {},
-      "score": 59.798,
+      "score": 59.889,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
+        "novelty=0.81",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.476,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "engineering_ai",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3138,7 +3000,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 59.41,
+      "score": 59.375,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -3150,7 +3012,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.791,
+      "novelty_score": 0.79,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3175,10 +3037,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.884,
+      "score": 58.78,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3187,7 +3049,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.919,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3209,7 +3071,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 58.775,
+      "score": 58.76,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -3221,7 +3083,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.702,
+      "novelty_score": 0.701,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3302,6 +3164,40 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "b6703bac23c7c2fb",
+      "title": "Bring on the drones: how a technology revolution is being rolled out across Africa’s nature reserves",
+      "url": "https://www.theguardian.com/environment/2026/sep/03/drones-south-africa-tech-revolution-african-conservation-aoe",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-03T09:00:49+00:00",
+      "text": "Bring on the drones: how a technology revolution is being rolled out across Africa’s nature reserves As graduates of an online training course gather from across the continent, the consensus is overwhelming: computers and saving animals go together On a bitingly cold night in Lapalala Wilderness nature reserve in South Africa’s Limpopo province, Duncan Kanyakera watches as instructor Jacques Viljoen deploys a thermal drone in search of a lone cheetah. Once the drone has disappeared into the inky sky, Kanyakera, from Tsavo in Kenya, and 20 other conservation professionals from across Africa turn their attention to the open-air screen in anticipation. Many of the students – from 11 African countries as far flung as Benin, Liberia, the Democratic Republic of the Congo and Madagascar – witnessing the demonstration have earned their places at Lapalala after performing well on an online training programme for protected area technicians (PAT) run by the Connected Conservation Foundation (CCF). Also on the course, are five members of Peace Parks staff in training. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.773,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.90",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.899,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3393,10 +3289,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.317,
+      "score": 57.265,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3405,7 +3301,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.696,
+      "novelty_score": 0.694,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3433,10 +3329,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 57.175,
+      "score": 57.14,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.30",
+        "novelty=0.29",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -3445,7 +3341,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.296,
+      "novelty_score": 0.294,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -5380,6 +5276,108 @@
       "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
       "matched_terms": [
         "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0099e6807563ee55",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef8469f42c5a7ab5",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
       ],
       "engagement": {},
       "score": 57.033,

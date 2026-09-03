@@ -3,84 +3,84 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 17255
-- filtered_count: 2676
-- duplicate_count: 81
-- failures: 7
+- fetched_count: 17075
+- filtered_count: 2612
+- duplicate_count: 76
+- failures: 9
 
 ## Top 10 General AI News
 1. [llm-gemini 0.34](https://simonwillison.net/2026/Sep/2/llm-gemini)
    - source: Simon Willison
-   - score: 57.317
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.696; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.70; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.265
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.694; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training](https://www.latent.space/p/ainews-muse-spark-13-matches-gpt)
    - source: Latent Space
-   - score: 54.769
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.883; source_priority=1.0
+   - score: 54.717
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.881; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!](https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my)
    - source: GitHub Blog AI and ML
-   - score: 53.873
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.843; source_priority=1.0
+   - score: 53.838
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.841; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT](https://openai.com/index/atv-big-air-tour)
    - source: OpenAI
-   - score: 51.81
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
+   - score: 51.775
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.747; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Run cloud agents on machines you manage](https://cursor.com/blog/self-hosted-machines)
    - source: Cursor Blog RSS
-   - score: 51.81
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.749; source_priority=1.0
+   - score: 51.775
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.747; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Codex bundles LibreOffice](https://simonwillison.net/2026/Sep/1/codex-libreoffice)
    - source: Simon Willison
-   - score: 49.889
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.359; source_priority=1.0
+   - score: 49.836
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.356; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.36; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Give Your Coding Agents a Memory You Own](https://huggingface.co/blog/funes)
    - source: Hugging Face
-   - score: 53.173
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
+   - score: 53.121
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Training a coding model to paint watercolours with TRL and OpenEnv](https://huggingface.co/blog/train-to-paint-with-code)
    - source: Hugging Face
-   - score: 53.173
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
+   - score: 53.121
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [OpenAI’s new reasoning technique alarms AI safety experts](https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts)
    - source: TechCrunch AI
-   - score: 63.717
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.836; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.682
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.834; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [US government sides with OpenAI on issue of training LLMs on copyrighted material](https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material)
    - source: TechCrunch AI
-   - score: 62.991
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - score: 62.956
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Claude's new system prompt really doesn't want to reproduce song lyrics](https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt)
    - source: Simon Willison
-   - score: 69.998
-   - score_breakdown: general=1.0; engineering=0.25; research=0.0; novelty=0.659; source_priority=1.0
+   - score: 69.946
+   - score_breakdown: general=1.0; engineering=0.25; research=0.0; novelty=0.657; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.66; matched_terms=6; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough](https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough)
    - source: NVIDIA AI
-   - score: 63.184
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.804; source_priority=1.0
+   - score: 63.149
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.802; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized](https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation)
    - source: STAT Health Tech
-   - score: 61.691
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.887; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.586
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.883; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [AI Efficiency Could Cost Us the Next Generation of Experts](https://spectrum.ieee.org/ai-engineer-skills)
    - source: IEEE Spectrum AI
-   - score: 60.452
-   - score_breakdown: general=0.5; engineering=0.5; research=0.667; novelty=0.278; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.28; matched_terms=3; engineering_relevance=0.50; research_relevance=0.67; visible_engagement=unavailable
+   - score: 60.347
+   - score_breakdown: general=0.5; engineering=0.5; research=0.667; novelty=0.273; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.27; matched_terms=3; engineering_relevance=0.50; research_relevance=0.67; visible_engagement=unavailable
 5. [Beijing Academy of Artificial Intelligence](https://huggingface.co/BAAI)
    - source: Hugging Face Papers
    - score: 57.867
@@ -88,21 +88,21 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.25; research_relevance=1.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Anxious or outgoing? Huge study links ‘Big Five’ personality traits to genetic variants - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iUHIwTU1Kd3ZXdEdMUmVHX0Z5ZHVoT2s0YnoyWmx5VmJJUzNER2pIUkx6S09kYkNxTTNPaThUU3k4UmJDTTZReUQtN3ljU2pjV3JWczlEa0NzUEF2LWU4?oc=5)
-   - source: Trusted Biomedical AI Source Discovery
-   - score: 48.477
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.476; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.48; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-2. [Researchers Gain Faster Access to Complex DNA as Integrated DNA Technologies and Ansa Biotechnologies Expand Ordering Platform](https://www.bio-itworld.com/news/2026/09/02/researchers-gain-faster-access-to-complex-dna-as-integrated-dna-technologies-and-ansa-biotechnologies-expand-ordering-platform)
+1. [Researchers Gain Faster Access to Complex DNA as Integrated DNA Technologies and Ansa Biotechnologies Expand Ordering Platform](https://www.bio-itworld.com/news/2026/09/02/researchers-gain-faster-access-to-complex-dna-as-integrated-dna-technologies-and-ansa-biotechnologies-expand-ordering-platform)
    - source: Bio-IT World
    - score: 45.7
    - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-3. [Mirror Indy investigation sparks action to keep hospital patients out of jail](https://apnews.com/article/mirror-indy-investigation-hospital-patients-jail-beba4a51c2b101389e10881f2181ddaf)
+2. [Mirror Indy investigation sparks action to keep hospital patients out of jail](https://apnews.com/article/mirror-indy-investigation-hospital-patients-jail-beba4a51c2b101389e10881f2181ddaf)
    - source: Associated Press Technology
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [ARPA-H Awards up to $98.5M for AI-Enabled Rare Disease Diagnosis, Discovery, Treatment](https://www.genomeweb.com/research-funding/arpa-h-awards-985m-ai-enabled-rare-disease-diagnosis-discovery-treatment)
+   - source: GenomeWeb
+   - score: 34.5
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Medical Answering Service](https://elevenlabs.io/agents/medical-answering-service)
    - source: ElevenLabs
    - score: 31.833
@@ -173,6 +173,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Similar-title and canonical-URL duplicate detection is applied before final selection.
 
 ## Source Failures
+- Siemens Simcenter: The read operation timed out
+- Siemens Art of the Possible: The read operation timed out
 - Ansys: HTTP Error 404: Not Found
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
