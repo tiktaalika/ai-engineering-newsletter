@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-03T06:08:28.769982+00:00",
+    "generated_at": "2026-09-03T11:16:11.461407+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16750,
-    "filtered_count": 2690,
-    "duplicate_count": 78,
+    "fetched_count": 16967,
+    "filtered_count": 2589,
+    "duplicate_count": 80,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -65,10 +61,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 59.366,
+      "score": 57.603,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.71",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -77,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.789,
+      "novelty_score": 0.709,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -102,10 +98,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.818,
+      "score": 55.055,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -114,7 +110,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.977,
+      "novelty_score": 0.896,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -138,10 +134,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.238,
+      "score": 54.063,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.85",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -150,7 +146,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.851,
       "source_priority_score": 1.0,
       "source_tags": [
         "developer_tools",
@@ -174,10 +170,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.176,
+      "score": 52.001,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -186,7 +182,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.758,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -210,10 +206,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 53.176,
+      "score": 52.001,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -222,7 +218,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.758,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -248,10 +244,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 51.937,
+      "score": 50.175,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.45",
+        "novelty=0.37",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -260,13 +256,85 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.452,
+      "novelty_score": 0.372,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
         "llm",
         "agents",
         "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "86b47b47cb7422fd",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "url": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "text": "Give Your Coding Agents a Memory You Own",
+      "matched_terms": [
+        "agent"
+      ],
+      "engagement": {},
+      "score": 53.459,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.824,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "b844bdeeb825fb68",
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": "Hugging Face",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "text": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 53.459,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.824,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "open_source",
+        "models",
+        "datasets",
         "guo_yichen_reference"
       ],
       "registry_category": "community",
@@ -288,10 +356,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 65.083,
+      "score": 63.907,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.84",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -300,7 +368,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -326,10 +394,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.357,
+      "score": 63.181,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.81",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -338,7 +406,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.865,
+      "novelty_score": 0.811,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -346,80 +414,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "84ece38c2e55ba18",
-      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T21:22:05+00:00",
-      "text": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions. This post shows how to invoke the models, use prompt caching, set up Codex with OpenID Connect authentication, and monitor usage with Amazon CloudWatch.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 61.989,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "2f291912ca94ecd9",
-      "title": "Modernizing and scaling support operations with generative AI on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T18:26:35+00:00",
-      "text": "Modernizing and scaling support operations with generative AI on AWS Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide ticket resolution, and uses machine learning to predict SLA risk and prioritize work.",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "retrieval-augmented generation"
-      ],
-      "engagement": {},
-      "score": 61.319,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     }
   ],
@@ -442,10 +436,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 72.047,
+      "score": 70.284,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.67",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -454,7 +448,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.752,
+      "novelty_score": 0.672,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -464,43 +458,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "99ce2b43767a1e82",
-      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
-      "url": "https://spectrum.ieee.org/ai-engineer-skills",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-02T13:00:04+00:00",
-      "text": "AI Efficiency Could Cost Us the Next Generation of Experts A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The mental model of what the plant is actually doing gets fuzzy. Then comes the day the automation hands control back. It’s always the worst day, because automation only quits when it’s confused or in trouble. But by then, you have a person in the chair who hasn’t truly operated the thing in years. The manual steps were there to keep the human current. It was inefficient by design, on purpose. That plant, as it happened, was never built. It was shelved amid the politics and economics that surround nuclear power in this country, for reasons th",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 64.549,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.46",
-        "matched_terms=3",
-        "engineering_relevance=0.50",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.464,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -518,10 +475,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 64.549,
+      "score": 63.374,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -530,7 +487,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.866,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -542,37 +499,74 @@
       "source_priority": "high"
     },
     {
-      "id": "1db8587bd622d473",
-      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "source": "The Verge AI",
+      "id": "0f1662c8f9f01855",
+      "title": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized",
+      "url": "https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-02T16:40:50+00:00",
-      "text": "Researchers fear safety disaster ahead of OpenAI’s Astra release OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after […]",
+      "published_at": "2026-09-03T08:30:00+00:00",
+      "text": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized AI products from Cadence and Limbic are among four devices recently accepted into the FDA’s TEMPO pilot that will allow digital health companies to release products without marketing authorization.",
       "matched_terms": [
         "AI",
-        "agent",
-        "OpenAI"
+        "generative AI"
       ],
       "engagement": {},
-      "score": 60.912,
+      "score": 62.262,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
-        "matched_terms=3",
+        "novelty=0.91",
+        "matched_terms=2",
         "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.913,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "99ce2b43767a1e82",
+      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
+      "url": "https://spectrum.ieee.org/ai-engineer-skills",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-02T13:00:04+00:00",
+      "text": "AI Efficiency Could Cost Us the Next Generation of Experts A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The mental model of what the plant is actually doing gets fuzzy. Then comes the day the automation hands control back. It’s always the worst day, because automation only quits when it’s confused or in trouble. But by then, you have a person in the chair who hasn’t truly operated the thing in years. The manual steps were there to keep the human current. It was inefficient by design, on purpose. That plant, as it happened, was never built. It was shelved amid the politics and economics that surround nuclear power in this country, for reasons th",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 61.024,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.30",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=0.67",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.579,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.304,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "computer_science",
+        "engineering",
+        "ai"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -616,42 +610,6 @@
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "1a35cf0e0fbb3991",
-      "title": "STAT+: Ultragenyx drug to treat Angelman syndrome, a rare disease, fails late-stage trial",
-      "url": "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T20:37:24+00:00",
-      "text": "STAT+: Ultragenyx drug to treat Angelman syndrome, a rare disease, fails late-stage trial Ultragenyx said its experimental therapy for Angelman syndrome, a rare disease, showed no benefit compared to a sham treatment in a Phase 3 trial.",
-      "matched_terms": [
-        "AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 54.123,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.70",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.703,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "3153d1f070c02d49",
       "title": "Anxious or outgoing? Huge study links ‘Big Five’ personality traits to genetic variants - Nature",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iUHIwTU1Kd3ZXdEdMUmVHX0Z5ZHVoT2s0YnoyWmx5VmJJUzNER2pIUkx6S09kYkNxTTNPaThUU3k4UmJDTTZReUQtN3ljU2pjV3JWczlEa0NzUEF2LWU4?oc=5",
@@ -664,10 +622,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.575,
+      "score": 49.049,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.50",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -676,7 +634,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.662,
+      "novelty_score": 0.502,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -684,6 +642,77 @@
         "trusted_discovery",
         "healthcare_ai",
         "genomics_ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "160896fa23ad0ea5",
+      "title": "Researchers Gain Faster Access to Complex DNA as Integrated DNA Technologies and Ansa Biotechnologies Expand Ordering Platform",
+      "url": "https://www.bio-itworld.com/news/2026/09/02/researchers-gain-faster-access-to-complex-dna-as-integrated-dna-technologies-and-ansa-biotechnologies-expand-ordering-platform",
+      "source": "Bio-IT World",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Researchers Gain Faster Access to Complex DNA as Integrated DNA Technologies and Ansa Biotechnologies Expand Ordering Platform https://www.bio-itworld.com/news/2026/09/02/researchers-gain-faster-access-to-complex-dna-as-integrated-dna-technologies-and-ansa-biotechnologies-expand-ordering-platform",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 45.7,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "bio_ai",
+        "biotech",
+        "genomics_ai",
+        "drug_discovery",
+        "research"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "9c3e4464cfbb8490",
+      "title": "Mirror Indy investigation sparks action to keep hospital patients out of jail",
+      "url": "https://apnews.com/article/mirror-indy-investigation-hospital-patients-jail-beba4a51c2b101389e10881f2181ddaf",
+      "source": "Associated Press Technology",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": null,
+      "text": "Mirror Indy investigation sparks action to keep hospital patients out of jail https://apnews.com/article/mirror-indy-investigation-hospital-patients-jail-beba4a51c2b101389e10881f2181ddaf",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 43.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "technology",
+        "global_news"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -720,42 +749,6 @@
         "voice"
       ],
       "registry_category": "vendor",
-      "source_priority": "medium"
-    },
-    {
-      "id": "a7720cb8ec6aa50b",
-      "title": "The Healthcare Inflection Point Ai Cant Fix 1990S Technology",
-      "url": "https://medcitynews.com/2026/09/the-healthcare-inflection-point-ai-cant-fix-1990s-technology",
-      "source": "MedCity News",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "The Healthcare Inflection Point Ai Cant Fix 1990S Technology https://medcitynews.com/2026/09/the-healthcare-inflection-point-ai-cant-fix-1990s-technology/",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech",
-        "digital_health"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "medium"
     },
     {
@@ -813,10 +806,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 72.047,
+      "score": 70.284,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.67",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -825,7 +818,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.752,
+      "novelty_score": 0.672,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -835,43 +828,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "99ce2b43767a1e82",
-      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
-      "url": "https://spectrum.ieee.org/ai-engineer-skills",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-02T13:00:04+00:00",
-      "text": "AI Efficiency Could Cost Us the Next Generation of Experts A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The mental model of what the plant is actually doing gets fuzzy. Then comes the day the automation hands control back. It’s always the worst day, because automation only quits when it’s confused or in trouble. But by then, you have a person in the chair who hasn’t truly operated the thing in years. The manual steps were there to keep the human current. It was inefficient by design, on purpose. That plant, as it happened, was never built. It was shelved amid the politics and economics that surround nuclear power in this country, for reasons th",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 64.549,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.46",
-        "matched_terms=3",
-        "engineering_relevance=0.50",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.464,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -889,10 +845,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 64.549,
+      "score": 63.374,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -901,7 +857,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.866,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -913,37 +869,74 @@
       "source_priority": "high"
     },
     {
-      "id": "1db8587bd622d473",
-      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "source": "The Verge AI",
+      "id": "0f1662c8f9f01855",
+      "title": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized",
+      "url": "https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-02T16:40:50+00:00",
-      "text": "Researchers fear safety disaster ahead of OpenAI’s Astra release OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after […]",
+      "published_at": "2026-09-03T08:30:00+00:00",
+      "text": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized AI products from Cadence and Limbic are among four devices recently accepted into the FDA’s TEMPO pilot that will allow digital health companies to release products without marketing authorization.",
       "matched_terms": [
         "AI",
-        "agent",
-        "OpenAI"
+        "generative AI"
       ],
       "engagement": {},
-      "score": 60.912,
+      "score": 62.262,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
-        "matched_terms=3",
+        "novelty=0.91",
+        "matched_terms=2",
         "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.913,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "99ce2b43767a1e82",
+      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
+      "url": "https://spectrum.ieee.org/ai-engineer-skills",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-02T13:00:04+00:00",
+      "text": "AI Efficiency Could Cost Us the Next Generation of Experts A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The mental model of what the plant is actually doing gets fuzzy. Then comes the day the automation hands control back. It’s always the worst day, because automation only quits when it’s confused or in trouble. But by then, you have a person in the chair who hasn’t truly operated the thing in years. The manual steps were there to keep the human current. It was inefficient by design, on purpose. That plant, as it happened, was never built. It was shelved amid the politics and economics that surround nuclear power in this country, for reasons th",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 61.024,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.30",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=0.67",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.579,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.304,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "computer_science",
+        "engineering",
+        "ai"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -1760,7 +1753,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 78.127,
+      "score": 78.01,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1773,7 +1766,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.854,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1796,7 +1789,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 77.699,
+      "score": 77.581,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1809,7 +1802,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1832,10 +1825,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 73.784,
+      "score": 73.667,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1844,12 +1837,46 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.96,
+      "novelty_score": 0.955,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
         "simulation",
         "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "02a21f8c28b0ca9d",
+      "title": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition",
+      "url": "https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition",
+      "source": "COMSOL",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-01T18:02:57+00:00",
+      "text": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition Understanding room acoustics is key to designing a comfortable indoor environment. Explore how different sound absorption models can affect room acoustics using wave-based, time-domain acoustics simulation.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 70.389,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.957,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "multiphysics",
+        "simulation"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1872,10 +1899,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 72.047,
+      "score": 70.284,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.67",
         "matched_terms=6",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -1884,7 +1911,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.752,
+      "novelty_score": 0.672,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1913,10 +1940,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 71.791,
+      "score": 70.028,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.45",
         "matched_terms=5",
         "engineering_relevance=0.25",
         "research_relevance=1.00",
@@ -1925,7 +1952,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.528,
+      "novelty_score": 0.448,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1935,40 +1962,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "02a21f8c28b0ca9d",
-      "title": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition",
-      "url": "https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition",
-      "source": "COMSOL",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-01T18:02:57+00:00",
-      "text": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition Understanding room acoustics is key to designing a comfortable indoor environment. Explore how different sound absorption models can affect room acoustics using wave-based, time-domain acoustics simulation.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 70.506,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.962,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "multiphysics",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -1986,10 +1979,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 68.13,
+      "score": 68.012,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.42",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1998,7 +1991,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.43,
+      "novelty_score": 0.425,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2094,10 +2087,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 65.984,
+      "score": 65.867,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.60",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2106,12 +2099,47 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.605,
+      "novelty_score": 0.6,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
         "simulation",
         "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "22f82cd96b728a66",
+      "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
+      "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-21T08:09:50+00:00",
+      "text": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions Body engineering is no longer just about designing the vehicle structure. It has become a structural intelligence layer that connects safety, NVH, weight, manufacturability and sustainability decisions from the earliest concept stages.",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 64.112,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.67",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.672,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2132,10 +2160,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 65.083,
+      "score": 63.907,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.84",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2144,7 +2172,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2152,43 +2180,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "99ce2b43767a1e82",
-      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
-      "url": "https://spectrum.ieee.org/ai-engineer-skills",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-02T13:00:04+00:00",
-      "text": "AI Efficiency Could Cost Us the Next Generation of Experts A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The mental model of what the plant is actually doing gets fuzzy. Then comes the day the automation hands control back. It’s always the worst day, because automation only quits when it’s confused or in trouble. But by then, you have a person in the chair who hasn’t truly operated the thing in years. The manual steps were there to keep the human current. It was inefficient by design, on purpose. That plant, as it happened, was never built. It was shelved amid the politics and economics that surround nuclear power in this country, for reasons th",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 64.549,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.46",
-        "matched_terms=3",
-        "engineering_relevance=0.50",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.464,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2206,10 +2197,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 64.549,
+      "score": 63.374,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2218,7 +2209,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.866,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2245,10 +2236,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.357,
+      "score": 63.181,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.81",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2257,7 +2248,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.865,
+      "novelty_score": 0.811,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2268,110 +2259,39 @@
       "source_priority": "high"
     },
     {
-      "id": "22f82cd96b728a66",
-      "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
-      "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
-      "source": "Siemens Simcenter",
+      "id": "a8f09274e37cfd9e",
+      "title": "Child sexual abuse survivor alleges Elon Musk’s AI chatbot used photos of her to generate new illegal images",
+      "url": "https://www.theguardian.com/technology/2026/sep/03/elon-musk-ai-grok-child-porn-lawsuit",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-21T08:09:50+00:00",
-      "text": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions Body engineering is no longer just about designing the vehicle structure. It has become a structural intelligence layer that connects safety, NVH, weight, manufacturability and sustainability decisions from the earliest concept stages.",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 64.23,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.677,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "1e90334d4d649bed",
-      "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
-      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
-      "source": "Microsoft Research",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-08-31T16:00:00+00:00",
-      "text": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research .",
+      "category": "general_ai",
+      "published_at": "2026-09-03T09:00:49+00:00",
+      "text": "Child sexual abuse survivor alleges Elon Musk’s AI chatbot used photos of her to generate new illegal images Musk denied he was aware Grok ever produced ‘any naked underage images’ A survivor of child sexual abuse has sued Elon Musk ’s artificial intelligence company, alleging that its chatbot used pictures of her abuse to generate new illegal pornographic images that depict her. “Using real images of Plaintiff and class members, Grok generated child pornography depicting Plaintiff and class members,” states the complaint, which was filed last week in a US district court in California. Continue reading...",
       "matched_terms": [
         "AI",
-        "foundation model"
+        "artificial intelligence",
+        "RAG"
       ],
       "engagement": {},
-      "score": 62.564,
+      "score": 62.449,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=2",
+        "novelty=0.93",
+        "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.723,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "computer_science",
-        "ai"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "f77da1d556737fa5",
-      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
-      "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-02T22:24:09+00:00",
-      "text": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 62.393,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.919,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2410,40 +2330,75 @@
       "source_priority": "high"
     },
     {
-      "id": "84ece38c2e55ba18",
-      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference",
-      "source": "Amazon AWS AI",
+      "id": "0f1662c8f9f01855",
+      "title": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized",
+      "url": "https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T21:22:05+00:00",
-      "text": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions. This post shows how to invoke the models, use prompt caching, set up Codex with OpenID Connect authentication, and monitor usage with Amazon CloudWatch.",
+      "category": "engineering_ai",
+      "published_at": "2026-09-03T08:30:00+00:00",
+      "text": "STAT+: FDA pilot offers generative AI medical devices a path to patients before they are authorized AI products from Cadence and Limbic are among four devices recently accepted into the FDA’s TEMPO pilot that will allow digital health companies to release products without marketing authorization.",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "inference"
+        "generative AI"
       ],
       "engagement": {},
-      "score": 61.989,
+      "score": 62.262,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.913,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "1e90334d4d649bed",
+      "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
+      "source": "Microsoft Research",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-08-31T16:00:00+00:00",
+      "text": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research .",
+      "matched_terms": [
+        "AI",
+        "foundation model"
+      ],
+      "engagement": {},
+      "score": 62.06,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.7,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "computer_science",
+        "ai"
+      ],
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2459,10 +2414,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.849,
+      "score": 61.346,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.82",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2471,7 +2426,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2480,6 +2435,42 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "f77da1d556737fa5",
+      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+      "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-02T22:24:09+00:00",
+      "text": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "matched_terms": [
+        "AI",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 61.218,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.866,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2495,10 +2486,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 61.7,
+      "score": 61.196,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.81",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2507,7 +2498,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.835,
+      "novelty_score": 0.812,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2518,134 +2509,61 @@
       "source_priority": "high"
     },
     {
-      "id": "2f291912ca94ecd9",
-      "title": "Modernizing and scaling support operations with generative AI on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws",
-      "source": "Amazon AWS AI",
+      "id": "99ce2b43767a1e82",
+      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
+      "url": "https://spectrum.ieee.org/ai-engineer-skills",
+      "source": "IEEE Spectrum AI",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T18:26:35+00:00",
-      "text": "Modernizing and scaling support operations with generative AI on AWS Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide ticket resolution, and uses machine learning to predict SLA risk and prioritize work.",
+      "category": "engineering_ai",
+      "published_at": "2026-09-02T13:00:04+00:00",
+      "text": "AI Efficiency Could Cost Us the Next Generation of Experts A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The mental model of what the plant is actually doing gets fuzzy. Then comes the day the automation hands control back. It’s always the worst day, because automation only quits when it’s confused or in trouble. But by then, you have a person in the chair who hasn’t truly operated the thing in years. The manual steps were there to keep the human current. It was inefficient by design, on purpose. That plant, as it happened, was never built. It was shelved amid the politics and economics that surround nuclear power in this country, for reasons th",
       "matched_terms": [
         "AI",
         "generative AI",
-        "retrieval-augmented generation"
+        "RAG"
       ],
       "engagement": {},
-      "score": 61.319,
+      "score": 61.024,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.30",
         "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "engineering_relevance=0.50",
+        "research_relevance=0.67",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.304,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "8af878e3ddc21440",
-      "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T18:18:47+00:00",
-      "text": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagrams, and maintains searchable documentation through Amazon Bedrock Knowledge Bases and AWS CodePipeline.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "knowledge base"
-      ],
-      "engagement": {},
-      "score": 61.289,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.877,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "1db8587bd622d473",
-      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-02T16:40:50+00:00",
-      "text": "Researchers fear safety disaster ahead of OpenAI’s Astra release OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after […]",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.912,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.58",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.579,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
+        "computer_science",
+        "engineering",
+        "ai"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "b28b532a9c4831dd",
-      "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
-      "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
-      "source": "NVIDIA AI",
+      "id": "84ece38c2e55ba18",
+      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-02T16:04:19+00:00",
-      "text": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and...",
+      "published_at": "2026-09-02T21:22:05+00:00",
+      "text": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions. This post shows how to invoke the models, use prompt caching, set up Codex with OpenID Connect authentication, and monitor usage with Amazon CloudWatch.",
       "matched_terms": [
         "AI",
-        "LLM",
+        "OpenAI",
         "inference"
       ],
       "engagement": {},
-      "score": 60.776,
+      "score": 60.814,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2654,13 +2572,12 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -3028,39 +2945,77 @@
       "source_priority": "high"
     },
     {
-      "id": "228cc9f139ebde79",
-      "title": "Trump administration sides with OpenAI in lawsuit against New York Times",
-      "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai",
-      "source": "The Guardian Technology",
+      "id": "2f291912ca94ecd9",
+      "title": "Modernizing and scaling support operations with generative AI on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-02T20:39:54+00:00",
-      "text": "Trump administration sides with OpenAI in lawsuit against New York Times The Times and many companies are accusing OpenAI of misusing their material to train AI systems without compensation The Trump administration is supporting OpenAI in ⁠a lawsuit against the New York Times, arguing in favor of the use of copyrighted writing to train artificial intelligence. The Times accuses OpenAI and its largest financial backer, Microsoft, of using millions of newspaper articles without permission to train OpenAI’s popular chatbot. Other newspapers have joined in the suit, first filed in 2023. Continue reading...",
+      "published_at": "2026-09-02T18:26:35+00:00",
+      "text": "Modernizing and scaling support operations with generative AI on AWS Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide ticket resolution, and uses machine learning to predict SLA risk and prioritize work.",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "OpenAI"
+        "generative AI",
+        "retrieval-augmented generation"
       ],
       "engagement": {},
-      "score": 60.152,
+      "score": 60.144,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.704,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.825,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "8af878e3ddc21440",
+      "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-02T18:18:47+00:00",
+      "text": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagrams, and maintains searchable documentation through Amazon Bedrock Knowledge Bases and AWS CodePipeline.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "knowledge base"
+      ],
+      "engagement": {},
+      "score": 60.114,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.823,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3076,10 +3031,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.054,
+      "score": 59.937,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -3088,7 +3043,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.991,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3111,7 +3066,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 59.935,
+      "score": 59.817,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.48",
@@ -3123,7 +3078,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.482,
+      "novelty_score": 0.477,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -3169,24 +3124,24 @@
       "source_priority": "high"
     },
     {
-      "id": "5c06dbf8b9b34c5b",
-      "title": "llm-gemini 0.34",
-      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini",
-      "source": "Simon Willison",
+      "id": "b28b532a9c4831dd",
+      "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+      "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
+      "source": "NVIDIA AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-02T16:39:38+00:00",
-      "text": "llm-gemini 0.34 Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: For comparison, here are the same pelicans generated using Gemini 3.7 Flash . Something I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted \"make me a cool thing in html\" and it built this , which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents. Your browser does not support HTML5 video. If you click through to the demo you'll see one more thing I built with Gemini 3.8 Flash. My markdown-svg-renderer tool lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered. I used Gemini 3.8 Flash (with my very basic llm-coding-agent coding agent plugin) to add support for HTML as well, so now any HTML",
+      "published_at": "2026-09-02T16:04:19+00:00",
+      "text": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and...",
       "matched_terms": [
         "AI",
         "LLM",
-        "agent"
+        "inference"
       ],
       "engagement": {},
-      "score": 59.366,
+      "score": 59.6,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.80",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3195,16 +3150,50 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.789,
+      "novelty_score": 0.8,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
       ],
-      "registry_category": "community",
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "6b655d48dc0f34a0",
+      "title": "Scaling agentic AI pilots across the enterprise",
+      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-03T09:30:32+00:00",
+      "text": "Scaling agentic AI pilots across the enterprise As agentic AI moves from experimentation toward enterprise deployment, the challenge is figuring out how agents can work together, connect to the systems and data they need, and operate safely across the workflows that run a business. Although agentic AI has been adopted by some 80% of Fortune 500 companies, progress toward meaningful scale remains…",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 59.456,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.945,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3220,10 +3209,10 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 59.361,
+      "score": 58.857,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.71",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -3232,7 +3221,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.729,
+      "novelty_score": 0.706,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3241,121 +3230,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "be42c5fa93690cd3",
-      "title": "Quoting Rick Brewster",
-      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T05:50:57+00:00",
-      "text": "Quoting Rick Brewster Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll . This was written by our good friend Claude , without whom this would NOT have been possible and would NEVER have happened. [...] Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way way too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...] At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference c",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 58.983,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.62",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.62,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "305c45c1a95f4fc1",
-      "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
-      "url": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-08-31T16:30:00+00:00",
-      "text": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experiments to prioritize next....",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "Nvidia",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 58.541,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.36",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.358,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "451b81a133660d89",
-      "title": "Trinity: Agentic AI-powered transition planning for students with disabilities",
-      "url": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-02T18:14:17+00:00",
-      "text": "Trinity: Agentic AI-powered transition planning for students with disabilities Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-agent architecture on Amazon Bedrock that produces IDEA-aligned transition plans for school districts across the US.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 57.939,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.876,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3505,74 +3379,157 @@
       "source_priority": "high"
     },
     {
-      "id": "92b00fb02e6c5738",
-      "title": "PSA: Amazon’s shopping AI can now tell you if that message is a scam",
-      "url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-02T14:56:34+00:00",
-      "text": "PSA: Amazon’s shopping AI can now tell you if that message is a scam Amazon is adding a scam-detection feature to Alexa for Shopping that can verify whether suspicious emails, texts, and other messages actually came from the retailer.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.35,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "4f5cb1e3be051155",
-      "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-      "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments",
-      "source": "TechCrunch AI",
+      "id": "5c06dbf8b9b34c5b",
+      "title": "llm-gemini 0.34",
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-02T15:01:23+00:00",
-      "text": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use.",
+      "published_at": "2026-09-02T16:39:38+00:00",
+      "text": "llm-gemini 0.34 Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: For comparison, here are the same pelicans generated using Gemini 3.7 Flash . Something I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted \"make me a cool thing in html\" and it built this , which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents. Your browser does not support HTML5 video. If you click through to the demo you'll see one more thing I built with Gemini 3.8 Flash. My markdown-svg-renderer tool lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered. I used Gemini 3.8 Flash (with my very basic llm-coding-agent coding agent plugin) to add support for HTML as well, so now any HTML",
       "matched_terms": [
         "AI",
+        "LLM",
         "agent"
       ],
       "engagement": {},
-      "score": 57.202,
+      "score": 57.603,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
+        "novelty=0.71",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.709,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "1db8587bd622d473",
+      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-02T16:40:50+00:00",
+      "text": "Researchers fear safety disaster ahead of OpenAI’s Astra release OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after […]",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.387,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.42",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.419,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
-        "startup",
-        "funding"
+        "product"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "305c45c1a95f4fc1",
+      "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
+      "url": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-08-31T16:30:00+00:00",
+      "text": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experiments to prioritize next....",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "Nvidia",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 57.365,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.30",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.304,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "be42c5fa93690cd3",
+      "title": "Quoting Rick Brewster",
+      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-02T05:50:57+00:00",
+      "text": "Quoting Rick Brewster Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll . This was written by our good friend Claude , without whom this would NOT have been possible and would NEVER have happened. [...] Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way way too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...] At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference c",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 57.22,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.54",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.54,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -3586,44 +3543,6 @@
       "text": "Siemens And Nvidia Building Next Gen Industrial Ai Operating System https://www.engineering.com/siemens-and-nvidia-building-next-gen-industrial-ai-operating-system/",
       "matched_terms": [
         "industrial AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_media",
-        "industrial_ai",
-        "design",
-        "simulation",
-        "plm",
-        "manufacturing"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "1586fe385c655415",
-      "title": "Suncubes Uses Ai Simulation To Develop Uav Charging Systems",
-      "url": "https://www.engineering.com/suncubes-uses-ai-simulation-to-develop-uav-charging-systems",
-      "source": "Engineering.com",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Suncubes Uses Ai Simulation To Develop Uav Charging Systems https://www.engineering.com/suncubes-uses-ai-simulation-to-develop-uav-charging-systems/",
-      "matched_terms": [
-        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
@@ -5401,6 +5320,74 @@
       "text": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
       "matched_terms": [
         "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7faa8c6159a05886",
+      "title": "Einfuehrung Intact Simulation Add In",
+      "url": "https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Einfuehrung Intact Simulation Add In https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6c65c06c47193fc2",
+      "title": "Introducing Intact Simulation Add In",
+      "url": "https://www.synera.ai/news/introducing-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
