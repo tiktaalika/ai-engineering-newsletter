@@ -3,74 +3,74 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16651
-- filtered_count: 2704
+- fetched_count: 16652
+- filtered_count: 2699
 - duplicate_count: 81
 - failures: 7
 
 ## Top 10 General AI News
 1. [GPT‑6 Astra](https://simonwillison.net/2026/Sep/3/gpt6-astra)
    - source: Simon Willison
-   - score: 71.23
-   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.753; source_priority=1.0
+   - score: 71.183
+   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.751; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=6; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [August newsletter is out](https://simonwillison.net/2026/Sep/4/august-newsletter)
    - source: Simon Willison
-   - score: 64.53
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.903; source_priority=1.0
+   - score: 64.483
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.901; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [A connectomics milestone: Mapping the complete male fruit fly brain](https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain)
    - source: Google Research
-   - score: 63.357
+   - score: 63.343
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.91; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 4. [[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time](https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest)
    - source: Latent Space
-   - score: 61.654
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.893; source_priority=1.0
+   - score: 61.607
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.891; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour](https://www.latent.space/p/astra)
    - source: Latent Space
-   - score: 52.189
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.766; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.142
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.764; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Introducing WeatherNext 3, our most advanced and accurate global weather AI model](https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model)
    - source: Google DeepMind
-   - score: 63.262
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.906; source_priority=1.0
+   - score: 63.248
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.905; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 7. [Daybreak for Frontline Defenders: $1B to protect essential services](https://openai.com/index/daybreak-for-frontline-defenders)
    - source: OpenAI
-   - score: 55.424
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.762; source_priority=1.0
+   - score: 55.393
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.76; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [NeoMME: an efficient Multimodal-native and Multilingual Encoder](https://huggingface.co/blog/Hcompany/neomme)
    - source: Hugging Face
-   - score: 49.462
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.642; source_priority=1.0
+   - score: 49.416
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.64; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.64; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [The Pulse: tech companies move to open AI models](https://newsletter.pragmaticengineer.com/p/the-pulse-tech-companies-move-to)
    - source: The Pragmatic Engineer
-   - score: 39.559
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.701; source_priority=0.65
+   - score: 39.513
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.699; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.70; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network](https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network)
    - source: NVIDIA AI
-   - score: 66.054
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.79; source_priority=1.0
+   - score: 66.023
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.789; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.79; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical](https://rescale.com/blog/agentic-multi-disciplinary-design-exploration-ansys-cfx-mechanical)
    - source: Rescale
-   - score: 74.647
+   - score: 74.643
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.999; source_priority=1.0
    - reasons: source_priority=1.00; novelty=1.00; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Opinion: The FDA removed the red tape around one of the best drugs for children with schizophrenia. But the fear remains](https://www.statnews.com/2026/09/04/clozapine-children-schizophrenia-neutrophil-fda-monitoring)
    - source: STAT Health Tech
-   - score: 58.339
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.887; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.246
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.882; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Automatisierung Cae Berichterstattung](https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung)
    - source: Synera
    - score: 57.033
@@ -90,14 +90,14 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: Make infectious disease data boring again](https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr)
    - source: STAT Health Tech
-   - score: 54.839
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.887; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.746
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.882; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: Lindsay Clancy case exposes dangers of fragmented U.S. health system, experts say](https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures)
    - source: STAT Health Tech
-   - score: 54.839
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.887; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.746
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.882; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [NVIDIA Acquires Hugging Face for $12.93 Billion](https://www.bio-itworld.com/news/2026/09/03/nvidia-acquires-hugging-face-for--12.93-billion)
    - source: Bio-IT World
    - score: 43.033
@@ -117,12 +117,12 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [A connectomics milestone: Mapping the complete male fruit fly brain](https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain)
    - source: Google Research
-   - score: 63.357
+   - score: 63.343
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.91; source_priority=1.0
 2. [Introducing WeatherNext 3, our most advanced and accurate global weather AI model](https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model)
    - source: Google DeepMind
-   - score: 63.262
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.906; source_priority=1.0
+   - score: 63.248
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.905; source_priority=1.0
 3. [Benchmirt](https://huggingface.co/blog/allenai/benchmirt)
    - source: Hugging Face Papers
    - score: 51.033
