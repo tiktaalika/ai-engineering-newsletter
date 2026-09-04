@@ -1,0 +1,172 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-08-27 至 2026-09-04 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-08-27 to 2026-09-04.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
+      "url": "https://arxiv.org/abs/2609.04147",
+      "source": "arXiv",
+      "published": "2026-09-03",
+      "authors": [
+        "Gustavo Claudio Karl Couto",
+        "Eric Aislan Antonelo",
+        "Gabriel George Zipperer"
+      ],
+      "summary_en": "This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registration, and a Webots digital twin, enabling controlled experiments that connect simulation-based autonomous-driving methods to real-world execution. As a first baseline, we implement command-conditioned behavior cloning, in which a neural policy receives ",
+      "summary_zh": "英文摘要：This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registration, and a Webots digital twin, enabling controlled experiments that connect simulation-based autonomous-driving methods to real-world execution. As a first baseline, we implement command-conditioned behavior cloning, in which a neural policy receives ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Influence of Extruded Filament Shape on Buildability in 3D Concrete Printing: A Geometry-Informed Deep Learning-FEM Approach",
+      "url": "https://arxiv.org/abs/2609.04028",
+      "source": "arXiv",
+      "published": "2026-09-03",
+      "authors": [
+        "Giacomo Rizzieri",
+        " Saif-Ur-Rehman",
+        "Jörg F. Unger",
+        "Annika Robens-Radermacher"
+      ],
+      "summary_en": "The geometric morphology of deposited filaments can significantly influence the structural performance and stability of 3D concrete-printed (3DCP) structures. However, most finite element (FEM)-based approaches for buildability assessment represent printed layers as simplified rectangles, potentially limiting predictive accuracy. This study proposes a geometry-informed modelling framework that integrates the deep-learning-based filament shape prediction tool ShapeGen3DCP with a layer-activation ",
+      "summary_zh": "英文摘要：The geometric morphology of deposited filaments can significantly influence the structural performance and stability of 3D concrete-printed (3DCP) structures. However, most finite element (FEM)-based approaches for buildability assessment represent printed layers as simplified rectangles, potentially limiting predictive accuracy. This study proposes a geometry-informed modelling framework that integrates the deep-learning-based filament shape prediction tool ShapeGen3DCP with a layer-activation ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "DNative-Twin: Decision Graphs and Digital Twins for Reconstructable Agentic Decisions",
+      "url": "https://arxiv.org/abs/2609.03787",
+      "source": "arXiv",
+      "published": "2026-09-03",
+      "authors": [
+        "Junjie Pang",
+        "Zhenzhen Xie",
+        "Haoke Han",
+        "Ying He",
+        "Jing Wang",
+        "Gang Liu"
+      ],
+      "summary_en": "AI agents increasingly gather evidence, invoke tools, apply constraints, and produce decisions that people or software may commit to action. A final output alone cannot show which evidence, tool state, rule, authorization, or action path produced it. We present DNative-Twin, a graph-native digital twin that records a committed agentic decision as a typed trajectory and re-executes its decision mechanism under declared conditions. The graph links the state observed by the agent, the path it follo",
+      "summary_zh": "英文摘要：AI agents increasingly gather evidence, invoke tools, apply constraints, and produce decisions that people or software may commit to action. A final output alone cannot show which evidence, tool state, rule, authorization, or action path produced it. We present DNative-Twin, a graph-native digital twin that records a committed agentic decision as a typed trajectory and re-executes its decision mechanism under declared conditions. The graph links the state observed by the agent, the path it follo",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Computing high-order mixed derivatives in physics-informed neural networks using multi-index Bell polynomials",
+      "url": "https://arxiv.org/abs/2609.03768",
+      "source": "arXiv",
+      "published": "2026-09-03",
+      "authors": [
+        "Fumihiro Imoto"
+      ],
+      "summary_en": "Physics-informed neural networks for high-order partial differential equations require mixed input derivatives and their gradients with respect to the network parameters. Standard implementations obtain an order-$K$ derivative by repeated automatic differentiation. We instead organize the forward recursion of the multivariate Faà di Bruno formula and its explicit backpropagation over a prescribed downward-closed set of multi-indices, with the Bell-polynomial convolutions tabulated once. The forw",
+      "summary_zh": "英文摘要：Physics-informed neural networks for high-order partial differential equations require mixed input derivatives and their gradients with respect to the network parameters. Standard implementations obtain an order-$K$ derivative by repeated automatic differentiation. We instead organize the forward recursion of the multivariate Faà di Bruno formula and its explicit backpropagation over a prescribed downward-closed set of multi-indices, with the Bell-polynomial convolutions tabulated once. The forw",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Indirect Estimation of SINR via SSB and CSI-RS RSRP in 5G NR",
+      "url": "https://arxiv.org/abs/2609.03488",
+      "source": "arXiv",
+      "published": "2026-09-03",
+      "authors": [
+        "Leonardo Spampinato",
+        "Mahamadou Togola",
+        "Matteo Bernabè",
+        "Azim Akhtarshenas",
+        "Lorenzo Mario Amorosa",
+        "David López-Pérez"
+      ],
+      "summary_en": "Predicting user equipment (UE) performance is essential for proactive network control, resource management, and digital twin sandboxes. However, the inherent flexibility and complexity of beam-based 5G new radio (NR) networks make accurate performance forecasting highly challenging. This paper proposes a data-driven approach to predict the average downlink signal-to-interference-plus-noise ratio (SINR) relying exclusively on standardized reference-signal measurements, namely synchronization sign",
+      "summary_zh": "英文摘要：Predicting user equipment (UE) performance is essential for proactive network control, resource management, and digital twin sandboxes. However, the inherent flexibility and complexity of beam-based 5G new radio (NR) networks make accurate performance forecasting highly challenging. This paper proposes a data-driven approach to predict the average downlink signal-to-interference-plus-noise ratio (SINR) relying exclusively on standardized reference-signal measurements, namely synchronization sign",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "SurgeGen: A Hybrid Generative Diffusion Framework for Storm Surge Scenario Synthesis",
+      "url": "https://arxiv.org/abs/2609.03382",
+      "source": "arXiv",
+      "published": "2026-09-03",
+      "authors": [
+        "Shunan Zheng",
+        "John J. Hasenbein"
+      ],
+      "summary_en": "Predicting storm surge induced by landfalling tropical cyclones is crucial for flood mitigation and coastal risk management. Traditionally, physics-based numerical models simulate storm surge by solving the Navier--Stokes equations using numerical methods, but these simulations are computationally expensive. Generative models are promising for storm surge emulation because they can generate diverse realizations rather than producing a single deterministic prediction. However, their use for storm",
+      "summary_zh": "英文摘要：Predicting storm surge induced by landfalling tropical cyclones is crucial for flood mitigation and coastal risk management. Traditionally, physics-based numerical models simulate storm surge by solving the Navier--Stokes equations using numerical methods, but these simulations are computationally expensive. Generative models are promising for storm surge emulation because they can generate diverse realizations rather than producing a single deterministic prediction. However, their use for storm",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Grammar-based topology search for reconfigurable integrated photonic spectrometers",
+      "url": "https://arxiv.org/abs/2609.03196",
+      "source": "arXiv",
+      "published": "2026-09-02",
+      "authors": [
+        "Juejun Hu"
+      ],
+      "summary_en": "Reconfigurable integrated photonic spectrometers can generate exponentially increasing measurement states from a small number of switching elements, making them a promising design class for high-performance portable spectroscopy. However, selecting a circuit architecture remains largely intuition driven. We introduce a grammar-based topology optimization framework that composes standard photonic building blocks, canonicalizes and physically prunes candidate circuits, and jointly searches topolog",
+      "summary_zh": "英文摘要：Reconfigurable integrated photonic spectrometers can generate exponentially increasing measurement states from a small number of switching elements, making them a promising design class for high-performance portable spectroscopy. However, selecting a circuit architecture remains largely intuition driven. We introduce a grammar-based topology optimization framework that composes standard photonic building blocks, canonicalizes and physically prunes candidate circuits, and jointly searches topolog",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "MGKDB: An IMAS-aligned multicode gyrokinetic simulation database for reproducible fusion turbulence modeling and data-driven analysis",
+      "url": "https://arxiv.org/abs/2609.03132",
+      "source": "arXiv",
+      "published": "2026-09-02",
+      "authors": [
+        "Craig Michoski",
+        "David R. Hatch",
+        "Dongyang Kuang",
+        "Matthew Waller",
+        "Chris Holland",
+        "M. J. Pueschel",
+        "Joseph McClenaghan",
+        "Tom F. Neiser",
+        "Max T. Curie",
+        "Venkitesh Ayyar",
+        "Joseph Schmidt",
+        "Leonhard A. Leppin",
+        "Aaron Ho",
+        "Nathan T. Howard",
+        "Tapan Ganatma Nakkina",
+        "Bhavin Patel",
+        "Yann Camenen"
+      ],
+      "summary_en": "Expensive fusion simulations are commonly preserved in code-specific formats that limit discovery, comparison, and reuse. We present the Multiscale GyroKinetic DataBase (MGKDB), an open-source software framework and curated archive that converts heterogeneous simulation campaigns into traceable scientific records. Each record links code-native inputs and outputs to provenance and quality metadata, an IMAS-aligned physics representation, and derived diagnostics, preserving model-specific evidence",
+      "summary_zh": "英文摘要：Expensive fusion simulations are commonly preserved in code-specific formats that limit discovery, comparison, and reuse. We present the Multiscale GyroKinetic DataBase (MGKDB), an open-source software framework and curated archive that converts heterogeneous simulation campaigns into traceable scientific records. Each record links code-native inputs and outputs to provenance and quality metadata, an IMAS-aligned physics representation, and derived diagnostics, preserving model-specific evidence",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Learnable composition for neural operators",
+      "url": "https://arxiv.org/abs/2609.03069",
+      "source": "arXiv",
+      "published": "2026-09-02",
+      "authors": [
+        "Zituo Chen",
+        "Baiming Zhang",
+        "Sili Deng"
+      ],
+      "summary_en": "Neural operators are fast, differentiable surrogates for physical simulation, but their accuracy often degrades when domain geometry, size, or operating conditions differ from training. Supervised adaptation can recover accuracy, but even a small target set requires costly high-fidelity simulations. We therefore ask how pretraining and transfer can be designed together to reduce this deployment cost. LatentDDM first pretrains a neural operator to predict fields on small subdomains. For a new set",
+      "summary_zh": "英文摘要：Neural operators are fast, differentiable surrogates for physical simulation, but their accuracy often degrades when domain geometry, size, or operating conditions differ from training. Supervised adaptation can recover accuracy, but even a small target set requires costly high-fidelity simulations. We therefore ask how pretraining and transfer can be designed together to reduce this deployment cost. LatentDDM first pretrains a neural operator to predict fields on small subdomains. For a new set",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "DANSur_HM: Modularly incorporating higher modes in a deep learning based gravitational-wave surrogate",
+      "url": "https://arxiv.org/abs/2609.03025",
+      "source": "arXiv",
+      "published": "2026-09-02",
+      "authors": [
+        "Osvaldo Gramaxo Freitas",
+        "Anastasios Theodoropoulos",
+        "Nino Villanueva",
+        "José A. Font",
+        "Antonio Onofre",
+        "Alejandro Torres-Forné",
+        "José D. Martin-Guerrero"
+      ],
+      "summary_en": "Numerical relativity (NR) simulations provide the most faithful representation of the gravitational waves (GWs) emitted by binary black hole (BBH) systems during merger. In the context of GW astronomy, tasks such as parameter estimation can require vast numbers of waveform evaluations per second across the entire parameter space. Since performing full NR simulations for each evaluation is not computationally feasible, interpolating methods for existing NR waveforms, known as surrogate models, ha",
+      "summary_zh": "英文摘要：Numerical relativity (NR) simulations provide the most faithful representation of the gravitational waves (GWs) emitted by binary black hole (BBH) systems during merger. In the context of GW astronomy, tasks such as parameter estimation can require vast numbers of waveform evaluations per second across the entire parameter space. Since performing full NR simulations for each evaluation is not computationally feasible, interpolating methods for existing NR waveforms, known as surrogate models, ha",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
