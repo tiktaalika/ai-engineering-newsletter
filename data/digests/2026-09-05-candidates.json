@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-09-05T10:55:41.466149+00:00",
+    "generated_at": "2026-09-05T11:15:52.383381+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16665,
-    "filtered_count": 2680,
-    "duplicate_count": 79,
+    "fetched_count": 16655,
+    "filtered_count": 2674,
+    "duplicate_count": 78,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -65,10 +69,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 76.059,
+      "score": 75.944,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=7",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -77,7 +81,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.73,
+      "novelty_score": 0.725,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,10 +108,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.238,
+      "score": 60.123,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -116,7 +120,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.829,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -141,7 +145,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 52.079,
+      "score": 52.002,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -153,7 +157,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.761,
+      "novelty_score": 0.758,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -180,10 +184,10 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 66.557,
+      "score": 66.48,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -192,7 +196,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -219,7 +223,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 66.376,
+      "score": 66.299,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -231,7 +235,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.805,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -256,10 +260,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.991,
+      "score": 63.914,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -268,7 +272,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.878,
+      "novelty_score": 0.875,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -294,7 +298,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.473,
+      "score": 63.396,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -306,7 +310,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.825,
+      "novelty_score": 0.821,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -333,10 +337,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.077,
+      "score": 62.999,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -345,7 +349,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.807,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -370,10 +374,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.743,
+      "score": 59.666,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -382,7 +386,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -406,10 +410,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.331,
+      "score": 58.099,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -418,7 +422,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.924,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -444,7 +448,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 74.194,
+      "score": 74.186,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -456,7 +460,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
+      "novelty_score": 0.978,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -481,10 +485,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 64.805,
+      "score": 64.574,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -493,7 +497,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -516,10 +520,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.877,
+      "score": 62.646,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -528,7 +532,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.931,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -621,10 +625,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.331,
+      "score": 58.099,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -633,7 +637,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.924,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -658,10 +662,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 55.479,
+      "score": 55.248,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.49",
+        "novelty=0.48",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -670,7 +674,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.491,
+      "novelty_score": 0.481,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -692,10 +696,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.843,
+      "score": 47.612,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.57",
+        "novelty=0.56",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -704,7 +708,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.569,
+      "novelty_score": 0.558,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -727,10 +731,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 44.03,
+      "score": 43.799,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.40",
+        "novelty=0.38",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -739,7 +743,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.395,
+      "novelty_score": 0.385,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -801,7 +805,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 74.194,
+      "score": 74.186,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -813,7 +817,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
+      "novelty_score": 0.978,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -838,10 +842,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 64.805,
+      "score": 64.574,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -850,7 +854,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -873,10 +877,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.877,
+      "score": 62.646,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -885,7 +889,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.931,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1747,42 +1751,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "fb40e0c18bb1e3f1",
-      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
-      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-28T10:15:00+00:00",
-      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 76.918,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.80",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.799,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
       "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
@@ -1795,7 +1763,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 76.489,
+      "score": 76.481,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1808,7 +1776,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.779,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1836,10 +1804,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 76.059,
+      "score": 75.944,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=7",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1848,7 +1816,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.73,
+      "novelty_score": 0.725,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1874,7 +1842,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 74.194,
+      "score": 74.186,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1886,48 +1854,12 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
+      "novelty_score": 0.978,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
         "simulation",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a8092de86d38fb97",
-      "title": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical",
-      "url": "https://rescale.com/blog/agentic-multi-disciplinary-design-exploration-ansys-cfx-mechanical",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-04T11:15:00+00:00",
-      "text": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical Connect CFD insight to downstream engineering decisions with an agentic Ansys CFX and Mechanical workflow on Rescale. The workflow combines the power of agentic engineering with deterministic simulation across multiple disciplines, analyzing a completed CFX design study, identifying key parameters and data gaps, kicking off follow-on studies, and then brings CFX pressure loads into Mechanical so hydraulic and structural results can be evaluated together.",
-      "matched_terms": [
-        "simulation",
-        "CFD"
-      ],
-      "engagement": {},
-      "score": 74.124,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.975,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1946,7 +1878,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 72.575,
+      "score": 72.567,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1981,7 +1913,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 69.297,
+      "score": 69.289,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -2087,10 +2019,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 66.92,
+      "score": 66.913,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.38",
+        "novelty=0.37",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -2127,10 +2059,10 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 66.557,
+      "score": 66.48,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2139,7 +2071,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2166,7 +2098,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 66.376,
+      "score": 66.299,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2178,7 +2110,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.805,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2203,10 +2135,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 64.805,
+      "score": 64.574,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2215,49 +2147,13 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 64.774,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.55",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.55,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2275,10 +2171,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.991,
+      "score": 63.914,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2287,7 +2183,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.878,
+      "novelty_score": 0.875,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2313,7 +2209,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 63.473,
+      "score": 63.396,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2325,7 +2221,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.825,
+      "novelty_score": 0.821,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2354,10 +2250,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 63.392,
+      "score": 63.277,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.40",
+        "novelty=0.39",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2366,7 +2262,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.397,
+      "novelty_score": 0.391,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2376,44 +2272,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "1db7ddb57e1849b5",
-      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-04T16:21:11+00:00",
-      "text": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge It's the latest failure of OpenAI's internal monitoring and security systems.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 63.077,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.807,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2429,7 +2287,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 63.02,
+      "score": 63.012,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.62",
@@ -2452,6 +2310,44 @@
       "source_priority": "high"
     },
     {
+      "id": "1db7ddb57e1849b5",
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-04T16:21:11+00:00",
+      "text": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge It's the latest failure of OpenAI's internal monitoring and security systems.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 62.999,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.803,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "50c09f3b90950304",
       "title": "Authors Wrangle With Publishers Over $1.5 Billion Anthropic A.I. Settlement",
       "url": "https://www.nytimes.com/2026/09/05/books/anthropic-settlement-ai-copyright-books.html",
@@ -2465,10 +2361,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.877,
+      "score": 62.646,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2477,7 +2373,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.941,
+      "novelty_score": 0.931,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2534,7 +2430,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.117,
+      "score": 61.084,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2546,7 +2442,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.808,
+      "novelty_score": 0.807,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2570,7 +2466,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 61.022,
+      "score": 60.989,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -2582,7 +2478,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.804,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2609,7 +2505,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 60.829,
+      "score": 60.752,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2621,7 +2517,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.553,
+      "novelty_score": 0.549,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3009,10 +2905,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.238,
+      "score": 60.123,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.83",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3021,7 +2917,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.829,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3048,44 +2944,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 59.968,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.817,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "78ac728aa54f36f9",
-      "title": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
-      "url": "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-04T16:21:04+00:00",
-      "text": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson Running reasoning and agentic AI at the edge has been harder than it needs to be. Until recently, models capable of multi-step reasoning were too large to run...",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 59.743,
+      "score": 59.891,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -3097,13 +2956,12 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.806,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -3144,6 +3002,44 @@
       "source_priority": "high"
     },
     {
+      "id": "78ac728aa54f36f9",
+      "title": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
+      "url": "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-04T16:21:04+00:00",
+      "text": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson Running reasoning and agentic AI at the edge has been harder than it needs to be. Until recently, models capable of multi-step reasoning were too large to run...",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 59.666,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.803,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "5975e0a531bc604d",
       "title": "Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract",
       "url": "https://aws.amazon.com/blogs/machine-learning/customizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract",
@@ -3158,7 +3054,7 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 59.693,
+      "score": 59.616,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -3170,7 +3066,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.804,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3193,7 +3089,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.395,
+      "score": 59.387,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -3228,10 +3124,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.331,
+      "score": 58.099,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3240,7 +3136,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.924,
+      "novelty_score": 0.914,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -3249,43 +3145,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "0705f4c2d36a924a",
-      "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
-      "url": "https://www.infoq.com/news/2026/09/google-beyond-zero",
-      "source": "InfoQ AI ML Data Engineering",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-05T10:40:00+00:00",
-      "text": "Beyond Zero: Google Publishes Successor to BeyondCorp In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individual resources and actions, combining static authorization controls with dynamic AI-driven decisions to enable machine-speed enforcement for humans and agents. By Renato Losio",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 57.954,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.99",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.992,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "software_engineering",
-        "mlops",
-        "data_engineering"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
     },
     {
       "id": "3e25372b9239ef76",
@@ -3324,42 +3183,41 @@
       "source_priority": "high"
     },
     {
-      "id": "ef98ae18ebdb3c34",
-      "title": "Why the Hugging Face Hack Should Make You Worry More About A.I.",
-      "url": "https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html",
-      "source": "New York Times Technology",
+      "id": "0705f4c2d36a924a",
+      "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
+      "url": "https://www.infoq.com/news/2026/09/google-beyond-zero",
+      "source": "InfoQ AI ML Data Engineering",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-04T16:12:19+00:00",
-      "text": "Why the Hugging Face Hack Should Make You Worry More About A.I. The attack by an aggressive “collective” of OpenAI agents shows the danger of artificial intelligence systems that organize themselves.",
+      "published_at": "2026-09-05T10:40:00+00:00",
+      "text": "Beyond Zero: Google Publishes Successor to BeyondCorp In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individual resources and actions, combining static authorization controls with dynamic AI-driven decisions to enable machine-speed enforcement for humans and agents. By Renato Losio",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
         "agent",
-        "AI agent",
-        "OpenAI"
+        "AI agent"
       ],
       "engagement": {},
-      "score": 57.795,
+      "score": 57.722,
       "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.41",
-        "matched_terms=5",
+        "source_priority=0.65",
+        "novelty=0.98",
+        "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.67",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.833,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.415,
-      "source_priority_score": 1.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.981,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "software_engineering",
+        "mlops",
+        "data_engineering"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
+      "source_priority": "medium"
     },
     {
       "id": "c1a4d7d6313d2fde",
@@ -3449,7 +3307,7 @@
         "multimodal"
       ],
       "engagement": {},
-      "score": 57.65,
+      "score": 57.573,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -3461,7 +3319,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3469,6 +3327,44 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef98ae18ebdb3c34",
+      "title": "Why the Hugging Face Hack Should Make You Worry More About A.I.",
+      "url": "https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hacking.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-04T16:12:19+00:00",
+      "text": "Why the Hugging Face Hack Should Make You Worry More About A.I. The attack by an aggressive “collective” of OpenAI agents shows the danger of artificial intelligence systems that organize themselves.",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.563,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.40",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.404,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3485,10 +3381,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 57.521,
+      "score": 57.444,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3497,7 +3393,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.857,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3521,7 +3417,7 @@
         "foundation model"
       ],
       "engagement": {},
-      "score": 57.379,
+      "score": 57.346,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.49",
@@ -3533,7 +3429,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.487,
+      "novelty_score": 0.485,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -5399,6 +5295,108 @@
       "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
       "matched_terms": [
         "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "84173670abec4920",
+      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
+      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ca5f8805ed4cc18e",
+      "title": "Nasa Ai Agents Build Spaceship From Text",
+      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0099e6807563ee55",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
       ],
       "engagement": {},
       "score": 57.033,

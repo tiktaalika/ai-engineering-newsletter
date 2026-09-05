@@ -3,79 +3,79 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16665
-- filtered_count: 2680
-- duplicate_count: 79
-- failures: 7
+- fetched_count: 16655
+- filtered_count: 2674
+- duplicate_count: 78
+- failures: 8
 
 ## Top 10 General AI News
 1. [OpenAI's rogue agents were caught communicating via public wikis](https://simonwillison.net/2026/Sep/4/rogue-agent-wikis)
    - source: Simon Willison
-   - score: 76.059
-   - score_breakdown: general=1.0; engineering=0.0; research=1.0; novelty=0.73; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=7; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 75.944
+   - score_breakdown: general=1.0; engineering=0.0; research=1.0; novelty=0.725; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=7; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [The Pelican comparison grid for Astra is pretty interesting](https://simonwillison.net/2026/Sep/4/astra-pelicans)
    - source: Simon Willison
-   - score: 60.238
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.829; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.123
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.824; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [How Basis builds long-horizon accounting agents with Cursor](https://cursor.com/blog/basis)
    - source: Cursor Blog RSS
-   - score: 52.079
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.761; source_priority=1.0
+   - score: 52.002
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.758; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod](https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod)
    - source: Amazon AWS AI
-   - score: 66.557
-   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.806; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 66.48
+   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.802; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [Run agent-driven Amazon SageMaker HyperPod operations with InstantStart](https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart)
    - source: Amazon AWS AI
-   - score: 66.376
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.805; source_priority=1.0
+   - score: 66.299
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [OpenAI’s rogue agents keep escaping, with no formal process to investigate them](https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them)
    - source: TechCrunch AI
-   - score: 63.991
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.878; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 63.914
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.875; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 7. [Building a Memory-Driven Agent with NVIDIA NemoClaw](https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw)
    - source: NVIDIA AI
-   - score: 63.473
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.825; source_priority=1.0
+   - score: 63.396
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge](https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge)
    - source: TechCrunch AI
-   - score: 63.077
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.807; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.999
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson](https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson)
    - source: NVIDIA AI
-   - score: 59.743
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.806; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.666
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.803; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Opinion: What STAT readers think about M.D. vs. D.O., AI in medicine, surrogacy, and more](https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor)
    - source: STAT Health Tech
-   - score: 58.331
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.924; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 58.099
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.914; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Leg-based robotics with System Simulation: Why it’s transforming the industry with accelerated innovation](https://blogs.sw.siemens.com/simcenter/leg-based-robotics-with-system-simulation-why-its-transforming-the-industry-with-accelerated-innovation)
    - source: Siemens Simcenter
-   - score: 74.194
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.979; source_priority=1.0
+   - score: 74.186
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.978; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 2. [‘We’re plausibly close to crossing the line’: are warnings of uncontrollable AI coming true?](https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings)
    - source: The Guardian Technology
-   - score: 64.805
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.878; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 64.574
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.867; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Authors Wrangle With Publishers Over $1.5 Billion Anthropic A.I. Settlement](https://www.nytimes.com/2026/09/05/books/anthropic-settlement-ai-copyright-books.html)
    - source: New York Times Technology
-   - score: 62.877
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.941; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.646
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.931; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Automatisierung Fea Aufgaben](https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben)
    - source: Synera
    - score: 57.033
@@ -90,24 +90,24 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: What STAT readers think about M.D. vs. D.O., AI in medicine, surrogacy, and more](https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor)
    - source: STAT Health Tech
-   - score: 58.331
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.924; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 58.099
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.914; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Architecting memory and storage in the AI era](https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era)
    - source: MIT Technology Review AI
-   - score: 55.479
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.491; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.49; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 55.248
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.481; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.48; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [STAT+: Novartis’ experimental cardiovascular drug fails a pivotal study](https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial)
    - source: STAT Health Tech
-   - score: 47.843
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.569; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.57; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 47.612
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.558; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [STAT+: After failure of Angelman syndrome drug, experts see hope in other experimental therapies](https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis)
    - source: STAT Health Tech
-   - score: 44.03
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.395; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.40; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 43.799
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.385; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.38; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Send Tips](https://medcitynews.com/cdn-cgi/l/email-protection)
    - source: MedCity News
    - score: 31.833
@@ -175,6 +175,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: HTTP Error 404: Not Found
+- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
