@@ -3,47 +3,47 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16657
-- filtered_count: 2631
+- fetched_count: 16667
+- filtered_count: 2635
 - duplicate_count: 75
-- failures: 8
+- failures: 7
 
 ## Top 10 General AI News
 1. [Using Blender with coding agents on macOS](https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos)
    - source: Simon Willison
-   - score: 57.424
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.701; source_priority=1.0
+   - score: 57.294
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.695; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.70; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Quoting Zach Kehs](https://simonwillison.net/2026/Sep/6/zach-kehs)
    - source: Simon Willison
-   - score: 56.554
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.965; source_priority=1.0
+   - score: 56.424
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.959; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot](https://www.latent.space/p/grok-bot)
    - source: Latent Space
-   - score: 50.47
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.688; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.69; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 50.341
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.682; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.68; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure](https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure)
    - source: TechCrunch AI
-   - score: 63.462
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.824; source_priority=1.0
+   - score: 63.376
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.82; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft](https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft)
+5. [I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI](https://www.theguardian.com/technology/2026/sep/06/daniel-susskind-father-studies-ai-artificial-intelligence-what-parents-need-know)
+   - source: The Guardian Technology
+   - score: 60.42
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.989; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft](https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft)
    - source: TechCrunch AI
-   - score: 57.882
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.873; source_priority=1.0
+   - score: 57.796
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.87; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips](https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html)
+7. [How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips](https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html)
    - source: New York Times Technology
-   - score: 57.176
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.993; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Designing lifecycle policies for AgentCore memory](https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory)
-   - source: Amazon AWS AI
-   - score: 54.456
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.566; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.57; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.916
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.981; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Claude Plays Robotics](https://www.anthropic.com/research/claude-plays-robotics)
    - source: Anthropic
    - score: 52.367
@@ -51,13 +51,13 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [How Intuit built an agentic disaster recovery assistant with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock)
    - source: Amazon AWS AI
-   - score: 50.84
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.553; source_priority=1.0
+   - score: 50.753
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.549; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.55; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Project HydraFusion: Frontier quality via multi-model orchestration](https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration)
    - source: GitHub Copilot
-   - score: 50.166
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.553; source_priority=1.0
+   - score: 50.08
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.549; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.55; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Alarming AI ads are flooding social media in the lead-up to Victoria’s election. But who is behind them?](https://www.theguardian.com/australia-news/2026/sep/06/fix-victoria-ai-ads-flooding-social-media-election-who-is-behind-them)
    - source: The Guardian Technology
-   - score: 47.042
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.532; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.53; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 46.783
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.52; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.52; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Ultragenyx Angelman Syndrome Apazunersen Rare Disease Antisense Oligonucleotide Aso](https://medcitynews.com/2026/09/ultragenyx-angelman-syndrome-apazunersen-rare-disease-antisense-oligonucleotide-aso)
    - source: MedCity News
    - score: 31.833
@@ -105,9 +105,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Why this Virginia Tech professor says don't use AI for medical advice - Roanoke Times](https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWVRZGdkUHhQWmRMS2V2R04zLXYxT2NGQUtKMmp5cXhBc3U2TklIRktDdGFmSXMzdW0wM2hOWXhmWUtDYllRYjg4eXZvMW9UZ3pSN0JxUFFWWlI0cHh1NGVEYmRtbU9hWTAta2k0SW90alJQbHlabENGUk0tU0RDNmRMV2xzNzk0ZkRyOTMxWVpQN3dUX1hsNEZDQklPdXo3S1cw?oc=5)
    - source: Google News Medical AI Discovery
-   - score: 34.827
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.922; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 34.567
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [2136384.Article](https://www.drugtargetreview.com/airborne-drying-linked-to-dna-damage-and-drug-resistance-in-tb-bacteria/2136384.article)
    - source: Drug Target Review
    - score: 31.833
@@ -175,7 +175,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: HTTP Error 404: Not Found
-- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden

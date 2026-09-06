@@ -1,19 +1,15 @@
 {
   "run_log": {
-    "generated_at": "2026-09-06T10:58:55.594792+00:00",
+    "generated_at": "2026-09-06T11:21:33.966637+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16657,
-    "filtered_count": 2631,
+    "fetched_count": 16667,
+    "filtered_count": 2635,
     "duplicate_count": 75,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
-      },
-      {
-        "source": "Rescale",
-        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -65,7 +61,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.424,
+      "score": 57.294,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -77,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.701,
+      "novelty_score": 0.695,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -102,7 +98,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.554,
+      "score": 56.424,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.96",
@@ -114,7 +110,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.965,
+      "novelty_score": 0.959,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -139,10 +135,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 50.47,
+      "score": 50.341,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.68",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -151,7 +147,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.688,
+      "novelty_score": 0.682,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -178,7 +174,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.462,
+      "score": 63.376,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -190,7 +186,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.824,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -198,6 +194,41 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "cd3eade169dcfff4",
+      "title": "I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI",
+      "url": "https://www.theguardian.com/technology/2026/sep/06/daniel-susskind-father-studies-ai-artificial-intelligence-what-parents-need-know",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-06T11:00:03+00:00",
+      "text": "I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI A Dr Seuss-style story written in seconds alerted me to the power – and perils – of the technology. But how can children embrace it without forgetting core skills? When I was growing up, my dad and I often talked about a story we wanted to write together. It was called “The Day Nobody Went to Disneyland”. One day, the story goes, the weather is so perfect that everyone in the world decides to stay away from Disneyland because they expect it to be far too busy. But my dad, who has the same thought as them, sees the disappointment on my face that morning – and decides to risk it. We set off. And when we arrive, the park is completely empty. Nobody else was brave enough to visit. We have everything – the rides, shows, food – to ourselves. I loved the idea of writing that story. But, as so often happens, we were too busy to do anything about it. Life ran away from us. I grew up, and we both forgot about it. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 60.42,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -214,7 +245,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.882,
+      "score": 57.796,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -226,7 +257,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.873,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -249,10 +280,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.176,
+      "score": 56.916,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -261,50 +292,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.981,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cb7d4548aff5ae4b",
-      "title": "Designing lifecycle policies for AgentCore memory",
-      "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-04T17:20:04+00:00",
-      "text": "Designing lifecycle policies for AgentCore memory Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle policies for Amazon Bedrock AgentCore: scoring, consolidating, and pruning agent memories on a nightly AWS Step Functions workflow, with a deployable AWS CDK stack.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 54.456,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.57",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.566,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -358,7 +352,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 50.84,
+      "score": 50.753,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -370,7 +364,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.553,
+      "novelty_score": 0.549,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -393,7 +387,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 50.166,
+      "score": 50.08,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -405,7 +399,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.553,
+      "novelty_score": 0.549,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
@@ -607,10 +601,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.042,
+      "score": 46.783,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.52",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -619,7 +613,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.532,
+      "novelty_score": 0.52,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -713,10 +707,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 34.827,
+      "score": 34.567,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.92",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -725,7 +719,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.922,
+      "novelty_score": 0.911,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -1732,6 +1726,42 @@
   ],
   "top_100_news_candidates": [
     {
+      "id": "fb40e0c18bb1e3f1",
+      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
+      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-28T10:15:00+00:00",
+      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 76.358,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.774,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
       "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
@@ -1744,7 +1774,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.938,
+      "score": 75.929,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -1757,7 +1787,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.755,
+      "novelty_score": 0.754,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1780,7 +1810,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 73.643,
+      "score": 73.634,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -1803,6 +1833,42 @@
       "source_priority": "high"
     },
     {
+      "id": "a8092de86d38fb97",
+      "title": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical",
+      "url": "https://rescale.com/blog/agentic-multi-disciplinary-design-exploration-ansys-cfx-mechanical",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-04T11:15:00+00:00",
+      "text": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical Connect CFD insight to downstream engineering decisions with an agentic Ansys CFX and Mechanical workflow on Rescale. The workflow combines the power of agentic engineering with deterministic simulation across multiple disciplines, analyzing a completed CFX design study, identifying key parameters and data gaps, kicking off follow-on studies, and then brings CFX pressure loads into Mechanical so hydraulic and structural results can be evaluated together.",
+      "matched_terms": [
+        "simulation",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 73.564,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.95,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "11d4b4b0c169e2b2",
       "title": "Powering data centers with gas turbines – Why System Simulation matters",
       "url": "https://blogs.sw.siemens.com/simcenter/powering-data-centers-with-gas-turbines-why-system-simulation-matters",
@@ -1816,7 +1882,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 72.024,
+      "score": 72.015,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1828,7 +1894,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.88,
+      "novelty_score": 0.879,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1851,7 +1917,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.745,
+      "score": 68.737,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1891,7 +1957,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 67.791,
+      "score": 67.661,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.35",
@@ -1903,7 +1969,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.354,
+      "novelty_score": 0.348,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2000,7 +2066,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 66.369,
+      "score": 66.36,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.35",
@@ -2025,6 +2091,42 @@
       "source_priority": "high"
     },
     {
+      "id": "92bf9577e1c6a8ab",
+      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
+      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-18T11:16:00+00:00",
+      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
+      "matched_terms": [
+        "simulation",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 64.215,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.52",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.525,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "1cb48b3f41519359",
       "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
       "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
@@ -2040,7 +2142,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.462,
+      "score": 63.376,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2052,7 +2154,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.824,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2075,7 +2177,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 62.469,
+      "score": 62.46,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2148,10 +2250,10 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 61.044,
+      "score": 60.958,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2160,7 +2262,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.555,
+      "novelty_score": 0.551,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2187,7 +2289,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 60.864,
+      "score": 60.777,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2199,7 +2301,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.554,
+      "novelty_score": 0.55,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2207,6 +2309,41 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "cd3eade169dcfff4",
+      "title": "I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI",
+      "url": "https://www.theguardian.com/technology/2026/sep/06/daniel-susskind-father-studies-ai-artificial-intelligence-what-parents-need-know",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-06T11:00:03+00:00",
+      "text": "I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know about AI A Dr Seuss-style story written in seconds alerted me to the power – and perils – of the technology. But how can children embrace it without forgetting core skills? When I was growing up, my dad and I often talked about a story we wanted to write together. It was called “The Day Nobody Went to Disneyland”. One day, the story goes, the weather is so perfect that everyone in the world decides to stay away from Disneyland because they expect it to be far too busy. But my dad, who has the same thought as them, sees the disappointment on my face that morning – and decides to risk it. We set off. And when we arrive, the park is completely empty. Nobody else was brave enough to visit. We have everything – the rides, shows, food – to ourselves. I loved the idea of writing that story. But, as so often happens, we were too busy to do anything about it. Life ran away from us. I grew up, and we both forgot about it. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 60.42,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2586,10 +2723,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.04,
+      "score": 59.911,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2598,7 +2735,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.82,
+      "novelty_score": 0.814,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2658,7 +2795,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.843,
+      "score": 58.835,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.94",
@@ -2693,7 +2830,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.755,
+      "score": 58.718,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -2705,7 +2842,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.701,
+      "novelty_score": 0.699,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2729,10 +2866,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.66,
+      "score": 58.623,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2741,7 +2878,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.697,
+      "novelty_score": 0.695,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2766,10 +2903,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.479,
+      "score": 58.392,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.63",
+        "novelty=0.62",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2778,7 +2915,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.628,
+      "novelty_score": 0.624,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2804,7 +2941,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.96,
+      "score": 57.874,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.57",
@@ -2816,7 +2953,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.574,
+      "novelty_score": 0.57,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2825,42 +2962,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "1d3d4d76fcdcf806",
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-05T22:49:55+00:00",
-      "text": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.882,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.873,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2897,6 +2998,42 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "1d3d4d76fcdcf806",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-05T22:49:55+00:00",
+      "text": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.796,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.87,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2989,10 +3126,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.564,
+      "score": 57.478,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3001,7 +3138,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.556,
+      "novelty_score": 0.552,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3026,7 +3163,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.424,
+      "score": 57.294,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -3038,7 +3175,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.701,
+      "novelty_score": 0.695,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3051,19 +3188,19 @@
       "source_priority": "high"
     },
     {
-      "id": "cad1fd9f4674e6b9",
-      "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
-      "url": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html",
-      "source": "New York Times Technology",
+      "id": "ab7e9c03f98feba4",
+      "title": "Ninja Artisan electric pizza oven review: so good it might even convert the purists",
+      "url": "https://www.theguardian.com/thefilter/2026/sep/06/ninja-artisan-electric-pizza-oven-review",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-06T10:45:11+00:00",
-      "text": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips Washington imposed sanctions on Inspur because of its work with the Chinese military. But the company’s subsidiary kept shipping Nvidia’s best chips to feed China’s leading A.I. firms.",
+      "published_at": "2026-09-06T11:00:04+00:00",
+      "text": "Ninja Artisan electric pizza oven review: so good it might even convert the purists Affordable, fast-heating and with a clever air fryer function, this versatile model is a winner for outdoor cooks who are willing to give up the traditional flame • The best pizza ovens – tested • Gozney Dome Gen 2 pizza oven review An electric pizza oven with no flame and no need to rotate the pizza may seem sacrilegious to purists, but the Ninja Artisan electric outdoor pizza oven solves many of the hassles of outdoor pizza making. There’s no lighting or monitoring a flame, no need to keep adjusting the heat, and no need for a turning peel, bulky gas bottle or constant use of an infrared (IR) thermometer (although you may still want one – read on for details). Equipped with four presets – Artisan, Thin Crust, New York, Pan – plus a custom setting to enable you to bake your pizza exactly how you like it, the Ninja Artisan is as effortless as can be, even next to the simplest plug-and-play gas oven. As you might expect from Ninja, it’s a multipurpose cooker, too, transforming into an outdoor air fryer with a capacity to turn out up to 1.3kg of french fries, or bake six chicken breasts. Continue read",
       "matched_terms": [
-        "Nvidia"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.176,
+      "score": 57.087,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.99",
@@ -3075,7 +3212,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.993,
+      "novelty_score": 0.989,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -5212,142 +5349,6 @@
       "text": "Ai Agents In Engineering https://www.synera.ai/webinar/ai-agents-in-engineering",
       "matched_terms": [
         "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "674b5396927b0e3a",
-      "title": "Ai Agents In Engineering Ai Conference 2025",
-      "url": "https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
-      "matched_terms": [
-        "engineering AI"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "3cfd8b1d1cd4d509",
-      "title": "Altair Learning Synera Basics Intro Fea Automation",
-      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ea9ebd5a3b0bd743",
-      "title": "Altair Learning Synera Basics Intro Fea Automation",
-      "url": "https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "51f9f00633997da4",
-      "title": "Automating Cae Reporting",
-      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
-      "matched_terms": [
-        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
