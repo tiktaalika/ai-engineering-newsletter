@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-09-06T06:08:22.760154+00:00",
+    "generated_at": "2026-09-06T10:58:55.594792+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16660,
-    "filtered_count": 2635,
-    "duplicate_count": 76,
+    "fetched_count": 16657,
+    "filtered_count": 2631,
+    "duplicate_count": 75,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -30,10 +34,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -65,10 +65,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 59.089,
+      "score": 57.424,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.70",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -77,7 +77,44 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.701,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "16fc7654c4c8e83f",
+      "title": "Quoting Zach Kehs",
+      "url": "https://simonwillison.net/2026/Sep/6/zach-kehs",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-06T08:42:49+00:00",
+      "text": "Quoting Zach Kehs If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.554,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.965,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -102,10 +139,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.135,
+      "score": 50.47,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.69",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -114,7 +151,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.764,
+      "novelty_score": 0.688,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -141,10 +178,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.572,
+      "score": 63.462,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -153,7 +190,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -177,10 +214,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.992,
+      "score": 57.882,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -189,7 +226,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
+      "novelty_score": 0.873,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -197,6 +234,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "cad1fd9f4674e6b9",
+      "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
+      "url": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-06T10:45:11+00:00",
+      "text": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips Washington imposed sanctions on Inspur because of its work with the Chinese military. But the company’s subsidiary kept shipping Nvidia’s best chips to feed China’s leading A.I. firms.",
+      "matched_terms": [
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 57.176,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -214,10 +285,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 55.565,
+      "score": 54.456,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.62",
+        "novelty=0.57",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -226,7 +297,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.617,
+      "novelty_score": 0.566,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -234,79 +305,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "5975e0a531bc604d",
-      "title": "Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract",
-      "url": "https://aws.amazon.com/blogs/machine-learning/customizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-04T16:08:10+00:00",
-      "text": "Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract Learn how to customize an Amazon Bedrock knowledge base for large, complex documents by combining the high-accuracy text extraction of Amazon Textract with the generative AI of Amazon Bedrock. This post shows how to ingest and preprocess PDFs and images, then query utility bills at scale for faster, more accurate customer interactions.",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "knowledge base"
-      ],
-      "engagement": {},
-      "score": 55.291,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.60",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.604,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "0bda41ca8cf7bc37",
-      "title": "Cut the cameras: Flock surveillance cameras spur rare bipartisan backlash",
-      "url": "https://www.theguardian.com/technology/2026/sep/05/flock-cameras-political-backlash",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-05T14:00:37+00:00",
-      "text": "Cut the cameras: Flock surveillance cameras spur rare bipartisan backlash Politicians on the right and left are pushing back against Flock as more Americans voice opposition to the tech Growing factions from both sides of the political aisle in the US are pushing back against surveillance cameras made by a single company, a rare response in a sharply divided country with a president pushing an unwaveringly pro-tech agenda. The bipartisan backlash against Flock Safety cameras resembles nationwide rage toward the construction of large datacenters that power artificial intelligence. Polling shows roughly 75% of Americans oppose new datacenter construction in their areas. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 52.911,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.496,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -347,6 +345,42 @@
       "source_priority": "high"
     },
     {
+      "id": "dabc0f4eb15cd0e8",
+      "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-04T16:06:01+00:00",
+      "text": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run production failovers from a plain-language request while keeping every action audited, policy-compliant, and safe.",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 50.84,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.553,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "d4ae66cc1a195325",
       "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
       "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
@@ -359,10 +393,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.276,
+      "score": 50.166,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.55",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -371,47 +405,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.603,
+      "novelty_score": 0.553,
       "source_priority_score": 1.0,
       "source_tags": [
         "coding_assistant",
         "developer_tools"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "9036e9c935a05712",
-      "title": "Alarming AI ads are flooding social media in the lead-up to Victoria’s election. But who is behind them?",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/06/fix-victoria-ai-ads-flooding-social-media-election-who-is-behind-them",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-05T20:00:46+00:00",
-      "text": "Alarming AI ads are flooding social media in the lead-up to Victoria’s election. But who is behind them? A machete-wielding robber, a ‘tsunami of debt’ … campaigns echoing opposition talking points outspend major parties Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast A man clad in a balaclava and brandishing a machete terrorises a worker at a petrol station before firebombing the building on the way out. A woman gives birth on the side of the road, unable to reach a hospital due to ambulance ramping and crater-like potholes, which also stop a fire truck in its tracks. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 50.371,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.684,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -607,10 +607,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 50.371,
+      "score": 47.042,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.68",
+        "novelty=0.53",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -619,7 +619,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.684,
+      "novelty_score": 0.532,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -701,22 +701,22 @@
       "source_priority": "medium"
     },
     {
-      "id": "a6bc6ae26306dbfa",
-      "title": "Profound Medical Stock And 2 Canadian AI Healthcare Stocks To Watch - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbWhvbS05QXk3SW8tQ3dlRDB4bUs4T2twQTZRNElGZkhMMDVIWlJYbzRkXzQtMUttckl4c3h6ckZPSy1fbU5QWGVUczE4cXJtQ2NwQVBmNmV2VHcwbzkwRnRWVGFaUjNoamkwckNaR2dFaWtoTWZQd3lHVTQ3QnBDVHp6eURLaFcwNUd4ZlFKMXJIdUJYQ3AwU2hR?oc=5",
+      "id": "f6e53b8c81442f51",
+      "title": "Why this Virginia Tech professor says don't use AI for medical advice - Roanoke Times",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWVRZGdkUHhQWmRMS2V2R04zLXYxT2NGQUtKMmp5cXhBc3U2TklIRktDdGFmSXMzdW0wM2hOWXhmWUtDYllRYjg4eXZvMW9UZ3pSN0JxUFFWWlI0cHh1NGVEYmRtbU9hWTAta2k0SW90alJQbHlabENGUk0tU0RDNmRMV2xzNzk0ZkRyOTMxWVpQN3dUX1hsNEZDQklPdXo3S1cw?oc=5",
       "source": "Google News Medical AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-09-06T02:14:00+00:00",
-      "text": "Profound Medical Stock And 2 Canadian AI Healthcare Stocks To Watch - Yahoo Finance Profound Medical Stock And 2 Canadian AI Healthcare Stocks To Watch Yahoo Finance",
+      "published_at": "2026-09-06T08:30:00+00:00",
+      "text": "Why this Virginia Tech professor says don't use AI for medical advice - Roanoke Times Why this Virginia Tech professor says don't use AI for medical advice Roanoke Times",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 33.848,
+      "score": 34.827,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.88",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -725,7 +725,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
+      "novelty_score": 0.922,
       "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
@@ -1732,42 +1732,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "fb40e0c18bb1e3f1",
-      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
-      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-28T10:15:00+00:00",
-      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 76.478,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.779,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
       "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
@@ -1780,10 +1744,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 76.049,
+      "score": 75.938,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.75",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1793,7 +1757,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.76,
+      "novelty_score": 0.755,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1816,10 +1780,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 73.754,
+      "score": 73.643,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1828,48 +1792,12 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.959,
+      "novelty_score": 0.953,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
         "simulation",
         "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a8092de86d38fb97",
-      "title": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical",
-      "url": "https://rescale.com/blog/agentic-multi-disciplinary-design-exploration-ansys-cfx-mechanical",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-04T11:15:00+00:00",
-      "text": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical Connect CFD insight to downstream engineering decisions with an agentic Ansys CFX and Mechanical workflow on Rescale. The workflow combines the power of agentic engineering with deterministic simulation across multiple disciplines, analyzing a completed CFX design study, identifying key parameters and data gaps, kicking off follow-on studies, and then brings CFX pressure loads into Mechanical so hydraulic and structural results can be evaluated together.",
-      "matched_terms": [
-        "simulation",
-        "CFD"
-      ],
-      "engagement": {},
-      "score": 73.684,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.955,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1888,7 +1816,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 72.135,
+      "score": 72.024,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1900,12 +1828,46 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
         "simulation",
         "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "02a21f8c28b0ca9d",
+      "title": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition",
+      "url": "https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition",
+      "source": "COMSOL",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-01T18:02:57+00:00",
+      "text": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition Understanding room acoustics is key to designing a comfortable indoor environment. Explore how different sound absorption models can affect room acoustics using wave-based, time-domain acoustics simulation.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 68.745,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.882,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "multiphysics",
+        "simulation"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1929,10 +1891,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 69.456,
+      "score": 67.791,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.35",
         "matched_terms=7",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1941,7 +1903,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.43,
+      "novelty_score": 0.354,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1951,40 +1913,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "02a21f8c28b0ca9d",
-      "title": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition",
-      "url": "https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition",
-      "source": "COMSOL",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-01T18:02:57+00:00",
-      "text": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition Understanding room acoustics is key to designing a comfortable indoor environment. Explore how different sound absorption models can affect room acoustics using wave-based, time-domain acoustics simulation.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 68.856,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.887,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "multiphysics",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2072,10 +2000,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 66.48,
+      "score": 66.369,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.36",
+        "novelty=0.35",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -2084,7 +2012,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.355,
+      "novelty_score": 0.35,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2112,10 +2040,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 64.572,
+      "score": 63.462,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.82",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2124,7 +2052,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.874,
+      "novelty_score": 0.824,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2132,42 +2060,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 64.334,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.53,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2183,7 +2075,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 62.58,
+      "score": 62.469,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -2195,7 +2087,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.602,
+      "novelty_score": 0.597,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2256,10 +2148,10 @@
         "synthetic data"
       ],
       "engagement": {},
-      "score": 62.154,
+      "score": 61.044,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.61",
+        "novelty=0.56",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2268,7 +2160,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.605,
+      "novelty_score": 0.555,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2295,10 +2187,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 61.973,
+      "score": 60.864,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.60",
+        "novelty=0.55",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2307,7 +2199,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.605,
+      "novelty_score": 0.554,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2315,45 +2207,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "210af09dd2c3de5c",
-      "title": "Introducing GPT-6 Astra for developers",
-      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-05T23:27:48+00:00",
-      "text": "Introducing GPT-6 Astra for developers Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.705,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.896,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2719,6 +2572,45 @@
       "source_priority": "high"
     },
     {
+      "id": "210af09dd2c3de5c",
+      "title": "Introducing GPT-6 Astra for developers",
+      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-05T23:27:48+00:00",
+      "text": "Introducing GPT-6 Astra for developers Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.04,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.82,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "d0a7f3d2c70a8110",
       "title": "Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking",
       "url": "https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking",
@@ -2754,41 +2646,39 @@
       "source_priority": "high"
     },
     {
-      "id": "fe3e9affeeaab43c",
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-04T23:15:11+00:00",
-      "text": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "id": "d22f990a554daaa6",
+      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
+      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+      "source": "Synopsys",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": "2026-09-04T02:41:28+00:00",
+      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
       "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
+        "multiphysics"
       ],
       "engagement": {},
-      "score": 59.588,
+      "score": 58.843,
       "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "source_priority=0.65",
+        "novelty=0.94",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.678,
-      "source_priority_score": 1.0,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.941,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "eda",
+        "simulation",
+        "digital_twin"
       ],
-      "registry_category": "startup",
-      "source_priority": "high"
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
     },
     {
       "id": "0e376728d2835680",
@@ -2803,10 +2693,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.23,
+      "score": 58.755,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2815,7 +2705,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.723,
+      "novelty_score": 0.701,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2839,10 +2729,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.136,
+      "score": 58.66,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2851,7 +2741,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.718,
+      "novelty_score": 0.697,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2862,42 +2752,40 @@
       "source_priority": "high"
     },
     {
-      "id": "cfbf84a7f7c63b78",
-      "title": "Using Blender with coding agents on macOS",
-      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos",
-      "source": "Simon Willison",
+      "id": "fe3e9affeeaab43c",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-05T15:51:09+00:00",
-      "text": "Using Blender with coding agents on macOS TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : Tags: ai , generative-ai , llms , blender , pelican-riding-a-bicycle , coding-agents , gpt-6-astra",
+      "published_at": "2026-09-04T23:15:11+00:00",
+      "text": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
       "matched_terms": [
         "AI",
-        "LLM",
-        "agent"
+        "agent",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 59.089,
+      "score": 58.479,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.63",
         "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.628,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "community",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2916,10 +2804,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 59.07,
+      "score": 57.96,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.62",
+        "novelty=0.57",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2928,7 +2816,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.624,
+      "novelty_score": 0.574,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -2953,10 +2841,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.992,
+      "score": 57.882,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2965,80 +2853,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.924,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "d22f990a554daaa6",
-      "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
-      "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "source": "Synopsys",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": "2026-09-04T02:41:28+00:00",
-      "text": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
-      "matched_terms": [
-        "multiphysics"
-      ],
-      "engagement": {},
-      "score": 58.954,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.95",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "eda",
-        "simulation",
-        "digital_twin"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "1db7ddb57e1849b5",
-      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-04T16:21:11+00:00",
-      "text": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge It's the latest failure of OpenAI's internal monitoring and security systems.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.674,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.61",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.606,
+      "novelty_score": 0.873,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3156,6 +2971,117 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "1db7ddb57e1849b5",
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-04T16:21:11+00:00",
+      "text": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge It's the latest failure of OpenAI's internal monitoring and security systems.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.564,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.56",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.556,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "cfbf84a7f7c63b78",
+      "title": "Using Blender with coding agents on macOS",
+      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-05T15:51:09+00:00",
+      "text": "Using Blender with coding agents on macOS TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : Tags: ai , generative-ai , llms , blender , pelican-riding-a-bicycle , coding-agents , gpt-6-astra",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 57.424,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.701,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "cad1fd9f4674e6b9",
+      "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
+      "url": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-06T10:45:11+00:00",
+      "text": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips Washington imposed sanctions on Inspur because of its work with the Chinese military. But the company’s subsidiary kept shipping Nvidia’s best chips to feed China’s leading A.I. firms.",
+      "matched_terms": [
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 57.176,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5354,6 +5280,74 @@
       "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
       "matched_terms": [
         "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ea9ebd5a3b0bd743",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "51f9f00633997da4",
+      "title": "Automating Cae Reporting",
+      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
+      "matched_terms": [
+        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
