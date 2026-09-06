@@ -20,12 +20,12 @@ from datetime import date
 from pathlib import Path
 from tomllib import load as load_toml
 from typing import Annotated, Optional
-from uuid import uuid4
 
 import httpx
 import typer
 
 from .configuration import Configuration
+from .dedup import norm_url
 from .models import (
     Candidate,
     FetchFailure,
@@ -35,6 +35,7 @@ from .models import (
     Source,
 )
 from .orchestrate import fetch_all_sources
+from .text import entry_id
 
 logger = logging.getLogger(__name__)
 
@@ -56,11 +57,16 @@ def raw_record_to_candidate(source: Source, record: RawRecord) -> Candidate:
 
     Scoring and keyword matching are stubs here — the real logic lands
     in Goals 6.2–6.3. For now every record gets a zero score.
+
+    URLs are normalized and IDs are deterministic (v1 parity): the same
+    article always yields the same 16-char hex ID, which downstream LLM
+    summary caching and historical dedup rely on.
     """
+    url = norm_url(record.url)
     return Candidate(
-        id=str(uuid4()),
+        id=entry_id(url, record.title),
         title=record.title,
-        url=record.url,
+        url=url,
         source=source,
         category=source.category,
         pub_date=record.pub_date,

@@ -11,6 +11,7 @@ import httpx
 import pytest
 from typer.testing import CliRunner
 
+from newsletter import main as main_module
 from newsletter.main import (
     _resolve_config_path,
     _setup_logging,
@@ -25,6 +26,7 @@ from newsletter.models import (
     RawRecord,
     Source,
 )
+from newsletter.text import entry_id
 
 runner = CliRunner()
 
@@ -106,14 +108,62 @@ class TestRawRecordToCandidate:
         assert candidate.registry_category == "general_ai"
         assert candidate.source_priority == "high"
 
-    def test_generates_unique_ids(
+    def test_ids_are_deterministic_16_hex(
         self, test_source: Source, test_record: RawRecord
     ) -> None:
+        """Same input always yields the same 16-char hex ID (v1 parity)."""
         c1 = raw_record_to_candidate(test_source, test_record)
         c2 = raw_record_to_candidate(test_source, test_record)
-        assert c1.id != c2.id
-        assert len(c1.id) == 36  # UUID4 string length
-        assert len(c2.id) == 36
+        assert c1.id == c2.id
+        assert len(c1.id) == 16
+        int(c1.id, 16)  # valid hex
+
+    def test_url_is_normalized(self, test_source: Source) -> None:
+        record = RawRecord(
+            source=test_source,
+            title="Tracked Article",
+            url="https://Example.com/ai-news/?utm_source=feed&utm_medium=rss",
+            description="d",
+        )
+        candidate = raw_record_to_candidate(test_source, record)
+        assert candidate.url == "https://example.com/ai-news"
+
+    def test_id_matches_normalized_url(
+        self, test_source: Source, test_record: RawRecord
+    ) -> None:
+        candidate = raw_record_to_candidate(test_source, test_record)
+        assert candidate.id == entry_id(candidate.url, test_record.title)
+
+    def test_url_variants_collapse_to_one_id(self, test_source: Source) -> None:
+        """UTM-decorated and clean links of one article share an ID."""
+        plain = RawRecord(
+            source=test_source,
+            title="Same Article",
+            url="https://example.com/ai-news",
+            description="d",
+        )
+        tracked = RawRecord(
+            source=test_source,
+            title="Same Article",
+            url="https://example.com/ai-news?utm_campaign=launch",
+            description="d",
+        )
+        assert (
+            raw_record_to_candidate(test_source, plain).id
+            == raw_record_to_candidate(test_source, tracked).id
+        )
+
+    def test_link_less_record_falls_back_to_title_id(self, test_source: Source) -> None:
+        record = RawRecord(
+            source=test_source,
+            title="No Link Item",
+            url="",
+            description="d",
+        )
+        candidate = raw_record_to_candidate(test_source, record)
+        assert candidate.url == ""
+        assert candidate.id == entry_id("", "No Link Item")
+        assert len(candidate.id) == 16
 
 
 # --------------------------------------------------------------------------- #
@@ -242,6 +292,64 @@ class TestSetupLogging:
     def test_creates_logs_directory(self, tmp_path: Path) -> None:
         _setup_logging(tmp_path)
         assert (tmp_path / "logs").is_dir()
+
+
+# --------------------------------------------------------------------------- #
+# Log isolation (regression: tests must not dirty the committed logs/)
+# --------------------------------------------------------------------------- #
+
+
+def _repo_log_snapshot() -> dict[str, tuple[int, int]]:
+    """Size + mtime of every file in the repo's real ``logs/`` directory."""
+    logs_dir = Path(__file__).resolve().parents[1] / "logs"
+    return {
+        path.name: (path.stat().st_size, path.stat().st_mtime_ns)
+        for path in sorted(logs_dir.glob("*"))
+        if path.is_file()
+    }
+
+
+class TestLogIsolation:
+    @patch("newsletter.main.fetch_all_sources", new_callable=AsyncMock)
+    def test_cli_run_leaves_repo_logs_untouched(
+        self, mock_fetch: AsyncMock, tmp_path: Path, isolated_logging: Path
+    ) -> None:
+        """A CLI run logs into the resolved project root, never the repo's."""
+        mock_fetch.return_value = []
+        before = _repo_log_snapshot()
+
+        config_file = tmp_path / "config.toml"
+        config_file.write_text(_MINIMAL_CONFIG)
+        result = runner.invoke(app, ["--config", str(config_file)])
+
+        assert result.exit_code == 0
+        assert _repo_log_snapshot() == before
+
+    @patch("newsletter.main.fetch_all_sources", new_callable=AsyncMock)
+    def test_cli_run_still_writes_audit_log(
+        self, mock_fetch: AsyncMock, tmp_path: Path, isolated_logging: Path
+    ) -> None:
+        """Logging is redirected, not disabled — the temp audit log is written."""
+        mock_fetch.return_value = []
+        config_file = tmp_path / "config.toml"
+        config_file.write_text(_MINIMAL_CONFIG)
+
+        result = runner.invoke(app, ["--config", str(config_file)])
+
+        assert result.exit_code == 0
+        audit_log = isolated_logging / "logs" / "audit.log"
+        assert audit_log.is_file()
+        assert "Loaded 1 sources" in audit_log.read_text(encoding="utf-8")
+
+    def test_project_root_is_redirected(self, isolated_logging: Path) -> None:
+        """The autouse fixture points the CLI at a throwaway project root.
+
+        Looked up through the module (not a ``from ... import`` alias) because
+        that is how ``collect()`` resolves it at call time, and therefore what
+        ``monkeypatch.setattr`` redirects.
+        """
+        assert main_module._resolve_project_root() == isolated_logging
+        assert isolated_logging != Path(__file__).resolve().parents[1]
 
 
 # --------------------------------------------------------------------------- #

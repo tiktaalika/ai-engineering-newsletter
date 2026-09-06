@@ -2,13 +2,73 @@
 
 from __future__ import annotations
 
+import contextlib
+import logging
+import shutil
+from collections.abc import Iterator
+from pathlib import Path
+
 import pytest
 
+from newsletter import main as main_module
 from newsletter.models import (
     Engagement,
     RawRecord,
     Source,
 )
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+
+# --------------------------------------------------------------------------- #
+# Log isolation
+# --------------------------------------------------------------------------- #
+
+
+@pytest.fixture(autouse=True)
+def isolated_logging(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Iterator[Path]:
+    """Stop tests from writing into the repo's committed ``logs/`` directory.
+
+    ``newsletter collect`` resolves its project root at runtime and configures
+    the *root* logger with file handlers (``logs/audit.log`` + rotating
+    ``logs/error.log``).  Once any test triggers that, every later log record
+    in the session — including httpx's ``_client`` chatter from ``respx``
+    tests — is appended to the real files, dirtying the working tree.
+
+    This autouse fixture redirects the project root to a throwaway directory
+    holding a copy of the real ``config/logging.toml`` (so the ``dictConfig``
+    path and its file handlers are still exercised, just into ``tmp_path``),
+    and restores the root logger afterwards so handlers never leak between
+    tests.
+
+    Yields:
+        The temporary project root used for the test.
+    """
+    project_root = tmp_path / "project"
+    (project_root / "config").mkdir(parents=True)
+    (project_root / "logs").mkdir()
+    shutil.copy(REPO_ROOT / "config" / "logging.toml", project_root / "config")
+
+    monkeypatch.setattr(main_module, "_resolve_project_root", lambda: project_root)
+
+    root = logging.getLogger()
+    saved_handlers = list(root.handlers)
+    saved_level = root.level
+
+    try:
+        yield project_root
+    finally:
+        for handler in list(root.handlers):
+            if handler in saved_handlers:
+                continue
+            # ``ext://sys.stderr`` handlers wrap pytest's captured stream,
+            # which may already be closed by the time teardown runs.
+            with contextlib.suppress(ValueError, OSError):
+                handler.flush()
+            with contextlib.suppress(ValueError, OSError):
+                handler.close()
+        root.handlers[:] = saved_handlers
+        root.setLevel(saved_level)
 
 
 @pytest.fixture()

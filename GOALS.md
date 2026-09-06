@@ -50,8 +50,8 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
   - [x] `Paper` (single arXiv paper entry)
   - [x] `RunLog` (pipeline execution metadata)
   - [x] `FetchSuccess` / `FetchFailure` / `FetchResult` (fetch outcome union)
-- [ ] Replace all `dict[str, Any]` patterns in old code with typed models
-- [ ] Use `typing.Protocol` for interfaces (fetchers, scorers, renderers)
+- [~] Replace all `dict[str, Any]` patterns in old code with typed models — **v2 modules are typed end-to-end; the only remaining `dict[str, Any]` is `http.fetch_json()`'s return, which is inherent to untyped JSON**
+- [~] Use `typing.Protocol` for interfaces (fetchers, scorers, renderers) — **`Fetcher` protocol done (`fetchers/base.py`); scorer/renderer protocols land with Goals 6–7**
 
 ### 1.4 Configuration System
 - [x] TOML-based config replacing YAML/JSON
@@ -60,20 +60,20 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
 - [ ] Port trend report config from `config/trend_report.yaml` → TOML
 - [ ] Add config schema validation (required fields, enum constraints)
 - [ ] Support environment variable overrides (e.g. `NEWSLETTER_OPENAI_API_KEY`)
-- [ ] Add `--config` CLI flag for custom config path
+- [x] Add `--config` CLI flag for custom config path — **`collect --config/-c`; `_resolve_config_path()` falls back to `<project_root>/config/config.toml`**
 
 ### 1.5 Logging & Observability
 - [x] Structured logging via `logging.toml` config
 - [x] Separate audit log (file) and error log (rotating file)
 - [x] Replace all `print()` calls in `main.py` with proper logger usage
 - [x] Add structured run-log model (replaces `run_log` dict in candidates JSON) — `RunLog` attrs class defined
-- [ ] Add per-source fetch timing and error tracking
+- [x] Add per-source fetch timing and error tracking — **`elapsed_ms` on `FetchSuccess`/`FetchFailure`; `orchestrate._fetch_single()` times with `time.monotonic()` and captures the exception type + message**
 
 ### 1.6 CLI & Entry Points
 - [x] Typer for CLI (`[project.scripts]`) — `newsletter` entry point wired to `main()`
-- [~] Implement `main()` entry point — **basic version exists**: loads config, sets up logging, runs sync RSS fetch, returns 0/1
-- [ ] Implement subcommands:
-  - [ ] `newsletter collect` — fetch, score, deduplicate, select (replaces `build_digest_candidates.py`)
+- [x] Implement `main()` entry point — **Typer `app()`; loads config, configures logging, installs signal handlers, runs the pipeline under `asyncio.run()`, maps exit codes (0 ok / 1 error / 130 cancelled)**
+- [~] Implement subcommands:
+  - [~] `newsletter collect` — **concurrent async fetch + `RawRecord`→`Candidate` conversion works (deterministic IDs, normalized URLs); scoring, dedup, selection and the `*-candidates.json` artifact are still TODO**
   - [ ] `newsletter report` — generate daily Markdown (replaces `generate_daily_report.py`)
   - [ ] `newsletter site` — render static HTML (replaces `render_digest_site.py`)
   - [ ] `newsletter papers` — Friday arXiv push (replaces `generate_weekly_paper_push.py`)
@@ -83,7 +83,7 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
   - [ ] `newsletter trends weekly` — weekly trend report
   - [ ] `newsletter trends monthly` — monthly trend report
   - [ ] `newsletter run-all` — full pipeline orchestration
-- [ ] Add `--date`, `--window-hours`, `--dry-run` global options
+- [~] Add `--date`, `--window-hours`, `--dry-run` global options — **all three implemented on `collect` (`--date/-d`, `--window-hours/-w`, `--dry-run`); not yet an app-level callback shared by every subcommand**
 
 ---
 
@@ -94,26 +94,26 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 ### 2.1 Test Infrastructure
 - [x] pytest + pytest-asyncio configured
 - [x] pytest-mock available
-- [x] pytest-cov in dev dependencies (not yet wired into CLI/CI flags)
-- [ ] Create shared fixtures module (`tests/conftest.py`)
-  - [ ] Fixture: sample `Configuration`
-  - [ ] Fixture: sample `Source` objects (each fetch type)
-  - [ ] Fixture: sample `RawRecord` / `Candidate` objects
-  - [ ] Fixture: mock `httpx.AsyncClient` (via `respx` or manual)
-  - [ ] Fixture: temp directory for output artifacts
-- [ ] Add `respx` for httpx mock/stubbing in tests
-- [ ] Add snapshot/golden-file testing for report output (e.g. `syrupy` or manual JSON comparison)
+- [x] pytest-cov in dev dependencies — **wired through `addopts`, so CI reports coverage on every `uv run pytest`**
+- [~] Create shared fixtures module (`tests/conftest.py`)
+  - [ ] Fixture: sample `Configuration` — **tests still write TOML inline (`_MINIMAL_CONFIG` in `test_main.py`)**
+  - [x] Fixture: sample `Source` objects (each fetch type) — **`rss_source`, `atom_source`, `website_source`**
+  - [~] Fixture: sample `RawRecord` / `Candidate` objects — **`sample_raw_record` exists; no `Candidate` fixture until scoring lands**
+  - [~] Fixture: mock `httpx.AsyncClient` (via `respx` or manual) — **`respx` is activated per test rather than through a shared fixture**
+  - [x] Fixture: temp directory for output artifacts — **`tmp_path`, plus the autouse `isolated_logging` fixture that redirects the project root so tests never write into the committed `logs/`**
+- [x] Add `respx` for httpx mock/stubbing in tests — **in `[dependency-groups].dev`; used by `test_http.py`, `test_rss_fetcher.py`, `test_orchestrate.py`**
+- [ ] Add snapshot/golden-file testing for report output (e.g. `syrupy` or manual JSON comparison) — **golden *inputs* already live in `conftest.py` (RSS/Atom/RDF/CDATA/windows-1252/hostile XML); output snapshots wait on the Goal 7 renderers**
 
 ### 2.2 Unit Tests — Configuration
-- [x] Basic config loading test
-- [ ] Test missing config file → `ConfigurationError`
+- [x] Basic config loading test — **plus a `fetch_type`-optional / `fetch_kind()` auto-resolution test (2 tests total)**
+- [ ] Test missing config file → `ConfigurationError` — **⚠️ decision needed: `Configuration.load()` raises `FileNotFoundError` today (caught in `collect`), not `ConfigurationError`**
 - [ ] Test invalid TOML → `ConfigurationError`
 - [ ] Test missing required fields → `ClassValidationError`
 - [ ] Test source enum validation (fetch_type, category, priority)
 - [ ] Test keyword config loading and term matching
 
 ### 2.3 Unit Tests — Source Fetchers (one per fetcher type)
-- [x] `test_rss_fetcher.py` — RSS 2.0 parsing, Atom parsing, malformed XML handling, XML entity cleanup, date parsing, registry dispatch
+- [x] `test_rss_fetcher.py` — RSS 2.0 parsing, Atom parsing, malformed XML handling, XML entity cleanup, date parsing, registry dispatch — **53 tests, including billion-laughs / XXE hardening via `defusedxml`**
 - [ ] `test_google_news_fetcher.py` — query URL construction, result parsing
 - [ ] `test_hn_fetcher.py` — Algolia API response parsing, cutoff filtering
 - [ ] `test_reddit_fetcher.py` — JSON API response parsing, rate limit handling
@@ -148,9 +148,18 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 - [ ] `test_quality_gate.py` — duplicate detection across issues, publishable item counts
 
 ### 2.8 Coverage & CI
-- [ ] Configure pytest-cov with `--cov=src/newsletter --cov-report=term-missing`
-- [ ] Set minimum coverage threshold in CI (target: 80% line coverage)
+- [x] Configure pytest-cov with `--cov=src/newsletter --cov-report=term-missing` — **in `[tool.pytest.ini_options].addopts` together with `--cov-branch`; currently 96%**
+- [ ] Set minimum coverage threshold in CI (target: 80% line coverage) — **no `--cov-fail-under` yet**
 - [ ] Add coverage badge or report in PR comments
+
+### 2.9 Unit Tests — Async HTTP, Orchestration & CLI
+
+> Landed with Goals 3.1–3.4; no section existed for them in the original plan.
+
+- [x] `test_http.py` (20 tests) — backoff + jitter bounds, retryable vs non-retryable statuses, `MaxRetriesExceeded`, `fetch_text/json/bytes`, `DomainRateLimiter` pacing
+- [x] `test_orchestrate.py` (16 tests) — concurrency cap, per-source timeout, fault isolation, disabled-source skipping, result ordering
+- [x] `test_main.py` (26 tests) — deterministic candidate IDs + URL normalization, CLI options and exit codes, cancellation → 130, repo-`logs/` isolation regression
+- [x] `test_text.py` (8 tests) / `test_dedup.py` (9 tests) — `entry_id` and `norm_url` (Goals 6.1, 6.4)
 
 ---
 
@@ -159,37 +168,37 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 Replace all synchronous HTTP with async I/O for concurrent, rate-limited, fault-isolated source collection.
 
 ### 3.1 HTTP Client Migration
-- [ ] Replace `httpx.Client` with `httpx.AsyncClient` in all fetch paths
-- [ ] Create `newsletter/http.py` — shared async HTTP utilities:
-  - [ ] `async def fetch_text(client, url, *, user_agent, timeout, max_redirects) -> str`
-  - [ ] `async def fetch_json(client, url, ...) -> dict`
-  - [ ] `async def fetch_bytes(client, url, ...) -> bytes`
+- [x] Replace `httpx.Client` with `httpx.AsyncClient` in all fetch paths — **one shared `AsyncClient` is created in `_run_pipeline()` and passed down through `fetch_all_sources()` → fetchers**
+- [~] Create `newsletter/http.py` — shared async HTTP utilities:
+  - [x] `async def fetch_text(client, url, *, timeout, max_attempts, max_backoff, rate_limiter) -> str`
+  - [x] `async def fetch_json(client, url, ...) -> dict[str, Any]`
+  - [x] `async def fetch_bytes(client, url, ...) -> bytes`
   - [ ] Response caching layer (file-based, keyed by URL + date)
-  - [ ] Retry with exponential backoff for transient errors (429, 503, timeouts)
-- [ ] Remove all `urllib.request` usage from ported code
+  - [x] Retry with exponential backoff for transient errors (429, 503, timeouts) — **`backoff_delay()` with jitter; `HTTPStatusFetchError` for non-retryable 4xx/5xx, `MaxRetriesExceeded` when attempts run out**
+- [x] Remove all `urllib.request` usage from ported code — **v2 uses `httpx` for I/O and `urllib.parse` only for URL normalization**
 
 ### 3.2 Concurrent Fetching Orchestration
-- [ ] Implement `async def fetch_all_sources(sources, client, ...) -> list[FetchResult]`
-  - [ ] Use `asyncio.gather()` with `return_exceptions=True` for fault isolation
-  - [ ] Per-source timeout (configurable, default 15s)
-  - [ ] Per-source error capture → `FetchResult.success | FetchResult.failure`
-- [ ] Add configurable concurrency limit (e.g. `asyncio.Semaphore(10)`)
-- [ ] Add rate limiting per domain (e.g. token bucket or simple delay)
-  - [ ] Respect `request_delay_seconds` from config
+- [x] Implement `async def fetch_all_sources(sources, client, ...) -> list[FetchResult]` — **`orchestrate.py`; skips disabled sources, preserves input order, logs the success/failure tally**
+  - [x] Fault isolation via `asyncio.gather()` — **each task is wrapped in `_fetch_single()`, which catches every exception itself, so `return_exceptions=True` is unnecessary and one failure can never cancel siblings**
+  - [x] Per-source timeout (configurable, default 15s) — **`asyncio.wait_for(..., source_timeout)`**
+  - [x] Per-source error capture → `FetchSuccess | FetchFailure`
+- [x] Add configurable concurrency limit (e.g. `asyncio.Semaphore(10)`) — **`concurrency` kwarg, `DEFAULT_CONCURRENCY = 10`**
+- [~] Add rate limiting per domain (e.g. token bucket or simple delay) — **`DomainRateLimiter` implemented + tested and accepted as an optional `rate_limiter=` kwarg on `fetch_text/json/bytes`, but the pipeline never instantiates one yet**
+  - [ ] Respect `request_delay_seconds` from config — **not a field on `Source`/`Configuration` yet**
   - [ ] Special handling for GitHub API (rate limit headers)
   - [ ] Special handling for Reddit (User-Agent requirement, `.json` suffix)
 
 ### 3.3 Async Pipeline Stages
-- [ ] `collect` stage: async fetch → sync score/filter (CPU-bound scoring stays sync)
+- [~] `collect` stage: async fetch → sync score/filter (CPU-bound scoring stays sync) — **async fetch + candidate conversion done; scoring/filtering still stubbed to `ScoreBreakdown(score=0.0)` (Goal 6)**
 - [ ] `trends collect` stage: async GitHub API calls with snapshot caching
 - [ ] `papers` stage: async arXiv API query
 - [ ] `summaries` stage: async OpenAI API calls with batch grouping
 - [ ] Wrap sync scoring/dedup/selection in `asyncio.to_thread()` if needed for large datasets
 
 ### 3.4 Entry Point Integration
-- [ ] `main()` uses `asyncio.run()` as the event loop entry
-- [ ] Typer async command support (via `asyncio.run()` wrapper)
-- [ ] Graceful shutdown on SIGINT/SIGTERM (cancel pending tasks, flush logs)
+- [x] `main()` uses `asyncio.run()` as the event loop entry — **inside the Typer `collect` command**
+- [x] Typer async command support (via `asyncio.run()` wrapper) — **sync command wrapping `asyncio.run(_run_pipeline(...))`**
+- [x] Graceful shutdown on SIGINT/SIGTERM (cancel pending tasks, flush logs) — **`_install_signal_handlers()` cancels the running task, which propagates through `gather`; `CancelledError` → exit 130; no-ops where `add_signal_handler` is unsupported (Windows)**
 
 ---
 
@@ -225,7 +234,7 @@ Each fetcher lives in its own module under `newsletter/fetchers/`:
 - [x] `pubDate` parsing with multi-format fallback — `parse_pub_date()` with RFC 2822 + ISO 8601 + Atom `published`/`updated`
 - [x] Support `fetch_type`: `rss`, `atom`, `rdf` — **all dispatched via registry to `RSSFetcher`**
 - [x] Extract to standalone `newsletter/fetchers/rss.py` module
-- [ ] Async migration
+- [x] Async migration — **`RSSFetcher.fetch()` is `async` and goes through `http.fetch_bytes()` (retry + backoff)**
 
 #### `newsletter/fetchers/google_news.py` — Google News RSS
 - [ ] Construct search URL: `https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en`
@@ -343,7 +352,7 @@ Port the v1 scoring, deduplication, and selection algorithms into clean, tested 
 - [ ] `language_looks_english(text: str) -> bool` — ASCII ratio heuristic
 - [ ] `english_summary(item: dict) -> str` — extractive 2-sentence summary
 - [ ] `effective_source(item: dict) -> str` — resolve Google News source suffix
-- [ ] `entry_id(url: str, title: str) -> str` — SHA1 16-char hex ID
+- [x] `entry_id(url: str, title: str) -> str` — SHA1 16-char hex ID
 
 ### 6.2 Keyword Matching — `newsletter/keywords.py`
 - [ ] Port keyword filter logic from v1
@@ -359,7 +368,7 @@ Port the v1 scoring, deduplication, and selection algorithms into clean, tested 
 - [ ] `log_scale(value, cap) -> float`
 
 ### 6.4 Deduplication — `newsletter/dedup.py`
-- [ ] `norm_url(url: str) -> str` — UTM stripping, path normalization
+- [x] `norm_url(url: str) -> str` — UTM stripping, path normalization
 - [ ] `canonical_event_key(title: str) -> str | None` — hardcoded known events
 - [ ] `event_tokens(title: str) -> set[str]` — tokenization with stopwords
 - [ ] `is_same_event(left, right) -> bool` — URL key + canonical key + token overlap rules
@@ -424,7 +433,7 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 - [x] Lint (ruff format + check)
 - [x] Type check (ty)
 - [x] Test (pytest)
-- [ ] Add coverage reporting step
+- [~] Add coverage reporting step — **coverage is printed by the `pytest` step via `addopts`; no XML report, artifact upload or threshold gate yet**
 - [ ] Add matrix testing (Python 3.14 + optional 3.13 backport)
 
 ### 8.2 Daily Newsletter Workflow
@@ -451,34 +460,47 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 
 | Phase | Goals | Focus | Status |
 |---|---|---|---|
-| **Phase 1** (Current) | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end | **~85% complete** — models ✅, config ✅, fetcher protocol ✅, registry ✅, RSS fetcher extracted ✅, Atom support ✅, 28 tests passing ✅; remaining: optional deps, coverage config, import sorting |
-| **Phase 2** | 3.1–3.2, 4.2 (all fetchers) | Async migration + all fetcher implementations | Not started |
-| **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests | Not started |
-| **Phase 4** | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | Not started (basic `main()` entry point exists) |
-| **Phase 5** | 5.1–5.4, 8.1–8.4 | Language support, CI/CD modernization | Not started |
+| **Phase 1** | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end | **Complete** — models ✅, TOML config ✅, logging ✅, fetcher protocol + registry ✅, RSS/Atom/RDF fetcher ✅, `py.typed` ✅, coverage + import sorting ✅, CI green ✅ |
+| **Phase 2** (Current) | 3.1–3.2, 4.2 (all fetchers) | Async migration + all fetcher implementations | **~60%** — `http.py` (retry/backoff, rate limiter, text/json/bytes) ✅, `orchestrate.py` (semaphore, per-source timeout, fault isolation) ✅, graceful shutdown ✅. Remaining: response caching, wiring a `DomainRateLimiter` into the pipeline, and every non-RSS fetcher — **57 of 125 configured sources are skipped today** (52 `website`, 2 `youtube`, 2 `json`, 1 `api`) |
+| **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests | **Started** — `text.entry_id` (6.1) and `dedup.norm_url` (6.4) landed and are wired into candidate IDs, 17 tests. Scoring (6.2–6.3) is blocked on porting the keyword lists into TOML (1.4) |
+| **Phase 4** | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | **~25%** — `newsletter collect` with `--config/--date/--window-hours/--dry-run` plus 26 CLI/pipeline tests; no renderers and no output artifact yet |
+| **Phase 5** | 5.1–5.4, 8.1–8.4 | Language support, CI/CD modernization | **~15%** — CI runs lint → type-check → test on dev/main with coverage printed; no threshold gate, no deploy workflows, no i18n layer |
 | **Phase 6** (Backburner) | 5.5 | Additional languages, translation | Not started |
 
 ---
 
 ## Current State Summary
 
-> **Last updated:** 2025-09-10
+> **Last updated:** 2026-09-06
 
 ### What works today
 - **Package structure**: `src/newsletter/` with `pyproject.toml` (Hatch), `uv` lockfile, `py.typed`, full `__init__.py` exports
 - **Domain models**: All 14 attrs frozen classes defined in `models.py` — `Source`, `RawRecord`, `Candidate`, `Engagement`, `ScoreBreakdown`, `DigestIssue`, `RunLog`, `FetchSuccess`, `FetchFailure`, `FetchResult`, `Paper`, `PaperPush`, `Period`, `RepoRecord`
-- **Configuration**: TOML-based config with `Configuration.load()` using cattrs structuring; 100+ sources defined in `config/config.toml`
+- **Configuration**: TOML-based config with `Configuration.load()` using cattrs structuring; 125 sources defined in `config/config.toml`
 - **Logging**: Structured logging via `config/logging.toml` with audit log + rotating error log + stderr
 - **Fetcher protocol & registry**: `Fetcher` protocol in `fetchers/base.py`, `FETCHER_REGISTRY` dict + `get_fetcher()` dispatch + `fetch_kind()` resolution in `fetchers/__init__.py`
-- **RSS/Atom/RDF fetcher**: `RSSFetcher` class in `fetchers/rss.py` — parses all feed types via `rss_parser`, handles RSS 2.0 `<item>` and Atom `<entry>` elements, XML entity cleanup, multi-format date parsing
-- **Source orchestration**: `fetch_sources()` in `main.py` resolves fetcher per source via registry, logs/skips unregistered types
-- **CLI entry point**: `newsletter` command → `main()` loads config, sets up logging, runs sync fetch, returns exit code
-- **CI pipeline**: GitHub Actions on dev/main — ruff format check, ruff lint, ty type check, pytest
-- **Tests**: 28 passing tests — config loading (1), RSS fetcher (5), XML entities (4), date parsing (9), registry/dispatch (8), fetch_kind resolution (3)
+- **RSS/Atom/RDF fetcher**: `RSSFetcher` in `fetchers/rss.py` — stdlib `ElementTree` behind `defusedxml` (blocks entity bombs / XXE), lenient field resolution mirroring v1 `parse_rss`, XML entity cleanup, multi-format date parsing, `max_entries` cap
+- **Async HTTP layer**: `http.py` — `fetch_text/json/bytes` over a shared `httpx.AsyncClient`, exponential backoff with jitter on timeouts/429/503, typed `FetchError` hierarchy, `DomainRateLimiter`
+- **Source orchestration**: `fetch_all_sources()` in `orchestrate.py` — `asyncio.gather` with per-source semaphore (10), `asyncio.wait_for` timeout (15s), full fault isolation, `elapsed_ms` on every result, disabled sources skipped
+- **Text/ID utilities**: `text.entry_id()` (deterministic SHA1-16 candidate IDs) and `dedup.norm_url()` (UTM/fragment/trailing-slash normalization), both applied in `raw_record_to_candidate()`
+- **CLI**: `newsletter collect` with `--config/-c`, `--window-hours/-w`, `--date/-d`, `--dry-run`; `asyncio.run()` entry, SIGINT/SIGTERM → cancel → exit 130
+- **CI pipeline**: GitHub Actions on dev/main — ruff format check, ruff lint, ty type check, pytest (coverage printed via `addopts`)
+- **Tests**: **134 passing**, 96% branch coverage — RSS fetcher (53), main/CLI (26), http (20), orchestrate (16), dedup (9), text (8), configuration (2); `respx` for all HTTP, golden feed samples + hostile-XML samples in `conftest.py`, autouse log isolation so runs never dirty the committed `logs/`
 
-### Immediate next steps (complete Phase 1)
-1. ~~Configure `pytest-cov` flags and minimum threshold~~ ✅ done (flags configured, no threshold enforced)
-2. ~~Add `ruff check --select I` for import sorting~~ ✅ done
-3. ~~Add LLM dependencies (`openai`, `python-dotenv`)~~ ✅ done (core dependencies)
-4. Expand config error-handling tests (missing file, invalid TOML, missing fields)
-5. Add pre-commit hooks or `uv run` task aliases for local dev
+### Known gaps (in dependency order)
+1. **No scoring** — every candidate gets `ScoreBreakdown(score=0.0)`; `main.py` still carries `# TODO: scoring, dedup, selection, output writing`
+2. **No keywords config** — `config/config.toml` has no keyword tables, so Goals 6.2–6.3 cannot start until 1.4 ports `config/keywords.json` → TOML
+3. **No output artifact** — `collect` writes nothing; `YYYY-MM-DD-candidates.json` (Goal 8.4) is unwritten
+4. **57/125 sources skipped** — only RSS-family fetchers are registered (`website` 52, `youtube` 2, `json` 2, `api` 1)
+5. **Rate limiter not wired** — `DomainRateLimiter` exists and is tested but no pipeline code passes one to `fetch_*`; `request_delay_seconds` is not a config field
+6. **No response cache** — Goal 3.1's file-based cache is unimplemented
+7. **Config error contract** — `Configuration.load()` raises `FileNotFoundError`, while Goal 2.2 expects `ConfigurationError`
+8. **No `clean_text`** — `Candidate.text` is still the raw feed description (HTML entities/tags intact)
+
+### Immediate next steps
+1. ~~Configure `pytest-cov` flags~~ ✅ · ~~import sorting~~ ✅ · ~~LLM deps~~ ✅ · ~~async HTTP + orchestration (3.1–3.2, 3.4)~~ ✅ · ~~`collect` CLI (1.6)~~ ✅ · ~~test log isolation~~ ✅
+2. **Start Phase 3 / Goal 6 as one vertical slice**: keywords TOML (1.4) → `clean_text` + `language_looks_english` (6.1) → `match_terms` + core-terms gate (6.2) → `score_candidate` (6.3) → `canonical_event_key`/`event_tokens`/`is_same_event` (6.4) → `topic_key`/`is_medical_bio_ai`/`select_unique_events` (6.5) → write `data/YYYY-MM-DD-candidates.json` (8.4)
+3. **Then the `website` fetcher** (4.2) — biggest coverage win, unlocks 52 sources, fully specified in PROJECT.md §3.3 (sitemap → HTML links → search placeholder)
+4. Decide the config error contract (gap 7) and expand config error-handling tests (2.2)
+5. Add pre-commit hooks or `uv run` task aliases for local dev (1.2)
+6. Add `--cov-fail-under=80` to CI now that coverage sits at 96% (2.8)

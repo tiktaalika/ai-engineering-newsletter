@@ -1,6 +1,7 @@
 """AI Engineering Newsletter v2 — public API."""
 
 from .configuration import Configuration, ConfigurationError
+from .dedup import norm_url
 from .fetchers import (
     FETCHER_REGISTRY,
     Fetcher,
@@ -29,6 +30,7 @@ from .models import (
     SourceType,
 )
 from .orchestrate import fetch_all_sources
+from .text import entry_id
 
 __all__ = [
     "FETCHER_REGISTRY",
@@ -55,6 +57,8 @@ __all__ = [
     "Source",
     "SourceType",
     "UnknownFetcherError",
+    "entry_id",
     "fetch_all_sources",
     "get_fetcher",
+    "norm_url",
 ]
