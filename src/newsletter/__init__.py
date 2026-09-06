@@ -1,13 +1,39 @@
 """AI Engineering Newsletter v2 — public API."""
 
+from .artifacts import (
+    candidate_from_dict,
+    candidate_to_dict,
+    candidates_path,
+    issue_to_payload,
+    load_history,
+    write_candidates_json,
+)
+from .category import canonical_category, infer_candidate_category
 from .configuration import Configuration, ConfigurationError
-from .dedup import norm_url
+from .dedup import (
+    canonical_event_key,
+    dedup_key,
+    event_tokens,
+    event_url_key,
+    is_same_event,
+    norm_url,
+)
 from .fetchers import (
     FETCHER_REGISTRY,
     Fetcher,
     RSSFetcher,
     UnknownFetcherError,
     get_fetcher,
+)
+from .keywords import (
+    KeywordConfig,
+    KeywordError,
+    KeywordFilter,
+    keyword_bucket_name,
+    match_terms,
+    matches,
+    matches_core_terms,
+    passes_gates,
 )
 from .models import (
     Candidate,
@@ -30,7 +56,21 @@ from .models import (
     SourceType,
 )
 from .orchestrate import fetch_all_sources
-from .text import entry_id
+from .pipeline import build_issue, candidate_from_record, collect
+from .scoring import log_scale, recency_boost, score_candidate, score_reasons
+from .selection import (
+    is_medical_bio_ai,
+    select_medical_bio_ai,
+    select_unique_events,
+    topic_key,
+)
+from .text import (
+    clean_text,
+    effective_source,
+    english_summary,
+    entry_id,
+    language_looks_english,
+)
 
 __all__ = [
     "FETCHER_REGISTRY",
@@ -45,6 +85,9 @@ __all__ = [
     "FetchSuccess",
     "FetchType",
     "Fetcher",
+    "KeywordConfig",
+    "KeywordError",
+    "KeywordFilter",
     "Paper",
     "PaperPush",
     "Period",
@@ -57,8 +100,41 @@ __all__ = [
     "Source",
     "SourceType",
     "UnknownFetcherError",
+    "build_issue",
+    "candidate_from_dict",
+    "candidate_from_record",
+    "candidate_to_dict",
+    "candidates_path",
+    "canonical_category",
+    "canonical_event_key",
+    "clean_text",
+    "collect",
+    "dedup_key",
+    "effective_source",
+    "english_summary",
     "entry_id",
+    "event_tokens",
+    "event_url_key",
     "fetch_all_sources",
     "get_fetcher",
+    "infer_candidate_category",
+    "is_medical_bio_ai",
+    "is_same_event",
+    "issue_to_payload",
+    "keyword_bucket_name",
+    "language_looks_english",
+    "load_history",
+    "log_scale",
+    "match_terms",
+    "matches",
+    "matches_core_terms",
     "norm_url",
+    "passes_gates",
+    "recency_boost",
+    "score_candidate",
+    "score_reasons",
+    "select_medical_bio_ai",
+    "select_unique_events",
+    "topic_key",
+    "write_candidates_json",
 ]

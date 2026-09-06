@@ -3,8 +3,11 @@
 from __future__ import annotations
 
 import asyncio
+import json
+from collections.abc import Callable, Coroutine
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 from unittest.mock import AsyncMock, patch
 
 import httpx
@@ -12,12 +15,17 @@ import pytest
 from typer.testing import CliRunner
 
 from newsletter import main as main_module
+from newsletter.configuration import Configuration
+from newsletter.keywords import KeywordConfig
 from newsletter.main import (
+    _install_signal_handlers,
     _resolve_config_path,
+    _resolve_keywords_path,
+    _resolve_output_dir,
     _setup_logging,
     app,
     collect_candidates,
-    raw_record_to_candidate,
+    load_section_history,
 )
 from newsletter.models import (
     Engagement,
@@ -26,9 +34,13 @@ from newsletter.models import (
     RawRecord,
     Source,
 )
-from newsletter.text import entry_id
 
 runner = CliRunner()
+
+ConfigurationFactory = Callable[..., Configuration]
+
+#: Fixed "now" so recency scoring and staleness gates are deterministic.
+NOW = datetime(2025, 9, 1, 12, 0, tzinfo=UTC)
 
 # Minimal valid TOML config with one source — used by CLI tests that need
 # the pipeline to reach the mocked fetch stage.
@@ -79,91 +91,9 @@ def test_record(test_source: Source) -> RawRecord:
         title="AI Breakthrough Announced",
         url="https://example.com/ai-breakthrough",
         description="A major AI breakthrough has been announced today.",
-        pub_date=datetime(2025, 9, 1, 12, 0, tzinfo=UTC),
+        pub_date=NOW,
         engagement=Engagement(points=100, comments=25, upvotes=500),
     )
-
-
-# --------------------------------------------------------------------------- #
-# raw_record_to_candidate
-# --------------------------------------------------------------------------- #
-
-
-class TestRawRecordToCandidate:
-    def test_basic_conversion(
-        self, test_source: Source, test_record: RawRecord
-    ) -> None:
-        candidate = raw_record_to_candidate(test_source, test_record)
-
-        assert candidate.title == "AI Breakthrough Announced"
-        assert candidate.url == "https://example.com/ai-breakthrough"
-        assert candidate.source is test_source
-        assert candidate.category == "general_ai"
-        assert candidate.pub_date == datetime(2025, 9, 1, 12, 0, tzinfo=UTC)
-        assert candidate.text == test_record.description
-        assert candidate.engagement.points == 100
-        assert candidate.engagement.comments == 25
-        assert candidate.engagement.upvotes == 500
-        assert candidate.score_breakdown.score == 0.0
-        assert candidate.registry_category == "general_ai"
-        assert candidate.source_priority == "high"
-
-    def test_ids_are_deterministic_16_hex(
-        self, test_source: Source, test_record: RawRecord
-    ) -> None:
-        """Same input always yields the same 16-char hex ID (v1 parity)."""
-        c1 = raw_record_to_candidate(test_source, test_record)
-        c2 = raw_record_to_candidate(test_source, test_record)
-        assert c1.id == c2.id
-        assert len(c1.id) == 16
-        int(c1.id, 16)  # valid hex
-
-    def test_url_is_normalized(self, test_source: Source) -> None:
-        record = RawRecord(
-            source=test_source,
-            title="Tracked Article",
-            url="https://Example.com/ai-news/?utm_source=feed&utm_medium=rss",
-            description="d",
-        )
-        candidate = raw_record_to_candidate(test_source, record)
-        assert candidate.url == "https://example.com/ai-news"
-
-    def test_id_matches_normalized_url(
-        self, test_source: Source, test_record: RawRecord
-    ) -> None:
-        candidate = raw_record_to_candidate(test_source, test_record)
-        assert candidate.id == entry_id(candidate.url, test_record.title)
-
-    def test_url_variants_collapse_to_one_id(self, test_source: Source) -> None:
-        """UTM-decorated and clean links of one article share an ID."""
-        plain = RawRecord(
-            source=test_source,
-            title="Same Article",
-            url="https://example.com/ai-news",
-            description="d",
-        )
-        tracked = RawRecord(
-            source=test_source,
-            title="Same Article",
-            url="https://example.com/ai-news?utm_campaign=launch",
-            description="d",
-        )
-        assert (
-            raw_record_to_candidate(test_source, plain).id
-            == raw_record_to_candidate(test_source, tracked).id
-        )
-
-    def test_link_less_record_falls_back_to_title_id(self, test_source: Source) -> None:
-        record = RawRecord(
-            source=test_source,
-            title="No Link Item",
-            url="",
-            description="d",
-        )
-        candidate = raw_record_to_candidate(test_source, record)
-        assert candidate.url == ""
-        assert candidate.id == entry_id("", "No Link Item")
-        assert len(candidate.id) == 16
 
 
 # --------------------------------------------------------------------------- #
@@ -172,94 +102,178 @@ class TestRawRecordToCandidate:
 
 
 class TestCollectCandidates:
-    async def test_converts_successes(
-        self, test_source: Source, test_record: RawRecord
+    async def test_returns_candidates_and_run_log(
+        self,
+        make_configuration: ConfigurationFactory,
+        keyword_config: KeywordConfig,
+        test_source: Source,
+        test_record: RawRecord,
     ) -> None:
-        """FetchSuccess results produce candidates."""
-        mock_config = AsyncMock()
-        mock_config.sources = [test_source]
-
+        """Successes are filtered, scored, and reported in the run log."""
+        config = make_configuration(sources=[test_source])
         with patch(
             "newsletter.main.fetch_all_sources",
             new_callable=AsyncMock,
             return_value=[FetchSuccess(source=test_source, records=[test_record])],
         ):
             async with httpx.AsyncClient() as client:
-                candidates = await collect_candidates(client, mock_config)
+                candidates, run_log = await collect_candidates(
+                    client, config, keyword_config, now=NOW
+                )
 
         assert len(candidates) == 1
         assert candidates[0].title == "AI Breakthrough Announced"
+        assert candidates[0].score_breakdown.score > 0.0
+        assert run_log.fetched_count == 1
+        assert run_log.filtered_count == 1
+        assert run_log.duplicate_count == 0
+        assert run_log.failures == []
 
-    async def test_skips_failures(self, test_source: Source) -> None:
-        """FetchFailure results are logged but produce no candidates."""
-        mock_config = AsyncMock()
-        mock_config.sources = [test_source]
-
+    async def test_failures_are_logged_not_raised(
+        self,
+        make_configuration: ConfigurationFactory,
+        keyword_config: KeywordConfig,
+        test_source: Source,
+    ) -> None:
+        config = make_configuration(sources=[test_source])
         with patch(
             "newsletter.main.fetch_all_sources",
             new_callable=AsyncMock,
             return_value=[FetchFailure(source=test_source, error="connection refused")],
         ):
             async with httpx.AsyncClient() as client:
-                candidates = await collect_candidates(client, mock_config)
+                candidates, run_log = await collect_candidates(
+                    client, config, keyword_config, now=NOW
+                )
 
         assert candidates == []
+        assert run_log.failures == [
+            {"source": "Test Feed", "error": "connection refused"}
+        ]
 
-    async def test_mixed_results(self, test_source: Source) -> None:
-        """Both successes and failures in the same result list."""
-        source_a = Source(
-            name="A",
-            scrape_url="https://a.com/feed",
-            priority="high",
-            fetch_type="rss",
-            category="general_ai",
+    async def test_irrelevant_records_are_filtered(
+        self,
+        make_configuration: ConfigurationFactory,
+        keyword_config: KeywordConfig,
+        test_source: Source,
+    ) -> None:
+        """A record with no keyword hit never becomes a candidate."""
+        record = RawRecord(
+            source=test_source,
+            title="Local council approves a bicycle lane",
+            url="https://example.com/bicycle-lane",
+            description="The lane opens next spring.",
+            pub_date=NOW,
         )
-        source_b = Source(
-            name="B",
+        config = make_configuration(sources=[test_source])
+        with patch(
+            "newsletter.main.fetch_all_sources",
+            new_callable=AsyncMock,
+            return_value=[FetchSuccess(source=test_source, records=[record])],
+        ):
+            async with httpx.AsyncClient() as client:
+                candidates, run_log = await collect_candidates(
+                    client, config, keyword_config, now=NOW
+                )
+
+        assert candidates == []
+        assert run_log.fetched_count == 1
+        assert run_log.filtered_count == 0
+
+    async def test_mixed_results(
+        self,
+        make_configuration: ConfigurationFactory,
+        keyword_config: KeywordConfig,
+        test_source: Source,
+        test_record: RawRecord,
+    ) -> None:
+        other = Source(
+            name="Broken Feed",
             scrape_url="https://b.com/feed",
             priority="medium",
             fetch_type="rss",
             category="general_ai",
         )
-
-        record = RawRecord(
-            source=source_a,
-            title="Good News",
-            url="https://a.com/good",
-            description="Something good happened.",
-        )
-
-        mock_config = AsyncMock()
-        mock_config.sources = [source_a, source_b]
-
+        config = make_configuration(sources=[test_source, other])
         with patch(
             "newsletter.main.fetch_all_sources",
             new_callable=AsyncMock,
             return_value=[
-                FetchSuccess(source=source_a, records=[record]),
-                FetchFailure(source=source_b, error="timeout"),
+                FetchSuccess(source=test_source, records=[test_record]),
+                FetchFailure(source=other, error="timeout"),
             ],
         ):
             async with httpx.AsyncClient() as client:
-                candidates = await collect_candidates(client, mock_config)
+                candidates, run_log = await collect_candidates(
+                    client, config, keyword_config, now=NOW
+                )
 
-        assert len(candidates) == 1
-        assert candidates[0].source is source_a
+        assert [candidate.source.name for candidate in candidates] == ["Test Feed"]
+        assert run_log.source_count == 2
+        assert len(run_log.failures) == 1
 
-    async def test_empty_results(self, test_source: Source) -> None:
-        """No results → no candidates."""
-        mock_config = AsyncMock()
-        mock_config.sources = [test_source]
-
+    async def test_empty_results(
+        self,
+        make_configuration: ConfigurationFactory,
+        keyword_config: KeywordConfig,
+        test_source: Source,
+    ) -> None:
+        config = make_configuration(sources=[test_source])
         with patch(
             "newsletter.main.fetch_all_sources",
             new_callable=AsyncMock,
             return_value=[],
         ):
             async with httpx.AsyncClient() as client:
-                candidates = await collect_candidates(client, mock_config)
+                candidates, run_log = await collect_candidates(
+                    client, config, keyword_config, now=NOW
+                )
 
         assert candidates == []
+        assert run_log.fetched_count == 0
+
+
+# --------------------------------------------------------------------------- #
+# Section history
+# --------------------------------------------------------------------------- #
+
+
+class TestLoadSectionHistory:
+    def test_missing_directory_yields_empty_history(self, tmp_path: Path) -> None:
+        history = load_section_history(tmp_path / "nope", "2026-09-01")
+        assert set(history) == {
+            "general_ai",
+            "engineering_ai",
+            "medical_bio_ai",
+            "research",
+        }
+        assert all(items == [] for items in history.values())
+
+    def test_reads_published_sections(self, tmp_path: Path) -> None:
+        artifact = tmp_path / "2026-08-31-candidates.json"
+        artifact.write_text(
+            json.dumps(
+                {
+                    "top_10_general_ai": [
+                        {
+                            "id": "abc123",
+                            "title": "Nvidia unveils a GPU",
+                            "url": "https://a.com/1",
+                            "source": "Outlet A",
+                            "source_kind": "rss",
+                            "category": "general_ai",
+                            "source_priority": "high",
+                        }
+                    ]
+                }
+            ),
+            encoding="utf-8",
+        )
+        history = load_section_history(tmp_path, "2026-09-01")
+        assert len(history["general_ai"]) == 1
+        assert history["general_ai"][0].title == "Nvidia unveils a GPU"
+        # Outside the general-AI lookback would be empty for other sections.
+        assert history["research"] == []
 
 
 # --------------------------------------------------------------------------- #
@@ -276,6 +290,42 @@ class TestResolveConfigPath:
         result = _resolve_config_path(None)
         assert result.name == "config.toml"
         assert "config" in str(result)
+
+
+class TestResolveKeywordsPath:
+    def test_explicit_path_wins(self, tmp_path: Path) -> None:
+        custom = tmp_path / "custom-keywords.toml"
+        config_path = tmp_path / "config.toml"
+        assert _resolve_keywords_path(custom, config_path) == custom.resolve()
+
+    def test_sibling_of_config_is_preferred(self, tmp_path: Path) -> None:
+        """A self-contained config directory keeps its own keywords."""
+        (tmp_path / "config.toml").write_text("", encoding="utf-8")
+        sibling = tmp_path / "keywords.toml"
+        sibling.write_text("", encoding="utf-8")
+        assert _resolve_keywords_path(None, tmp_path / "config.toml") == sibling
+
+    def test_falls_back_to_project_root(self, tmp_path: Path) -> None:
+        result = _resolve_keywords_path(None, tmp_path / "config.toml")
+        assert (
+            result == main_module._resolve_project_root() / "config" / "keywords.toml"
+        )
+
+    def test_shipped_keywords_file_loads(self) -> None:
+        """The repository ships a valid config/keywords.toml (Goal 1.4)."""
+        repo_keywords = Path(__file__).resolve().parents[1] / "config" / "keywords.toml"
+        assert repo_keywords.is_file()
+        assert KeywordConfig.load(repo_keywords).general_ai.include
+
+
+class TestResolveOutputDir:
+    def test_explicit_path(self, tmp_path: Path) -> None:
+        assert _resolve_output_dir(tmp_path / "out") == (tmp_path / "out").resolve()
+
+    def test_default_is_data_digests(self) -> None:
+        result = _resolve_output_dir(None)
+        assert result.name == "digests"
+        assert result.parent.name == "data"
 
 
 # --------------------------------------------------------------------------- #
@@ -441,14 +491,205 @@ class TestCLI:
         result = runner.invoke(app, ["--config", str(config_file)])
         assert result.exit_code == 1
 
+    def test_invalid_config_exits_1(self, tmp_path: Path) -> None:
+        """Malformed TOML is reported and exits 1."""
+        config_file = tmp_path / "config.toml"
+        config_file.write_text("user_agent = \n[[[\n", encoding="utf-8")
+
+        result = runner.invoke(app, ["--config", str(config_file)])
+        assert result.exit_code == 1
+
+    def test_missing_keywords_exits_1(self, tmp_path: Path) -> None:
+        config_file = tmp_path / "config.toml"
+        config_file.write_text(_MINIMAL_CONFIG)
+
+        result = runner.invoke(
+            app,
+            ["--config", str(config_file), "--keywords", str(tmp_path / "nope.toml")],
+        )
+        assert result.exit_code == 1
+
+    def test_invalid_keywords_exits_1(self, tmp_path: Path) -> None:
+        """A keyword file missing a bucket is a hard error, not a silent no-op."""
+        config_file = tmp_path / "config.toml"
+        config_file.write_text(_MINIMAL_CONFIG)
+        keywords_file = tmp_path / "broken-keywords.toml"
+        keywords_file.write_text('[general_ai]\ninclude = ["AI"]\n', encoding="utf-8")
+
+        result = runner.invoke(
+            app,
+            ["--config", str(config_file), "--keywords", str(keywords_file)],
+        )
+        assert result.exit_code == 1
+
+    @patch("newsletter.main.fetch_all_sources", new_callable=AsyncMock)
+    def test_collect_writes_candidates_artifact(
+        self, mock_fetch: AsyncMock, tmp_path: Path
+    ) -> None:
+        """End to end: mocked fetch → scored candidate → v1-shaped JSON."""
+        source = Source(
+            name="Test Feed",
+            scrape_url="https://example.com/feed",
+            priority="high",
+            fetch_type="rss",
+            category="general_ai",
+        )
+        record = RawRecord(
+            source=source,
+            title="OpenAI releases a new foundation model",
+            url="https://example.com/model?utm_source=rss",
+            description="The company says the LLM agent beats every benchmark.",
+        )
+        mock_fetch.return_value = [FetchSuccess(source=source, records=[record])]
+
+        config_file = tmp_path / "config.toml"
+        config_file.write_text(_MINIMAL_CONFIG)
+        out_dir = tmp_path / "digests"
+
+        result = runner.invoke(
+            app,
+            [
+                "--config",
+                str(config_file),
+                "--date",
+                "2026-09-01",
+                "--output-dir",
+                str(out_dir),
+            ],
+        )
+
+        assert result.exit_code == 0
+        payload = json.loads(
+            (out_dir / "2026-09-01-candidates.json").read_text(encoding="utf-8")
+        )
+        assert payload["run_log"]["fetched_count"] == 1
+        assert payload["run_log"]["filtered_count"] == 1
+        assert payload["run_log"]["source_count"] == 1
+        assert len(payload["top_10_general_ai"]) == 1
+
+        item = payload["top_10_general_ai"][0]
+        assert item["url"] == "https://example.com/model"
+        assert item["source"] == "Test Feed"
+        assert item["source_kind"] == "rss"
+        assert item["score"] > 0
+        assert "OpenAI" in item["matched_terms"]
+        assert len(item["id"]) == 16
+
+    @patch("newsletter.main.fetch_all_sources", new_callable=AsyncMock)
+    def test_dry_run_writes_no_artifact(
+        self, mock_fetch: AsyncMock, tmp_path: Path
+    ) -> None:
+        mock_fetch.return_value = []
+        config_file = tmp_path / "config.toml"
+        config_file.write_text(_MINIMAL_CONFIG)
+        out_dir = tmp_path / "digests"
+
+        result = runner.invoke(
+            app,
+            [
+                "--config",
+                str(config_file),
+                "--dry-run",
+                "--output-dir",
+                str(out_dir),
+            ],
+        )
+
+        assert result.exit_code == 0
+        assert not out_dir.exists()
+
+    @patch("newsletter.main.fetch_all_sources", new_callable=AsyncMock)
+    def test_sibling_keywords_file_is_used(
+        self, mock_fetch: AsyncMock, tmp_path: Path
+    ) -> None:
+        """A self-contained config directory can ship its own buckets."""
+        source = Source(
+            name="Test Feed",
+            scrape_url="https://example.com/feed",
+            priority="high",
+            fetch_type="rss",
+            category="general_ai",
+        )
+        record = RawRecord(
+            source=source,
+            title="Zorblax ships a widget",
+            url="https://example.com/zorblax",
+            description="The zorblax widget handles flux capacity today.",
+        )
+        mock_fetch.return_value = [FetchSuccess(source=source, records=[record])]
+
+        (tmp_path / "config.toml").write_text(_MINIMAL_CONFIG)
+        (tmp_path / "keywords.toml").write_text(
+            '[general_ai]\ninclude = ["zorblax"]\n\n'
+            '[engineering_ai]\ninclude = ["cae"]\n',
+            encoding="utf-8",
+        )
+        out_dir = tmp_path / "digests"
+
+        result = runner.invoke(
+            app,
+            [
+                "--config",
+                str(tmp_path / "config.toml"),
+                "--date",
+                "2026-09-01",
+                "--output-dir",
+                str(out_dir),
+            ],
+        )
+
+        assert result.exit_code == 0
+        payload = json.loads(
+            (out_dir / "2026-09-01-candidates.json").read_text(encoding="utf-8")
+        )
+        assert payload["top_10_general_ai"][0]["matched_terms"] == ["zorblax"]
+
+    def test_cancellation_exits_130(self, tmp_path: Path) -> None:
+        """Ctrl-C during the fetch stage maps onto exit code 130."""
+        config_file = tmp_path / "config.toml"
+        config_file.write_text(_MINIMAL_CONFIG)
+
+        def cancel(coro: Coroutine[Any, Any, Any]) -> None:
+            coro.close()  # otherwise CPython warns "coroutine was never awaited"
+            raise asyncio.CancelledError
+
+        with patch("newsletter.main.asyncio.run", side_effect=cancel):
+            result = runner.invoke(app, ["--config", str(config_file)])
+
+        assert result.exit_code == 130
+
 
 # --------------------------------------------------------------------------- #
-# Signal handling
+# Signal handling and entry point
 # --------------------------------------------------------------------------- #
 
 
 class TestSignalHandling:
-    async def test_cancelled_pipeline_returns_130(self) -> None:
+    async def test_without_a_current_task_it_is_a_noop(self) -> None:
+        """From a bare loop callback there is no task to cancel.
+
+        ``asyncio.current_task()`` needs a *running* loop, so the early
+        return is exercised from ``call_soon`` — a callback context where
+        no task is executing.
+        """
+        loop = asyncio.get_running_loop()
+        finished = asyncio.Event()
+
+        def install() -> None:
+            try:
+                _install_signal_handlers(loop)
+            finally:
+                finished.set()
+
+        loop.call_soon(install)
+        await asyncio.wait_for(finished.wait(), timeout=1.0)
+        assert finished.is_set()
+
+    async def test_cancelled_pipeline_returns_130(
+        self,
+        make_configuration: ConfigurationFactory,
+        keyword_config: KeywordConfig,
+    ) -> None:
         """When the pipeline task is cancelled, exit code is 130."""
 
         async def slow_fetch(
@@ -459,17 +700,18 @@ class TestSignalHandling:
             await asyncio.sleep(60)
             return []
 
-        mock_config = AsyncMock()
-        mock_config.sources = [
-            Source(
-                name="Slow",
-                scrape_url="https://slow.com/feed",
-                priority="high",
-                fetch_type="rss",
-                category="general_ai",
-            )
-        ]
-        mock_config.user_agent = "test/1.0"
+        config = make_configuration(
+            sources=[
+                Source(
+                    name="Slow",
+                    scrape_url="https://slow.com/feed",
+                    priority="high",
+                    fetch_type="rss",
+                    category="general_ai",
+                )
+            ],
+            user_agent="test/1.0",
+        )
 
         async def run_and_cancel() -> int:
             task = asyncio.current_task()
@@ -489,10 +731,20 @@ class TestSignalHandling:
                     side_effect=slow_fetch,
                 ):
                     async with httpx.AsyncClient() as client:
-                        await collect_candidates(client, mock_config)
+                        await collect_candidates(
+                            client, config, keyword_config, now=NOW
+                        )
                 return 0
             except asyncio.CancelledError:
                 return 130
 
         exit_code = await run_and_cancel()
         assert exit_code == 130
+
+
+class TestEntryPoint:
+    def test_main_invokes_the_typer_app(self) -> None:
+        """``[project.scripts] newsletter = newsletter.main:main``."""
+        with patch.object(main_module, "app") as mock_app:
+            main_module.main()
+        mock_app.assert_called_once_with()

@@ -5,19 +5,46 @@ from __future__ import annotations
 import contextlib
 import logging
 import shutil
-from collections.abc import Iterator
+from collections.abc import Callable, Iterator
+from datetime import datetime
 from pathlib import Path
 
 import pytest
 
 from newsletter import main as main_module
+from newsletter.configuration import Configuration
+from newsletter.dedup import norm_url
+from newsletter.keywords import KeywordConfig
 from newsletter.models import (
+    Candidate,
+    Category,
     Engagement,
+    FetchType,
+    Priority,
     RawRecord,
+    ScoreBreakdown,
     Source,
 )
+from newsletter.text import entry_id
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+
+
+# --------------------------------------------------------------------------- #
+# Configuration fixtures
+# --------------------------------------------------------------------------- #
+
+
+@pytest.fixture()
+def app_config() -> Configuration:
+    """The real application config shipped in ``config/config.toml``."""
+    return Configuration.load(REPO_ROOT / "config" / "config.toml")
+
+
+@pytest.fixture()
+def keyword_config() -> KeywordConfig:
+    """The real keyword config shipped in ``config/keywords.toml``."""
+    return KeywordConfig.load(REPO_ROOT / "config" / "keywords.toml")
 
 
 # --------------------------------------------------------------------------- #
@@ -36,10 +63,10 @@ def isolated_logging(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Iterato
     tests — is appended to the real files, dirtying the working tree.
 
     This autouse fixture redirects the project root to a throwaway directory
-    holding a copy of the real ``config/logging.toml`` (so the ``dictConfig``
-    path and its file handlers are still exercised, just into ``tmp_path``),
-    and restores the root logger afterwards so handlers never leak between
-    tests.
+    holding copies of the real ``logging.toml`` and ``keywords.toml`` (so the
+    ``dictConfig`` path, its file handlers, and the CLI's default keyword
+    resolution are all still exercised — just into ``tmp_path``), and restores
+    the root logger afterwards so handlers never leak between tests.
 
     Yields:
         The temporary project root used for the test.
@@ -47,7 +74,8 @@ def isolated_logging(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Iterato
     project_root = tmp_path / "project"
     (project_root / "config").mkdir(parents=True)
     (project_root / "logs").mkdir()
-    shutil.copy(REPO_ROOT / "config" / "logging.toml", project_root / "config")
+    for name in ("logging.toml", "keywords.toml"):
+        shutil.copy(REPO_ROOT / "config" / name, project_root / "config")
 
     monkeypatch.setattr(main_module, "_resolve_project_root", lambda: project_root)
 
@@ -119,6 +147,91 @@ def sample_raw_record(rss_source: Source) -> RawRecord:
         pub_date=None,
         engagement=Engagement(points=42, comments=5),
     )
+
+
+@pytest.fixture()
+def make_configuration() -> Callable[..., Configuration]:
+    """Factory for an in-memory :class:`Configuration`.
+
+    Mirrors the shipped ``config/config.toml`` presets so scoring and window
+    resolution behave like production without touching disk.
+    """
+
+    def _make(
+        sources: list[Source] | None = None,
+        priority_presets: dict[str, float] | None = None,
+        category_window_hours: dict[str, int] | None = None,
+        user_agent: str = "test-agent/1.0",
+    ) -> Configuration:
+        return Configuration(
+            user_agent=user_agent,
+            priority_presets=priority_presets
+            or {"high": 1.0, "medium": 0.65, "low": 0.35},
+            category_window_hours=category_window_hours
+            or {
+                "general_ai": 24,
+                "engineering_ai": 720,
+                "research": 168,
+                "startup": 72,
+                "vendor": 72,
+                "community": 48,
+            },
+            sources=sources or [],
+        )
+
+    return _make
+
+
+@pytest.fixture()
+def make_candidate() -> Callable[..., Candidate]:
+    """Factory for :class:`Candidate` objects with sensible defaults.
+
+    Dedup and selection tests need many lightly-varying candidates; every
+    argument is keyword-overridable and the URL is normalized and the ID
+    derived from it, exactly as the collect stage does.
+    """
+
+    def _make(
+        title: str = "Some AI headline",
+        url: str = "https://example.com/story",
+        source_name: str = "Test Blog",
+        category: Category = "general_ai",
+        priority: Priority = "high",
+        tags: list[str] | None = None,
+        fetch_type: FetchType | None = "rss",
+        text: str = "",
+        score: float = 0.0,
+        breakdown: ScoreBreakdown | None = None,
+        pub_date: datetime | None = None,
+        engagement: Engagement | None = None,
+        matched_terms: list[str] | None = None,
+    ) -> Candidate:
+        normalized_url = norm_url(url)
+        source = Source(
+            name=source_name,
+            scrape_url=f"https://example.com/{source_name.lower()}/feed",
+            priority=priority,
+            category=category,
+            fetch_type=fetch_type,
+            tags=tags or [],
+        )
+        return Candidate(
+            id=entry_id(normalized_url, title),
+            title=title,
+            url=normalized_url,
+            source=source,
+            category=category,
+            pub_date=pub_date,
+            text=text,
+            description=text,
+            matched_terms=matched_terms or [],
+            engagement=engagement or Engagement(),
+            score_breakdown=breakdown or ScoreBreakdown(score=score),
+            registry_category=category,
+            source_priority=priority,
+        )
+
+    return _make
 
 
 # --------------------------------------------------------------------------- #

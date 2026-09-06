@@ -56,9 +56,9 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
 ### 1.4 Configuration System
 - [x] TOML-based config replacing YAML/JSON
 - [x] `Configuration.load()` with cattrs structuring and validation
-- [ ] Port keywords config from `config/keywords.json` → TOML
+- [x] Port keywords config from `config/keywords.json` → TOML — **`config/keywords.toml` (term-for-term parity with v1, verified bucket by bucket) + `KeywordConfig.load()` in `keywords.py`**
 - [ ] Port trend report config from `config/trend_report.yaml` → TOML
-- [ ] Add config schema validation (required fields, enum constraints)
+- [~] Add config schema validation (required fields, enum constraints) — **keyword buckets are schema-checked (`_validate_raw`: required buckets, table types, list-of-strings, unknown keys, `required_language` type); `Configuration` still relies on cattrs alone**
 - [ ] Support environment variable overrides (e.g. `NEWSLETTER_OPENAI_API_KEY`)
 - [x] Add `--config` CLI flag for custom config path — **`collect --config/-c`; `_resolve_config_path()` falls back to `<project_root>/config/config.toml`**
 
@@ -73,7 +73,7 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
 - [x] Typer for CLI (`[project.scripts]`) — `newsletter` entry point wired to `main()`
 - [x] Implement `main()` entry point — **Typer `app()`; loads config, configures logging, installs signal handlers, runs the pipeline under `asyncio.run()`, maps exit codes (0 ok / 1 error / 130 cancelled)**
 - [~] Implement subcommands:
-  - [~] `newsletter collect` — **concurrent async fetch + `RawRecord`→`Candidate` conversion works (deterministic IDs, normalized URLs); scoring, dedup, selection and the `*-candidates.json` artifact are still TODO**
+  - [x] `newsletter collect` — **full pipeline: concurrent async fetch → clean/gate/score → dedup → sectioned selection → `data/digests/YYYY-MM-DD-candidates.json` (v1-compatible schema); options `--config/-c`, `--keywords`, `--output-dir`, `--date/-d`, `--window-hours/-w`, `--dry-run`**
   - [ ] `newsletter report` — generate daily Markdown (replaces `generate_daily_report.py`)
   - [ ] `newsletter site` — render static HTML (replaces `render_digest_site.py`)
   - [ ] `newsletter papers` — Friday arXiv push (replaces `generate_weekly_paper_push.py`)
@@ -95,10 +95,10 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 - [x] pytest + pytest-asyncio configured
 - [x] pytest-mock available
 - [x] pytest-cov in dev dependencies — **wired through `addopts`, so CI reports coverage on every `uv run pytest`**
-- [~] Create shared fixtures module (`tests/conftest.py`)
-  - [ ] Fixture: sample `Configuration` — **tests still write TOML inline (`_MINIMAL_CONFIG` in `test_main.py`)**
+- [x] Create shared fixtures module (`tests/conftest.py`)
+  - [x] Fixture: sample `Configuration` — **`app_config` (the real `config/config.toml`) + the `make_configuration` factory; `keyword_config` loads the real `config/keywords.toml`**
   - [x] Fixture: sample `Source` objects (each fetch type) — **`rss_source`, `atom_source`, `website_source`**
-  - [~] Fixture: sample `RawRecord` / `Candidate` objects — **`sample_raw_record` exists; no `Candidate` fixture until scoring lands**
+  - [x] Fixture: sample `RawRecord` / `Candidate` objects — **`sample_raw_record` plus the `make_candidate` factory (source/category/tags/engagement/breakdown overrides)**
   - [~] Fixture: mock `httpx.AsyncClient` (via `respx` or manual) — **`respx` is activated per test rather than through a shared fixture**
   - [x] Fixture: temp directory for output artifacts — **`tmp_path`, plus the autouse `isolated_logging` fixture that redirects the project root so tests never write into the committed `logs/`**
 - [x] Add `respx` for httpx mock/stubbing in tests — **in `[dependency-groups].dev`; used by `test_http.py`, `test_rss_fetcher.py`, `test_orchestrate.py`**
@@ -110,7 +110,7 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 - [ ] Test invalid TOML → `ConfigurationError`
 - [ ] Test missing required fields → `ClassValidationError`
 - [ ] Test source enum validation (fetch_type, category, priority)
-- [ ] Test keyword config loading and term matching
+- [x] Test keyword config loading and term matching — **`test_keywords.py` (48 tests): bucket loading, schema errors, `match_terms`, `matches`, `passes_gates`**
 
 ### 2.3 Unit Tests — Source Fetchers (one per fetcher type)
 - [x] `test_rss_fetcher.py` — RSS 2.0 parsing, Atom parsing, malformed XML handling, XML entity cleanup, date parsing, registry dispatch — **53 tests, including billion-laughs / XXE hardening via `defusedxml`**
@@ -123,12 +123,12 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 - [ ] Each fetcher test covers: happy path, empty response, HTTP error, parse error, timeout
 
 ### 2.4 Unit Tests — Scoring & Filtering
-- [ ] `test_scoring.py` — composite score formula, each sub-score, edge cases (null engagement, missing dates)
-- [ ] `test_keywords.py` — include/exclude term matching, case insensitivity, core terms gate
-- [ ] `test_dedup.py` — URL normalization, canonical event keys, token similarity thresholds
-- [ ] `test_selection.py` — multi-pass selection, topic diversification, per-source caps, guo preference
-- [ ] `test_category.py` — canonical category mapping, category inference, biomedical detection
-- [ ] `test_text.py` — `clean_text`, `language_looks_english`, `english_summary`
+- [x] `test_scoring.py` — composite score formula, each sub-score, edge cases (null engagement, missing dates) — **54 tests, incl. the exact v1 weights (32/22/20/14/8/10) and log-scale caps (1200/800/5000)**
+- [x] `test_keywords.py` — include/exclude term matching, case insensitivity, core terms gate — **48 tests**
+- [x] `test_dedup.py` — URL normalization, canonical event keys, token similarity thresholds — **54 tests across 14 event rules**
+- [x] `test_selection.py` — multi-pass selection, topic diversification, per-source caps, guo preference — **69 tests**
+- [x] `test_category.py` — canonical category mapping, category inference, biomedical detection — **25 tests**
+- [x] `test_text.py` — `clean_text`, `language_looks_english`, `english_summary` — **35 tests**
 
 ### 2.5 Unit Tests — Report Generation
 - [ ] `test_daily_report.py` — Markdown structure, section headings, topic labels
@@ -142,13 +142,13 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 - [ ] `test_trend_storage.py` — JSONL read/write, snapshot caching
 
 ### 2.7 Integration Tests
-- [ ] `test_pipeline_collect.py` — end-to-end collect with mocked HTTP (multiple sources → candidates JSON)
+- [x] End-to-end collect (mocked HTTP → candidates JSON) — **`test_pipeline.py` (47 tests) covers the gate/score/dedup/select stages, `test_artifacts.py` (61 tests) the JSON schema + history lookback, and `TestCLI::test_collect_writes_candidates_artifact` the whole CLI path**
 - [ ] `test_pipeline_report.py` — candidates JSON → final Markdown
 - [ ] `test_pipeline_site.py` — candidates + reports → HTML output
 - [ ] `test_quality_gate.py` — duplicate detection across issues, publishable item counts
 
 ### 2.8 Coverage & CI
-- [x] Configure pytest-cov with `--cov=src/newsletter --cov-report=term-missing` — **in `[tool.pytest.ini_options].addopts` together with `--cov-branch`; currently 96%**
+- [x] Configure pytest-cov with `--cov=src/newsletter --cov-report=term-missing` — **in `[tool.pytest.ini_options].addopts` together with `--cov-branch`; currently 98%**
 - [ ] Set minimum coverage threshold in CI (target: 80% line coverage) — **no `--cov-fail-under` yet**
 - [ ] Add coverage badge or report in PR comments
 
@@ -158,8 +158,9 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 
 - [x] `test_http.py` (20 tests) — backoff + jitter bounds, retryable vs non-retryable statuses, `MaxRetriesExceeded`, `fetch_text/json/bytes`, `DomainRateLimiter` pacing
 - [x] `test_orchestrate.py` (16 tests) — concurrency cap, per-source timeout, fault isolation, disabled-source skipping, result ordering
-- [x] `test_main.py` (26 tests) — deterministic candidate IDs + URL normalization, CLI options and exit codes, cancellation → 130, repo-`logs/` isolation regression
-- [x] `test_text.py` (8 tests) / `test_dedup.py` (9 tests) — `entry_id` and `norm_url` (Goals 6.1, 6.4)
+- [x] `test_main.py` (38 tests) — deterministic candidate IDs + URL normalization, CLI options and exit codes (bad config, missing/invalid keywords, cancellation → 130), artifact writing and `--dry-run`, repo-`logs/` isolation regression
+- [x] `test_text.py` (35 tests) / `test_dedup.py` (54 tests) — Goals 6.1 and 6.4 in full: `clean_text`, `language_looks_english`, `english_summary`, `effective_source`, `entry_id`; `norm_url`, event identity, `is_same_event`, `dedup_key`
+- [x] Phase-3 modules (Goals 2.4, 6.1–6.5) — `test_keywords.py` (48), `test_scoring.py` (54), `test_selection.py` (69), `test_category.py` (25), `test_pipeline.py` (47), `test_artifacts.py` (61)
 
 ---
 
@@ -189,7 +190,7 @@ Replace all synchronous HTTP with async I/O for concurrent, rate-limited, fault-
   - [ ] Special handling for Reddit (User-Agent requirement, `.json` suffix)
 
 ### 3.3 Async Pipeline Stages
-- [~] `collect` stage: async fetch → sync score/filter (CPU-bound scoring stays sync) — **async fetch + candidate conversion done; scoring/filtering still stubbed to `ScoreBreakdown(score=0.0)` (Goal 6)**
+- [x] `collect` stage: async fetch → sync score/filter (CPU-bound scoring stays sync) — **`pipeline.collect()`: one async fetch pass, then a synchronous clean → gate → score → dedup → sort pass; `asyncio.to_thread()` is unnecessary at current volumes**
 - [ ] `trends collect` stage: async GitHub API calls with snapshot caching
 - [ ] `papers` stage: async arXiv API query
 - [ ] `summaries` stage: async OpenAI API calls with batch grouping
@@ -317,8 +318,8 @@ Architect the pipeline so language is a first-class axis, enabling bilingual (En
   - [ ] Replace hardcoded English terms with configurable per-language sets
 
 ### 5.2 Language-Aware Pipeline Stages
-- [ ] **Filtering**: Apply language-specific keyword filters (v1 `required_language` field becomes per-language config)
-- [ ] **Language detection**: Port `language_looks_english()` → `detect_language(text, lang_config)` for configurable detection
+- [~] **Filtering**: Apply language-specific keyword filters (v1 `required_language` field becomes per-language config) — **`KeywordFilter.required_language` is loaded per bucket and enforced in `pipeline.candidate_from_record`; English is still the only configured language**
+- [~] **Language detection**: Port `language_looks_english()` → `detect_language(text, lang_config)` for configurable detection — **`text.language_looks_english()` is ported and used as the pipeline's English gate; the configurable `detect_language` abstraction waits on Goal 5.1**
 - [ ] **Summarization**: Per-language summary generation (English extractive, Chinese LLM-based)
 - [ ] **Report generation**: Template strings externalized for i18n (section headings, metadata labels)
 
@@ -348,44 +349,46 @@ Architect the pipeline so language is a first-class axis, enabling bilingual (En
 Port the v1 scoring, deduplication, and selection algorithms into clean, tested modules.
 
 ### 6.1 Text Processing — `newsletter/text.py`
-- [ ] `clean_text(value: str | None) -> str` — HTML unescape, tag strip, whitespace normalize
-- [ ] `language_looks_english(text: str) -> bool` — ASCII ratio heuristic
-- [ ] `english_summary(item: dict) -> str` — extractive 2-sentence summary
-- [ ] `effective_source(item: dict) -> str` — resolve Google News source suffix
+- [x] `clean_text(value: str | None) -> str` — HTML unescape, tag strip, whitespace normalize — **also strips `&#\d+;`/`&\w+;` residue and CDATA wrappers, mirroring v1**
+- [x] `language_looks_english(text: str) -> bool` — ASCII ratio heuristic — **≥`MIN_LETTERS_FOR_LANGUAGE_CHECK` (20) letters and ≥`ENGLISH_ASCII_RATIO` (0.82) ASCII characters**
+- [x] `english_summary(item: dict) -> str` — extractive 2-sentence summary
+- [x] `effective_source(item: dict) -> str` — resolve Google News source suffix — **splits `Outlet - Publisher` down to the publisher**
 - [x] `entry_id(url: str, title: str) -> str` — SHA1 16-char hex ID
 
 ### 6.2 Keyword Matching — `newsletter/keywords.py`
-- [ ] Port keyword filter logic from v1
-- [ ] `match_terms(text: str, terms: list[str]) -> list[str]` — case-insensitive substring
-- [ ] Core terms gate (must match both `core_include` AND `ai_include` for engineering)
-- [ ] General vs. engineering keyword buckets
+- [x] Port keyword filter logic from v1 — **`config/keywords.toml` + `KeywordConfig`/`KeywordFilter` attrs models, `load()` with schema validation (`KeywordError`)**
+- [x] `match_terms(text: str, terms: list[str]) -> list[str]` — case-insensitive substring, order-preserving
+- [x] Core terms gate (must match both `core_include` AND `ai_include` for engineering) — **`matches_core_terms()`; an empty gate always passes, exactly like v1**
+- [x] General vs. engineering keyword buckets — **plus `exclude` lists, `matches()`, `passes_gates()` and per-bucket `required_language`**
 
 ### 6.3 Scoring — `newsletter/scoring.py`
-- [ ] `score_candidate(source, engagement, matches, published_at, now, window_hours, text) -> ScoreBreakdown`
-- [ ] All sub-scores: source_priority, novelty, general_relevance, engineering_relevance, research_relevance
-- [ ] Engineering workflow AI boost (conditional +10)
-- [ ] `recency_boost(published_at, now, window_hours) -> float`
-- [ ] `log_scale(value, cap) -> float`
+- [x] `score_candidate(...) -> ScoreBreakdown` — **v1 weights verbatim: 32·priority + 22·novelty + 20·general + 14·engineering + 8·research + 10·workflow + engagement log-scales**
+- [x] All sub-scores: source_priority, novelty, general_relevance, engineering_relevance, research_relevance — **priority presets from config, novelty from age/window, relevance from matched-term counts**
+- [x] Engineering workflow AI boost (conditional +10) — **`has_engineering_workflow_ai()`: needs a `WORKFLOW_AI_TERMS` hit plus `WORKFLOW_CONTEXT_TERMS` context on an engineering-relevant candidate**
+- [x] `recency_boost(published_at, now, window_hours) -> float` — **1.0 for fresh items, `NOVELTY_DECAY` (0.75) inside the window down to `MIN_NOVELTY` (0.15), `UNKNOWN_DATE_NOVELTY` (0.35) when undated — v1's `novelty_score`**
+- [x] `log_scale(value, cap) -> float` — **`log(1+v)/log(1+cap)` clamped to [0, 1]; caps 1200 points / 800 comments / 5000 upvotes**
+- [x] `score_reasons()` — human-readable explanation list carried on the candidate
 
 ### 6.4 Deduplication — `newsletter/dedup.py`
 - [x] `norm_url(url: str) -> str` — UTM stripping, path normalization
-- [ ] `canonical_event_key(title: str) -> str | None` — hardcoded known events
-- [ ] `event_tokens(title: str) -> set[str]` — tokenization with stopwords
-- [ ] `is_same_event(left, right) -> bool` — URL key + canonical key + token overlap rules
-- [ ] Cross-section deduplication (items in General AI excluded from Engineering AI history)
-- [ ] Historical dedup against previous N days of published issues
+- [x] `canonical_event_key(title: str) -> str | None` — hardcoded known events — **all 14 v1 `EventRule`s ported (`EVENT_RULES`) with their keyword/negation sets**
+- [x] `event_tokens(title: str) -> set[str]` — tokenization with stopwords
+- [x] `is_same_event(left, right) -> bool` — URL key + canonical key + token-overlap rules — **`event_url_key()` → `canonical_event_key()` → Jaccard-style overlap thresholds**
+- [x] Cross-section deduplication — **`dedup_key()` (normalized URL, else lowercased title) drops a story seen in any bucket during the run and bumps `run_log.duplicate_count`; history lookback is per section, with engineering reading both `top_5_engineering_ai` and the legacy `top_5_cae_ai_engineering`**
+- [x] Historical dedup against previous N days of published issues — **`artifacts.load_history()` + `main.load_section_history()`: general 7d, engineering/biomedical/research 30d (v1 parity)**
 
 ### 6.5 Selection — `newsletter/selection.py`
-- [ ] `select_unique_events(candidates, limit, ...) -> list[Candidate]` — multi-pass algorithm
-  - [ ] Pass 1: full constraints (topic cap, source cap, history dedup, trusted/guo preference)
-  - [ ] Pass 2: relax topic cap
-  - [ ] Pass 3: relax source cap
-  - [ ] Pass 4: relax all caps
-  - [ ] Fallback: relax guo preference
-- [ ] Topic key assignment (`topic_key(candidate) -> str`)
-- [ ] Biomedical AI detection (`is_medical_bio_ai(candidate) -> bool`)
-- [ ] Engineering AI exclusion list
-- [ ] Category inference (`infer_candidate_category(...)`)
+- [x] `select_unique_events(candidates, category, limit, history, ...) -> list[Candidate]` — multi-pass algorithm
+  - [x] Pass 1: full constraints (topic cap, source cap, history dedup, trusted/guo preference)
+  - [x] Pass 2: relax topic cap
+  - [x] Pass 3: relax source cap
+  - [x] Pass 4: relax all caps
+  - [x] Fallback: relax guo preference — **re-runs selection without the Guo requirement and merges only genuinely new events**
+- [x] Topic key assignment (`topic_key(candidate) -> str`) — **all 8 v1 topic buckets via `TOPIC_RULES`, plus the `FALLBACK_TOPIC` (`other`)**
+- [x] Biomedical AI detection (`is_medical_bio_ai(candidate) -> bool`) — **`MEDICAL_PATTERNS` compiled regexes gated by `MEDICAL_ELIGIBLE_CATEGORIES`**
+- [x] Engineering AI exclusion list — **`ENGINEERING_EXCLUDED_TERMS`, applied inside `select_unique_events`**
+- [x] Category inference (`infer_candidate_category(...)`) — **in `category.py`: `canonical_category()` alias map + relevance-score-driven inference**
+- [x] `select_medical_bio_ai(candidates, limit, history)` — biomedical-only selection used by `build_issue()`
 
 ---
 
@@ -449,8 +452,8 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 - [ ] Snapshot caching and commit
 
 ### 8.4 Artifact Compatibility
-- [ ] Ensure output JSON schemas are backward-compatible with v1 consumers
-- [ ] Maintain `YYYY-MM-DD-candidates.json`, `*-final.md`, `*-paper-push.json` formats
+- [x] Ensure output JSON schemas are backward-compatible with v1 consumers — **`artifacts.candidate_to_dict()` reproduces the v1 key order (`id` … `workflow_ai_boost`), the `_meta.explanation` block and the `run_log` shape; `test_artifacts.py` asserts the exact key sequence**
+- [~] Maintain `YYYY-MM-DD-candidates.json`, `*-final.md`, `*-paper-push.json` formats — **candidates JSON is written under `data/digests/` (`--output-dir` overridable); `*-final.md` and `*-paper-push.json` wait on Goals 7.1–7.2**
 - [ ] Maintain `data/repos.jsonl` append-only format
 - [ ] Maintain `site/` directory structure for GitHub Pages
 
@@ -462,8 +465,8 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 |---|---|---|---|
 | **Phase 1** | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end | **Complete** — models ✅, TOML config ✅, logging ✅, fetcher protocol + registry ✅, RSS/Atom/RDF fetcher ✅, `py.typed` ✅, coverage + import sorting ✅, CI green ✅ |
 | **Phase 2** (Current) | 3.1–3.2, 4.2 (all fetchers) | Async migration + all fetcher implementations | **~60%** — `http.py` (retry/backoff, rate limiter, text/json/bytes) ✅, `orchestrate.py` (semaphore, per-source timeout, fault isolation) ✅, graceful shutdown ✅. Remaining: response caching, wiring a `DomainRateLimiter` into the pipeline, and every non-RSS fetcher — **57 of 125 configured sources are skipped today** (52 `website`, 2 `youtube`, 2 `json`, 1 `api`) |
-| **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests | **Started** — `text.entry_id` (6.1) and `dedup.norm_url` (6.4) landed and are wired into candidate IDs, 17 tests. Scoring (6.2–6.3) is blocked on porting the keyword lists into TOML (1.4) |
-| **Phase 4** | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | **~25%** — `newsletter collect` with `--config/--date/--window-hours/--dry-run` plus 26 CLI/pipeline tests; no renderers and no output artifact yet |
+| **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests | **Complete** — `config/keywords.toml` (1.4), `keywords.py` (6.2), `text.py` (6.1), `scoring.py` (6.3), `dedup.py` event identity (6.4), `category.py` + `selection.py` (6.5), `pipeline.py` (collect + build_issue), `artifacts.py` v1-compatible JSON (8.4). 388 new tests, 98% branch coverage. Goal 2.3's per-fetcher tests still wait on the non-RSS fetchers |
+| **Phase 4** (Current) | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | **~35%** — `newsletter collect` runs the whole pipeline and writes `data/digests/YYYY-MM-DD-candidates.json` (v1 schema); `test_pipeline.py` + `test_artifacts.py` + one CLI end-to-end test cover 2.7's collect path. Nothing renders yet: no `report`, `site`, `papers`, `summaries`, `check`, `trends` or `run-all` subcommands, and no `-briefing-input.md` |
 | **Phase 5** | 5.1–5.4, 8.1–8.4 | Language support, CI/CD modernization | **~15%** — CI runs lint → type-check → test on dev/main with coverage printed; no threshold gate, no deploy workflows, no i18n layer |
 | **Phase 6** (Backburner) | 5.5 | Additional languages, translation | Not started |
 
@@ -482,25 +485,31 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 - **RSS/Atom/RDF fetcher**: `RSSFetcher` in `fetchers/rss.py` — stdlib `ElementTree` behind `defusedxml` (blocks entity bombs / XXE), lenient field resolution mirroring v1 `parse_rss`, XML entity cleanup, multi-format date parsing, `max_entries` cap
 - **Async HTTP layer**: `http.py` — `fetch_text/json/bytes` over a shared `httpx.AsyncClient`, exponential backoff with jitter on timeouts/429/503, typed `FetchError` hierarchy, `DomainRateLimiter`
 - **Source orchestration**: `fetch_all_sources()` in `orchestrate.py` — `asyncio.gather` with per-source semaphore (10), `asyncio.wait_for` timeout (15s), full fault isolation, `elapsed_ms` on every result, disabled sources skipped
-- **Text/ID utilities**: `text.entry_id()` (deterministic SHA1-16 candidate IDs) and `dedup.norm_url()` (UTM/fragment/trailing-slash normalization), both applied in `raw_record_to_candidate()`
-- **CLI**: `newsletter collect` with `--config/-c`, `--window-hours/-w`, `--date/-d`, `--dry-run`; `asyncio.run()` entry, SIGINT/SIGTERM → cancel → exit 130
+- **Text/ID utilities**: `text.py` — `clean_text()` (HTML/entity/tag stripping + whitespace normalization), `language_looks_english()`, `english_summary()`, `effective_source()`, `entry_id()`; `dedup.norm_url()` (UTM/fragment/trailing-slash normalization)
+- **Keyword configuration**: `config/keywords.toml` (125 sources' worth of buckets, ported 1:1 from v1's `keywords.json`) loaded by `keywords.KeywordConfig.load()` with schema validation; `match_terms()`, `matches()`, `passes_gates()`, `matches_core_terms()`
+- **Scoring**: `scoring.score_candidate()` reproduces the v1 composite formula (32·priority + 22·novelty + 20·general + 14·engineering + 8·research + 10·workflow boost + 14/10/10 engagement log-scales), plus `recency_boost()`, `log_scale()`, `has_engineering_workflow_ai()` and `score_reasons()`
+- **Event identity & dedup**: `dedup.canonical_event_key()` (14 ported `EventRule`s), `event_tokens()`, `event_url_key()`, `is_same_event()`, `dedup_key()`
+- **Section selection**: `selection.select_unique_events()` (4 relaxation passes + Guo-preference fallback, topic/source caps, Google News caps, history dedup), `select_medical_bio_ai()`, `topic_key()`, `is_medical_bio_ai()`; `category.canonical_category()` / `infer_candidate_category()`
+- **Pipeline**: `pipeline.candidate_from_record()` (v1's exact gate order: non-empty title/URL → English check → bucket include/exclude with engineering fallback → core_include → ai_include) and `pipeline.collect()` (score-sort + duplicate accounting + `RunLog`), `pipeline.build_issue()` (sectioned selection with per-section history)
+- **Artifacts**: `artifacts.write_candidates_json()` emits `data/digests/YYYY-MM-DD-candidates.json` with v1's key order, `_meta.explanation` block, `selection_policy` text, the legacy `top_5_cae_ai_engineering` alias and `top_100_news_candidates`; `load_history()` reads previous issues (general 7d, engineering/biomedical/research 30d)
+- **CLI**: `newsletter collect` with `--config/-c`, `--keywords`, `--output-dir`, `--window-hours/-w`, `--date/-d`, `--dry-run`; `asyncio.run()` entry, SIGINT/SIGTERM → cancel → exit 130
 - **CI pipeline**: GitHub Actions on dev/main — ruff format check, ruff lint, ty type check, pytest (coverage printed via `addopts`)
-- **Tests**: **134 passing**, 96% branch coverage — RSS fetcher (53), main/CLI (26), http (20), orchestrate (16), dedup (9), text (8), configuration (2); `respx` for all HTTP, golden feed samples + hostile-XML samples in `conftest.py`, autouse log isolation so runs never dirty the committed `logs/`
+- **Tests**: **522 passing**, 98% branch coverage — selection (69), artifacts (61), dedup (54), scoring (54), RSS fetcher (53), keywords (48), pipeline (47), main/CLI (38), text (35), category (25), http (20), orchestrate (16), configuration (2); `respx` for all HTTP, golden feed samples + hostile-XML samples in `conftest.py`, `app_config`/`keyword_config`/`make_configuration`/`make_candidate` fixtures, autouse log isolation so runs never dirty the committed `logs/`
 
 ### Known gaps (in dependency order)
-1. **No scoring** — every candidate gets `ScoreBreakdown(score=0.0)`; `main.py` still carries `# TODO: scoring, dedup, selection, output writing`
-2. **No keywords config** — `config/config.toml` has no keyword tables, so Goals 6.2–6.3 cannot start until 1.4 ports `config/keywords.json` → TOML
-3. **No output artifact** — `collect` writes nothing; `YYYY-MM-DD-candidates.json` (Goal 8.4) is unwritten
-4. **57/125 sources skipped** — only RSS-family fetchers are registered (`website` 52, `youtube` 2, `json` 2, `api` 1)
+1. **No source tags** — v1 tagged 30 sources `guo_yichen_reference` and 4 `trusted_discovery`; `config/config.toml` has no `tags`, so every General AI selection falls through passes 1–4 into the no-preference rerun (the Top 10 is plain score order) and trust gating is inert. Config-only fix, but it changes real output
+2. **57/125 sources skipped** — only RSS-family fetchers are registered (`website` 52, `youtube` 2, `json` 2, `api` 1), so the candidate pool is much thinner than v1's
+3. **No second artifact** — v1 also wrote `data/digests/YYYY-MM-DD-briefing-input.md` next to the JSON; v2 writes only the candidates JSON
+4. **No renderers or quality gate** — Goals 7.1–7.5 (daily report, paper push, trends, site, `check`) are untouched, so the pipeline stops at candidates
 5. **Rate limiter not wired** — `DomainRateLimiter` exists and is tested but no pipeline code passes one to `fetch_*`; `request_delay_seconds` is not a config field
 6. **No response cache** — Goal 3.1's file-based cache is unimplemented
 7. **Config error contract** — `Configuration.load()` raises `FileNotFoundError`, while Goal 2.2 expects `ConfigurationError`
-8. **No `clean_text`** — `Candidate.text` is still the raw feed description (HTML entities/tags intact)
+8. **`supplemental_search_tasks` / `watchlist_updates` are always empty** — v1 filled them from the `website` fetcher's "manual search" placeholder records, so this unblocks with the `website` fetcher (4.2 Phase 3)
 
 ### Immediate next steps
-1. ~~Configure `pytest-cov` flags~~ ✅ · ~~import sorting~~ ✅ · ~~LLM deps~~ ✅ · ~~async HTTP + orchestration (3.1–3.2, 3.4)~~ ✅ · ~~`collect` CLI (1.6)~~ ✅ · ~~test log isolation~~ ✅
-2. **Start Phase 3 / Goal 6 as one vertical slice**: keywords TOML (1.4) → `clean_text` + `language_looks_english` (6.1) → `match_terms` + core-terms gate (6.2) → `score_candidate` (6.3) → `canonical_event_key`/`event_tokens`/`is_same_event` (6.4) → `topic_key`/`is_medical_bio_ai`/`select_unique_events` (6.5) → write `data/YYYY-MM-DD-candidates.json` (8.4)
-3. **Then the `website` fetcher** (4.2) — biggest coverage win, unlocks 52 sources, fully specified in PROJECT.md §3.3 (sitemap → HTML links → search placeholder)
-4. Decide the config error contract (gap 7) and expand config error-handling tests (2.2)
-5. Add pre-commit hooks or `uv run` task aliases for local dev (1.2)
-6. Add `--cov-fail-under=80` to CI now that coverage sits at 96% (2.8)
+1. ~~Configure `pytest-cov` flags~~ ✅ · ~~import sorting~~ ✅ · ~~LLM deps~~ ✅ · ~~async HTTP + orchestration (3.1–3.2, 3.4)~~ ✅ · ~~`collect` CLI (1.6)~~ ✅ · ~~test log isolation~~ ✅ · ~~Phase 3 vertical slice (1.4, 6.1–6.5, 2.4, 8.4)~~ ✅
+2. **Tag the reference sources** (gap 1) — port v1's `guo_yichen_reference` / `trusted_discovery` tags into `config/config.toml`, then assert the Top 10 ordering changes as v1 intended
+3. **Build the `website` fetcher** (4.2) — biggest coverage win, unlocks 52 sources, fully specified in PROJECT.md §3.3 (sitemap → HTML links → search placeholder)
+4. **Start Goal 7.1** (`newsletter report`) — read `*-candidates.json` → `*-final.md`, which also delivers the missing `-briefing-input.md` and the first snapshot tests (2.1)
+5. Decide the config error contract (gap 7) and expand config error-handling tests (2.2)
+6. Add `--cov-fail-under=80` to CI now that coverage sits at 98% (2.8); add pre-commit hooks or `uv run` task aliases (1.2)

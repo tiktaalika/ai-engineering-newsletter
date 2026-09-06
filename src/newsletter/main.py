@@ -1,13 +1,15 @@
 """Pipeline entry point — fetch, score, deduplicate, select.
 
-Provides a Typer CLI with the ``collect`` command that fetches all
-enabled sources concurrently and produces scored candidates.
+Provides a Typer CLI with the ``collect`` command that fetches all enabled
+sources concurrently, filters and scores the records, selects the digest
+sections, and writes ``YYYY-MM-DD-candidates.json``.
 
 Usage::
 
     newsletter collect
     newsletter collect --config path/to/config.toml
     newsletter collect --window-hours 48 --dry-run
+    newsletter collect --output-dir /tmp/digests
 """
 
 from __future__ import annotations
@@ -16,7 +18,7 @@ import asyncio
 import logging
 import logging.config
 import signal
-from datetime import date
+from datetime import UTC, date, datetime
 from pathlib import Path
 from tomllib import load as load_toml
 from typing import Annotated, Optional
@@ -24,18 +26,19 @@ from typing import Annotated, Optional
 import httpx
 import typer
 
+from .artifacts import candidates_path, load_history, write_candidates_json
 from .configuration import Configuration
-from .dedup import norm_url
-from .models import (
-    Candidate,
-    FetchFailure,
-    FetchSuccess,
-    RawRecord,
-    ScoreBreakdown,
-    Source,
-)
+from .keywords import KeywordConfig, KeywordError
+from .models import Candidate, RunLog
 from .orchestrate import fetch_all_sources
-from .text import entry_id
+from .pipeline import build_issue
+from .pipeline import collect as collect_stage
+from .selection import (
+    ENGINEERING_AI_LOOKBACK_DAYS,
+    GENERAL_AI_LOOKBACK_DAYS,
+    MEDICAL_BIO_AI_LOOKBACK_DAYS,
+    RESEARCH_LOOKBACK_DAYS,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -48,38 +51,6 @@ app = typer.Typer(
 
 
 # --------------------------------------------------------------------------- #
-# Record → Candidate conversion
-# --------------------------------------------------------------------------- #
-
-
-def raw_record_to_candidate(source: Source, record: RawRecord) -> Candidate:
-    """Convert a raw fetched record into a scored candidate.
-
-    Scoring and keyword matching are stubs here — the real logic lands
-    in Goals 6.2–6.3. For now every record gets a zero score.
-
-    URLs are normalized and IDs are deterministic (v1 parity): the same
-    article always yields the same 16-char hex ID, which downstream LLM
-    summary caching and historical dedup rely on.
-    """
-    url = norm_url(record.url)
-    return Candidate(
-        id=entry_id(url, record.title),
-        title=record.title,
-        url=url,
-        source=source,
-        category=source.category,
-        pub_date=record.pub_date,
-        text=record.description,  # raw description → text (cleaned in Goal 6.1)
-        description=record.description,
-        engagement=record.engagement,
-        score_breakdown=ScoreBreakdown(score=0.0),
-        registry_category=source.category,
-        source_priority=source.priority,
-    )
-
-
-# --------------------------------------------------------------------------- #
 # Source orchestration
 # --------------------------------------------------------------------------- #
 
@@ -87,26 +58,44 @@ def raw_record_to_candidate(source: Source, record: RawRecord) -> Candidate:
 async def collect_candidates(
     request_client: httpx.AsyncClient,
     config: Configuration,
-) -> list[Candidate]:
-    """Fetch all enabled sources concurrently and convert to candidates."""
+    keywords: KeywordConfig,
+    *,
+    now: datetime | None = None,
+    window_hours: int = 24,
+) -> tuple[list[Candidate], RunLog]:
+    """Fetch every enabled source concurrently, then filter and score.
+
+    Returns the score-sorted candidates together with the run log that
+    ends up in the artifact.
+    """
     results = await fetch_all_sources(config.sources, request_client)
+    return collect_stage(
+        results,
+        config=config,
+        keywords=keywords,
+        now=now,
+        default_window_hours=window_hours,
+    )
 
-    candidates: list[Candidate] = []
-    for result in results:
-        if isinstance(result, FetchSuccess):
-            candidates.extend(
-                raw_record_to_candidate(result.source, record)
-                for record in result.records
-            )
-        elif isinstance(result, FetchFailure):
-            logger.warning(
-                "Source %r failed (%.0f ms): %s",
-                result.source.name,
-                result.elapsed_ms,
-                result.error,
-            )
 
-    return candidates
+def load_section_history(
+    output_dir: Path, date_slug: str
+) -> dict[str, list[Candidate]]:
+    """Read previously published selections for each section's lookback."""
+    return {
+        "general_ai": load_history(
+            output_dir, date_slug, "general_ai", GENERAL_AI_LOOKBACK_DAYS
+        ),
+        "engineering_ai": load_history(
+            output_dir, date_slug, "engineering_ai", ENGINEERING_AI_LOOKBACK_DAYS
+        ),
+        "medical_bio_ai": load_history(
+            output_dir, date_slug, "medical_bio_ai", MEDICAL_BIO_AI_LOOKBACK_DAYS
+        ),
+        "research": load_history(
+            output_dir, date_slug, "research", RESEARCH_LOOKBACK_DAYS
+        ),
+    }
 
 
 # --------------------------------------------------------------------------- #
@@ -153,6 +142,28 @@ def _resolve_config_path(config: Path | None) -> Path:
     return _resolve_project_root() / "config" / "config.toml"
 
 
+def _resolve_keywords_path(keywords: Path | None, config_path: Path) -> Path:
+    """Return the keyword config path.
+
+    Precedence: the explicit ``--keywords`` flag, then a ``keywords.toml``
+    sitting next to the loaded config (so a self-contained config directory
+    works), then the project's ``config/keywords.toml``.
+    """
+    if keywords is not None:
+        return keywords.resolve()
+    sibling = config_path.parent / "keywords.toml"
+    if sibling.exists():
+        return sibling
+    return _resolve_project_root() / "config" / "keywords.toml"
+
+
+def _resolve_output_dir(output_dir: Path | None) -> Path:
+    """Return the digest artifact directory (default ``<root>/data/digests``)."""
+    if output_dir is not None:
+        return output_dir.resolve()
+    return _resolve_project_root() / "data" / "digests"
+
+
 # --------------------------------------------------------------------------- #
 # Signal handling
 # --------------------------------------------------------------------------- #
@@ -190,21 +201,24 @@ def _install_signal_handlers(loop: asyncio.AbstractEventLoop) -> None:
 
 async def _run_pipeline(
     config: Configuration,
+    keywords: KeywordConfig,
     *,
     window_hours: int,
     run_date: date,
     dry_run: bool,
+    output_dir: Path,
 ) -> int:
     """Execute the full collect pipeline."""
     if not config.sources:
         logger.error("No sources defined in configuration")
         return 1
 
+    date_slug = run_date.isoformat()
     logger.info(
         "Loaded %d sources (user_agent=%s, date=%s, window=%dh, dry_run=%s)",
         len(config.sources),
         config.user_agent,
-        run_date.isoformat(),
+        date_slug,
         window_hours,
         dry_run,
     )
@@ -216,13 +230,37 @@ async def _run_pipeline(
         timeout=15.0,
         follow_redirects=True,
     ) as request_client:
-        candidates = await collect_candidates(request_client, config)
+        candidates, run_log = await collect_candidates(
+            request_client,
+            config,
+            keywords,
+            now=datetime.now(tz=UTC),
+            window_hours=window_hours,
+        )
 
-    logger.info("Collected %d total candidates", len(candidates))
+    logger.info(
+        "Collected %d candidates from %d records (%d duplicates, %d source failures)",
+        len(candidates),
+        run_log.fetched_count,
+        run_log.duplicate_count,
+        len(run_log.failures),
+    )
 
     if dry_run:
-        logger.info("Dry run — skipping output")
-    # TODO: scoring, dedup, selection, output writing (Goals 6–7)
+        logger.info("Dry run — skipping selection and output")
+        return 0
+
+    history = load_section_history(output_dir, date_slug)
+    issue = build_issue(candidates, run_log, history=history)
+    artifact = write_candidates_json(issue, candidates_path(output_dir, date_slug))
+    logger.info(
+        "Selected general=%d engineering=%d biomedical=%d research=%d → %s",
+        len(issue.top_10_general_ai),
+        len(issue.top_5_engineering_ai),
+        len(issue.top_5_medical_bio_ai),
+        len(issue.research_radar),
+        artifact,
+    )
 
     return 0
 
@@ -263,15 +301,37 @@ def collect(
         bool,
         typer.Option(
             "--dry-run",
-            help="Fetch sources but skip scoring and output.",
+            help="Fetch and score sources but skip selection and output.",
         ),
     ] = False,
+    keywords: Annotated[
+        Optional[Path],
+        typer.Option(
+            "--keywords",
+            "-k",
+            help="Path to keywords.toml (default: next to --config, else "
+            "<project_root>/config/keywords.toml).",
+            exists=False,
+        ),
+    ] = None,
+    output_dir: Annotated[
+        Optional[Path],
+        typer.Option(
+            "--output-dir",
+            "-o",
+            help="Directory for *-candidates.json (default: "
+            "<project_root>/data/digests).",
+            exists=False,
+        ),
+    ] = None,
 ) -> None:
     """Collect, score, deduplicate, and select newsletter candidates."""
     project_root = _resolve_project_root()
     _setup_logging(project_root)
 
     config_path = _resolve_config_path(config)
+    keywords_path = _resolve_keywords_path(keywords, config_path)
+    digest_dir = _resolve_output_dir(output_dir)
 
     try:
         cfg = Configuration.load(config_path)
@@ -282,15 +342,26 @@ def collect(
         logger.error("Failed to load configuration: %s", exc)
         raise typer.Exit(code=1) from None
 
+    try:
+        keyword_config = KeywordConfig.load(keywords_path)
+    except FileNotFoundError:
+        logger.error("Keyword configuration file not found: %s", keywords_path)
+        raise typer.Exit(code=1) from None
+    except KeywordError as exc:
+        logger.error("Failed to load keyword configuration: %s", exc)
+        raise typer.Exit(code=1) from None
+
     run_date = date.fromisoformat(date_str) if date_str else date.today()
 
     try:
         exit_code = asyncio.run(
             _run_pipeline(
                 cfg,
+                keyword_config,
                 window_hours=window_hours,
                 run_date=run_date,
                 dry_run=dry_run,
+                output_dir=digest_dir,
             )
         )
     except asyncio.CancelledError:
