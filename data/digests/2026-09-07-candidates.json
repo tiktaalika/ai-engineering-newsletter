@@ -1,15 +1,19 @@
 {
   "run_log": {
-    "generated_at": "2026-09-07T13:01:56.444282+00:00",
+    "generated_at": "2026-09-07T13:30:13.079900+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16211,
-    "filtered_count": 2716,
-    "duplicate_count": 76,
+    "fetched_count": 16704,
+    "filtered_count": 2711,
+    "duplicate_count": 77,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "source": "Rescale",
+        "error": "The read operation timed out"
       },
       {
         "source": "Hamel Husain",
@@ -62,10 +66,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 65.507,
+      "score": 65.345,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -74,7 +78,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.796,
+      "novelty_score": 0.788,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -100,7 +104,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.68,
+      "score": 57.572,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -112,7 +116,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -136,10 +140,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 50.909,
+      "score": 50.801,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -148,7 +152,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.708,
+      "novelty_score": 0.703,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -172,10 +176,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 49.646,
+      "score": 49.484,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.65",
+        "novelty=0.64",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -184,7 +188,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.651,
+      "novelty_score": 0.643,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -212,10 +216,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 66.738,
+      "score": 66.414,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -224,7 +228,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.973,
+      "novelty_score": 0.958,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -248,7 +252,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.279,
+      "score": 60.171,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -260,7 +264,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.831,
+      "novelty_score": 0.826,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -284,10 +288,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.21,
+      "score": 59.886,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.96",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -296,7 +300,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
+      "novelty_score": 0.965,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -318,10 +322,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.285,
+      "score": 55.961,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -330,7 +334,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.952,
+      "novelty_score": 0.938,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -352,10 +356,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.095,
+      "score": 55.771,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -364,7 +368,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.944,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -388,10 +392,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 55.837,
+      "score": 55.513,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -400,7 +404,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.766,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -425,10 +429,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 57.962,
+      "score": 57.638,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.70",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -437,7 +441,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.718,
+      "novelty_score": 0.703,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -494,7 +498,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.244,
+      "score": 51.082,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -506,7 +510,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.564,
+      "novelty_score": 0.557,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -566,10 +570,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.473,
+      "score": 47.149,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -578,7 +582,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.94,
+      "novelty_score": 0.925,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -605,10 +609,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 57.941,
+      "score": 57.617,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.86",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -617,7 +621,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.876,
+      "novelty_score": 0.861,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -639,10 +643,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.095,
+      "score": 55.771,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.94",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -651,7 +655,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.944,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -781,10 +785,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 57.962,
+      "score": 57.638,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.70",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -793,7 +797,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.718,
+      "novelty_score": 0.703,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -850,7 +854,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 51.244,
+      "score": 51.082,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.56",
@@ -862,7 +866,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.564,
+      "novelty_score": 0.557,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -922,10 +926,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.473,
+      "score": 47.149,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.94",
+        "novelty=0.92",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -934,7 +938,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.94,
+      "novelty_score": 0.925,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -1195,16 +1199,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Dassault Systemes",
-      "category": "engineering_ai",
-      "query": "site:blog.3ds.com AI",
-      "url": "https://www.google.com/search?q=site%3Ablog.3ds.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "cad, plm, simulation",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Autodesk",
       "category": "engineering_ai",
       "query": "site:www.autodesk.com AI",
@@ -1282,6 +1276,16 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1497,16 +1501,6 @@
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
-      "source": "Dassault Systemes",
-      "category": "engineering_ai",
-      "query": "site:blog.3ds.com AI",
-      "url": "https://www.google.com/search?q=site%3Ablog.3ds.com%20AI",
-      "source_type": "website",
-      "priority": "medium",
-      "tags": "cad, plm, simulation",
-      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
-    },
-    {
       "source": "Autodesk",
       "category": "engineering_ai",
       "query": "site:www.autodesk.com AI",
@@ -1584,6 +1578,16 @@
       "source_type": "arxiv",
       "priority": "high",
       "tags": "research, papers, arxiv",
+      "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
+    },
+    {
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "query": "site:www.nature.com AI",
+      "url": "https://www.google.com/search?q=site%3Awww.nature.com%20AI",
+      "source_type": "website",
+      "priority": "medium",
+      "tags": "research, journal",
       "note": "Use as a watchlist/manual review task; do not rank the placeholder as a news item."
     },
     {
@@ -1729,42 +1733,6 @@
   ],
   "top_100_news_candidates": [
     {
-      "id": "fb40e0c18bb1e3f1",
-      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
-      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-28T10:15:00+00:00",
-      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 75.77,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.747,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
       "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
@@ -1777,7 +1745,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.341,
+      "score": 75.33,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1790,7 +1758,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.728,
+      "novelty_score": 0.727,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1813,7 +1781,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 73.046,
+      "score": 73.035,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1836,42 +1804,6 @@
       "source_priority": "high"
     },
     {
-      "id": "a8092de86d38fb97",
-      "title": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical",
-      "url": "https://rescale.com/blog/agentic-multi-disciplinary-design-exploration-ansys-cfx-mechanical",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-04T11:15:00+00:00",
-      "text": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical Connect CFD insight to downstream engineering decisions with an agentic Ansys CFX and Mechanical workflow on Rescale. The workflow combines the power of agentic engineering with deterministic simulation across multiple disciplines, analyzing a completed CFX design study, identifying key parameters and data gaps, kicking off follow-on studies, and then brings CFX pressure loads into Mechanical so hydraulic and structural results can be evaluated together.",
-      "matched_terms": [
-        "simulation",
-        "CFD"
-      ],
-      "engagement": {},
-      "score": 72.976,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.923,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "11d4b4b0c169e2b2",
       "title": "Powering data centers with gas turbines – Why System Simulation matters",
       "url": "https://blogs.sw.siemens.com/simcenter/powering-data-centers-with-gas-turbines-why-system-simulation-matters",
@@ -1885,7 +1817,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 71.427,
+      "score": 71.416,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1897,7 +1829,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1920,10 +1852,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.148,
+      "score": 68.138,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2027,10 +1959,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 66.738,
+      "score": 66.414,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.97",
+        "novelty=0.96",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2039,7 +1971,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.973,
+      "novelty_score": 0.958,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2063,7 +1995,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 65.772,
+      "score": 65.761,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.32",
@@ -2075,7 +2007,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.323,
+      "novelty_score": 0.322,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2103,10 +2035,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 65.507,
+      "score": 65.345,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2115,7 +2047,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.796,
+      "novelty_score": 0.788,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2125,42 +2057,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "92bf9577e1c6a8ab",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 63.626,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.498,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2211,7 +2107,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 61.872,
+      "score": 61.861,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.57",
@@ -2223,7 +2119,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.57,
+      "novelty_score": 0.569,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2610,7 +2506,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.279,
+      "score": 60.171,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2622,7 +2518,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.831,
+      "novelty_score": 0.826,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2630,41 +2526,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "d5af22cf07d3d6b8",
-      "title": "OpenAI chief scientist warns no one is prepared for consequences of AI",
-      "url": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-07T12:22:07+00:00",
-      "text": "OpenAI chief scientist warns no one is prepared for consequences of AI The post comes as the firm releases GPT-6 Astra, which it says is its most powerful product yet.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.21,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.979,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2682,10 +2543,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.013,
+      "score": 59.905,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2694,7 +2555,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.698,
+      "novelty_score": 0.693,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2703,6 +2564,41 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "d5af22cf07d3d6b8",
+      "title": "OpenAI chief scientist warns no one is prepared for consequences of AI",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T12:22:07+00:00",
+      "text": "OpenAI chief scientist warns no one is prepared for consequences of AI The post comes as the firm releases GPT-6 Astra, which it says is its most powerful product yet.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 59.886,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.965,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2718,7 +2614,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.858,
+      "score": 59.847,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2773,76 +2669,6 @@
         "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "de2089c0039b6ab6",
-      "title": "Designers should not fear being replaced by AI, industry leaders say",
-      "url": "https://www.theguardian.com/uk-news/2026/sep/07/designers-should-not-fear-being-replaced-by-ai-industry-leaders-say",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-07T04:00:25+00:00",
-      "text": "Designers should not fear being replaced by AI, industry leaders say Firms are more likely to use technology as ‘the intern in the office’ than as a replacement for skilled staff Professional designers should not feel “threatened” by the rapid growth of generative AI, according to business leaders, despite fears over job losses in the sector. With design and film production companies and manufacturers all adopting AI at an accelerating pace, industry bodies said the technology would be used to enhance the work of designers rather than replace them. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "generative AI"
-      ],
-      "engagement": {},
-      "score": 57.962,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.718,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f88e9ae1f13021b4",
-      "title": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging",
-      "url": "https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-07T09:04:03+00:00",
-      "text": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging Artificial intelligence was used to help develop a drug candidate, rentosertib, for a rare lung condition. Its maker says the drug also seems to reduce the biological hallmarks of age.",
-      "matched_terms": [
-        "artificial intelligence",
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 57.941,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.876,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2956,6 +2782,76 @@
       "source_priority": "high"
     },
     {
+      "id": "de2089c0039b6ab6",
+      "title": "Designers should not fear being replaced by AI, industry leaders say",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/07/designers-should-not-fear-being-replaced-by-ai-industry-leaders-say",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-07T04:00:25+00:00",
+      "text": "Designers should not fear being replaced by AI, industry leaders say Firms are more likely to use technology as ‘the intern in the office’ than as a replacement for skilled staff Professional designers should not feel “threatened” by the rapid growth of generative AI, according to business leaders, despite fears over job losses in the sector. With design and film production companies and manufacturers all adopting AI at an accelerating pace, industry bodies said the technology would be used to enhance the work of designers rather than replace them. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "generative AI"
+      ],
+      "engagement": {},
+      "score": 57.638,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.703,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f88e9ae1f13021b4",
+      "title": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging",
+      "url": "https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T09:04:03+00:00",
+      "text": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging Artificial intelligence was used to help develop a drug candidate, rentosertib, for a rare lung condition. Its maker says the drug also seems to reduce the biological hallmarks of age.",
+      "matched_terms": [
+        "artificial intelligence",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 57.617,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.861,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "e02ae19def6b6f7c",
       "title": "Supporting independent journalism in Ukraine",
       "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
@@ -2969,7 +2865,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.68,
+      "score": 57.572,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -2981,7 +2877,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
+      "novelty_score": 0.859,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3008,7 +2904,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.493,
+      "score": 57.385,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -3020,7 +2916,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.553,
+      "novelty_score": 0.548,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5326,6 +5222,108 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Automatisierung Cae Berichterstattung https://www.synera.ai/de/webinar/automatisierung-cae-berichterstattung",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0a951fddf5b3666d",
+      "title": "Automatisierung Fea Aufgaben",
+      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d8f5a4edfd9ee155",
+      "title": "Cae Automation Design Smarter Develop Faster",
+      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
+      "matched_terms": [
+        "CAE"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ba6a4cbdb5dbf1b3",
+      "title": "Cae Automation Design Smarter Develop Faster",
+      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
       "matched_terms": [
         "CAE"
       ],
