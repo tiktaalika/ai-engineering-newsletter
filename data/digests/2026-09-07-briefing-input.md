@@ -3,69 +3,69 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16713
-- filtered_count: 2717
+- fetched_count: 16211
+- filtered_count: 2716
 - duplicate_count: 76
 - failures: 7
 
 ## Top 10 General AI News
 1. [Research acceleration: The view inside OpenAI](https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai)
    - source: Simon Willison
-   - score: 65.661
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.803; source_priority=1.0
+   - score: 65.507
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.796; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Supporting independent journalism in Ukraine](https://openai.com/index/supporting-independent-journalism-in-ukraine)
    - source: OpenAI
-   - score: 57.783
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.869; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.68
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.864; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [An Alien Mind](https://openai.com/index/an-alien-mind)
    - source: OpenAI
-   - score: 51.012
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.713; source_priority=1.0
+   - score: 50.909
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.708; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [The purpose of DNS is to spread scams](https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams)
    - source: Simon Willison
-   - score: 49.8
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.658; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.66; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 49.646
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.651; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.65; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [The Download: the hunt for underground hydrogen and more rogue OpenAI agents](https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents)
    - source: MIT Technology Review AI
-   - score: 67.047
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.987; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [OpenAI chief scientist warns no one is prepared for consequences of AI](https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss)
-   - source: BBC Technology
-   - score: 60.52
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.993; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Authors push back as publishers and agents make claims on Anthropic settlement](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement)
+   - score: 66.738
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.973; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Authors push back as publishers and agents make claims on Anthropic settlement](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement)
    - source: TechCrunch AI
-   - score: 60.382
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.836; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.279
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.831; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [OpenAI chief scientist warns no one is prepared for consequences of AI](https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss)
+   - source: BBC Technology
+   - score: 60.21
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.979; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death](https://www.bbc.co.uk/news/articles/c1wxppnrqlqo?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 56.594
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.966; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.285
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.952; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation](https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab)
    - source: STAT Health Tech
-   - score: 56.404
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.958; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.095
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.944; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Pixel 11 review: Google sets the bar for standard flagship phones](https://www.theguardian.com/technology/2026/sep/07/pixel-11-review-google-flagship-phones-battery-cameras-android)
    - source: The Guardian Technology
-   - score: 56.146
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.795; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.837
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.78; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Designers should not fear being replaced by AI, industry leaders say](https://www.theguardian.com/uk-news/2026/sep/07/designers-should-not-fear-being-replaced-by-ai-industry-leaders-say)
    - source: The Guardian Technology
-   - score: 58.271
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.732; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.962
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.718; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [Industry Roundtable Artificial Intelligence Machine Learning In Cutting Edge Simulation](https://www.neuralconcept.com/post/industry-roundtable-artificial-intelligence-machine-learning-in-cutting-edge-simulation)
    - source: Neural Concept
    - score: 57.033
@@ -73,9 +73,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [There's No Limit to How Bad Code Can Get](https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get)
    - source: Simon Willison
-   - score: 51.398
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.571; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.57; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.244
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.564; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Featured Published July 24, 2026 Webinar highlights: how the fastest robotics teams validate designs with AI-native simulation Robotics teams are under the same pressure as everyone else building hardware right now: less time to prove a design Alex Graham Senior Product Marketing Manager Last updated August 25, 2026](https://www.simscale.com/blog/webinar-highlights-robotics-ai-native-simulation)
    - source: SimScale
    - score: 49.167
@@ -83,21 +83,21 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Remedying The Paper Trail Manufacturing A Digital Route To Compliance](https://www.pharmaceutical-technology.com/sponsored/remedying-the-paper-trail-manufacturing-a-digital-route-to-compliance)
    - source: Pharmaceutical Technology
-   - score: 47.783
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.954; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 47.473
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.94; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Early Data Indicates an A.I.-Generated Drug Could Slow Aging](https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html)
    - source: New York Times Technology
-   - score: 58.25
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.89; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.941
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.876; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation](https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab)
    - source: STAT Health Tech
-   - score: 56.404
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.958; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.095
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.944; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Improving Fable 5 S Biology Safeguards](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards)
    - source: Anthropic
    - score: 43.033
@@ -144,6 +144,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [Engineering.com Simulation News](https://www.google.com/search?q=site%3Aengineering.com/category/technology/simulation%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20simulation%20OR%20CAE%20OR%20CFD%20OR%20FEA%20OR%20%22digital%20twin%22%20OR%20Siemens%20OR%20Simcenter%20OR%20surrogate%29): site:engineering.com/category/technology/simulation (AI OR "artificial intelligence" OR simulation OR CAE OR CFD OR FEA OR "digital twin" OR Siemens OR Simcenter OR surrogate) (newsletter, high)
 - [Design News](https://www.google.com/search?q=site%3Awww.designnews.com%20AI): site:www.designnews.com AI (website, medium)
 - [Engineering24](https://www.google.com/search?q=site%3Awww.engineering24.com%20AI): site:www.engineering24.com AI (manual, medium)
+- [Dassault Systemes](https://www.google.com/search?q=site%3Ablog.3ds.com%20AI): site:blog.3ds.com AI (website, medium)
 - [Autodesk](https://www.google.com/search?q=site%3Awww.autodesk.com%20AI): site:www.autodesk.com AI (website, medium)
 - [Altair](https://www.google.com/search?q=site%3Aaltair.com%20AI): site:altair.com AI (website, high)
 - [Cadence](https://www.google.com/search?q=site%3Acommunity.cadence.com%20AI): site:community.cadence.com AI (website, medium)
@@ -152,7 +153,6 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
-- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
