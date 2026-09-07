@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-07T06:08:24.976242+00:00",
+    "generated_at": "2026-09-07T12:34:57.209559+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16615,
-    "filtered_count": 2628,
-    "duplicate_count": 81,
+    "fetched_count": 16713,
+    "filtered_count": 2717,
+    "duplicate_count": 76,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -66,10 +62,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 67.876,
+      "score": 65.661,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.80",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -78,7 +74,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.903,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -88,6 +84,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "e02ae19def6b6f7c",
+      "title": "Supporting independent journalism in Ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T00:00:00+00:00",
+      "text": "Supporting independent journalism in Ukraine OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.783,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.869,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -103,10 +136,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.489,
+      "score": 51.012,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.71",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -115,7 +148,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.713,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -139,10 +172,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.015,
+      "score": 49.8,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.66",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -151,7 +184,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.758,
+      "novelty_score": 0.658,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -161,6 +194,78 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "8c259ce364520323",
+      "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+      "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T12:10:00+00:00",
+      "text": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How much hydrogen awaits us underground? A flurry of exploration efforts is searching for underground stores of hydrogen gas, which could provide a valuable source of zero-carbon fuel. The hunt has…",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 67.047,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.987,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d5af22cf07d3d6b8",
+      "title": "OpenAI chief scientist warns no one is prepared for consequences of AI",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T12:22:07+00:00",
+      "text": "OpenAI chief scientist warns no one is prepared for consequences of AI The post comes as the firm releases GPT-6 Astra, which it says is its most powerful product yet.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.52,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -178,10 +283,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.858,
+      "score": 60.382,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -190,7 +295,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -201,22 +306,22 @@
       "source_priority": "high"
     },
     {
-      "id": "102c9d67ffb9589f",
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
-      "source": "TechCrunch AI",
+      "id": "958359231871f4b5",
+      "title": "Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death",
+      "url": "https://www.bbc.co.uk/news/articles/c1wxppnrqlqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-06T16:45:00+00:00",
-      "text": "Travis Kalanick’s Atoms might be getting into the robotaxi business The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+      "published_at": "2026-09-07T11:30:27+00:00",
+      "text": "Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death Since Parton's death in late August, dozens of AI-generated songs, images and videos have appeared online.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 54.265,
+      "score": 56.594,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.97",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -225,144 +330,68 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.861,
+      "novelty_score": 0.966,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "42516bb950518fef",
-      "title": "Effective Context Engineering For Ai Agents",
-      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
+      "id": "ae0fff15894762b0",
+      "title": "STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation",
+      "url": "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": null,
-      "text": "Effective Context Engineering For Ai Agents https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "published_at": "2026-09-07T11:13:52+00:00",
+      "text": "STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation Novo Nordisk has stopped two trials of a drug that aims to tame inflammation as a way to improve cardiovascular health, another blow for the approach.",
       "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "Anthropic"
+        "AI"
       ],
       "engagement": {},
-      "score": 53.033,
+      "score": 56.404,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=4",
+        "novelty=0.96",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
+      "novelty_score": 0.958,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "2d462cfc1ae02c0e",
-      "title": "Claude On Mars",
-      "url": "https://www.anthropic.com/features/claude-on-mars",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
+      "id": "35d4bd9df34e3b02",
+      "title": "Pixel 11 review: Google sets the bar for standard flagship phones",
+      "url": "https://www.theguardian.com/technology/2026/sep/07/pixel-11-review-google-flagship-phones-battery-cameras-android",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": null,
-      "text": "Claude On Mars https://www.anthropic.com/features/claude-on-mars",
-      "matched_terms": [
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 49.867,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "b691eb9bc2b3a7f7",
-      "title": "License Mistral Ai Models For Nvidia Inference Microservices",
-      "url": "https://mistral.ai/fr/license-mistral-ai-models-for-nvidia-inference-microservices",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "License Mistral Ai Models For Nvidia Inference Microservices https://mistral.ai/fr/license-mistral-ai-models-for-nvidia-inference-microservices/",
+      "published_at": "2026-09-07T06:00:26+00:00",
+      "text": "Pixel 11 review: Google sets the bar for standard flagship phones Longer battery life, faster chip, actually useful AI tools and better cameras keep quality Android ahead of competition Google’s Pixel 11 continues to set the standard for what you should expect from the base model of a flagship phone with class-leading cameras, long software support and almost all the bells and whistles of its most expensive phones. The regular Pixel 11 costs £879 (€999/$899/A$1,499) making it £80 or equivalent more expensive than last year’s model as the cost of RAMageddon continues to bite . It’s not cheap by any stretch of the imagination, but it comes with 256GB of storage and is £200 less than the Pixel 11 Pro, matching rival Samsung’s Galaxy S26 . Screen: 6.3in 120Hz FHD+ OLED (422ppi) Processor: Google Tensor G6 RAM: 12GB Storage: 256 or 512GB Operating system: Android 17 Camera: 48MP+ 13MP UW + 10.8MP 5x tele; 10.5MP selfie Connectivity: 5G, eSIM, wifi 6E, UWB, NFC, Bluetooth 6 and GNSS Water resistance: IP68 (1.5m for 30 minutes) Dimensions: 152.8 x 72.0 x 8.6mm Weight: 197g Continue reading...",
       "matched_terms": [
         "AI",
-        "Nvidia",
-        "inference"
+        "RAG"
       ],
       "engagement": {},
-      "score": 49.7,
+      "score": 56.146,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "28b8e6419ee947fb",
-      "title": "Mistral Ai And Nvidia Partner To Accelerate Open Frontier Models",
-      "url": "https://mistral.ai/fr/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Mistral Ai And Nvidia Partner To Accelerate Open Frontier Models https://mistral.ai/fr/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models/",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.79",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -371,48 +400,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
+      "novelty_score": 0.795,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "open_model"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "923639699d73def4",
-      "title": "Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants",
-      "url": "https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
-      "source": "Windsurf",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants",
-      "matched_terms": [
-        "AI",
-        "coding assistant"
-      ],
-      "engagement": {},
-      "score": 46.367,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "coding_assistant",
-        "developer_tools"
-      ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -431,10 +425,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 62.7,
+      "score": 58.271,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.73",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -443,7 +437,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.933,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -500,10 +494,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.613,
+      "score": 51.398,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.57",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -512,7 +506,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.672,
+      "novelty_score": 0.571,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -560,41 +554,113 @@
       "source_priority": "medium"
     },
     {
-      "id": "3cec75dd11283730",
-      "title": "Austrian Academy Of Sciences",
-      "url": "https://mistral.ai/customers/austrian-academy-of-sciences",
-      "source": "Mistral AI",
+      "id": "f6645c616becf694",
+      "title": "Remedying The Paper Trail Manufacturing A Digital Route To Compliance",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/remedying-the-paper-trail-manufacturing-a-digital-route-to-compliance",
+      "source": "Pharmaceutical Technology",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
-      "published_at": null,
-      "text": "Austrian Academy Of Sciences https://mistral.ai/customers/austrian-academy-of-sciences/",
+      "published_at": "2026-09-07T11:06:10+00:00",
+      "text": "Remedying The Paper Trail Manufacturing A Digital Route To Compliance https://www.pharmaceutical-technology.com/sponsored/remedying-the-paper-trail-manufacturing-a-digital-route-to-compliance/",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 46.533,
+      "score": 47.783,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.95",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.954,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "bio_ai",
+        "pharma",
+        "drug_discovery",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
+    }
+  ],
+  "top_5_medical_bio_ai": [
+    {
+      "id": "f88e9ae1f13021b4",
+      "title": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging",
+      "url": "https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T09:04:03+00:00",
+      "text": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging Artificial intelligence was used to help develop a drug candidate, rentosertib, for a rare lung condition. Its maker says the drug also seems to reduce the biological hallmarks of age.",
+      "matched_terms": [
+        "artificial intelligence",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 58.25,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.35",
+        "novelty=0.89",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.89,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ae0fff15894762b0",
+      "title": "STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation",
+      "url": "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T11:13:52+00:00",
+      "text": "STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation Novo Nordisk has stopped two trials of a drug that aims to tame inflammation as a way to improve cardiovascular health, another blow for the approach.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.404,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
         "matched_terms=1",
-        "engineering_relevance=0.25",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
+      "novelty_score": 0.958,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "open_model"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
-    }
-  ],
-  "top_5_medical_bio_ai": [
+    },
     {
       "id": "7fee6508a588d342",
       "title": "Improving Fable 5 S Biology Safeguards",
@@ -698,76 +764,6 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "8b723379dae55634",
-      "title": "681559.Article",
-      "url": "https://www.drugtargetreview.com/the-truth-about-ai-in-drug-discovery-what-the-experts-really-think/681559.article",
-      "source": "Drug Target Review",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "681559.Article https://www.drugtargetreview.com/the-truth-about-ai-in-drug-discovery-what-the-experts-really-think/681559.article",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "bio_ai",
-        "drug_discovery",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "80d0c58628082a47",
-      "title": "The EMR, AI, and the Fight Against Physician Burnout - Targeted Oncology",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLTdTUWhLS1g1bFBqd1hVUksyRlZyZ1JDZURtR3o1cDZSa0ZVdkJNYVIwM0pRTG5GQTdBOEJoTFp0NzEwTzVFNFJDVEQ1OXM4S19nR2thX1ZiZXlZb0pjUThydDEyT2gycUpPUm5UZkZ3bXNqSzdFd2dnNlhOU21OVDk0VktnTHczSnl1dWh3?oc=5",
-      "source": "Google News Medical AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-09-07T00:00:00+00:00",
-      "text": "The EMR, AI, and the Fight Against Physician Burnout - Targeted Oncology The EMR, AI, and the Fight Against Physician Burnout Targeted Oncology",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 32.312,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.81",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.808,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "discovery"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -785,10 +781,10 @@
         "generative AI"
       ],
       "engagement": {},
-      "score": 62.7,
+      "score": 58.271,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.73",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -797,7 +793,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.933,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -854,10 +850,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.613,
+      "score": 51.398,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.57",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -866,7 +862,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.672,
+      "novelty_score": 0.571,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -914,38 +910,40 @@
       "source_priority": "medium"
     },
     {
-      "id": "3cec75dd11283730",
-      "title": "Austrian Academy Of Sciences",
-      "url": "https://mistral.ai/customers/austrian-academy-of-sciences",
-      "source": "Mistral AI",
+      "id": "f6645c616becf694",
+      "title": "Remedying The Paper Trail Manufacturing A Digital Route To Compliance",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/remedying-the-paper-trail-manufacturing-a-digital-route-to-compliance",
+      "source": "Pharmaceutical Technology",
       "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
-      "published_at": null,
-      "text": "Austrian Academy Of Sciences https://mistral.ai/customers/austrian-academy-of-sciences/",
+      "published_at": "2026-09-07T11:06:10+00:00",
+      "text": "Remedying The Paper Trail Manufacturing A Digital Route To Compliance https://www.pharmaceutical-technology.com/sponsored/remedying-the-paper-trail-manufacturing-a-digital-route-to-compliance/",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 46.533,
+      "score": 47.783,
       "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
+        "source_priority=0.65",
+        "novelty=0.95",
         "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.954,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "frontier_model",
-        "open_model"
+        "bio_ai",
+        "pharma",
+        "drug_discovery",
+        "biotech"
       ],
-      "registry_category": "vendor",
-      "source_priority": "high"
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     }
   ],
   "research_radar": [
@@ -1743,7 +1741,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.928,
+      "score": 75.78,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -1756,7 +1754,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.754,
+      "novelty_score": 0.748,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1779,7 +1777,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.499,
+      "score": 75.351,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1792,7 +1790,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.735,
+      "novelty_score": 0.728,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1815,7 +1813,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 73.204,
+      "score": 73.056,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1827,7 +1825,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.934,
+      "novelty_score": 0.927,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1851,10 +1849,10 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 73.134,
+      "score": 72.986,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.93",
+        "novelty=0.92",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1863,7 +1861,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.93,
+      "novelty_score": 0.924,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1887,10 +1885,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 71.585,
+      "score": 71.437,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1899,7 +1897,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.86,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1922,7 +1920,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 68.306,
+      "score": 68.159,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -1934,7 +1932,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.862,
+      "novelty_score": 0.856,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1944,43 +1942,40 @@
       "source_priority": "high"
     },
     {
-      "id": "39fa239d3837ad51",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
-      "source": "Simon Willison",
+      "id": "8c259ce364520323",
+      "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+      "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents",
+      "source": "MIT Technology Review AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-06T23:57:40+00:00",
-      "text": "Research acceleration: The view inside OpenAI Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
+      "published_at": "2026-09-07T12:10:00+00:00",
+      "text": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How much hydrogen awaits us underground? A flurry of exploration efforts is searching for underground stores of hydrogen gas, which could provide a valuable source of zero-carbon fuel. The hunt has…",
       "matched_terms": [
         "AI",
-        "LLM",
         "agent",
+        "AI agent",
         "OpenAI"
       ],
       "engagement": {},
-      "score": 67.876,
+      "score": 67.047,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.99",
         "matched_terms=4",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.903,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.987,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
+        "ai",
+        "analysis"
       ],
-      "registry_category": "community",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2068,10 +2063,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 65.93,
+      "score": 65.782,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.33",
+        "novelty=0.32",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -2080,7 +2075,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.33,
+      "novelty_score": 0.323,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2090,6 +2085,46 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "39fa239d3837ad51",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-06T23:57:40+00:00",
+      "text": "Research acceleration: The view inside OpenAI Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 65.661,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.803,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2106,10 +2141,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 63.784,
+      "score": 63.637,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.50",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2118,7 +2153,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.505,
+      "novelty_score": 0.499,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2126,41 +2161,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "de2089c0039b6ab6",
-      "title": "Designers should not fear being replaced by AI, industry leaders say",
-      "url": "https://www.theguardian.com/uk-news/2026/sep/07/designers-should-not-fear-being-replaced-by-ai-industry-leaders-say",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-07T04:00:25+00:00",
-      "text": "Designers should not fear being replaced by AI, industry leaders say Firms are more likely to use technology as ‘the intern in the office’ than as a replacement for skilled staff Professional designers should not feel “threatened” by the rapid growth of generative AI, according to business leaders, despite fears over job losses in the sector. With design and film production companies and manufacturers all adopting AI at an accelerating pace, industry bodies said the technology would be used to enhance the work of designers rather than replace them. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "generative AI"
-      ],
-      "engagement": {},
-      "score": 62.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.933,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2211,10 +2211,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 62.03,
+      "score": 61.882,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.58",
+        "novelty=0.57",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2223,7 +2223,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.577,
+      "novelty_score": 0.57,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2231,6 +2231,41 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d5af22cf07d3d6b8",
+      "title": "OpenAI chief scientist warns no one is prepared for consequences of AI",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T12:22:07+00:00",
+      "text": "OpenAI chief scientist warns no one is prepared for consequences of AI The post comes as the firm releases GPT-6 Astra, which it says is its most powerful product yet.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.52,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2248,10 +2283,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.858,
+      "score": 60.382,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2260,7 +2295,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.836,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2268,44 +2303,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "19672c4832d4c9bc",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "source": "OpenAI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-06T08:00:00+00:00",
-      "text": "Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.593,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.77",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.769,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2671,6 +2668,44 @@
       "source_priority": "high"
     },
     {
+      "id": "19672c4832d4c9bc",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-06T08:00:00+00:00",
+      "text": "Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.116,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.70",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.702,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2683,7 +2718,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.016,
+      "score": 59.868,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2695,7 +2730,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.995,
+      "novelty_score": 0.988,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2741,41 +2776,73 @@
       "source_priority": "high"
     },
     {
-      "id": "1cb48b3f41519359",
-      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "source": "TechCrunch AI",
+      "id": "de2089c0039b6ab6",
+      "title": "Designers should not fear being replaced by AI, industry leaders say",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/07/designers-should-not-fear-being-replaced-by-ai-industry-leaders-say",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-05T18:05:27+00:00",
-      "text": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "category": "engineering_ai",
+      "published_at": "2026-09-07T04:00:25+00:00",
+      "text": "Designers should not fear being replaced by AI, industry leaders say Firms are more likely to use technology as ‘the intern in the office’ than as a replacement for skilled staff Professional designers should not feel “threatened” by the rapid growth of generative AI, according to business leaders, despite fears over job losses in the sector. With design and film production companies and manufacturers all adopting AI at an accelerating pace, industry bodies said the technology would be used to enhance the work of designers rather than replace them. Continue reading...",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
+        "generative AI"
       ],
       "engagement": {},
-      "score": 59.072,
+      "score": 58.271,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.62",
-        "matched_terms=4",
+        "novelty=0.73",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.732,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f88e9ae1f13021b4",
+      "title": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging",
+      "url": "https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T09:04:03+00:00",
+      "text": "Early Data Indicates an A.I.-Generated Drug Could Slow Aging Artificial intelligence was used to help develop a drug candidate, rentosertib, for a rare lung condition. Its maker says the drug also seems to reduce the biological hallmarks of age.",
+      "matched_terms": [
+        "artificial intelligence",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 58.25,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.89",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.624,
+      "novelty_score": 0.89,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2812,6 +2879,43 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "e02ae19def6b6f7c",
+      "title": "Supporting independent journalism in Ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T00:00:00+00:00",
+      "text": "Supporting independent journalism in Ukraine OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.783,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.869,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2886,6 +2990,44 @@
         "papers"
       ],
       "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "1cb48b3f41519359",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-05T18:05:27+00:00",
+      "text": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.596,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.56",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.557,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -5205,143 +5347,6 @@
       "source_tags": [
         "engineering_agents",
         "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "0a951fddf5b3666d",
-      "title": "Automatisierung Fea Aufgaben",
-      "url": "https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Automatisierung Fea Aufgaben https://www.synera.ai/de/webinar/automatisierung-fea-aufgaben",
-      "matched_terms": [
-        "FEA"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "d8f5a4edfd9ee155",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba6a4cbdb5dbf1b3",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c47f51de21ac3351",
-      "title": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
-      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
-      "source": "Luminary Cloud",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud_cae",
-        "simulation",
-        "physics_ai"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"

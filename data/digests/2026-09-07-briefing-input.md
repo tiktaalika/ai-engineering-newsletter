@@ -3,69 +3,69 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16615
-- filtered_count: 2628
-- duplicate_count: 81
-- failures: 8
+- fetched_count: 16713
+- filtered_count: 2717
+- duplicate_count: 76
+- failures: 7
 
 ## Top 10 General AI News
 1. [Research acceleration: The view inside OpenAI](https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai)
    - source: Simon Willison
-   - score: 67.876
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.903; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-2. [An Alien Mind](https://openai.com/index/an-alien-mind)
+   - score: 65.661
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.803; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+2. [Supporting independent journalism in Ukraine](https://openai.com/index/supporting-independent-journalism-in-ukraine)
    - source: OpenAI
-   - score: 52.489
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.78; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [The purpose of DNS is to spread scams](https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams)
+   - score: 57.783
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.869; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [An Alien Mind](https://openai.com/index/an-alien-mind)
+   - source: OpenAI
+   - score: 51.012
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.713; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [The purpose of DNS is to spread scams](https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams)
    - source: Simon Willison
-   - score: 52.015
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.758; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Authors push back as publishers and agents make claims on Anthropic settlement](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement)
+   - score: 49.8
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.658; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.66; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [The Download: the hunt for underground hydrogen and more rogue OpenAI agents](https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents)
+   - source: MIT Technology Review AI
+   - score: 67.047
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.987; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [OpenAI chief scientist warns no one is prepared for consequences of AI](https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss)
+   - source: BBC Technology
+   - score: 60.52
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.993; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Authors push back as publishers and agents make claims on Anthropic settlement](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement)
    - source: TechCrunch AI
-   - score: 61.858
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.903; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Travis Kalanick’s Atoms might be getting into the robotaxi business](https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business)
-   - source: TechCrunch AI
-   - score: 54.265
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.861; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Effective Context Engineering For Ai Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
-   - source: Anthropic
-   - score: 53.033
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Claude On Mars](https://www.anthropic.com/features/claude-on-mars)
-   - source: Anthropic
-   - score: 49.867
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-8. [License Mistral Ai Models For Nvidia Inference Microservices](https://mistral.ai/fr/license-mistral-ai-models-for-nvidia-inference-microservices)
-   - source: Mistral AI
-   - score: 49.7
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Mistral Ai And Nvidia Partner To Accelerate Open Frontier Models](https://mistral.ai/fr/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models)
-   - source: Mistral AI
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Gartner Windsurf Cognition Magic Quadrant Ai Coding Assistants](https://windsurf.com/blog/gartner-windsurf-cognition-magic-quadrant-ai-coding-assistants)
-   - source: Windsurf
-   - score: 46.367
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.382
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.836; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death](https://www.bbc.co.uk/news/articles/c1wxppnrqlqo?at_medium=RSS&at_campaign=rss)
+   - source: BBC Technology
+   - score: 56.594
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.966; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation](https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab)
+   - source: STAT Health Tech
+   - score: 56.404
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.958; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Pixel 11 review: Google sets the bar for standard flagship phones](https://www.theguardian.com/technology/2026/sep/07/pixel-11-review-google-flagship-phones-battery-cameras-android)
+   - source: The Guardian Technology
+   - score: 56.146
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.795; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Designers should not fear being replaced by AI, industry leaders say](https://www.theguardian.com/uk-news/2026/sep/07/designers-should-not-fear-being-replaced-by-ai-industry-leaders-say)
    - source: The Guardian Technology
-   - score: 62.7
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.933; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.271
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.732; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [Industry Roundtable Artificial Intelligence Machine Learning In Cutting Edge Simulation](https://www.neuralconcept.com/post/industry-roundtable-artificial-intelligence-machine-learning-in-cutting-edge-simulation)
    - source: Neural Concept
    - score: 57.033
@@ -73,46 +73,46 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 3. [There's No Limit to How Bad Code Can Get](https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get)
    - source: Simon Willison
-   - score: 53.613
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.672; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.67; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 51.398
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.571; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Featured Published July 24, 2026 Webinar highlights: how the fastest robotics teams validate designs with AI-native simulation Robotics teams are under the same pressure as everyone else building hardware right now: less time to prove a design Alex Graham Senior Product Marketing Manager Last updated August 25, 2026](https://www.simscale.com/blog/webinar-highlights-robotics-ai-native-simulation)
    - source: SimScale
    - score: 49.167
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Austrian Academy Of Sciences](https://mistral.ai/customers/austrian-academy-of-sciences)
-   - source: Mistral AI
-   - score: 46.533
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+5. [Remedying The Paper Trail Manufacturing A Digital Route To Compliance](https://www.pharmaceutical-technology.com/sponsored/remedying-the-paper-trail-manufacturing-a-digital-route-to-compliance)
+   - source: Pharmaceutical Technology
+   - score: 47.783
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.954; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Improving Fable 5 S Biology Safeguards](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards)
+1. [Early Data Indicates an A.I.-Generated Drug Could Slow Aging](https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html)
+   - source: New York Times Technology
+   - score: 58.25
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.89; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation](https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab)
+   - source: STAT Health Tech
+   - score: 56.404
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.958; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Improving Fable 5 S Biology Safeguards](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards)
    - source: Anthropic
    - score: 43.033
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Healthcare Answering Service](https://elevenlabs.io/agents/healthcare-answering-service)
+4. [Healthcare Answering Service](https://elevenlabs.io/agents/healthcare-answering-service)
    - source: ElevenLabs
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [680638.Article](https://www.drugtargetreview.com/making-science-run-at-the-speed-of-thought-the-reality-of-ai-in-drug-discovery-part-2/680638.article)
+5. [680638.Article](https://www.drugtargetreview.com/making-science-run-at-the-speed-of-thought-the-reality-of-ai-in-drug-discovery-part-2/680638.article)
    - source: Drug Target Review
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [681559.Article](https://www.drugtargetreview.com/the-truth-about-ai-in-drug-discovery-what-the-experts-really-think/681559.article)
-   - source: Drug Target Review
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [The EMR, AI, and the Fight Against Physician Burnout - Targeted Oncology](https://news.google.com/rss/articles/CBMijgFBVV95cUxNLTdTUWhLS1g1bFBqd1hVUksyRlZyZ1JDZURtR3o1cDZSa0ZVdkJNYVIwM0pRTG5GQTdBOEJoTFp0NzEwTzVFNFJDVEQ1OXM4S19nR2thX1ZiZXlZb0pjUThydDEyT2gycUpPUm5UZkZ3bXNqSzdFd2dnNlhOU21OVDk0VktnTHczSnl1dWh3?oc=5)
-   - source: Google News Medical AI Discovery
-   - score: 32.312
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.808; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Aligning To What](https://huggingface.co/blog/MiniMax-AI/aligning-to-what)
@@ -180,5 +180,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
