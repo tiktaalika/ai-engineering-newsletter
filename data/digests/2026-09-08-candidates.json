@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-08T06:08:24.044494+00:00",
+    "generated_at": "2026-09-08T11:21:13.217590+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16672,
-    "filtered_count": 2699,
-    "duplicate_count": 78,
+    "fetched_count": 16692,
+    "filtered_count": 2709,
+    "duplicate_count": 77,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -65,10 +61,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.86,
+      "score": 60.068,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -77,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.821,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,10 +100,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.353,
+      "score": 59.561,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.80",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -116,7 +112,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.88,
+      "novelty_score": 0.798,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -129,33 +125,134 @@
       "source_priority": "high"
     },
     {
-      "id": "a442094cef6ae654",
-      "title": "Architect of UK’s AI policy quits after Anthropic conflict of interest concerns",
-      "url": "https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns",
-      "source": "The Guardian Technology",
+      "id": "9043eb8074e2c4d2",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
+      "source": "MIT Technology Review AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-07T14:42:24+00:00",
-      "text": "Architect of UK’s AI policy quits after Anthropic conflict of interest concerns Matt Clifford forced to stand down amid disquiet from senior MPs over his new full-time job at AI company The chair of the UK government’s “moonshot” science and technology research unit has been forced to stand down after taking a job with the San Francisco AI firm Anthropic, in a move senior MPs called a “clear conflict of interest”. Matt Clifford announced last week that he was taking a full-time job working for the company behind the Claude chatbot, “leading its engagement” with governments outside the US – including the UK. But he retained his leadership at the UK’s Advanced Research and Invention Agency (Aria), which funds frontier science and tech projects . Continue reading...",
+      "published_at": "2026-09-08T10:34:00+00:00",
+      "text": "This AI entrepreneur is developing agents that can plan ahead for the unexpected Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
       "matched_terms": [
         "AI",
-        "Anthropic",
-        "Claude"
+        "agent"
       ],
       "engagement": {},
-      "score": 56.056,
+      "score": 60.126,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.52",
-        "matched_terms=3",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.975,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2ea4ee1371f00f24",
+      "title": "A.I. Models Built a Computer Worm That Could Rapidly Hack WeChat Accounts",
+      "url": "https://www.nytimes.com/2026/09/08/us/politics/calif-ai-worm-wechat-hack.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T09:05:09+00:00",
+      "text": "A.I. Models Built a Computer Worm That Could Rapidly Hack WeChat Accounts The attack, discovered by A.I. researchers, could have compromised hundreds of millions of devices within hours, experts said.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.441,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.518,
+      "novelty_score": 0.929,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "dd8f37007080491c",
+      "title": "This founder is teaching chips how to recycle (their energy)",
+      "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T10:36:00+00:00",
+      "text": "This founder is teaching chips how to recycle (their energy) Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and chief technology officer of Vaire Computing, a startup building chips that recycle energy usually thrown away as heat—a strategy known as reversible computing.…",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 56.815,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.976,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "2396625c9bdd4ff8",
+      "title": "Key App Developers Have Yet to Embrace Apple’s New Siri A.I.",
+      "url": "https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T09:04:17+00:00",
+      "text": "Key App Developers Have Yet to Embrace Apple’s New Siri A.I. For the company’s new artificial intelligence system to take off, it will need plenty of support from the makers of popular apps on Apple’s phones.",
+      "matched_terms": [
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 55.764,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.929,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -203,22 +300,22 @@
       "source_priority": "high"
     },
     {
-      "id": "375e038f05f3a709",
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
-      "source": "TechCrunch AI",
+      "id": "3dc917ef89fb4010",
+      "title": "Reynolds is selling fruity new vapes unauthorized by FDA",
+      "url": "https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-07T19:24:00+00:00",
-      "text": "Opaque recurrence, and other AI terms that you should probably know The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "published_at": "2026-09-08T08:30:00+00:00",
+      "text": "Reynolds is selling fruity new vapes unauthorized by FDA The decision to move ahead with new products in the absence of FDA authorization could spur other big manufacturers to do the same, one tobacco-nicotine expert said.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 54.872,
+      "score": 55.371,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -227,193 +324,123 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.888,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "7394a68acf5c3d66",
-      "title": "AI cancer cures slowed by chip shortage, says UK's biggest tech boss",
-      "url": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-07T23:05:12+00:00",
-      "text": "AI cancer cures slowed by chip shortage, says UK's biggest tech boss The head of chip designer Arm says modelling how a DNA marker is impacted by cancer cannot be done now, but computers are \"going to solve it\".",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 52.484,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "7c5fd5059c446991",
-      "title": "‘Mistrust’ of Palantir may affect NHS research, says health minister",
-      "url": "https://www.theguardian.com/society/2026/sep/07/mistrust-of-ai-palantir-may-affect-nhs-research",
+      "id": "3ceecf265b886c2d",
+      "title": "STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms",
+      "url": "https://www.statnews.com/2026/09/08/uhg-political-donations-katherine-clark-democratic-whip-medicare-for-all",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T08:30:00+00:00",
+      "text": "STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms Katherine Clark, a top House Democrat, received more than $100,000 in campaign donations from people linked to UnitedHealth Group.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.371,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a442094cef6ae654",
+      "title": "Architect of UK’s AI policy quits after Anthropic conflict of interest concerns",
+      "url": "https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-07T15:33:44+00:00",
-      "text": "‘Mistrust’ of Palantir may affect NHS research, says health minister James Frith says patients may be less willing to share data as new figures show a rise in opt-outs Concern is being raised about Palantir’s work with the NHS as new figures showed tens of thousands of patients have withdrawn their data from use in research projects. James Frith, the health innovation minister, said he was worried about “mistrust” of the US defence and health tech company and “the impact it could have on people’s willingness to share data with the NHS”. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 49.978,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.54",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.544,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b691eb9bc2b3a7f7",
-      "title": "License Mistral Ai Models For Nvidia Inference Microservices",
-      "url": "https://mistral.ai/fr/license-mistral-ai-models-for-nvidia-inference-microservices",
-      "source": "Mistral AI",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "License Mistral Ai Models For Nvidia Inference Microservices https://mistral.ai/fr/license-mistral-ai-models-for-nvidia-inference-microservices/",
+      "published_at": "2026-09-07T14:42:24+00:00",
+      "text": "Architect of UK’s AI policy quits after Anthropic conflict of interest concerns Matt Clifford forced to stand down amid disquiet from senior MPs over his new full-time job at AI company The chair of the UK government’s “moonshot” science and technology research unit has been forced to stand down after taking a job with the San Francisco AI firm Anthropic, in a move senior MPs called a “clear conflict of interest”. Matt Clifford announced last week that he was taking a full-time job working for the company behind the Claude chatbot, “leading its engagement” with governments outside the US – including the UK. But he retained his leadership at the UK’s Advanced Research and Invention Agency (Aria), which funds frontier science and tech projects . Continue reading...",
       "matched_terms": [
         "AI",
-        "Nvidia",
-        "inference"
+        "Anthropic",
+        "Claude"
       ],
       "engagement": {},
-      "score": 49.7,
+      "score": 52.472,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.35",
         "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "open_model"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "b3af42e15cc93e21",
-      "title": "Ai Assistance Coding Skills",
-      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Ai Assistance Coding Skills https://www.anthropic.com/research/AI-assistance-coding-skills",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 49.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.35,
+      "novelty_score": 0.355,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "102c9d67ffb9589f",
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-06T16:45:00+00:00",
-      "text": "Travis Kalanick’s Atoms might be getting into the robotaxi business The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 48.765,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.61",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.611,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
+    {
+      "id": "36299747857ec4d9",
+      "title": "US police fear Meta smart glasses could be used to secretly record them",
+      "url": "https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-08T10:00:02+00:00",
+      "text": "US police fear Meta smart glasses could be used to secretly record them Exclusive: Documents show officers from Maine to California worry Meta’s camera-equipped glasses will be used either to secretly record them or aid acts of terrorism In January, the New York Police Department’s counterterrorism unit sent out a memo warning police officers about a new potential “security and counterintelligence” threat: Ray-Ban Meta glasses. The memo directed officers to “conduct thorough inspections of all eyewear permitted within inmate cells” and cautioned that people who have been arrested could use these glasses, equipped with small cameras and microphones, to record inside police facilities. The memo cited two examples of such videos posted on social media. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.903,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.958,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
     {
       "id": "a102955cccae6daf",
       "title": "The 3 Ai Features In Designcenter Solid Edge",
@@ -483,41 +510,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "b4a8ba775ca1ecf6",
-      "title": "What Is ISO 7730? The Thermal Comfort Standard Explained ISO 7730 sets the PMV and PPD method for thermal comfort. Its scope, the clause structure, what changed in the 2025 edition, and how it differs from ASHRAE 55. Jon Wilde September 1, 2026 AEC , CFD",
-      "url": "https://www.simscale.com/blog/iso-7730-thermal-comfort",
-      "source": "SimScale",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "What Is ISO 7730? The Thermal Comfort Standard Explained ISO 7730 sets the PMV and PPD method for thermal comfort. Its scope, the clause structure, what changed in the 2025 edition, and how it differs from ASHRAE 55. Jon Wilde September 1, 2026 AEC , CFD https://www.simscale.com/blog/iso-7730-thermal-comfort/",
-      "matched_terms": [
-        "ROM",
-        "CFD"
-      ],
-      "engagement": {},
-      "score": 49.167,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "cloud_cae",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     },
     {
       "id": "3cec75dd11283730",
@@ -591,22 +583,22 @@
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "aeab26e992186b6d",
-      "title": "Develop Site Centric Protocols To Optimize Enrollment And Maximize Performance",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/develop-site-centric-protocols-to-optimize-enrollment-and-maximize-performance",
-      "source": "Pharmaceutical Technology",
-      "source_kind": "sitemap_or_search",
+      "id": "3dc917ef89fb4010",
+      "title": "Reynolds is selling fruity new vapes unauthorized by FDA",
+      "url": "https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-07T14:23:27+00:00",
-      "text": "Develop Site Centric Protocols To Optimize Enrollment And Maximize Performance https://www.pharmaceutical-technology.com/sponsored/develop-site-centric-protocols-to-optimize-enrollment-and-maximize-performance/",
+      "published_at": "2026-09-08T08:30:00+00:00",
+      "text": "Reynolds is selling fruity new vapes unauthorized by FDA The decision to move ahead with new products in the absence of FDA authorization could spur other big manufacturers to do the same, one tobacco-nicotine expert said.",
       "matched_terms": [
-        "LLM"
+        "AI"
       ],
       "engagement": {},
-      "score": 35.306,
+      "score": 55.371,
       "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.51",
+        "source_priority=1.00",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -615,7 +607,77 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.508,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3ceecf265b886c2d",
+      "title": "STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms",
+      "url": "https://www.statnews.com/2026/09/08/uhg-political-donations-katherine-clark-democratic-whip-medicare-for-all",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T08:30:00+00:00",
+      "text": "STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms Katherine Clark, a top House Democrat, received more than $100,000 in campaign donations from people linked to UnitedHealth Group.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.371,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6915338134ed9d80",
+      "title": "Lstm Opens Robotic Ai Lab Infections Research",
+      "url": "https://www.pharmaceutical-technology.com/news/lstm-opens-robotic-ai-lab-infections-research",
+      "source": "Pharmaceutical Technology",
+      "source_kind": "sitemap_or_search",
+      "category": "general_ai",
+      "published_at": "2026-09-08T10:24:18+00:00",
+      "text": "Lstm Opens Robotic Ai Lab Infections Research https://www.pharmaceutical-technology.com/news/lstm-opens-robotic-ai-lab-infections-research/",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 48.148,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=0.97",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.97,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -693,78 +755,43 @@
       ],
       "registry_category": "vendor",
       "source_priority": "medium"
-    },
-    {
-      "id": "8b723379dae55634",
-      "title": "681559.Article",
-      "url": "https://www.drugtargetreview.com/the-truth-about-ai-in-drug-discovery-what-the-experts-really-think/681559.article",
-      "source": "Drug Target Review",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "681559.Article https://www.drugtargetreview.com/the-truth-about-ai-in-drug-discovery-what-the-experts-really-think/681559.article",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "bio_ai",
-        "drug_discovery",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "b1c41b961e835f0f",
-      "title": "Opinion: AI will only revolutionize drug discovery and development if we play to its strengths - BioSpace",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONFhUeUtHZzVuTHhlaXR1SU1ib0NWNHN4OHc2ckpmMjRWRlNJdFdTVXNhek5VaEdOVWdGSVJUUU0zQ2U2VXE3aHlTODBxd1o5T21QY1I0anBPeHFjUUl3NXdHTlRUT0pyVnlHTlBZVlNxRUdNS3BqMFhIa0xxcW1ZXzNrQ2dOY2ZKdFVFem54emtfV0xEOWh2NkZTSTJNZGZWY3NvUVRpS1d6QnQzRmdHMU13WFlfSFdlZFJkSWhuTG1BeFBwUDFfZDlKQkNLUEFE?oc=5",
-      "source": "Google News General AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T05:02:33+00:00",
-      "text": "Opinion: AI will only revolutionize drug discovery and development if we play to its strengths - BioSpace Opinion: AI will only revolutionize drug discovery and development if we play to its strengths BioSpace",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 35.779,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.97",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.966,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "discovery",
-        "news"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
     }
   ],
   "top_5_cae_ai_engineering": [
+    {
+      "id": "36299747857ec4d9",
+      "title": "US police fear Meta smart glasses could be used to secretly record them",
+      "url": "https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-08T10:00:02+00:00",
+      "text": "US police fear Meta smart glasses could be used to secretly record them Exclusive: Documents show officers from Maine to California worry Meta’s camera-equipped glasses will be used either to secretly record them or aid acts of terrorism In January, the New York Police Department’s counterterrorism unit sent out a memo warning police officers about a new potential “security and counterintelligence” threat: Ray-Ban Meta glasses. The memo directed officers to “conduct thorough inspections of all eyewear permitted within inmate cells” and cautioned that people who have been arrested could use these glasses, equipped with small cameras and microphones, to record inside police facilities. The memo cited two examples of such videos posted on social media. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.903,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.958,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
     {
       "id": "a102955cccae6daf",
       "title": "The 3 Ai Features In Designcenter Solid Edge",
@@ -834,41 +861,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
-    },
-    {
-      "id": "b4a8ba775ca1ecf6",
-      "title": "What Is ISO 7730? The Thermal Comfort Standard Explained ISO 7730 sets the PMV and PPD method for thermal comfort. Its scope, the clause structure, what changed in the 2025 edition, and how it differs from ASHRAE 55. Jon Wilde September 1, 2026 AEC , CFD",
-      "url": "https://www.simscale.com/blog/iso-7730-thermal-comfort",
-      "source": "SimScale",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "What Is ISO 7730? The Thermal Comfort Standard Explained ISO 7730 sets the PMV and PPD method for thermal comfort. Its scope, the clause structure, what changed in the 2025 edition, and how it differs from ASHRAE 55. Jon Wilde September 1, 2026 AEC , CFD https://www.simscale.com/blog/iso-7730-thermal-comfort/",
-      "matched_terms": [
-        "ROM",
-        "CFD"
-      ],
-      "engagement": {},
-      "score": 49.167,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "cloud_cae",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "medium"
     },
     {
       "id": "3cec75dd11283730",
@@ -942,6 +934,42 @@
   ],
   "research_radar": [
     {
+      "id": "c0c4f797d3181d56",
+      "title": "OVHai LLM",
+      "url": "https://huggingface.co/OVHaiLLM",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "OVHai LLM https://huggingface.co/OVHaiLLM",
+      "matched_terms": [
+        "AI",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 54.367,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
       "id": "79a47714422b85f5",
       "title": "Gaia2",
       "url": "https://huggingface.co/blog/gaia2",
@@ -1012,6 +1040,41 @@
       "source_priority": "high"
     },
     {
+      "id": "bc66160cd87ca4ff",
+      "title": "Institute of Foundation Models",
+      "url": "https://huggingface.co/IFM",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Institute of Foundation Models https://huggingface.co/IFM",
+      "matched_terms": [
+        "foundation model"
+      ],
+      "engagement": {},
+      "score": 51.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
       "id": "5753123a75d6ebbc",
       "title": "Jupyter Agent 2",
       "url": "https://huggingface.co/blog/jupyter-agent-2",
@@ -1022,76 +1085,6 @@
       "text": "Jupyter Agent 2 https://huggingface.co/blog/jupyter-agent-2",
       "matched_terms": [
         "agent"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "88b1488664435187",
-      "title": "Embeddinggemma",
-      "url": "https://huggingface.co/blog/embeddinggemma",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Embeddinggemma https://huggingface.co/blog/embeddinggemma",
-      "matched_terms": [
-        "embedding"
-      ],
-      "engagement": {},
-      "score": 51.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "community",
-        "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "d171834f71a7cb7b",
-      "title": "Kimina Prover Rl",
-      "url": "https://huggingface.co/blog/AI-MO/kimina-prover-rl",
-      "source": "Hugging Face Papers",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "Kimina Prover Rl https://huggingface.co/blog/AI-MO/kimina-prover-rl",
-      "matched_terms": [
-        "AI"
       ],
       "engagement": {},
       "score": 51.033,
@@ -1735,10 +1728,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 75.378,
+      "score": 75.258,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1748,7 +1741,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.729,
+      "novelty_score": 0.724,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1771,10 +1764,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.949,
+      "score": 74.829,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1784,7 +1777,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.71,
+      "novelty_score": 0.704,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1807,10 +1800,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 72.654,
+      "score": 72.534,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1819,7 +1812,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1843,10 +1836,10 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 72.584,
+      "score": 72.464,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1855,7 +1848,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.9,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1879,7 +1872,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 71.035,
+      "score": 70.915,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1891,7 +1884,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.835,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1914,10 +1907,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.756,
+      "score": 67.637,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1926,7 +1919,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.837,
+      "novelty_score": 0.832,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2020,10 +2013,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 65.38,
+      "score": 65.26,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.30",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -2032,7 +2025,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.305,
+      "novelty_score": 0.3,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2058,10 +2051,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 63.234,
+      "score": 63.115,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
+        "novelty=0.47",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2070,7 +2063,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.48,
+      "novelty_score": 0.475,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2116,45 +2109,6 @@
       "source_priority": "high"
     },
     {
-      "id": "de5fd5432c6a3bb4",
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-07T23:54:54+00:00",
-      "text": "llm 0.35 Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.86,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "22f82cd96b728a66",
       "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
       "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
@@ -2167,7 +2121,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 61.48,
+      "score": 61.36,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2179,7 +2133,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.552,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2187,45 +2141,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "98f4e2b874d7aed7",
-      "title": "Quoting Jakub Pachocki",
-      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-07T22:26:25+00:00",
-      "text": "Quoting Jakub Pachocki The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. — Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.353,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.88,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2591,6 +2506,80 @@
       "source_priority": "high"
     },
     {
+      "id": "9043eb8074e2c4d2",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T10:34:00+00:00",
+      "text": "This AI entrepreneur is developing agents that can plan ahead for the unexpected Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 60.126,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.975,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "de5fd5432c6a3bb4",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T23:54:54+00:00",
+      "text": "llm 0.35 Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.068,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.82",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.821,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2603,10 +2592,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.04,
+      "score": 59.92,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2615,7 +2604,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.99,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2624,6 +2613,40 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
+    },
+    {
+      "id": "36299747857ec4d9",
+      "title": "US police fear Meta smart glasses could be used to secretly record them",
+      "url": "https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-08T10:00:02+00:00",
+      "text": "US police fear Meta smart glasses could be used to secretly record them Exclusive: Documents show officers from Maine to California worry Meta’s camera-equipped glasses will be used either to secretly record them or aid acts of terrorism In January, the New York Police Department’s counterterrorism unit sent out a memo warning police officers about a new potential “security and counterintelligence” threat: Ray-Ban Meta glasses. The memo directed officers to “conduct thorough inspections of all eyewear permitted within inmate cells” and cautioned that people who have been arrested could use these glasses, equipped with small cameras and microphones, to record inside police facilities. The memo cited two examples of such videos posted on social media. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 59.903,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.958,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -2658,6 +2681,79 @@
         "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "98f4e2b874d7aed7",
+      "title": "Quoting Jakub Pachocki",
+      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-07T22:26:25+00:00",
+      "text": "Quoting Jakub Pachocki The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. — Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 59.561,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.798,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "2ea4ee1371f00f24",
+      "title": "A.I. Models Built a Computer Worm That Could Rapidly Hack WeChat Accounts",
+      "url": "https://www.nytimes.com/2026/09/08/us/politics/calif-ai-worm-wechat-hack.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T09:05:09+00:00",
+      "text": "A.I. Models Built a Computer Worm That Could Rapidly Hack WeChat Accounts The attack, discovered by A.I. researchers, could have compromised hundreds of millions of devices within hours, experts said.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.441,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.929,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2768,43 +2864,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "6c7435abd5a11f5a",
-      "title": "Creepy crawlies",
-      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-07T23:08:58+00:00",
-      "text": "Creepy crawlies Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.597,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.891,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -5261,76 +5320,6 @@
         "cloud_cae",
         "simulation",
         "physics_ai"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "68416d20bf0d7089",
-      "title": "Ai In Cae",
-      "url": "https://www.neuralconcept.com/post/ai-in-cae",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "955ec8dc94a3f30b",
-      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
-      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"

@@ -3,79 +3,79 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16672
-- filtered_count: 2699
-- duplicate_count: 78
-- failures: 8
+- fetched_count: 16692
+- filtered_count: 2709
+- duplicate_count: 77
+- failures: 7
 
 ## Top 10 General AI News
 1. [llm 0.35](https://simonwillison.net/2026/Sep/7/llm)
    - source: Simon Willison
-   - score: 61.86
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.903; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.068
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Quoting Jakub Pachocki](https://simonwillison.net/2026/Sep/7/jakub-pachocki)
    - source: Simon Willison
-   - score: 61.353
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.88; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.88; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Architect of UK’s AI policy quits after Anthropic conflict of interest concerns](https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns)
-   - source: The Guardian Technology
-   - score: 56.056
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.518; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.52; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-4. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
+   - score: 59.561
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.798; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [This AI entrepreneur is developing agents that can plan ahead for the unexpected](https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents)
+   - source: MIT Technology Review AI
+   - score: 60.126
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [A.I. Models Built a Computer Worm That Could Rapidly Hack WeChat Accounts](https://www.nytimes.com/2026/09/08/us/politics/calif-ai-worm-wechat-hack.html)
+   - source: New York Times Technology
+   - score: 58.441
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.929; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [This founder is teaching chips how to recycle (their energy)](https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy)
+   - source: MIT Technology Review AI
+   - score: 56.815
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.976; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Key App Developers Have Yet to Embrace Apple’s New Siri A.I.](https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html)
+   - source: New York Times Technology
+   - score: 55.764
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.929; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
    - source: Anthropic
    - score: 55.7
    - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-5. [Opaque recurrence, and other AI terms that you should probably know](https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms)
-   - source: TechCrunch AI
-   - score: 54.872
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.888; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [AI cancer cures slowed by chip shortage, says UK's biggest tech boss](https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss)
-   - source: BBC Technology
-   - score: 52.484
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.78; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [‘Mistrust’ of Palantir may affect NHS research, says health minister](https://www.theguardian.com/society/2026/sep/07/mistrust-of-ai-palantir-may-affect-nhs-research)
+8. [Reynolds is selling fruity new vapes unauthorized by FDA](https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized)
+   - source: STAT Health Tech
+   - score: 55.371
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms](https://www.statnews.com/2026/09/08/uhg-political-donations-katherine-clark-democratic-whip-medicare-for-all)
+   - source: STAT Health Tech
+   - score: 55.371
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Architect of UK’s AI policy quits after Anthropic conflict of interest concerns](https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns)
    - source: The Guardian Technology
-   - score: 49.978
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.544; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.54; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-8. [License Mistral Ai Models For Nvidia Inference Microservices](https://mistral.ai/fr/license-mistral-ai-models-for-nvidia-inference-microservices)
-   - source: Mistral AI
-   - score: 49.7
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
-   - source: Anthropic
-   - score: 49.033
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-10. [Travis Kalanick’s Atoms might be getting into the robotaxi business](https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business)
-   - source: TechCrunch AI
-   - score: 48.765
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.611; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.61; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.472
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.355; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [The 3 Ai Features In Designcenter Solid Edge](https://www.engineering.com/the-3-ai-features-in-designcenter-solid-edge)
+1. [US police fear Meta smart glasses could be used to secretly record them](https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses)
+   - source: The Guardian Technology
+   - score: 59.903
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.958; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+2. [The 3 Ai Features In Designcenter Solid Edge](https://www.engineering.com/the-3-ai-features-in-designcenter-solid-edge)
    - source: Engineering.com Artificial Intelligence
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Innovations In Turbulence Modeling Enhancing Simulation](https://www.neuralconcept.com/post/innovations-in-turbulence-modeling-enhancing-simulation)
+3. [Innovations In Turbulence Modeling Enhancing Simulation](https://www.neuralconcept.com/post/innovations-in-turbulence-modeling-enhancing-simulation)
    - source: Neural Concept
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [What Is ISO 7730? The Thermal Comfort Standard Explained ISO 7730 sets the PMV and PPD method for thermal comfort. Its scope, the clause structure, what changed in the 2025 edition, and how it differs from ASHRAE 55. Jon Wilde September 1, 2026 AEC , CFD](https://www.simscale.com/blog/iso-7730-thermal-comfort)
-   - source: SimScale
-   - score: 49.167
-   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Austrian Academy Of Sciences](https://mistral.ai/customers/austrian-academy-of-sciences)
    - source: Mistral AI
    - score: 46.533
@@ -88,50 +88,50 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Develop Site Centric Protocols To Optimize Enrollment And Maximize Performance](https://www.pharmaceutical-technology.com/sponsored/develop-site-centric-protocols-to-optimize-enrollment-and-maximize-performance)
+1. [Reynolds is selling fruity new vapes unauthorized by FDA](https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized)
+   - source: STAT Health Tech
+   - score: 55.371
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms](https://www.statnews.com/2026/09/08/uhg-political-donations-katherine-clark-democratic-whip-medicare-for-all)
+   - source: STAT Health Tech
+   - score: 55.371
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Lstm Opens Robotic Ai Lab Infections Research](https://www.pharmaceutical-technology.com/news/lstm-opens-robotic-ai-lab-infections-research)
    - source: Pharmaceutical Technology
-   - score: 35.306
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.508; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.51; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Healthcare](https://elevenlabs.io/agents/healthcare)
+   - score: 48.148
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.97; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+4. [Healthcare](https://elevenlabs.io/agents/healthcare)
    - source: ElevenLabs
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
+5. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
    - source: Databricks AI
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [681559.Article](https://www.drugtargetreview.com/the-truth-about-ai-in-drug-discovery-what-the-experts-really-think/681559.article)
-   - source: Drug Target Review
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Opinion: AI will only revolutionize drug discovery and development if we play to its strengths - BioSpace](https://news.google.com/rss/articles/CBMi0AFBVV95cUxONFhUeUtHZzVuTHhlaXR1SU1ib0NWNHN4OHc2ckpmMjRWRlNJdFdTVXNhek5VaEdOVWdGSVJUUU0zQ2U2VXE3aHlTODBxd1o5T21QY1I0anBPeHFjUUl3NXdHTlRUT0pyVnlHTlBZVlNxRUdNS3BqMFhIa0xxcW1ZXzNrQ2dOY2ZKdFVFem54emtfV0xEOWh2NkZTSTJNZGZWY3NvUVRpS1d6QnQzRmdHMU13WFlfSFdlZFJkSWhuTG1BeFBwUDFfZDlKQkNLUEFE?oc=5)
-   - source: Google News General AI Discovery
-   - score: 35.779
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.966; source_priority=0.35
-   - reasons: source_priority=0.35; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
-1. [Gaia2](https://huggingface.co/blog/gaia2)
+1. [OVHai LLM](https://huggingface.co/OVHaiLLM)
+   - source: Hugging Face Papers
+   - score: 54.367
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
+2. [Gaia2](https://huggingface.co/blog/gaia2)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-2. [Inference Providers Scaleway](https://huggingface.co/blog/inference-providers-scaleway)
+3. [Inference Providers Scaleway](https://huggingface.co/blog/inference-providers-scaleway)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-3. [Jupyter Agent 2](https://huggingface.co/blog/jupyter-agent-2)
+4. [Institute of Foundation Models](https://huggingface.co/IFM)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-4. [Embeddinggemma](https://huggingface.co/blog/embeddinggemma)
-   - source: Hugging Face Papers
-   - score: 51.033
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
-5. [Kimina Prover Rl](https://huggingface.co/blog/AI-MO/kimina-prover-rl)
+5. [Jupyter Agent 2](https://huggingface.co/blog/jupyter-agent-2)
    - source: Hugging Face Papers
    - score: 51.033
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.35; source_priority=1.0
@@ -180,5 +180,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
