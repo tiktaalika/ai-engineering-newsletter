@@ -1,19 +1,15 @@
 {
   "run_log": {
-    "generated_at": "2026-09-08T11:45:16.408192+00:00",
+    "generated_at": "2026-09-08T12:08:00.916470+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16682,
-    "filtered_count": 2705,
-    "duplicate_count": 77,
+    "fetched_count": 16694,
+    "filtered_count": 2714,
+    "duplicate_count": 78,
     "failures": [
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
-      },
-      {
-        "source": "Rescale",
-        "error": "mismatched tag: line 93, column 2"
       },
       {
         "source": "Hamel Husain",
@@ -65,10 +61,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.93,
+      "score": 59.8,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -77,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,7 +100,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.423,
+      "score": 59.293,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -116,7 +112,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.792,
+      "novelty_score": 0.786,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -126,6 +122,79 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "89bbdfee897665a8",
+      "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T12:00:00+00:00",
+      "text": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and...",
+      "matched_terms": [
+        "AI",
+        "Nvidia",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 63.969,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.999,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "c57a8d0e20f6f6a0",
+      "title": "AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief",
+      "url": "https://www.theguardian.com/business/2026/sep/08/ai-cure-cancer-arm-holdings-rene-haas",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T11:49:11+00:00",
+      "text": "AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief Rene Haas also claims artificial intelligence could pave way for widespread use of humanoid robots within five years Business live – latest updates The boss of one of the UK’s biggest chip companies has claimed AI will be able to find a cure for cancer “in our lifetime”. Rene Haas, chief executive of the chip designer Arm Holdings, said that, while modelling how a DNA marker is affected by cancer was currently “too complex” a problem for either humans or technology, computers were “going to solve it” in the future. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 60.451,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.99,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -142,10 +211,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 59.85,
+      "score": 59.589,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -154,45 +223,11 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.951,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "analysis"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2ea4ee1371f00f24",
-      "title": "A.I. Models Built a Computer Worm That Could Rapidly Hack WeChat Accounts",
-      "url": "https://www.nytimes.com/2026/09/08/us/politics/calif-ai-worm-wechat-hack.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T09:05:09+00:00",
-      "text": "A.I. Models Built a Computer Worm That Could Rapidly Hack WeChat Accounts The attack, discovered by A.I. researchers, could have compromised hundreds of millions of devices within hours, experts said.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.165,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.917,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -210,10 +245,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.158,
+      "score": 56.898,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -222,46 +257,12 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
         "healthcare_ai",
         "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "dd8f37007080491c",
-      "title": "This founder is teaching chips how to recycle (their energy)",
-      "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy",
-      "source": "MIT Technology Review AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T10:36:00+00:00",
-      "text": "This founder is teaching chips how to recycle (their energy) Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and chief technology officer of Vaire Computing, a startup building chips that recycle energy usually thrown away as heat—a strategy known as reversible computing.…",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 56.54,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.964,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -317,10 +318,10 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 55.489,
+      "score": 55.228,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -329,7 +330,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.904,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -337,6 +338,43 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "3a8f166ed6ef53c8",
+      "title": "GitLab Warns That AI Agent Sandboxes Are Only as Secure as Their Network Access",
+      "url": "https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access",
+      "source": "InfoQ AI ML Data Engineering",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T12:00:00+00:00",
+      "text": "GitLab Warns That AI Agent Sandboxes Are Only as Secure as Their Network Access GitLab warns that isolating an AI coding agent in a sandbox does not necessarily make the agent safe. In a new security analysis, the company describes an internal evaluation in which an AI agent escaped its sandbox by exploiting a vulnerable package proxy that had been explicitly placed on the sandbox's allowlist. By Craig Risi",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 52.708,
+      "score_reasons": [
+        "source_priority=0.65",
+        "novelty=1.00",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.996,
+      "source_priority_score": 0.65,
+      "source_tags": [
+        "software_engineering",
+        "mlops",
+        "data_engineering"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "medium"
     },
     {
       "id": "a442094cef6ae654",
@@ -353,10 +391,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 52.196,
+      "score": 51.936,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.34",
+        "novelty=0.33",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -365,49 +403,13 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.342,
+      "novelty_score": 0.33,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b3af42e15cc93e21",
-      "title": "Ai Assistance Coding Skills",
-      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
-      "source": "Anthropic",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "Ai Assistance Coding Skills https://www.anthropic.com/research/AI-assistance-coding-skills",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 49.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "safety",
-        "policy"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     }
   ],
@@ -425,10 +427,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.627,
+      "score": 59.367,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -437,7 +439,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.945,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -600,10 +602,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.158,
+      "score": 56.898,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.99",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -612,7 +614,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -635,10 +637,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.096,
+      "score": 54.835,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -647,7 +649,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
+      "novelty_score": 0.886,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -670,10 +672,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 47.872,
+      "score": 47.612,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -682,7 +684,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.958,
+      "novelty_score": 0.946,
       "source_priority_score": 0.65,
       "source_tags": [
         "bio_ai",
@@ -728,22 +730,22 @@
       "source_priority": "medium"
     },
     {
-      "id": "aeab26e992186b6d",
-      "title": "Develop Site Centric Protocols To Optimize Enrollment And Maximize Performance",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/develop-site-centric-protocols-to-optimize-enrollment-and-maximize-performance",
-      "source": "Pharmaceutical Technology",
+      "id": "0d281b21de587643",
+      "title": "Survey Reveals Ai Adoption Is Accelerating In Healthcare But Readiness Is Not",
+      "url": "https://medcitynews.com/2026/09/survey-reveals-ai-adoption-is-accelerating-in-healthcare-but-readiness-is-not",
+      "source": "MedCity News",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
-      "published_at": "2026-09-07T14:23:27+00:00",
-      "text": "Develop Site Centric Protocols To Optimize Enrollment And Maximize Performance https://www.pharmaceutical-technology.com/sponsored/develop-site-centric-protocols-to-optimize-enrollment-and-maximize-performance/",
+      "published_at": null,
+      "text": "Survey Reveals Ai Adoption Is Accelerating In Healthcare But Readiness Is Not https://medcitynews.com/2026/09/survey-reveals-ai-adoption-is-accelerating-in-healthcare-but-readiness-is-not/",
       "matched_terms": [
-        "LLM"
+        "AI"
       ],
       "engagement": {},
-      "score": 31.446,
+      "score": 31.833,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.33",
+        "novelty=0.35",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -752,13 +754,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.332,
+      "novelty_score": 0.35,
       "source_priority_score": 0.65,
       "source_tags": [
-        "bio_ai",
-        "pharma",
-        "drug_discovery",
-        "biotech"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech",
+        "digital_health"
       ],
       "registry_category": "general_ai",
       "source_priority": "medium"
@@ -778,10 +780,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.627,
+      "score": 59.367,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -790,7 +792,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.945,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1723,6 +1725,42 @@
   ],
   "top_100_news_candidates": [
     {
+      "id": "fb40e0c18bb1e3f1",
+      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
+      "url": "https://rescale.com/blog/simulation-guide-agent-expert-every-engineer-tailored-workflow",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-28T10:15:00+00:00",
+      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 75.24,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.72",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.723,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "cf931add37c1ce90",
       "title": "Agentic AI Within the Simulation Engineering Space",
       "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
@@ -1735,7 +1773,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.82,
+      "score": 74.811,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -1771,7 +1809,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 72.525,
+      "score": 72.517,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -1783,12 +1821,48 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.902,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
         "simulation",
         "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a8092de86d38fb97",
+      "title": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical",
+      "url": "https://rescale.com/blog/agentic-multi-disciplinary-design-exploration-ansys-cfx-mechanical",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-04T11:15:00+00:00",
+      "text": "Agentic Multi-Disciplinary Design Exploration with Ansys CFX and Mechanical Connect CFD insight to downstream engineering decisions with an agentic Ansys CFX and Mechanical workflow on Rescale. The workflow combines the power of agentic engineering with deterministic simulation across multiple disciplines, analyzing a completed CFX design study, identifying key parameters and data gaps, kicking off follow-on studies, and then brings CFX pressure loads into Mechanical so hydraulic and structural results can be evaluated together.",
+      "matched_terms": [
+        "simulation",
+        "CFD"
+      ],
+      "engagement": {},
+      "score": 72.446,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.90",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.899,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1807,7 +1881,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 70.906,
+      "score": 70.897,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1842,7 +1916,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.628,
+      "score": 67.619,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1854,7 +1928,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.832,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1948,7 +2022,7 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 65.251,
+      "score": 65.243,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.30",
@@ -1968,6 +2042,80 @@
         "simulation",
         "industrial_ai",
         "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "89bbdfee897665a8",
+      "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T12:00:00+00:00",
+      "text": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and...",
+      "matched_terms": [
+        "AI",
+        "Nvidia",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 63.969,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.999,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "92bf9577e1c6a8ab",
+      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
+      "url": "https://rescale.com/blog/predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-18T11:16:00+00:00",
+      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
+      "matched_terms": [
+        "simulation",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 63.097,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.47",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.474,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -2020,7 +2168,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 61.351,
+      "score": 61.342,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2040,6 +2188,41 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "c57a8d0e20f6f6a0",
+      "title": "AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief",
+      "url": "https://www.theguardian.com/business/2026/sep/08/ai-cure-cancer-arm-holdings-rene-haas",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T11:49:11+00:00",
+      "text": "AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief Rene Haas also claims artificial intelligence could pave way for widespread use of humanoid robots within five years Business live – latest updates The boss of one of the UK’s biggest chip companies has claimed AI will be able to find a cure for cancer “in our lifetime”. Rene Haas, chief executive of the chip designer Arm Holdings, said that, while modelling how a DNA marker is affected by cancer was currently “too complex” a problem for either humans or technology, computers were “going to solve it” in the future. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 60.451,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.99,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2405,45 +2588,6 @@
       "source_priority": "high"
     },
     {
-      "id": "de5fd5432c6a3bb4",
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-07T23:54:54+00:00",
-      "text": "llm 0.35 Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 59.93,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.815,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2456,7 +2600,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.911,
+      "score": 59.902,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2479,38 +2623,42 @@
       "source_priority": "medium"
     },
     {
-      "id": "9043eb8074e2c4d2",
-      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
-      "source": "MIT Technology Review AI",
+      "id": "de5fd5432c6a3bb4",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-08T10:34:00+00:00",
-      "text": "This AI entrepreneur is developing agents that can plan ahead for the unexpected Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+      "published_at": "2026-09-07T23:54:54+00:00",
+      "text": "llm 0.35 Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
       "matched_terms": [
         "AI",
-        "agent"
+        "LLM",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 59.85,
+      "score": 59.8,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
-        "matched_terms=2",
+        "novelty=0.81",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.963,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "analysis"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2549,6 +2697,41 @@
       "source_priority": "high"
     },
     {
+      "id": "9043eb8074e2c4d2",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T10:34:00+00:00",
+      "text": "This AI entrepreneur is developing agents that can plan ahead for the unexpected Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+      "matched_terms": [
+        "AI",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 59.589,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.951,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "36299747857ec4d9",
       "title": "US police fear Meta smart glasses could be used to secretly record them",
       "url": "https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses",
@@ -2561,10 +2744,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 59.627,
+      "score": 59.367,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.95",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2573,7 +2756,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.945,
+      "novelty_score": 0.933,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2597,7 +2780,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.423,
+      "score": 59.293,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -2609,7 +2792,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.792,
+      "novelty_score": 0.786,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2634,10 +2817,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.165,
+      "score": 57.905,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2646,7 +2829,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.917,
+      "novelty_score": 0.905,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2763,41 +2946,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "2def64108989e537",
-      "title": "STAT+: Inhibrx claims first win for long-sought immunotherapy target",
-      "url": "https://www.statnews.com/2026/09/08/inhibrx-inbrx-106-ox40-immunotherapy-head-and-neck-cancer-hpv-positive",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T11:30:00+00:00",
-      "text": "STAT+: Inhibrx claims first win for long-sought immunotherapy target “Pushing this is like a rock up a hill, because there’s been so much failure in the space,” said Inhibrx CEO Mark Lappe.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.158,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.992,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5185,145 +5333,6 @@
       "source_tags": [
         "engineering_agents",
         "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ba6a4cbdb5dbf1b3",
-      "title": "Cae Automation Design Smarter Develop Faster",
-      "url": "https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Cae Automation Design Smarter Develop Faster https://www.synera.ai/de/webinar/cae-automation-design-smarter-develop-faster",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "c47f51de21ac3351",
-      "title": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases",
-      "url": "https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology",
-      "source": "Luminary Cloud",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "03.18.2025 Luminary and nTop Streamline AI Physics and Cut Engineering Design Time from Months to Hours with NVIDIA Technology Luminary Press Use Cases https://www.luminarycloud.com/resources/luminary-cloud-and-ntop-streamline-ai-physics-and-cut-engineering-design-time-from-months-to-hours-with-nvidia-technology/",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud_cae",
-        "simulation",
-        "physics_ai"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "68416d20bf0d7089",
-      "title": "Ai In Cae",
-      "url": "https://www.neuralconcept.com/post/ai-in-cae",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai In Cae https://www.neuralconcept.com/post/ai-in-cae",
-      "matched_terms": [
-        "CAE"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "955ec8dc94a3f30b",
-      "title": "Ai Simulation For Engineering Smarter Modeling And Better Insights",
-      "url": "https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
-      "source": "Neural Concept",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Ai Simulation For Engineering Smarter Modeling And Better Insights https://www.neuralconcept.com/post/ai-simulation-for-engineering-smarter-modeling-and-better-insights",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "surrogate_model",
-        "cae",
-        "engineering_intelligence"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
