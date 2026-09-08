@@ -3,41 +3,41 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16694
-- filtered_count: 2714
-- duplicate_count: 78
+- fetched_count: 16687
+- filtered_count: 2713
+- duplicate_count: 79
 - failures: 7
 
 ## Top 10 General AI News
 1. [llm 0.35](https://simonwillison.net/2026/Sep/7/llm)
    - source: Simon Willison
-   - score: 59.8
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.809; source_priority=1.0
+   - score: 59.745
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.807; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Quoting Jakub Pachocki](https://simonwillison.net/2026/Sep/7/jakub-pachocki)
    - source: Simon Willison
-   - score: 59.293
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.786; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.238
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.784; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Introducing CUDA Rust: Two Tracks for Writing GPU Kernels](https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels)
    - source: NVIDIA AI
-   - score: 63.969
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.999; source_priority=1.0
+   - score: 63.933
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.997; source_priority=1.0
    - reasons: source_priority=1.00; novelty=1.00; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief](https://www.theguardian.com/business/2026/sep/08/ai-cure-cancer-arm-holdings-rene-haas)
    - source: The Guardian Technology
-   - score: 60.451
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.99; source_priority=1.0
+   - score: 60.34
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.985; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [This AI entrepreneur is developing agents that can plan ahead for the unexpected](https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents)
    - source: MIT Technology Review AI
-   - score: 59.589
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.951; source_priority=1.0
+   - score: 59.479
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.946; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.95; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [STAT+: Inhibrx claims first win for long-sought immunotherapy target](https://www.statnews.com/2026/09/08/inhibrx-inbrx-106-ox40-immunotherapy-head-and-neck-cancer-hpv-positive)
    - source: STAT Health Tech
-   - score: 56.898
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.98; source_priority=1.0
+   - score: 56.787
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
    - source: Anthropic
@@ -46,25 +46,25 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [Key App Developers Have Yet to Embrace Apple’s New Siri A.I.](https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html)
    - source: New York Times Technology
-   - score: 55.228
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.904; source_priority=1.0
+   - score: 55.118
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.899; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [GitLab Warns That AI Agent Sandboxes Are Only as Secure as Their Network Access](https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access)
    - source: InfoQ AI ML Data Engineering
-   - score: 52.708
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.996; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=1.00; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.598
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.991; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.99; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Architect of UK’s AI policy quits after Anthropic conflict of interest concerns](https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns)
    - source: The Guardian Technology
-   - score: 51.936
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.33; source_priority=1.0
+   - score: 51.825
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.325; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.33; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [US police fear Meta smart glasses could be used to secretly record them](https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses)
    - source: The Guardian Technology
-   - score: 59.367
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.933; source_priority=1.0
+   - score: 59.256
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.928; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [The 3 Ai Features In Designcenter Solid Edge](https://www.engineering.com/the-3-ai-features-in-designcenter-solid-edge)
    - source: Engineering.com Artificial Intelligence
@@ -90,19 +90,19 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Inhibrx claims first win for long-sought immunotherapy target](https://www.statnews.com/2026/09/08/inhibrx-inbrx-106-ox40-immunotherapy-head-and-neck-cancer-hpv-positive)
    - source: STAT Health Tech
-   - score: 56.898
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.98; source_priority=1.0
+   - score: 56.787
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Reynolds is selling fruity new vapes unauthorized by FDA](https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized)
    - source: STAT Health Tech
-   - score: 54.835
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.886; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.725
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.881; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Lstm Opens Robotic Ai Lab Infections Research](https://www.pharmaceutical-technology.com/news/lstm-opens-robotic-ai-lab-infections-research)
    - source: Pharmaceutical Technology
-   - score: 47.612
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.946; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.95; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 47.501
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.941; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.94; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Healthcare](https://elevenlabs.io/agents/healthcare)
    - source: ElevenLabs
    - score: 31.833
