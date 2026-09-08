@@ -3,69 +3,69 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16692
-- filtered_count: 2709
+- fetched_count: 16682
+- filtered_count: 2705
 - duplicate_count: 77
-- failures: 7
+- failures: 8
 
 ## Top 10 General AI News
 1. [llm 0.35](https://simonwillison.net/2026/Sep/7/llm)
    - source: Simon Willison
-   - score: 60.068
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
+   - score: 59.93
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.815; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Quoting Jakub Pachocki](https://simonwillison.net/2026/Sep/7/jakub-pachocki)
    - source: Simon Willison
-   - score: 59.561
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.798; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.423
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.792; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [This AI entrepreneur is developing agents that can plan ahead for the unexpected](https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents)
    - source: MIT Technology Review AI
-   - score: 60.126
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.85
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.963; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [A.I. Models Built a Computer Worm That Could Rapidly Hack WeChat Accounts](https://www.nytimes.com/2026/09/08/us/politics/calif-ai-worm-wechat-hack.html)
    - source: New York Times Technology
-   - score: 58.441
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.929; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-5. [This founder is teaching chips how to recycle (their energy)](https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy)
+   - score: 58.165
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.917; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+5. [STAT+: Inhibrx claims first win for long-sought immunotherapy target](https://www.statnews.com/2026/09/08/inhibrx-inbrx-106-ox40-immunotherapy-head-and-neck-cancer-hpv-positive)
+   - source: STAT Health Tech
+   - score: 57.158
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.992; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [This founder is teaching chips how to recycle (their energy)](https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy)
    - source: MIT Technology Review AI
-   - score: 56.815
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.976; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Key App Developers Have Yet to Embrace Apple’s New Siri A.I.](https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html)
-   - source: New York Times Technology
-   - score: 55.764
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.929; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.54
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.964; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [Sleeper Agents Training Deceptive Llms That Persist Through Safety Training](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
    - source: Anthropic
    - score: 55.7
    - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-8. [Reynolds is selling fruity new vapes unauthorized by FDA](https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized)
-   - source: STAT Health Tech
-   - score: 55.371
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms](https://www.statnews.com/2026/09/08/uhg-political-donations-katherine-clark-democratic-whip-medicare-for-all)
-   - source: STAT Health Tech
-   - score: 55.371
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [Architect of UK’s AI policy quits after Anthropic conflict of interest concerns](https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns)
+8. [Key App Developers Have Yet to Embrace Apple’s New Siri A.I.](https://www.nytimes.com/2026/09/08/technology/apple-siri-ai.html)
+   - source: New York Times Technology
+   - score: 55.489
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.916; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [Architect of UK’s AI policy quits after Anthropic conflict of interest concerns](https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns)
    - source: The Guardian Technology
-   - score: 52.472
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.355; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 52.196
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.342; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.34; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+10. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+   - source: Anthropic
+   - score: 49.033
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [US police fear Meta smart glasses could be used to secretly record them](https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses)
    - source: The Guardian Technology
-   - score: 59.903
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.958; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.627
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.945; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [The 3 Ai Features In Designcenter Solid Edge](https://www.engineering.com/the-3-ai-features-in-designcenter-solid-edge)
    - source: Engineering.com Artificial Intelligence
    - score: 57.033
@@ -88,31 +88,31 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Reynolds is selling fruity new vapes unauthorized by FDA](https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized)
+1. [STAT+: Inhibrx claims first win for long-sought immunotherapy target](https://www.statnews.com/2026/09/08/inhibrx-inbrx-106-ox40-immunotherapy-head-and-neck-cancer-hpv-positive)
    - source: STAT Health Tech
-   - score: 55.371
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [STAT+: UnitedHealth executives shower high-ranking Democrat with donations ahead of midterms](https://www.statnews.com/2026/09/08/uhg-political-donations-katherine-clark-democratic-whip-medicare-for-all)
+   - score: 57.158
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.992; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Reynolds is selling fruity new vapes unauthorized by FDA](https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized)
    - source: STAT Health Tech
-   - score: 55.371
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.096
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Lstm Opens Robotic Ai Lab Infections Research](https://www.pharmaceutical-technology.com/news/lstm-opens-robotic-ai-lab-infections-research)
    - source: Pharmaceutical Technology
-   - score: 48.148
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.97; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 47.872
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.958; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.96; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [Healthcare](https://elevenlabs.io/agents/healthcare)
    - source: ElevenLabs
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
-   - source: Databricks AI
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Develop Site Centric Protocols To Optimize Enrollment And Maximize Performance](https://www.pharmaceutical-technology.com/sponsored/develop-site-centric-protocols-to-optimize-enrollment-and-maximize-performance)
+   - source: Pharmaceutical Technology
+   - score: 31.446
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.332; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.33; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [OVHai LLM](https://huggingface.co/OVHaiLLM)
@@ -175,6 +175,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Source Failures
 - Ansys: HTTP Error 404: Not Found
+- Rescale: mismatched tag: line 93, column 2
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
 - Chips and Cheese: HTTP Error 403: Forbidden
