@@ -4,73 +4,73 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16762
-- filtered_count: 2764
+- filtered_count: 2766
 - duplicate_count: 77
 - failures: 7
 
 ## Top 10 General AI News
 1. [On the Navier–Stokes Millennium Prize Problem](https://simonwillison.net/2026/Sep/8/on-navier-stokes)
    - source: Simon Willison
-   - score: 75.38
-   - score_breakdown: general=1.0; engineering=0.0; research=0.667; novelty=0.82; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=6; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 75.221
+   - score_breakdown: general=1.0; engineering=0.0; research=0.667; novelty=0.813; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=6; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 2. [GPT-6 Astra, Looped Transformers, and Hidden Reasoning](https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and)
    - source: Ahead of AI
-   - score: 65.316
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.999; source_priority=1.0
+   - score: 65.27
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.997; source_priority=1.0
    - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 3. [[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded](https://www.latent.space/p/ainews-openai-reports-navier-stokes)
    - source: Latent Space
-   - score: 61.821
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.901; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.662
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.894; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Quoting Terence Tao](https://simonwillison.net/2026/Sep/9/terence-tao)
    - source: Simon Willison
-   - score: 56.19
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.827; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 56.031
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.82; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 5. [The Work Now Within Reach](https://openai.com/index/the-work-now-within-reach)
    - source: OpenAI
-   - score: 52.195
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.766; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.089
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.762; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6](https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6)
    - source: Amazon AWS AI
-   - score: 72.3
-   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.802; source_priority=1.0
+   - score: 72.194
+   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.797; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=6; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 7. [Anthropic researcher believes more than 10% chance AI 'could kill all humans'](https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 66.225
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.98; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 65.907
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.965; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod](https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod)
    - source: Amazon AWS AI
-   - score: 62.953
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.831; source_priority=1.0
+   - score: 62.847
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.826; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 9. [Meta debuts its Muse AI agent. Will consumers trust it?](https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it)
    - source: TechCrunch AI
-   - score: 60.237
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.829; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.83; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.131
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.824; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [US allies lack resources to keep pace on AI, top Pentagon official says](https://www.theguardian.com/us-news/2026/sep/09/us-military-pentagon-allies-ai)
    - source: The Guardian Technology
-   - score: 59.691
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.956; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.373
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.941; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [China’s Regulators Take Aim at “AI Boyfriends”](https://spectrum.ieee.org/china-ai-chatbot-regulation)
    - source: IEEE Spectrum AI
-   - score: 79.358
-   - score_breakdown: general=0.833; engineering=0.5; research=0.333; novelty=0.956; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.96; matched_terms=5; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
+   - score: 79.04
+   - score_breakdown: general=0.833; engineering=0.5; research=0.333; novelty=0.941; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=5; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
 2. [Worried Anthropic researchers warn that AI ‘could kill all humans’](https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans)
    - source: The Verge AI
-   - score: 72.649
-   - score_breakdown: general=0.5; engineering=0.5; research=0.333; novelty=0.954; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=3; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
+   - score: 72.332
+   - score_breakdown: general=0.5; engineering=0.5; research=0.333; novelty=0.939; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.94; matched_terms=3; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
 3. [Agentic Ai Meets Weldline Mapping For End To End Injection Molding Simulation](https://www.synera.ai/news/agentic-ai-meets-weldline-mapping-for-end-to-end-injection-molding-simulation)
    - source: Synera
    - score: 67.033
@@ -78,31 +78,31 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
 4. [What OpenAI’s latest controversy tells us about the future of math](https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math)
    - source: MIT Technology Review AI
-   - score: 61.827
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.742; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.74; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.509
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.728; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [OpenAI claims to have solved maths problem that stumped humans for decades](https://www.theguardian.com/science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades)
    - source: The Guardian Technology
-   - score: 57.92
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.565; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.56; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.602
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.55; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.55; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Opinion: Autonomous AI will beat AI-assisted physicians at some medical tasks by 2030](https://www.statnews.com/2026/09/09/ai-medicine-assisted-physicians-research-autonomy)
    - source: STAT Health Tech
-   - score: 55.325
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.909; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.008
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.894; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Opinion: AMA CEO: AI won’t replace doctors — it will work alongside them](https://www.statnews.com/2026/09/09/ai-medicine-doctors-replacement-debate-ama-ceo)
    - source: STAT Health Tech
-   - score: 55.325
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.909; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.008
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.894; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Google’s Atlas of the human genome could pave the way for new treatments](https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas)
    - source: The Verge AI
-   - score: 48.606
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.331; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.33; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 48.289
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.316; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.32; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 4. [2136415.Article](https://www.drugtargetreview.com/uks-first-ai-robotic-organoid-lab-opens-in-liverpool/2136415.article)
    - source: Drug Target Review
    - score: 31.833
@@ -117,16 +117,16 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [GPT-6 Astra, Looped Transformers, and Hidden Reasoning](https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and)
    - source: Ahead of AI
-   - score: 65.316
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.999; source_priority=1.0
+   - score: 65.27
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.997; source_priority=1.0
 2. [Research acceleration: The view inside OpenAI](https://openai.com/index/research-acceleration-view-inside-openai)
    - source: OpenAI Research RSS
-   - score: 64.593
-   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.663; source_priority=1.0
+   - score: 64.547
+   - score_breakdown: general=0.5; engineering=0.0; research=1.0; novelty=0.661; source_priority=1.0
 3. [On the Navier–Stokes Millennium Prize Problem](https://openai.com/index/navier-stokes-solution)
    - source: OpenAI Research RSS
-   - score: 62.837
-   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.887; source_priority=1.0
+   - score: 62.791
+   - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.884; source_priority=1.0
 4. [Nvidia Physical Ai](https://huggingface.co/blog/nvidia-physical-ai)
    - source: Hugging Face Papers
    - score: 57.867
