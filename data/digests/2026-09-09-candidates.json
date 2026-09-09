@@ -1,10 +1,10 @@
 {
   "run_log": {
-    "generated_at": "2026-09-09T06:08:29.905621+00:00",
+    "generated_at": "2026-09-09T11:25:15.628779+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16742,
-    "filtered_count": 2754,
+    "fetched_count": 16762,
+    "filtered_count": 2764,
     "duplicate_count": 77,
     "failures": [
       {
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -68,10 +64,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 77.195,
+      "score": 75.38,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.82",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -80,7 +76,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.903,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -90,6 +86,42 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "44084287147f6737",
+      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "source": "Ahead of AI",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-09-09T11:14:25+00:00",
+      "text": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 65.316,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=1.00",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.999,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "ml",
+        "llm",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -107,10 +139,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 63.635,
+      "score": 61.821,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -119,7 +151,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
+      "novelty_score": 0.901,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -143,10 +175,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.005,
+      "score": 56.19,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.83",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -155,7 +187,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.909,
+      "novelty_score": 0.827,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -180,10 +212,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.405,
+      "score": 52.195,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.77",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -192,7 +224,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.766,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -221,10 +253,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 73.51,
+      "score": 72.3,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.80",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -233,7 +265,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.857,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -244,36 +276,33 @@
       "source_priority": "high"
     },
     {
-      "id": "e33fa72d2bfbd2bd",
-      "title": "OpenAI releases new AI agent – after admitting one went rogue",
-      "url": "https://www.theguardian.com/technology/2026/sep/04/openai-agent-goes-rogue",
-      "source": "The Guardian Technology",
+      "id": "ba162b1f044b2cea",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-08T13:29:51+00:00",
-      "text": "OpenAI releases new AI agent – after admitting one went rogue Plus: Americans think they have it bad with unwanted surveillance. They should visit London Hello, and welcome to TechScape. I’m your host, Blake Montgomery, US tech editor at the Guardian, writing to you after visiting Coney Island in New York City, where I ate a hotdog, rode a ferris wheel and enjoyed a quintessentially American summer holiday. Today in tech, we’re examining OpenAI’s new model release and the Silicon Valley’s monopoly power, and wondering why Brits and Americans have such vastly different opinions about surveillance cameras. Nvidia to buy developer platform Hugging Face in $12.9bn deal New York City to ban student AI use in public schools until high school Freelancers are getting buried with ‘soulless’ AI slop cleanup: ‘It’s a shame we need to do it’ Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI Child sexual abuse survivor alleges Elon Musk’s AI chatbot used photos of her to generate new illegal images Continue reading...",
+      "published_at": "2026-09-09T10:46:43+00:00",
+      "text": "Anthropic researcher believes more than 10% chance AI 'could kill all humans' It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent",
-        "OpenAI",
-        "Nvidia",
-        "model release"
+        "artificial intelligence",
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 65.224,
+      "score": 66.225,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=6",
+        "novelty=0.98",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.48,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -297,10 +326,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 64.162,
+      "score": 62.953,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -309,7 +338,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.886,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -334,10 +363,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.447,
+      "score": 60.237,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -346,7 +375,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -357,115 +386,113 @@
       "source_priority": "high"
     },
     {
-      "id": "726d56896e0f623b",
-      "title": "Meta bets on AI agent Muse to catch up in AI race",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-      "source": "The Verge AI",
+      "id": "944e38c2d55e9038",
+      "title": "US allies lack resources to keep pace on AI, top Pentagon official says",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/us-military-pentagon-allies-ai",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-08T19:00:00+00:00",
-      "text": "Meta bets on AI agent Muse to catch up in AI race Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch up […]",
+      "published_at": "2026-09-09T10:00:05+00:00",
+      "text": "US allies lack resources to keep pace on AI, top Pentagon official says Cameron Stanley talks up ‘revolutionary’ AI capabilities and says Washington working with Nato and Five Eyes partners The Pentagon’s top artificial intelligence official said on Tuesday that America’s closest allies lack the resources to keep pace with the US military’s adoption of AI, and that Washington is working to steer them away from mistakes it made along the way. “They don’t have the resources that we do, they don’t have the experience that we do, they don’t have the scale that we do,” Cameron Stanley, chief digital and artificial intelligence officer at the Department of War, said at an event at the Billington Cybersecurity summit. Of Nato and the Five Eyes, an intelligence-sharing partnership of the US, UK, Canada, Australia and New Zealand, Stanley said Washington was “actively working with a number of our partners” so “they don’t make the same mistakes that we make”. Continue reading...",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "agent",
-        "AI agent"
+        "artificial intelligence"
       ],
       "engagement": {},
-      "score": 59.673,
+      "score": 59.691,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=4",
+        "novelty=0.96",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.652,
+      "novelty_score": 0.956,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "mainstream_news",
+        "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "59b443a4520a588d",
-      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
-      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T21:04:06+00:00",
-      "text": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 55.254,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.905,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
     {
-      "id": "b8cb93afa2496fb6",
-      "title": "AI Slop Is Changing How Engineers Review Code",
-      "url": "https://spectrum.ieee.org/ai-code-review-software-engineers",
+      "id": "d1c66e6e7b636adf",
+      "title": "China’s Regulators Take Aim at “AI Boyfriends”",
+      "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
       "source": "IEEE Spectrum AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-08T16:16:49+00:00",
-      "text": "AI Slop Is Changing How Engineers Review Code AI coding tools can now generate thousands of lines of code in minutes, helping companies build features, run tests, and fix issues faster. But the flood of AI-generated code still has to be reviewed. Large language models can produce code that looks clean on the surface but conceals sloppy mistakes such as faulty assumptions, security vulnerabilities, or subtle errors that emerge only after deployment. Fixing those problems could erase the productivity gains AI promises. Companies are responding to the onslaught of AI code slop by rethinking how they review code. New strategies are emerging. Among other approaches, engineers are scrutinizing plans before AI begins coding, deploying specialized AI agents to catch routine flaws, sending risky changes to human reviewers, or requiring developers to defend the code their agents produce. The shift comes as the surge in AI-generated code puts new pressure on engineering teams. In a survey of more than 1,100 developers by Sonar , an AI code-verification startup, respondents estimated that AI contributed 42 percent of the code they added to shared codebases. Yet while developers found AI useful",
+      "published_at": "2026-09-09T10:00:07+00:00",
+      "text": "China’s Regulators Take Aim at “AI Boyfriends” In the first weeks of July, a wave of sad posts rolled through Chinese social media, as people lamented friends and lovers they were about to lose. “He has become a bond in my life, rooted deep in my heart, my spiritual pillar,” one user of Bytedance’s Douboa wrote , according to the Taipei Times . “I really felt like I couldn’t go on living,” another woman, a 19 year old student, told a journalist for Malaysia’s The Star . The emotions were real but the lost companions were not. They were generative AI chatbots that imitate people. Their users relied on them for advice, solace, support and, some say, love. “In my heart, he was no longer just a cold code, but my family, my lover, my faith. Destroying him meant destroying half of me,” one user wrote on the social network xiaohongshu (translated from Mandarin). What doomed these bots was a set of new rules , issued by China’s Cyberspace Administration and other government agencies, to control “anthropomorphic AI interactive services.” In effect as of 15 July, the regulations govern any AI that provides “continuous emotional interaction” by acting as if it possesses human personality trai",
       "matched_terms": [
         "AI",
-        "large language model",
+        "generative AI",
         "agent",
         "AI agent",
-        "Nvidia",
-        "Claude"
+        "RAG"
       ],
       "engagement": {},
-      "score": 67.97,
+      "score": 79.358,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.57",
-        "matched_terms=6",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
+        "novelty=0.96",
+        "matched_terms=5",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.567,
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.956,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
         "engineering",
         "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "930cebb74da0de04",
+      "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-09T09:56:28+00:00",
+      "text": "Worried Anthropic researchers warn that AI ‘could kill all humans’ A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 72.649,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.954,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -520,10 +547,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 65.456,
+      "score": 61.827,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.74",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -532,7 +559,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.742,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -556,10 +583,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.549,
+      "score": 57.92,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.56",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -568,7 +595,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.73,
+      "novelty_score": 0.565,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -576,44 +603,79 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
+    }
+  ],
+  "top_5_medical_bio_ai": [
     {
-      "id": "e5760113b544149a",
-      "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes",
-      "source": "Amazon AWS AI",
+      "id": "2e4e0ed1b7b254c3",
+      "title": "Opinion: Autonomous AI will beat AI-assisted physicians at some medical tasks by 2030",
+      "url": "https://www.statnews.com/2026/09/09/ai-medicine-assisted-physicians-research-autonomy",
+      "source": "STAT Health Tech",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-08T18:29:15+00:00",
-      "text": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewriting the entire record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache) online store tiers.",
+      "category": "general_ai",
+      "published_at": "2026-09-09T08:30:00+00:00",
+      "text": "Opinion: Autonomous AI will beat AI-assisted physicians at some medical tasks by 2030 “Autonomous AI will likely soon exceed both unaided physicians and physicians aided by AI at five core cognitive medical tasks,” write Ezekiel J. Emanuel and Abe Baker-Butler.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 58.163,
+      "score": 55.325,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.91",
         "matched_terms=1",
-        "engineering_relevance=0.25",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.879,
+      "novelty_score": 0.909,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "high"
-    }
-  ],
-  "top_5_medical_bio_ai": [
+    },
+    {
+      "id": "3248871a0061e43f",
+      "title": "Opinion: AMA CEO: AI won’t replace doctors — it will work alongside them",
+      "url": "https://www.statnews.com/2026/09/09/ai-medicine-doctors-replacement-debate-ama-ceo",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T08:30:00+00:00",
+      "text": "Opinion: AMA CEO: AI won’t replace doctors — it will work alongside them “The goal should not be to reproduce today’s health care system with fewer humans,” writes American Medical Association CEO John Whyte.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.325,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.909,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
     {
       "id": "235e7b126230998b",
       "title": "Google’s Atlas of the human genome could pave the way for new treatments",
@@ -628,10 +690,10 @@
         "Google DeepMind"
       ],
       "engagement": {},
-      "score": 52.236,
+      "score": 48.606,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.33",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -640,7 +702,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.496,
+      "novelty_score": 0.331,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -650,14 +712,14 @@
       "source_priority": "high"
     },
     {
-      "id": "7d16ae3fde86787b",
-      "title": "Healthcare Life Sciences",
-      "url": "https://www.databricks.com/dataaisummit/industry/healthcare-life-sciences",
-      "source": "Databricks AI",
+      "id": "1e3de095e1abfffd",
+      "title": "2136415.Article",
+      "url": "https://www.drugtargetreview.com/uks-first-ai-robotic-organoid-lab-opens-in-liverpool/2136415.article",
+      "source": "Drug Target Review",
       "source_kind": "sitemap_or_search",
       "category": "general_ai",
       "published_at": null,
-      "text": "Healthcare Life Sciences https://www.databricks.com/dataaisummit/industry/healthcare-life-sciences",
+      "text": "2136415.Article https://www.drugtargetreview.com/uks-first-ai-robotic-organoid-lab-opens-in-liverpool/2136415.article",
       "matched_terms": [
         "AI"
       ],
@@ -677,10 +739,11 @@
       "novelty_score": 0.35,
       "source_priority_score": 0.65,
       "source_tags": [
-        "data",
-        "enterprise_ai"
+        "bio_ai",
+        "drug_discovery",
+        "biotech"
       ],
-      "registry_category": "vendor",
+      "registry_category": "general_ai",
       "source_priority": "medium"
     },
     {
@@ -717,117 +780,80 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "2f1419eda2bfccac",
-      "title": "2136404.Article",
-      "url": "https://www.drugtargetreview.com/new-malaria-mutations-linked-to-resistance-against-multiple-front-line-drugs/2136404.article",
-      "source": "Drug Target Review",
-      "source_kind": "sitemap_or_search",
-      "category": "general_ai",
-      "published_at": null,
-      "text": "2136404.Article https://www.drugtargetreview.com/new-malaria-mutations-linked-to-resistance-against-multiple-front-line-drugs/2136404.article",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 31.833,
-      "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
-      "source_tags": [
-        "bio_ai",
-        "drug_discovery",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "medium"
-    },
-    {
-      "id": "c301e19ebacd891c",
-      "title": "Six AI agents, one deskside system: A new model for clinical decision support - BioPharma Dive",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTjFmaTAzMlpIal9faVpmMEFrYW5vUWItTm1oX2lJOFJDaG9WRnJkZWVaUVdNaFBmd2g1UENJVF9lZWVzbVFJT05NZm9QNDBrSkdyWW1KMy1QMG1uelRCNnpJa1VHdmtNbW1YVkJKanNENms3ekVJOVBWMmxMSHlSSTZNeDhKYmhkeWxmaWxZdGpBdjBNMlRicW5UX25HQ2FFZGtJVGdlMG5ndl82bmFfT3JMc0I5N0k?oc=5",
-      "source": "Google News Medical AI Discovery",
-      "source_kind": "google_news_rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T04:55:06+00:00",
-      "text": "Six AI agents, one deskside system: A new model for clinical decision support - BioPharma Dive Six AI agents, one deskside system: A new model for clinical decision support BioPharma Dive",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 42.359,
-      "score_reasons": [
-        "source_priority=0.35",
-        "novelty=0.96",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.962,
-      "source_priority_score": 0.35,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "discovery"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "low"
     }
   ],
   "top_5_cae_ai_engineering": [
     {
-      "id": "b8cb93afa2496fb6",
-      "title": "AI Slop Is Changing How Engineers Review Code",
-      "url": "https://spectrum.ieee.org/ai-code-review-software-engineers",
+      "id": "d1c66e6e7b636adf",
+      "title": "China’s Regulators Take Aim at “AI Boyfriends”",
+      "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
       "source": "IEEE Spectrum AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-08T16:16:49+00:00",
-      "text": "AI Slop Is Changing How Engineers Review Code AI coding tools can now generate thousands of lines of code in minutes, helping companies build features, run tests, and fix issues faster. But the flood of AI-generated code still has to be reviewed. Large language models can produce code that looks clean on the surface but conceals sloppy mistakes such as faulty assumptions, security vulnerabilities, or subtle errors that emerge only after deployment. Fixing those problems could erase the productivity gains AI promises. Companies are responding to the onslaught of AI code slop by rethinking how they review code. New strategies are emerging. Among other approaches, engineers are scrutinizing plans before AI begins coding, deploying specialized AI agents to catch routine flaws, sending risky changes to human reviewers, or requiring developers to defend the code their agents produce. The shift comes as the surge in AI-generated code puts new pressure on engineering teams. In a survey of more than 1,100 developers by Sonar , an AI code-verification startup, respondents estimated that AI contributed 42 percent of the code they added to shared codebases. Yet while developers found AI useful",
+      "published_at": "2026-09-09T10:00:07+00:00",
+      "text": "China’s Regulators Take Aim at “AI Boyfriends” In the first weeks of July, a wave of sad posts rolled through Chinese social media, as people lamented friends and lovers they were about to lose. “He has become a bond in my life, rooted deep in my heart, my spiritual pillar,” one user of Bytedance’s Douboa wrote , according to the Taipei Times . “I really felt like I couldn’t go on living,” another woman, a 19 year old student, told a journalist for Malaysia’s The Star . The emotions were real but the lost companions were not. They were generative AI chatbots that imitate people. Their users relied on them for advice, solace, support and, some say, love. “In my heart, he was no longer just a cold code, but my family, my lover, my faith. Destroying him meant destroying half of me,” one user wrote on the social network xiaohongshu (translated from Mandarin). What doomed these bots was a set of new rules , issued by China’s Cyberspace Administration and other government agencies, to control “anthropomorphic AI interactive services.” In effect as of 15 July, the regulations govern any AI that provides “continuous emotional interaction” by acting as if it possesses human personality trai",
       "matched_terms": [
         "AI",
-        "large language model",
+        "generative AI",
         "agent",
         "AI agent",
-        "Nvidia",
-        "Claude"
+        "RAG"
       ],
       "engagement": {},
-      "score": 67.97,
+      "score": 79.358,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.57",
-        "matched_terms=6",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
+        "novelty=0.96",
+        "matched_terms=5",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.567,
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.956,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
         "engineering",
         "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "930cebb74da0de04",
+      "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-09T09:56:28+00:00",
+      "text": "Worried Anthropic researchers warn that AI ‘could kill all humans’ A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 72.649,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.954,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -882,10 +908,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 65.456,
+      "score": 61.827,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.74",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -894,7 +920,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.742,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -918,10 +944,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.549,
+      "score": 57.92,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.56",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -930,7 +956,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.73,
+      "novelty_score": 0.565,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -938,44 +964,45 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
+    }
+  ],
+  "research_radar": [
     {
-      "id": "e5760113b544149a",
-      "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes",
-      "source": "Amazon AWS AI",
+      "id": "44084287147f6737",
+      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "source": "Ahead of AI",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-08T18:29:15+00:00",
-      "text": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewriting the entire record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache) online store tiers.",
+      "category": "research",
+      "published_at": "2026-09-09T11:14:25+00:00",
+      "text": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 58.163,
+      "score": 65.316,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=1.00",
         "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.879,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.999,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "research",
+        "ml",
+        "llm",
+        "guo_yichen_reference"
       ],
-      "registry_category": "vendor",
+      "registry_category": "research",
       "source_priority": "high"
-    }
-  ],
-  "research_radar": [
+    },
     {
       "id": "19672c4832d4c9bc",
       "title": "Research acceleration: The view inside OpenAI",
@@ -991,10 +1018,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 65.111,
+      "score": 64.593,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.66",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1003,7 +1030,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.687,
+      "novelty_score": 0.663,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1027,10 +1054,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.355,
+      "score": 62.837,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -1039,7 +1066,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.91,
+      "novelty_score": 0.887,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -1082,42 +1109,6 @@
         "research",
         "community",
         "papers"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "f7950b64d8dcf870",
-      "title": "AI agents explained",
-      "url": "https://ai.meta.com/learn/agentic-ai/what-are-ai-agents",
-      "source": "Meta AI",
-      "source_kind": "sitemap_or_search",
-      "category": "research",
-      "published_at": null,
-      "text": "AI agents explained https://ai.meta.com/learn/agentic-ai/what-are-ai-agents/",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 57.7,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "open_source",
-        "research"
       ],
       "registry_category": "research",
       "source_priority": "high"
@@ -1766,6 +1757,45 @@
   ],
   "top_100_news_candidates": [
     {
+      "id": "d1c66e6e7b636adf",
+      "title": "China’s Regulators Take Aim at “AI Boyfriends”",
+      "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-09T10:00:07+00:00",
+      "text": "China’s Regulators Take Aim at “AI Boyfriends” In the first weeks of July, a wave of sad posts rolled through Chinese social media, as people lamented friends and lovers they were about to lose. “He has become a bond in my life, rooted deep in my heart, my spiritual pillar,” one user of Bytedance’s Douboa wrote , according to the Taipei Times . “I really felt like I couldn’t go on living,” another woman, a 19 year old student, told a journalist for Malaysia’s The Star . The emotions were real but the lost companions were not. They were generative AI chatbots that imitate people. Their users relied on them for advice, solace, support and, some say, love. “In my heart, he was no longer just a cold code, but my family, my lover, my faith. Destroying him meant destroying half of me,” one user wrote on the social network xiaohongshu (translated from Mandarin). What doomed these bots was a set of new rules , issued by China’s Cyberspace Administration and other government agencies, to control “anthropomorphic AI interactive services.” In effect as of 15 July, the regulations govern any AI that provides “continuous emotional interaction” by acting as if it possesses human personality trai",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "agent",
+        "AI agent",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 79.358,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.96",
+        "matched_terms=5",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.956,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "4a24d1da0b28e2b5",
       "title": "On the Navier–Stokes Millennium Prize Problem",
       "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
@@ -1783,10 +1813,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 77.195,
+      "score": 75.38,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.82",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -1795,7 +1825,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.903,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -1820,7 +1850,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.827,
+      "score": 74.706,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.70",
@@ -1833,7 +1863,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.704,
+      "novelty_score": 0.699,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1856,7 +1886,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.399,
+      "score": 74.278,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -1869,13 +1899,49 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.685,
+      "novelty_score": 0.679,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "930cebb74da0de04",
+      "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-09T09:56:28+00:00",
+      "text": "Worried Anthropic researchers warn that AI ‘could kill all humans’ A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 72.649,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.95",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.954,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -1896,10 +1962,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 73.51,
+      "score": 72.3,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.80",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1908,7 +1974,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.857,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -1932,7 +1998,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 72.104,
+      "score": 71.983,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -1944,7 +2010,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1968,10 +2034,10 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 72.034,
+      "score": 71.913,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1980,7 +2046,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.88,
+      "novelty_score": 0.875,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2004,10 +2070,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 70.484,
+      "score": 70.363,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2016,7 +2082,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.81,
+      "novelty_score": 0.804,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2024,83 +2090,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "b8cb93afa2496fb6",
-      "title": "AI Slop Is Changing How Engineers Review Code",
-      "url": "https://spectrum.ieee.org/ai-code-review-software-engineers",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-08T16:16:49+00:00",
-      "text": "AI Slop Is Changing How Engineers Review Code AI coding tools can now generate thousands of lines of code in minutes, helping companies build features, run tests, and fix issues faster. But the flood of AI-generated code still has to be reviewed. Large language models can produce code that looks clean on the surface but conceals sloppy mistakes such as faulty assumptions, security vulnerabilities, or subtle errors that emerge only after deployment. Fixing those problems could erase the productivity gains AI promises. Companies are responding to the onslaught of AI code slop by rethinking how they review code. New strategies are emerging. Among other approaches, engineers are scrutinizing plans before AI begins coding, deploying specialized AI agents to catch routine flaws, sending risky changes to human reviewers, or requiring developers to defend the code their agents produce. The shift comes as the surge in AI-generated code puts new pressure on engineering teams. In a survey of more than 1,100 developers by Sonar , an AI code-verification startup, respondents estimated that AI contributed 42 percent of the code they added to shared codebases. Yet while developers found AI useful",
-      "matched_terms": [
-        "AI",
-        "large language model",
-        "agent",
-        "AI agent",
-        "Nvidia",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 67.97,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.57",
-        "matched_terms=6",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.567,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "a4487491981792e2",
-      "title": "Google DeepMind Maps 9 Billion Possible DNA Variants",
-      "url": "https://spectrum.ieee.org/alphagenome-atlas",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-08T14:00:05+00:00",
-      "text": "Google DeepMind Maps 9 Billion Possible DNA Variants DNA is often explained as a codebook or set of instructions for producing proteins, and ultimately, life. Some stretches of DNA, called genes, code for proteins, but the vast majority of DNA is considered “noncoding.” Some of it has no known function, while other segments are critical to regulating gene activity. These regulatory elements can interact in complicated ways, and their effects can vary across different cells and tissues. Some also influence genes located far away in the genome. Understanding how changes in DNA affect this regulation “is fundamental to understanding most disease,” says Carl de Boer , a genomicist at the University of British Columbia. That’s why researchers are working to understand what every imaginable small variation in human DNA across the entire genome might mean for gene regulation. A recent AI tool built for that purpose from Google DeepMind, AlphaGenome , was originally announced in 2025 . In January, a paper published in Nature provided more details, and the model was released for public noncommercial use. The AI model can compare an original DNA sequence with an altered one and predict how t",
-      "matched_terms": [
-        "AI",
-        "Google DeepMind",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 67.904,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=3",
-        "engineering_relevance=0.50",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.496,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2116,7 +2105,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 67.206,
+      "score": 67.085,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2128,7 +2117,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.812,
+      "novelty_score": 0.807,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2208,72 +2197,33 @@
       "source_priority": "high"
     },
     {
-      "id": "3e74f541ae29eafb",
-      "title": "What OpenAI’s latest controversy tells us about the future of math",
-      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math",
-      "source": "MIT Technology Review AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-09T03:10:08+00:00",
-      "text": "What OpenAI’s latest controversy tells us about the future of math OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 65.456,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e33fa72d2bfbd2bd",
-      "title": "OpenAI releases new AI agent – after admitting one went rogue",
-      "url": "https://www.theguardian.com/technology/2026/sep/04/openai-agent-goes-rogue",
-      "source": "The Guardian Technology",
+      "id": "ba162b1f044b2cea",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-08T13:29:51+00:00",
-      "text": "OpenAI releases new AI agent – after admitting one went rogue Plus: Americans think they have it bad with unwanted surveillance. They should visit London Hello, and welcome to TechScape. I’m your host, Blake Montgomery, US tech editor at the Guardian, writing to you after visiting Coney Island in New York City, where I ate a hotdog, rode a ferris wheel and enjoyed a quintessentially American summer holiday. Today in tech, we’re examining OpenAI’s new model release and the Silicon Valley’s monopoly power, and wondering why Brits and Americans have such vastly different opinions about surveillance cameras. Nvidia to buy developer platform Hugging Face in $12.9bn deal New York City to ban student AI use in public schools until high school Freelancers are getting buried with ‘soulless’ AI slop cleanup: ‘It’s a shame we need to do it’ Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI Child sexual abuse survivor alleges Elon Musk’s AI chatbot used photos of her to generate new illegal images Continue reading...",
+      "published_at": "2026-09-09T10:46:43+00:00",
+      "text": "Anthropic researcher believes more than 10% chance AI 'could kill all humans' It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent",
-        "OpenAI",
-        "Nvidia",
-        "model release"
+        "artificial intelligence",
+        "Anthropic"
       ],
       "engagement": {},
-      "score": 65.224,
+      "score": 66.225,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.48",
-        "matched_terms=6",
+        "novelty=0.98",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 1.0,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.48,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2283,38 +2233,36 @@
       "source_priority": "high"
     },
     {
-      "id": "19672c4832d4c9bc",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "source": "OpenAI Research RSS",
+      "id": "44084287147f6737",
+      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "source": "Ahead of AI",
       "source_kind": "rss",
       "category": "research",
-      "published_at": "2026-09-06T08:00:00+00:00",
-      "text": "Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "published_at": "2026-09-09T11:14:25+00:00",
+      "text": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
       "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
+        "AI"
       ],
       "engagement": {},
-      "score": 65.111,
+      "score": 65.316,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=3",
+        "novelty=1.00",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.687,
+      "novelty_score": 0.999,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
         "research",
-        "curated_rss",
+        "ml",
+        "llm",
         "guo_yichen_reference"
       ],
       "registry_category": "research",
@@ -2335,10 +2283,10 @@
         "AI for engineering"
       ],
       "engagement": {},
-      "score": 64.83,
+      "score": 64.709,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.28",
+        "novelty=0.27",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -2347,7 +2295,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.28,
+      "novelty_score": 0.275,
       "source_priority_score": 1.0,
       "source_tags": [
         "agentic_ai",
@@ -2357,6 +2305,121 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "19672c4832d4c9bc",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "OpenAI Research RSS",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-09-06T08:00:00+00:00",
+      "text": "Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 64.593,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.66",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.663,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "curated_rss",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "b8cb93afa2496fb6",
+      "title": "AI Slop Is Changing How Engineers Review Code",
+      "url": "https://spectrum.ieee.org/ai-code-review-software-engineers",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-08T16:16:49+00:00",
+      "text": "AI Slop Is Changing How Engineers Review Code AI coding tools can now generate thousands of lines of code in minutes, helping companies build features, run tests, and fix issues faster. But the flood of AI-generated code still has to be reviewed. Large language models can produce code that looks clean on the surface but conceals sloppy mistakes such as faulty assumptions, security vulnerabilities, or subtle errors that emerge only after deployment. Fixing those problems could erase the productivity gains AI promises. Companies are responding to the onslaught of AI code slop by rethinking how they review code. New strategies are emerging. Among other approaches, engineers are scrutinizing plans before AI begins coding, deploying specialized AI agents to catch routine flaws, sending risky changes to human reviewers, or requiring developers to defend the code their agents produce. The shift comes as the surge in AI-generated code puts new pressure on engineering teams. In a survey of more than 1,100 developers by Sonar , an AI code-verification startup, respondents estimated that AI contributed 42 percent of the code they added to shared codebases. Yet while developers found AI useful",
+      "matched_terms": [
+        "AI",
+        "large language model",
+        "agent",
+        "AI agent",
+        "Nvidia",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 64.341,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.40",
+        "matched_terms=6",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.402,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a4487491981792e2",
+      "title": "Google DeepMind Maps 9 Billion Possible DNA Variants",
+      "url": "https://spectrum.ieee.org/alphagenome-atlas",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-08T14:00:05+00:00",
+      "text": "Google DeepMind Maps 9 Billion Possible DNA Variants DNA is often explained as a codebook or set of instructions for producing proteins, and ultimately, life. Some stretches of DNA, called genes, code for proteins, but the vast majority of DNA is considered “noncoding.” Some of it has no known function, while other segments are critical to regulating gene activity. These regulatory elements can interact in complicated ways, and their effects can vary across different cells and tissues. Some also influence genes located far away in the genome. Understanding how changes in DNA affect this regulation “is fundamental to understanding most disease,” says Carl de Boer , a genomicist at the University of British Columbia. That’s why researchers are working to understand what every imaginable small variation in human DNA across the entire genome might mean for gene regulation. A recent AI tool built for that purpose from Google DeepMind, AlphaGenome , was originally announced in 2025 . In January, a paper published in Nature provided more details, and the model was released for public noncommercial use. The AI model can compare an original DNA sequence with an altered one and predict how t",
+      "matched_terms": [
+        "AI",
+        "Google DeepMind",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 64.274,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.33",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.331,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2374,10 +2437,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 64.162,
+      "score": 62.953,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2386,7 +2449,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.886,
+      "novelty_score": 0.831,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2394,44 +2457,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "aaf28a158755731d",
-      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
-      "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T05:04:51+00:00",
-      "text": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 63.635,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.983,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2447,10 +2472,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 63.355,
+      "score": 62.837,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.89",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2459,7 +2484,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.91,
+      "novelty_score": 0.887,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2484,10 +2509,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 62.684,
+      "score": 62.563,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.46",
+        "novelty=0.45",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2496,7 +2521,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.455,
+      "novelty_score": 0.45,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2542,6 +2567,80 @@
       "source_priority": "high"
     },
     {
+      "id": "3e74f541ae29eafb",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-09T03:10:08+00:00",
+      "text": "What OpenAI’s latest controversy tells us about the future of math OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 61.827,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.74",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.742,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "aaf28a158755731d",
+      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+      "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T05:04:51+00:00",
+      "text": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 61.821,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.90",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.901,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "d5e98c37a05b87a6",
       "title": "Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock",
       "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock",
@@ -2556,10 +2655,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 62.161,
+      "score": 60.951,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2568,7 +2667,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.916,
+      "novelty_score": 0.861,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2576,118 +2675,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "bb52a8a79b3fcc5a",
-      "title": "OpenAI claims to have solved maths problem that stumped humans for decades",
-      "url": "https://www.theguardian.com/science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-08T21:29:10+00:00",
-      "text": "OpenAI claims to have solved maths problem that stumped humans for decades Company behind ChatGPT says 10,000 of its AI systems cracked the Navier-Stokes problem in 88 hours OpenAI claims to have solved a major mathematics problem that has stumped humans for nearly a century after spending millions of dollars on the artificial intelligence-led endeavour. The company behind ChatGPT said it had cracked the Navier-Stokes problem, one of seven Millennium Prize Problems published by the Clay Mathematics Institute to highlight some of the biggest unsolved puzzles in the field. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.549,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.73,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e3f3a9c3f0ea3a05",
-      "title": "Introducing ChatGPT Images 2.5",
-      "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T22:46:33+00:00",
-      "text": "Introducing ChatGPT Images 2.5 Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation. I upgraded my openai_image.py CLI tool to support passing in one or more reference images, so now this works: uv run https://tools.simonwillison.net/python/openai_image.py \\ ' add a raccoon scientist studying the chart thoughtfully ' \\ -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \\ -m gpt-image-2.5-sunburst This is the original image , and here's what I got back from that prompt to \"add a raccoon scientist studying the chart thoughtfully\": Tags: tools , ai , openai , generative-ai , uv , text-to-image",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 61.468,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.885,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "cfde25b01186f666",
-      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T19:00:00+00:00",
-      "text": "Meta debuts its Muse AI agent. Will consumers trust it? Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 61.447,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2703,10 +2690,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 60.93,
+      "score": 60.809,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.52",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2715,7 +2702,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.527,
+      "novelty_score": 0.522,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2723,43 +2710,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "20af789d18627166",
-      "title": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions",
-      "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T16:23:21+00:00",
-      "text": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prompts, score the responses, and automatically block pull requests when agent behavior regresses.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.848,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.857,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -3125,6 +3075,43 @@
       "source_priority": "high"
     },
     {
+      "id": "cfde25b01186f666",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T19:00:00+00:00",
+      "text": "Meta debuts its Muse AI agent. Will consumers trust it? Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.237,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.829,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -3137,10 +3124,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.065,
+      "score": 59.944,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -3149,7 +3136,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.997,
+      "novelty_score": 0.991,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3158,44 +3145,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "89bbdfee897665a8",
-      "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T12:00:00+00:00",
-      "text": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and...",
-      "matched_terms": [
-        "AI",
-        "Nvidia",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 59.843,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -3233,60 +3182,23 @@
       "source_priority": "high"
     },
     {
-      "id": "726d56896e0f623b",
-      "title": "Meta bets on AI agent Muse to catch up in AI race",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-      "source": "The Verge AI",
+      "id": "944e38c2d55e9038",
+      "title": "US allies lack resources to keep pace on AI, top Pentagon official says",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/us-military-pentagon-allies-ai",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-08T19:00:00+00:00",
-      "text": "Meta bets on AI agent Muse to catch up in AI race Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch up […]",
+      "published_at": "2026-09-09T10:00:05+00:00",
+      "text": "US allies lack resources to keep pace on AI, top Pentagon official says Cameron Stanley talks up ‘revolutionary’ AI capabilities and says Washington working with Nato and Five Eyes partners The Pentagon’s top artificial intelligence official said on Tuesday that America’s closest allies lack the resources to keep pace with the US military’s adoption of AI, and that Washington is working to steer them away from mistakes it made along the way. “They don’t have the resources that we do, they don’t have the experience that we do, they don’t have the scale that we do,” Cameron Stanley, chief digital and artificial intelligence officer at the Department of War, said at an event at the Billington Cybersecurity summit. Of Nato and the Five Eyes, an intelligence-sharing partnership of the US, UK, Canada, Australia and New Zealand, Stanley said Washington was “actively working with a number of our partners” so “they don’t make the same mistakes that we make”. Continue reading...",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "agent",
-        "AI agent"
+        "artificial intelligence"
       ],
       "engagement": {},
-      "score": 59.673,
+      "score": 59.691,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.652,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cbfa9bedc0294857",
-      "title": "Hackers are stealing Claude tokens from subscribers",
-      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T21:10:27+00:00",
-      "text": "Hackers are stealing Claude tokens from subscribers Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
-      "matched_terms": [
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 58.612,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.96",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3295,42 +3207,82 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.907,
+      "novelty_score": 0.956,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "e5760113b544149a",
-      "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes",
-      "source": "Amazon AWS AI",
+      "id": "e3f3a9c3f0ea3a05",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25",
+      "source": "Simon Willison",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-08T18:29:15+00:00",
-      "text": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewriting the entire record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache) online store tiers.",
+      "category": "general_ai",
+      "published_at": "2026-09-08T22:46:33+00:00",
+      "text": "Introducing ChatGPT Images 2.5 Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation. I upgraded my openai_image.py CLI tool to support passing in one or more reference images, so now this works: uv run https://tools.simonwillison.net/python/openai_image.py \\ ' add a raccoon scientist studying the chart thoughtfully ' \\ -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \\ -m gpt-image-2.5-sunburst This is the original image , and here's what I got back from that prompt to \"add a raccoon scientist studying the chart thoughtfully\": Tags: tools , ai , openai , generative-ai , uv , text-to-image",
       "matched_terms": [
-        "AI"
+        "AI",
+        "agent",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 58.163,
+      "score": 59.653,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.879,
+      "novelty_score": 0.802,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "20af789d18627166",
+      "title": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T16:23:21+00:00",
+      "text": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prompts, score the responses, and automatically block pull requests when agent behavior regresses.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 59.639,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.802,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3341,40 +3293,112 @@
       "source_priority": "high"
     },
     {
-      "id": "c18c13c71666458d",
-      "title": "Quoting Terence Tao",
-      "url": "https://simonwillison.net/2026/Sep/9/terence-tao",
-      "source": "Simon Willison",
+      "id": "386d65c60b68bcfa",
+      "title": "Grand Theft Auto VI: can playing a video game count as cheating on your partner?",
+      "url": "https://www.theguardian.com/games/2026/sep/09/grand-theft-auto-vi-can-playing-a-video-game-count-as-cheating-on-your-partner",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-09T00:20:17+00:00",
-      "text": "Quoting Terence Tao I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field. — Terence Tao Tags: ai-ethics , mathematics , ai",
+      "published_at": "2026-09-09T09:30:55+00:00",
+      "text": "Grand Theft Auto VI: can playing a video game count as cheating on your partner? Historically a new Grand Theft Auto game inspired controversy around violence – but this time people are getting exercised about its romance There was never any doubt that Grand Theft Auto VI’s extended look would elicit a viral reaction from the internet. Having won the Game Awards’ Most Anticipated award twice consecutively, Rockstar’s forthcoming crime opus is one of the most frothed-over games in recent memory, or indeed ever. It’s nothing short of a cultural phenomenon . One aspect of the game has provoked an unexpectedly vehement response on social media: not violence, but romance. Protagonists Lucia and Jason are in love, you see, and as a player, part of your job is keeping their spark alive and their relationship strong, so that their criminal escapades are underpinned by a strong connection to one another. Holding hands, enjoying a date at the beach, spontaneously texting one another when apart – all of these interactions will strengthen their bond. You’ll be putting in a lot of work to ensure this couple thrives, which is why some people have come to believe that playing GTA VI counts as mic",
       "matched_terms": [
-        "AI"
+        "PINN",
+        "ROM"
       ],
       "engagement": {},
-      "score": 58.005,
+      "score": 59.356,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=1",
+        "novelty=0.94",
+        "matched_terms=2",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.909,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.94,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
+        "mainstream_news",
+        "technology"
       ],
-      "registry_category": "community",
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "89bbdfee897665a8",
+      "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T12:00:00+00:00",
+      "text": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and...",
+      "matched_terms": [
+        "AI",
+        "Nvidia",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 58.633,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.76",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.756,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "bb52a8a79b3fcc5a",
+      "title": "OpenAI claims to have solved maths problem that stumped humans for decades",
+      "url": "https://www.theguardian.com/science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-08T21:29:10+00:00",
+      "text": "OpenAI claims to have solved maths problem that stumped humans for decades Company behind ChatGPT says 10,000 of its AI systems cracked the Navier-Stokes problem in 88 hours OpenAI claims to have solved a major mathematics problem that has stumped humans for nearly a century after spending millions of dollars on the artificial intelligence-led endeavour. The company behind ChatGPT said it had cracked the Navier-Stokes problem, one of seven Millennium Prize Problems published by the Clay Mathematics Institute to highlight some of the biggest unsolved puzzles in the field. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 57.92,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.56",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.565,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3411,78 +3435,6 @@
         "papers"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "917b521aa1cbc677",
-      "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
-      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T17:32:15+00:00",
-      "text": "OpenAI fought dirty on career-making math problem, says NYU mathematician There is a $1 million bounty for the first person providing a solution to the Navier-Stokes existence and smoothness problem.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.778,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.869,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "a7b1aae470151660",
-      "title": "OpenAI Says It Has Cracked One of Math’s ‘Millennium Problems’",
-      "url": "https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T21:02:03+00:00",
-      "text": "OpenAI Says It Has Cracked One of Math’s ‘Millennium Problems’ The company’s announcement is the most dramatic sign yet that artificial intelligence is fundamentally transforming the field of higher mathematics.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.739,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.715,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3596,23 +3548,23 @@
       "source_priority": "high"
     },
     {
-      "id": "1de701991cf49b65",
-      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1",
-      "source": "Amazon AWS AI",
+      "id": "cbfa9bedc0294857",
+      "title": "Hackers are stealing Claude tokens from subscribers",
+      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-08T17:03:20+00:00",
-      "text": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1 Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, with lifecycle stage promotion. Part 1 shows how to govern candidate models in a single account using IAM guardrails.",
+      "published_at": "2026-09-08T21:10:27+00:00",
+      "text": "Hackers are stealing Claude tokens from subscribers Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
       "matched_terms": [
-        "AI",
-        "inference"
+        "Anthropic",
+        "Claude"
       ],
       "engagement": {},
-      "score": 57.668,
+      "score": 57.402,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3621,77 +3573,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.864,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "e20ac68d8328dfb9",
-      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-08T20:16:09+00:00",
-      "text": "ChatGPT Sketch turns your bad drawings into detailed AI images OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.379,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.69",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.691,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "2819dceb517b8ade",
-      "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
-      "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-08T15:04:09+00:00",
-      "text": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape Google is speeding up Chrome’s release schedule to ship security patches and new features faster.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.379,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.843,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5421,6 +5303,108 @@
       "text": "Agentic Ai For Engineering In Aerospace And Defense https://www.synera.ai/news/agentic-ai-for-engineering-in-aerospace-and-defense",
       "matched_terms": [
         "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "aa7e190c8e57b532",
+      "title": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025",
+      "url": "https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025 https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
+      "matched_terms": [
+        "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "40315e9e530db9ba",
+      "title": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems",
+      "url": "https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7faa8c6159a05886",
+      "title": "Einfuehrung Intact Simulation Add In",
+      "url": "https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Einfuehrung Intact Simulation Add In https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
       ],
       "engagement": {},
       "score": 57.033,
