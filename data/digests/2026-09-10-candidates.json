@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-10T11:21:42.401219+00:00",
+    "generated_at": "2026-09-10T11:50:47.005296+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16565,
-    "filtered_count": 2767,
-    "duplicate_count": 80,
+    "fetched_count": 16563,
+    "filtered_count": 2768,
+    "duplicate_count": 81,
     "failures": [
       {
         "source": "Ansys",
@@ -30,6 +30,10 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Fred Wilson AVC",
+        "error": "The read operation timed out"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -61,10 +65,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 62.753,
+      "score": 62.586,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -73,7 +77,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.822,
+      "novelty_score": 0.815,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -99,10 +103,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 59.752,
+      "score": 59.586,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -111,7 +115,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.837,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -137,10 +141,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.459,
+      "score": 56.348,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -149,7 +153,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.809,
+      "novelty_score": 0.804,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -174,10 +178,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 55.084,
+      "score": 54.973,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.74",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -186,7 +190,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.746,
+      "novelty_score": 0.741,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -210,10 +214,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.649,
+      "score": 54.483,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -222,7 +226,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.878,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -246,10 +250,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.05,
+      "score": 52.003,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -258,7 +262,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.905,
+      "novelty_score": 0.903,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -283,10 +287,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 42.796,
+      "score": 42.63,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.70",
+        "novelty=0.69",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -295,7 +299,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.697,
+      "novelty_score": 0.689,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -321,7 +325,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 63.817,
+      "score": 63.706,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -333,7 +337,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.835,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -358,10 +362,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.039,
+      "score": 60.928,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -370,7 +374,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.865,
+      "novelty_score": 0.86,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -394,10 +398,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.368,
+      "score": 60.257,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -406,7 +410,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.865,
+      "novelty_score": 0.86,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -433,7 +437,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 80.16,
+      "score": 80.149,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -445,7 +449,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.977,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -505,7 +509,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 62.884,
+      "score": 62.773,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -517,7 +521,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.785,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -542,10 +546,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.58,
+      "score": 62.247,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.64",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -554,7 +558,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.655,
+      "novelty_score": 0.64,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -576,10 +580,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.866,
+      "score": 58.533,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -588,7 +592,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.895,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -600,6 +604,41 @@
     }
   ],
   "top_5_medical_bio_ai": [
+    {
+      "id": "da9a29d0afd56836",
+      "title": "Oz says ‘AI-based avatars’ can help rural communities. Some leaders disagree",
+      "url": "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T11:34:59+00:00",
+      "text": "Oz says ‘AI-based avatars’ can help rural communities. Some leaders disagree Feds invest in AI for heart failure, vaccines and this year's midterms, and more health news from Morning Rounds",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.152,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.992,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
     {
       "id": "f80c82d701384c7e",
       "title": "Healthcare AI’s next test is integration",
@@ -613,41 +652,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.687,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.93",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.925,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "7a3c40be1eaac259",
-      "title": "Opinion: John Fetterman’s post-stroke, politically problematic behaviors offer lessons about brain health on Capitol Hill",
-      "url": "https://www.statnews.com/2026/09/10/john-fetterman-post-stroke-behavior-experts-see-neurological-changes",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T08:30:00+00:00",
-      "text": "Opinion: John Fetterman’s post-stroke, politically problematic behaviors offer lessons about brain health on Capitol Hill “Nothing in the recent reporting about John Fetterman is medically surprising,” write Michael P.H. Stanley and Isaiah Kletenik.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 55.366,
+      "score": 55.354,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -659,12 +664,11 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.91,
       "source_priority_score": 1.0,
       "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
+        "ai",
+        "analysis"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -752,10 +756,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 50.079,
+      "score": 49.746,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.67",
+        "novelty=0.66",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -764,7 +768,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.67,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -790,7 +794,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 80.16,
+      "score": 80.149,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -802,7 +806,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.977,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -862,7 +866,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 62.884,
+      "score": 62.773,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -874,7 +878,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.785,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -899,10 +903,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.58,
+      "score": 62.247,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.64",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -911,7 +915,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.655,
+      "novelty_score": 0.64,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -933,10 +937,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.866,
+      "score": 58.533,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -945,7 +949,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.895,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -1777,7 +1781,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 80.16,
+      "score": 80.149,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1789,7 +1793,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.977,
+      "novelty_score": 0.976,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1812,7 +1816,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.158,
+      "score": 74.147,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.67",
@@ -1825,7 +1829,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.674,
+      "novelty_score": 0.673,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1848,7 +1852,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.729,
+      "score": 73.718,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -1884,7 +1888,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.434,
+      "score": 71.423,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1920,7 +1924,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.364,
+      "score": 71.353,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1932,7 +1936,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1956,7 +1960,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.815,
+      "score": 69.804,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1976,48 +1980,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "4a24d1da0b28e2b5",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T23:55:12+00:00",
-      "text": "On the Navier–Stokes Millennium Prize Problem On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic. Tristan's complaint accompanied a hastily published version of their own results. Here's the PDF describing what happened . The very short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved \"a major open problem\", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan: I asked when t",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "OpenAI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 67.15,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.45",
-        "matched_terms=6",
-        "engineering_relevance=0.00",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.446,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2091,6 +2053,48 @@
       "source_priority": "high"
     },
     {
+      "id": "4a24d1da0b28e2b5",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T23:55:12+00:00",
+      "text": "On the Navier–Stokes Millennium Prize Problem On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic. Tristan's complaint accompanied a hastily published version of their own results. Here's the PDF describing what happened . The very short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved \"a major open problem\", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan: I asked when t",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 66.984,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.44",
+        "matched_terms=6",
+        "engineering_relevance=0.00",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.439,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "b759b5a267628f7f",
       "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
       "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6",
@@ -2108,7 +2112,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.813,
+      "score": 66.702,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -2120,7 +2124,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.552,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2143,7 +2147,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.537,
+      "score": 66.525,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2155,7 +2159,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.782,
+      "novelty_score": 0.781,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2180,7 +2184,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 63.817,
+      "score": 63.706,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2192,7 +2196,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.835,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2215,7 +2219,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 62.964,
+      "score": 62.917,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.89",
@@ -2227,7 +2231,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.892,
+      "novelty_score": 0.89,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -2253,7 +2257,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 62.884,
+      "score": 62.773,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -2265,7 +2269,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.785,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2290,10 +2294,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 62.753,
+      "score": 62.586,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.81",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2302,7 +2306,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.822,
+      "novelty_score": 0.815,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2312,42 +2316,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "838110ea8d79df29",
-      "title": "Lawmakers blast AI companies after researcher warns of human extinction by 2030",
-      "url": "https://www.theguardian.com/technology/2026/sep/09/lawmakers-blast-ai-human-extinct-2030",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T00:19:36+00:00",
-      "text": "Lawmakers blast AI companies after researcher warns of human extinction by 2030 Former Anthropic employee Jacob Coxon said AI will become ‘superhuman systems’ that can cause human extinction by the end of the decade Just a day after three Anthropic researchers warned that artificial intelligence could kill off humanity within the decade, lawmakers have begun lashing out about the risks of the burgeoning technology. Ted Cruz, a republican senator from Texas, said in an interview on ABC’s The View, that AI poses a “catastrophic risk” and that he “read that whole tweet thread that that developer put out. It was highly concerning. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 62.58,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.66",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.655,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2386,6 +2354,42 @@
       "source_priority": "high"
     },
     {
+      "id": "838110ea8d79df29",
+      "title": "Lawmakers blast AI companies after researcher warns of human extinction by 2030",
+      "url": "https://www.theguardian.com/technology/2026/sep/09/lawmakers-blast-ai-human-extinct-2030",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T00:19:36+00:00",
+      "text": "Lawmakers blast AI companies after researcher warns of human extinction by 2030 Former Anthropic employee Jacob Coxon said AI will become ‘superhuman systems’ that can cause human extinction by the end of the decade Just a day after three Anthropic researchers warned that artificial intelligence could kill off humanity within the decade, lawmakers have begun lashing out about the risks of the burgeoning technology. Ted Cruz, a republican senator from Texas, said in an interview on ABC’s The View, that AI poses a “catastrophic risk” and that he “read that whole tweet thread that that developer put out. It was highly concerning. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 62.247,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.64",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.64,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "19672c4832d4c9bc",
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -2400,10 +2404,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.241,
+      "score": 62.194,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.55",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -2412,7 +2416,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.556,
+      "novelty_score": 0.554,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2437,10 +2441,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.178,
+      "score": 62.067,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=2",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -2449,7 +2453,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.788,
+      "novelty_score": 0.783,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2473,7 +2477,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 62.014,
+      "score": 62.003,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.42",
@@ -2485,7 +2489,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.425,
+      "novelty_score": 0.424,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2510,10 +2514,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.039,
+      "score": 60.928,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2522,7 +2526,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.865,
+      "novelty_score": 0.86,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2545,7 +2549,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.485,
+      "score": 60.438,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2557,7 +2561,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.777,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -2566,42 +2570,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "1989dffc439faa26",
-      "title": "OpenAI adds a prominent AI doomer to its board of directors",
-      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T22:25:22+00:00",
-      "text": "OpenAI adds a prominent AI doomer to its board of directors Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.368,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.865,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2967,6 +2935,42 @@
       "source_priority": "high"
     },
     {
+      "id": "1989dffc439faa26",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T22:25:22+00:00",
+      "text": "OpenAI adds a prominent AI doomer to its board of directors Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.257,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.86",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.86,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
       "id": "22f82cd96b728a66",
       "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
       "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
@@ -2979,7 +2983,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 60.26,
+      "score": 60.249,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.50",
@@ -2991,7 +2995,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.497,
+      "novelty_score": 0.496,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -3015,10 +3019,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 60.125,
+      "score": 60.014,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.97",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3027,7 +3031,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.975,
+      "novelty_score": 0.97,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3036,45 +3040,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "294aaeb87643821e",
-      "title": "AI Models Are Watermarking Text—Will You Notice?",
-      "url": "https://spectrum.ieee.org/ai-watermark-text-anthropic-openai",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T12:00:04+00:00",
-      "text": "AI Models Are Watermarking Text—Will You Notice? On 11 August, Anthropic announced that all future Claude models will generate text that contains a watermark that identifies its results as AI generated. The company is not alone. Google has its own text watermark (which Anthropic’s is based on) it uses on the output of its Gemini models . OpenAI has yet to introduce a text watermark but it plans to do so . The rapid spread of watermarking is in part a response to the European Union’s AI Act , which mandates watermarks for AI models released after 2 August, 2026, along with other planned and proposed regulations aimed at curbing the spread of deceptive or manipulative AI-generated content. But the new rules may come at a cost for AI users who simply want the best possible results. AI watermarks can apply to many forms of content: The EU AI Act also requires them for images, audio, and video. Such media watermarks have been in use for years , and while their effectiveness as a holistic solution to marking AI remains up for debate , they can achieve detection rates above 99 percent . Image and video watermarks are already deployed by OpenAI, Google, and Meta, among others. (Anthropic d",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "OpenAI",
-        "Anthropic",
-        "Claude"
-      ],
-      "engagement": {},
-      "score": 59.94,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.27",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.27,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3090,7 +3055,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.935,
+      "score": 59.924,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -3102,7 +3067,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.991,
+      "novelty_score": 0.99,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3111,44 +3076,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "bb7230da43dc4e47",
-      "title": "Quoting Calif Research",
-      "url": "https://simonwillison.net/2026/Sep/10/calif-research",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T00:56:41+00:00",
-      "text": "Quoting Calif Research Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai",
-      "matched_terms": [
-        "AI",
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 59.752,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.837,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -3186,6 +3113,83 @@
       "source_priority": "high"
     },
     {
+      "id": "294aaeb87643821e",
+      "title": "AI Models Are Watermarking Text—Will You Notice?",
+      "url": "https://spectrum.ieee.org/ai-watermark-text-anthropic-openai",
+      "source": "IEEE Spectrum AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T12:00:04+00:00",
+      "text": "AI Models Are Watermarking Text—Will You Notice? On 11 August, Anthropic announced that all future Claude models will generate text that contains a watermark that identifies its results as AI generated. The company is not alone. Google has its own text watermark (which Anthropic’s is based on) it uses on the output of its Gemini models . OpenAI has yet to introduce a text watermark but it plans to do so . The rapid spread of watermarking is in part a response to the European Union’s AI Act , which mandates watermarks for AI models released after 2 August, 2026, along with other planned and proposed regulations aimed at curbing the spread of deceptive or manipulative AI-generated content. But the new rules may come at a cost for AI users who simply want the best possible results. AI watermarks can apply to many forms of content: The EU AI Act also requires them for images, audio, and video. Such media watermarks have been in use for years , and while their effectiveness as a holistic solution to marking AI remains up for debate , they can achieve detection rates above 99 percent . Image and video watermarks are already deployed by OpenAI, Google, and Meta, among others. (Anthropic d",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "engagement": {},
+      "score": 59.606,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.25",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.67",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.255,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "bb7230da43dc4e47",
+      "title": "Quoting Calif Research",
+      "url": "https://simonwillison.net/2026/Sep/10/calif-research",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T00:56:41+00:00",
+      "text": "Quoting Calif Research Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai",
+      "matched_terms": [
+        "AI",
+        "LLM"
+      ],
+      "engagement": {},
+      "score": 59.586,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.83,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "fd8c222d170bd9f7",
       "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
       "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers",
@@ -3200,10 +3204,10 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 59.53,
+      "score": 59.419,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3212,7 +3216,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.797,
+      "novelty_score": 0.792,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3220,42 +3224,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "97ac9a9ef264adb1",
-      "title": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity",
-      "url": "https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T00:12:18+00:00",
-      "text": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity Their warnings echo concerns that other artificial intelligence experts have voiced in recent months, as calls increase for a slowdown in the pace of development.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 58.996,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.651,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3272,10 +3240,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.918,
+      "score": 58.807,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3284,7 +3252,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.799,
+      "novelty_score": 0.794,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3309,10 +3277,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 58.875,
+      "score": 58.764,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3321,7 +3289,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.767,
+      "novelty_score": 0.762,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3329,41 +3297,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "5fd815c7cc4309f1",
-      "title": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it",
-      "url": "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T08:30:00+00:00",
-      "text": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it BANGOR, Maine — Rural health care providers, which have struggled for years, are facing nearly $1 trillion in Medicaid cuts over the coming decade. The Trump administration is pointing to…",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.866,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.91",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3380,10 +3313,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.859,
+      "score": 58.748,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.79",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3392,7 +3325,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.797,
+      "novelty_score": 0.792,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3400,6 +3333,77 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "97ac9a9ef264adb1",
+      "title": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity",
+      "url": "https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T00:12:18+00:00",
+      "text": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity Their warnings echo concerns that other artificial intelligence experts have voiced in recent months, as calls increase for a slowdown in the pace of development.",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 58.663,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.64",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.636,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5fd815c7cc4309f1",
+      "title": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it",
+      "url": "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T08:30:00+00:00",
+      "text": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it BANGOR, Maine — Rural health care providers, which have struggled for years, are facing nearly $1 trillion in Medicaid cuts over the coming decade. The Trump administration is pointing to…",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.533,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.90",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.895,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3563,7 +3567,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 57.466,
+      "score": 57.355,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -3575,7 +3579,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.582,
+      "novelty_score": 0.577,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3598,7 +3602,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.408,
+      "score": 57.297,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3610,7 +3614,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.844,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3633,7 +3637,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.399,
+      "score": 57.288,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -3645,7 +3649,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.882,
+      "novelty_score": 0.877,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3669,10 +3673,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 57.265,
+      "score": 57.154,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3681,7 +3685,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.845,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3690,6 +3694,41 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "da9a29d0afd56836",
+      "title": "Oz says ‘AI-based avatars’ can help rural communities. Some leaders disagree",
+      "url": "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T11:34:59+00:00",
+      "text": "Oz says ‘AI-based avatars’ can help rural communities. Some leaders disagree Feds invest in AI for heart failure, vaccines and this year's midterms, and more health news from Morning Rounds",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.152,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.992,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3706,7 +3745,7 @@
         "GPU"
       ],
       "engagement": {},
-      "score": 57.239,
+      "score": 57.128,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3718,7 +3757,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.844,
+      "novelty_score": 0.839,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -3727,74 +3766,6 @@
         "physical_ai"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "1a5afe02c00ff05c",
-      "title": "Powering AI is an architecture problem",
-      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem",
-      "source": "MIT Technology Review AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T11:00:00+00:00",
-      "text": "Powering AI is an architecture problem On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No…",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.085,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.989,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "e6525006afc9bc8b",
-      "title": "This road map could help us decide whether to deploy solar geoengineering",
-      "url": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering",
-      "source": "MIT Technology Review AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T11:00:00+00:00",
-      "text": "This road map could help us decide whether to deploy solar geoengineering A San Francisco nonprofit has published a detailed road map of the experiments, studies, and infrastructure that it says would be needed to make informed decisions about the use of solar geoengineering, MIT Technology Review can reveal. Scientists have now spent half a century exploring the possibility that we could counteract climate change by releasing…",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.085,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.989,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5413,6 +5384,40 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Fea Hotspot Reporting https://www.synera.ai/workflows/fea-hotspot-reporting",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "149580e921638f25",
+      "title": "Fea Hotspot Reporting",
+      "url": "https://www.synera.ai/de/workflows/fea-hotspot-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Hotspot Reporting https://www.synera.ai/de/workflows/fea-hotspot-reporting",
       "matched_terms": [
         "FEA"
       ],
