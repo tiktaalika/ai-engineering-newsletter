@@ -3,67 +3,67 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16613
-- filtered_count: 2765
+- fetched_count: 16569
+- filtered_count: 2766
 - duplicate_count: 80
 - failures: 7
 
 ## Top 10 General AI News
 1. [.blend URL Viewer](https://simonwillison.net/2026/Sep/9/blender-viewer)
    - source: Simon Willison
-   - score: 62.455
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.809; source_priority=1.0
+   - score: 62.405
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.806; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting Calif Research](https://simonwillison.net/2026/Sep/10/calif-research)
    - source: Simon Willison
-   - score: 59.455
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.824; source_priority=1.0
+   - score: 59.405
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.821; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.82; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 3. [Paul Christiano joins OpenAI Foundation Board](https://openai.com/index/paul-christiano-joins-openai-foundation-board)
    - source: OpenAI
-   - score: 56.26
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.8; source_priority=1.0
+   - score: 56.227
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.798; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [GPT-6 Astra: The next generation in intelligence for work](https://openai.com/index/gpt-6-astra-next-generation-work)
    - source: OpenAI
-   - score: 54.885
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.737; source_priority=1.0
+   - score: 54.852
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.736; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.74; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-d3b)
    - source: Latent Space
-   - score: 54.351
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.864; source_priority=1.0
+   - score: 54.302
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.862; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Cool’s Moving Out and Moving In](https://www.argmin.net/p/cools-moving-out-and-moving-in)
    - source: Argmin Gravitas
-   - score: 51.965
+   - score: 51.951
    - score_breakdown: general=0.167; engineering=0.0; research=1.0; novelty=0.901; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 7. [Building Codex with Tibo Sottiaux](https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux)
    - source: The Pragmatic Engineer
-   - score: 42.498
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.683; source_priority=0.65
+   - score: 42.449
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.681; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.68; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [ICYMI: What landed for AI builders in August 2026](https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026)
    - source: Amazon AWS AI
-   - score: 63.618
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.831; source_priority=1.0
+   - score: 63.585
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.83; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Mathematicians want proof OpenAI didn’t use their work](https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data)
    - source: The Verge AI
-   - score: 62.5
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.962; source_priority=1.0
+   - score: 62.4
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.958; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.96; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 10. [Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM](https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm)
    - source: Amazon AWS AI
-   - score: 60.841
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.856; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.807
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.855; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [HiLiftAeroML Open Dataset Accelerates AI Physics Model Adoption](https://rescale.com/blog/ic-hiliftaeroml-open-dataset-accelerates-ai-physics-model-adoption)
    - source: Rescale
-   - score: 80.14
+   - score: 80.137
    - score_breakdown: general=0.5; engineering=1.0; research=0.333; novelty=0.976; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=1.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Agentic Ai Cae Manufacturing Analysis Automotive Cae Grand Challenge](https://www.synera.ai/webinar/agentic-ai-cae-manufacturing-analysis-automotive-cae-grand-challenge)
@@ -73,31 +73,31 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; engineering_workflow_ai_boost=10; visible_engagement=unavailable
 3. [Viral AI assistant Instinct now has its own email address](https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address)
    - source: TechCrunch AI
-   - score: 62.686
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.781; source_priority=1.0
+   - score: 62.652
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.78; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 4. [Lawmakers blast AI companies after researcher warns of human extinction by 2030](https://www.theguardian.com/technology/2026/sep/09/lawmakers-blast-ai-human-extinct-2030)
    - source: The Guardian Technology
-   - score: 61.984
-   - score_breakdown: general=0.5; engineering=0.25; research=0.333; novelty=0.628; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.63; matched_terms=3; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
+   - score: 61.885
+   - score_breakdown: general=0.5; engineering=0.25; research=0.333; novelty=0.624; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.62; matched_terms=3; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 5. [Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it](https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series)
    - source: STAT Health Tech
-   - score: 58.27
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.883; source_priority=1.0
+   - score: 58.171
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.879; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Oz says ‘AI-based avatars’ can help rural communities. Some leaders disagree](https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism)
    - source: STAT Health Tech
-   - score: 56.89
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.98; source_priority=1.0
+   - score: 56.79
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Healthcare AI’s next test is integration](https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration)
    - source: MIT Technology Review AI
-   - score: 55.091
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.992
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.894; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Lerobotxnvidia Healthcare](https://huggingface.co/blog/lerobotxnvidia-healthcare)
    - source: Hugging Face Papers
    - score: 51.033
@@ -110,8 +110,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 5. [UK needs new laws for AI in healthcare, says watchdog](https://www.bbc.co.uk/news/articles/c3wjn3pl63xo?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 49.483
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.643; source_priority=1.0
+   - score: 49.384
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.639; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.64; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
@@ -153,6 +153,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - [ESI Group](https://www.google.com/search?q=site%3Awww.esi-group.com%20AI): site:www.esi-group.com AI (website, medium)
 - [CADFEM](https://www.google.com/search?q=site%3Awww.cadfem.net%20AI): site:www.cadfem.net AI (website, medium)
 - [arXiv AI Search](https://www.google.com/search?q=site%3Aexport.arxiv.org%20AI): site:export.arxiv.org AI (arxiv, high)
+- [Nature Machine Intelligence](https://www.google.com/search?q=site%3Awww.nature.com%20AI): site:www.nature.com AI (website, medium)
 - [Science Robotics](https://www.google.com/search?q=site%3Awww.science.org%20AI): site:www.science.org AI (website, medium)
 - [ACM AI-related feeds](https://www.google.com/search?q=site%3Adl.acm.org%20AI): site:dl.acm.org AI (website, low)
 - [IEEE AI-related feeds](https://www.google.com/search?q=site%3Awww.ieee.org%20AI): site:www.ieee.org AI (website, low)
