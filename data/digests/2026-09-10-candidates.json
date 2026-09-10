@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-10T06:08:28.022581+00:00",
+    "generated_at": "2026-09-10T11:21:42.401219+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16538,
-    "filtered_count": 2768,
-    "duplicate_count": 79,
+    "fetched_count": 16565,
+    "filtered_count": 2767,
+    "duplicate_count": 80,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -65,10 +61,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 64.547,
+      "score": 62.753,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -77,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.904,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -103,10 +99,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 61.547,
+      "score": 59.752,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -115,7 +111,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.919,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -141,10 +137,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.655,
+      "score": 56.459,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.81",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -153,7 +149,44 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "novelty_score": 0.809,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "product",
+        "api",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "587a70348a735f61",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "source": "OpenAI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T11:00:00+00:00",
+      "text": "GPT-6 Astra: The next generation in intelligence for work Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 55.084,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.75",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.746,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -177,10 +210,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 56.444,
+      "score": 54.649,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.88",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -189,7 +222,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.96,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -198,43 +231,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "587a70348a735f61",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "source": "OpenAI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T11:00:00+00:00",
-      "text": "GPT-6 Astra: The next generation in intelligence for work Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 56.28,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.80",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.801,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -250,10 +246,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 52.563,
+      "score": 52.05,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.93",
+        "novelty=0.91",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -262,7 +258,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.929,
+      "novelty_score": 0.905,
       "source_priority_score": 0.65,
       "source_tags": [
         "ml",
@@ -287,10 +283,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 44.591,
+      "score": 42.796,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.78",
+        "novelty=0.70",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -299,7 +295,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.778,
+      "novelty_score": 0.697,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -325,10 +321,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 65.013,
+      "score": 63.817,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.84",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -337,7 +333,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -345,42 +341,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "97ac9a9ef264adb1",
-      "title": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity",
-      "url": "https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T00:12:18+00:00",
-      "text": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity Their warnings echo concerns that other artificial intelligence experts have voiced in recent months, as calls increase for a slowdown in the pace of development.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 62.586,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.81",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.814,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -398,10 +358,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.235,
+      "score": 61.039,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.87",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -410,7 +370,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.92,
+      "novelty_score": 0.865,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -418,6 +378,42 @@
         "mlops"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "1989dffc439faa26",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T22:25:22+00:00",
+      "text": "OpenAI adds a prominent AI doomer to its board of directors Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.368,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.865,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     }
   ],
@@ -437,7 +433,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 80.28,
+      "score": 80.16,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -449,7 +445,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.982,
+      "novelty_score": 0.977,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -457,43 +453,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cc82c264682b34fd",
-      "title": "Anthropic researchers say AI could cause human extinction by 2030",
-      "url": "https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T00:14:08+00:00",
-      "text": "Anthropic researchers say AI could cause human extinction by 2030 One researcher who resigned said many in industry believe that without regulation AI could kill off humanity Artificial intelligence could kill off humanity within the decade, according to three researchers with the industry giant Anthropic , one of whom has quit his job in protest. The latest doom-laden predictions came in posts on social media on Tuesday by a researcher who said he resigned because Anthropic and his previous employer, OpenAI , were ignoring or, at best, mishandling their response to the threat. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 69.44,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=4",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.815,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -546,10 +505,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 64.081,
+      "score": 62.884,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -558,7 +517,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.845,
+      "novelty_score": 0.79,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -569,105 +528,33 @@
       "source_priority": "high"
     },
     {
-      "id": "930cebb74da0de04",
-      "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
-      "source": "The Verge AI",
+      "id": "838110ea8d79df29",
+      "title": "Lawmakers blast AI companies after researcher warns of human extinction by 2030",
+      "url": "https://www.theguardian.com/technology/2026/sep/09/lawmakers-blast-ai-human-extinct-2030",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-09T09:56:28+00:00",
-      "text": "Worried Anthropic researchers warn that AI ‘could kill all humans’ A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
+      "published_at": "2026-09-10T00:19:36+00:00",
+      "text": "Lawmakers blast AI companies after researcher warns of human extinction by 2030 Former Anthropic employee Jacob Coxon said AI will become ‘superhuman systems’ that can cause human extinction by the end of the decade Just a day after three Anthropic researchers warned that artificial intelligence could kill off humanity within the decade, lawmakers have begun lashing out about the risks of the burgeoning technology. Ted Cruz, a republican senator from Texas, said in an interview on ABC’s The View, that AI poses a “catastrophic risk” and that he “read that whole tweet thread that that developer put out. It was highly concerning. Continue reading...",
       "matched_terms": [
         "AI",
         "artificial intelligence",
         "Anthropic"
       ],
       "engagement": {},
-      "score": 59.779,
+      "score": 62.58,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.66",
         "matched_terms=3",
-        "engineering_relevance=0.50",
+        "engineering_relevance=0.25",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.369,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    }
-  ],
-  "top_5_medical_bio_ai": [
-    {
-      "id": "877559fd802afe09",
-      "title": "STAT+: U.K. unveils recommendations for regulating AI in medicine",
-      "url": "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T23:01:00+00:00",
-      "text": "STAT+: U.K. unveils recommendations for regulating AI in medicine A U.K. commission has unveiled its recommendations for how the country should regulate artificial intelligence in medicine.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 55.769,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f97f2fb833e63842",
-      "title": "UK needs new laws for AI in healthcare, says watchdog",
-      "url": "https://www.bbc.co.uk/news/articles/c3wjn3pl63xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T00:48:35+00:00",
-      "text": "UK needs new laws for AI in healthcare, says watchdog The technology will soon be routinely used within the NHS, MHRA chief Lawrence Tallon tells the BBC.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 53.668,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.83",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -677,32 +564,31 @@
       "source_priority": "high"
     },
     {
-      "id": "18e2f951b4e5b452",
-      "title": "STAT+: ARPA-H to invest $62 million to develop FDA-authorized AI to help treat heart failure",
-      "url": "https://www.statnews.com/2026/09/09/arpa-h-advocate-program-autonomous-ai-bots-for-heart-failure",
+      "id": "5fd815c7cc4309f1",
+      "title": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it",
+      "url": "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series",
       "source": "STAT Health Tech",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T16:01:00+00:00",
-      "text": "STAT+: ARPA-H to invest $62 million to develop FDA-authorized AI to help treat heart failure ARPA-H, the government agency that funds cutting edge health research, plans to commit $62.7 million to develop artificial intelligence bots that direct treatment of heart failure.",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T08:30:00+00:00",
+      "text": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it BANGOR, Maine — Rural health care providers, which have struggled for years, are facing nearly $1 trillion in Medicaid cuts over the coming decade. The Trump administration is pointing to…",
       "matched_terms": [
-        "AI",
-        "artificial intelligence"
+        "AI"
       ],
       "engagement": {},
-      "score": 53.623,
+      "score": 58.866,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.559,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -711,24 +597,26 @@
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
-    },
+    }
+  ],
+  "top_5_medical_bio_ai": [
     {
-      "id": "b1afe3f696c561a3",
-      "title": "Coroner releases details of infants who died amid growing Pennsylvania measles outbreak",
-      "url": "https://www.statnews.com/2026/09/09/coroner-details-infant-deaths-pennsylvania-measles-outbreak",
-      "source": "STAT Health Tech",
+      "id": "f80c82d701384c7e",
+      "title": "Healthcare AI’s next test is integration",
+      "url": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration",
+      "source": "MIT Technology Review AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-09T21:44:07+00:00",
-      "text": "Coroner releases details of infants who died amid growing Pennsylvania measles outbreak The two measles-related deaths in Pennsylvania last month involved infants, and the virus itself caused one of the deaths, a Pennsylvania coroner confirmed Wednesday.",
+      "published_at": "2026-09-10T08:58:01+00:00",
+      "text": "Healthcare AI’s next test is integration The entrance of major AI companies into healthcare is a meaningful and welcome development, accelerating the technical foundation available to the industry. Their models are increasingly capable of processing long clinical records, interpreting complex terminology, comparing documentation against evidence and generating coherent summaries from large volumes of information. For clinicians, operators, and administrative teams who…",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 51.554,
+      "score": 55.687,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.74",
+        "novelty=0.93",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -737,7 +625,41 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.737,
+      "novelty_score": 0.925,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7a3c40be1eaac259",
+      "title": "Opinion: John Fetterman’s post-stroke, politically problematic behaviors offer lessons about brain health on Capitol Hill",
+      "url": "https://www.statnews.com/2026/09/10/john-fetterman-post-stroke-behavior-experts-see-neurological-changes",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T08:30:00+00:00",
+      "text": "Opinion: John Fetterman’s post-stroke, politically problematic behaviors offer lessons about brain health on Capitol Hill “Nothing in the recent reporting about John Fetterman is medically surprising,” write Michael P.H. Stanley and Isaiah Kletenik.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.366,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -781,6 +703,75 @@
       ],
       "registry_category": "research",
       "source_priority": "high"
+    },
+    {
+      "id": "ff11da33a298f35d",
+      "title": "Nvidia Isaac For Healthcare",
+      "url": "https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare",
+      "source": "Hugging Face Papers",
+      "source_kind": "sitemap_or_search",
+      "category": "research",
+      "published_at": null,
+      "text": "Nvidia Isaac For Healthcare https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare",
+      "matched_terms": [
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 51.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "research",
+        "community",
+        "papers"
+      ],
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "f97f2fb833e63842",
+      "title": "UK needs new laws for AI in healthcare, says watchdog",
+      "url": "https://www.bbc.co.uk/news/articles/c3wjn3pl63xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T00:48:35+00:00",
+      "text": "UK needs new laws for AI in healthcare, says watchdog The technology will soon be routinely used within the NHS, MHRA chief Lawrence Tallon tells the BBC.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 50.079,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.67",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.67,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
     }
   ],
   "top_5_cae_ai_engineering": [
@@ -799,7 +790,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 80.28,
+      "score": 80.16,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -811,7 +802,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.982,
+      "novelty_score": 0.977,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -819,43 +810,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cc82c264682b34fd",
-      "title": "Anthropic researchers say AI could cause human extinction by 2030",
-      "url": "https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T00:14:08+00:00",
-      "text": "Anthropic researchers say AI could cause human extinction by 2030 One researcher who resigned said many in industry believe that without regulation AI could kill off humanity Artificial intelligence could kill off humanity within the decade, according to three researchers with the industry giant Anthropic , one of whom has quit his job in protest. The latest doom-laden predictions came in posts on social media on Tuesday by a researcher who said he resigned because Anthropic and his previous employer, OpenAI , were ignoring or, at best, mishandling their response to the threat. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 69.44,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=4",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.815,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -908,10 +862,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 64.081,
+      "score": 62.884,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -920,7 +874,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.845,
+      "novelty_score": 0.79,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -931,37 +885,72 @@
       "source_priority": "high"
     },
     {
-      "id": "930cebb74da0de04",
-      "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
-      "source": "The Verge AI",
+      "id": "838110ea8d79df29",
+      "title": "Lawmakers blast AI companies after researcher warns of human extinction by 2030",
+      "url": "https://www.theguardian.com/technology/2026/sep/09/lawmakers-blast-ai-human-extinct-2030",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-09T09:56:28+00:00",
-      "text": "Worried Anthropic researchers warn that AI ‘could kill all humans’ A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
+      "published_at": "2026-09-10T00:19:36+00:00",
+      "text": "Lawmakers blast AI companies after researcher warns of human extinction by 2030 Former Anthropic employee Jacob Coxon said AI will become ‘superhuman systems’ that can cause human extinction by the end of the decade Just a day after three Anthropic researchers warned that artificial intelligence could kill off humanity within the decade, lawmakers have begun lashing out about the risks of the burgeoning technology. Ted Cruz, a republican senator from Texas, said in an interview on ABC’s The View, that AI poses a “catastrophic risk” and that he “read that whole tweet thread that that developer put out. It was highly concerning. Continue reading...",
       "matched_terms": [
         "AI",
         "artificial intelligence",
         "Anthropic"
       ],
       "engagement": {},
-      "score": 59.779,
+      "score": 62.58,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
+        "novelty=0.66",
         "matched_terms=3",
-        "engineering_relevance=0.50",
+        "engineering_relevance=0.25",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.369,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5fd815c7cc4309f1",
+      "title": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it",
+      "url": "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T08:30:00+00:00",
+      "text": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it BANGOR, Maine — Rural health care providers, which have struggled for years, are facing nearly $1 trillion in Medicaid cuts over the coming decade. The Trump administration is pointing to…",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.866,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -1788,7 +1777,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 80.28,
+      "score": 80.16,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -1800,7 +1789,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.982,
+      "novelty_score": 0.977,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1823,10 +1812,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 74.277,
+      "score": 74.158,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.68",
+        "novelty=0.67",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1836,7 +1825,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.679,
+      "novelty_score": 0.674,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1859,10 +1848,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.849,
+      "score": 73.729,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.65",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1872,7 +1861,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.66,
+      "novelty_score": 0.654,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1895,10 +1884,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 71.554,
+      "score": 71.434,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1907,7 +1896,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.859,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1931,10 +1920,10 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 71.484,
+      "score": 71.364,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1943,7 +1932,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1967,7 +1956,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.934,
+      "score": 69.815,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1979,7 +1968,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.785,
+      "novelty_score": 0.779,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1987,43 +1976,6 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cc82c264682b34fd",
-      "title": "Anthropic researchers say AI could cause human extinction by 2030",
-      "url": "https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T00:14:08+00:00",
-      "text": "Anthropic researchers say AI could cause human extinction by 2030 One researcher who resigned said many in industry believe that without regulation AI could kill off humanity Artificial intelligence could kill off humanity within the decade, according to three researchers with the industry giant Anthropic , one of whom has quit his job in protest. The latest doom-laden predictions came in posts on social media on Tuesday by a researcher who said he resigned because Anthropic and his previous employer, OpenAI , were ignoring or, at best, mishandling their response to the threat. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 69.44,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=4",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.815,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2044,10 +1996,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 68.945,
+      "score": 67.15,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.53",
+        "novelty=0.45",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -2056,7 +2008,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.528,
+      "novelty_score": 0.446,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2066,46 +2018,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "b759b5a267628f7f",
-      "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
-      "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-08T16:21:57+00:00",
-      "text": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6 Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "Nvidia",
-        "inference",
-        "GPU",
-        "benchmark"
-      ],
-      "engagement": {},
-      "score": 68.01,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.61",
-        "matched_terms=6",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.607,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2179,6 +2091,46 @@
       "source_priority": "high"
     },
     {
+      "id": "b759b5a267628f7f",
+      "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
+      "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-08T16:21:57+00:00",
+      "text": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6 Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "Nvidia",
+        "inference",
+        "GPU",
+        "benchmark"
+      ],
+      "engagement": {},
+      "score": 66.813,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=6",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 1.0,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.552,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "02a21f8c28b0ca9d",
       "title": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition",
       "url": "https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition",
@@ -2191,10 +2143,10 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 66.656,
+      "score": 66.537,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
+        "novelty=0.78",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2203,88 +2155,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.787,
+      "novelty_score": 0.782,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "d1c66e6e7b636adf",
-      "title": "China’s Regulators Take Aim at “AI Boyfriends”",
-      "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-09T10:00:07+00:00",
-      "text": "China’s Regulators Take Aim at “AI Boyfriends” In the first weeks of July, a wave of sad posts rolled through Chinese social media, as people lamented friends and lovers they were about to lose. “He has become a bond in my life, rooted deep in my heart, my spiritual pillar,” one user of Bytedance’s Douboa wrote , according to the Taipei Times . “I really felt like I couldn’t go on living,” another woman, a 19-year-old student, told a journalist for Malaysia’s The Star . The emotions were real but the lost companions were not. They were generative AI chatbots that imitate people. Their users relied on them for advice, solace, support and, some say, love. “In my heart, he was no longer just a cold code, but my family, my lover, my faith. Destroying him meant destroying half of me,” one user wrote on the social network xiaohongshu (translated from Mandarin). What doomed these bots was a set of new rules , issued by China’s Cyberspace Administration and other government agencies, to control “anthropomorphic AI interactive services.” In effect, as of 15 July, the regulations govern any AI that provides “continuous emotional interaction” by acting as if it possesses human personality tra",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "agent",
-        "AI agent",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 66.488,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.37",
-        "matched_terms=5",
-        "engineering_relevance=0.50",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.371,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "838110ea8d79df29",
-      "title": "Lawmakers blast AI companies after researcher warns of human extinction by 2030",
-      "url": "https://www.theguardian.com/technology/2026/sep/09/lawmakers-blast-ai-human-extinct-2030",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T00:19:36+00:00",
-      "text": "Lawmakers blast AI companies after researcher warns of human extinction by 2030 Former Anthropic employee Jacob Coxon said AI will become ‘superhuman systems’ that can cause human extinction by the end of the decade Just a day after three Anthropic researchers warned that artificial intelligence could kill off humanity within the decade, lawmakers have begun lashing out about the risks of the burgeoning technology. Ted Cruz, a republican senator from Texas, said in an interview on ABC’s The View, that AI poses a “catastrophic risk” and that he “read that whole tweet thread that that developer put out. It was highly concerning. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 66.169,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.818,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2303,10 +2180,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 65.013,
+      "score": 63.817,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.84",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2315,7 +2192,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.895,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2326,81 +2203,39 @@
       "source_priority": "high"
     },
     {
-      "id": "26500d7176f4ee8d",
-      "title": ".blend URL Viewer",
-      "url": "https://simonwillison.net/2026/Sep/9/blender-viewer",
-      "source": "Simon Willison",
+      "id": "44084287147f6737",
+      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "source": "Ahead of AI",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T23:58:32+00:00",
-      "text": ".blend URL Viewer Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL ). As a big fan of the Imperial Fabergé Easter eggs , I've always thought it would be fun to make some new ones that celebrate popular culture. Yesterday I decided to try out the new ChatGPT Images 2.5 by running this prompt : Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first It gave me this - honestly not bad for a first attempt! Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted: Use your blender local skill to create a blender model of this faverge egg (Here's the skill file , which I created like this .) It churned away for 17m51s and built me several .blend files . I already had this vibe-coded Blender viewing experiment lying around, so I added that to my tools collection and now you can use it to see my Pluribus blender model in your browser : Tags: 3d , javascript , tools , ai , generative-ai , llms , blender , coding-agents , codex , gpt-6-astra",
+      "category": "research",
+      "published_at": "2026-09-09T11:14:25+00:00",
+      "text": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
       "matched_terms": [
-        "AI",
-        "LLM",
-        "agent"
+        "AI"
       ],
       "engagement": {},
-      "score": 64.547,
+      "score": 62.964,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=3",
+        "novelty=0.89",
+        "matched_terms=1",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.904,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.892,
       "source_priority_score": 1.0,
       "source_tags": [
-        "expert_blog",
+        "research",
+        "ml",
         "llm",
-        "agents",
-        "software_engineering",
         "guo_yichen_reference"
       ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "b3c41de958d8508a",
-      "title": "Innovative simulation and test solutions for trustworthy data-centric AI",
-      "url": "https://blogs.sw.siemens.com/art-of-the-possible/innovative-simulation-and-test-solutions-for-trustworthy-data-centric-ai",
-      "source": "Siemens Art of the Possible",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-11T11:04:59+00:00",
-      "text": "Innovative simulation and test solutions for trustworthy data-centric AI Trustworthy AI begins with trustworthy data. Discover how Siemens and KU Leuven are performing research along this line, aiming to enable trustworthy data-centric AI for engineering applications. We consider the rich variety of engineering data, from modeling and simulation to test data acquisition, throughout product design and validation up to real-world operation. Check our blog to learn about our research towards trustworthy data-centric AI, together with KU Leuven in the frame of our research project SATISFY.AI, with support from the Flanders Innovation & Entrepreneurship Agency (VLAIO).",
-      "matched_terms": [
-        "simulation",
-        "ROM",
-        "AI for engineering"
-      ],
-      "engagement": {},
-      "score": 64.28,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.26",
-        "matched_terms=3",
-        "engineering_relevance=1.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.255,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "agentic_ai",
-        "cae",
-        "simulation",
-        "industrial_ai",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2418,10 +2253,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 64.081,
+      "score": 62.884,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2430,7 +2265,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.845,
+      "novelty_score": 0.79,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2441,182 +2276,72 @@
       "source_priority": "high"
     },
     {
-      "id": "294aaeb87643821e",
-      "title": "AI Models Are Watermarking Text—Will You Notice?",
-      "url": "https://spectrum.ieee.org/ai-watermark-text-anthropic-openai",
-      "source": "IEEE Spectrum AI",
+      "id": "26500d7176f4ee8d",
+      "title": ".blend URL Viewer",
+      "url": "https://simonwillison.net/2026/Sep/9/blender-viewer",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-09T12:00:04+00:00",
-      "text": "AI Models Are Watermarking Text—Will You Notice? On 11 August, Anthropic announced that all future Claude models will generate text that contains a watermark that identifies its results as AI generated. The company is not alone. Google has its own text watermark (which Anthropic’s is based on) it uses on the output of its Gemini models . OpenAI has yet to introduce a text watermark but it plans to do so . The rapid spread of watermarking is in part a response to the European Union’s AI Act , which mandates watermarks for AI models released after 2 August, 2026, along with other planned and proposed regulations aimed at curbing the spread of deceptive or manipulative AI-generated content. But the new rules may come at a cost for AI users who simply want the best possible results. AI watermarks can apply to many forms of content: The EU AI Act also requires them for images, audio, and video. Such media watermarks have been in use for years , and while their effectiveness as a holistic solution to marking AI remains up for debate , they can achieve detection rates above 99 percent . Image and video watermarks are already deployed by OpenAI, Google, and Meta, among others. (Anthropic d",
+      "published_at": "2026-09-09T23:58:32+00:00",
+      "text": ".blend URL Viewer Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL ). As a big fan of the Imperial Fabergé Easter eggs , I've always thought it would be fun to make some new ones that celebrate popular culture. Yesterday I decided to try out the new ChatGPT Images 2.5 by running this prompt : Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first It gave me this - honestly not bad for a first attempt! Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted: Use your blender local skill to create a blender model of this faverge egg (Here's the skill file , which I created like this .) It churned away for 17m51s and built me several .blend files . I already had this vibe-coded Blender viewing experiment lying around, so I added that to my tools collection and now you can use it to see my Pluribus blender model in your browser : Tags: 3d , javascript , tools , ai , generative-ai , llms , blender , coding-agents , codex , gpt-6-astra",
       "matched_terms": [
         "AI",
         "LLM",
-        "OpenAI",
-        "Anthropic",
-        "Claude"
+        "agent"
       ],
       "engagement": {},
-      "score": 63.529,
+      "score": 62.753,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.433,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "44084287147f6737",
-      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "source": "Ahead of AI",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-09-09T11:14:25+00:00",
-      "text": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 63.477,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.916,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "research",
-        "ml",
-        "llm",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "019efd9eee18ab78",
-      "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
-      "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-09T15:02:47+00:00",
-      "text": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.",
-      "matched_terms": [
-        "AI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 63.374,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.843,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "19672c4832d4c9bc",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "source": "OpenAI Research RSS",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-09-06T08:00:00+00:00",
-      "text": "Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 62.754,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.58",
+        "novelty=0.82",
         "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=1.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.58,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.822,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "research",
-        "curated_rss",
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
         "guo_yichen_reference"
       ],
-      "registry_category": "research",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
-      "id": "97ac9a9ef264adb1",
-      "title": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity",
-      "url": "https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html",
-      "source": "New York Times Technology",
+      "id": "838110ea8d79df29",
+      "title": "Lawmakers blast AI companies after researcher warns of human extinction by 2030",
+      "url": "https://www.theguardian.com/technology/2026/sep/09/lawmakers-blast-ai-human-extinct-2030",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T00:12:18+00:00",
-      "text": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity Their warnings echo concerns that other artificial intelligence experts have voiced in recent months, as calls increase for a slowdown in the pace of development.",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T00:19:36+00:00",
+      "text": "Lawmakers blast AI companies after researcher warns of human extinction by 2030 Former Anthropic employee Jacob Coxon said AI will become ‘superhuman systems’ that can cause human extinction by the end of the decade Just a day after three Anthropic researchers warned that artificial intelligence could kill off humanity within the decade, lawmakers have begun lashing out about the risks of the burgeoning technology. Ted Cruz, a republican senator from Texas, said in an interview on ABC’s The View, that AI poses a “catastrophic risk” and that he “read that whole tweet thread that that developer put out. It was highly concerning. Continue reading...",
       "matched_terms": [
         "AI",
         "artificial intelligence",
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.586,
+      "score": 62.58,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.66",
         "matched_terms=3",
-        "engineering_relevance=0.00",
+        "engineering_relevance=0.25",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.814,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2661,40 +2386,77 @@
       "source_priority": "high"
     },
     {
-      "id": "942a08ea3b79e2e6",
-      "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
-      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm",
-      "source": "Amazon AWS AI",
+      "id": "19672c4832d4c9bc",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "OpenAI Research RSS",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T22:26:29+00:00",
-      "text": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoint with built-in reasoning, tool calling, and native MTP speculative decoding.",
+      "category": "research",
+      "published_at": "2026-09-06T08:00:00+00:00",
+      "text": "Research acceleration: The view inside OpenAI Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
       "matched_terms": [
         "AI",
-        "LLM",
+        "agent",
         "OpenAI"
       ],
       "engagement": {},
-      "score": 62.235,
+      "score": 62.241,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.56",
         "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=1.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.92,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.556,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "frontier_model",
+        "research",
+        "curated_rss",
+        "guo_yichen_reference"
       ],
-      "registry_category": "vendor",
+      "registry_category": "research",
+      "source_priority": "high"
+    },
+    {
+      "id": "019efd9eee18ab78",
+      "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
+      "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-09T15:02:47+00:00",
+      "text": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.",
+      "matched_terms": [
+        "AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 62.178,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.79",
+        "matched_terms=2",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.788,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2711,10 +2473,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 62.134,
+      "score": 62.014,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.42",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2723,7 +2485,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.43,
+      "novelty_score": 0.425,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2731,6 +2493,79 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "942a08ea3b79e2e6",
+      "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T22:26:29+00:00",
+      "text": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoint with built-in reasoning, tool calling, and native MTP speculative decoding.",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 61.039,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.87",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.865,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "fbb79928f7d9c051",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "source": "OpenAI Research RSS",
+      "source_kind": "rss",
+      "category": "research",
+      "published_at": "2026-09-08T10:00:00+00:00",
+      "text": "On the Navier–Stokes Millennium Prize Problem We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 60.485,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.78",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=1.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 1.0,
+      "novelty_score": 0.78,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "frontier_model",
+        "research",
+        "curated_rss",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "research",
       "source_priority": "high"
     },
     {
@@ -2747,10 +2582,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 61.565,
+      "score": 60.368,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2759,7 +2594,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.92,
+      "novelty_score": 0.865,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2767,152 +2602,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "bb7230da43dc4e47",
-      "title": "Quoting Calif Research",
-      "url": "https://simonwillison.net/2026/Sep/10/calif-research",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T00:56:41+00:00",
-      "text": "Quoting Calif Research Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai",
-      "matched_terms": [
-        "AI",
-        "LLM"
-      ],
-      "engagement": {},
-      "score": 61.547,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.919,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "fbb79928f7d9c051",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "source": "OpenAI Research RSS",
-      "source_kind": "rss",
-      "category": "research",
-      "published_at": "2026-09-08T10:00:00+00:00",
-      "text": "On the Navier–Stokes Millennium Prize Problem We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 60.998,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.80",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=1.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 1.0,
-      "novelty_score": 0.803,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "frontier_model",
-        "research",
-        "curated_rss",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "research",
-      "source_priority": "high"
-    },
-    {
-      "id": "fd8c222d170bd9f7",
-      "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
-      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T15:51:29+00:00",
-      "text": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision-language model on Amazon EKS using the Ray Serve DLC on a single GPU node.",
-      "matched_terms": [
-        "AI",
-        "inference",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 60.727,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.851,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "22f82cd96b728a66",
-      "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
-      "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-21T08:09:50+00:00",
-      "text": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions Body engineering is no longer just about designing the vehicle structure. It has become a structural intelligence layer that connects safety, NVH, weight, manufacturability and sustainability decisions from the earliest concept stages.",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 60.38,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.502,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -3278,112 +2967,114 @@
       "source_priority": "high"
     },
     {
-      "id": "aee3d99c21120492",
-      "title": "Superintelligence is coming. Should we let it?",
-      "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it",
-      "source": "TechCrunch AI",
+      "id": "22f82cd96b728a66",
+      "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
+      "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
+      "source": "Siemens Simcenter",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T16:05:35+00:00",
-      "text": "Superintelligence is coming. Should we let it? AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do? On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of […]",
+      "category": "engineering_ai",
+      "published_at": "2026-08-21T08:09:50+00:00",
+      "text": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions Body engineering is no longer just about designing the vehicle structure. It has become a structural intelligence layer that connects safety, NVH, weight, manufacturability and sustainability decisions from the earliest concept stages.",
       "matched_terms": [
-        "AI",
-        "OpenAI"
+        "ROM"
       ],
       "engagement": {},
-      "score": 60.114,
+      "score": 60.26,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "novelty=0.50",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.854,
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.497,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "cae",
+        "simulation",
+        "simcenter"
       ],
-      "registry_category": "startup",
+      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
-      "id": "f7d69fac95d81444",
-      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks",
-      "source": "TechCrunch AI",
+      "id": "21427f162aaec512",
+      "title": "From Wafer-Out to First Token: Codifying Supply Chain Expertise with Nemotron and Palantir Foundry",
+      "url": "https://developer.nvidia.com/blog/from-wafer-out-to-first-token-codifying-supply-chain-expertise-with-nemotron-and-palantir-foundry",
+      "source": "NVIDIA AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-09T13:00:00+00:00",
-      "text": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks Cymphony gives security teams a single view of employees, AI agents, and other nonhuman identities, including the systems and sensitive data they can access.",
+      "published_at": "2026-09-10T09:00:00+00:00",
+      "text": "From Wafer-Out to First Token: Codifying Supply Chain Expertise with Nemotron and Palantir Foundry NVIDIA has one of the largest and most complex supply chains in the world, and its performance is measured from wafer-out to first token. The interval is in two...",
       "matched_terms": [
         "AI",
-        "agent",
-        "AI agent"
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 60.072,
+      "score": 60.125,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=3",
+        "novelty=0.98",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.975,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
       ],
-      "registry_category": "startup",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
-      "id": "04010bbb6d1ee5b4",
-      "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
-      "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary",
-      "source": "TechCrunch AI",
+      "id": "294aaeb87643821e",
+      "title": "AI Models Are Watermarking Text—Will You Notice?",
+      "url": "https://spectrum.ieee.org/ai-watermark-text-anthropic-openai",
+      "source": "IEEE Spectrum AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-09T15:50:13+00:00",
-      "text": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’ AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do? On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of […]",
+      "published_at": "2026-09-09T12:00:04+00:00",
+      "text": "AI Models Are Watermarking Text—Will You Notice? On 11 August, Anthropic announced that all future Claude models will generate text that contains a watermark that identifies its results as AI generated. The company is not alone. Google has its own text watermark (which Anthropic’s is based on) it uses on the output of its Gemini models . OpenAI has yet to introduce a text watermark but it plans to do so . The rapid spread of watermarking is in part a response to the European Union’s AI Act , which mandates watermarks for AI models released after 2 August, 2026, along with other planned and proposed regulations aimed at curbing the spread of deceptive or manipulative AI-generated content. But the new rules may come at a cost for AI users who simply want the best possible results. AI watermarks can apply to many forms of content: The EU AI Act also requires them for images, audio, and video. Such media watermarks have been in use for years , and while their effectiveness as a holistic solution to marking AI remains up for debate , they can achieve detection rates above 99 percent . Image and video watermarks are already deployed by OpenAI, Google, and Meta, among others. (Anthropic d",
       "matched_terms": [
         "AI",
-        "OpenAI"
+        "LLM",
+        "OpenAI",
+        "Anthropic",
+        "Claude"
       ],
       "engagement": {},
-      "score": 60.055,
+      "score": 59.94,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
+        "novelty=0.27",
+        "matched_terms=5",
         "engineering_relevance=0.00",
-        "research_relevance=0.33",
+        "research_relevance=0.67",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.851,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.27,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "computer_science",
+        "engineering",
+        "ai"
       ],
-      "registry_category": "startup",
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3399,10 +3090,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.054,
+      "score": 59.935,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -3411,7 +3102,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.991,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3422,39 +3113,41 @@
       "source_priority": "medium"
     },
     {
-      "id": "930cebb74da0de04",
-      "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
-      "source": "The Verge AI",
+      "id": "bb7230da43dc4e47",
+      "title": "Quoting Calif Research",
+      "url": "https://simonwillison.net/2026/Sep/10/calif-research",
+      "source": "Simon Willison",
       "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-09T09:56:28+00:00",
-      "text": "Worried Anthropic researchers warn that AI ‘could kill all humans’ A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
+      "category": "general_ai",
+      "published_at": "2026-09-10T00:56:41+00:00",
+      "text": "Quoting Calif Research Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "Anthropic"
+        "LLM"
       ],
       "engagement": {},
-      "score": 59.779,
+      "score": 59.752,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.37",
-        "matched_terms=3",
-        "engineering_relevance=0.50",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
         "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.369,
+      "novelty_score": 0.837,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "product"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -3493,24 +3186,61 @@
       "source_priority": "high"
     },
     {
-      "id": "30a555d0f8ec76b5",
-      "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
-      "url": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod",
+      "id": "fd8c222d170bd9f7",
+      "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers",
       "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-08T19:12:51+00:00",
-      "text": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMaker HyperPod, and how BDH-CQ set a new cost-efficiency mark on the ARC-AGI-1 benchmark.",
+      "published_at": "2026-09-09T15:51:29+00:00",
+      "text": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision-language model on Amazon EKS using the Ray Serve DLC on a single GPU node.",
       "matched_terms": [
         "AI",
-        "RAG",
-        "benchmark"
+        "inference",
+        "GPU"
       ],
       "engagement": {},
-      "score": 58.663,
+      "score": 59.53,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.64",
+        "novelty=0.80",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.797,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "97ac9a9ef264adb1",
+      "title": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity",
+      "url": "https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T00:12:18+00:00",
+      "text": "Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity Their warnings echo concerns that other artificial intelligence experts have voiced in recent months, as calls increase for a slowdown in the pace of development.",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 58.996,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.65",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -3519,229 +3249,157 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.636,
+      "novelty_score": 0.651,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "be60902fd8fdb233",
-      "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
-      "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-09T20:24:48+00:00",
-      "text": "Apple Watch’s new AI features are normalizing the idea that technology is always listening Apple says its new watches won’t save raw audio, but features that can transcribe recent speech and summarize ambient conversations raise new questions about consent, privacy, and how people behave when they know they could always be recorded.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.604,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.899,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "9fe83622350f0dbb",
-      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T00:00:37+00:00",
-      "text": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 58.595,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.94",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.936,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "1df084a790d64526",
-      "title": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving",
-      "url": "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T20:31:04+00:00",
-      "text": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encoder stage from the prefill...",
-      "matched_terms": [
-        "multimodal",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 58.461,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.9,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "6a34428ef866785f",
-      "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
-      "url": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T20:24:12+00:00",
-      "text": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs Every NVIDIA CUDA Toolkit release adds functionality and performance improvements that help developers get more from NVIDIA GPUs and the broader NVIDIA software...",
-      "matched_terms": [
-        "Nvidia",
-        "GPU"
-      ],
-      "engagement": {},
-      "score": 58.435,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.899,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "24370557052275bf",
-      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-09T21:16:34+00:00",
-      "text": "OpenAI’s sly mathematical breakthrough sends a chill through academia OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming mathematics. But before it was even formally announced, the breakthrough had been complicated by the unusual […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.072,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.723,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
+        "mainstream_news",
+        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
-      "id": "43b1f218724ec6e0",
-      "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore",
-      "source": "Amazon AWS AI",
+      "id": "aee3d99c21120492",
+      "title": "Superintelligence is coming. Should we let it?",
+      "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-09T18:11:12+00:00",
-      "text": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, Code Interpreter, and Observability let a small team buy premium market data per query, isolate analysis in a sandbox, and keep every action auditable.",
+      "published_at": "2026-09-09T16:05:35+00:00",
+      "text": "Superintelligence is coming. Should we let it? AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do? On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of […]",
       "matched_terms": [
         "AI",
-        "agent"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.927,
+      "score": 58.918,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.80",
         "matched_terms=2",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.875,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.799,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "vendor",
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "f7d69fac95d81444",
+      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T13:00:00+00:00",
+      "text": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks Cymphony gives security teams a single view of employees, AI agents, and other nonhuman identities, including the systems and sensitive data they can access.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 58.875,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.767,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "5fd815c7cc4309f1",
+      "title": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it",
+      "url": "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series",
+      "source": "STAT Health Tech",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T08:30:00+00:00",
+      "text": "Trump officials say AI will help save rural health care. Some leaders in the field don’t believe it BANGOR, Maine — Rural health care providers, which have struggled for years, are facing nearly $1 trillion in Medicaid cuts over the coming decade. The Trump administration is pointing to…",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.866,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "medical_ai",
+        "healthcare_ai",
+        "biotech"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "04010bbb6d1ee5b4",
+      "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+      "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T15:50:13+00:00",
+      "text": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’ AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do? On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of […]",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 58.859,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.80",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.797,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -3891,59 +3549,59 @@
       "source_priority": "high"
     },
     {
-      "id": "534907e0d31e4171",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "source": "OpenAI",
+      "id": "30a555d0f8ec76b5",
+      "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod",
+      "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-09T17:00:00+00:00",
-      "text": "Paul Christiano joins OpenAI Foundation Board Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "published_at": "2026-09-08T19:12:51+00:00",
+      "text": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMaker HyperPod, and how BDH-CQ set a new cost-efficiency mark on the ARC-AGI-1 benchmark.",
       "matched_terms": [
         "AI",
-        "OpenAI"
+        "RAG",
+        "benchmark"
       ],
       "engagement": {},
-      "score": 57.655,
+      "score": 57.466,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=2",
+        "novelty=0.58",
+        "matched_terms=3",
         "engineering_relevance=0.00",
-        "research_relevance=0.00",
+        "research_relevance=0.33",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.333,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.863,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.582,
       "source_priority_score": 1.0,
       "source_tags": [
-        "frontier_model",
-        "product",
-        "api",
-        "guo_yichen_reference"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
     },
     {
-      "id": "40b2e49a962d1479",
-      "title": "Automate user-level custom permissions for Amazon Quick",
-      "url": "https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick",
-      "source": "Amazon AWS AI",
+      "id": "be60902fd8fdb233",
+      "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
+      "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-09T15:45:24+00:00",
-      "text": "Automate user-level custom permissions for Amazon Quick Amazon Quick custom permissions let you enforce least-privilege access by toggling features per user. This post walks through four patterns to automate custom permissions across the user lifecycle: a RegisterUser API parameter, account and role defaults, event-driven Amazon EventBridge and AWS Lambda automation, and a retroactive batch update script.",
+      "category": "engineering_ai",
+      "published_at": "2026-09-09T20:24:48+00:00",
+      "text": "Apple Watch’s new AI features are normalizing the idea that technology is always listening Apple says its new watches won’t save raw audio, but features that can transcribe recent speech and summarize ambient conversations raise new questions about consent, privacy, and how people behave when they know they could always be recorded.",
       "matched_terms": [
-        "FEA"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.537,
+      "score": 57.408,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -3952,14 +3610,191 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "9fe83622350f0dbb",
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T00:00:37+00:00",
+      "text": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.399,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.882,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "1df084a790d64526",
+      "title": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving",
+      "url": "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T20:31:04+00:00",
+      "text": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encoder stage from the prefill...",
+      "matched_terms": [
+        "multimodal",
+        "inference"
+      ],
+      "engagement": {},
+      "score": 57.265,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.845,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "6a34428ef866785f",
+      "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
+      "url": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus",
+      "source": "NVIDIA AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-09T20:24:12+00:00",
+      "text": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs Every NVIDIA CUDA Toolkit release adds functionality and performance improvements that help developers get more from NVIDIA GPUs and the broader NVIDIA software...",
+      "matched_terms": [
+        "Nvidia",
+        "GPU"
+      ],
+      "engagement": {},
+      "score": 57.239,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.844,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "gpu",
+        "infrastructure",
+        "simulation",
+        "physical_ai"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "1a5afe02c00ff05c",
+      "title": "Powering AI is an architecture problem",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T11:00:00+00:00",
+      "text": "Powering AI is an architecture problem On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No…",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.085,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "e6525006afc9bc8b",
+      "title": "This road map could help us decide whether to deploy solar geoengineering",
+      "url": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T11:00:00+00:00",
+      "text": "This road map could help us decide whether to deploy solar geoengineering A San Francisco nonprofit has published a detailed road map of the experiments, studies, and infrastructure that it says would be needed to make informed decisions about the use of solar geoengineering, MIT Technology Review can reveal. Scientists have now spent half a century exploring the possibility that we could counteract climate change by releasing…",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 57.085,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.989,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -5442,6 +5277,142 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "Fea Automation https://www.synera.ai/workflows/fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3190c4385574038c",
+      "title": "Fea Automation",
+      "url": "https://www.synera.ai/de/workflows/fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Automation https://www.synera.ai/de/workflows/fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "5f44d2cb5d0e4a34",
+      "title": "Fea Execution On Remote Servers",
+      "url": "https://www.synera.ai/workflows/fea-execution-on-remote-servers",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Execution On Remote Servers https://www.synera.ai/workflows/fea-execution-on-remote-servers",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "a7f940fee1270b4c",
+      "title": "Fea Execution On Remote Servers",
+      "url": "https://www.synera.ai/de/workflows/fea-execution-on-remote-servers",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Execution On Remote Servers https://www.synera.ai/de/workflows/fea-execution-on-remote-servers",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b847c73bc162dda5",
+      "title": "Fea Hotspot Reporting",
+      "url": "https://www.synera.ai/workflows/fea-hotspot-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Fea Hotspot Reporting https://www.synera.ai/workflows/fea-hotspot-reporting",
       "matched_terms": [
         "FEA"
       ],
