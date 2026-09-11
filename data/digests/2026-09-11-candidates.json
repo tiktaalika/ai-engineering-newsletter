@@ -1,12 +1,16 @@
 {
   "run_log": {
-    "generated_at": "2026-09-11T11:49:34.459177+00:00",
+    "generated_at": "2026-09-11T12:12:15.051315+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16567,
-    "filtered_count": 2778,
-    "duplicate_count": 82,
+    "fetched_count": 16544,
+    "filtered_count": 2776,
+    "duplicate_count": 81,
     "failures": [
+      {
+        "source": "Google DeepMind",
+        "error": "The read operation timed out"
+      },
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
@@ -62,10 +66,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.789,
+      "score": 69.659,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -74,7 +78,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.869,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -100,7 +104,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 55.894,
+      "score": 55.807,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -112,7 +116,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.783,
+      "novelty_score": 0.779,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -136,7 +140,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.178,
+      "score": 53.048,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -148,7 +152,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.805,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -173,10 +177,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 39.74,
+      "score": 39.611,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -185,7 +189,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.709,
+      "novelty_score": 0.704,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -211,10 +215,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.824,
+      "score": 66.738,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -223,7 +227,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.856,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -249,7 +253,7 @@
         "Meta AI"
       ],
       "engagement": {},
-      "score": 63.669,
+      "score": 63.582,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -261,7 +265,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -286,7 +290,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.87,
+      "score": 61.784,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -298,7 +302,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.782,
+      "novelty_score": 0.778,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -321,10 +325,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.262,
+      "score": 57.002,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -333,7 +337,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.997,
+      "novelty_score": 0.985,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -357,7 +361,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 55.894,
+      "score": 55.807,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -369,7 +373,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.783,
+      "novelty_score": 0.779,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -393,10 +397,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.449,
+      "score": 55.189,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -405,7 +409,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.914,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -416,45 +420,6 @@
     }
   ],
   "top_5_engineering_ai": [
-    {
-      "id": "07302bd1b6b704ee",
-      "title": "Native is now the future of mobile at Shopify",
-      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T21:11:15+00:00",
-      "text": "Native is now the future of mobile at Shopify Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 62.468,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.77",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.771,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
     {
       "id": "b70c88e92880a6a9",
       "title": "From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet",
@@ -491,39 +456,42 @@
       "source_priority": "high"
     },
     {
-      "id": "47255caa330b5ae9",
-      "title": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’",
-      "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk",
-      "source": "The Guardian Technology",
+      "id": "07302bd1b6b704ee",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-10T21:51:26+00:00",
-      "text": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’ Insiders at the firm fear tech’s advancement could cause human extinction, while others are calling their declarations of concern a ‘setup’ A day after a former researcher at Anthropic made an apocalyptic declaration about artificial intelligence, more researchers and staff members at the AI startup publicly agreed with him and posted their own dire warnings. In response, Elon Musk and other conservative figures on X, formerly Twitter, called the chorus of concerns a “setup” and a “psyop”. Continue reading...",
+      "published_at": "2026-09-10T21:11:15+00:00",
+      "text": "Native is now the future of mobile at Shopify Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "Anthropic"
+        "LLM",
+        "agent"
       ],
       "engagement": {},
-      "score": 60.563,
+      "score": 62.338,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.77",
         "matched_terms=3",
         "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.563,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.765,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -599,6 +567,42 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
+    },
+    {
+      "id": "47255caa330b5ae9",
+      "title": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’",
+      "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T21:51:26+00:00",
+      "text": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’ Insiders at the firm fear tech’s advancement could cause human extinction, while others are calling their declarations of concern a ‘setup’ A day after a former researcher at Anthropic made an apocalyptic declaration about artificial intelligence, more researchers and staff members at the AI startup publicly agreed with him and posted their own dire warnings. In response, Elon Musk and other conservative figures on X, formerly Twitter, called the chorus of concerns a “setup” and a “psyop”. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 60.303,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.552,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
     }
   ],
   "top_5_medical_bio_ai": [
@@ -616,10 +620,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.879,
+      "score": 60.62,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -628,7 +632,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.888,
+      "novelty_score": 0.877,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -650,10 +654,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.262,
+      "score": 57.002,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.98",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -662,7 +666,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.997,
+      "novelty_score": 0.985,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -685,10 +689,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.047,
+      "score": 54.787,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -697,7 +701,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.896,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -720,10 +724,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.047,
+      "score": 54.787,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.88",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -732,7 +736,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.896,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -780,45 +784,6 @@
   ],
   "top_5_cae_ai_engineering": [
     {
-      "id": "07302bd1b6b704ee",
-      "title": "Native is now the future of mobile at Shopify",
-      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T21:11:15+00:00",
-      "text": "Native is now the future of mobile at Shopify Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 62.468,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.77",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.771,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
       "id": "b70c88e92880a6a9",
       "title": "From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet",
       "url": "https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet",
@@ -854,39 +819,42 @@
       "source_priority": "high"
     },
     {
-      "id": "47255caa330b5ae9",
-      "title": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’",
-      "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk",
-      "source": "The Guardian Technology",
+      "id": "07302bd1b6b704ee",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-10T21:51:26+00:00",
-      "text": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’ Insiders at the firm fear tech’s advancement could cause human extinction, while others are calling their declarations of concern a ‘setup’ A day after a former researcher at Anthropic made an apocalyptic declaration about artificial intelligence, more researchers and staff members at the AI startup publicly agreed with him and posted their own dire warnings. In response, Elon Musk and other conservative figures on X, formerly Twitter, called the chorus of concerns a “setup” and a “psyop”. Continue reading...",
+      "published_at": "2026-09-10T21:11:15+00:00",
+      "text": "Native is now the future of mobile at Shopify Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "Anthropic"
+        "LLM",
+        "agent"
       ],
       "engagement": {},
-      "score": 60.563,
+      "score": 62.338,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.77",
         "matched_terms=3",
         "engineering_relevance=0.25",
-        "research_relevance=0.33",
+        "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.563,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.765,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -961,6 +929,42 @@
         "design_automation"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "47255caa330b5ae9",
+      "title": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’",
+      "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T21:51:26+00:00",
+      "text": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’ Insiders at the firm fear tech’s advancement could cause human extinction, while others are calling their declarations of concern a ‘setup’ A day after a former researcher at Anthropic made an apocalyptic declaration about artificial intelligence, more researchers and staff members at the AI startup publicly agreed with him and posted their own dire warnings. In response, Elon Musk and other conservative figures on X, formerly Twitter, called the chorus of concerns a “setup” and a “psyop”. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 60.303,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.552,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     }
   ],
@@ -1784,7 +1788,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 79.599,
+      "score": 79.591,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -1819,7 +1823,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.597,
+      "score": 73.589,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -1855,7 +1859,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.168,
+      "score": 73.16,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -1868,7 +1872,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.629,
+      "novelty_score": 0.628,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1891,7 +1895,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 70.874,
+      "score": 70.865,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1903,7 +1907,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.828,
+      "novelty_score": 0.827,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1927,7 +1931,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 70.803,
+      "score": 70.795,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -1965,10 +1969,10 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.789,
+      "score": 69.659,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.86",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.67",
@@ -1977,7 +1981,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.869,
+      "novelty_score": 0.863,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2003,7 +2007,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.254,
+      "score": 69.246,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -2111,10 +2115,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.824,
+      "score": 66.738,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2123,7 +2127,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.856,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2146,7 +2150,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.976,
+      "score": 65.967,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -2183,7 +2187,7 @@
         "Meta AI"
       ],
       "engagement": {},
-      "score": 63.669,
+      "score": 63.582,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2195,7 +2199,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.833,
+      "novelty_score": 0.829,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2221,7 +2225,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.228,
+      "score": 63.141,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2233,7 +2237,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.813,
+      "novelty_score": 0.809,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2256,10 +2260,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 62.642,
+      "score": 62.382,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.96",
+        "novelty=0.95",
         "matched_terms=1",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -2268,52 +2272,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.961,
+      "novelty_score": 0.949,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "07302bd1b6b704ee",
-      "title": "Native is now the future of mobile at Shopify",
-      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T21:11:15+00:00",
-      "text": "Native is now the future of mobile at Shopify Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 62.468,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.77",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.771,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2352,6 +2317,45 @@
       "source_priority": "high"
     },
     {
+      "id": "07302bd1b6b704ee",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T21:11:15+00:00",
+      "text": "Native is now the future of mobile at Shopify Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent"
+      ],
+      "engagement": {},
+      "score": 62.338,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.765,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "09cae6b4ca35c64a",
       "title": "AI agents are flooding public services with new requests",
       "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests",
@@ -2366,7 +2370,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.87,
+      "score": 61.784,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2378,7 +2382,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.782,
+      "novelty_score": 0.778,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2402,7 +2406,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 61.454,
+      "score": 61.445,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -2442,10 +2446,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 61.207,
+      "score": 61.12,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.30",
+        "novelty=0.29",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2454,7 +2458,44 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.297,
+      "novelty_score": 0.293,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "cfca1cd768b29499",
+      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T21:37:49+00:00",
+      "text": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to enable it.",
+      "matched_terms": [
+        "AI",
+        "RAG",
+        "inference"
+      ],
+      "engagement": {},
+      "score": 60.66,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.848,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2478,10 +2519,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.879,
+      "score": 60.62,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2490,50 +2531,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.888,
+      "novelty_score": 0.877,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cfca1cd768b29499",
-      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T21:37:49+00:00",
-      "text": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to enable it.",
-      "matched_terms": [
-        "AI",
-        "RAG",
-        "inference"
-      ],
-      "engagement": {},
-      "score": 60.747,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.852,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2551,10 +2555,10 @@
         "knowledge base"
       ],
       "engagement": {},
-      "score": 60.662,
+      "score": 60.575,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2563,7 +2567,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.844,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2571,42 +2575,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "47255caa330b5ae9",
-      "title": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’",
-      "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-10T21:51:26+00:00",
-      "text": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’ Insiders at the firm fear tech’s advancement could cause human extinction, while others are calling their declarations of concern a ‘setup’ A day after a former researcher at Anthropic made an apocalyptic declaration about artificial intelligence, more researchers and staff members at the AI startup publicly agreed with him and posted their own dire warnings. In response, Elon Musk and other conservative figures on X, formerly Twitter, called the chorus of concerns a “setup” and a “psyop”. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 60.563,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.563,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2622,7 +2590,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.561,
+      "score": 60.524,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2634,7 +2602,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.783,
+      "novelty_score": 0.781,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3008,6 +2976,42 @@
       "source_priority": "high"
     },
     {
+      "id": "47255caa330b5ae9",
+      "title": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’",
+      "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-10T21:51:26+00:00",
+      "text": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’ Insiders at the firm fear tech’s advancement could cause human extinction, while others are calling their declarations of concern a ‘setup’ A day after a former researcher at Anthropic made an apocalyptic declaration about artificial intelligence, more researchers and staff members at the AI startup publicly agreed with him and posted their own dire warnings. In response, Elon Musk and other conservative figures on X, formerly Twitter, called the chorus of concerns a “setup” and a “psyop”. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 60.303,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.552,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -3020,7 +3024,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.924,
+      "score": 59.915,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -3057,7 +3061,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.838,
+      "score": 59.801,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.45",
@@ -3069,7 +3073,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.447,
+      "novelty_score": 0.446,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3116,41 +3120,6 @@
       "source_priority": "high"
     },
     {
-      "id": "22f82cd96b728a66",
-      "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
-      "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
-      "source": "Siemens Simcenter",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-21T08:09:50+00:00",
-      "text": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions Body engineering is no longer just about designing the vehicle structure. It has become a structural intelligence layer that connects safety, NVH, weight, manufacturability and sustainability decisions from the earliest concept stages.",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 59.699,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.47",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.471,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cae",
-        "simulation",
-        "simcenter"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "17739e170dfd1589",
       "title": "Model-agnostic PII detection with LLMs",
       "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms",
@@ -3165,7 +3134,7 @@
         "large language model"
       ],
       "engagement": {},
-      "score": 59.465,
+      "score": 59.379,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -3177,7 +3146,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.794,
+      "novelty_score": 0.79,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3203,10 +3172,10 @@
         "inference"
       ],
       "engagement": {},
-      "score": 58.21,
+      "score": 58.124,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.58",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3215,7 +3184,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.585,
+      "novelty_score": 0.581,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3238,7 +3207,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.083,
+      "score": 58.045,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.67",
@@ -3250,7 +3219,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.67,
+      "novelty_score": 0.669,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3421,7 +3390,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.468,
+      "score": 57.381,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3433,7 +3402,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.855,
+      "novelty_score": 0.851,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3457,10 +3426,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.268,
+      "score": 57.182,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3469,7 +3438,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.846,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3477,41 +3446,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "0e324cadec711fe5",
-      "title": "Boycott launched against American Diabetes Association includes journal",
-      "url": "https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal",
-      "source": "STAT Health Tech",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-11T11:43:20+00:00",
-      "text": "Boycott launched against American Diabetes Association includes journal Trump's $500 Obamacare promise, childhood cancer treatment with long-term risks, and more health news",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.262,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=1.00",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.997,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "medical_ai",
-        "healthcare_ai",
-        "biotech"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3528,10 +3462,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 57.259,
+      "score": 57.173,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3540,7 +3474,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.845,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5406,6 +5340,74 @@
       "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
       "matched_terms": [
         "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "84173670abec4920",
+      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
+      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ca5f8805ed4cc18e",
+      "title": "Nasa Ai Agents Build Spaceship From Text",
+      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
       ],
       "engagement": {},
       "score": 57.033,

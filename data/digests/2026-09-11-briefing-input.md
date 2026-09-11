@@ -3,111 +3,111 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16567
-- filtered_count: 2778
-- duplicate_count: 82
-- failures: 7
+- fetched_count: 16544
+- filtered_count: 2776
+- duplicate_count: 81
+- failures: 8
 
 ## Top 10 General AI News
 1. [Datasette 1.0a39 and 0.65.4 security releases](https://simonwillison.net/2026/Sep/11/datasette-security)
    - source: Simon Willison
-   - score: 69.789
-   - score_breakdown: general=0.667; engineering=0.0; research=0.667; novelty=0.869; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=4; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 69.659
+   - score_breakdown: general=0.667; engineering=0.0; research=0.667; novelty=0.863; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=4; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 2. [Now everyone can put data to work](https://openai.com/index/put-data-to-work)
    - source: OpenAI
-   - score: 55.894
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.783; source_priority=1.0
+   - score: 55.807
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.779; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Any Nix package, live in your browser](https://simonwillison.net/2026/Sep/10/trynix)
    - source: Simon Willison
-   - score: 53.178
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
+   - score: 53.048
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.805; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [The Pulse #191: a new trend of CPU shortages](https://newsletter.pragmaticengineer.com/p/the-pulse-191-a-new-trend-of-cpu)
    - source: The Pragmatic Engineer
-   - score: 39.74
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.709; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.71; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 39.611
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.704; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.70; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference](https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference)
    - source: Amazon AWS AI
-   - score: 66.824
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.856; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 66.738
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.852; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.85; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 6. [Meta’s AI agent Muse is now the No. 2 app in the US](https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us)
    - source: TechCrunch AI
-   - score: 63.669
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.833; source_priority=1.0
+   - score: 63.582
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.829; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [AI agents are flooding public services with new requests](https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests)
    - source: TechCrunch AI
-   - score: 61.87
-   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.782; source_priority=1.0
+   - score: 61.784
+   - score_breakdown: general=0.5; engineering=0.0; research=0.333; novelty=0.778; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=3; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [Boycott launched against American Diabetes Association includes journal](https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal)
    - source: STAT Health Tech
-   - score: 57.262
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.997; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.002
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.985; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [High-Throughput Structure Prediction with BioNeMo Inference Runtime](https://developer.nvidia.com/blog/high-throughput-structure-prediction-with-bionemo-inference-runtime)
    - source: NVIDIA AI
-   - score: 55.894
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.783; source_priority=1.0
+   - score: 55.807
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.779; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Raiding the past: Lara Croft relives her first adventure in Legacy of Atlantis](https://www.theguardian.com/games/2026/sep/11/tomb-raider-legacy-of-atlantis-lara-croft-remake)
    - source: The Guardian Technology
-   - score: 55.449
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.914; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.189
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.903; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [Native is now the future of mobile at Shopify](https://simonwillison.net/2026/Sep/10/shopify-react-native)
-   - source: Simon Willison
-   - score: 62.468
-   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.771; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-2. [From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet](https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet)
+1. [From Dataset To Design Impact How Neural Concept Set A New Benchmark On Mits Drivaernet](https://www.neuralconcept.com/post/from-dataset-to-design-impact-how-neural-concept-set-a-new-benchmark-on-mits-drivaernet)
    - source: Neural Concept
    - score: 62.367
    - score_breakdown: general=0.167; engineering=1.0; research=0.667; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.67; visible_engagement=unavailable
-3. [More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’](https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk)
-   - source: The Guardian Technology
-   - score: 60.563
-   - score_breakdown: general=0.5; engineering=0.25; research=0.333; novelty=0.563; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.56; matched_terms=3; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
-4. [Boris Scharinger Industrial Ai From Pilot To Profit](https://www.industrial-ai-network.com/news/boris-scharinger-industrial-ai-from-pilot-to-profit)
+2. [Native is now the future of mobile at Shopify](https://simonwillison.net/2026/Sep/10/shopify-react-native)
+   - source: Simon Willison
+   - score: 62.338
+   - score_breakdown: general=0.5; engineering=0.25; research=0.0; novelty=0.765; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+3. [Boris Scharinger Industrial Ai From Pilot To Profit](https://www.industrial-ai-network.com/news/boris-scharinger-industrial-ai-from-pilot-to-profit)
    - source: Industrial AI Network
    - score: 60.367
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Automating Fea Tasks Bridging The Gap Between Design Simulation](https://www.synera.ai/webinar/automating-fea-tasks-bridging-the-gap-between-design-simulation)
+4. [Automating Fea Tasks Bridging The Gap Between Design Simulation](https://www.synera.ai/webinar/automating-fea-tasks-bridging-the-gap-between-design-simulation)
    - source: Synera
    - score: 60.367
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
+5. [More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’](https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk)
+   - source: The Guardian Technology
+   - score: 60.303
+   - score_breakdown: general=0.5; engineering=0.25; research=0.333; novelty=0.552; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.55; matched_terms=3; engineering_relevance=0.25; research_relevance=0.33; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Anthropic blocks possible attempt to use AI to make biological weapons](https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 60.879
-   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.888; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 60.62
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.877; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Boycott launched against American Diabetes Association includes journal](https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal)
    - source: STAT Health Tech
-   - score: 57.262
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.997; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.002
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.985; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [STAT+: An AI tool aims to catch harder-to-detect heart attacks in EKGs](https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts)
    - source: STAT Health Tech
-   - score: 55.047
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.896; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.787
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.884; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [STAT+: Novartis, Novo Nordisk drug failures will likely ‘pop a hole in the balloon’ of the field](https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout)
    - source: STAT Health Tech
-   - score: 55.047
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.896; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.787
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.884; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Sair Data Accelerating Drug Discovery With Ai](https://huggingface.co/blog/SandboxAQ/sair-data-accelerating-drug-discovery-with-ai)
    - source: Hugging Face Papers
    - score: 51.033
@@ -175,6 +175,7 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Similar-title and canonical-URL duplicate detection is applied before final selection.
 
 ## Source Failures
+- Google DeepMind: The read operation timed out
 - Ansys: HTTP Error 404: Not Found
 - Hamel Husain: HTTP Error 403: Forbidden
 - Context Window: HTTP Error 403: Forbidden
