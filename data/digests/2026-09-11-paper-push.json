@@ -1,0 +1,170 @@
+{
+  "title_zh": "每周 AI-for-Engineering 论文推送",
+  "title_en": "Weekly AI-for-Engineering Paper Push",
+  "intro_zh": "本期通过 arXiv 公开 API 检索 2026-09-03 至 2026-09-11 的 AI for engineering 新论文。",
+  "intro_en": "This issue uses the public arXiv API to discover AI-for-engineering papers from 2026-09-03 to 2026-09-11.",
+  "cae_sources_checked": [
+    "arXiv public Atom API"
+  ],
+  "cae_papers": [
+    {
+      "title": "Physics-Informed Drift Diagnosis for Laser-Plasma Accelerator Operations",
+      "url": "https://arxiv.org/abs/2609.11874",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "Ou Labun",
+        "Calin Hojbota",
+        "Mara Klebonas",
+        "Mike Downer",
+        "Rafal Zgadzaj",
+        "Phil Franke",
+        "Lance Labun"
+      ],
+      "summary_en": "Laser-plasma accelerators (LPAs) sustain accelerating gradients of order $100\\,\\mathrm{GV/m}$, but routine operation remains difficult: electron beam metrics drift over an operating shift, and the root physical cause is often invisible to the available diagnostics. We formulate LPA operation as a latent state-space model in which three effective interaction-point variables, the normalized laser amplitude $a_0$, the normalized plasma electron density $\\tilde n_e$ and the residual pulse chirp $\\ma",
+      "summary_zh": "英文摘要：Laser-plasma accelerators (LPAs) sustain accelerating gradients of order $100\\,\\mathrm{GV/m}$, but routine operation remains difficult: electron beam metrics drift over an operating shift, and the root physical cause is often invisible to the available diagnostics. We formulate LPA operation as a latent state-space model in which three effective interaction-point variables, the normalized laser amplitude $a_0$, the normalized plasma electron density $\\tilde n_e$ and the residual pulse chirp $\\ma",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A Conservative Hybrid Eulerian-Lagrangian Method with Persistent Structure Tracking for Multiscale Cavitation",
+      "url": "https://arxiv.org/abs/2609.11776",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "Mahdi Lavari",
+        "Aswin Gnanaskandan"
+      ],
+      "summary_en": "Hybrid Eulerian Lagrangian methods for multiscale cavitation represent grid resolved vapor structures in an Eulerian formulation and unresolved bubbles in a Lagrangian description, requiring transitions between the two representations as structures evolve. Existing approaches typically treat these transitions as local geometric operations, while resolved structures are identified independently at each time step, limiting the use of temporal history in representation changes. This work presents a",
+      "summary_zh": "英文摘要：Hybrid Eulerian Lagrangian methods for multiscale cavitation represent grid resolved vapor structures in an Eulerian formulation and unresolved bubbles in a Lagrangian description, requiring transitions between the two representations as structures evolve. Existing approaches typically treat these transitions as local geometric operations, while resolved structures are identified independently at each time step, limiting the use of temporal history in representation changes. This work presents a",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Physics-Informed Neural Networks to Infer the Perpendicular Energy Conductivity in the Scrape-Off Layer of Stellarator Devices",
+      "url": "https://arxiv.org/abs/2609.11628",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "J. Gallego",
+        "P. Protopapas",
+        "A. Bustos",
+        "A. Alonso",
+        "S. Barquero",
+        "A. Baciero",
+        "I. Rivera",
+        "J. A. Moríñigo",
+        "R. Mayo-García"
+      ],
+      "summary_en": "In this work, we develop an inverse Physics-Informed Neural Network (PINN) framework to infer the dependence of the scrape-off layer (SOL) perpendicular heat conductivity on plasma density and temperature, $κ_\\perp(n,T)$. The method combines radial profile measurements of electron density and temperature with the residual of a reduced one-dimensional SOL transport equation, so that the inferred conductivity is constrained by both the measurements and the underlying transport model. Three neural ",
+      "summary_zh": "英文摘要：In this work, we develop an inverse Physics-Informed Neural Network (PINN) framework to infer the dependence of the scrape-off layer (SOL) perpendicular heat conductivity on plasma density and temperature, $κ_\\perp(n,T)$. The method combines radial profile measurements of electron density and temperature with the residual of a reduced one-dimensional SOL transport equation, so that the inferred conductivity is constrained by both the measurements and the underlying transport model. Three neural ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Estimating Inconsistency Response Surfaces under Uncertainty in Cyber-Physical System Development",
+      "url": "https://arxiv.org/abs/2609.11331",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "Johannes Mäkelburg",
+        "Tim Schwabe",
+        "Maribel Acosta"
+      ],
+      "summary_en": "Cyber-Physical Systems (CPS) are commonly represented through multiple interconnected models. During development, CPS consistency requires that shared model elements remain compatible across these models. Uncertainty, for example, due to sensor noise or model abstraction, changes the admissible values of model elements and can introduce inconsistencies, i.e., situations in which models can no longer be jointly satisfied. While existing approaches can determine consistency for a given uncertainty",
+      "summary_zh": "英文摘要：Cyber-Physical Systems (CPS) are commonly represented through multiple interconnected models. During development, CPS consistency requires that shared model elements remain compatible across these models. Uncertainty, for example, due to sensor noise or model abstraction, changes the admissible values of model elements and can introduce inconsistencies, i.e., situations in which models can no longer be jointly satisfied. While existing approaches can determine consistency for a given uncertainty",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A Model-Centric DevOps Architecture for DEVS-Based Digital Twin Simulation Services",
+      "url": "https://arxiv.org/abs/2609.11122",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "Arnis Lektauers",
+        "Gusts Linkevičs",
+        "Guntis Mosāns",
+        "Arina Fokina",
+        "Rasa Gulbe"
+      ],
+      "summary_en": "Digital twin simulation models are evolved and redeployed like software, yet DEVS-based engines offer a sound formal basis with little support for versioning, automated validation, or continuous delivery in cloud-native environments, leaving model lifecycle management ad hoc in most deployments. This paper proposes a model-centric DevOps architecture for deploying DEVS-based digital twin simulations as managed services. Simulation models are treated as first-class DevOps artefacts defined in a d",
+      "summary_zh": "英文摘要：Digital twin simulation models are evolved and redeployed like software, yet DEVS-based engines offer a sound formal basis with little support for versioning, automated validation, or continuous delivery in cloud-native environments, leaving model lifecycle management ad hoc in most deployments. This paper proposes a model-centric DevOps architecture for deploying DEVS-based digital twin simulations as managed services. Simulation models are treated as first-class DevOps artefacts defined in a d",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A Novel Multi-fidelity Surrogate for Efficient Turbine Design Optimization",
+      "url": "https://arxiv.org/abs/2609.11112",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "Qineng Wang",
+        "Liming Song",
+        "Zhendong Guo",
+        "Jun Li",
+        "Zhenping Feng"
+      ],
+      "summary_en": "To solve the turbine design optimization problems efficiently, surrogate-based optimization (SBO) algorithms are frequently used. To further reduce the cost of turbine design, the multi-fidelity surrogate (MFS) based optimization is proposed by the researchers, who resort to augmenting the small number of expensive high-fidelity (HF) samples by a large portion of low-fidelity (LF) but cheap samples in surrogate modeling and optimization process. Nonetheless, according to our observations, the MF",
+      "summary_zh": "英文摘要：To solve the turbine design optimization problems efficiently, surrogate-based optimization (SBO) algorithms are frequently used. To further reduce the cost of turbine design, the multi-fidelity surrogate (MFS) based optimization is proposed by the researchers, who resort to augmenting the small number of expensive high-fidelity (HF) samples by a large portion of low-fidelity (LF) but cheap samples in surrogate modeling and optimization process. Nonetheless, according to our observations, the MF",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A Novel Multi-fidelity Surrogate for Turbomachinery Design Optimization",
+      "url": "https://arxiv.org/abs/2609.11111",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "Qineng Wang",
+        "Liming Song",
+        "Zhendong Guo",
+        "Jun Li",
+        "Zhenping Feng"
+      ],
+      "summary_en": "Turbomachinery design optimization involves expensive black-box problems. Sample-efficient multi-fidelity optimization (MFO) offers an efficient solution. By utilizing multi-fidelity surrogates (MFS), the MFO algorithm can use fewer high-fidelity samples aided by low-fidelity samples to establish an accurate surrogate model. However, when MFS is used in sequential sampling optimization, it has been observed that the final optimal solution obtained by single-fidelity optimization (SFO) is better ",
+      "summary_zh": "英文摘要：Turbomachinery design optimization involves expensive black-box problems. Sample-efficient multi-fidelity optimization (MFO) offers an efficient solution. By utilizing multi-fidelity surrogates (MFS), the MFO algorithm can use fewer high-fidelity samples aided by low-fidelity samples to establish an accurate surrogate model. However, when MFS is used in sequential sampling optimization, it has been observed that the final optimal solution obtained by single-fidelity optimization (SFO) is better ",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Toward Interpretable Multimodal Fusion: Heat Conduction Modeling for Hyperspectral and LiDAR Joint Classification",
+      "url": "https://arxiv.org/abs/2609.11040",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "Kan Wei",
+        "Jiahui Cui",
+        "Jing Yao",
+        "Xinyu Zhao",
+        "Lei Wang",
+        "Pedram Ghamisi"
+      ],
+      "summary_en": "The fusion of hyperspectral (HS) and Light Detection and Ranging (LiDAR) data plays a crucial role in enhancing land-cover classification by jointly exploiting spectral, spatial, and structural cues. However, existing multimodal fusion methods still struggle to model long-range dependencies and complex anisotropic interactions while maintaining computational efficiency. This paper introduces M2Heat, a physics-inspired framework that investigates multimodal fusion through the lens of heat conduct",
+      "summary_zh": "英文摘要：The fusion of hyperspectral (HS) and Light Detection and Ranging (LiDAR) data plays a crucial role in enhancing land-cover classification by jointly exploiting spectral, spatial, and structural cues. However, existing multimodal fusion methods still struggle to model long-range dependencies and complex anisotropic interactions while maintaining computational efficiency. This paper introduces M2Heat, a physics-inspired framework that investigates multimodal fusion through the lens of heat conduct",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "A variational physics-informed graph neural network for heterogeneous solid mechanics",
+      "url": "https://arxiv.org/abs/2609.10983",
+      "source": "arXiv",
+      "published": "2026-09-10",
+      "authors": [
+        "Aashay Rajan Yadav",
+        "Amiya Prakash Das",
+        "Ratna Kumar Annabattula"
+      ],
+      "summary_en": "Stress localization in heterogeneous solids is governed by the bimaterial interface, where the displacement field remains $C^0$-continuous, while in-plane stresses jump due to the stiffness mismatch. Coordinate-based physics-informed neural networks (PINNs) represent this jump via a prescribed regularization width or a weighted interface penalty, making their accuracy sensitive to how phase-contrast changes are handled. This work presents a variational, label-free physics-informed graph neural n",
+      "summary_zh": "英文摘要：Stress localization in heterogeneous solids is governed by the bimaterial interface, where the displacement field remains $C^0$-continuous, while in-plane stresses jump due to the stiffness mismatch. Coordinate-based physics-informed neural networks (PINNs) represent this jump via a prescribed regularization width or a weighted interface penalty, making their accuracy sensitive to how phase-contrast changes are handled. This work presents a variational, label-free physics-informed graph neural n",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    },
+    {
+      "title": "Stable Singularity of the Euler Equations on $\\mathbb{R}^3$",
+      "url": "https://arxiv.org/abs/2609.10867",
+      "source": "arXiv",
+      "published": "2026-09-09",
+      "authors": [
+        "Adarsh Ganeshram",
+        "Valentin Duruisseaux",
+        "Anima Anandkumar"
+      ],
+      "summary_en": "We provide evidence of a stable finite-time singularity in the 3D Euler equations on the unbounded domain. Using a physics-informed neural network (PINN) with a self-similar ansatz, we find an approximate singular profile for the Euler system at the critical blowup rate of $0.5$ and certify it using a spline representation. The transport field associated with the obtained profile suggests that linear damping can be established throughout the domain, providing strong evidence for the overall stab",
+      "summary_zh": "英文摘要：We provide evidence of a stable finite-time singularity in the 3D Euler equations on the unbounded domain. Using a physics-informed neural network (PINN) with a self-similar ansatz, we find an approximate singular profile for the Euler system at the critical blowup rate of $0.5$ and certify it using a spline representation. The transport field associated with the obtained profile suggests that linear damping can be established throughout the domain, providing strong evidence for the overall stab",
+      "why": "Selected for direct relevance to AI-enabled engineering analysis, design, or simulation."
+    }
+  ],
+  "biomedical_papers": []
+}
