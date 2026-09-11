@@ -1,16 +1,12 @@
 {
   "run_log": {
-    "generated_at": "2026-09-11T12:12:15.051315+00:00",
+    "generated_at": "2026-09-11T12:21:13.897717+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16544,
-    "filtered_count": 2776,
-    "duplicate_count": 81,
+    "fetched_count": 16569,
+    "filtered_count": 2777,
+    "duplicate_count": 80,
     "failures": [
-      {
-        "source": "Google DeepMind",
-        "error": "The read operation timed out"
-      },
       {
         "source": "Ansys",
         "error": "HTTP Error 404: Not Found"
@@ -66,7 +62,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.659,
+      "score": 69.607,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -78,7 +74,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.863,
+      "novelty_score": 0.861,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,7 +100,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 55.807,
+      "score": 55.773,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -116,7 +112,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.779,
+      "novelty_score": 0.778,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -140,10 +136,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 53.048,
+      "score": 52.996,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.80",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -152,7 +148,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.805,
+      "novelty_score": 0.803,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -177,7 +173,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 39.611,
+      "score": 39.559,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.70",
@@ -189,7 +185,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.704,
+      "novelty_score": 0.701,
       "source_priority_score": 0.65,
       "source_tags": [
         "software_engineering",
@@ -215,7 +211,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.738,
+      "score": 66.704,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -227,7 +223,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.852,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -253,7 +249,7 @@
         "Meta AI"
       ],
       "engagement": {},
-      "score": 63.582,
+      "score": 63.548,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -265,7 +261,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.829,
+      "novelty_score": 0.828,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -290,7 +286,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.784,
+      "score": 61.75,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -302,7 +298,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.778,
+      "novelty_score": 0.776,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -325,7 +321,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.002,
+      "score": 56.899,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -337,7 +333,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -361,7 +357,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 55.807,
+      "score": 55.773,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -373,7 +369,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.779,
+      "novelty_score": 0.778,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -397,7 +393,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.189,
+      "score": 55.086,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.90",
@@ -409,7 +405,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -470,10 +466,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 62.338,
+      "score": 62.287,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -482,7 +478,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.765,
+      "novelty_score": 0.763,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -583,7 +579,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.303,
+      "score": 60.2,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -595,7 +591,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.552,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -620,10 +616,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.62,
+      "score": 60.517,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -632,7 +628,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.877,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -654,7 +650,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 57.002,
+      "score": 56.899,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -666,7 +662,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.985,
+      "novelty_score": 0.98,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -689,7 +685,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.787,
+      "score": 54.684,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -701,7 +697,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -724,7 +720,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.787,
+      "score": 54.684,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.88",
@@ -736,7 +732,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.884,
+      "novelty_score": 0.88,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -833,10 +829,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 62.338,
+      "score": 62.287,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -845,7 +841,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.765,
+      "novelty_score": 0.763,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -946,7 +942,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.303,
+      "score": 60.2,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -958,7 +954,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.552,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1788,7 +1784,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 79.591,
+      "score": 79.587,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.95",
@@ -1823,7 +1819,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.589,
+      "score": 73.585,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -1859,7 +1855,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.16,
+      "score": 73.156,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.63",
@@ -1895,7 +1891,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 70.865,
+      "score": 70.861,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -1931,7 +1927,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 70.795,
+      "score": 70.791,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -1969,7 +1965,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 69.659,
+      "score": 69.607,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -1981,7 +1977,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.863,
+      "novelty_score": 0.861,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2007,7 +2003,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 69.246,
+      "score": 69.242,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -2019,7 +2015,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.754,
+      "novelty_score": 0.753,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2115,7 +2111,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.738,
+      "score": 66.704,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2127,7 +2123,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.852,
+      "novelty_score": 0.85,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2150,7 +2146,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.967,
+      "score": 65.964,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.76",
@@ -2187,7 +2183,7 @@
         "Meta AI"
       ],
       "engagement": {},
-      "score": 63.582,
+      "score": 63.548,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2199,7 +2195,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.829,
+      "novelty_score": 0.828,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2225,7 +2221,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.141,
+      "score": 63.107,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.81",
@@ -2237,7 +2233,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.809,
+      "novelty_score": 0.808,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2245,40 +2241,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "e67397825bc3f6cc",
-      "title": "Could A.I. Really Kill All Humans?",
-      "url": "https://www.nytimes.com/video/technology/100000011145658/could-ai-really-kill-all-humans.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-11T10:34:43+00:00",
-      "text": "Could A.I. Really Kill All Humans? After an Anthropic researcher quit, warning that the A.I. race is “gambling with our lives,” Cade Metz joined Natalie Kitroeff on “The Call” to break down what’s at stake.",
-      "matched_terms": [
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 62.382,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.95",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.949,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2331,10 +2293,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 62.338,
+      "score": 62.287,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2343,7 +2305,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.765,
+      "novelty_score": 0.763,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2353,6 +2315,40 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "e67397825bc3f6cc",
+      "title": "Could A.I. Really Kill All Humans?",
+      "url": "https://www.nytimes.com/video/technology/100000011145658/could-ai-really-kill-all-humans.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-11T10:34:43+00:00",
+      "text": "Could A.I. Really Kill All Humans? After an Anthropic researcher quit, warning that the A.I. race is “gambling with our lives,” Cade Metz joined Natalie Kitroeff on “The Call” to break down what’s at stake.",
+      "matched_terms": [
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 62.28,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.94",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.945,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2370,7 +2366,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.784,
+      "score": 61.75,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2382,7 +2378,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.778,
+      "novelty_score": 0.776,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2406,7 +2402,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 61.445,
+      "score": 61.442,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.40",
@@ -2446,7 +2442,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 61.12,
+      "score": 61.086,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.29",
@@ -2458,7 +2454,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.293,
+      "novelty_score": 0.292,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2483,7 +2479,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 60.66,
+      "score": 60.626,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2495,7 +2491,44 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.848,
+      "novelty_score": 0.847,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "f9fa8f5c7f5a8ddc",
+      "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
+      "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-10T21:15:39+00:00",
+      "text": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0 TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows how to build a knowledge base powered by Marengo 3.0 and run semantic queries against your media.",
+      "matched_terms": [
+        "AI",
+        "embedding",
+        "knowledge base"
+      ],
+      "engagement": {},
+      "score": 60.541,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.84",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.843,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2519,10 +2552,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.62,
+      "score": 60.517,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.88",
+        "novelty=0.87",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2531,50 +2564,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.877,
+      "novelty_score": 0.872,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f9fa8f5c7f5a8ddc",
-      "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
-      "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T21:15:39+00:00",
-      "text": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0 TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows how to build a knowledge base powered by Marengo 3.0 and run semantic queries against your media.",
-      "matched_terms": [
-        "AI",
-        "embedding",
-        "knowledge base"
-      ],
-      "engagement": {},
-      "score": 60.575,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.844,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2590,7 +2586,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 60.524,
+      "score": 60.51,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -2990,7 +2986,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 60.303,
+      "score": 60.2,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -3002,7 +2998,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.552,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3024,7 +3020,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.915,
+      "score": 59.912,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -3061,10 +3057,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.801,
+      "score": 59.787,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.45",
+        "novelty=0.44",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=1.00",
@@ -3073,7 +3069,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.446,
+      "novelty_score": 0.445,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3120,6 +3116,41 @@
       "source_priority": "high"
     },
     {
+      "id": "22f82cd96b728a66",
+      "title": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions",
+      "url": "https://blogs.sw.siemens.com/simcenter/redefining-the-backbone-how-body-engineering-becomes-the-structural-intelligence-layer-for-faster-more-confident-decisions",
+      "source": "Siemens Simcenter",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-21T08:09:50+00:00",
+      "text": "Redefining the backbone: How body engineering becomes the structural intelligence layer for faster, more confident decisions Body engineering is no longer just about designing the vehicle structure. It has become a structural intelligence layer that connects safety, NVH, weight, manufacturability and sustainability decisions from the earliest concept stages.",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 59.687,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.47",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.471,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cae",
+        "simulation",
+        "simcenter"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "17739e170dfd1589",
       "title": "Model-agnostic PII detection with LLMs",
       "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms",
@@ -3134,7 +3165,7 @@
         "large language model"
       ],
       "engagement": {},
-      "score": 59.379,
+      "score": 59.344,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.79",
@@ -3146,7 +3177,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.79,
+      "novelty_score": 0.788,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3172,7 +3203,7 @@
         "inference"
       ],
       "engagement": {},
-      "score": 58.124,
+      "score": 58.09,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -3184,7 +3215,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.581,
+      "novelty_score": 0.58,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -3207,7 +3238,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.045,
+      "score": 58.031,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.67",
@@ -3219,7 +3250,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.669,
+      "novelty_score": 0.668,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3390,7 +3421,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.381,
+      "score": 57.347,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3402,7 +3433,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.851,
+      "novelty_score": 0.849,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3426,7 +3457,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.182,
+      "score": 57.148,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3438,7 +3469,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.842,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3462,7 +3493,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 57.173,
+      "score": 57.139,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3474,7 +3505,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.841,
+      "novelty_score": 0.84,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5372,40 +5403,6 @@
       "category": "engineering_ai",
       "published_at": null,
       "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
-      "matched_terms": [
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.033,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "engineering_agents",
-        "design_automation"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "ca5f8805ed4cc18e",
-      "title": "Nasa Ai Agents Build Spaceship From Text",
-      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
-      "source": "Synera",
-      "source_kind": "sitemap_or_search",
-      "category": "engineering_ai",
-      "published_at": null,
-      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
       "matched_terms": [
         "ROM"
       ],
