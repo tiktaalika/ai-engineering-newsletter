@@ -4,68 +4,68 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16592
-- filtered_count: 2766
-- duplicate_count: 79
+- filtered_count: 2764
+- duplicate_count: 80
 - failures: 7
 
 ## Top 10 General AI News
 1. [OpenAI agents attacked RubyGems back in May](https://simonwillison.net/2026/Sep/12/openai-agents-rubygems)
    - source: Simon Willison
-   - score: 69.703
-   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.835; source_priority=1.0
+   - score: 69.586
+   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.83; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 2. [Quoting huggingface.co/security.txt](https://simonwillison.net/2026/Sep/11/hugging-face-security)
    - source: Simon Willison
-   - score: 69.405
-   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.7; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.70; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
+   - score: 69.288
+   - score_breakdown: general=0.833; engineering=0.0; research=0.667; novelty=0.695; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=5; engineering_relevance=0.00; research_relevance=0.67; visible_engagement=unavailable
 3. [[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale](https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b)
    - source: Latent Space
-   - score: 55.5
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.917; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.383
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.911; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Rapidly scaling online storage to serve over 1 billion ChatGPT users](https://openai.com/index/scaling-storage-one-billion-users-part-one)
    - source: OpenAI
-   - score: 58.209
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.737; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.74; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 58.131
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.733; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.73; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [AI agents being tested by OpenAI involved in cyber-attack on another service, say researchers](https://www.theguardian.com/technology/2026/sep/11/openai-agents-rubygems-malicious-packages)
    - source: The Guardian Technology
-   - score: 70.035
-   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.699; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.70; matched_terms=6; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 69.801
+   - score_breakdown: general=1.0; engineering=0.0; research=0.333; novelty=0.688; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=6; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 6. [Why It’s Difficult for Tech Companies to Rein In A.I.](https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html)
    - source: New York Times Technology
-   - score: 58.474
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.931; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 58.24
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.92; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 7. [Extended reality takes visitors from the ruins of West Bank to 17th-century Amsterdam at Venice Immersive](https://www.theguardian.com/film/2026/sep/12/extended-reality-takes-visitors-from-the-ruins-of-west-bank-to-17th-century-amsterdam-at-venice-immersive)
    - source: The Guardian Technology
-   - score: 57.738
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.867; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 57.504
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.856; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 8. [Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data](https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data)
    - source: TechCrunch AI
-   - score: 54.515
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
+   - score: 54.437
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.868; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [STAT+: Breast cancer pill from AstraZeneca misses mark in pivotal trial](https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure)
    - source: STAT Health Tech
-   - score: 54.507
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.274
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.861; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Jensen Huang explains why Nvidia will grow an astounding 70% next year](https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year)
    - source: TechCrunch AI
-   - score: 52.095
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.61; source_priority=1.0
+   - score: 52.018
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.607; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.61; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [‘Immature playground boasting’: Mathematicians uneasy at OpenAI’s latest scalp](https://www.theguardian.com/science/2026/sep/12/openai-mathematicians-millennium-prize-problem)
    - source: The Guardian Technology
-   - score: 68.592
-   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.898; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 68.358
+   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.887; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [11.18.2024 Luminary Uses NVIDIA Omniverse Blueprint for Real-Time Computer-Aided Engineering Digital Twins Luminary Press](https://www.luminarycloud.com/resources/luminary-cloud-uses-nvidia-omniverse-blueprint-for-real-time-computer-aided-engineering-digital-twins)
    - source: Luminary Cloud
    - score: 60.367
@@ -90,9 +90,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [STAT+: Breast cancer pill from AstraZeneca misses mark in pivotal trial](https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure)
    - source: STAT Health Tech
-   - score: 54.507
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.274
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.861; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Agents In Biology](https://www.anthropic.com/research/agents-in-biology)
    - source: Anthropic
    - score: 49.033
