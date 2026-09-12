@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-12T11:36:28.961806+00:00",
+    "generated_at": "2026-09-12T11:43:21.106267+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16592,
-    "filtered_count": 2764,
-    "duplicate_count": 80,
+    "fetched_count": 16455,
+    "filtered_count": 2694,
+    "duplicate_count": 76,
     "failures": [
       {
         "source": "Ansys",
@@ -34,6 +34,50 @@
       {
         "source": "Harry Stebbings 20VC",
         "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source": "Google News General AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News AI Payments and Agent Commerce",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Frontier AI Policy and Access",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Engineering AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering AI Vendor Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Engineering Media Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Medical AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Google News Bio and Genetics AI Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Trusted Biomedical AI Source Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Curated AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "source": "Generative AI Newsletter Discovery",
+        "error": "HTTP Error 503: Service Unavailable"
       }
     ]
   },
@@ -63,7 +107,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 69.586,
+      "score": 69.547,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -75,7 +119,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.83,
+      "novelty_score": 0.828,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -104,7 +148,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 69.288,
+      "score": 69.248,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -116,7 +160,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.695,
+      "novelty_score": 0.693,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -141,7 +185,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 55.383,
+      "score": 55.344,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -153,7 +197,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.911,
+      "novelty_score": 0.91,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -179,7 +223,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.131,
+      "score": 58.105,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -191,7 +235,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.733,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -220,10 +264,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 69.801,
+      "score": 69.722,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.68",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -232,7 +276,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.688,
+      "novelty_score": 0.684,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -254,7 +298,7 @@
         "artificial intelligence"
       ],
       "engagement": {},
-      "score": 58.24,
+      "score": 58.161,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -266,7 +310,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.92,
+      "novelty_score": 0.916,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -289,10 +333,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 57.504,
+      "score": 57.425,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -301,7 +345,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.856,
+      "novelty_score": 0.853,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -323,7 +367,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.437,
+      "score": 54.411,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.87",
@@ -335,7 +379,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.868,
+      "novelty_score": 0.867,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -358,7 +402,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.274,
+      "score": 54.195,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -370,7 +414,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.861,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -394,7 +438,7 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 52.018,
+      "score": 51.991,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -406,7 +450,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.607,
+      "novelty_score": 0.606,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -434,10 +478,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 68.358,
+      "score": 68.279,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -446,7 +490,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.887,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -613,7 +657,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.274,
+      "score": 54.195,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.86",
@@ -625,7 +669,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.861,
+      "novelty_score": 0.857,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -800,10 +844,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 68.358,
+      "score": 68.279,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -812,7 +856,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.887,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1787,7 +1831,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 79.054,
+      "score": 79.052,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.93",
@@ -1822,7 +1866,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 73.052,
+      "score": 73.05,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.62",
@@ -1835,7 +1879,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.624,
+      "novelty_score": 0.623,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1858,7 +1902,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 72.623,
+      "score": 72.621,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -1894,7 +1938,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 70.329,
+      "score": 70.326,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1930,7 +1974,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 70.258,
+      "score": 70.256,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.80",
@@ -1970,10 +2014,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 69.801,
+      "score": 69.722,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.69",
+        "novelty=0.68",
         "matched_terms=6",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -1982,7 +2026,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.688,
+      "novelty_score": 0.684,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2008,7 +2052,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 69.586,
+      "score": 69.547,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.83",
@@ -2020,7 +2064,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.83,
+      "novelty_score": 0.828,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2049,7 +2093,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 69.288,
+      "score": 69.248,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.69",
@@ -2061,7 +2105,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.695,
+      "novelty_score": 0.693,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2087,7 +2131,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 68.709,
+      "score": 68.707,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2125,10 +2169,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 68.358,
+      "score": 68.279,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2137,7 +2181,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.887,
+      "novelty_score": 0.884,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2162,7 +2206,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 68.242,
+      "score": 68.163,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.92",
@@ -2174,7 +2218,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.92,
+      "novelty_score": 0.916,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2269,7 +2313,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 66.059,
+      "score": 66.033,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2281,7 +2325,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.821,
+      "novelty_score": 0.82,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2304,7 +2348,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.431,
+      "score": 65.428,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2342,7 +2386,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 64.54,
+      "score": 64.501,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.72",
@@ -2354,7 +2398,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.722,
+      "novelty_score": 0.72,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2417,7 +2461,7 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 61.374,
+      "score": 61.348,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.61",
@@ -2429,7 +2473,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.608,
+      "novelty_score": 0.607,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2453,7 +2497,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 60.909,
+      "score": 60.906,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.37",
@@ -2851,7 +2895,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 60.249,
+      "score": 60.17,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.98",
@@ -2863,7 +2907,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.981,
+      "novelty_score": 0.977,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2887,7 +2931,7 @@
         "Claude"
       ],
       "engagement": {},
-      "score": 60.054,
+      "score": 60.028,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2899,7 +2943,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.821,
+      "novelty_score": 0.819,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2958,7 +3002,7 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 59.458,
+      "score": 59.432,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.82",
@@ -2970,7 +3014,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.824,
+      "novelty_score": 0.823,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2993,7 +3037,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.379,
+      "score": 59.376,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.97",
@@ -3016,40 +3060,6 @@
       "source_priority": "medium"
     },
     {
-      "id": "656caec4a22fb590",
-      "title": "Why It’s Difficult for Tech Companies to Rein In A.I.",
-      "url": "https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-12T09:02:53+00:00",
-      "text": "Why It’s Difficult for Tech Companies to Rein In A.I. Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.",
-      "matched_terms": [
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 58.24,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.92",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.92,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "44084287147f6737",
       "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
       "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
@@ -3062,7 +3072,7 @@
         "AI"
       ],
       "engagement": {},
-      "score": 58.226,
+      "score": 58.215,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.68",
@@ -3074,7 +3084,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 1.0,
-      "novelty_score": 0.677,
+      "novelty_score": 0.676,
       "source_priority_score": 1.0,
       "source_tags": [
         "research",
@@ -3101,10 +3111,10 @@
         "Meta AI"
       ],
       "engagement": {},
-      "score": 58.219,
+      "score": 58.192,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.58",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3113,7 +3123,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.586,
+      "novelty_score": 0.584,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3121,6 +3131,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "656caec4a22fb590",
+      "title": "Why It’s Difficult for Tech Companies to Rein In A.I.",
+      "url": "https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-12T09:02:53+00:00",
+      "text": "Why It’s Difficult for Tech Companies to Rein In A.I. Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.",
+      "matched_terms": [
+        "artificial intelligence"
+      ],
+      "engagement": {},
+      "score": 58.161,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.92",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.916,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3138,7 +3182,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 58.131,
+      "score": 58.105,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -3150,7 +3194,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.733,
+      "novelty_score": 0.732,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -3213,10 +3257,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 57.778,
+      "score": 57.752,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.57",
+        "novelty=0.56",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3225,7 +3269,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.566,
+      "novelty_score": 0.564,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3250,10 +3294,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.767,
+      "score": 57.728,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.72",
+        "novelty=0.71",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3262,7 +3306,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.717,
+      "novelty_score": 0.715,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -3385,41 +3429,6 @@
       "source_priority": "high"
     },
     {
-      "id": "ffbdaa3d68e9de5e",
-      "title": "Extended reality takes visitors from the ruins of West Bank to 17th-century Amsterdam at Venice Immersive",
-      "url": "https://www.theguardian.com/film/2026/sep/12/extended-reality-takes-visitors-from-the-ruins-of-west-bank-to-17th-century-amsterdam-at-venice-immersive",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-12T07:00:29+00:00",
-      "text": "Extended reality takes visitors from the ruins of West Bank to 17th-century Amsterdam at Venice Immersive From frivolous to serious, virtual nosy passersby to the impact of climate change, the groundbreaking festival draws to a close – but this year the exhibits live on The first installation one encounters on visiting Venice Immersive, the film festival’s reliably head-spinning showcase for new media, is a chest-high metal box fitted with an eyepiece and two speakers. On peering inside you see a view of yourself from about 20ft above. You see the other guests walking past, a couple of pigeons on the ground. When one of these passersby lingers at your side for just a moment too long, the obvious impulse is to glance up from the eyepiece in order to see what they want. It is at this point that the experience blooms into a Lynchian nightmare. The passerby is not real – or rather, he’s only real in the box. He wears a blue suit and speaks with a heavy French accent and tells a tale that would sit badly in polite company. He says that I must have too much time on my hands, to stand hunched over this eyepiece for several minutes on end. “Why do people keep looking inside this box?” he d",
-      "matched_terms": [
-        "PINN",
-        "ROM"
-      ],
-      "engagement": {},
-      "score": 57.504,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.856,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "19672c4832d4c9bc",
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -3434,7 +3443,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.503,
+      "score": 57.492,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.34",
@@ -3458,6 +3467,41 @@
       "source_priority": "high"
     },
     {
+      "id": "ffbdaa3d68e9de5e",
+      "title": "Extended reality takes visitors from the ruins of West Bank to 17th-century Amsterdam at Venice Immersive",
+      "url": "https://www.theguardian.com/film/2026/sep/12/extended-reality-takes-visitors-from-the-ruins-of-west-bank-to-17th-century-amsterdam-at-venice-immersive",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-12T07:00:29+00:00",
+      "text": "Extended reality takes visitors from the ruins of West Bank to 17th-century Amsterdam at Venice Immersive From frivolous to serious, virtual nosy passersby to the impact of climate change, the groundbreaking festival draws to a close – but this year the exhibits live on The first installation one encounters on visiting Venice Immersive, the film festival’s reliably head-spinning showcase for new media, is a chest-high metal box fitted with an eyepiece and two speakers. On peering inside you see a view of yourself from about 20ft above. You see the other guests walking past, a couple of pigeons on the ground. When one of these passersby lingers at your side for just a moment too long, the obvious impulse is to glance up from the eyepiece in order to see what they want. It is at this point that the experience blooms into a Lynchian nightmare. The passerby is not real – or rather, he’s only real in the box. He wears a blue suit and speaks with a heavy French accent and tells a tale that would sit badly in polite company. He says that I must have too much time on my hands, to stand hunched over this eyepiece for several minutes on end. “Why do people keep looking inside this box?” he d",
+      "matched_terms": [
+        "PINN",
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.425,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.853,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "3c9a79c82f311242",
       "title": "OpenAI’s feud with mathematicians is only escalating",
       "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating",
@@ -3471,7 +3515,7 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 57.31,
+      "score": 57.284,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3483,7 +3527,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.847,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
