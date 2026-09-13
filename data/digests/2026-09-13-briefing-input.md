@@ -4,73 +4,73 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16609
-- filtered_count: 2734
-- duplicate_count: 87
-- failures: 8
+- filtered_count: 2737
+- duplicate_count: 80
+- failures: 7
 
 ## Top 10 General AI News
 1. [Quoting Paul Ford](https://simonwillison.net/2026/Sep/12/paul-ford)
    - source: Simon Willison
-   - score: 56.494
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.81; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.514
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.72; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.72; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [So you want to use OpenRouter?](https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter)
    - source: Simon Willison
-   - score: 49.9
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.511; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.51; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Inside the Discussions at AI Companies Over a Superintelligence Doomsday](https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html)
-   - source: New York Times Technology
-   - score: 65.061
-   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.776; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-4. [Anthropic CEO outlines plan to slow AI development](https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier)
+   - score: 47.919
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.421; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.42; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Anthropic CEO outlines plan to slow AI development](https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier)
    - source: TechCrunch AI
-   - score: 64.912
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.89; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.592
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.83; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC](https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss)
+   - source: BBC Technology
+   - score: 62.861
+   - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.979; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 5. [Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown](https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html)
    - source: New York Times Technology
-   - score: 63.291
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.816; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown](https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown)
+   - score: 59.33
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.636; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.64; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [AI will transform capitalism – but how?](https://www.theguardian.com/technology/2026/sep/13/ai-will-transform-capitalism-but-how)
    - source: The Guardian Technology
-   - score: 57.449
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.551; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.55; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations](https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations)
+   - score: 56.711
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.972; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [‘Really helpful’: the AI bootcamps aimed at addressing UK youth unemployment](https://www.theguardian.com/technology/2026/sep/13/ai-bootcamps-uk-youth-unemployment-neets-preston)
+   - source: The Guardian Technology
+   - score: 55.336
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.909; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations](https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations)
    - source: Amazon AWS AI
-   - score: 52.485
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.628; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.63; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [License Mistral Ai Models For Nvidia Inference Microservices](https://mistral.ai/fr/license-mistral-ai-models-for-nvidia-inference-microservices)
+   - score: 51.165
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.568; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.57; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [License Mistral Ai Models For Nvidia Inference Microservices](https://mistral.ai/fr/license-mistral-ai-models-for-nvidia-inference-microservices)
    - source: Mistral AI
    - score: 49.7
    - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+10. [Ai Assistance Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
    - source: Anthropic
    - score: 49.033
    - score_breakdown: general=0.333; engineering=0.0; research=0.333; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-10. [Agent Evaluation Metric for multi-turn conversations](https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations)
-   - source: Amazon AWS AI
-   - score: 46.409
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.352; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [Generating running routes with GPT-6 Astra and ChatGPT Work](https://simonwillison.net/2026/Sep/12/astra-running-routes)
    - source: Simon Willison
-   - score: 68.702
-   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.903; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 66.722
+   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.813; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says](https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns)
    - source: The Guardian Technology
-   - score: 65.929
-   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.777; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.968
+   - score_breakdown: general=0.667; engineering=0.25; research=0.0; novelty=0.597; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.60; matched_terms=4; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 3. [Electric Motor Simulation Powerful Tool For Design Optimization](https://www.neuralconcept.com/post/electric-motor-simulation-powerful-tool-for-design-optimization)
    - source: Neural Concept
    - score: 60.367
@@ -81,11 +81,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Trump is giving data centers a pass to pollute](https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa)
-   - source: The Verge AI
-   - score: 50.209
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.517; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.52; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+5. [Ntop Live Automated Reconstruction Of Topology Optimization From Altair Optistruct In Ntopology](https://www.ntop.com/resources/videos/ntop-live-automated-reconstruction-of-topology-optimization-from-altair-optistruct-in-ntopology)
+   - source: nTop
+   - score: 49.167
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Claude For Life Sciences](https://www.anthropic.com/news/claude-for-life-sciences)
@@ -181,5 +181,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden

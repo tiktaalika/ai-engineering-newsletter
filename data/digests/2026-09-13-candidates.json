@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-13T06:08:38.912600+00:00",
+    "generated_at": "2026-09-13T11:54:20.917121+00:00",
     "window_hours": 24,
     "source_count": 138,
     "fetched_count": 16609,
-    "filtered_count": 2734,
-    "duplicate_count": 87,
+    "filtered_count": 2737,
+    "duplicate_count": 80,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -64,10 +60,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 56.494,
+      "score": 54.514,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.72",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -76,7 +72,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.81,
+      "novelty_score": 0.72,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -102,10 +98,10 @@
         "LLM"
       ],
       "engagement": {},
-      "score": 49.9,
+      "score": 47.919,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.51",
+        "novelty=0.42",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -114,7 +110,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.511,
+      "novelty_score": 0.421,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -124,43 +120,6 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "20a81814f797ae87",
-      "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
-      "url": "https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-12T22:57:38+00:00",
-      "text": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelligence.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 65.061,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.776,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -179,10 +138,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 64.912,
+      "score": 63.592,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -191,7 +150,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.89,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -199,6 +158,41 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "f642885e42c55821",
+      "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-13T11:13:07+00:00",
+      "text": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
+      "matched_terms": [
+        "AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 62.861,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.979,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -217,10 +211,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 63.291,
+      "score": 59.33,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.82",
+        "novelty=0.64",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -229,7 +223,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.816,
+      "novelty_score": 0.636,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -239,34 +233,65 @@
       "source_priority": "high"
     },
     {
-      "id": "b802aa1d15351374",
-      "title": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown",
-      "url": "https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown",
+      "id": "1c08e62b84226e6c",
+      "title": "AI will transform capitalism – but how?",
+      "url": "https://www.theguardian.com/technology/2026/sep/13/ai-will-transform-capitalism-but-how",
       "source": "The Guardian Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-12T15:46:01+00:00",
-      "text": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown In a social media post, Dario Amodei proposed a plan including third-party evaluations of AI systems The CEO of the artificial intelligence company Anthropic issued a new appeal on Saturday for the AI industry to “slow down” and offered a three-part plan for doing so, saying that his company would “unilaterally” commit to the first of the steps. In a post on social media, Dario Amodei shared a link to an essay titled We Must Pace the Frontier in which he laid out how Anthropic would provide “third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training”. Continue reading...",
+      "published_at": "2026-09-13T11:00:02+00:00",
+      "text": "AI will transform capitalism – but how? Technology is going to drastically reshape the economy, and it’s within our power to decide what that looks like The idea that autonomous, thinking machines may one day destroy property, hierarchy and inequality is as old as western political thought. In Aristotle’s Politics, the philosopher cites a fantasy from the Iliad, in which machines begin to act independently of human direction, concluding: “If every tool could perform its own work when ordered, or by seeing what to do in advance … if thus shuttles wove and quills played harps of themselves, master-craftsmen would have no need of assistants and masters no need of slaves.” The dream that automation could inaugurate a classless society is also present in the writings of Karl Marx. In 1858 he imagined the replacement of intellectual property with “socialised knowledge”, which would merge into a “general intellect”, blowing the foundations of capitalism sky high. Continue reading...",
       "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "Anthropic",
-        "Dario Amodei"
+        "AI"
       ],
       "engagement": {},
-      "score": 57.449,
+      "score": 56.711,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.55",
-        "matched_terms=4",
+        "novelty=0.97",
+        "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.551,
+      "novelty_score": 0.972,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "d564f1ce98253e7c",
+      "title": "‘Really helpful’: the AI bootcamps aimed at addressing UK youth unemployment",
+      "url": "https://www.theguardian.com/technology/2026/sep/13/ai-bootcamps-uk-youth-unemployment-neets-preston",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-13T09:00:04+00:00",
+      "text": "‘Really helpful’: the AI bootcamps aimed at addressing UK youth unemployment Pilot project in Preston comes with apprenticeship offer for Neets at end of three-week course In a youth centre opposite Preston bus station , the UK government is trying to address two of the greatest challenges facing the national economy: AI and youth unemployment. The hope is that one will solve – rather than cause – the other. In a room at the recently opened Vault, a community hub in the Lancashire city, an “AI bootcamp” is under way – part of a trial in the north-west to give 16- to 24-year-olds AI training. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 55.336,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.909,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -289,10 +314,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 52.485,
+      "score": 51.165,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.63",
+        "novelty=0.57",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -301,7 +326,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.628,
+      "novelty_score": 0.568,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -382,42 +407,6 @@
       ],
       "registry_category": "vendor",
       "source_priority": "high"
-    },
-    {
-      "id": "19dbc7df2ec891c8",
-      "title": "Agent Evaluation Metric for multi-turn conversations",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T15:55:41+00:00",
-      "text": "Agent Evaluation Metric for multi-turn conversations Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure agent quality, applied to its first dimension, correctness, to pinpoint the turn that caused a failure and separate it from the turns that inherited it.",
-      "matched_terms": [
-        "AI",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 46.409,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.35",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.352,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
     }
   ],
   "top_5_engineering_ai": [
@@ -437,10 +426,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 68.702,
+      "score": 66.722,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.81",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -449,7 +438,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -477,10 +466,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 65.929,
+      "score": 61.968,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.60",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -489,7 +478,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.597,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -573,38 +562,40 @@
       "source_priority": "high"
     },
     {
-      "id": "9e2152d865f077ae",
-      "title": "Trump is giving data centers a pass to pollute",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
-      "source": "The Verge AI",
-      "source_kind": "rss",
+      "id": "9728e62334b724ec",
+      "title": "Ntop Live Automated Reconstruction Of Topology Optimization From Altair Optistruct In Ntopology",
+      "url": "https://www.ntop.com/resources/videos/ntop-live-automated-reconstruction-of-topology-optimization-from-altair-optistruct-in-ntopology",
+      "source": "nTop",
+      "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
-      "published_at": "2026-09-12T14:41:27+00:00",
-      "text": "Trump is giving data centers a pass to pollute President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a \"Data Center Health Protection […]",
+      "published_at": null,
+      "text": "Ntop Live Automated Reconstruction Of Topology Optimization From Altair Optistruct In Ntopology https://www.ntop.com/resources/videos/ntop-live-automated-reconstruction-of-topology-optimization-from-altair-optistruct-in-ntopology/",
       "matched_terms": [
-        "AI"
+        "ROM",
+        "topology optimization"
       ],
       "engagement": {},
-      "score": 50.209,
+      "score": 49.167,
       "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.52",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.517,
-      "source_priority_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "ai",
-        "product"
+        "design",
+        "topology_optimization",
+        "manufacturing"
       ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
     }
   ],
   "top_5_medical_bio_ai": [
@@ -809,10 +800,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 68.702,
+      "score": 66.722,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.81",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -821,7 +812,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -849,10 +840,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 65.929,
+      "score": 61.968,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.60",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -861,7 +852,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.597,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -945,38 +936,40 @@
       "source_priority": "high"
     },
     {
-      "id": "9e2152d865f077ae",
-      "title": "Trump is giving data centers a pass to pollute",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
-      "source": "The Verge AI",
-      "source_kind": "rss",
+      "id": "9728e62334b724ec",
+      "title": "Ntop Live Automated Reconstruction Of Topology Optimization From Altair Optistruct In Ntopology",
+      "url": "https://www.ntop.com/resources/videos/ntop-live-automated-reconstruction-of-topology-optimization-from-altair-optistruct-in-ntopology",
+      "source": "nTop",
+      "source_kind": "sitemap_or_search",
       "category": "engineering_ai",
-      "published_at": "2026-09-12T14:41:27+00:00",
-      "text": "Trump is giving data centers a pass to pollute President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a \"Data Center Health Protection […]",
+      "published_at": null,
+      "text": "Ntop Live Automated Reconstruction Of Topology Optimization From Altair Optistruct In Ntopology https://www.ntop.com/resources/videos/ntop-live-automated-reconstruction-of-topology-optimization-from-altair-optistruct-in-ntopology/",
       "matched_terms": [
-        "AI"
+        "ROM",
+        "topology optimization"
       ],
       "engagement": {},
-      "score": 50.209,
+      "score": 49.167,
       "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.52",
-        "matched_terms=1",
-        "engineering_relevance=0.25",
+        "source_priority=0.65",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.25,
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.517,
-      "source_priority_score": 1.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 0.65,
       "source_tags": [
-        "ai",
-        "product"
+        "design",
+        "topology_optimization",
+        "manufacturing"
       ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
+      "registry_category": "engineering_ai",
+      "source_priority": "medium"
     }
   ],
   "research_radar": [
@@ -1793,10 +1786,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 78.63,
+      "score": 78.497,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1805,7 +1798,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.907,
+      "novelty_score": 0.901,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1828,7 +1821,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 72.627,
+      "score": 72.495,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.60",
@@ -1841,7 +1834,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.604,
+      "novelty_score": 0.598,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1864,7 +1857,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 72.199,
+      "score": 72.067,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.58",
@@ -1877,7 +1870,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.585,
+      "novelty_score": 0.579,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1900,7 +1893,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 69.904,
+      "score": 69.772,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.78",
@@ -1912,7 +1905,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.784,
+      "novelty_score": 0.778,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -1936,10 +1929,10 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 69.834,
+      "score": 69.702,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -1948,7 +1941,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.774,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1956,46 +1949,6 @@
         "cloud_cae"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "022369d17d7fe1ff",
-      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-12T23:56:42+00:00",
-      "text": "Generating running routes with GPT-6 Astra and ChatGPT Work Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at . Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route: When I asked it how it had created the route, it replied: I used Nominatim to locate the address and Overpass to download local OpenStreetMap roads and trails , then calculated the loops locally. Frustratingly, the actual code it ran and exact details of what it did weren't visible to me in the ChatGPT UI. I see this lack of transparency is an anti-feature. By the time I thought to ask for a copy of the Python code it had used, ChatGPT was unable to provide it. This appears to be because the thread had been compacted. I think any LLM system that uses compaction needs to both preserve the pre-compacted text and make that text available via agent tool calls, to protect against this kind of problem. As for displaying the map to me, that used the visualize skill . It created a file called /w",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 68.702,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=4",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2012,10 +1965,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 68.284,
+      "score": 68.152,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.71",
+        "novelty=0.70",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2024,7 +1977,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.71,
+      "novelty_score": 0.704,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2105,25 +2058,25 @@
       "source_priority": "high"
     },
     {
-      "id": "fd36d65c782dc506",
-      "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
-      "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
-      "source": "The Guardian Technology",
+      "id": "022369d17d7fe1ff",
+      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes",
+      "source": "Simon Willison",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-12T23:00:37+00:00",
-      "text": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says OpenAI’s decision comes after dire warnings about rapidly progressing technology and lawmakers’ calls for new rules OpenAI will not go public in 2026, Sam Altman said in a Fortune interview published on Saturday, citing safety concerns over artificial intelligence . “I actually think that, given everything happening with safety, right now would be an ill-advised moment to go public, and we don’t feel pressure on that,” Altman, OpenAI’s CEO, told Fortune . Continue reading...",
+      "published_at": "2026-09-12T23:56:42+00:00",
+      "text": "Generating running routes with GPT-6 Astra and ChatGPT Work Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at . Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route: When I asked it how it had created the route, it replied: I used Nominatim to locate the address and Overpass to download local OpenStreetMap roads and trails , then calculated the loops locally. Frustratingly, the actual code it ran and exact details of what it did weren't visible to me in the ChatGPT UI. I see this lack of transparency is an anti-feature. By the time I thought to ask for a copy of the Python code it had used, ChatGPT was unable to provide it. This appears to be because the thread had been compacted. I think any LLM system that uses compaction needs to both preserve the pre-compacted text and make that text available via agent tool calls, to protect against this kind of problem. As for displaying the map to me, that used the visualize skill . It created a file called /w",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "AI safety"
+        "LLM",
+        "agent",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 65.929,
+      "score": 66.722,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.81",
         "matched_terms=4",
         "engineering_relevance=0.25",
         "research_relevance=0.00",
@@ -2132,50 +2085,16 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.813,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
       ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "20a81814f797ae87",
-      "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
-      "url": "https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-12T22:57:38+00:00",
-      "text": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelligence.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 65.061,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.776,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
+      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2191,7 +2110,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 65.006,
+      "score": 64.874,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.71",
@@ -2203,7 +2122,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.712,
+      "novelty_score": 0.706,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -2228,10 +2147,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 64.912,
+      "score": 63.592,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.83",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2240,7 +2159,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.89,
+      "novelty_score": 0.83,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2251,97 +2170,23 @@
       "source_priority": "high"
     },
     {
-      "id": "4022c7a7f9b57883",
-      "title": "OpenAI’s rogue AI tried to hack another company in May",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-12T21:41:36+00:00",
-      "text": "OpenAI’s rogue AI tried to hack another company in May In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a […]",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 64.19,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.74",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.736,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "4ee70cea304a66bb",
-      "title": "Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown",
-      "url": "https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html",
-      "source": "New York Times Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-13T00:15:54+00:00",
-      "text": "Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown In an essay, the head of Anthropic laid out the rapidly advancing capabilities of artificial intelligence and said there needed to be greater safety controls across the industry.",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "Anthropic",
-        "Dario Amodei"
-      ],
-      "engagement": {},
-      "score": 63.291,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.82",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.816,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "f642885e42c55821",
       "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
       "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-13T06:04:06+00:00",
-      "text": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC Jacob Coxon tells the BBC that there's a strong chance AI could end humanity if the rate of development is not reined in.",
+      "published_at": "2026-09-13T11:13:07+00:00",
+      "text": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
       "matched_terms": [
         "AI",
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.281,
+      "score": 62.861,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=1.00",
+        "novelty=0.98",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2350,54 +2195,13 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.998,
+      "novelty_score": 0.979,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "7905b0abe6b4465f",
-      "title": "OpenAI agents attacked RubyGems back in May",
-      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-12T00:42:25+00:00",
-      "text": "OpenAI agents attacked RubyGems back in May OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack against the RubyGems package repository first reported on May 12th by Maciej Mensfeld of the RubyGems security team : We're dealing with a major malicious attack on @rubygems right now. Signups are paused for the time being. Hundreds of packages involved - mostly targeting us, but some carrying exploits. The team has been on this for hours. More details to follow once we're through it. Those packages turned out to carry some very suspicious patterns: Many of them included \"oai\" in their name, or the author field, or the fake email address they provided. The files they were accessing were similar in character to the files retrieved by the wiki agents, using similar tricks (r.jina.ai) - and OpenAI have confirmed the wiki agents were theirs. The code in the packages appeared to be LLM-authored. I find po",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent",
-        "AI agent",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 63.214,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.54",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.54,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2436,6 +2240,121 @@
       "source_priority": "high"
     },
     {
+      "id": "fd36d65c782dc506",
+      "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
+      "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-12T23:00:37+00:00",
+      "text": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says OpenAI’s decision comes after dire warnings about rapidly progressing technology and lawmakers’ calls for new rules OpenAI will not go public in 2026, Sam Altman said in a Fortune interview published on Saturday, citing safety concerns over artificial intelligence . “I actually think that, given everything happening with safety, right now would be an ill-advised moment to go public, and we don’t feel pressure on that,” Altman, OpenAI’s CEO, told Fortune . Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "OpenAI",
+        "AI safety"
+      ],
+      "engagement": {},
+      "score": 61.968,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.60",
+        "matched_terms=4",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.597,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7905b0abe6b4465f",
+      "title": "OpenAI agents attacked RubyGems back in May",
+      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-12T00:42:25+00:00",
+      "text": "OpenAI agents attacked RubyGems back in May OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack against the RubyGems package repository first reported on May 12th by Maciej Mensfeld of the RubyGems security team : We're dealing with a major malicious attack on @rubygems right now. Signups are paused for the time being. Hundreds of packages involved - mostly targeting us, but some carrying exploits. The team has been on this for hours. More details to follow once we're through it. Those packages turned out to carry some very suspicious patterns: Many of them included \"oai\" in their name, or the author field, or the fake email address they provided. The files they were accessing were similar in character to the files retrieved by the wiki agents, using similar tricks (r.jina.ai) - and OpenAI have confirmed the wiki agents were theirs. The code in the packages appeared to be LLM-authored. I find po",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 61.234,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.45",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.45,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "20a81814f797ae87",
+      "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
+      "url": "https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-12T22:57:38+00:00",
+      "text": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday Researchers at Anthropic, OpenAI, Meta and Google are increasingly trying to raise awareness about the risks of artificial intelligence.",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 61.1,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.60",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.595,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "9d34adb9940532b1",
       "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
       "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload",
@@ -2451,10 +2370,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 61.811,
+      "score": 60.491,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.63",
+        "novelty=0.57",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -2463,7 +2382,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.628,
+      "novelty_score": 0.568,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -2471,42 +2390,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "0ede3faa2731be47",
-      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
-      "url": "https://rescale.com/blog/ic-predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-18T11:16:00+00:00",
-      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
-      "matched_terms": [
-        "simulation",
-        "digital twin"
-      ],
-      "engagement": {},
-      "score": 60.484,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.36",
-        "matched_terms=2",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.355,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2872,6 +2755,79 @@
       "source_priority": "high"
     },
     {
+      "id": "0ede3faa2731be47",
+      "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
+      "url": "https://rescale.com/blog/ic-predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-18T11:16:00+00:00",
+      "text": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning Build digital twin workflows that connect simulation and machine learning in one engineering process. Rescale helps teams move beyond isolated analyses by linking physics-based simulation, custom code, and data-driven models so digital twin initiatives can become more practical, repeatable, and useful in day-to-day engineering work.",
+      "matched_terms": [
+        "simulation",
+        "digital twin"
+      ],
+      "engagement": {},
+      "score": 60.352,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=2",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.349,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "4022c7a7f9b57883",
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-12T21:41:36+00:00",
+      "text": "OpenAI’s rogue AI tried to hack another company in May In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a […]",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.229,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.56",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.556,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d0a7f3d2c70a8110",
       "title": "Finding The Path To Value In Engineering Ai Why We Need To Rethink Benchmarking",
       "url": "https://www.neuralconcept.com/post/finding-the-path-to-value-in-engineering-ai---why-we-need-to-rethink-benchmarking",
@@ -2907,6 +2863,43 @@
       "source_priority": "high"
     },
     {
+      "id": "4ee70cea304a66bb",
+      "title": "Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown",
+      "url": "https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html",
+      "source": "New York Times Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-13T00:15:54+00:00",
+      "text": "Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown In an essay, the head of Anthropic laid out the rapidly advancing capabilities of artificial intelligence and said there needed to be greater safety controls across the industry.",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic",
+        "Dario Amodei"
+      ],
+      "engagement": {},
+      "score": 59.33,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.64",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.636,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2919,10 +2912,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 58.954,
+      "score": 58.822,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=0.95",
+        "novelty=0.94",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2931,7 +2924,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.946,
+      "novelty_score": 0.94,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2940,78 +2933,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "22407f1a50da6d6a",
-      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
-      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-12T20:19:16+00:00",
-      "text": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026 While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.416,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.898,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "3acf20f3518509c4",
-      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-      "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-12T21:16:47+00:00",
-      "text": "Anthropic boss Dario Amodei calls for AI development to slow down The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Dario Amodei"
-      ],
-      "engagement": {},
-      "score": 57.906,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.72",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.723,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
     },
     {
       "id": "3e25372b9239ef76",
@@ -3160,78 +3081,39 @@
       "source_priority": "high"
     },
     {
-      "id": "b802aa1d15351374",
-      "title": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown",
-      "url": "https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown",
-      "source": "The Guardian Technology",
+      "id": "22407f1a50da6d6a",
+      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-12T15:46:01+00:00",
-      "text": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown In a social media post, Dario Amodei proposed a plan including third-party evaluations of AI systems The CEO of the artificial intelligence company Anthropic issued a new appeal on Saturday for the AI industry to “slow down” and offered a three-part plan for doing so, saying that his company would “unilaterally” commit to the first of the steps. In a post on social media, Dario Amodei shared a link to an essay titled We Must Pace the Frontier in which he laid out how Anthropic would provide “third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training”. Continue reading...",
+      "published_at": "2026-09-12T20:19:16+00:00",
+      "text": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026 While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
-        "Anthropic",
-        "Dario Amodei"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.449,
+      "score": 57.095,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.55",
-        "matched_terms=4",
+        "novelty=0.84",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.551,
+      "novelty_score": 0.838,
       "source_priority_score": 1.0,
       "source_tags": [
-        "mainstream_news",
-        "technology"
+        "ai",
+        "startup",
+        "funding"
       ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "6136e44104c7df21",
-      "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-10T21:58:09+00:00",
-      "text": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduced P50 time-to-first-token by up to 77% and raised KV cache hit rates from about 25% to over 80%.",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "inference",
-        "benchmark"
-      ],
-      "engagement": {},
-      "score": 57.127,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.41",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.415,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -5396,6 +5278,108 @@
       "text": "Ai Agents In Engineering Ai Conference 2025 https://www.synera.ai/webinar/ai-agents-in-engineering-ai-conference-2025",
       "matched_terms": [
         "engineering AI"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "3cfd8b1d1cd4d509",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ea9ebd5a3b0bd743",
+      "title": "Altair Learning Synera Basics Intro Fea Automation",
+      "url": "https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Altair Learning Synera Basics Intro Fea Automation https://www.synera.ai/de/webinar/altair-learning-synera-basics-intro-fea-automation",
+      "matched_terms": [
+        "FEA"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "51f9f00633997da4",
+      "title": "Automating Cae Reporting",
+      "url": "https://www.synera.ai/webinar/automating-cae-reporting",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Automating Cae Reporting https://www.synera.ai/webinar/automating-cae-reporting",
+      "matched_terms": [
+        "CAE"
       ],
       "engagement": {},
       "score": 57.033,
