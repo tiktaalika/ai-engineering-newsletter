@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-15T12:09:07.272586+00:00",
+    "generated_at": "2026-09-15T12:40:23.304455+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16643,
+    "fetched_count": 16645,
     "filtered_count": 2757,
-    "duplicate_count": 77,
+    "duplicate_count": 78,
     "failures": [
       {
         "source": "Ansys",
@@ -61,10 +61,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 61.488,
+      "score": 61.309,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.88",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -73,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.886,
+      "novelty_score": 0.878,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -99,10 +99,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 56.583,
+      "score": 56.404,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.65",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -111,7 +111,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.663,
+      "novelty_score": 0.655,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -136,7 +136,7 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 51.906,
+      "score": 51.727,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.75",
@@ -148,7 +148,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.753,
+      "novelty_score": 0.745,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -174,10 +174,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 55.132,
+      "score": 55.012,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
+        "novelty=0.74",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -186,7 +186,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.748,
+      "novelty_score": 0.743,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -195,6 +195,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "1f913f7b7030ca85",
+      "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
+      "url": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-15T12:10:00+00:00",
+      "text": "The Download: AI doomers, whistleblowing agents, and de-aged livers This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The AI industry has taken a doomer turn. What now? AI chiefs Dario Amodei, Sam Altman, Elon Musk, and Demis Hassabis are suddenly all in agreement: the latest generation of LLMs…",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Dario Amodei"
+      ],
+      "engagement": {},
+      "score": 66.985,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.984,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -213,10 +250,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 67.151,
+      "score": 66.793,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.00",
         "research_relevance=0.33",
@@ -225,7 +262,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.871,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -251,10 +288,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 61.621,
+      "score": 61.263,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.57",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -263,7 +300,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.589,
+      "novelty_score": 0.573,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -287,7 +324,7 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 60.723,
+      "score": 60.603,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -299,7 +336,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.851,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -324,10 +361,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 60.435,
+      "score": 60.316,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.84",
+        "novelty=0.83",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -336,7 +373,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.838,
+      "novelty_score": 0.833,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -347,60 +384,23 @@
       "source_priority": "high"
     },
     {
-      "id": "4201afd957622cbd",
-      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws",
+      "id": "b0f58c7c2ee4881b",
+      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+      "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale",
       "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-14T15:47:12+00:00",
-      "text": "The generative AI customization spectrum: From prompt engineering to custom models on AWS Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must.",
+      "published_at": "2026-09-14T21:22:45+00:00",
+      "text": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production.",
       "matched_terms": [
         "AI",
-        "generative AI",
-        "RAG"
+        "agent"
       ],
       "engagement": {},
-      "score": 59.333,
+      "score": 57.162,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.79",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.788,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "319da0d298a0871e",
-      "title": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine",
-      "url": "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine",
-      "source": "NVIDIA AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T16:39:15+00:00",
-      "text": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek, Qwen, and Mixtral are examples of MoE...",
-      "matched_terms": [
-        "AI",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 56.198,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.80",
+        "novelty=0.84",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -409,13 +409,12 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.797,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
       "registry_category": "vendor",
       "source_priority": "high"
@@ -438,10 +437,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 74.151,
+      "score": 73.793,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -450,7 +449,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.871,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -474,10 +473,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 68.563,
+      "score": 68.383,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -486,7 +485,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.768,
+      "novelty_score": 0.76,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -496,6 +495,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "bad6392995a61506",
+      "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T12:00:00+00:00",
+      "text": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing and customer-support tasks.",
+      "matched_terms": [
+        "AI",
+        "reasoning model",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 67.346,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -519,10 +555,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 67.678,
+      "score": 67.32,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.29",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -531,7 +567,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.311,
+      "novelty_score": 0.295,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -539,43 +575,6 @@
         "ai"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "bad6392995a61506",
-      "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
-      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-15T12:00:00+00:00",
-      "text": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing and customer-support tasks.",
-      "matched_terms": [
-        "AI",
-        "reasoning model",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 67.465,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=1.00",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.998,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -629,10 +628,10 @@
         "AI"
       ],
       "engagement": {},
-      "score": 54.823,
+      "score": 54.464,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.89",
+        "novelty=0.87",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -641,7 +640,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.886,
+      "novelty_score": 0.87,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -754,38 +753,37 @@
       "source_priority": "medium"
     },
     {
-      "id": "81268174f1601015",
-      "title": "How the reckless AI race among Anthropic, OpenAI and China spawned today’s safety crisis - Genetic Literacy Project",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObGJtWjVwOUVZQWxidk9oWGNWcllFdGRBRVl4RHZ3cFlSN0x4aVZsZkRGYlVZZjNqMGV3bUpRTVZsbUFoTWxZeHVIRU9RRUpYbUQtTEtSNF9Sb19zTkZuaFNfNHJlRHEzRUVCNFJHT0Z5MERZaDJyVXJWNFJwR05zZ2RnYWtUb0Uzb2FFU2hqcWhOR3FXUW9iSkhfY1Y5UGg3LXRFNW5zamtwZUVXS1FuQTdPWF9NWHNYdmJRWWlON0JRcmdvYlJEWjhuc0hoQQ?oc=5",
-      "source": "Google News Frontier AI Policy and Access",
+      "id": "a28fb491e1262f3c",
+      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3JfelNNeXFoQmdqdzlhM2FkTEMxVFlCNGxIUnFOSmR1S28zVnV2elFES0R1RERBWEJ3anJXMzhDY3lKU2lNU0d1MEVwbjdSYV9JUUZROGhMMWlxc0gxOFRVQjlGcEF4QVpuMlZDTzl1VUdRZkk1WmVMS09pOVZoN2JCRQ?oc=5",
+      "source": "Google News Medical AI Discovery",
       "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": "2026-09-15T04:07:34+00:00",
-      "text": "How the reckless AI race among Anthropic, OpenAI and China spawned today’s safety crisis - Genetic Literacy Project How the reckless AI race among Anthropic, OpenAI and China spawned today’s safety crisis Genetic Literacy Project",
+      "published_at": "2026-09-15T09:06:23+00:00",
+      "text": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care - NVIDIA Blog Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care NVIDIA Blog",
       "matched_terms": [
         "AI",
-        "OpenAI",
-        "Anthropic"
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 37.682,
+      "score": 37.415,
       "score_reasons": [
         "source_priority=0.35",
-        "novelty=0.75",
-        "matched_terms=3",
+        "novelty=0.89",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.5,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.749,
+      "novelty_score": 0.889,
       "source_priority_score": 0.35,
       "source_tags": [
-        "policy",
-        "safety",
-        "frontier_models"
+        "medical_ai",
+        "healthcare_ai",
+        "discovery"
       ],
       "registry_category": "general_ai",
       "source_priority": "low"
@@ -808,10 +806,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 74.151,
+      "score": 73.793,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -820,7 +818,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.871,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -844,10 +842,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 68.563,
+      "score": 68.383,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -856,7 +854,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.768,
+      "novelty_score": 0.76,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -866,6 +864,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
+      "id": "bad6392995a61506",
+      "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T12:00:00+00:00",
+      "text": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing and customer-support tasks.",
+      "matched_terms": [
+        "AI",
+        "reasoning model",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 67.346,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -889,10 +924,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 67.678,
+      "score": 67.32,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.29",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -901,7 +936,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.311,
+      "novelty_score": 0.295,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -909,43 +944,6 @@
         "ai"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "bad6392995a61506",
-      "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
-      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-15T12:00:00+00:00",
-      "text": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing and customer-support tasks.",
-      "matched_terms": [
-        "AI",
-        "reasoning model",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 67.465,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=1.00",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.998,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -1802,7 +1800,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 77.392,
+      "score": 77.38,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -1840,10 +1838,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 74.151,
+      "score": 73.793,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.87",
+        "novelty=0.85",
         "matched_terms=4",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -1852,7 +1850,7 @@
       "general_ai_score": 0.667,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.871,
+      "novelty_score": 0.854,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -1874,7 +1872,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 71.39,
+      "score": 71.378,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.55",
@@ -1887,7 +1885,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.548,
+      "novelty_score": 0.547,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -1910,7 +1908,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 70.961,
+      "score": 70.949,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.53",
@@ -1923,7 +1921,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.529,
+      "novelty_score": 0.528,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
@@ -1946,7 +1944,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 68.666,
+      "score": 68.654,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -1982,7 +1980,7 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 68.596,
+      "score": 68.584,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.72",
@@ -2019,10 +2017,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 68.563,
+      "score": 68.383,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.77",
+        "novelty=0.76",
         "matched_terms=3",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -2031,7 +2029,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.768,
+      "novelty_score": 0.76,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2058,10 +2056,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 68.381,
+      "score": 68.023,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.92",
+        "novelty=0.90",
         "matched_terms=3",
         "engineering_relevance=0.25",
         "research_relevance=0.33",
@@ -2070,13 +2068,50 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.919,
+      "novelty_score": 0.903,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
         "technology"
       ],
       "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "bad6392995a61506",
+      "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
+      "source": "TechCrunch AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T12:00:00+00:00",
+      "text": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing and customer-support tasks.",
+      "matched_terms": [
+        "AI",
+        "reasoning model",
+        "Nvidia"
+      ],
+      "engagement": {},
+      "score": 67.346,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.99",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.993,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "startup",
+        "funding"
+      ],
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
@@ -2100,10 +2135,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 67.678,
+      "score": 67.32,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.29",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -2112,86 +2147,12 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.311,
+      "novelty_score": 0.295,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
         "engineering",
         "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "bad6392995a61506",
-      "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
-      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-15T12:00:00+00:00",
-      "text": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing and customer-support tasks.",
-      "matched_terms": [
-        "AI",
-        "reasoning model",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 67.465,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=1.00",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.998,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "23847a5f0baf8bbf",
-      "title": "AI safety requires more than just slowing our pace | Stuart Russell",
-      "url": "https://www.theguardian.com/commentisfree/2026/sep/15/ai-safety-requirements",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-15T08:00:31+00:00",
-      "text": "AI safety requires more than just slowing our pace | Stuart Russell Safety requirements are non-negotiable. They depend on meeting concrete goals, not just adjusting a timeline It has been a week of high drama in AI, precipitated by the resignation of the AI safety researcher Jacob Coxon from Anthropic. This followed several weeks of increasingly lurid and disturbing revelations about the OpenAI/Hugging Face incident. My inbox yesterday included a message from Business Insider with the subject line: “AI doomsday debate reaches boiling point”. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic",
-        "AI safety"
-      ],
-      "engagement": {},
-      "score": 67.151,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.871,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -2210,7 +2171,7 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.047,
+      "score": 67.035,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.65",
@@ -2222,7 +2183,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.654,
+      "novelty_score": 0.653,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2303,6 +2264,80 @@
       "source_priority": "high"
     },
     {
+      "id": "1f913f7b7030ca85",
+      "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
+      "url": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-15T12:10:00+00:00",
+      "text": "The Download: AI doomers, whistleblowing agents, and de-aged livers This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The AI industry has taken a doomer turn. What now? AI chiefs Dario Amodei, Sam Altman, Elon Musk, and Demis Hassabis are suddenly all in agreement: the latest generation of LLMs…",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "agent",
+        "Dario Amodei"
+      ],
+      "engagement": {},
+      "score": 66.985,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.984,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "23847a5f0baf8bbf",
+      "title": "AI safety requires more than just slowing our pace | Stuart Russell",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/15/ai-safety-requirements",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-15T08:00:31+00:00",
+      "text": "AI safety requires more than just slowing our pace | Stuart Russell Safety requirements are non-negotiable. They depend on meeting concrete goals, not just adjusting a timeline It has been a week of high drama in AI, precipitated by the resignation of the AI safety researcher Jacob Coxon from Anthropic. This followed several weeks of increasingly lurid and disturbing revelations about the OpenAI/Hugging Face incident. My inbox yesterday included a message from Business Insider with the subject line: “AI doomsday debate reaches boiling point”. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "AI safety"
+      ],
+      "engagement": {},
+      "score": 66.793,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.85",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.854,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "02a21f8c28b0ca9d",
       "title": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition",
       "url": "https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition",
@@ -2315,7 +2350,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.768,
+      "score": 63.757,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -2372,6 +2407,44 @@
       "source_priority": "high"
     },
     {
+      "id": "05d8e0b482ac6992",
+      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-15T04:50:36+00:00",
+      "text": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign Pacing gathers pace.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 61.309,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.878,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "e4b50f354b69134d",
       "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
       "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
@@ -2388,10 +2461,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 61.621,
+      "score": 61.263,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.59",
+        "novelty=0.57",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2400,51 +2473,13 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.589,
+      "novelty_score": 0.573,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
         "product"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "05d8e0b482ac6992",
-      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
-      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-15T04:50:36+00:00",
-      "text": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign Pacing gathers pace.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 61.488,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.89",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.886,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2462,7 +2497,7 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 60.723,
+      "score": 60.603,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -2474,7 +2509,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.851,
+      "novelty_score": 0.846,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2482,43 +2517,6 @@
         "funding"
       ],
       "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "e7186f2bf9d35ab8",
-      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T20:35:45+00:00",
-      "text": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a portal, configuring GitHub and Slack 3LO targets, and the end-user consent flow, and shows how to review activity in AWS CloudTrail.",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent"
-      ],
-      "engagement": {},
-      "score": 60.435,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.84",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.838,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2884,6 +2882,78 @@
       "source_priority": "high"
     },
     {
+      "id": "e7186f2bf9d35ab8",
+      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-14T20:35:45+00:00",
+      "text": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a portal, configuring GitHub and Slack 3LO targets, and the end-user consent flow, and shows how to review activity in AWS CloudTrail.",
+      "matched_terms": [
+        "AI",
+        "agent",
+        "AI agent"
+      ],
+      "engagement": {},
+      "score": 60.316,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.83",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.833,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "f763038980f3100f",
+      "title": "AI models need more data about biology, and OpenAI is paying to create it",
+      "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it",
+      "source": "MIT Technology Review AI",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T12:00:00+00:00",
+      "text": "AI models need more data about biology, and OpenAI is paying to create it Last year, the clinical trial policy analyst Ruxandra Teslo posted an idea for super-charging medical AI systems: use data from failed biotech companies. By bidding at their bankruptcy proceedings, she proposed, it might be possible to obtain detailed regulatory filings, manufacturing strategies, and safety data—information usually kept hidden as valuable trade secrets. She called these…",
+      "matched_terms": [
+        "AI",
+        "OpenAI"
+      ],
+      "engagement": {},
+      "score": 60.204,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.98",
+        "matched_terms=2",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.333,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.979,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "analysis"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2896,7 +2966,7 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 59.905,
+      "score": 59.893,
       "score_reasons": [
         "source_priority=0.65",
         "novelty=0.99",
@@ -2908,7 +2978,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.99,
+      "novelty_score": 0.989,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -2954,43 +3024,6 @@
       "source_priority": "high"
     },
     {
-      "id": "4201afd957622cbd",
-      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T15:47:12+00:00",
-      "text": "The generative AI customization spectrum: From prompt engineering to custom models on AWS Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must.",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 59.333,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.79",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.788,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
       "id": "0ede3faa2731be47",
       "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
       "url": "https://rescale.com/blog/ic-predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
@@ -3004,7 +3037,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 59.246,
+      "score": 59.234,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.30",
@@ -3027,6 +3060,43 @@
       "source_priority": "high"
     },
     {
+      "id": "4201afd957622cbd",
+      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-14T15:47:12+00:00",
+      "text": "The generative AI customization spectrum: From prompt engineering to custom models on AWS Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must.",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 59.214,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.78",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.782,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "5b56a1de69c67ecf",
       "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
       "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap",
@@ -3041,10 +3111,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 59.153,
+      "score": 59.033,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.77",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3053,7 +3123,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.78,
+      "novelty_score": 0.774,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -3061,6 +3131,40 @@
         "funding"
       ],
       "registry_category": "startup",
+      "source_priority": "high"
+    },
+    {
+      "id": "4f76b9f9476e2379",
+      "title": "The best iPhones: which Apple smartphone is right for you, according to our expert",
+      "url": "https://www.theguardian.com/technology/article/2025/feb/13/best-apple-iphone",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T09:48:35+00:00",
+      "text": "The best iPhones: which Apple smartphone is right for you, according to our expert Looking for a new iPhone or a good deal on a refurbished one? Samuel Gibbs has tested and rated Apple’s smartphones, including the best for camera quality and battery life • How to make your smartphone last longer The best iPhone may be the one you already own. There’s generally no need to buy a fresh phone just because new models have been released, as hardware updates are broadly iterative, adding small bits to an already accomplished package. But if you do want a replacement handset, whether new or refurbished, here are the best devices of the current crop of Apple smartphones. Many other smartphones are available besides the iPhone, but if you’re an Apple user and don’t fancy switching to Android , there are still a few choices to make. Whether your priority is the longest battery life, the best camera, the biggest screen or simply the optimal balance of features and price, there’s more to choose from in the Apple ecosystem than you may expect. Continue reading...",
+      "matched_terms": [
+        "AI"
+      ],
+      "engagement": {},
+      "score": 58.865,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.91",
+        "matched_terms=1",
+        "engineering_relevance=0.25",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.911,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -3077,10 +3181,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 58.527,
+      "score": 58.168,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.89",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -3089,7 +3193,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.903,
+      "novelty_score": 0.886,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3258,78 +3362,7 @@
         "agent"
       ],
       "engagement": {},
-      "score": 57.281,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.846,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "a44e5e6f6c69eba7",
-      "title": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened",
-      "url": "https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-15T01:59:45+00:00",
-      "text": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened This live blog is now closed. Supreme court rejects Trump’s mail ballot restrictions for midterm elections Sign up for the Breaking News US email Donald Trump has claimed there is a “SICK conspiracy” against artificial intelligence and data centers in response to the growing calls for greater checks on AI development. “The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!” Trump wrote on Truth Social, insisting that the administration has stopped leaders of AI companies from “doing bad, or potentially bad” things. However, he didn’t point to any concrete examples for how he has curbed possible abuse or malfeasance in the industry. There is a SICK conspiracy going on against AI and Data Centers, and the only one that is happy about it is China … We are leading China, and all others, and will continue to do so. Conspiracy Theorists, Treasonists, Traitors, and Leakers, BEWARE! Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 57.184,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.68",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.683,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "fbf3222df41700a6",
-      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
-      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T20:44:14+00:00",
-      "text": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 57.134,
+      "score": 57.162,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3341,48 +3374,14 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.839,
+      "novelty_score": 0.841,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "b9711b94276647e7",
-      "title": "Democrats say supreme court rejection of Trump mail ballot plans will ensure ‘safe, secure and accurate elections’ – live",
-      "url": "https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-15T11:50:25+00:00",
-      "text": "Democrats say supreme court rejection of Trump mail ballot plans will ensure ‘safe, secure and accurate elections’ – live Comments come after court on Monday allowed states to send ballots under process followed for years in blow to Trump’s attempts to limit voter access Supreme court rejects Trump’s mail ballot restrictions for midterm elections Sign up for US Breaking News emails Senator Bernie Sanders and conservative ⁠podcaster Steve Bannon will together on Tuesday call for restrictions on AI systems, uniting two political adversaries around concerns that the technology will ⁠harm humans. They will speak ⁠at the ​same Washington gathering on Tuesday, a sign of how concerns about AI are upending political norms, Reuters reported. Continue reading...",
-      "matched_terms": [
-        "AI"
-      ],
-      "engagement": {},
-      "score": 57.119,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.99",
-        "matched_terms=1",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.99,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
