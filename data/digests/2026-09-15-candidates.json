@@ -1,11 +1,11 @@
 {
   "run_log": {
-    "generated_at": "2026-09-15T06:08:27.493761+00:00",
+    "generated_at": "2026-09-15T11:45:52.730647+00:00",
     "window_hours": 24,
     "source_count": 138,
-    "fetched_count": 16618,
+    "fetched_count": 16642,
     "filtered_count": 2755,
-    "duplicate_count": 78,
+    "duplicate_count": 77,
     "failures": [
       {
         "source": "Ansys",
@@ -30,10 +30,6 @@
       {
         "source": "The Leverage",
         "error": "HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "Garry Tan YouTube",
-        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "Harry Stebbings 20VC",
@@ -65,10 +61,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 63.554,
+      "score": 61.621,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.98",
+        "novelty=0.89",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -77,7 +73,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.98,
+      "novelty_score": 0.892,
       "source_priority_score": 1.0,
       "source_tags": [
         "newsletter",
@@ -103,10 +99,10 @@
         "agent"
       ],
       "engagement": {},
-      "score": 58.649,
+      "score": 56.716,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.76",
+        "novelty=0.67",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -115,7 +111,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.757,
+      "novelty_score": 0.669,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -140,10 +136,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 53.972,
+      "score": 52.039,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.76",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -152,7 +148,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.847,
+      "novelty_score": 0.759,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -178,10 +174,10 @@
         "OpenAI"
       ],
       "engagement": {},
-      "score": 56.509,
+      "score": 55.221,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.81",
+        "novelty=0.75",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -190,7 +186,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.811,
+      "novelty_score": 0.752,
       "source_priority_score": 1.0,
       "source_tags": [
         "frontier_model",
@@ -199,6 +195,43 @@
         "guo_yichen_reference"
       ],
       "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
+      "id": "23847a5f0baf8bbf",
+      "title": "AI safety requires more than just slowing our pace | Stuart Russell",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/15/ai-safety-requirements",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-15T08:00:31+00:00",
+      "text": "AI safety requires more than just slowing our pace | Stuart Russell Safety requirements are non-negotiable. They depend on meeting concrete goals, not just adjusting a timeline It has been a week of high drama in AI, precipitated by the resignation of the AI safety researcher Jacob Coxon from Anthropic. This followed several weeks of increasingly lurid and disturbing revelations about the OpenAI/Hugging Face incident. My inbox yesterday included a message from Business Insider with the subject line: “AI doomsday debate reaches boiling point”. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "AI safety"
+      ],
+      "engagement": {},
+      "score": 67.418,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.883,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -218,10 +251,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 65.754,
+      "score": 61.887,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.78",
+        "novelty=0.60",
         "matched_terms=5",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -230,7 +263,7 @@
       "general_ai_score": 0.833,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
+      "novelty_score": 0.601,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -254,10 +287,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 62.1,
+      "score": 60.811,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -266,7 +299,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.914,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -291,10 +324,10 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.813,
+      "score": 60.524,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.90",
+        "novelty=0.84",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -303,7 +336,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.901,
+      "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -328,10 +361,10 @@
         "RAG"
       ],
       "engagement": {},
-      "score": 60.71,
+      "score": 59.422,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.85",
+        "novelty=0.79",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -340,7 +373,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
+      "novelty_score": 0.792,
       "source_priority_score": 1.0,
       "source_tags": [
         "cloud",
@@ -348,42 +381,6 @@
         "mlops"
       ],
       "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "fa0bf0a9d2fe12e2",
-      "title": "What execs and politicians are saying about slowing down AI development",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T21:21:42+00:00",
-      "text": "What execs and politicians are saying about slowing down AI development Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"We Must Pace the Frontier\" detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor of or opposing his points, and we've compiled some of […]",
-      "matched_terms": [
-        "AI",
-        "AI safety",
-        "Dario Amodei"
-      ],
-      "engagement": {},
-      "score": 57.964,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.726,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -400,10 +397,10 @@
         "Nvidia"
       ],
       "engagement": {},
-      "score": 57.576,
+      "score": 56.287,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.80",
         "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -412,7 +409,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.86,
+      "novelty_score": 0.801,
       "source_priority_score": 1.0,
       "source_tags": [
         "gpu",
@@ -425,6 +422,82 @@
     }
   ],
   "top_5_engineering_ai": [
+    {
+      "id": "b5ef67a39fea637a",
+      "title": "Why a decade of doomsday warnings failed to slow the AI race",
+      "url": "https://www.theguardian.com/technology/2026/sep/15/ai-doomsday-warnings",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T08:00:30+00:00",
+      "text": "Why a decade of doomsday warnings failed to slow the AI race From Stephen Hawking to Jacob Coxon’s viral Anthropic resignation, fears that AI could threaten humanity have shaken the industry without stopping its pursuit Before an Anthropic researcher resigned and declared human extinction imminent last week, tech leaders and scientists had sounded the alarm about a superintelligent AI ending humanity for over a decade. The development of artificial intelligence “could spell the end of the human race”, warned professor and astrophysicist Stephen Hawking in 2014 – a little less than a decade before the public got its hands on the generative AI features of the original version of ChatGPT. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 74.418,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=4",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.883,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7b140e2c770dea6f",
+      "title": "The contagion of fear",
+      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-14T21:18:13+00:00",
+      "text": "The contagion of fear The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same: These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: how would that happen? The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites \"hacking critical infrastructure\" and \"extinction-level bioweapons\" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...] That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s ",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 68.696,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.774,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
     {
       "id": "64adcb8eecb3d598",
       "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
@@ -446,10 +519,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 71.811,
+      "score": 67.945,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.32",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -458,89 +531,12 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.499,
+      "novelty_score": 0.323,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
         "engineering",
         "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "7b140e2c770dea6f",
-      "title": "The contagion of fear",
-      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-14T21:18:13+00:00",
-      "text": "The contagion of fear The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same: These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: how would that happen? The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites \"hacking critical infrastructure\" and \"extinction-level bioweapons\" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...] That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s ",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 70.629,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=3",
-        "engineering_relevance=0.50",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.862,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "105c264a3721ea3b",
-      "title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
-      "url": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-14T22:10:52+00:00",
-      "text": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development Donald Trump dismisses attempts to increase controls on artificial intelligence as ‘sick conspiracy’ AI -linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development , citing fears the technology could soon run out of control. Shares in the semiconductor designer Nvidia – the world’s most valuable company – were down 3.3% by market closing in New York City, while Advanced Micro Devices (AMD) slid 4% and Micron Technology and Sandisk shares slumped by 5%. The tech-heavy Nasdaq index fund was down 0.5% by the end of the day. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 68.694,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=5",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.751,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -622,22 +618,22 @@
   ],
   "top_5_medical_bio_ai": [
     {
-      "id": "b047790b9afb5029",
-      "title": "STAT+: How $500 explains Republican health policy, and the GLP-1 Rx wave",
-      "url": "https://www.statnews.com/2026/09/14/trump-cash-obamacare-plans-rural-hospitals-artificial-intelligence",
+      "id": "867657669c8ef933",
+      "title": "STAT+: Medicare’s AI prior authorization pilot was rushed and full of problems, new documents reveal",
+      "url": "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care",
       "source": "STAT Health Tech",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-14T16:02:55+00:00",
-      "text": "STAT+: How $500 explains Republican health policy, and the GLP-1 Rx wave The one health care policy Republicans agree on, and a look at how rural providers are approaching AI.",
+      "published_at": "2026-09-15T08:30:00+00:00",
+      "text": "STAT+: Medicare’s AI prior authorization pilot was rushed and full of problems, new documents reveal The rushed launch of a Medicare pilot to use AI for prior authorization led to delayed care in some instances, new documents reveal.",
       "matched_terms": [
         "AI"
       ],
       "engagement": {},
-      "score": 47.645,
+      "score": 55.089,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.56",
+        "novelty=0.90",
         "matched_terms=1",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -646,7 +642,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.56,
+      "novelty_score": 0.898,
       "source_priority_score": 1.0,
       "source_tags": [
         "medical_ai",
@@ -759,43 +755,119 @@
       "source_priority": "medium"
     },
     {
-      "id": "5517a8c78da2a95a",
-      "title": "Inspiren Senior Living Ai",
-      "url": "https://medcitynews.com/2026/09/inspiren-senior-living-ai",
-      "source": "MedCity News",
-      "source_kind": "sitemap_or_search",
+      "id": "a28fb491e1262f3c",
+      "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3JfelNNeXFoQmdqdzlhM2FkTEMxVFlCNGxIUnFOSmR1S28zVnV2elFES0R1RERBWEJ3anJXMzhDY3lKU2lNU0d1MEVwbjdSYV9JUUZROGhMMWlxc0gxOFRVQjlGcEF4QVpuMlZDTzl1VUdRZkk1WmVMS09pOVZoN2JCRQ?oc=5",
+      "source": "Google News Medical AI Discovery",
+      "source_kind": "google_news_rss",
       "category": "general_ai",
-      "published_at": null,
-      "text": "Inspiren Senior Living Ai https://medcitynews.com/2026/09/inspiren-senior-living-ai/",
+      "published_at": "2026-09-15T09:06:23+00:00",
+      "text": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care - NVIDIA Blog Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care NVIDIA Blog",
       "matched_terms": [
-        "AI"
+        "AI",
+        "Nvidia"
       ],
       "engagement": {},
-      "score": 31.833,
+      "score": 38.039,
       "score_reasons": [
-        "source_priority=0.65",
-        "novelty=0.35",
-        "matched_terms=1",
+        "source_priority=0.35",
+        "novelty=0.92",
+        "matched_terms=2",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.167,
+      "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.35,
-      "source_priority_score": 0.65,
+      "novelty_score": 0.917,
+      "source_priority_score": 0.35,
       "source_tags": [
         "medical_ai",
         "healthcare_ai",
-        "biotech",
-        "digital_health"
+        "discovery"
       ],
       "registry_category": "general_ai",
-      "source_priority": "medium"
+      "source_priority": "low"
     }
   ],
   "top_5_cae_ai_engineering": [
+    {
+      "id": "b5ef67a39fea637a",
+      "title": "Why a decade of doomsday warnings failed to slow the AI race",
+      "url": "https://www.theguardian.com/technology/2026/sep/15/ai-doomsday-warnings",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T08:00:30+00:00",
+      "text": "Why a decade of doomsday warnings failed to slow the AI race From Stephen Hawking to Jacob Coxon’s viral Anthropic resignation, fears that AI could threaten humanity have shaken the industry without stopping its pursuit Before an Anthropic researcher resigned and declared human extinction imminent last week, tech leaders and scientists had sounded the alarm about a superintelligent AI ending humanity for over a decade. The development of artificial intelligence “could spell the end of the human race”, warned professor and astrophysicist Stephen Hawking in 2014 – a little less than a decade before the public got its hands on the generative AI features of the original version of ChatGPT. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 74.418,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=4",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.883,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7b140e2c770dea6f",
+      "title": "The contagion of fear",
+      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear",
+      "source": "Simon Willison",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-14T21:18:13+00:00",
+      "text": "The contagion of fear The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same: These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: how would that happen? The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites \"hacking critical infrastructure\" and \"extinction-level bioweapons\" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...] That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s ",
+      "matched_terms": [
+        "AI",
+        "LLM",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 68.696,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.77",
+        "matched_terms=3",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.774,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "expert_blog",
+        "llm",
+        "agents",
+        "software_engineering",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
     {
       "id": "64adcb8eecb3d598",
       "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
@@ -817,10 +889,10 @@
         "benchmark"
       ],
       "engagement": {},
-      "score": 71.811,
+      "score": 67.945,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.50",
+        "novelty=0.32",
         "matched_terms=9",
         "engineering_relevance=0.25",
         "research_relevance=0.67",
@@ -829,89 +901,12 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.667,
-      "novelty_score": 0.499,
+      "novelty_score": 0.323,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
         "engineering",
         "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "7b140e2c770dea6f",
-      "title": "The contagion of fear",
-      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-14T21:18:13+00:00",
-      "text": "The contagion of fear The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same: These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: how would that happen? The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites \"hacking critical infrastructure\" and \"extinction-level bioweapons\" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...] That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s ",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 70.629,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=3",
-        "engineering_relevance=0.50",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.5,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.862,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "105c264a3721ea3b",
-      "title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
-      "url": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-14T22:10:52+00:00",
-      "text": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development Donald Trump dismisses attempts to increase controls on artificial intelligence as ‘sick conspiracy’ AI -linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development , citing fears the technology could soon run out of control. Shares in the semiconductor designer Nvidia – the world’s most valuable company – were down 3.3% by market closing in New York City, while Advanced Micro Devices (AMD) slid 4% and Micron Technology and Sandisk shares slumped by 5%. The tech-heavy Nasdaq index fund was down 0.5% by the end of the day. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic",
-        "Nvidia"
-      ],
-      "engagement": {},
-      "score": 68.694,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=5",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.751,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -1808,10 +1803,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 77.53,
+      "score": 77.401,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.85",
         "matched_terms=3",
         "engineering_relevance=1.00",
         "research_relevance=0.33",
@@ -1820,12 +1815,120 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.857,
+      "novelty_score": 0.852,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
         "simulation",
         "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "b5ef67a39fea637a",
+      "title": "Why a decade of doomsday warnings failed to slow the AI race",
+      "url": "https://www.theguardian.com/technology/2026/sep/15/ai-doomsday-warnings",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T08:00:30+00:00",
+      "text": "Why a decade of doomsday warnings failed to slow the AI race From Stephen Hawking to Jacob Coxon’s viral Anthropic resignation, fears that AI could threaten humanity have shaken the industry without stopping its pursuit Before an Anthropic researcher resigned and declared human extinction imminent last week, tech leaders and scientists had sounded the alarm about a superintelligent AI ending humanity for over a decade. The development of artificial intelligence “could spell the end of the human race”, warned professor and astrophysicist Stephen Hawking in 2014 – a little less than a decade before the public got its hands on the generative AI features of the original version of ChatGPT. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "generative AI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 74.418,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=4",
+        "engineering_relevance=0.50",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.5,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.883,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "f6ba1ddcb2b1391b",
+      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
+      "url": "https://rescale.com/blog/ic-simulation-guide-agent-expert-every-engineer-tailored-workflow",
+      "source": "Rescale",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-28T10:15:00+00:00",
+      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 71.399,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.55",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.548,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "hpc",
+        "simulation",
+        "cloud_cae"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "cf931add37c1ce90",
+      "title": "Agentic AI Within the Simulation Engineering Space",
+      "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
+      "source": "COMSOL",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-08-27T15:32:27+00:00",
+      "text": "Agentic AI Within the Simulation Engineering Space A developer of AI-powered platforms is using {:comsolmph} together with their AI agent to help reduce repetitive work and streamline simulation and design workflows.",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 70.97,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.53",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "engineering_workflow_ai_boost=10",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.529,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "multiphysics",
+        "simulation"
       ],
       "registry_category": "engineering_ai",
       "source_priority": "high"
@@ -1850,10 +1953,10 @@
         "AI safety"
       ],
       "engagement": {},
-      "score": 74.695,
+      "score": 70.829,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.43",
+        "novelty=0.26",
         "matched_terms=8",
         "engineering_relevance=0.75",
         "research_relevance=0.33",
@@ -1862,7 +1965,7 @@
       "general_ai_score": 1.0,
       "engineering_relevance_score": 0.75,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.433,
+      "novelty_score": 0.257,
       "source_priority_score": 1.0,
       "source_tags": [
         "computer_science",
@@ -1870,120 +1973,6 @@
         "ai"
       ],
       "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "64adcb8eecb3d598",
-      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-      "url": "https://spectrum.ieee.org/llms-for-chip-design",
-      "source": "IEEE Spectrum AI",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-14T14:06:31+00:00",
-      "text": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most advanced memory available, linking to it at a blazing 15.4 terabytes per second. Benchmarks cited by OpenAI show that Jalapeño can reduce end-to-end latency (the time between prompt to last token) by up to 3.6x when compared to Nvidia’s GB300 —a chip the company currently relies on—and do so while consuming less power. Whether these figures translate into real-world gains once Jalapeño enters widespread service in OpenAI’s inference fleet remains to be seen, but performance is only half the story. The other half is how the chip was designed—a process which, as you might expect, was accelerated by OpenAI’s large language models (LLMs). Jalapeño moved from first architecture concept to first silicon in under 20 months. Only nine months separated the first RTL—the register-transfer level code defining the chip’s logic—from tapeout, when the finished design goes to manufacturing. That’s a rapid timeline, yet experts believe it could soon look slow as ",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "large language model",
-        "agent",
-        "RAG",
-        "OpenAI",
-        "Nvidia",
-        "inference",
-        "benchmark"
-      ],
-      "engagement": {},
-      "score": 71.811,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.50",
-        "matched_terms=9",
-        "engineering_relevance=0.25",
-        "research_relevance=0.67",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 1.0,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.667,
-      "novelty_score": 0.499,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "computer_science",
-        "engineering",
-        "ai"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "f6ba1ddcb2b1391b",
-      "title": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow",
-      "url": "https://rescale.com/blog/ic-simulation-guide-agent-expert-every-engineer-tailored-workflow",
-      "source": "Rescale",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-28T10:15:00+00:00",
-      "text": "Simulation Guide Agent: Expert Guidance for Every Engineer, Tailored to Any Workflow Make simulation expertise easier to access across your organization. Rescale’s Simulation Guide Agent uses trusted technical documentation, user guides, templates, and team best practices to help users ask better questions, interpret results, select an appropriate workflow, configure jobs correctly, and verify recommendations before taking action, all within the existing simulation workflow on Rescale.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 71.527,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.55",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.554,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "hpc",
-        "simulation",
-        "cloud_cae"
-      ],
-      "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "cf931add37c1ce90",
-      "title": "Agentic AI Within the Simulation Engineering Space",
-      "url": "https://www.comsol.com/blogs/agentic-ai-within-the-simulation-engineering-space",
-      "source": "COMSOL",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-08-27T15:32:27+00:00",
-      "text": "Agentic AI Within the Simulation Engineering Space A developer of AI-powered platforms is using {:comsolmph} together with their AI agent to help reduce repetitive work and streamline simulation and design workflows.",
-      "matched_terms": [
-        "simulation"
-      ],
-      "engagement": {},
-      "score": 71.099,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.53",
-        "matched_terms=1",
-        "engineering_relevance=1.00",
-        "research_relevance=0.00",
-        "engineering_workflow_ai_boost=10",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.167,
-      "engineering_relevance_score": 1.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.535,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "multiphysics",
-        "simulation"
-      ],
-      "registry_category": "engineering_ai",
       "source_priority": "high"
     },
     {
@@ -2001,10 +1990,10 @@
         "Anthropic"
       ],
       "engagement": {},
-      "score": 70.629,
+      "score": 68.696,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.77",
         "matched_terms=3",
         "engineering_relevance=0.50",
         "research_relevance=0.33",
@@ -2013,7 +2002,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.5,
       "research_relevance_score": 0.333,
-      "novelty_score": 0.862,
+      "novelty_score": 0.774,
       "source_priority_score": 1.0,
       "source_tags": [
         "expert_blog",
@@ -2039,7 +2028,7 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 68.804,
+      "score": 68.675,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.73",
@@ -2051,7 +2040,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.734,
+      "novelty_score": 0.728,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2059,6 +2048,42 @@
         "simcenter"
       ],
       "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "9d5d814408cf459f",
+      "title": "Louise Haigh: UK must heed warnings from AI experts",
+      "url": "https://www.theguardian.com/technology/2026/sep/15/uk-must-heed-warnings-from-ai-experts-minister-louise-haigh",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T09:33:17+00:00",
+      "text": "Louise Haigh: UK must heed warnings from AI experts First secretary to set out benefits of AI to union conference while vowing government will take safety seriously UK politics live – latest updates Ministers must “heed the warnings” from industry leaders about the threat posed by AI as the government looks to capitalise on the technology, the first secretary, Louise Haigh, will say on Tuesday. Labour MPs and peers have called for the government to further cooperate with international partners to build regulations for the technology after three Anthropic researchers warned that artificial intelligence could wipe out humanity within the decade. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "artificial intelligence",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 68.647,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.93",
+        "matched_terms=3",
+        "engineering_relevance=0.25",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.25,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.931,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "mainstream_news",
+        "technology"
+      ],
+      "registry_category": "general_ai",
       "source_priority": "high"
     },
     {
@@ -2075,10 +2100,10 @@
         "CFD"
       ],
       "engagement": {},
-      "score": 68.734,
+      "score": 68.605,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.73",
+        "novelty=0.72",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2087,7 +2112,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.73,
+      "novelty_score": 0.724,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -2098,35 +2123,77 @@
       "source_priority": "high"
     },
     {
-      "id": "105c264a3721ea3b",
-      "title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
-      "url": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
-      "source": "The Guardian Technology",
+      "id": "64adcb8eecb3d598",
+      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "source": "IEEE Spectrum AI",
       "source_kind": "rss",
       "category": "engineering_ai",
-      "published_at": "2026-09-14T22:10:52+00:00",
-      "text": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development Donald Trump dismisses attempts to increase controls on artificial intelligence as ‘sick conspiracy’ AI -linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development , citing fears the technology could soon run out of control. Shares in the semiconductor designer Nvidia – the world’s most valuable company – were down 3.3% by market closing in New York City, while Advanced Micro Devices (AMD) slid 4% and Micron Technology and Sandisk shares slumped by 5%. The tech-heavy Nasdaq index fund was down 0.5% by the end of the day. Continue reading...",
+      "published_at": "2026-09-14T14:06:31+00:00",
+      "text": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most advanced memory available, linking to it at a blazing 15.4 terabytes per second. Benchmarks cited by OpenAI show that Jalapeño can reduce end-to-end latency (the time between prompt to last token) by up to 3.6x when compared to Nvidia’s GB300 —a chip the company currently relies on—and do so while consuming less power. Whether these figures translate into real-world gains once Jalapeño enters widespread service in OpenAI’s inference fleet remains to be seen, but performance is only half the story. The other half is how the chip was designed—a process which, as you might expect, was accelerated by OpenAI’s large language models (LLMs). Jalapeño moved from first architecture concept to first silicon in under 20 months. Only nine months separated the first RTL—the register-transfer level code defining the chip’s logic—from tapeout, when the finished design goes to manufacturing. That’s a rapid timeline, yet experts believe it could soon look slow as ",
       "matched_terms": [
         "AI",
-        "artificial intelligence",
+        "LLM",
+        "large language model",
+        "agent",
+        "RAG",
         "OpenAI",
-        "Anthropic",
-        "Nvidia"
+        "Nvidia",
+        "inference",
+        "benchmark"
       ],
       "engagement": {},
-      "score": 68.694,
+      "score": 67.945,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.75",
-        "matched_terms=5",
+        "novelty=0.32",
+        "matched_terms=9",
         "engineering_relevance=0.25",
-        "research_relevance=0.00",
+        "research_relevance=0.67",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.833,
+      "general_ai_score": 1.0,
       "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.751,
+      "research_relevance_score": 0.667,
+      "novelty_score": 0.323,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "computer_science",
+        "engineering",
+        "ai"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "23847a5f0baf8bbf",
+      "title": "AI safety requires more than just slowing our pace | Stuart Russell",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/15/ai-safety-requirements",
+      "source": "The Guardian Technology",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-15T08:00:31+00:00",
+      "text": "AI safety requires more than just slowing our pace | Stuart Russell Safety requirements are non-negotiable. They depend on meeting concrete goals, not just adjusting a timeline It has been a week of high drama in AI, precipitated by the resignation of the AI safety researcher Jacob Coxon from Anthropic. This followed several weeks of increasingly lurid and disturbing revelations about the OpenAI/Hugging Face incident. My inbox yesterday included a message from Business Insider with the subject line: “AI doomsday debate reaches boiling point”. Continue reading...",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "AI safety"
+      ],
+      "engagement": {},
+      "score": 67.418,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.88",
+        "matched_terms=4",
+        "engineering_relevance=0.00",
+        "research_relevance=0.33",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.667,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.333,
+      "novelty_score": 0.883,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -2149,10 +2216,10 @@
         "ROM"
       ],
       "engagement": {},
-      "score": 67.184,
+      "score": 67.056,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.66",
+        "novelty=0.65",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2161,7 +2228,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.66,
+      "novelty_score": 0.654,
       "source_priority_score": 1.0,
       "source_tags": [
         "cae",
@@ -2242,44 +2309,6 @@
       "source_priority": "high"
     },
     {
-      "id": "e4b50f354b69134d",
-      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T22:59:41+00:00",
-      "text": "Is Big Tech’s AI slowdown a safety pact or a cartel? When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a […]",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic",
-        "Google DeepMind",
-        "Dario Amodei"
-      ],
-      "engagement": {},
-      "score": 65.754,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.78",
-        "matched_terms=5",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.833,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.777,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "02a21f8c28b0ca9d",
       "title": "Wave-Based Room Acoustics Modeling with Accurate Sound-Absorbing Boundary Condition",
       "url": "https://www.comsol.com/blogs/wave-based-room-acoustics-modeling-with-accurate-sound-absorbing-boundary-condition",
@@ -2292,7 +2321,7 @@
         "simulation"
       ],
       "engagement": {},
-      "score": 63.906,
+      "score": 63.777,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.66",
@@ -2304,51 +2333,13 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.662,
+      "novelty_score": 0.657,
       "source_priority_score": 1.0,
       "source_tags": [
         "multiphysics",
         "simulation"
       ],
       "registry_category": "engineering_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "05d8e0b482ac6992",
-      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
-      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
-      "source": "Latent Space",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-15T04:50:36+00:00",
-      "text": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign Pacing gathers pace.",
-      "matched_terms": [
-        "AI",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "engagement": {},
-      "score": 63.554,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.98",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.98,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "newsletter",
-        "ai_engineering",
-        "frontier_models",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
       "source_priority": "high"
     },
     {
@@ -2387,6 +2378,82 @@
       "source_priority": "high"
     },
     {
+      "id": "e4b50f354b69134d",
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "source": "The Verge AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-14T22:59:41+00:00",
+      "text": "Is Big Tech’s AI slowdown a safety pact or a cartel? When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a […]",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "Google DeepMind",
+        "Dario Amodei"
+      ],
+      "engagement": {},
+      "score": 61.887,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.60",
+        "matched_terms=5",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.833,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.601,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "ai",
+        "product"
+      ],
+      "registry_category": "general_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "05d8e0b482ac6992",
+      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "source": "Latent Space",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-15T04:50:36+00:00",
+      "text": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign Pacing gathers pace.",
+      "matched_terms": [
+        "AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "engagement": {},
+      "score": 61.621,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.89",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.892,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "newsletter",
+        "ai_engineering",
+        "frontier_models",
+        "guo_yichen_reference"
+      ],
+      "registry_category": "community",
+      "source_priority": "high"
+    },
+    {
       "id": "e957c507988f322a",
       "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
       "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen",
@@ -2401,10 +2468,10 @@
         "Dario Amodei"
       ],
       "engagement": {},
-      "score": 62.1,
+      "score": 60.811,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.91",
+        "novelty=0.86",
         "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
@@ -2413,7 +2480,7 @@
       "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.914,
+      "novelty_score": 0.855,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -2438,116 +2505,7 @@
         "AI agent"
       ],
       "engagement": {},
-      "score": 61.813,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.901,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "a44e5e6f6c69eba7",
-      "title": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened",
-      "url": "https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-15T01:59:45+00:00",
-      "text": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened This live blog is now closed. Supreme court rejects Trump’s mail ballot restrictions for midterm elections Sign up for the Breaking News US email Donald Trump has claimed there is a “SICK conspiracy” against artificial intelligence and data centers in response to the growing calls for greater checks on AI development. “The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!” Trump wrote on Truth Social, insisting that the administration has stopped leaders of AI companies from “doing bad, or potentially bad” things. However, he didn’t point to any concrete examples for how he has curbed possible abuse or malfeasance in the industry. There is a SICK conspiracy going on against AI and Data Centers, and the only one that is happy about it is China … We are leading China, and all others, and will continue to do so. Conspiracy Theorists, Treasonists, Traitors, and Leakers, BEWARE! Continue reading...",
-      "matched_terms": [
-        "AI",
-        "artificial intelligence"
-      ],
-      "engagement": {},
-      "score": 61.317,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.87",
-        "matched_terms=2",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.87,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
-      "id": "4201afd957622cbd",
-      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T15:47:12+00:00",
-      "text": "The generative AI customization spectrum: From prompt engineering to custom models on AWS Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must.",
-      "matched_terms": [
-        "AI",
-        "generative AI",
-        "RAG"
-      ],
-      "engagement": {},
-      "score": 60.71,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.85,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "5b56a1de69c67ecf",
-      "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
-      "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T15:00:00+00:00",
-      "text": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap? If you're building an AI company, the question isn't whether foundation models will continue to evolve. It's whether your company will continue creating value as they do. Don't miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026.",
-      "matched_terms": [
-        "AI",
-        "foundation model",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 60.53,
+      "score": 60.524,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -2562,11 +2520,11 @@
       "novelty_score": 0.842,
       "source_priority_score": 1.0,
       "source_tags": [
-        "ai",
-        "startup",
-        "funding"
+        "cloud",
+        "enterprise_ai",
+        "mlops"
       ],
-      "registry_category": "startup",
+      "registry_category": "vendor",
       "source_priority": "high"
     },
     {
@@ -2932,43 +2890,6 @@
       "source_priority": "high"
     },
     {
-      "id": "c6517bed48fd64ba",
-      "title": "AI agents blew the whistle on their cheating colleagues",
-      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues",
-      "source": "MIT Technology Review AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T16:00:00+00:00",
-      "text": "AI agents blew the whistle on their cheating colleagues A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in…",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "AI agent",
-        "Google DeepMind"
-      ],
-      "engagement": {},
-      "score": 60.278,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.56",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.558,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "analysis"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
-    },
-    {
       "id": "d22f990a554daaa6",
       "title": "2026 06 17 Synopsys Announces Availability Of The First Wave Of Multiphysics Fusion Solutions",
       "url": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
@@ -2981,10 +2902,10 @@
         "multiphysics"
       ],
       "engagement": {},
-      "score": 60.043,
+      "score": 59.914,
       "score_reasons": [
         "source_priority=0.65",
-        "novelty=1.00",
+        "novelty=0.99",
         "matched_terms=1",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -2993,7 +2914,7 @@
       "general_ai_score": 0.167,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.996,
+      "novelty_score": 0.99,
       "source_priority_score": 0.65,
       "source_tags": [
         "eda",
@@ -3002,42 +2923,6 @@
       ],
       "registry_category": "engineering_ai",
       "source_priority": "medium"
-    },
-    {
-      "id": "6b69b49c09f9756c",
-      "title": "China dismisses AI ‘fearmongering’ as spy chief warns of threat to Communist party rule",
-      "url": "https://www.theguardian.com/world/2026/sep/14/china-dismisses-ai-fearmongering-as-spy-chief-warns-of-threat-to-communist-party-rule",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "engineering_ai",
-      "published_at": "2026-09-14T19:04:10+00:00",
-      "text": "China dismisses AI ‘fearmongering’ as spy chief warns of threat to Communist party rule Beijing hits back after Anthropic CEO calls for US to impede China’s progress in AI China has dismissed what it said were “fearmongering” calls for the US to block Beijing’s AI industry, even as the top Chinese spy chief warned the evolving technology could threaten Communist party rule. The US tech entrepreneur and Anthropic chief executive, Dario Amodei, wrote an essay published over the weekend that called for a global slowdown in AI capabilities, but also said Washington should actively impede Beijing’s advancement in order to keep a technological edge. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "Anthropic",
-        "Dario Amodei"
-      ],
-      "engagement": {},
-      "score": 59.888,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.65",
-        "matched_terms=3",
-        "engineering_relevance=0.25",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.25,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.654,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "mainstream_news",
-        "technology"
-      ],
-      "registry_category": "general_ai",
-      "source_priority": "high"
     },
     {
       "id": "d0a7f3d2c70a8110",
@@ -3075,6 +2960,43 @@
       "source_priority": "high"
     },
     {
+      "id": "4201afd957622cbd",
+      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws",
+      "source": "Amazon AWS AI",
+      "source_kind": "rss",
+      "category": "general_ai",
+      "published_at": "2026-09-14T15:47:12+00:00",
+      "text": "The generative AI customization spectrum: From prompt engineering to custom models on AWS Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must.",
+      "matched_terms": [
+        "AI",
+        "generative AI",
+        "RAG"
+      ],
+      "engagement": {},
+      "score": 59.422,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.79",
+        "matched_terms=3",
+        "engineering_relevance=0.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.5,
+      "engineering_relevance_score": 0.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.792,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "cloud",
+        "enterprise_ai",
+        "mlops"
+      ],
+      "registry_category": "vendor",
+      "source_priority": "high"
+    },
+    {
       "id": "0ede3faa2731be47",
       "title": "Predictive Maintenance Digital Twins: Connect Simulation, Python, and Machine Learning",
       "url": "https://rescale.com/blog/ic-predictive-maintenance-digital-twins-connect-simulation-python-machine-learning",
@@ -3088,10 +3010,10 @@
         "digital twin"
       ],
       "engagement": {},
-      "score": 59.384,
+      "score": 59.255,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.31",
+        "novelty=0.30",
         "matched_terms=2",
         "engineering_relevance=1.00",
         "research_relevance=0.00",
@@ -3100,7 +3022,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 1.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.305,
+      "novelty_score": 0.299,
       "source_priority_score": 1.0,
       "source_tags": [
         "hpc",
@@ -3111,57 +3033,57 @@
       "source_priority": "high"
     },
     {
-      "id": "b847922400c782cf",
-      "title": "The AI industry has taken a doomer turn. What now?",
-      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now",
-      "source": "MIT Technology Review AI",
+      "id": "5b56a1de69c67ecf",
+      "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+      "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap",
+      "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-14T17:54:22+00:00",
-      "text": "The AI industry has taken a doomer turn. What now? This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its…",
+      "published_at": "2026-09-14T15:00:00+00:00",
+      "text": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap? If you're building an AI company, the question isn't whether foundation models will continue to evolve. It's whether your company will continue creating value as they do. Don't miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026.",
       "matched_terms": [
         "AI",
-        "LLM",
-        "Anthropic",
-        "Dario Amodei"
+        "foundation model",
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 58.922,
+      "score": 59.241,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.62",
-        "matched_terms=4",
+        "novelty=0.78",
+        "matched_terms=3",
         "engineering_relevance=0.00",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
-      "general_ai_score": 0.667,
+      "general_ai_score": 0.5,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.618,
+      "novelty_score": 0.784,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
-        "analysis"
+        "startup",
+        "funding"
       ],
-      "registry_category": "general_ai",
+      "registry_category": "startup",
       "source_priority": "high"
     },
     {
-      "id": "b0f58c7c2ee4881b",
-      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
-      "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale",
-      "source": "Amazon AWS AI",
+      "id": "a0a198d7c627d024",
+      "title": "Alex Bores Wants Democrats to Make AI Safety a 2028 Election Issue",
+      "url": "https://www.nytimes.com/2026/09/15/us/politics/ai-safety-2028-election-democrats.html",
+      "source": "New York Times Technology",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-14T21:22:45+00:00",
-      "text": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production.",
+      "published_at": "2026-09-15T09:02:21+00:00",
+      "text": "Alex Bores Wants Democrats to Make AI Safety a 2028 Election Issue Alex Bores, who lost a congressional primary contest that revolved around A.I. regulation, is trying to position himself at the center of the conversation for the next presidential election.",
       "matched_terms": [
         "AI",
-        "agent"
+        "AI safety"
       ],
       "engagement": {},
-      "score": 58.659,
+      "score": 58.793,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.91",
@@ -3173,123 +3095,11 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.909,
+      "novelty_score": 0.915,
       "source_priority_score": 1.0,
       "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "2cac0577bacecddb",
-      "title": "Quoting Laurie Voss",
-      "url": "https://simonwillison.net/2026/Sep/14/laurie-voss",
-      "source": "Simon Willison",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T14:34:29+00:00",
-      "text": "Quoting Laurie Voss The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job. — Laurie Voss , We are all Product Engineers now Tags: laurie-voss , generative-ai , agentic-engineering , ai , llms , deep-blue , careers",
-      "matched_terms": [
-        "AI",
-        "LLM",
-        "agent"
-      ],
-      "engagement": {},
-      "score": 58.649,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.76",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.757,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "expert_blog",
-        "llm",
-        "agents",
-        "software_engineering",
-        "guo_yichen_reference"
-      ],
-      "registry_category": "community",
-      "source_priority": "high"
-    },
-    {
-      "id": "fbf3222df41700a6",
-      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
-      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T20:44:14+00:00",
-      "text": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
-      "matched_terms": [
-        "AI",
-        "OpenAI"
-      ],
-      "engagement": {},
-      "score": 58.512,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.90",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.902,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "fa0bf0a9d2fe12e2",
-      "title": "What execs and politicians are saying about slowing down AI development",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
-      "source": "The Verge AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T21:21:42+00:00",
-      "text": "What execs and politicians are saying about slowing down AI development Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"We Must Pace the Frontier\" detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor of or opposing his points, and we've compiled some of […]",
-      "matched_terms": [
-        "AI",
-        "AI safety",
-        "Dario Amodei"
-      ],
-      "engagement": {},
-      "score": 57.964,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.73",
-        "matched_terms=3",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.5,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.726,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "product"
+        "mainstream_news",
+        "technology"
       ],
       "registry_category": "general_ai",
       "source_priority": "high"
@@ -3441,71 +3251,32 @@
       "source_priority": "high"
     },
     {
-      "id": "319da0d298a0871e",
-      "title": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine",
-      "url": "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine",
-      "source": "NVIDIA AI",
+      "id": "a44e5e6f6c69eba7",
+      "title": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened",
+      "url": "https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates",
+      "source": "The Guardian Technology",
       "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T16:39:15+00:00",
-      "text": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek, Qwen, and Mixtral are examples of MoE...",
+      "category": "engineering_ai",
+      "published_at": "2026-09-15T01:59:45+00:00",
+      "text": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened This live blog is now closed. Supreme court rejects Trump’s mail ballot restrictions for midterm elections Sign up for the Breaking News US email Donald Trump has claimed there is a “SICK conspiracy” against artificial intelligence and data centers in response to the growing calls for greater checks on AI development. “The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!” Trump wrote on Truth Social, insisting that the administration has stopped leaders of AI companies from “doing bad, or potentially bad” things. However, he didn’t point to any concrete examples for how he has curbed possible abuse or malfeasance in the industry. There is a SICK conspiracy going on against AI and Data Centers, and the only one that is happy about it is China … We are leading China, and all others, and will continue to do so. Conspiracy Theorists, Treasonists, Traitors, and Leakers, BEWARE! Continue reading...",
       "matched_terms": [
         "AI",
-        "Nvidia"
+        "artificial intelligence"
       ],
       "engagement": {},
-      "score": 57.576,
+      "score": 57.451,
       "score_reasons": [
         "source_priority=1.00",
-        "novelty=0.86",
+        "novelty=0.69",
         "matched_terms=2",
-        "engineering_relevance=0.00",
+        "engineering_relevance=0.25",
         "research_relevance=0.00",
         "visible_engagement=unavailable"
       ],
       "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
+      "engineering_relevance_score": 0.25,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.86,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "gpu",
-        "infrastructure",
-        "simulation",
-        "physical_ai"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "58487e92368f97a2",
-      "title": "I worked at Google DeepMind. You should listen to the warnings about AI | Alex Turner",
-      "url": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
-      "source": "The Guardian Technology",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T12:00:59+00:00",
-      "text": "I worked at Google DeepMind. You should listen to the warnings about AI | Alex Turner We must stop companies from allowing AI to self-improve into an uncontrollable level of intelligence Major AI lab CEOs advocated for slowing the pace of AI development this weekend. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should be demanding that our governments protect us from the catastrophe of out-of-control AI. This July, OpenAI’s AI swarm of 700 agents broke containment to hack Hugging Face, a multi-billion dollar company . OpenAI didn’t tell the AIs to hack that company, but the AIs had different priorities: cheating on the unrelated challenge OpenAI gave them. AI researchers call this a “misalignment” between what OpenAI wanted and what the AI actually prioritized. Continue reading...",
-      "matched_terms": [
-        "AI",
-        "agent",
-        "OpenAI",
-        "Google DeepMind"
-      ],
-      "engagement": {},
-      "score": 57.539,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.43",
-        "matched_terms=4",
-        "engineering_relevance=0.00",
-        "research_relevance=0.33",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.667,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.333,
-      "novelty_score": 0.434,
+      "novelty_score": 0.695,
       "source_priority_score": 1.0,
       "source_tags": [
         "mainstream_news",
@@ -3515,92 +3286,20 @@
       "source_priority": "high"
     },
     {
-      "id": "dcb6185df4cbcfbe",
-      "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
-      "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans",
-      "source": "TechCrunch AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T16:27:53+00:00",
-      "text": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.",
-      "matched_terms": [
-        "AI",
-        "Microsoft AI"
-      ],
-      "engagement": {},
-      "score": 57.533,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.86",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.858,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "ai",
-        "startup",
-        "funding"
-      ],
-      "registry_category": "startup",
-      "source_priority": "high"
-    },
-    {
-      "id": "078f0cd4555d6cff",
-      "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock",
+      "id": "b0f58c7c2ee4881b",
+      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+      "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale",
       "source": "Amazon AWS AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-14T15:58:57+00:00",
-      "text": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (FDX) standards, scores compliance, and compresses open finance onboarding from weeks to minutes while meeting SOC 2 and PCI DSS requirements.",
+      "published_at": "2026-09-14T21:22:45+00:00",
+      "text": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production.",
       "matched_terms": [
         "AI",
         "agent"
       ],
       "engagement": {},
-      "score": 57.422,
-      "score_reasons": [
-        "source_priority=1.00",
-        "novelty=0.85",
-        "matched_terms=2",
-        "engineering_relevance=0.00",
-        "research_relevance=0.00",
-        "visible_engagement=unavailable"
-      ],
-      "general_ai_score": 0.333,
-      "engineering_relevance_score": 0.0,
-      "research_relevance_score": 0.0,
-      "novelty_score": 0.853,
-      "source_priority_score": 1.0,
-      "source_tags": [
-        "cloud",
-        "enterprise_ai",
-        "mlops"
-      ],
-      "registry_category": "vendor",
-      "source_priority": "high"
-    },
-    {
-      "id": "88bfedcc150be640",
-      "title": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick",
-      "url": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick",
-      "source": "Amazon AWS AI",
-      "source_kind": "rss",
-      "category": "general_ai",
-      "published_at": "2026-09-14T15:42:06+00:00",
-      "text": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the forecast. This post builds a closed detect-decide-act loop on Databricks and Amazon Quick that reconciles demand surges against live supplier availability and places replenishment orders unattended, escalating to a human only when no supplier can cover a surge.",
-      "matched_terms": [
-        "AI",
-        "foundation model"
-      ],
-      "engagement": {},
-      "score": 57.358,
+      "score": 57.37,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.85",
@@ -3623,20 +3322,20 @@
       "source_priority": "high"
     },
     {
-      "id": "127afe7063d13078",
-      "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
-      "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work",
+      "id": "fbf3222df41700a6",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says",
       "source": "TechCrunch AI",
       "source_kind": "rss",
       "category": "general_ai",
-      "published_at": "2026-09-14T14:45:44+00:00",
-      "text": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
+      "published_at": "2026-09-14T20:44:14+00:00",
+      "text": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
       "matched_terms": [
         "AI",
-        "agent"
+        "OpenAI"
       ],
       "engagement": {},
-      "score": 57.142,
+      "score": 57.223,
       "score_reasons": [
         "source_priority=1.00",
         "novelty=0.84",
@@ -3648,7 +3347,7 @@
       "general_ai_score": 0.333,
       "engineering_relevance_score": 0.0,
       "research_relevance_score": 0.0,
-      "novelty_score": 0.84,
+      "novelty_score": 0.843,
       "source_priority_score": 1.0,
       "source_tags": [
         "ai",
@@ -5450,6 +5149,278 @@
       "text": "Agentic Ai For Engineering What The Leaders Shaping 2026 Already Knew In 2025 https://www.synera.ai/news/agentic-ai-for-engineering-what-the-leaders-shaping-2026-already-knew-in-2025",
       "matched_terms": [
         "AI for engineering"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "40315e9e530db9ba",
+      "title": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems",
+      "url": "https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Ai Agents In Engineering From Single Models To Scalable Agentic Systems https://www.synera.ai/news/ai-agents-in-engineering-from-single-models-to-scalable-agentic-systems",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "7faa8c6159a05886",
+      "title": "Einfuehrung Intact Simulation Add In",
+      "url": "https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Einfuehrung Intact Simulation Add In https://www.synera.ai/de/news/einfuehrung-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "6c65c06c47193fc2",
+      "title": "Introducing Intact Simulation Add In",
+      "url": "https://www.synera.ai/news/introducing-intact-simulation-add-in",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Introducing Intact Simulation Add In https://www.synera.ai/news/introducing-intact-simulation-add-in",
+      "matched_terms": [
+        "simulation"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "84173670abec4920",
+      "title": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai",
+      "url": "https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "From Fragmented To Future Ready Redesigning Engineering Workflows For Agentic Ai https://www.synera.ai/news/from-fragmented-to-future-ready-redesigning-engineering-workflows-for-agentic-ai",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ca5f8805ed4cc18e",
+      "title": "Nasa Ai Agents Build Spaceship From Text",
+      "url": "https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Nasa Ai Agents Build Spaceship From Text https://www.synera.ai/news/nasa-ai-agents-build-spaceship-from-text",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "0099e6807563ee55",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "8ec1dcab85f0344e",
+      "title": "Promising Combination Ai Bionics",
+      "url": "https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Promising Combination Ai Bionics https://www.synera.ai/de/news/promising-combination-ai-bionics",
+      "matched_terms": [
+        "ROM"
+      ],
+      "engagement": {},
+      "score": 57.033,
+      "score_reasons": [
+        "source_priority=1.00",
+        "novelty=0.35",
+        "matched_terms=1",
+        "engineering_relevance=1.00",
+        "research_relevance=0.00",
+        "visible_engagement=unavailable"
+      ],
+      "general_ai_score": 0.167,
+      "engineering_relevance_score": 1.0,
+      "research_relevance_score": 0.0,
+      "novelty_score": 0.35,
+      "source_priority_score": 1.0,
+      "source_tags": [
+        "engineering_agents",
+        "design_automation"
+      ],
+      "registry_category": "engineering_ai",
+      "source_priority": "high"
+    },
+    {
+      "id": "ef8469f42c5a7ab5",
+      "title": "Update Hxgn Emendates New Casting Design Feature",
+      "url": "https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "source": "Synera",
+      "source_kind": "sitemap_or_search",
+      "category": "engineering_ai",
+      "published_at": null,
+      "text": "Update Hxgn Emendates New Casting Design Feature https://www.synera.ai/news/update-hxgn-emendates-new-casting-design-feature",
+      "matched_terms": [
+        "FEA"
       ],
       "engagement": {},
       "score": 57.033,

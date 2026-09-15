@@ -3,79 +3,79 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16618
+- fetched_count: 16642
 - filtered_count: 2755
-- duplicate_count: 78
-- failures: 8
+- duplicate_count: 77
+- failures: 7
 
 ## Top 10 General AI News
 1. [[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign](https://www.latent.space/p/ainews-aef-1-standard-emerges-for)
    - source: Latent Space
-   - score: 63.554
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.98; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 61.621
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.892; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Quoting Laurie Voss](https://simonwillison.net/2026/Sep/14/laurie-voss)
    - source: Simon Willison
-   - score: 58.649
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.757; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.76; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.716
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.669; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.67; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [What blog posts influenced your thinking the most?](https://simonwillison.net/2026/Sep/14/influences)
    - source: Simon Willison
-   - score: 53.972
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.847; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 52.039
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.759; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [How Fyxer built an AI executive assistant people trust](https://openai.com/index/fyxer)
    - source: OpenAI
-   - score: 56.509
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.811; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.81; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Is Big Tech’s AI slowdown a safety pact or a cartel?](https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel)
+   - score: 55.221
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.752; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.75; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [AI safety requires more than just slowing our pace | Stuart Russell](https://www.theguardian.com/commentisfree/2026/sep/15/ai-safety-requirements)
+   - source: The Guardian Technology
+   - score: 67.418
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.883; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+6. [Is Big Tech’s AI slowdown a safety pact or a cartel?](https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel)
    - source: The Verge AI
-   - score: 65.754
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.777; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’](https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen)
+   - score: 61.887
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.601; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.60; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’](https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen)
    - source: TechCrunch AI
-   - score: 62.1
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.914; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.91; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore)
+   - score: 60.811
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.855; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+8. [Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore)
    - source: Amazon AWS AI
-   - score: 61.813
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.901; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.90; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [The generative AI customization spectrum: From prompt engineering to custom models on AWS](https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws)
+   - score: 60.524
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.842; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+9. [The generative AI customization spectrum: From prompt engineering to custom models on AWS](https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws)
    - source: Amazon AWS AI
-   - score: 60.71
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.85; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [What execs and politicians are saying about slowing down AI development](https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei)
-   - source: The Verge AI
-   - score: 57.964
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.726; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.73; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 59.422
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.792; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine](https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine)
    - source: NVIDIA AI
-   - score: 57.576
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.86; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.287
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.801; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
-1. [How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip](https://spectrum.ieee.org/llms-for-chip-design)
-   - source: IEEE Spectrum AI
-   - score: 71.811
-   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.499; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.50; matched_terms=9; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
+1. [Why a decade of doomsday warnings failed to slow the AI race](https://www.theguardian.com/technology/2026/sep/15/ai-doomsday-warnings)
+   - source: The Guardian Technology
+   - score: 74.418
+   - score_breakdown: general=0.667; engineering=0.5; research=0.333; novelty=0.883; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.88; matched_terms=4; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
 2. [The contagion of fear](https://simonwillison.net/2026/Sep/14/the-contagion-of-fear)
    - source: Simon Willison
-   - score: 70.629
-   - score_breakdown: general=0.5; engineering=0.5; research=0.333; novelty=0.862; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
-3. [AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development](https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai)
-   - source: The Guardian Technology
-   - score: 68.694
-   - score_breakdown: general=0.833; engineering=0.25; research=0.0; novelty=0.751; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.75; matched_terms=5; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 68.696
+   - score_breakdown: general=0.5; engineering=0.5; research=0.333; novelty=0.774; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.77; matched_terms=3; engineering_relevance=0.50; research_relevance=0.33; visible_engagement=unavailable
+3. [How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip](https://spectrum.ieee.org/llms-for-chip-design)
+   - source: IEEE Spectrum AI
+   - score: 67.945
+   - score_breakdown: general=1.0; engineering=0.25; research=0.667; novelty=0.323; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.32; matched_terms=9; engineering_relevance=0.25; research_relevance=0.67; visible_engagement=unavailable
 4. [Manufacturing Simulation Software Solutions For Optimization](https://www.neuralconcept.com/post/manufacturing-simulation-software-solutions-for-optimization)
    - source: Neural Concept
    - score: 60.367
@@ -88,11 +88,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [STAT+: How $500 explains Republican health policy, and the GLP-1 Rx wave](https://www.statnews.com/2026/09/14/trump-cash-obamacare-plans-rural-hospitals-artificial-intelligence)
+1. [STAT+: Medicare’s AI prior authorization pilot was rushed and full of problems, new documents reveal](https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care)
    - source: STAT Health Tech
-   - score: 47.645
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.56; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.56; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 55.089
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.898; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [Data Silos Patient 360 Building Real Time Cohort Analytics Zero Etl](https://www.databricks.com/dataaisummit/session/data-silos-patient-360-building-real-time-cohort-analytics-zero-etl)
    - source: Databricks AI
    - score: 31.833
@@ -108,11 +108,11 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [Inspiren Senior Living Ai](https://medcitynews.com/2026/09/inspiren-senior-living-ai)
-   - source: MedCity News
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care - NVIDIA Blog](https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3JfelNNeXFoQmdqdzlhM2FkTEMxVFlCNGxIUnFOSmR1S28zVnV2elFES0R1RERBWEJ3anJXMzhDY3lKU2lNU0d1MEVwbjdSYV9JUUZROGhMMWlxc0gxOFRVQjlGcEF4QVpuMlZDTzl1VUdRZkk1WmVMS09pOVZoN2JCRQ?oc=5)
+   - source: Google News Medical AI Discovery
+   - score: 38.039
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.917; source_priority=0.35
+   - reasons: source_priority=0.35; novelty=0.92; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Olmoearth Embeddings](https://huggingface.co/blog/allenai/olmoearth-embeddings)
@@ -181,5 +181,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
