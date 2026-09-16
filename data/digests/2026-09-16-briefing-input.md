@@ -3,113 +3,113 @@
 Use this file as briefing input. Produce Chinese headline, five-sentence Chinese summary, original link, Chinese translation, and Why It Matters for each selected item.
 
 ## Run Log
-- fetched_count: 16625
-- filtered_count: 2735
+- fetched_count: 16644
+- filtered_count: 2740
 - duplicate_count: 82
-- failures: 8
+- failures: 7
 
 ## Top 10 General AI News
 1. [Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train](https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train)
    - source: Google Research
-   - score: 67.672
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.955; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.95; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
-2. [Gemini Live audio](https://simonwillison.net/2026/Sep/15/gemini-live)
-   - source: Simon Willison
-   - score: 61.472
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.885; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.89; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Can Skills Learned in Games Transfer to Real-World Work?](https://www.latent.space/p/good-start-labs)
+   - score: 67.135
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.93; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+2. [[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs](https://www.latent.space/p/ainews-jev-a-system-one-model-that)
    - source: Latent Space
-   - score: 56.582
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.845; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.84; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
-4. [Inside OpenAI’s agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory)
-   - source: The Pragmatic Engineer
-   - score: 47.833
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.774; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.77; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.514
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.993; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Gemini Live audio](https://simonwillison.net/2026/Sep/15/gemini-live)
+   - source: Simon Willison
+   - score: 59.592
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.8; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.80; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Can Skills Learned in Games Transfer to Real-World Work?](https://www.latent.space/p/good-start-labs)
+   - source: Latent Space
+   - score: 54.702
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.759; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 5. [Your Agent Aced the Task. Will It Do It Again?](https://huggingface.co/blog/ibm-research/altk-evolve-consistency)
    - source: Hugging Face
-   - score: 55.81
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.779; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.78; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-6. [OpenAI, Anthropic, Google have been in talks on AI safety for weeks](https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks)
-   - source: TechCrunch AI
-   - score: 67.377
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.85; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.85; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-7. [Anthropic to build $31bn datacentre in western Queensland, David Crisafulli says](https://www.theguardian.com/technology/2026/sep/16/anthropic-lands-31bn-datacentre-deal-in-western-queensland)
+   - score: 53.93
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.694; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.69; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+6. [Inside OpenAI’s agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory)
+   - source: The Pragmatic Engineer
+   - score: 45.953
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.689; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.69; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+7. [‘If you’re building Frankenstein, stop’: JD Vance dismisses calls for AI regulation](https://www.theguardian.com/technology/2026/sep/16/building-frankenstein-jd-vance-dismisses-ai-regulation)
    - source: The Guardian Technology
-   - score: 66.778
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.975; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.97; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-8. [Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents](https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents)
-   - source: TechCrunch AI
-   - score: 66.739
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.821; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-9. [Anthropic CEO renews call for AI slowdown as Nvidia’s urges acceleration](https://www.theguardian.com/technology/2026/sep/15/anthropic-nvidia-ceos-ai)
+   - score: 72.709
+   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.972; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+8. [The US government is failing Americans on AI | Shakeel Hashim](https://www.theguardian.com/technology/2026/sep/16/us-government-failing-americans-ai)
    - source: The Guardian Technology
-   - score: 66.689
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.819; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.82; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-10. [How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin](https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin)
-   - source: NVIDIA AI
-   - score: 60.97
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.862; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 68.897
+   - score_breakdown: general=0.667; engineering=0.0; research=0.333; novelty=0.95; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=4; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+9. [Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents](https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents)
+   - source: TechCrunch AI
+   - score: 65.485
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.764; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.76; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+10. [Meta now lets AI agents handle the boring parts of WhatsApp Business setup](https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup)
+   - source: TechCrunch AI
+   - score: 63.805
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.84; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.84; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [OpenAI boss says world 'right to be afraid' but should trust AI firms](https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 64.122
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.998; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=1.00; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 63.084
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.951; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.95; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [Topology Optimization Vs Generative Design](https://www.neuralconcept.com/post/topology-optimization-vs-generative-design)
    - source: Neural Concept
    - score: 60.367
    - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Meta expands subscription push with new AI-focused plans](https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans)
-   - source: TechCrunch AI
-   - score: 57.843
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.864; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
-4. [Manufacturers Still Struggling To Move Ai From Data To The Factory Floor](https://www.engineering.com/manufacturers-still-struggling-to-move-ai-from-data-to-the-factory-floor)
+3. [Manufacturers Still Struggling To Move Ai From Data To The Factory Floor](https://www.engineering.com/manufacturers-still-struggling-to-move-ai-from-data-to-the-factory-floor)
    - source: Engineering.com
    - score: 57.033
    - score_breakdown: general=0.167; engineering=1.0; research=0.0; novelty=0.35; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
-5. [This doorbell camera lets a human security guard watch your front door](https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs)
-   - source: The Verge AI
-   - score: 52.804
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.483; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.48; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+4. [Meta expands subscription push with new AI-focused plans](https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans)
+   - source: TechCrunch AI
+   - score: 56.589
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.807; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.81; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+5. [Ntop Training Topology Optimization Simulation](https://www.ntop.com/resources/videos/ntop-training-topology-optimization-simulation)
+   - source: nTop
+   - score: 49.167
+   - score_breakdown: general=0.333; engineering=1.0; research=0.0; novelty=0.35; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
-1. [Agentic Ai Trust Gap Slowing Healthcare Provider Adoption Imprivata Survey](https://www.pharmaceutical-technology.com/news/agentic-ai-trust-gap-slowing-healthcare-provider-adoption-imprivata-survey)
+1. [Wednesday briefing: Why tech companies might be only too happy for us to believe AI will ‘kill us all’](https://www.theguardian.com/world/2026/sep/16/wednesday-briefing-why-tech-companies-might-be-only-too-happy-for-us-to-believe-ai-will-kill-us-all)
+   - source: The Guardian Technology
+   - score: 66.642
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.817; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.82; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+2. [Opinion: How my cancer diagnosis changed the way I train physicians](https://www.statnews.com/2026/09/16/medical-school-cancer-structure-pathology-professor-personal-experience)
+   - source: STAT Health Tech
+   - score: 55.196
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.903; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+3. [Opinion: STAT+: Dementia should be a campaign issue — not an insult](https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy)
+   - source: STAT Health Tech
+   - score: 55.196
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.903; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.90; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+4. [Agentic Ai Trust Gap Slowing Healthcare Provider Adoption Imprivata Survey](https://www.pharmaceutical-technology.com/news/agentic-ai-trust-gap-slowing-healthcare-provider-adoption-imprivata-survey)
    - source: Pharmaceutical Technology
-   - score: 38.469
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.5; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.50; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-2. [Doubling Medical Safety Fine Tuning Open Llms Womens Health Without](https://www.databricks.com/dataaisummit/session/doubling-medical-safety-fine-tuning-open-llms-womens-health-without)
-   - source: Databricks AI
-   - score: 35.167
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-3. [Building Ai Matters Powering Global Healthcare Virtue Foundation](https://www.databricks.com/dataaisummit/session/building-ai-matters-powering-global-healthcare-virtue-foundation)
-   - source: Databricks AI
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-4. [Inspiren Senior Living Ai](https://medcitynews.com/2026/09/inspiren-senior-living-ai)
+   - score: 34.709
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.329; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.33; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+5. [Inspiren Senior Living Ai](https://medcitynews.com/2026/09/inspiren-senior-living-ai)
    - source: MedCity News
-   - score: 31.833
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
-5. [2136392.Article](https://www.drugtargetreview.com/home/fast-tracking-ai-designed-binders-with-cell-free-expression-and-spr/2136392.article)
-   - source: Drug Target Review
    - score: 31.833
    - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.35; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.35; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
@@ -117,8 +117,8 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Research Radar
 1. [Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train](https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train)
    - source: Google Research
-   - score: 67.672
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.955; source_priority=1.0
+   - score: 67.135
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.93; source_priority=1.0
 2. [Resources & tools](https://ai.meta.com/resources)
    - source: Meta AI
    - score: 51.033
@@ -181,5 +181,4 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 - Chips and Cheese: HTTP Error 403: Forbidden
 - Sunday Letters: HTTP Error 403: Forbidden
 - The Leverage: HTTP Error 403: Forbidden
-- Garry Tan YouTube: HTTP Error 404: Not Found
 - Harry Stebbings 20VC: HTTP Error 403: Forbidden
