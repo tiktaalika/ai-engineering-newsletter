@@ -4,68 +4,68 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 
 ## Run Log
 - fetched_count: 16646
-- filtered_count: 2741
+- filtered_count: 2742
 - duplicate_count: 79
 - failures: 7
 
 ## Top 10 General AI News
 1. [Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train](https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train)
    - source: Google Research
-   - score: 67.037
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.926; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.93; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
+   - score: 67.014
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.925; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.92; matched_terms=2; engineering_relevance=0.00; research_relevance=1.00; visible_engagement=unavailable
 2. [[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs](https://www.latent.space/p/ainews-jev-a-system-one-model-that)
    - source: Latent Space
-   - score: 60.173
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.978; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.092
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.974; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Gemini Live audio](https://simonwillison.net/2026/Sep/15/gemini-live)
    - source: Simon Willison
-   - score: 59.251
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.784; source_priority=1.0
+   - score: 59.17
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.78; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.78; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Can Skills Learned in Games Transfer to Real-World Work?](https://www.latent.space/p/good-start-labs)
    - source: Latent Space
-   - score: 54.362
-   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.744; source_priority=1.0
+   - score: 54.281
+   - score_breakdown: general=0.167; engineering=0.0; research=0.333; novelty=0.74; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.74; matched_terms=1; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 5. [Your Agent Aced the Task. Will It Do It Again?](https://huggingface.co/blog/ibm-research/altk-evolve-consistency)
    - source: Hugging Face
-   - score: 53.59
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.678; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.68; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 53.508
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.675; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.67; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 6. [Inside OpenAI’s agentic software factory](https://newsletter.pragmaticengineer.com/p/openai-software-factory)
    - source: The Pragmatic Engineer
-   - score: 45.612
-   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.673; source_priority=0.65
+   - score: 45.531
+   - score_breakdown: general=0.5; engineering=0.0; research=0.0; novelty=0.67; source_priority=0.65
    - reasons: source_priority=0.65; novelty=0.67; matched_terms=3; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 7. [‘If you’re building Frankenstein, stop’: JD Vance dismisses calls for AI regulation](https://www.theguardian.com/technology/2026/sep/16/building-frankenstein-jd-vance-dismisses-ai-regulation)
    - source: The Guardian Technology
-   - score: 72.029
-   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.941; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.94; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
+   - score: 71.866
+   - score_breakdown: general=0.833; engineering=0.0; research=0.333; novelty=0.933; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.93; matched_terms=5; engineering_relevance=0.00; research_relevance=0.33; visible_engagement=unavailable
 8. [A brief history of AI executives calling for regulation](https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation)
    - source: The Verge AI
-   - score: 70.254
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.981; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.98; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 70.091
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.974; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.97; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 9. [Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents](https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents)
    - source: TechCrunch AI
-   - score: 65.258
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.754; source_priority=1.0
+   - score: 65.204
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.752; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.75; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 10. [Meta now lets AI agents handle the boring parts of WhatsApp Business setup](https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup)
    - source: TechCrunch AI
-   - score: 63.578
-   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.829; source_priority=1.0
+   - score: 63.524
+   - score_breakdown: general=0.667; engineering=0.0; research=0.0; novelty=0.827; source_priority=1.0
    - reasons: source_priority=1.00; novelty=0.83; matched_terms=4; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Top 5 Engineering AI News
 1. [OpenAI boss says world 'right to be afraid' but should trust AI firms](https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss)
    - source: BBC Technology
-   - score: 62.403
-   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.92; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.92; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 62.24
+   - score_breakdown: general=0.333; engineering=0.25; research=0.0; novelty=0.912; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.91; matched_terms=2; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 2. [Topology Optimization Vs Generative Design](https://www.neuralconcept.com/post/topology-optimization-vs-generative-design)
    - source: Neural Concept
    - score: 60.367
@@ -78,9 +78,9 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
    - reasons: source_priority=1.00; novelty=0.35; matched_terms=1; engineering_relevance=1.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Meta expands subscription push with new AI-focused plans](https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans)
    - source: TechCrunch AI
-   - score: 56.362
-   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.797; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.80; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
+   - score: 56.308
+   - score_breakdown: general=0.167; engineering=0.25; research=0.0; novelty=0.794; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.79; matched_terms=1; engineering_relevance=0.25; research_relevance=0.00; visible_engagement=unavailable
 5. [Ntop Training Topology Optimization Simulation](https://www.ntop.com/resources/videos/ntop-training-topology-optimization-simulation)
    - source: nTop
    - score: 49.167
@@ -90,35 +90,35 @@ Use this file as briefing input. Produce Chinese headline, five-sentence Chinese
 ## Top 5 Medical, Medicine, and Bio/Genetics AI News
 1. [Wednesday briefing: Why tech companies might be only too happy for us to believe AI will ‘kill us all’](https://www.theguardian.com/world/2026/sep/16/wednesday-briefing-why-tech-companies-might-be-only-too-happy-for-us-to-believe-ai-will-kill-us-all)
    - source: The Guardian Technology
-   - score: 65.961
-   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.786; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.79; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 65.798
+   - score_breakdown: general=0.833; engineering=0.0; research=0.0; novelty=0.779; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.78; matched_terms=5; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 2. [The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid](https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data)
    - source: MIT Technology Review AI
-   - score: 60.369
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.986; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.99; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 60.206
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.979; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.98; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 3. [Opinion: How my cancer diagnosis changed the way I train physicians](https://www.statnews.com/2026/09/16/medical-school-cancer-structure-pathology-professor-personal-experience)
    - source: STAT Health Tech
-   - score: 54.515
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.352
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.864; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 4. [Opinion: STAT+: Dementia should be a campaign issue — not an insult](https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy)
    - source: STAT Health Tech
-   - score: 54.515
-   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.872; source_priority=1.0
-   - reasons: source_priority=1.00; novelty=0.87; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 54.352
+   - score_breakdown: general=0.167; engineering=0.0; research=0.0; novelty=0.864; source_priority=1.0
+   - reasons: source_priority=1.00; novelty=0.86; matched_terms=1; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 5. [Agentic Ai Trust Gap Slowing Healthcare Provider Adoption Imprivata Survey](https://www.pharmaceutical-technology.com/news/agentic-ai-trust-gap-slowing-healthcare-provider-adoption-imprivata-survey)
    - source: Pharmaceutical Technology
-   - score: 34.028
-   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.298; source_priority=0.65
-   - reasons: source_priority=0.65; novelty=0.30; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
+   - score: 33.865
+   - score_breakdown: general=0.333; engineering=0.0; research=0.0; novelty=0.291; source_priority=0.65
+   - reasons: source_priority=0.65; novelty=0.29; matched_terms=2; engineering_relevance=0.00; research_relevance=0.00; visible_engagement=unavailable
 
 ## Research Radar
 1. [Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train](https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train)
    - source: Google Research
-   - score: 67.037
-   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.926; source_priority=1.0
+   - score: 67.014
+   - score_breakdown: general=0.333; engineering=0.0; research=1.0; novelty=0.925; source_priority=1.0
 2. [Resources & tools](https://ai.meta.com/resources)
    - source: Meta AI
    - score: 51.033
