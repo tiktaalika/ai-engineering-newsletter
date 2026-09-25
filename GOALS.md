@@ -257,6 +257,9 @@ Each fetcher lives in its own module under `newsletter/fetchers/`:
 - [ ] Handle Reddit rate limiting and User-Agent requirements
 
 #### `newsletter/fetchers/website.py` — Website Discovery (Sitemap → HTML → Search)
+
+> **Deferred** (decision 2026-09-25): scheduled after Goal 7.4 + Goal 9 land, so the
+> 52 unlocked sources can be visually verified on the rendered site.
 - [ ] **Phase 1: Sitemap parsing**
   - [ ] Try `{scheme}://{netloc}/sitemap.xml` and `{base_path}/sitemap.xml`
   - [ ] Parse `<sitemap>` index files for child sitemaps (max 20)
@@ -460,6 +463,31 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 
 ---
 
+## Goal 9 — Fetch/Render Split (Deterministic Snapshot Workflow)
+
+Decouple network fetching from ranking and rendering so ranking and rendering changes can be
+tested quickly and visually: fetch the day's sources once, store them, then deterministically
+generate rankings, the daily report and the final website from the stored snapshot. The
+existing `collect` artifact is a post-selection candidates JSON — it cannot re-rank (score
+changes would not affect items outside the stored sections), so the split needs a raw-record
+intermediary.
+
+### 9.1 Fetch Stage — Store Raw Records
+- [ ] `newsletter fetch` CLI subcommand — run the fetcher pipeline for a date and write `data/digests/YYYY-MM-DD-records.json` (raw records + run log + per-source failures)
+- [ ] Snapshot records the fetch window (`window-hours`, computed cutoff) and fetch timestamps so downstream stages never read the wall clock
+
+### 9.2 Generate Stage — Deterministic Regeneration
+- [ ] `newsletter generate` CLI subcommand — read the snapshot JSON and run the full downstream: score → dedup → select → `*-candidates.json` → `*-final.md` → site HTML
+- [ ] Byte-identical output for identical input: stable sort tie-breakers (e.g. candidate id), no time/randomness after the fetch stage
+- [ ] Snapshot records the config used (scoring weights, keywords); `generate` warns when current config differs from the snapshot's
+
+### 9.3 Testing & Dev Loop
+- [ ] Golden-file tests: same snapshot → byte-identical candidates/report/site artifacts
+- [ ] Dev loop: tweak ranking or rendering code, re-run `generate`, inspect the rebuilt site — no network, no re-fetch
+- [ ] Offline CI mode reusing committed snapshots
+
+---
+
 ## Phasing
 
 | Phase | Goals | Focus | Status |
@@ -467,7 +495,7 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 | **Phase 1** | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end | **Complete** — models ✅, TOML config ✅, logging ✅, fetcher protocol + registry ✅, RSS/Atom/RDF fetcher ✅, `py.typed` ✅, coverage + import sorting ✅, CI green ✅ |
 | **Phase 2** (Current) | 3.1–3.2, 4.2 (all fetchers) | Async migration + all fetcher implementations | **~60%** — `http.py` (retry/backoff, rate limiter, text/json/bytes) ✅, `orchestrate.py` (semaphore, per-source timeout, fault isolation) ✅, graceful shutdown ✅. Remaining: response caching, wiring a `DomainRateLimiter` into the pipeline, and every non-RSS fetcher — **57 of 125 configured sources are skipped today** (52 `website`, 2 `youtube`, 2 `json`, 1 `api`) |
 | **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests | **Complete** — `config/keywords.toml` (1.4), `keywords.py` (6.2), `text.py` (6.1), `scoring.py` (6.3), `dedup.py` event identity (6.4), `category.py` + `selection.py` (6.5), `pipeline.py` (collect + build_issue), `artifacts.py` v1-compatible JSON (8.4). 388 new tests, 98% branch coverage. Goal 2.3's per-fetcher tests still wait on the non-RSS fetchers |
-| **Phase 4** (Current) | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | **~50%** — `newsletter collect` runs the whole pipeline and writes `data/digests/YYYY-MM-DD-candidates.json` (v1 schema); **`newsletter report` renders `*-final.md` (Goal 7.1 done, 61 tests)**. Remaining: `-briefing-input.md`, `site`, `papers`, `summaries`, `check`, `trends`, `run-all`, and snapshot/golden-file tests |
+| **Phase 4** (Current) | 1.6, 7.1–7.5, 9.1–9.3, 2.5–2.7 | CLI, report generation, site rendering, deterministic fetch/render split, integration tests | **~50%** — `newsletter collect` runs the whole pipeline and writes `data/digests/YYYY-MM-DD-candidates.json` (v1 schema); **`newsletter report` renders `*-final.md` (Goal 7.1 done, 61 tests)**. Remaining: Goal 9 (`fetch`/`generate` split), `-briefing-input.md`, `site`, `papers`, `summaries`, `check`, `trends`, `run-all`, and snapshot/golden-file tests |
 | **Phase 5** | 5.1–5.4, 8.1–8.4 | Language support, CI/CD modernization | **~15%** — CI runs lint → type-check → test on dev/main with coverage printed; no threshold gate, no deploy workflows, no i18n layer |
 | **Phase 6** (Backburner) | 5.5 | Additional languages, translation | Not started |
 
@@ -509,9 +537,14 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 8. **`supplemental_search_tasks` / `watchlist_updates` are always empty** — v1 filled them from the `website` fetcher's "manual search" placeholder records, so this unblocks with the `website` fetcher (4.2 Phase 3)
 
 ### Immediate next steps
-1. ~~Configure `pytest-cov` flags~~ ✅ · ~~import sorting~~ ✅ · ~~LLM deps~~ ✅ · ~~async HTTP + orchestration (3.1–3.2, 3.4)~~ ✅ · ~~`collect` CLI (1.6)~~ ✅ · ~~test log isolation~~ ✅ · ~~Phase 3 vertical slice (1.4, 6.1–6.5, 2.4, 8.4)~~ ✅
-2. **Tag the reference sources** (gap 1) — port v1's `guo_yichen_reference` / `trusted_discovery` tags into `config/config.toml`, then assert the Top 10 ordering changes as v1 intended
-3. **Build the `website` fetcher** (4.2) — biggest coverage win, unlocks 52 sources, fully specified in PROJECT.md §3.3 (sitemap → HTML links → search placeholder)
-4. ~~Start Goal 7.1~~ ✅ **`newsletter report` landed** (`reports/daily.py`, 61 tests, CLI wired, GOALS/2.5/2.7/7.1 updated). Note: `-briefing-input.md` was NOT part of this — v1 wrote it from the *collect* script, so it remains gap 3 (either port it into `pipeline.collect` or a `report --briefing` flag)
+
+> Priority decision (2026-09-25): the site must render first — source-quality and scoring
+> changes are deferred until ranking and fetching can be **visually tested** on the rendered
+> site. The website fetcher is a later goal.
+
+1. ~~Configure `pytest-cov` flags~~ ✅ · ~~import sorting~~ ✅ · ~~LLM deps~~ ✅ · ~~async HTTP + orchestration (3.1–3.2, 3.4)~~ ✅ · ~~`collect` CLI (1.6)~~ ✅ · ~~test log isolation~~ ✅ · ~~Phase 3 vertical slice (1.4, 6.1–6.5, 2.4, 8.4)~~ ✅ · ~~Start Goal 7.1~~ ✅
+2. **Land Goal 9 + Goal 7.4 (site renderer)** — `newsletter fetch` stores the day's raw records; `newsletter generate` deterministically rebuilds rankings, `*-final.md` and the static site from the snapshot. This is the gate for everything else: once the site renders, ranking/rendering changes become instantly testable offline
+3. **Source quality & scoring changes — blocked on 2** — includes gap 1 (port v1's `guo_yichen_reference` / `trusted_discovery` tags into `config/config.toml`; note 23 of the 30 tagged v1 sources and all 4 `trusted_discovery` sources are absent from v2's config — it shares only 15 names / 29 URLs with v1, so this is a source-list reconciliation, not a config-only fix) and any scoring-weight rebalancing; each change is validated by diffing the regenerated site
+4. **Build the `website` fetcher** (4.2) — **deferred** (decision 2026-09-25); biggest coverage win, unlocks 52 sources, fully specified in PROJECT.md §3.3 (sitemap → HTML links → search placeholder)
 5. Decide the config error contract (gap 7) and expand config error-handling tests (2.2)
-6. Add `--cov-fail-under=80` to CI now that coverage sits at 98% (2.8); add pre-commit hooks or `uv run` task aliases (1.2)
+6. Add `--cov-fail-under=80` to CI now that coverage sits at 99% (2.8); add pre-commit hooks or `uv run` task aliases (1.2)
