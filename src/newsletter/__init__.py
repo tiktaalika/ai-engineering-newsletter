@@ -57,6 +57,16 @@ from .models import (
 )
 from .orchestrate import fetch_all_sources
 from .pipeline import build_issue, candidate_from_record, collect
+from .reports import (
+    build_report,
+    final_report_path,
+    generate_report,
+    render_failures,
+    render_section,
+    source_phrase,
+    summarize_item,
+    topic_label,
+)
 from .scoring import log_scale, recency_boost, score_candidate, score_reasons
 from .selection import (
     is_medical_bio_ai,
@@ -101,6 +111,7 @@ __all__ = [
     "SourceType",
     "UnknownFetcherError",
     "build_issue",
+    "build_report",
     "candidate_from_dict",
     "candidate_from_record",
     "candidate_to_dict",
@@ -116,6 +127,8 @@ __all__ = [
     "event_tokens",
     "event_url_key",
     "fetch_all_sources",
+    "final_report_path",
+    "generate_report",
     "get_fetcher",
     "infer_candidate_category",
     "is_medical_bio_ai",
@@ -131,10 +144,15 @@ __all__ = [
     "norm_url",
     "passes_gates",
     "recency_boost",
+    "render_failures",
+    "render_section",
     "score_candidate",
     "score_reasons",
     "select_medical_bio_ai",
     "select_unique_events",
+    "source_phrase",
+    "summarize_item",
     "topic_key",
+    "topic_label",
     "write_candidates_json",
 ]

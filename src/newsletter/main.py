@@ -10,6 +10,7 @@ Usage::
     newsletter collect --config path/to/config.toml
     newsletter collect --window-hours 48 --dry-run
     newsletter collect --output-dir /tmp/digests
+    newsletter report --date 2026-06-17
 """
 
 from __future__ import annotations
@@ -33,6 +34,7 @@ from .models import Candidate, RunLog
 from .orchestrate import fetch_all_sources
 from .pipeline import build_issue
 from .pipeline import collect as collect_stage
+from .reports import generate_report
 from .selection import (
     ENGINEERING_AI_LOOKBACK_DAYS,
     GENERAL_AI_LOOKBACK_DAYS,
@@ -369,6 +371,53 @@ def collect(
         exit_code = 130
 
     raise typer.Exit(code=exit_code)
+
+
+@app.command()
+def report(
+    date_str: Annotated[
+        Optional[str],
+        typer.Option(
+            "--date",
+            "-d",
+            help="Issue date to render (YYYY-MM-DD). Defaults to today.",
+        ),
+    ] = None,
+    output_dir: Annotated[
+        Optional[Path],
+        typer.Option(
+            "--output-dir",
+            "-o",
+            help="Digest directory holding *-candidates.json; the "
+            "*-final.md report is written next to it (default: "
+            "<project_root>/data/digests).",
+            exists=False,
+        ),
+    ] = None,
+) -> None:
+    """Render the daily Markdown report from a candidates artifact."""
+    project_root = _resolve_project_root()
+    _setup_logging(project_root)
+
+    digest_dir = _resolve_output_dir(output_dir)
+
+    try:
+        run_date = date.fromisoformat(date_str) if date_str else date.today()
+    except ValueError:
+        logger.error("Invalid date slug: %r (expected YYYY-MM-DD)", date_str)
+        raise typer.Exit(code=1) from None
+
+    try:
+        output_path = generate_report(run_date.isoformat(), digest_dir)
+    except FileNotFoundError:
+        logger.error(
+            "Missing candidates artifact for %s in %s — run 'newsletter collect' first",
+            run_date.isoformat(),
+            digest_dir,
+        )
+        raise typer.Exit(code=1) from None
+
+    logger.info("Daily report ready: %s", output_path)
 
 
 # --------------------------------------------------------------------------- #

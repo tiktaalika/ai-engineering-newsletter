@@ -74,7 +74,7 @@ Migrate from flat scripts + requirements.txt to a properly structured, typed, li
 - [x] Implement `main()` entry point — **Typer `app()`; loads config, configures logging, installs signal handlers, runs the pipeline under `asyncio.run()`, maps exit codes (0 ok / 1 error / 130 cancelled)**
 - [~] Implement subcommands:
   - [x] `newsletter collect` — **full pipeline: concurrent async fetch → clean/gate/score → dedup → sectioned selection → `data/digests/YYYY-MM-DD-candidates.json` (v1-compatible schema); options `--config/-c`, `--keywords`, `--output-dir`, `--date/-d`, `--window-hours/-w`, `--dry-run`**
-  - [ ] `newsletter report` — generate daily Markdown (replaces `generate_daily_report.py`)
+  - [x] `newsletter report` — **reads `*-candidates.json` → writes `*-final.md` (`reports/daily.py`, v1 byte-compat template); options `--date/-d`, `--output-dir/-o`; missing artifact or bad date → exit 1. NOTE: adding a second command switched the Typer app to multi-command mode — the CLI is now `newsletter collect ...` / `newsletter report ...` (plain `newsletter --config` no longer implies collect)**
   - [ ] `newsletter site` — render static HTML (replaces `render_digest_site.py`)
   - [ ] `newsletter papers` — Friday arXiv push (replaces `generate_weekly_paper_push.py`)
   - [ ] `newsletter summaries` — Chinese LLM summaries (replaces `generate_site_summaries.py`)
@@ -131,7 +131,7 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 - [x] `test_text.py` — `clean_text`, `language_looks_english`, `english_summary` — **35 tests**
 
 ### 2.5 Unit Tests — Report Generation
-- [ ] `test_daily_report.py` — Markdown structure, section headings, topic labels
+- [x] `test_daily_report.py` — Markdown structure, section headings, topic labels — **61 tests: `topic_label` (all 7 label families + precedence), `source_phrase`/`reasons_phrase`/`summarize_item`, `render_section`/`render_failures` (incl. 20-failure cap), `build_report` (section order, run-log fields, watchlist cap 10, failures block only when present, trailing newline), `generate_report` round-trip through a real `issue_to_payload` artifact, and the `report` CLI (happy path, default date, missing artifact → 1, bad date → 1)**
 - [ ] `test_paper_push.py` — arXiv query, pattern filters, recency filter, dedup against history
 - [ ] `test_site_summaries.py` — cache hit/miss, batch API call structure, prompt construction
 
@@ -161,6 +161,7 @@ Build a comprehensive test suite that covers every pipeline stage with unit, int
 - [x] `test_main.py` (38 tests) — deterministic candidate IDs + URL normalization, CLI options and exit codes (bad config, missing/invalid keywords, cancellation → 130), artifact writing and `--dry-run`, repo-`logs/` isolation regression
 - [x] `test_text.py` (35 tests) / `test_dedup.py` (54 tests) — Goals 6.1 and 6.4 in full: `clean_text`, `language_looks_english`, `english_summary`, `effective_source`, `entry_id`; `norm_url`, event identity, `is_same_event`, `dedup_key`
 - [x] Phase-3 modules (Goals 2.4, 6.1–6.5) — `test_keywords.py` (48), `test_scoring.py` (54), `test_selection.py` (69), `test_category.py` (25), `test_pipeline.py` (47), `test_artifacts.py` (61)
+- [x] `test_daily_report.py` (61 tests) — Goal 7.1 + 2.5: unit coverage of every rendering helper plus the candidates-JSON → final.md integration round-trip (2.7's `test_pipeline_report.py` path)
 
 ---
 
@@ -397,10 +398,10 @@ Port the v1 scoring, deduplication, and selection algorithms into clean, tested 
 Port output generation into modular renderers.
 
 ### 7.1 Daily Report — `newsletter/reports/daily.py`
-- [ ] Read candidates JSON → produce final Markdown
-- [ ] Section structure: General AI Top 10, Engineering AI Top 5, Biomedical AI Top 5, Research Radar
-- [ ] Topic label inference
-- [ ] Run log, watchlist updates, source failure sections
+- [x] Read candidates JSON → produce final Markdown — **`generate_report()` renders from the payload dict (not typed models) so output is byte-compatible regardless of v1/v2 producer; `ValueError` on bad date slug, `FileNotFoundError` on missing artifact**
+- [x] Section structure: General AI Top 10, Engineering AI Top 5, Biomedical AI Top 5, Research Radar — **v1 headings verbatim, plus Run Log / Watchlist Updates / Why It Matters; empty sections keep a visible placeholder line; `## Source Failures` only when the run had failures**
+- [x] Topic label inference — **`topic_label()` with v1's exact term families and check order (CAE/simulation → agent workflow → model/evaluation → AI infrastructure → medical/bio → industrial/robotics → "AI update")**
+- [x] Run log, watchlist updates, source failure sections — **run-log field lines verbatim; watchlist capped at 10 with `query`→`url` fallback; failures capped at 20**
 
 ### 7.2 Paper Push — `newsletter/reports/papers.py`
 - [ ] arXiv query + filtering + dedup
@@ -466,7 +467,7 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 | **Phase 1** | 1.1–1.3, 4.1–4.2 (RSS) | Foundation: models, config, first fetcher working end-to-end | **Complete** — models ✅, TOML config ✅, logging ✅, fetcher protocol + registry ✅, RSS/Atom/RDF fetcher ✅, `py.typed` ✅, coverage + import sorting ✅, CI green ✅ |
 | **Phase 2** (Current) | 3.1–3.2, 4.2 (all fetchers) | Async migration + all fetcher implementations | **~60%** — `http.py` (retry/backoff, rate limiter, text/json/bytes) ✅, `orchestrate.py` (semaphore, per-source timeout, fault isolation) ✅, graceful shutdown ✅. Remaining: response caching, wiring a `DomainRateLimiter` into the pipeline, and every non-RSS fetcher — **57 of 125 configured sources are skipped today** (52 `website`, 2 `youtube`, 2 `json`, 1 `api`) |
 | **Phase 3** | 6.1–6.5, 2.3–2.4 | Scoring/dedup/selection core + fetcher tests | **Complete** — `config/keywords.toml` (1.4), `keywords.py` (6.2), `text.py` (6.1), `scoring.py` (6.3), `dedup.py` event identity (6.4), `category.py` + `selection.py` (6.5), `pipeline.py` (collect + build_issue), `artifacts.py` v1-compatible JSON (8.4). 388 new tests, 98% branch coverage. Goal 2.3's per-fetcher tests still wait on the non-RSS fetchers |
-| **Phase 4** (Current) | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | **~35%** — `newsletter collect` runs the whole pipeline and writes `data/digests/YYYY-MM-DD-candidates.json` (v1 schema); `test_pipeline.py` + `test_artifacts.py` + one CLI end-to-end test cover 2.7's collect path. Nothing renders yet: no `report`, `site`, `papers`, `summaries`, `check`, `trends` or `run-all` subcommands, and no `-briefing-input.md` |
+| **Phase 4** (Current) | 1.6, 7.1–7.5, 2.5–2.7 | CLI, report generation, site rendering, integration tests | **~50%** — `newsletter collect` runs the whole pipeline and writes `data/digests/YYYY-MM-DD-candidates.json` (v1 schema); **`newsletter report` renders `*-final.md` (Goal 7.1 done, 61 tests)**. Remaining: `-briefing-input.md`, `site`, `papers`, `summaries`, `check`, `trends`, `run-all`, and snapshot/golden-file tests |
 | **Phase 5** | 5.1–5.4, 8.1–8.4 | Language support, CI/CD modernization | **~15%** — CI runs lint → type-check → test on dev/main with coverage printed; no threshold gate, no deploy workflows, no i18n layer |
 | **Phase 6** (Backburner) | 5.5 | Additional languages, translation | Not started |
 
@@ -474,7 +475,7 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 
 ## Current State Summary
 
-> **Last updated:** 2026-09-06
+> **Last updated:** 2026-09-25
 
 ### What works today
 - **Package structure**: `src/newsletter/` with `pyproject.toml` (Hatch), `uv` lockfile, `py.typed`, full `__init__.py` exports
@@ -492,15 +493,16 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 - **Section selection**: `selection.select_unique_events()` (4 relaxation passes + Guo-preference fallback, topic/source caps, Google News caps, history dedup), `select_medical_bio_ai()`, `topic_key()`, `is_medical_bio_ai()`; `category.canonical_category()` / `infer_candidate_category()`
 - **Pipeline**: `pipeline.candidate_from_record()` (v1's exact gate order: non-empty title/URL → English check → bucket include/exclude with engineering fallback → core_include → ai_include) and `pipeline.collect()` (score-sort + duplicate accounting + `RunLog`), `pipeline.build_issue()` (sectioned selection with per-section history)
 - **Artifacts**: `artifacts.write_candidates_json()` emits `data/digests/YYYY-MM-DD-candidates.json` with v1's key order, `_meta.explanation` block, `selection_policy` text, the legacy `top_5_cae_ai_engineering` alias and `top_100_news_candidates`; `load_history()` reads previous issues (general 7d, engineering/biomedical/research 30d)
-- **CLI**: `newsletter collect` with `--config/-c`, `--keywords`, `--output-dir`, `--window-hours/-w`, `--date/-d`, `--dry-run`; `asyncio.run()` entry, SIGINT/SIGTERM → cancel → exit 130
+- **CLI**: multi-command Typer app — `newsletter collect` (`--config/-c`, `--keywords`, `--output-dir`, `--window-hours/-w`, `--date/-d`, `--dry-run`) and `newsletter report` (`--date/-d`, `--output-dir/-o`); `asyncio.run()` entry for collect, SIGINT/SIGTERM → cancel → exit 130
+- **Daily report**: `reports/daily.py` — `topic_label()`, `source_phrase()`, `reasons_phrase()`, `summarize_item()`, `render_section()` (empty-section placeholder), `render_failures()`, `build_report()` and `generate_report()` reproduce v1's `generate_daily_report.py` output 1:1 from the candidates payload
 - **CI pipeline**: GitHub Actions on dev/main — ruff format check, ruff lint, ty type check, pytest (coverage printed via `addopts`)
-- **Tests**: **522 passing**, 98% branch coverage — selection (69), artifacts (61), dedup (54), scoring (54), RSS fetcher (53), keywords (48), pipeline (47), main/CLI (38), text (35), category (25), http (20), orchestrate (16), configuration (2); `respx` for all HTTP, golden feed samples + hostile-XML samples in `conftest.py`, `app_config`/`keyword_config`/`make_configuration`/`make_candidate` fixtures, autouse log isolation so runs never dirty the committed `logs/`
+- **Tests**: **583 passing**, 99% branch coverage — selection (69), daily report (61), artifacts (61), dedup (54), scoring (54), RSS fetcher (53), keywords (48), pipeline (47), main/CLI (38), text (35), category (25), http (20), orchestrate (16), configuration (2); `respx` for all HTTP, golden feed samples + hostile-XML samples in `conftest.py`, `app_config`/`keyword_config`/`make_configuration`/`make_candidate` fixtures, autouse log isolation so runs never dirty the committed `logs/`
 
 ### Known gaps (in dependency order)
 1. **No source tags** — v1 tagged 30 sources `guo_yichen_reference` and 4 `trusted_discovery`; `config/config.toml` has no `tags`, so every General AI selection falls through passes 1–4 into the no-preference rerun (the Top 10 is plain score order) and trust gating is inert. Config-only fix, but it changes real output
 2. **57/125 sources skipped** — only RSS-family fetchers are registered (`website` 52, `youtube` 2, `json` 2, `api` 1), so the candidate pool is much thinner than v1's
-3. **No second artifact** — v1 also wrote `data/digests/YYYY-MM-DD-briefing-input.md` next to the JSON; v2 writes only the candidates JSON
-4. **No renderers or quality gate** — Goals 7.1–7.5 (daily report, paper push, trends, site, `check`) are untouched, so the pipeline stops at candidates
+3. **No second artifact** — v1's *collect* script also wrote `data/digests/YYYY-MM-DD-briefing-input.md` next to the JSON (a collect-side concern, not a report-side one); v2 writes only the candidates JSON
+4. **Renderers beyond 7.1 and the quality gate** — Goals 7.2–7.5 (paper push, trends, site, `check`) are untouched; the pipeline now renders `*-final.md` but stops short of the static site
 5. **Rate limiter not wired** — `DomainRateLimiter` exists and is tested but no pipeline code passes one to `fetch_*`; `request_delay_seconds` is not a config field
 6. **No response cache** — Goal 3.1's file-based cache is unimplemented
 7. **Config error contract** — `Configuration.load()` raises `FileNotFoundError`, while Goal 2.2 expects `ConfigurationError`
@@ -510,6 +512,6 @@ Modernize the GitHub Actions workflows for the v2 architecture.
 1. ~~Configure `pytest-cov` flags~~ ✅ · ~~import sorting~~ ✅ · ~~LLM deps~~ ✅ · ~~async HTTP + orchestration (3.1–3.2, 3.4)~~ ✅ · ~~`collect` CLI (1.6)~~ ✅ · ~~test log isolation~~ ✅ · ~~Phase 3 vertical slice (1.4, 6.1–6.5, 2.4, 8.4)~~ ✅
 2. **Tag the reference sources** (gap 1) — port v1's `guo_yichen_reference` / `trusted_discovery` tags into `config/config.toml`, then assert the Top 10 ordering changes as v1 intended
 3. **Build the `website` fetcher** (4.2) — biggest coverage win, unlocks 52 sources, fully specified in PROJECT.md §3.3 (sitemap → HTML links → search placeholder)
-4. **Start Goal 7.1** (`newsletter report`) — read `*-candidates.json` → `*-final.md`, which also delivers the missing `-briefing-input.md` and the first snapshot tests (2.1)
+4. ~~Start Goal 7.1~~ ✅ **`newsletter report` landed** (`reports/daily.py`, 61 tests, CLI wired, GOALS/2.5/2.7/7.1 updated). Note: `-briefing-input.md` was NOT part of this — v1 wrote it from the *collect* script, so it remains gap 3 (either port it into `pipeline.collect` or a `report --briefing` flag)
 5. Decide the config error contract (gap 7) and expand config error-handling tests (2.2)
 6. Add `--cov-fail-under=80` to CI now that coverage sits at 98% (2.8); add pre-commit hooks or `uv run` task aliases (1.2)

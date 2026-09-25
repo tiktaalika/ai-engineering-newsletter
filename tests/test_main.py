@@ -370,7 +370,7 @@ class TestLogIsolation:
 
         config_file = tmp_path / "config.toml"
         config_file.write_text(_MINIMAL_CONFIG)
-        result = runner.invoke(app, ["--config", str(config_file)])
+        result = runner.invoke(app, ["collect", "--config", str(config_file)])
 
         assert result.exit_code == 0
         assert _repo_log_snapshot() == before
@@ -384,7 +384,7 @@ class TestLogIsolation:
         config_file = tmp_path / "config.toml"
         config_file.write_text(_MINIMAL_CONFIG)
 
-        result = runner.invoke(app, ["--config", str(config_file)])
+        result = runner.invoke(app, ["collect", "--config", str(config_file)])
 
         assert result.exit_code == 0
         audit_log = isolated_logging / "logs" / "audit.log"
@@ -418,7 +418,7 @@ class TestCLI:
     def test_missing_config_exits_1(self, tmp_path: Path) -> None:
         """A non-existent config file causes exit code 1."""
         fake_config = tmp_path / "nonexistent.toml"
-        result = runner.invoke(app, ["--config", str(fake_config)])
+        result = runner.invoke(app, ["collect", "--config", str(fake_config)])
         assert result.exit_code == 1
 
     @patch("newsletter.main.fetch_all_sources", new_callable=AsyncMock)
@@ -430,7 +430,7 @@ class TestCLI:
         config_file.write_text(_MINIMAL_CONFIG)
         mock_fetch.return_value = []
 
-        result = runner.invoke(app, ["--config", str(config_file)])
+        result = runner.invoke(app, ["collect", "--config", str(config_file)])
         assert result.exit_code == 0
 
     @patch("newsletter.main.fetch_all_sources", new_callable=AsyncMock)
@@ -440,7 +440,9 @@ class TestCLI:
         config_file.write_text(_MINIMAL_CONFIG)
         mock_fetch.return_value = []
 
-        result = runner.invoke(app, ["--config", str(config_file), "--dry-run"])
+        result = runner.invoke(
+            app, ["collect", "--config", str(config_file), "--dry-run"]
+        )
         assert result.exit_code == 0
         mock_fetch.assert_called_once()
 
@@ -451,7 +453,7 @@ class TestCLI:
         mock_fetch.return_value = []
 
         result = runner.invoke(
-            app, ["--config", str(config_file), "--window-hours", "48"]
+            app, ["collect", "--config", str(config_file), "--window-hours", "48"]
         )
         assert result.exit_code == 0
 
@@ -462,7 +464,7 @@ class TestCLI:
         mock_fetch.return_value = []
 
         result = runner.invoke(
-            app, ["--config", str(config_file), "--date", "2025-09-15"]
+            app, ["collect", "--config", str(config_file), "--date", "2025-09-15"]
         )
         assert result.exit_code == 0
 
@@ -471,7 +473,7 @@ class TestCLI:
         config_file.write_text(_MINIMAL_CONFIG)
 
         result = runner.invoke(
-            app, ["--config", str(config_file), "--date", "not-a-date"]
+            app, ["collect", "--config", str(config_file), "--date", "not-a-date"]
         )
         assert result.exit_code != 0
 
@@ -488,7 +490,7 @@ class TestCLI:
             "general_ai = 24\n"
         )
 
-        result = runner.invoke(app, ["--config", str(config_file)])
+        result = runner.invoke(app, ["collect", "--config", str(config_file)])
         assert result.exit_code == 1
 
     def test_invalid_config_exits_1(self, tmp_path: Path) -> None:
@@ -496,7 +498,7 @@ class TestCLI:
         config_file = tmp_path / "config.toml"
         config_file.write_text("user_agent = \n[[[\n", encoding="utf-8")
 
-        result = runner.invoke(app, ["--config", str(config_file)])
+        result = runner.invoke(app, ["collect", "--config", str(config_file)])
         assert result.exit_code == 1
 
     def test_missing_keywords_exits_1(self, tmp_path: Path) -> None:
@@ -505,7 +507,13 @@ class TestCLI:
 
         result = runner.invoke(
             app,
-            ["--config", str(config_file), "--keywords", str(tmp_path / "nope.toml")],
+            [
+                "collect",
+                "--config",
+                str(config_file),
+                "--keywords",
+                str(tmp_path / "nope.toml"),
+            ],
         )
         assert result.exit_code == 1
 
@@ -518,7 +526,7 @@ class TestCLI:
 
         result = runner.invoke(
             app,
-            ["--config", str(config_file), "--keywords", str(keywords_file)],
+            ["collect", "--config", str(config_file), "--keywords", str(keywords_file)],
         )
         assert result.exit_code == 1
 
@@ -549,6 +557,7 @@ class TestCLI:
         result = runner.invoke(
             app,
             [
+                "collect",
                 "--config",
                 str(config_file),
                 "--date",
@@ -587,6 +596,7 @@ class TestCLI:
         result = runner.invoke(
             app,
             [
+                "collect",
                 "--config",
                 str(config_file),
                 "--dry-run",
@@ -629,6 +639,7 @@ class TestCLI:
         result = runner.invoke(
             app,
             [
+                "collect",
                 "--config",
                 str(tmp_path / "config.toml"),
                 "--date",
@@ -654,7 +665,7 @@ class TestCLI:
             raise asyncio.CancelledError
 
         with patch("newsletter.main.asyncio.run", side_effect=cancel):
-            result = runner.invoke(app, ["--config", str(config_file)])
+            result = runner.invoke(app, ["collect", "--config", str(config_file)])
 
         assert result.exit_code == 130
 
